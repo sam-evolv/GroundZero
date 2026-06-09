@@ -2,14 +2,37 @@
 
 import { revalidatePath } from "next/cache";
 import { getStore } from "@/lib/vault/store";
-import { runAndWriteCouncil, runOperatorForItem, type CouncilRunSummary } from "@/lib/hermes/run";
+import { runAndWriteCouncil, runOperatorForItem } from "@/lib/hermes/run";
+
+export type CouncilRunOutcome =
+  | { ok: true; mode: "live" | "dry-run"; itemsWritten: number }
+  | { ok: false; error: string };
 
 // Runs the Hermes council now and writes the brief into the vault. An optional
-// focus lets you point the council at a specific question or company.
-export async function runCouncilNow(focus?: string): Promise<CouncilRunSummary> {
-  const summary = await runAndWriteCouncil(focus);
-  revalidatePath("/");
-  return summary;
+// focus lets you point the council at a specific question or company. Errors are
+// returned (not thrown) so the UI can show a useful reason instead of hanging.
+export async function runCouncilNow(focus?: string): Promise<CouncilRunOutcome> {
+  try {
+    const summary = await runAndWriteCouncil(focus);
+    revalidatePath("/");
+    return { ok: true, mode: summary.mode, itemsWritten: summary.itemsWritten };
+  } catch (error) {
+    return { ok: false, error: describeWriteError(error) };
+  }
+}
+
+function describeWriteError(error: unknown): string {
+  const message = error instanceof Error ? error.message : String(error);
+  if (/not accessible by personal access token/i.test(message) || /GitHub \w+ .*: 403/.test(message)) {
+    return "The vault token is read-only. Set the GitHub token to Contents: Read and write, then redeploy.";
+  }
+  if (/GitHub \w+ /.test(message)) {
+    return "Writing to the vault failed. Check GITHUB_VAULT_TOKEN and GITHUB_VAULT_BRANCH.";
+  }
+  if (/NVIDIA API/.test(message)) {
+    return "The model call failed. Check NVIDIA_API_KEY and the HERMES_MODEL id.";
+  }
+  return "The council could not run. Check the server logs.";
 }
 
 // One-tap decisions. Each writes a decision and, except for discuss, flips the

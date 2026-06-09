@@ -13,6 +13,10 @@ export function HermesControls() {
       setMessage(null);
       try {
         const result = await runCouncilNow(focus.trim() || undefined);
+        if (!result.ok) {
+          setMessage(result.error);
+          return;
+        }
         const label = result.mode === "dry-run" ? "Dry run" : "Council";
         const count = `${result.itemsWritten} item${result.itemsWritten === 1 ? "" : "s"}`;
         setMessage(`${label}: ${count} added to the brief.`);
