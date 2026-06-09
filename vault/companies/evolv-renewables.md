@@ -4,4 +4,10 @@ name: Evolv Renewables
 short: Renewables
 sector: Renewables
 ---
-Placeholder name for the renewables company. Rename here and the tags follow.
+
+Renewables company. First commercial rooftop is live. Reporting is still manual.
+
+## Key facts
+- One install generating, one in survey
+- Compliance reporting eats a few hours a week
+- Goal: sign three commercial rooftop deals
