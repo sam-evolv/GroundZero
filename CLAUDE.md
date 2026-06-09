@@ -12,10 +12,13 @@ item, plus a goals and state view per company.
   YAML frontmatter. There is no database. We deliberately did not use Supabase:
   a new project would cost money on the OpenHouse org, and the vault doubles as
   Sam's owned funnel and single source of truth across tools.
-- Reads go through the `VaultStore` interface (`src/lib/vault/store.ts`).
-  `LocalVaultStore` reads `./vault` in development. A `GitHubVaultStore` for the
-  real private vault repo, plus a single-user auth gate and the write path for
-  actions, are the next milestone. Seams are marked with TODOs.
+- Reads and writes go through the `VaultStore` interface
+  (`src/lib/vault/store.ts`). `LocalVaultStore` uses `./vault` in development; a
+  `GitHubVaultStore` reads and writes the vault repo over the GitHub API when
+  `GITHUB_VAULT_REPO` and a token are set. The vault lives in `/vault` in this
+  same repo (sam-evolv/GroundZero). One-tap actions and a single-user passcode
+  gate are built. The council trigger is the remaining seam, marked with a TODO
+  in `src/app/actions.ts`.
 - Next.js 16 (App Router, Turbopack), TypeScript, Tailwind v4, pnpm. Minimal
   dependencies; hand-built components, no UI kit. Only extra runtime dep is
   `gray-matter`.

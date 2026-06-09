@@ -50,20 +50,35 @@ pnpm typecheck   # tsc --noEmit
 pnpm lint        # eslint
 ```
 
-## Architecture seams
+## Data layer
 
-The data layer sits behind a `VaultStore` interface (`src/lib/vault/store.ts`).
-Today `getStore()` returns a `LocalVaultStore` that reads markdown from disk.
+Reads and writes go through the `VaultStore` interface (`src/lib/vault/store.ts`).
+`getStore()` returns a `LocalVaultStore` (reads and writes `./vault`) in
+development, and a `GitHubVaultStore` (reads and writes the vault repo over the
+GitHub API, server side only) when `GITHUB_VAULT_REPO` and a token are set. The
+vault lives in `/vault` in this repo.
 
-To take it live (next milestone):
+## Auth
 
-1. Create a private vault repo, for example `sam-evolv/groundzero-vault`.
-2. Add a `GitHubVaultStore` that reads and writes that repo via the GitHub API,
-   selected when `GITHUB_VAULT_REPO` is set. See `.env.example`.
-3. Add the single-user auth gate.
+A single-user passcode gate runs in `src/proxy.ts` with a `/login` page. Set
+`AUTH_PASSCODE` and `AUTH_SECRET` to turn it on. Unset means open, for local dev.
 
-## Deferred (not built yet, seams left in place)
+## Deploy
 
-- Writing decisions and flipping item state on Approve / Reject / Snooze / Discuss.
-- The edge trigger that hands an approved item to the council routine.
+On Vercel, set these environment variables (server only, never `NEXT_PUBLIC`):
+
+- `GITHUB_VAULT_REPO=sam-evolv/GroundZero`
+- `GITHUB_VAULT_BRANCH` the branch the vault lives on
+- `GITHUB_VAULT_TOKEN` a fine-grained PAT with contents read and write on the repo
+- `AUTH_PASSCODE` and `AUTH_SECRET`
+
+Each action commits to the vault, so consider a Vercel Ignored Build Step that
+skips redeploys when only `vault/**` changed.
+
+## Deferred (seams left in place)
+
+- The trigger that hands an approved item to the council routine, in
+  `src/app/actions.ts`.
+- Sending a discuss note back to the council.
+- True cross-device realtime. Today writes are optimistic and revalidate per request.
 - The on-demand "ask the council" compose box, push notifications, and audio.
