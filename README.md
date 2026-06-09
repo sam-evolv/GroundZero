@@ -72,8 +72,10 @@ brief back into the vault, which the app then renders. Code lives in
 `src/lib/hermes/`.
 
 - Run it from the app with the Run council control, with an optional focus.
-- Or call the routine API from a daily cron: `POST /api/hermes/run` with
-  `Authorization: Bearer $HERMES_TRIGGER_SECRET` (closed unless the secret is set).
+- It runs itself every morning: `vercel.json` schedules a daily cron to
+  `GET /api/hermes/run`, authorized by `CRON_SECRET`. You can also `POST` it with
+  an optional focus and `Authorization: Bearer $HERMES_TRIGGER_SECRET`. The
+  endpoint is closed unless one of those secrets is set.
 - Set `ANTHROPIC_API_KEY` for live verdicts (model `claude-opus-4-8`, adaptive
   thinking). Without it, a run produces a clearly labeled dry run so the loop
   stays usable.
@@ -87,7 +89,8 @@ On Vercel, set these environment variables (server only, never `NEXT_PUBLIC`):
 - `GITHUB_VAULT_TOKEN` a fine-grained PAT with contents read and write on the repo
 - `AUTH_PASSCODE` and `AUTH_SECRET`
 - `ANTHROPIC_API_KEY` for live council verdicts (optional; dry run without it)
-- `HERMES_TRIGGER_SECRET` to enable the cron endpoint (optional)
+- `HERMES_TRIGGER_SECRET` or `CRON_SECRET` to enable the council endpoint and the
+  daily Vercel cron (optional)
 
 Each action commits to the vault, so consider a Vercel Ignored Build Step that
 skips redeploys when only `vault/**` changed.

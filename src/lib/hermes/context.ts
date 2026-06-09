@@ -33,6 +33,9 @@ export async function buildCouncilContext(): Promise<CouncilContext> {
     const onBoard = items.filter(
       (i) => i.companyId === company.id && i.state !== "rejected" && i.state !== "done"
     );
+    const setAside = items.filter(
+      (i) => i.companyId === company.id && i.state === "rejected"
+    );
 
     const lines: string[] = [`## ${company.name} (id: ${company.id})`];
     if (company.sector) lines.push(`Sector: ${company.sector}`);
@@ -50,6 +53,13 @@ export async function buildCouncilContext(): Promise<CouncilContext> {
       lines.push("Already on the board (do not duplicate these):");
       for (const item of onBoard) {
         lines.push(`- [${item.state}] ${item.title}`);
+      }
+    }
+
+    if (setAside.length > 0) {
+      lines.push("Previously set aside, do not re-propose these:");
+      for (const item of setAside) {
+        lines.push(`- ${item.title}`);
       }
     }
 
