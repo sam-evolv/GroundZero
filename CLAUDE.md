@@ -40,3 +40,28 @@ item, plus a goals and state view per company.
 ## Vault schema
 
 See `vault/README.md`.
+
+## Cross-repo context
+
+Ground Zero is the command centre. The actual product code lives in separate repos:
+
+- **OpenHouse AI**: `sam-evolv/property-assistant` (Next.js + Supabase + Vercel)
+  - Local path: `/Users/samdonworth/Documents/property-assistant`
+  - Supabase: `mddxbilpjukwskeefakz`
+  - Vercel: `prj_okAOLGbRgbTKEvbl1RgD4UsRdZX2`
+- **OpenBook**: `sam-evolv/openbook` (if exists)
+- **Evolv Renewables**: repo TBD
+
+When the Hermes council approves an item that requires code changes, the execution agent (TODO in `src/app/actions.ts`) should delegate to Claude Code in the relevant repo.
+
+## Hermes cron integration
+
+Ground Zero has its own built-in Hermes council (in `src/lib/hermes/`) that runs via Vercel cron. Additionally, Sam runs external Hermes cron jobs that sync with this vault:
+
+- **Daily Briefing** (7:00 AM): Reads vault, checks GitHub/Vercel/Supabase, briefs Sam via Telegram
+- **Project Status Sync** (every 4h): Checks live systems, updates vault project_state files
+- **Idea Incubator** (12:00 PM): Researches and expands vault items
+- **Automation Scan** (6:00 PM): Finds workflow automation opportunities
+- **Leo Weekly** (Monday 9:00 AM): Market opportunity scan
+
+These crons write to the same vault that this app reads from. The vault is the single source of truth across all agents and tools.
