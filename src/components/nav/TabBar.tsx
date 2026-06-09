@@ -32,6 +32,9 @@ const tabs: Tab[] = [
 export function TabBar() {
   const pathname = usePathname();
 
+  // No chrome on the login screen.
+  if (pathname === "/login") return null;
+
   return (
     <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-hairline bg-bg/85 backdrop-blur-xl">
       <div className="pb-safe mx-auto flex w-full max-w-[520px] items-stretch">

@@ -1,28 +1,13 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import type { VaultStore } from "./store";
-import type {
-  Brief,
-  Company,
-  Domain,
-  Effort,
-  Goal,
-  Item,
-  ItemState,
-  ProjectState,
-} from "./types";
+import type { VaultStore, DecisionInput } from "./store";
+import type { Brief, Company, Goal, Item, ItemState, ProjectState } from "./types";
+import { mapBrief, mapCompany, mapGoal, mapItem, mapProjectState, type RawDoc } from "./map";
+import { applyStateToRaw, buildDecisionFile } from "./serialize";
 
-type Frontmatter = Record<string, unknown>;
-
-interface Doc {
-  data: Frontmatter;
-  content: string;
-  slug: string;
-}
-
-// Reads the Obsidian vault from the local filesystem. This is the development
-// store and the schema reference for the production GitHub-backed store.
+// Reads and writes the Obsidian vault on the local filesystem. This is the
+// development store and the schema reference for the GitHub-backed store.
 export class LocalVaultStore implements VaultStore {
   private readonly root: string;
 
@@ -30,7 +15,7 @@ export class LocalVaultStore implements VaultStore {
     this.root = dir ? path.resolve(dir) : path.join(process.cwd(), "vault");
   }
 
-  private async readCollection(sub: string): Promise<Doc[]> {
+  private async readCollection(sub: string): Promise<RawDoc[]> {
     const dir = path.join(this.root, sub);
     let entries: string[];
     try {
@@ -43,116 +28,87 @@ export class LocalVaultStore implements VaultStore {
       (f) => f.endsWith(".md") && !f.startsWith("_") && f.toLowerCase() !== "readme.md"
     );
 
-    const docs = await Promise.all(
+    return Promise.all(
       files.map(async (file) => {
         const raw = await fs.readFile(path.join(dir, file), "utf8");
         const parsed = matter(raw);
         return {
-          data: parsed.data as Frontmatter,
+          data: parsed.data as Record<string, unknown>,
           content: parsed.content.trim(),
           slug: file.replace(/\.md$/, ""),
         };
       })
     );
-
-    return docs;
   }
 
   async listItems(): Promise<Item[]> {
-    const docs = await this.readCollection("items");
-    return docs.map(({ data, content, slug }) => ({
-      id: str(data.id) ?? slug,
-      companyId: str(data.company_id) ?? "",
-      domain: str(data.domain) as Domain | undefined,
-      title: str(data.title) ?? "Untitled",
-      rationale: str(data.rationale) ?? (content || undefined),
-      councilNote: str(data.council_note),
-      effort: str(data.effort) as Effort | undefined,
-      impact: num(data.impact) ?? 0,
-      state: (str(data.state) as ItemState) ?? "proposed",
-      prUrl: str(data.pr_url),
-      isOneThing: bool(data.is_one_thing),
-      source: str(data.source),
-      runDate: str(data.run_date),
-      createdAt: str(data.created_at),
-      updatedAt: str(data.updated_at),
-    }));
+    return (await this.readCollection("items")).map(mapItem);
   }
 
   async listCompanies(): Promise<Company[]> {
-    const docs = await this.readCollection("companies");
-    return docs.map(({ data, slug }) => ({
-      id: str(data.id) ?? slug,
-      name: str(data.name) ?? slug,
-      short: str(data.short),
-      sector: str(data.sector),
-    }));
+    return (await this.readCollection("companies")).map(mapCompany);
   }
 
   async listGoals(): Promise<Goal[]> {
-    const docs = await this.readCollection("goals");
-    return docs.map(({ data, content, slug }) => ({
-      id: str(data.id) ?? slug,
-      companyId: str(data.company_id) ?? "",
-      title: str(data.title) ?? "Untitled",
-      status: str(data.status) ?? "active",
-      period: str(data.period),
-      metric: str(data.metric),
-      detail: content || undefined,
-    }));
+    return (await this.readCollection("goals")).map(mapGoal);
   }
 
   async listProjectState(): Promise<ProjectState[]> {
-    const docs = await this.readCollection("project_state");
-    return docs.map(({ data, content, slug }) => ({
-      id: str(data.id) ?? slug,
-      companyId: str(data.company_id) ?? "",
-      headline: str(data.headline) ?? (content || "No state recorded"),
-      detail: str(data.headline) ? content || undefined : undefined,
-      valid: bool(data.valid),
-      updatedAt: str(data.updated_at),
-    }));
+    return (await this.readCollection("project_state")).map(mapProjectState);
   }
 
   async getLatestBrief(): Promise<Brief | null> {
     const docs = await this.readCollection("briefs");
     if (docs.length === 0) return null;
-
-    const briefs = docs
-      .map(({ data, content, slug }) => ({
-        date: str(data.date) ?? slug,
-        ranAt: str(data.ran_at),
-        heartbeat: str(data.heartbeat),
-        summary: content || undefined,
-      }))
-      .sort((a, b) => (b.ranAt ?? b.date).localeCompare(a.ranAt ?? a.date));
-
-    return briefs[0];
+    return docs
+      .map(mapBrief)
+      .sort((a, b) => (b.ranAt ?? b.date).localeCompare(a.ranAt ?? a.date))[0];
   }
-}
 
-// --- frontmatter coercion ---
-// YAML can hand back strings, numbers, booleans, or Date objects (unquoted
-// dates). Normalize defensively so authored files never crash a render.
-
-function str(value: unknown): string | undefined {
-  if (value instanceof Date) return value.toISOString();
-  if (typeof value === "number") return String(value);
-  if (typeof value === "string") {
-    const trimmed = value.trim();
-    return trimmed === "" ? undefined : trimmed;
+  async recordDecision(input: DecisionInput): Promise<void> {
+    const dir = path.join(this.root, "decisions");
+    await fs.mkdir(dir, { recursive: true });
+    const id = `${Date.now()}-${input.itemId}`;
+    const raw = buildDecisionFile({
+      id,
+      itemId: input.itemId,
+      decision: input.decision,
+      reason: input.reason,
+      createdAt: new Date().toISOString(),
+    });
+    await fs.writeFile(path.join(dir, `${id}.md`), raw, "utf8");
   }
-  return undefined;
-}
 
-function num(value: unknown): number | undefined {
-  if (typeof value === "number") return value;
-  if (typeof value === "string" && value.trim() !== "" && !Number.isNaN(Number(value))) {
-    return Number(value);
+  async setItemState(itemId: string, state: ItemState): Promise<void> {
+    const file = await this.findItemFile(itemId);
+    if (!file) throw new Error(`Item not found: ${itemId}`);
+    const raw = await fs.readFile(file, "utf8");
+    await fs.writeFile(file, applyStateToRaw(raw, state, new Date().toISOString()), "utf8");
   }
-  return undefined;
-}
 
-function bool(value: unknown): boolean {
-  return value === true || value === "true";
+  private async findItemFile(itemId: string): Promise<string | null> {
+    const dir = path.join(this.root, "items");
+    const direct = path.join(dir, `${itemId}.md`);
+    try {
+      await fs.access(direct);
+      return direct;
+    } catch {
+      // Fall back to scanning by frontmatter id.
+    }
+
+    let files: string[];
+    try {
+      files = await fs.readdir(dir);
+    } catch {
+      return null;
+    }
+
+    for (const file of files.filter((f) => f.endsWith(".md"))) {
+      const full = path.join(dir, file);
+      const { data } = matter(await fs.readFile(full, "utf8"));
+      const id = typeof data.id === "string" ? data.id : file.replace(/\.md$/, "");
+      if (id === itemId) return full;
+    }
+    return null;
+  }
 }
