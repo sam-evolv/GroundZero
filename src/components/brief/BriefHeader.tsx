@@ -1,6 +1,14 @@
 import { LogoMark } from "@/components/ui/LogoMark";
 
-export function BriefHeader({ date, heartbeat }: { date: string; heartbeat?: string }) {
+export function BriefHeader({
+  date,
+  heartbeat,
+  summary,
+}: {
+  date: string;
+  heartbeat?: string;
+  summary?: string;
+}) {
   return (
     <header>
       <div className="flex items-center gap-2.5">
@@ -20,6 +28,15 @@ export function BriefHeader({ date, heartbeat }: { date: string; heartbeat?: str
           </span>
           <p className="text-[13px] leading-relaxed text-ink/80">{heartbeat}</p>
         </div>
+      )}
+
+      {summary && (
+        <details className="mt-3 rounded-2xl border border-hairline bg-surface px-4 py-3">
+          <summary className="cursor-pointer list-none text-[10px] font-semibold uppercase tracking-[0.16em] text-muted">
+            Council read
+          </summary>
+          <p className="mt-2 text-[13px] leading-relaxed text-ink/80">{summary}</p>
+        </details>
       )}
     </header>
   );

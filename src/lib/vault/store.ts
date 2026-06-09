@@ -1,4 +1,4 @@
-import type { Brief, Company, DecisionKind, Domain, Effort, Goal, Item, ItemState, ProjectState } from "./types";
+import type { Brief, Company, Decision, DecisionKind, Domain, Effort, Goal, Item, ItemState, ProjectState } from "./types";
 import { LocalVaultStore } from "./local-store";
 import { GitHubVaultStore } from "./github-store";
 
@@ -37,6 +37,7 @@ export interface VaultStore {
   listGoals(): Promise<Goal[]>;
   listProjectState(): Promise<ProjectState[]>;
   getLatestBrief(): Promise<Brief | null>;
+  listDecisions(): Promise<Decision[]>;
 
   recordDecision(input: DecisionInput): Promise<void>;
   setItemState(itemId: string, state: ItemState): Promise<void>;
@@ -63,6 +64,7 @@ export function getStore(): VaultStore {
       repo,
       token,
       branch: process.env.GITHUB_VAULT_BRANCH || "main",
+      base: process.env.GITHUB_VAULT_BASE,
     });
   } else {
     cached = new LocalVaultStore(process.env.VAULT_DIR);

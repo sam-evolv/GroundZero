@@ -1,6 +1,8 @@
 import type {
   Brief,
   Company,
+  Decision,
+  DecisionKind,
   Domain,
   Effort,
   Goal,
@@ -76,6 +78,16 @@ export function mapBrief({ data, content, slug }: RawDoc): Brief {
     ranAt: str(data.ran_at),
     heartbeat: str(data.heartbeat),
     summary: content || undefined,
+  };
+}
+
+export function mapDecision({ data, slug }: RawDoc): Decision {
+  return {
+    id: str(data.id) ?? slug,
+    itemId: str(data.item_id) ?? "",
+    decision: (str(data.decision) as DecisionKind) ?? "discuss",
+    reason: str(data.reason),
+    createdAt: str(data.created_at),
   };
 }
 

@@ -76,9 +76,10 @@ brief back into the vault, which the app then renders. Code lives in
   `GET /api/hermes/run`, authorized by `CRON_SECRET`. You can also `POST` it with
   an optional focus and `Authorization: Bearer $HERMES_TRIGGER_SECRET`. The
   endpoint is closed unless one of those secrets is set.
-- Set `ANTHROPIC_API_KEY` for live verdicts (model `claude-opus-4-8`, adaptive
-  thinking). Without it, a run produces a clearly labeled dry run so the loop
-  stays usable.
+- Pick a model provider for live verdicts: `NVIDIA_API_KEY` (free, OpenAI
+  compatible, default model `meta/llama-3.3-70b-instruct`) or `ANTHROPIC_API_KEY`
+  (`claude-opus-4-8`). Override either with `HERMES_MODEL`. Without a key, a run
+  produces a clearly labeled dry run so the loop stays usable.
 
 ## Deploy
 
@@ -87,8 +88,9 @@ On Vercel, set these environment variables (server only, never `NEXT_PUBLIC`):
 - `GITHUB_VAULT_REPO=sam-evolv/GroundZero`
 - `GITHUB_VAULT_BRANCH` the branch the vault lives on
 - `GITHUB_VAULT_TOKEN` a fine-grained PAT with contents read and write on the repo
+- `GITHUB_VAULT_BASE` only if your vault repo keeps the collections at the root (set it to an empty string)
 - `AUTH_PASSCODE` and `AUTH_SECRET`
-- `ANTHROPIC_API_KEY` for live council verdicts (optional; dry run without it)
+- `NVIDIA_API_KEY` (free) or `ANTHROPIC_API_KEY` for live council verdicts; dry run without either
 - `HERMES_TRIGGER_SECRET` or `CRON_SECRET` to enable the council endpoint and the
   daily Vercel cron (optional)
 

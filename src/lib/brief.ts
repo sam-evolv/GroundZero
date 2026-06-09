@@ -8,6 +8,7 @@ const ACTIVE_STATES: ItemState[] = ["proposed", "approved", "building", "pr_read
 export interface BriefView {
   date: string;
   heartbeat?: string;
+  summary?: string;
   oneThing?: Item;
   items: Item[];
   highestImpactId?: string;
@@ -35,6 +36,7 @@ export async function getBriefView(): Promise<BriefView> {
   return {
     date: brief?.date ?? todayIso(),
     heartbeat: brief?.heartbeat,
+    summary: brief?.summary,
     oneThing,
     items: rest,
     highestImpactId: active[0]?.id,

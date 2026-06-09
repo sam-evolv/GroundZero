@@ -2,8 +2,16 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import type { VaultStore, DecisionInput, NewBrief, NewItem } from "./store";
-import type { Brief, Company, Goal, Item, ItemState, ProjectState } from "./types";
-import { mapBrief, mapCompany, mapGoal, mapItem, mapProjectState, type RawDoc } from "./map";
+import type { Brief, Company, Decision, Goal, Item, ItemState, ProjectState } from "./types";
+import {
+  mapBrief,
+  mapCompany,
+  mapDecision,
+  mapGoal,
+  mapItem,
+  mapProjectState,
+  type RawDoc,
+} from "./map";
 import {
   applyStateToRaw,
   buildBriefFile,
@@ -70,6 +78,10 @@ export class LocalVaultStore implements VaultStore {
     return docs
       .map(mapBrief)
       .sort((a, b) => (b.ranAt ?? b.date).localeCompare(a.ranAt ?? a.date))[0];
+  }
+
+  async listDecisions(): Promise<Decision[]> {
+    return (await this.readCollection("decisions")).map(mapDecision);
   }
 
   async createItem(item: NewItem): Promise<string> {

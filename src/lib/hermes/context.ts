@@ -15,11 +15,12 @@ export interface CouncilContext {
 // recent decisions so it does not re-propose rejected or snoozed ideas.
 export async function buildCouncilContext(): Promise<CouncilContext> {
   const store = getStore();
-  const [companies, goals, states, items] = await Promise.all([
+  const [companies, goals, states, items, decisions] = await Promise.all([
     store.listCompanies(),
     store.listGoals(),
     store.listProjectState(),
     store.listItems(),
+    store.listDecisions(),
   ]);
 
   const companiesById = Object.fromEntries(companies.map((c) => [c.id, c]));
@@ -66,10 +67,26 @@ export async function buildCouncilContext(): Promise<CouncilContext> {
     return lines.join("\n");
   });
 
+  const recent = decisions
+    .filter((d) => d.decision === "approved" || d.decision === "rejected")
+    .sort((a, b) => (b.createdAt ?? "").localeCompare(a.createdAt ?? ""))
+    .slice(0, 12);
+
+  const titleOf = (id: string) => items.find((i) => i.id === id)?.title ?? id;
+  const decisionLines = recent.map((d) =>
+    d.decision === "rejected"
+      ? `- Rejected "${titleOf(d.itemId)}"${d.reason ? ` because ${d.reason}` : ""}`
+      : `- Approved "${titleOf(d.itemId)}"`
+  );
+  const decisionsSection =
+    decisionLines.length > 0
+      ? ["## Recent founder decisions (learn from these)", ...decisionLines].join("\n")
+      : "";
+
   return {
     date,
     companyIds: companies.map((c) => c.id),
     companiesById,
-    briefingText: sections.join("\n\n"),
+    briefingText: [sections.join("\n\n"), decisionsSection].filter(Boolean).join("\n\n"),
   };
 }

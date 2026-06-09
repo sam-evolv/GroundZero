@@ -14,74 +14,36 @@ The chief of staff synthesizes, ranks, and decides the single most important thi
 Process for each run:
 1. Each specialist proposes the one or two highest-leverage moves in their domain, grounded in the real state and metrics provided. Cite the specific metric or fact that motivates the move in the rationale.
 2. The chief of staff reviews every proposal for feasibility and risk, writes a one line verdict for each (the council note, for example "Security pass · Effort M"), assigns effort (S, M, or L), and scores impact from 0 to 100.
-3. The chief of staff ranks by impact and marks exactly one item as the one thing: the single move the founder should do first today.
+3. The chief of staff ranks by impact and marks exactly one item as the one thing.
 
 Hard rules:
-- Ground every item in the provided context. Do not invent metrics. If you reference a number, it must appear in the context.
+- Ground every item in the provided context. Do not invent metrics.
 - Use only the company ids provided. Each item belongs to exactly one company.
-- Do not duplicate anything already on the board.
-- Propose between three and six items total across all companies. Quality over volume.
+- Do not duplicate anything already on the board, and do not re-propose anything set aside.
+- Propose between three and six items total. Quality over volume.
 - Keep titles short and imperative. Keep rationales to one or two sentences.
-- Never use em dashes anywhere in your output. Use periods, commas, or the middot for the council note.
-- Write the heartbeat as one calm sentence the founder reads first: what is on the table and where the leverage is.`;
+- Never use em dashes anywhere. Use periods, commas, or the middot for the council note.
+- Respond with only a single JSON object. No markdown fences, no prose around it.`;
 
-export interface CouncilSchemaOptions {
-  companyIds: string[];
-}
-
-// JSON schema for structured output. company_id is constrained to the real ids,
-// and impact is an integer (structured outputs disallow numeric min/max).
-export function councilOutputSchema({ companyIds }: CouncilSchemaOptions) {
-  return {
-    type: "object",
-    additionalProperties: false,
-    properties: {
-      heartbeat: { type: "string" },
-      summary: { type: "string" },
-      items: {
-        type: "array",
-        items: {
-          type: "object",
-          additionalProperties: false,
-          properties: {
-            company_id: { type: "string", enum: companyIds },
-            domain: {
-              type: "string",
-              enum: ["design", "innovation", "security", "bizdev", "automation"],
-            },
-            title: { type: "string" },
-            rationale: { type: "string" },
-            council_note: { type: "string" },
-            effort: { type: "string", enum: ["S", "M", "L"] },
-            impact: { type: "integer" },
-            is_one_thing: { type: "boolean" },
-          },
-          required: [
-            "company_id",
-            "domain",
-            "title",
-            "rationale",
-            "council_note",
-            "effort",
-            "impact",
-            "is_one_thing",
-          ],
-        },
-      },
-    },
-    required: ["heartbeat", "summary", "items"],
-  } as const;
-}
-
-export function buildCouncilUserMessage(briefingText: string, focus?: string): string {
+export function buildCouncilUserMessage(
+  briefingText: string,
+  companyIds: string[],
+  focus?: string
+): string {
   const parts = [
-    `Today is ${new Date().toISOString().slice(0, 10)}. Here is the current state of the businesses from the vault:`,
+    `Today is ${new Date().toISOString().slice(0, 10)}. Current state of the businesses from the vault:`,
     "",
     briefingText,
+    "",
+    `Valid company ids (use these exact strings for company_id): ${companyIds.join(", ")}`,
   ];
   if (focus && focus.trim()) {
-    parts.push("", `The founder has asked the council to focus on: ${focus.trim()}`);
+    parts.push("", `The founder asked the council to focus on: ${focus.trim()}`);
   }
-  parts.push("", "Run the council and return the ranked brief.");
+  parts.push(
+    "",
+    "Return only this JSON object and nothing else:",
+    '{"heartbeat": "one calm sentence the founder reads first", "summary": "a short paragraph of the council read", "items": [{"company_id": "...", "domain": "design|innovation|security|bizdev|automation", "title": "...", "rationale": "...", "council_note": "...", "effort": "S|M|L", "impact": 0, "is_one_thing": false}]}'
+  );
   return parts.join("\n");
 }

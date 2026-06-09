@@ -14,7 +14,7 @@ export default async function Home() {
 
   return (
     <div className="px-5 pt-9">
-      <BriefHeader date={view.date} heartbeat={view.heartbeat} />
+      <BriefHeader date={view.date} heartbeat={view.heartbeat} summary={view.summary} />
 
       <div className="mt-6">
         <HermesControls />

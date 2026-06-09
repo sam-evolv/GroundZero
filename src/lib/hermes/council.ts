@@ -1,11 +1,7 @@
-import Anthropic from "@anthropic-ai/sdk";
 import type { Domain, Effort } from "@/lib/vault/types";
 import { buildCouncilContext, type CouncilContext } from "./context";
-import {
-  COUNCIL_SYSTEM_PROMPT,
-  buildCouncilUserMessage,
-  councilOutputSchema,
-} from "./prompts";
+import { COUNCIL_SYSTEM_PROMPT, buildCouncilUserMessage } from "./prompts";
+import { callModel, extractJson } from "./model";
 
 export interface ProposedItem {
   companyId: string;
@@ -26,52 +22,29 @@ export interface CouncilResult {
   mode: "live" | "dry-run";
 }
 
-const MODEL = process.env.HERMES_MODEL || "claude-opus-4-8";
-
-// Runs one council pass. With ANTHROPIC_API_KEY set this is a live Claude call;
-// without it, a deterministic dry run grounded in the same context so the loop
-// is fully usable and testable before the key is added.
+// Runs one council pass. With a provider configured (NVIDIA or Anthropic) this
+// is a live model call; without one, a deterministic dry run grounded in the
+// same context so the loop is fully usable and testable.
 export async function runCouncil(focus?: string): Promise<CouncilResult> {
   const context = await buildCouncilContext();
 
-  if (!process.env.ANTHROPIC_API_KEY) {
+  const text = await callModel({
+    system: COUNCIL_SYSTEM_PROMPT,
+    user: buildCouncilUserMessage(context.briefingText, context.companyIds, focus),
+  });
+
+  if (text === null) {
     return dryRun(context);
   }
 
-  const client = new Anthropic();
-  const response = await client.messages.create({
-    model: MODEL,
-    max_tokens: 16000,
-    thinking: { type: "adaptive" },
-    output_config: {
-      effort: "high",
-      format: {
-        type: "json_schema",
-        schema: councilOutputSchema({ companyIds: context.companyIds }),
-      },
-    },
-    system: [
-      {
-        type: "text",
-        text: COUNCIL_SYSTEM_PROMPT,
-        cache_control: { type: "ephemeral" },
-      },
-    ],
-    messages: [
-      { role: "user", content: buildCouncilUserMessage(context.briefingText, focus) },
-    ],
-  });
-
-  const text = response.content.find((block) => block.type === "text");
-  if (!text || text.type !== "text") {
-    throw new Error("Council returned no structured output");
-  }
-
-  const parsed = JSON.parse(text.text) as {
+  const parsed = extractJson<{
     heartbeat?: string;
     summary?: string;
     items?: Array<Record<string, unknown>>;
-  };
+  }>(text);
+  if (!parsed) {
+    throw new Error("The council response was not valid JSON");
+  }
 
   const items = normalize(
     (parsed.items ?? []).map((raw) => ({
@@ -132,7 +105,7 @@ function dryRun(context: CouncilContext): CouncilResult {
       companyId,
       domain: template.domain,
       title: `${template.verb} ${company?.short ?? company?.name ?? companyId}`,
-      rationale: "Dry run placeholder. Set ANTHROPIC_API_KEY for a live, grounded council verdict.",
+      rationale: "Dry run placeholder. Set a model provider key for a live, grounded council verdict.",
       councilNote: `${capitalize(template.domain)} pass · Effort ${template.effort}`,
       effort: template.effort,
       impact: template.impact,
@@ -142,7 +115,7 @@ function dryRun(context: CouncilContext): CouncilResult {
 
   return {
     date: context.date,
-    heartbeat: "Dry run. Add ANTHROPIC_API_KEY to let the Hermes council think for real.",
+    heartbeat: "Dry run. Add NVIDIA_API_KEY (or ANTHROPIC_API_KEY) to let the council think for real.",
     summary: "This brief was generated in dry-run mode without a live model call.",
     items,
     mode: "dry-run",
