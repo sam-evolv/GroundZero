@@ -2,6 +2,7 @@ import { getBriefView } from "@/lib/brief";
 import { BriefHeader } from "@/components/brief/BriefHeader";
 import { BriefFooter } from "@/components/brief/BriefFooter";
 import { ItemCard } from "@/components/brief/ItemCard";
+import { HermesControls } from "@/components/brief/HermesControls";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 
 // Read live from the vault on every request.
@@ -14,6 +15,10 @@ export default async function Home() {
   return (
     <div className="px-5 pt-9">
       <BriefHeader date={view.date} heartbeat={view.heartbeat} />
+
+      <div className="mt-6">
+        <HermesControls />
+      </div>
 
       {view.oneThing && (
         <section className="mt-8">

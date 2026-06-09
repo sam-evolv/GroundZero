@@ -63,6 +63,21 @@ vault lives in `/vault` in this repo.
 A single-user passcode gate runs in `src/proxy.ts` with a `/login` page. Set
 `AUTH_PASSCODE` and `AUTH_SECRET` to turn it on. Unset means open, for local dev.
 
+## Hermes (the agent office)
+
+Hermes is the council of domain agents (design, innovation, security, bizdev,
+automation) plus a chief of staff. It reads the whole vault for context, proposes
+and ranks grounded moves, picks the one thing, and writes the items and the daily
+brief back into the vault, which the app then renders. Code lives in
+`src/lib/hermes/`.
+
+- Run it from the app with the Run council control, with an optional focus.
+- Or call the routine API from a daily cron: `POST /api/hermes/run` with
+  `Authorization: Bearer $HERMES_TRIGGER_SECRET` (closed unless the secret is set).
+- Set `ANTHROPIC_API_KEY` for live verdicts (model `claude-opus-4-8`, adaptive
+  thinking). Without it, a run produces a clearly labeled dry run so the loop
+  stays usable.
+
 ## Deploy
 
 On Vercel, set these environment variables (server only, never `NEXT_PUBLIC`):
@@ -71,14 +86,17 @@ On Vercel, set these environment variables (server only, never `NEXT_PUBLIC`):
 - `GITHUB_VAULT_BRANCH` the branch the vault lives on
 - `GITHUB_VAULT_TOKEN` a fine-grained PAT with contents read and write on the repo
 - `AUTH_PASSCODE` and `AUTH_SECRET`
+- `ANTHROPIC_API_KEY` for live council verdicts (optional; dry run without it)
+- `HERMES_TRIGGER_SECRET` to enable the cron endpoint (optional)
 
 Each action commits to the vault, so consider a Vercel Ignored Build Step that
 skips redeploys when only `vault/**` changed.
 
 ## Deferred (seams left in place)
 
-- The trigger that hands an approved item to the council routine, in
+- An execution agent: on approve, hand the item to a Hermes operator that drafts
+  a plan and drives Claude Code to build it. The seam is the TODO in
   `src/app/actions.ts`.
 - Sending a discuss note back to the council.
 - True cross-device realtime. Today writes are optimistic and revalidate per request.
-- The on-demand "ask the council" compose box, push notifications, and audio.
+- Push notifications and audio.

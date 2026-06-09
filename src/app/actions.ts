@@ -2,6 +2,15 @@
 
 import { revalidatePath } from "next/cache";
 import { getStore } from "@/lib/vault/store";
+import { runAndWriteCouncil, type CouncilRunSummary } from "@/lib/hermes/run";
+
+// Runs the Hermes council now and writes the brief into the vault. An optional
+// focus lets you point the council at a specific question or company.
+export async function runCouncilNow(focus?: string): Promise<CouncilRunSummary> {
+  const summary = await runAndWriteCouncil(focus);
+  revalidatePath("/");
+  return summary;
+}
 
 // One-tap decisions. Each writes a decision and, except for discuss, flips the
 // item state. Writes go to the vault (local files in dev, commits in prod).

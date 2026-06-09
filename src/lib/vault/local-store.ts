@@ -1,10 +1,16 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import type { VaultStore, DecisionInput } from "./store";
+import type { VaultStore, DecisionInput, NewBrief, NewItem } from "./store";
 import type { Brief, Company, Goal, Item, ItemState, ProjectState } from "./types";
 import { mapBrief, mapCompany, mapGoal, mapItem, mapProjectState, type RawDoc } from "./map";
-import { applyStateToRaw, buildDecisionFile } from "./serialize";
+import {
+  applyStateToRaw,
+  buildBriefFile,
+  buildDecisionFile,
+  buildItemFile,
+  proposedItemId,
+} from "./serialize";
 
 // Reads and writes the Obsidian vault on the local filesystem. This is the
 // development store and the schema reference for the GitHub-backed store.
@@ -63,6 +69,44 @@ export class LocalVaultStore implements VaultStore {
     return docs
       .map(mapBrief)
       .sort((a, b) => (b.ranAt ?? b.date).localeCompare(a.ranAt ?? a.date))[0];
+  }
+
+  async createItem(item: NewItem): Promise<string> {
+    const dir = path.join(this.root, "items");
+    await fs.mkdir(dir, { recursive: true });
+    const now = new Date().toISOString();
+    const runDate = item.runDate ?? now.slice(0, 10);
+    const id = proposedItemId(runDate, item.title);
+    const raw = buildItemFile({
+      id,
+      companyId: item.companyId,
+      domain: item.domain,
+      title: item.title,
+      rationale: item.rationale,
+      councilNote: item.councilNote,
+      effort: item.effort,
+      impact: item.impact,
+      state: item.state ?? "proposed",
+      isOneThing: item.isOneThing ?? false,
+      source: item.source,
+      runDate,
+      createdAt: now,
+      updatedAt: now,
+    });
+    await fs.writeFile(path.join(dir, `${id}.md`), raw, "utf8");
+    return id;
+  }
+
+  async upsertBrief(brief: NewBrief): Promise<void> {
+    const dir = path.join(this.root, "briefs");
+    await fs.mkdir(dir, { recursive: true });
+    const raw = buildBriefFile({
+      date: brief.date,
+      ranAt: new Date().toISOString(),
+      heartbeat: brief.heartbeat,
+      summary: brief.summary,
+    });
+    await fs.writeFile(path.join(dir, `${brief.date}.md`), raw, "utf8");
   }
 
   async recordDecision(input: DecisionInput): Promise<void> {

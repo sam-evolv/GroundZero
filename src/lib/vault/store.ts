@@ -1,4 +1,4 @@
-import type { Brief, Company, DecisionKind, Goal, Item, ItemState, ProjectState } from "./types";
+import type { Brief, Company, DecisionKind, Domain, Effort, Goal, Item, ItemState, ProjectState } from "./types";
 import { LocalVaultStore } from "./local-store";
 import { GitHubVaultStore } from "./github-store";
 
@@ -8,8 +8,29 @@ export interface DecisionInput {
   reason?: string;
 }
 
-// The data layer seam. Reads power the views; writes back the decisions and the
-// item state when you act on a card.
+export interface NewItem {
+  companyId: string;
+  domain?: Domain;
+  title: string;
+  rationale?: string;
+  councilNote?: string;
+  effort?: Effort;
+  impact: number;
+  isOneThing?: boolean;
+  state?: ItemState;
+  source?: string;
+  runDate?: string;
+}
+
+export interface NewBrief {
+  date: string;
+  heartbeat?: string;
+  summary?: string;
+}
+
+// The data layer seam. Reads power the views; the app writes decisions and item
+// state when you act on a card; Hermes writes items and the brief when the
+// council runs.
 export interface VaultStore {
   listItems(): Promise<Item[]>;
   listCompanies(): Promise<Company[]>;
@@ -19,6 +40,9 @@ export interface VaultStore {
 
   recordDecision(input: DecisionInput): Promise<void>;
   setItemState(itemId: string, state: ItemState): Promise<void>;
+
+  createItem(item: NewItem): Promise<string>;
+  upsertBrief(brief: NewBrief): Promise<void>;
 }
 
 let cached: VaultStore | null = null;

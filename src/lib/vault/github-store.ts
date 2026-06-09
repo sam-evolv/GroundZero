@@ -1,8 +1,14 @@
 import matter from "gray-matter";
-import type { VaultStore, DecisionInput } from "./store";
+import type { VaultStore, DecisionInput, NewBrief, NewItem } from "./store";
 import type { Brief, Company, Goal, Item, ItemState, ProjectState } from "./types";
 import { mapBrief, mapCompany, mapGoal, mapItem, mapProjectState, type RawDoc } from "./map";
-import { applyStateToRaw, buildDecisionFile } from "./serialize";
+import {
+  applyStateToRaw,
+  buildBriefFile,
+  buildDecisionFile,
+  buildItemFile,
+  proposedItemId,
+} from "./serialize";
 
 interface GitHubEntry {
   name: string;
@@ -123,6 +129,44 @@ export class GitHubVaultStore implements VaultStore {
     return docs
       .map(mapBrief)
       .sort((a, b) => (b.ranAt ?? b.date).localeCompare(a.ranAt ?? a.date))[0];
+  }
+
+  async createItem(item: NewItem): Promise<string> {
+    const now = new Date().toISOString();
+    const runDate = item.runDate ?? now.slice(0, 10);
+    const id = proposedItemId(runDate, item.title);
+    const filePath = `${this.base}/items/${id}.md`;
+    const raw = buildItemFile({
+      id,
+      companyId: item.companyId,
+      domain: item.domain,
+      title: item.title,
+      rationale: item.rationale,
+      councilNote: item.councilNote,
+      effort: item.effort,
+      impact: item.impact,
+      state: item.state ?? "proposed",
+      isOneThing: item.isOneThing ?? false,
+      source: item.source,
+      runDate,
+      createdAt: now,
+      updatedAt: now,
+    });
+    const existing = await this.getFile(filePath);
+    await this.putFile(filePath, raw, `item: ${id}`, existing?.sha);
+    return id;
+  }
+
+  async upsertBrief(brief: NewBrief): Promise<void> {
+    const filePath = `${this.base}/briefs/${brief.date}.md`;
+    const existing = await this.getFile(filePath);
+    const raw = buildBriefFile({
+      date: brief.date,
+      ranAt: new Date().toISOString(),
+      heartbeat: brief.heartbeat,
+      summary: brief.summary,
+    });
+    await this.putFile(filePath, raw, `brief: ${brief.date}`, existing?.sha);
   }
 
   async recordDecision(input: DecisionInput): Promise<void> {

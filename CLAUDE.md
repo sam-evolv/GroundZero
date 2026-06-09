@@ -17,8 +17,14 @@ item, plus a goals and state view per company.
   `GitHubVaultStore` reads and writes the vault repo over the GitHub API when
   `GITHUB_VAULT_REPO` and a token are set. The vault lives in `/vault` in this
   same repo (sam-evolv/GroundZero). One-tap actions and a single-user passcode
-  gate are built. The council trigger is the remaining seam, marked with a TODO
-  in `src/app/actions.ts`.
+  gate are built.
+- Hermes is the agent office in `src/lib/hermes/`: a council of domain agents
+  (design, innovation, security, bizdev, automation) plus a chief of staff. It
+  reads the vault, proposes and ranks grounded moves, and writes items plus the
+  daily brief back to the vault. Run it via the in-app control or `POST
+  /api/hermes/run`. Live with `ANTHROPIC_API_KEY` (model `claude-opus-4-8`,
+  adaptive thinking), dry run without it. The remaining seam is the execution
+  agent on approve, a TODO in `src/app/actions.ts`.
 - Next.js 16 (App Router, Turbopack), TypeScript, Tailwind v4, pnpm. Minimal
   dependencies; hand-built components, no UI kit. Only extra runtime dep is
   `gray-matter`.

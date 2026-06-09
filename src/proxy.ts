@@ -2,7 +2,9 @@ import { NextResponse, type NextRequest } from "next/server";
 import { authConfigured, sessionCookieName, verifyToken } from "@/lib/auth";
 
 // Next 16 renamed middleware to proxy. Runs on the nodejs runtime.
-const PUBLIC_PATHS = ["/login", "/manifest.webmanifest", "/sw.js"];
+// /api/hermes/run self-guards with HERMES_TRIGGER_SECRET so an external cron can
+// reach it without the session cookie.
+const PUBLIC_PATHS = ["/login", "/manifest.webmanifest", "/sw.js", "/api/hermes/run"];
 
 export function proxy(request: NextRequest) {
   if (!authConfigured()) return NextResponse.next();
