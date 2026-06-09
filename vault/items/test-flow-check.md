@@ -1,18 +1,18 @@
 ---
 id: test-flow-check
 company_id: openhouse-ai
-domain: innovation
-title: Test flow — Obsidian to Ground Zero
-rationale: Verifying the Obsidian Git → GitHub → Ground Zero app pipeline works end-to-end.
-council_note: Test item · Effort S · Created from Obsidian at 2026-06-09
+domain: automation
+title: Test flow: Obsidian → GitHub → Ground Zero app
+rationale: Verifying the full sync loop works end to end.
+council_note: Test · Effort S
 effort: S
-impact: 1
+impact: 100
 state: proposed
 is_one_thing: false
-source: obsidian-test 2026-06-09
+source: manual-test 2026-06-09
 run_date: "2026-06-09"
-created_at: "2026-06-09T21:30:00Z"
-updated_at: "2026-06-09T21:30:00Z"
+created_at: "2026-06-09T21:40:00Z"
+updated_at: "2026-06-09T21:40:00Z"
 ---
 
-If you see this in the Ground Zero app, the flow is working. Obsidian → GitHub → App.
+This item was created by Hermes (Skippy) to test the full flow: Obsidian edit → GitHub push → Ground Zero app render.
