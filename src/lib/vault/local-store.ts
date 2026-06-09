@@ -117,6 +117,15 @@ export class LocalVaultStore implements VaultStore {
     await fs.writeFile(path.join(dir, `${itemId}.md`), raw, "utf8");
   }
 
+  async getPlan(itemId: string): Promise<string | null> {
+    try {
+      const raw = await fs.readFile(path.join(this.root, "plans", `${itemId}.md`), "utf8");
+      return matter(raw).content.trim() || null;
+    } catch {
+      return null;
+    }
+  }
+
   async recordDecision(input: DecisionInput): Promise<void> {
     const dir = path.join(this.root, "decisions");
     await fs.mkdir(dir, { recursive: true });

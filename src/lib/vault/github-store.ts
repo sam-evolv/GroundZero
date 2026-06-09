@@ -177,6 +177,12 @@ export class GitHubVaultStore implements VaultStore {
     await this.putFile(filePath, raw, `plan: ${itemId}`, existing?.sha);
   }
 
+  async getPlan(itemId: string): Promise<string | null> {
+    const file = await this.getFile(`${this.base}/plans/${itemId}.md`);
+    if (!file) return null;
+    return matter(file.content).content.trim() || null;
+  }
+
   async recordDecision(input: DecisionInput): Promise<void> {
     const id = `${Date.now()}-${input.itemId}`;
     const raw = buildDecisionFile({

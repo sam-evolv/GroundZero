@@ -43,6 +43,10 @@ export async function snoozeItem(id: string): Promise<void> {
   revalidatePath("/");
 }
 
+export async function getItemPlan(id: string): Promise<string | null> {
+  return getStore().getPlan(id);
+}
+
 export async function discussItem(id: string, note: string): Promise<void> {
   const store = getStore();
   await store.recordDecision({ itemId: id, decision: "discuss", reason: note });
