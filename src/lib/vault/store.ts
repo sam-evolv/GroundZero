@@ -43,6 +43,7 @@ export interface VaultStore {
 
   createItem(item: NewItem): Promise<string>;
   upsertBrief(brief: NewBrief): Promise<void>;
+  upsertPlan(itemId: string, content: string): Promise<void>;
 }
 
 let cached: VaultStore | null = null;

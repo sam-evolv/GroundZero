@@ -9,6 +9,7 @@ import {
   buildBriefFile,
   buildDecisionFile,
   buildItemFile,
+  buildPlanFile,
   proposedItemId,
 } from "./serialize";
 
@@ -107,6 +108,13 @@ export class LocalVaultStore implements VaultStore {
       summary: brief.summary,
     });
     await fs.writeFile(path.join(dir, `${brief.date}.md`), raw, "utf8");
+  }
+
+  async upsertPlan(itemId: string, content: string): Promise<void> {
+    const dir = path.join(this.root, "plans");
+    await fs.mkdir(dir, { recursive: true });
+    const raw = buildPlanFile({ itemId, createdAt: new Date().toISOString(), content });
+    await fs.writeFile(path.join(dir, `${itemId}.md`), raw, "utf8");
   }
 
   async recordDecision(input: DecisionInput): Promise<void> {

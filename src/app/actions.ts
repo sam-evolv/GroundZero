@@ -2,7 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { getStore } from "@/lib/vault/store";
-import { runAndWriteCouncil, type CouncilRunSummary } from "@/lib/hermes/run";
+import { runAndWriteCouncil, runOperatorForItem, type CouncilRunSummary } from "@/lib/hermes/run";
 
 // Runs the Hermes council now and writes the brief into the vault. An optional
 // focus lets you point the council at a specific question or company.
@@ -19,7 +19,13 @@ export async function approveItem(id: string): Promise<void> {
   const store = getStore();
   await store.recordDecision({ itemId: id, decision: "approved" });
   await store.setItemState(id, "approved");
-  // TODO(council): trigger the council routine API for the approved item here.
+  // Hand the approved move to a Hermes operator: it drafts a plan into the vault
+  // and moves the item into build. A failure here leaves the item approved.
+  try {
+    await runOperatorForItem(id);
+  } catch {
+    // Operator failure must not block the approval.
+  }
   revalidatePath("/");
 }
 

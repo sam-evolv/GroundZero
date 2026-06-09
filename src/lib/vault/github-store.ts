@@ -7,6 +7,7 @@ import {
   buildBriefFile,
   buildDecisionFile,
   buildItemFile,
+  buildPlanFile,
   proposedItemId,
 } from "./serialize";
 
@@ -167,6 +168,13 @@ export class GitHubVaultStore implements VaultStore {
       summary: brief.summary,
     });
     await this.putFile(filePath, raw, `brief: ${brief.date}`, existing?.sha);
+  }
+
+  async upsertPlan(itemId: string, content: string): Promise<void> {
+    const filePath = `${this.base}/plans/${itemId}.md`;
+    const existing = await this.getFile(filePath);
+    const raw = buildPlanFile({ itemId, createdAt: new Date().toISOString(), content });
+    await this.putFile(filePath, raw, `plan: ${itemId}`, existing?.sha);
   }
 
   async recordDecision(input: DecisionInput): Promise<void> {

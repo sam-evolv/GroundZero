@@ -80,6 +80,19 @@ export function buildBriefFile(input: {
   return matter.stringify(input.summary ?? "", data);
 }
 
+// An execution plan for an approved item, drafted by the Hermes operator. The
+// body is the readable plan; the frontmatter links it back to the item.
+export function buildPlanFile(input: {
+  itemId: string;
+  createdAt: string;
+  content: string;
+}): string {
+  return matter.stringify(input.content, {
+    item_id: input.itemId,
+    created_at: input.createdAt,
+  });
+}
+
 // Stable, readable id for a proposed item: the run date plus a slug of the
 // title. One council run rarely proposes two items with the same title.
 export function proposedItemId(runDate: string, title: string): string {

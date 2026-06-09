@@ -1,5 +1,6 @@
 import { getStore } from "@/lib/vault/store";
 import { runCouncil } from "./council";
+import { planExecution, renderPlanMarkdown } from "./operator";
 
 export interface CouncilRunSummary {
   date: string;
@@ -40,4 +41,25 @@ export async function runAndWriteCouncil(focus?: string): Promise<CouncilRunSumm
   });
 
   return { date: result.date, mode: result.mode, itemsWritten, heartbeat: result.heartbeat };
+}
+
+export interface OperatorRunSummary {
+  itemId: string;
+  mode: "live" | "dry-run";
+  built: boolean;
+}
+
+// Drafts an execution plan for an approved item, writes it into the vault, and
+// moves the item into build. This is how an approval starts getting done.
+export async function runOperatorForItem(itemId: string): Promise<OperatorRunSummary> {
+  const store = getStore();
+  const [items, companies] = await Promise.all([store.listItems(), store.listCompanies()]);
+  const item = items.find((i) => i.id === itemId);
+  if (!item) return { itemId, mode: "dry-run", built: false };
+
+  const company = companies.find((c) => c.id === item.companyId);
+  const plan = await planExecution(item, company);
+  await store.upsertPlan(itemId, renderPlanMarkdown(item, plan));
+  await store.setItemState(itemId, "building");
+  return { itemId, mode: plan.mode, built: true };
 }
