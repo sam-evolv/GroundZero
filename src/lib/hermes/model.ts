@@ -16,7 +16,7 @@ export async function callModel({ system, user }: ModelCall): Promise<string | n
 
 function hermesModel(): string {
   if (process.env.HERMES_MODEL) return process.env.HERMES_MODEL;
-  if (process.env.NVIDIA_API_KEY) return "meta/llama-3.3-70b-instruct";
+  if (process.env.NVIDIA_API_KEY) return "nvidia/nemotron-3-super-120b-a12b";
   return "claude-opus-4-8";
 }
 
