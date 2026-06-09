@@ -45,15 +45,20 @@ export class LocalVaultStore implements VaultStore {
 
     return Promise.all(
       files.map(async (file) => {
-        const raw = await fs.readFile(path.join(dir, file), "utf8");
-        const parsed = matter(raw);
-        return {
-          data: parsed.data as Record<string, unknown>,
-          content: parsed.content.trim(),
-          slug: file.replace(/\.md$/, ""),
-        };
+        try {
+          const raw = await fs.readFile(path.join(dir, file), "utf8");
+          const parsed = matter(raw);
+          return {
+            data: parsed.data as Record<string, unknown>,
+            content: parsed.content.trim(),
+            slug: file.replace(/\.md$/, ""),
+          } as RawDoc | null;
+        } catch (error) {
+          console.warn(`Skipping unparseable vault file ${sub}/${file}:`, error);
+          return null;
+        }
       })
-    );
+    ).then((docs) => docs.filter((doc): doc is RawDoc => doc !== null));
   }
 
   async listItems(): Promise<Item[]> {
@@ -178,9 +183,13 @@ export class LocalVaultStore implements VaultStore {
 
     for (const file of files.filter((f) => f.endsWith(".md"))) {
       const full = path.join(dir, file);
-      const { data } = matter(await fs.readFile(full, "utf8"));
-      const id = typeof data.id === "string" ? data.id : file.replace(/\.md$/, "");
-      if (id === itemId) return full;
+      try {
+        const { data } = matter(await fs.readFile(full, "utf8"));
+        const id = typeof data.id === "string" ? data.id : file.replace(/\.md$/, "");
+        if (id === itemId) return full;
+      } catch {
+        // Skip an unparseable file rather than failing the lookup.
+      }
     }
     return null;
   }
