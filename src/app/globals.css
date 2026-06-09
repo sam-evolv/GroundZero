@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/*
+  Ground Zero design tokens.
+  Premium, restrained, dark. Gold is the only accent.
+*/
+:root {
+  --bg: #0b0b0c;
+  --surface: #141417;
+  --surface-soft: #ffffff0a;
+  --hairline: #232327;
+  --ink: #f4f4f2;
+  --muted: #8a8a90;
+  --gold: #d4af37;
+  --amber: #c9923a;
+  --green: #3fb36f;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-hairline: var(--hairline);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-gold: var(--gold);
+  --color-amber: var(--amber);
+  --color-green: var(--green);
+
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-source-serif);
+
+  --radius-card: 16px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* Avoid the blue tap flash on mobile so taps feel native. */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Respect the iOS safe areas when installed to the home screen. */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .pb-safe {
+    padding-bottom: calc(env(safe-area-inset-bottom) + 0.5rem);
+  }
+}
