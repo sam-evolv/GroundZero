@@ -3,7 +3,7 @@ id: oh-warranty-filter
 company_id: openhouse-ai
 domain: innovation
 title: Add warranty filter to issue_reports dashboard
-rationale: `warranty_relevant` lives only on `assistant_media_analysis`. The dashboard cannot filter issues by warranty status.
+rationale: "`warranty_relevant` lives only on `assistant_media_analysis`. The dashboard cannot filter issues by warranty status."
 council_note: Innovation pass · Effort S
 effort: S
 impact: 70

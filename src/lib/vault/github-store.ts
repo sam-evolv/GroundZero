@@ -105,15 +105,20 @@ export class GitHubVaultStore implements VaultStore {
     const entries = await this.listDir(sub);
     return Promise.all(
       entries.map(async (entry) => {
-        const file = await this.getFile(entry.path);
-        const parsed = matter(file?.content ?? "");
-        return {
-          data: parsed.data as Record<string, unknown>,
-          content: parsed.content.trim(),
-          slug: entry.name.replace(/\.md$/, ""),
-        };
+        try {
+          const file = await this.getFile(entry.path);
+          const parsed = matter(file?.content ?? "");
+          return {
+            data: parsed.data as Record<string, unknown>,
+            content: parsed.content.trim(),
+            slug: entry.name.replace(/\.md$/, ""),
+          } as RawDoc | null;
+        } catch (error) {
+          console.warn(`Skipping unparseable vault file ${entry.path}:`, error);
+          return null;
+        }
       })
-    );
+    ).then((docs) => docs.filter((doc): doc is RawDoc => doc !== null));
   }
 
   async listItems(): Promise<Item[]> {
@@ -192,7 +197,11 @@ export class GitHubVaultStore implements VaultStore {
   async getPlan(itemId: string): Promise<string | null> {
     const file = await this.getFile(`${this.base}/plans/${itemId}.md`);
     if (!file) return null;
-    return matter(file.content).content.trim() || null;
+    try {
+      return matter(file.content).content.trim() || null;
+    } catch {
+      return null;
+    }
   }
 
   async recordDecision(input: DecisionInput): Promise<void> {
@@ -225,10 +234,14 @@ export class GitHubVaultStore implements VaultStore {
     if (res.ok) return direct;
 
     for (const entry of await this.listDir("items")) {
-      const file = await this.getFile(entry.path);
-      const { data } = matter(file?.content ?? "");
-      const id = typeof data.id === "string" ? data.id : entry.name.replace(/\.md$/, "");
-      if (id === itemId) return entry.path;
+      try {
+        const file = await this.getFile(entry.path);
+        const { data } = matter(file?.content ?? "");
+        const id = typeof data.id === "string" ? data.id : entry.name.replace(/\.md$/, "");
+        if (id === itemId) return entry.path;
+      } catch {
+        // Skip an unparseable file rather than failing the lookup.
+      }
     }
     throw new Error(`Item not found: ${itemId}`);
   }
