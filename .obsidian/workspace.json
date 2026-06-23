@@ -11,10 +11,14 @@
             "id": "70fa559a53242007",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "vault/capture/inbox.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "inbox"
             }
           }
         ]
@@ -179,10 +183,14 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/goals/oh-funder-pitch.md",
+    "vault/briefs/2026-06-09.md",
+    "GROUND_ZERO.md",
+    "README.md",
+    "AGENTS.md",
     "vault/context/claude-access-observed.md",
     "vault/context/claude-quickstart.md",
     "vault/context/claude-vault-integration.md",
-    "GROUND_ZERO.md",
     "vault/items/test-flow-check.md"
   ]
 }
