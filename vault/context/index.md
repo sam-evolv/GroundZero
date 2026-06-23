@@ -35,6 +35,8 @@ This is the first note to load when a model needs cross-business context.
 - Evolv Renewables has live commercial generation, with reporting still too manual.
 - OpenHouse sales routes: [[context/openhouse-sales-routes]]
 - OpenHouse product map: [[context/openhouse-product-map]]
+- Claude vault integration: [[context/claude-vault-integration]]
+- Claude quickstart: [[context/claude-quickstart]]
 - Consulting wedges: [[context/consulting-wedges]]
 - Healthcare revenue-cycle wedge: [[context/healthcare-revenue-cycle-wedge]]
 - Irish food waste wedge: [[context/irish-food-waste-wedge]]

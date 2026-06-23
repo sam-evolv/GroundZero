@@ -70,6 +70,18 @@ At the end of a task, write back:
 - durable facts to `companies/` or `people/`
 - temporary material to `capture/inbox.md`
 
+## Claude app and Claude Desktop
+
+Both Claude app and Claude Desktop are wired to the same `ground-zero-vault`
+MCP server.
+
+- The server points at `/Users/samdonworth/GroundZero`
+- The shared vault lives in `vault/`
+- Use the vault as the shared database for model context
+- Start with `GROUND_ZERO.md`, then `vault/context/index.md`, then the relevant
+  company and project state notes
+- Restart Claude if the vault does not show up after config changes
+
 ## Hermes cron integration
 
 Ground Zero has its own built-in Hermes council (in `src/lib/hermes/`) that runs via Vercel cron. Additionally, Sam runs external Hermes cron jobs that sync with this vault:

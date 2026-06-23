@@ -40,3 +40,17 @@ Write durable updates back to the vault:
 ## Vault schema
 
 See `vault/README.md` for the YAML frontmatter format.
+
+## Claude app and Claude Desktop
+
+Claude app and Claude Desktop both use the same Ground Zero vault through the
+`ground-zero-vault` MCP server.
+
+- Server config points at `/Users/samdonworth/GroundZero`
+- The vault is the `vault/` folder in this repo
+- Read `vault/context/index.md` first when you need shared context
+- Write progress, decisions, and durable facts back into the vault
+- Treat this repo as the source of truth, not the local mirror vault
+
+If Claude cannot see the vault, restart the app or Desktop after checking the MCP
+config.
