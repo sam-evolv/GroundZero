@@ -54,6 +54,22 @@ Ground Zero is the command centre. The actual product code lives in separate rep
 
 When the Hermes council approves an item that requires code changes, the execution agent (TODO in `src/app/actions.ts`) should delegate to Claude Code in the relevant repo.
 
+## Vault usage protocol
+
+At the start of a task, read:
+
+1. `GROUND_ZERO.md`
+2. `vault/context/index.md`
+3. `vault/context/model-pack.md`
+4. the relevant `people/`, `companies/`, and `project_state/` notes
+
+At the end of a task, write back:
+
+- progress to the relevant `project_state/` note
+- decisions to `decisions/`
+- durable facts to `companies/` or `people/`
+- temporary material to `capture/inbox.md`
+
 ## Hermes cron integration
 
 Ground Zero has its own built-in Hermes council (in `src/lib/hermes/`) that runs via Vercel cron. Additionally, Sam runs external Hermes cron jobs that sync with this vault:
