@@ -58,5 +58,5 @@ Use this note when a model needs quick, high-signal context.
 - For broad context, start here.
 - For a company-specific task, open that company note and current project state.
 - For live execution, use the relevant item note.
-- For Claude app or Claude Desktop setup, read [[context/claude-vault-integration]] or [[context/claude-quickstart]].
+- For Claude app or Claude Desktop setup, read [[context/claude-vault-integration]], [[context/claude-quickstart]], or [[context/claude-access-observed]].
 - For a scaling / workflow question, read [[context/scaling-playbook]].
