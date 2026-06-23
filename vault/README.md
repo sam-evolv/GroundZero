@@ -7,4 +7,8 @@ The Ground Zero vault is now git-backed at `sam-evolv/GroundZero`. Changes flow:
 - **Hermes council** (6am daily cron) → reads vault, proposes items, writes back
 - **Claude Code** → reads vault for context, writes progress back
 
+## Shared context entry point
+
+Start with `context/index.md` when a model needs cross-business context. It links the person profile, company notes, and live project state.
+
 Test item added: `test-flow-check` — delete after confirming the flow works.
