@@ -43,6 +43,7 @@ This is the first note to load when a model needs cross-business context.
 - Ground Zero review workflow: [[context/review-workflow]]
 - Ground Zero learn targets: [[context/learn-targets]]
 - Ground Zero automation ideas: [[context/automation-ideas]]
+- Autonomous business launch loop: [[context/autonomous-business-launch-loop]]
 - Consulting wedges: [[context/consulting-wedges]]
 - Healthcare revenue-cycle wedge: [[context/healthcare-revenue-cycle-wedge]]
 - Irish food waste wedge: [[context/irish-food-waste-wedge]]
