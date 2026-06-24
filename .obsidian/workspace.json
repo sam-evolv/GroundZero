@@ -183,6 +183,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/briefs/10-non-common-ai-money-ideas.md",
     "vault/briefs/ai-money-patterns-2026-06.md",
     "vault/briefs/openhouse-ndrc-accelerator-pitch.md",
     "vault/items/_Index.md",
@@ -217,7 +218,6 @@
     "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/transpilePackages.md",
     "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/trailingSlash.md",
     "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/serverExternalPackages.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/rewrites.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/redirects.md"
+    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/rewrites.md"
   ]
 }
