@@ -61,6 +61,7 @@ Use this note when a model needs quick, high-signal context.
 - For structure and filing, read [[context/ground-zero-structure]] and [[context/capture-workflow]].
 - For review and maintenance, read [[context/review-workflow]] and [[context/automation-ideas]].
 - For launch-loop strategy, read [[context/autonomous-business-launch-loop]].
+- For solo-founder / agentic-commerce strategy, read [[context/solo-founder-era]].
 - For learning reusable workflows, read [[context/learn-targets]].
 - For Claude app or Claude Desktop setup, read [[context/claude-vault-integration]], [[context/claude-quickstart]], or [[context/claude-access-observed]].
 - For a scaling / workflow question, read [[context/scaling-playbook]].

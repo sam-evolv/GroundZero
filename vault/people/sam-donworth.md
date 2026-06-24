@@ -17,6 +17,8 @@ timezone: Europe/Dublin
 - Prefers separate specialist agents in separate chats.
 - Likes grounded, honest feedback over hype, especially when outreach is ignored.
 - Prefers voice replies only when he says he is in the car or sends a voice note.
+- Prefers business advice framed through a solo-founder, agentic-commerce, and context-engineering lens.
+- Prefers simple stacks, public distribution early, and compliant automation over headcount-heavy scaling.
 
 ## Model preferences
 - General use: gpt-5.4-mini

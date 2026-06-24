@@ -183,6 +183,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/context/solo-founder-era.md",
     "vault/launch-signals/1782296564720-launch-2026-06-24-launch-openbook-no-show-reduction-wedge.md",
     "vault/launch-signals",
     "src/components/launch/LaunchSignalForm.tsx",
@@ -217,7 +218,6 @@
     "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/productionBrowserSourceMaps.md",
     "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/poweredByHeader.md",
     "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/pageExtensions.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/output.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/optimizePackageImports.md"
+    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/output.md"
   ]
 }

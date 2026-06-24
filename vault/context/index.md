@@ -44,6 +44,7 @@ This is the first note to load when a model needs cross-business context.
 - Ground Zero learn targets: [[context/learn-targets]]
 - Ground Zero automation ideas: [[context/automation-ideas]]
 - Autonomous business launch loop: [[context/autonomous-business-launch-loop]]
+- Solo founder / agentic commerce thesis: [[context/solo-founder-era]]
 - Consulting wedges: [[context/consulting-wedges]]
 - Healthcare revenue-cycle wedge: [[context/healthcare-revenue-cycle-wedge]]
 - Irish food waste wedge: [[context/irish-food-waste-wedge]]
