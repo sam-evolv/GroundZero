@@ -8,14 +8,14 @@ sector: PropTech
 Premium proptech SaaS platform for property developers: homeowner handover, aftercare, and sales pipeline management. Live at portal.openhouseai.ie. Built largely solo with AI tooling. Premium design is non-negotiable on every surface.
 
 ## Current priorities
-1. Stabilise the production database migration. Real Longview Estates data is now live across four schemes; backup tables to be dropped after a clean week.
-2. Close Sprint 5 tickets: PR #184 (issue_category wiring) and PR #186 (housing-reasoning prompt drift).
+1. Stabilise the production database migration. Real Longview Estates data is now live across four schemes; the backup tables are still waiting for one clean week before drop.
+2. Triage the current open issues in sam-evolv/property-assistant: #195 raw markdown bold rendering, #194 tsconfig ignoreDeprecations mismatch, #130 chat-route refactor, #128 nullability cleanup, #125 RLS policy migration, #123 homeowner session design.
 3. Hold every scheme portal at feature parity and at the premium bar.
 
 ## In flight
-- PR #184: `issue_reports` has an `issue_category` column that the multimodal route does not populate. One-line wiring fix at the insert block, `route.ts` lines 439-458.
-- PR #186: housing-reasoning prompt has dual storage. `docs/prompts/housing-reasoning-v1.md` is the source of truth, with a verbatim copy in `apps/unified-portal/lib/housing-reasoning/v1/prompt.ts` actually served to the model. No drift enforcement.
 - Production migration stabilisation and backup-table cleanup.
+- Vercel production deployments are healthy. Latest deployment is ready.
+- PR #184 and PR #186 are merged and no longer in flight.
 
 ## Known gaps
 - `warranty_relevant` lives only on `assistant_media_analysis`. Add a `warranty` column to `issue_reports`, or build a join view.
@@ -36,3 +36,11 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - Premium design is mandatory. Stability over clever refactors.
 - No em dashes anywhere. Timezone Europe/Dublin.
 - For any proposed fix: ranked options, exact file paths, the change, how to validate, how to roll back.
+
+## Strategic lens
+- OpenHouse should act like a premium evidence layer and workflow layer for property developers, not a generic admin SaaS.
+- The product should reduce handover, aftercare, and sales friction by turning messy project state into structured, defensible customer-facing outputs.
+- The moat should be trust, premium delivery, and operational leverage, not headcount.
+- Build around simple infrastructure, strong context, and reusable workflows that can be automated without weakening the premium bar.
+- Use AI to compress repeatable work, but keep customer-facing commitments human-reviewed.
+- Prioritise regulated or proof-heavy pain points where the product can become the system of record for the relevant workflow.

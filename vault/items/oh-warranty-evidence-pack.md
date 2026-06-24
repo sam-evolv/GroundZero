@@ -1,0 +1,46 @@
+---
+id: oh-warranty-evidence-pack
+company_id: openhouse-ai
+domain: innovation
+title: Turn warranty issues into an evidence pack
+rationale: Current warranty data is split between issue_reports and assistant_media_analysis, which makes it hard to prove patterns, priority, and resolution history to developers.
+council_note: New idea from gap analysis · Effort M
+effort: M
+impact: 78
+state: proposed
+is_one_thing: false
+source: ground-zero-incubation 2026-06-24
+run_date: "2026-06-24"
+created_at: "2026-06-24T11:05:00Z"
+updated_at: "2026-06-24T11:05:00Z"
+---
+
+## Opportunity size
+This is more than a filter. A warranty evidence pack lets OpenHouse package recurring defects, supporting photos, and resolution state into something a developer can actually use. That strengthens aftercare trust and creates a more defensible premium story.
+
+## Technical approach
+- Extend issue_reports with warranty metadata.
+- Group related issues by scheme, unit, room, and defect type.
+- Pull supporting images and analysis notes into a downloadable evidence pack.
+- Add simple export formats for developer review and warranty meetings.
+- Reuse room inference so the pack can cluster issues more intelligently.
+
+## Risks
+- Overpromising automated certainty on warranty classification.
+- Cross-table joins could get messy if the data model stays split.
+- If the export is too manual, it becomes another report no one uses.
+
+## Effort
+M. Roughly a week if it is a report and UI slice, longer if the workflow also includes approvals and signoff.
+
+## Market timing
+Timely. Buyers of proptech software are asking for more evidence, less admin, and AI that reduces aftercare noise rather than adding another inbox.
+
+## Connects to
+- oh-warranty-filter
+- oh-aftercare-os
+- room inference
+- premium developer reporting
+
+## Recommendation
+This is a stronger commercial idea than the raw filter alone. It is a plausible project once the data plumbing is in place.

@@ -1,9 +1,21 @@
 ---
 id: oh
 company_id: openhouse-ai
-headline: Database V2 migration at 70%. Activation flat at 48%. Sprint 5 open with two PRs.
+headline: Database V2 migration is stabilising. Sprint 5 PRs are merged. Vercel production is healthy.
 valid: true
-updated_at: "2026-06-09T20:00:00Z"
+updated_at: "2026-06-24T12:01:21+01:00"
 ---
 
-The V2 rollout is on track for end of month. Activation is the stubborn number: new agents stall before their first listing. Sprint 5 has two open PRs (#184 issue_category wiring, #186 prompt drift). Production migration stabilisation is the top priority. Guardrails system in shadow mode, eval suite needs expansion before flipping to active.
+The V2 rollout is still on track for end of month. Real Longview Estates data remains live across Longview Park, Ardan View, Rathard Lawn, and Rathard Park. PR #184 and PR #186 were merged on 2026-05-23. Current open issues in sam-evolv/property-assistant are #195, #194, #130, #128, #125, and #123.
+
+## Summary
+- Production migration is still the top priority.
+- Vercel production deployments are currently healthy. Latest deployment is ready.
+- Guardrails remain in shadow mode and the eval suite still needs expansion before flipping to active.
+
+## Next actions
+- Keep monitoring the production migration until the backup tables can be dropped after a clean week.
+- Triage any open issues that affect the portal experience.
+
+## Risks
+- Supabase remote anomaly checks could not be completed in this session because no access token was available.

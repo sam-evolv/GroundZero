@@ -12,7 +12,34 @@ is_one_thing: false
 source: ground-zero-vault 2026-06-09
 run_date: "2026-06-09"
 created_at: "2026-06-09T20:00:00Z"
-updated_at: "2026-06-09T20:00:00Z"
+updated_at: "2026-06-24T11:05:00Z"
 ---
 
-Custom TypeScript guardrail system on main. 6 modules: confidence-scorer, conversation-tracker, proactive-clarifier, adaptive-thresholds, orchestrator, types. Shadow mode default. Critical failures: role mis-mapping, unverified spec claims, ambiguity non-handling, conversational inconsistency, product unawareness.
+## Opportunity size
+Guardrails is the difference between a promising AI surface and a shippable product. Expanding the eval suite increases confidence before active mode.
+
+## Technical approach
+- Expand from 20 questions to 50+.
+- Cover the six current dimensions plus adversarial cases.
+- Add scenarios for ambiguity handling, product awareness, and unverified claims.
+- Treat evals as a living regression suite, not a one-off test.
+
+## Risks
+- Test set bloat without better signal.
+- Overfitting the system to the eval suite.
+- Maintenance overhead if the questions are not tied to real failures.
+
+## Effort
+M. A few days to write and tune the additional questions, then ongoing upkeep.
+
+## Market timing
+Very timely. Teams shipping AI features are moving toward stronger eval gates, especially where hallucination and ambiguity can damage trust.
+
+## Connects to
+- oh-guardrails-active
+- oh-aftercare-os
+- room inference
+- premium support and triage surfaces
+
+## Recommendation
+This should stay inside the active guardrails project. Once the suite is bigger and stable, it becomes reasonable to flip from shadow to active mode.

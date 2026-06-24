@@ -30,7 +30,7 @@ This is the first note to load when a model needs cross-business context.
 - **imports/**: raw source material and exports from other systems
 
 ## Current picture
-- OpenHouse AI is the main focus.
+- OpenHouse AI is the main focus. Production migration stabilisation continues, Sprint 5 PRs #184 and #186 are merged, and Vercel production is currently healthy.
 - OpenBook is a founder-led growth play with no-shows as the clearest churn lever.
 - Evolv Renewables has live commercial generation, with reporting still too manual.
 - OpenHouse sales routes: [[context/openhouse-sales-routes]]

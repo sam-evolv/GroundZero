@@ -183,6 +183,11 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/items/_Index.md",
+    "vault/items/oh-warranty-evidence-pack.md",
+    "vault/items/renew-compliance-portal.md",
+    "vault/Daily/2026-06-24.md",
+    "vault/Daily",
     "vault/context/solo-founder-era.md",
     "vault/launch-signals/1782296564720-launch-2026-06-24-launch-openbook-no-show-reduction-wedge.md",
     "vault/launch-signals",
@@ -195,7 +200,6 @@
     "src/app/launch",
     "vault/launches/launch-2026-06-24-launch-openbook-no-show-reduction-wedge.md",
     "vault/launches",
-    "next-env.d.ts",
     "node_modules/next/README.md",
     "node_modules/next/dist/compiled/regenerator-runtime/README.md",
     "node_modules/next/dist/compiled/react-refresh/README.md",
@@ -214,10 +218,6 @@
     "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/rewrites.md",
     "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/redirects.md",
     "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/reactStrictMode.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/proxyClientMaxBodySize.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/productionBrowserSourceMaps.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/poweredByHeader.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/pageExtensions.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/output.md"
+    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/proxyClientMaxBodySize.md"
   ]
 }
