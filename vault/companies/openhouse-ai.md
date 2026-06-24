@@ -17,6 +17,12 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - Vercel production deployments are healthy. Latest deployment is ready.
 - PR #184 and PR #186 are merged and no longer in flight.
 
+## Live check
+- Checked 2026-06-25. GitHub open PRs are unchanged at #204, #180, #147, #146, #104, #98, #41, #40, #38, #11, and #6.
+- Open issues are unchanged at #195, #194, #130, #128, #125, and #123.
+- Vercel production remains healthy. The latest deployment is Ready.
+- Supabase CLI is available, but remote anomaly checks were not completed because no Supabase access token is set and local `supabase status` is blocked by a stopped Docker daemon.
+
 ## Known gaps
 - `warranty_relevant` lives only on `assistant_media_analysis`. Add a `warranty` column to `issue_reports`, or build a join view.
 
