@@ -23,7 +23,7 @@ export default async function Home() {
       </div>
 
       {launchView.latestLaunch && (
-        <section className="mt-8">
+        <section className="mt-8 space-y-3">
           <Eyebrow>Launch loop</Eyebrow>
           <LaunchCard
             launch={launchView.latestLaunch}
@@ -31,6 +31,44 @@ export default async function Home() {
           />
         </section>
       )}
+
+      <section className="mt-8 rounded-card border border-hairline bg-surface p-5">
+        <Eyebrow>Signal dashboard</Eyebrow>
+        <div className="mt-3 flex items-center justify-between gap-3">
+          <div>
+            <h2 className="text-[18px] font-medium text-ink">Recent market signals</h2>
+            <p className="mt-1 text-[13px] leading-relaxed text-muted">
+              Replies, pilots, objections, and revenue are the evidence trail the launch loop learns from.
+            </p>
+          </div>
+          <span className="rounded-full border border-hairline px-3 py-1 text-[12px] text-muted">
+            {launchView.recentSignals.length} recent
+          </span>
+        </div>
+
+        <div className="mt-4 space-y-3">
+          {launchView.recentSignals.length > 0 ? (
+            launchView.recentSignals.map((signal) => (
+              <article key={signal.id} className="rounded-2xl border border-hairline bg-bg p-4">
+                <div className="flex items-center justify-between gap-3">
+                  <div className="flex items-center gap-2">
+                    <span className="rounded-full bg-gold/15 px-2 py-1 text-[11px] font-medium uppercase tracking-[0.12em] text-gold">
+                      {signal.signalType}
+                    </span>
+                    <span className="text-[12px] text-muted">{signal.createdAt.slice(0, 10)}</span>
+                  </div>
+                  <span className="text-[12px] text-muted">
+                    {view.companiesById[signal.companyId]?.short ?? view.companiesById[signal.companyId]?.name ?? signal.companyId}
+                  </span>
+                </div>
+                <p className="mt-2 text-[13px] leading-relaxed text-ink">{signal.note}</p>
+              </article>
+            ))
+          ) : (
+            <p className="text-[13px] text-muted">No signals logged yet. The first reply, objection, or pilot request will appear here.</p>
+          )}
+        </div>
+      </section>
 
       {view.oneThing && (
         <section className="mt-8">

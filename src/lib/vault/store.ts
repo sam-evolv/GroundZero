@@ -1,4 +1,4 @@
-import type { Brief, Company, Decision, DecisionKind, Domain, Effort, Goal, Item, ItemState, LaunchBrief, ProjectState } from "./types";
+import type { Brief, Company, Decision, DecisionKind, Domain, Effort, Goal, Item, ItemState, LaunchBrief, LaunchSignal, ProjectState } from "./types";
 import { LocalVaultStore } from "./local-store";
 import { GitHubVaultStore } from "./github-store";
 
@@ -54,6 +54,14 @@ export interface NewLaunch {
   mode: "live" | "dry-run";
 }
 
+export interface NewLaunchSignal {
+  launchId: string;
+  companyId: string;
+  signalType: string;
+  note: string;
+  createdAt: string;
+}
+
 // The data layer seam. Reads power the views; the app writes decisions and item
 // state when you act on a card; Hermes writes items and the brief when the
 // council runs.
@@ -65,9 +73,11 @@ export interface VaultStore {
   getLatestBrief(): Promise<Brief | null>;
   listLaunches(): Promise<LaunchBrief[]>;
   getLatestLaunch(): Promise<LaunchBrief | null>;
+  listLaunchSignals(): Promise<LaunchSignal[]>;
   listDecisions(): Promise<Decision[]>;
 
   recordDecision(input: DecisionInput): Promise<void>;
+  recordLaunchSignal(input: NewLaunchSignal): Promise<void>;
   setItemState(itemId: string, state: ItemState): Promise<void>;
 
   createItem(item: NewItem): Promise<string>;

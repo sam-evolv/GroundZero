@@ -9,6 +9,7 @@ import type {
   Item,
   ItemState,
   LaunchBrief,
+  LaunchSignal,
   ProjectState,
 } from "./types";
 
@@ -121,6 +122,25 @@ export function mapDecision({ data, slug }: RawDoc): Decision {
     reason: str(data.reason),
     createdAt: str(data.created_at),
   };
+}
+
+export function mapLaunchSignal({ data, content, slug }: RawDoc): LaunchSignal {
+  return {
+    id: str(data.id) ?? slug,
+    launchId: str(data.launch_id) ?? "",
+    companyId: str(data.company_id) ?? "",
+    signalType: str(data.signal_type) ?? "reply",
+    note: cleanSignalNote(content),
+    createdAt: str(data.created_at) ?? "",
+  };
+}
+
+function cleanSignalNote(content: string): string {
+  const lines = content.trim().split(/\r?\n/);
+  if (lines[0]?.startsWith("# Launch signal:")) {
+    return lines.slice(1).join("\n").trim();
+  }
+  return content.trim();
 }
 
 // YAML can hand back strings, numbers, booleans, or Date objects (unquoted

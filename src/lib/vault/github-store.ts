@@ -1,6 +1,6 @@
 import matter from "gray-matter";
-import type { VaultStore, DecisionInput, NewBrief, NewItem, NewLaunch } from "./store";
-import type { Brief, Company, Decision, Goal, Item, ItemState, ProjectState } from "./types";
+import type { VaultStore, DecisionInput, NewBrief, NewItem, NewLaunch, NewLaunchSignal } from "./store";
+import type { Brief, Company, Decision, Goal, Item, ItemState, LaunchSignal, ProjectState } from "./types";
 import {
   mapBrief,
   mapCompany,
@@ -8,19 +8,11 @@ import {
   mapGoal,
   mapItem,
   mapLaunch,
+  mapLaunchSignal,
   mapProjectState,
   type RawDoc,
 } from "./map";
-import {
-  applyStateToRaw,
-  buildBriefFile,
-  buildDecisionFile,
-  buildItemFile,
-  buildLaunchFile,
-  buildPlanFile,
-  launchBriefId,
-  proposedItemId,
-} from "./serialize";
+import { applyStateToRaw, buildBriefFile, buildDecisionFile, buildItemFile, buildLaunchFile, buildLaunchSignalFile, buildPlanFile, launchBriefId, proposedItemId } from "./serialize";
 
 interface GitHubEntry {
   name: string;
@@ -160,6 +152,10 @@ export class GitHubVaultStore implements VaultStore {
       .sort((a, b) => (b.updatedAt ?? b.createdAt ?? b.date).localeCompare(a.updatedAt ?? a.createdAt ?? a.date))[0];
   }
 
+  async listLaunchSignals(): Promise<LaunchSignal[]> {
+    return (await this.readCollection("launch-signals")).map(mapLaunchSignal).sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+  }
+
   async listDecisions(): Promise<Decision[]> {
     return (await this.readCollection("decisions")).map(mapDecision);
   }
@@ -267,6 +263,15 @@ export class GitHubVaultStore implements VaultStore {
       `${this.base}/decisions/${id}.md`,
       raw,
       `decision: ${input.decision} ${input.itemId}`
+    );
+  }
+
+  async recordLaunchSignal(input: NewLaunchSignal): Promise<void> {
+    const id = `${Date.now()}-${input.launchId}`;
+    await this.putFile(
+      `${this.base}/launch-signals/${id}.md`,
+      buildLaunchSignalFile({ id, ...input }),
+      `feat: log launch signal ${input.signalType} for ${input.launchId}`
     );
   }
 

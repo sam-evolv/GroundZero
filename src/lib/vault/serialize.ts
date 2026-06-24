@@ -178,6 +178,29 @@ export function buildLaunchFile(input: {
   return matter.stringify(body, data);
 }
 
+export function buildLaunchSignalFile(input: {
+  id: string;
+  launchId: string;
+  companyId: string;
+  signalType: string;
+  note: string;
+  createdAt: string;
+}): string {
+  const body = [
+    `# Launch signal: ${input.signalType}`,
+    "",
+    input.note,
+  ].join("\n");
+
+  return matter.stringify(body, {
+    id: input.id,
+    launch_id: input.launchId,
+    company_id: input.companyId,
+    signal_type: input.signalType,
+    created_at: input.createdAt,
+  });
+}
+
 // Stable, readable id for a proposed item: the run date plus a slug of the
 // title. One council run rarely proposes two items with the same title.
 export function proposedItemId(runDate: string, title: string): string {

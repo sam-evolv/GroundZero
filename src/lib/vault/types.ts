@@ -96,6 +96,15 @@ export interface LaunchBrief {
   date: string;
 }
 
+export interface LaunchSignal {
+  id: string;
+  launchId: string;
+  companyId: string;
+  signalType: string;
+  note: string;
+  createdAt: string;
+}
+
 export interface Decision {
   id: string;
   itemId: string;

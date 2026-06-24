@@ -1,8 +1,8 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import type { VaultStore, DecisionInput, NewBrief, NewItem, NewLaunch } from "./store";
-import type { Brief, Company, Decision, Goal, Item, ItemState, ProjectState } from "./types";
+import type { VaultStore, DecisionInput, NewBrief, NewItem, NewLaunch, NewLaunchSignal } from "./store";
+import type { Brief, Company, Decision, Goal, Item, ItemState, LaunchSignal, ProjectState } from "./types";
 import {
   mapBrief,
   mapCompany,
@@ -10,19 +10,11 @@ import {
   mapGoal,
   mapItem,
   mapLaunch,
+  mapLaunchSignal,
   mapProjectState,
   type RawDoc,
 } from "./map";
-import {
-  applyStateToRaw,
-  buildBriefFile,
-  buildDecisionFile,
-  buildItemFile,
-  buildLaunchFile,
-  buildPlanFile,
-  launchBriefId,
-  proposedItemId,
-} from "./serialize";
+import { applyStateToRaw, buildBriefFile, buildDecisionFile, buildItemFile, buildLaunchFile, buildLaunchSignalFile, buildPlanFile, launchBriefId, proposedItemId } from "./serialize";
 
 // Reads and writes the Obsidian vault on the local filesystem. This is the
 // development store and the schema reference for the GitHub-backed store.
@@ -98,6 +90,10 @@ export class LocalVaultStore implements VaultStore {
     return docs
       .map(mapLaunch)
       .sort((a, b) => (b.updatedAt ?? b.createdAt ?? b.date).localeCompare(a.updatedAt ?? a.createdAt ?? a.date))[0];
+  }
+
+  async listLaunchSignals(): Promise<LaunchSignal[]> {
+    return (await this.readCollection("launch-signals")).map(mapLaunchSignal).sort((a, b) => b.createdAt.localeCompare(a.createdAt));
   }
 
   async listDecisions(): Promise<Decision[]> {
@@ -205,6 +201,14 @@ export class LocalVaultStore implements VaultStore {
       reason: input.reason,
       createdAt: new Date().toISOString(),
     });
+    await fs.writeFile(path.join(dir, `${id}.md`), raw, "utf8");
+  }
+
+  async recordLaunchSignal(input: NewLaunchSignal): Promise<void> {
+    const dir = path.join(this.root, "launch-signals");
+    await fs.mkdir(dir, { recursive: true });
+    const id = `${Date.now()}-${input.launchId}`;
+    const raw = buildLaunchSignalFile({ id, ...input });
     await fs.writeFile(path.join(dir, `${id}.md`), raw, "utf8");
   }
 

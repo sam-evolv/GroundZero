@@ -12,6 +12,10 @@ export type LaunchRunOutcome =
   | { ok: true; mode: "live" | "dry-run"; title: string }
   | { ok: false; error: string };
 
+export type LaunchSignalOutcome =
+  | { ok: true }
+  | { ok: false; error: string };
+
 // Runs the Hermes council now and writes the brief into the vault. An optional
 // focus lets you point the council at a specific question or company. Errors are
 // returned (not thrown) so the UI can show a useful reason instead of hanging.
@@ -30,6 +34,27 @@ export async function runLaunchLoopNow(focus?: string): Promise<LaunchRunOutcome
     const summary = await runAndWriteLaunchLoop(focus);
     revalidatePath("/");
     return { ok: true, mode: summary.mode, title: summary.title };
+  } catch (error) {
+    return { ok: false, error: describeWriteError(error) };
+  }
+}
+
+export async function recordLaunchSignalNow(input: {
+  launchId: string;
+  companyId: string;
+  signalType: string;
+  note: string;
+}): Promise<LaunchSignalOutcome> {
+  try {
+    const store = getStore();
+    await store.recordLaunchSignal({
+      ...input,
+      createdAt: new Date().toISOString(),
+    });
+    revalidatePath("/");
+    revalidatePath("/launch");
+    revalidatePath(`/launch/${input.launchId}`);
+    return { ok: true };
   } catch (error) {
     return { ok: false, error: describeWriteError(error) };
   }

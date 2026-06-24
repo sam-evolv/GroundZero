@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Company, LaunchBrief } from "@/lib/vault/types";
 import { Tag } from "@/components/ui/Tag";
 
@@ -16,7 +17,12 @@ export function LaunchCard({
           <Tag>Launch kit</Tag>
           <Tag tone="ink">{launch.mode === "dry-run" ? "Dry run" : "Live"}</Tag>
         </div>
-        <span className="text-[12px] text-muted">{launch.updatedAt?.slice(0, 10) ?? launch.date}</span>
+        <div className="flex flex-col items-end gap-1">
+          <span className="text-[12px] text-muted">{launch.updatedAt?.slice(0, 10) ?? launch.date}</span>
+          <Link href={`/launch/${launch.id}`} className="text-[12px] font-medium text-gold underline decoration-gold/40 underline-offset-2">
+            Public page
+          </Link>
+        </div>
       </div>
 
       <h3 className="mt-3.5 text-[17px] font-medium leading-snug text-ink">{launch.title}</h3>
