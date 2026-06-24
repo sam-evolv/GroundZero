@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-06-24T12:05:00Z"
+updated_at: "2026-06-24T16:02:09+01:00"
 ---
 
 # Ideas Index
