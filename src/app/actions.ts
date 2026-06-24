@@ -2,10 +2,14 @@
 
 import { revalidatePath } from "next/cache";
 import { getStore } from "@/lib/vault/store";
-import { runAndWriteCouncil, runOperatorForItem } from "@/lib/hermes/run";
+import { runAndWriteCouncil, runAndWriteLaunchLoop, runOperatorForItem } from "@/lib/hermes/run";
 
 export type CouncilRunOutcome =
   | { ok: true; mode: "live" | "dry-run"; itemsWritten: number }
+  | { ok: false; error: string };
+
+export type LaunchRunOutcome =
+  | { ok: true; mode: "live" | "dry-run"; title: string }
   | { ok: false; error: string };
 
 // Runs the Hermes council now and writes the brief into the vault. An optional
@@ -16,6 +20,16 @@ export async function runCouncilNow(focus?: string): Promise<CouncilRunOutcome> 
     const summary = await runAndWriteCouncil(focus);
     revalidatePath("/");
     return { ok: true, mode: summary.mode, itemsWritten: summary.itemsWritten };
+  } catch (error) {
+    return { ok: false, error: describeWriteError(error) };
+  }
+}
+
+export async function runLaunchLoopNow(focus?: string): Promise<LaunchRunOutcome> {
+  try {
+    const summary = await runAndWriteLaunchLoop(focus);
+    revalidatePath("/");
+    return { ok: true, mode: summary.mode, title: summary.title };
   } catch (error) {
     return { ok: false, error: describeWriteError(error) };
   }

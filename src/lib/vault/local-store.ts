@@ -1,7 +1,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import type { VaultStore, DecisionInput, NewBrief, NewItem } from "./store";
+import type { VaultStore, DecisionInput, NewBrief, NewItem, NewLaunch } from "./store";
 import type { Brief, Company, Decision, Goal, Item, ItemState, ProjectState } from "./types";
 import {
   mapBrief,
@@ -9,6 +9,7 @@ import {
   mapDecision,
   mapGoal,
   mapItem,
+  mapLaunch,
   mapProjectState,
   type RawDoc,
 } from "./map";
@@ -17,7 +18,9 @@ import {
   buildBriefFile,
   buildDecisionFile,
   buildItemFile,
+  buildLaunchFile,
   buildPlanFile,
+  launchBriefId,
   proposedItemId,
 } from "./serialize";
 
@@ -85,6 +88,18 @@ export class LocalVaultStore implements VaultStore {
       .sort((a, b) => (b.ranAt ?? b.date).localeCompare(a.ranAt ?? a.date))[0];
   }
 
+  async listLaunches() {
+    return (await this.readCollection("launches")).map(mapLaunch);
+  }
+
+  async getLatestLaunch() {
+    const docs = await this.readCollection("launches");
+    if (docs.length === 0) return null;
+    return docs
+      .map(mapLaunch)
+      .sort((a, b) => (b.updatedAt ?? b.createdAt ?? b.date).localeCompare(a.updatedAt ?? a.createdAt ?? a.date))[0];
+  }
+
   async listDecisions(): Promise<Decision[]> {
     return (await this.readCollection("decisions")).map(mapDecision);
   }
@@ -125,6 +140,42 @@ export class LocalVaultStore implements VaultStore {
       summary: brief.summary,
     });
     await fs.writeFile(path.join(dir, `${brief.date}.md`), raw, "utf8");
+  }
+
+  async upsertLaunch(launch: NewLaunch): Promise<void> {
+    const dir = path.join(this.root, "launches");
+    await fs.mkdir(dir, { recursive: true });
+    const now = new Date().toISOString();
+    const id = launchBriefId(launch.date, launch.title);
+    const raw = buildLaunchFile({
+      id,
+      companyId: launch.companyId,
+      title: launch.title,
+      date: launch.date,
+      mode: launch.mode,
+      summary: launch.summary,
+      heartbeat: launch.heartbeat,
+      focus: launch.focus,
+      thesis: launch.thesis,
+      buyer: launch.buyer,
+      wedge: launch.wedge,
+      offer: launch.offer,
+      validationTest: launch.validationTest,
+      approvalGates: launch.approvalGates,
+      signalMetrics: launch.signalMetrics,
+      nextStep: launch.nextStep,
+      landingHeadline: launch.landingHeadline,
+      landingSubhead: launch.landingSubhead,
+      landingPoints: launch.landingPoints,
+      landingCta: launch.landingCta,
+      outreachMessage: launch.outreachMessage,
+      followUpMessage: launch.followUpMessage,
+      qualificationQuestions: launch.qualificationQuestions,
+      signalCapture: launch.signalCapture,
+      createdAt: now,
+      updatedAt: now,
+    });
+    await fs.writeFile(path.join(dir, `${id}.md`), raw, "utf8");
   }
 
   async upsertPlan(itemId: string, content: string): Promise<void> {

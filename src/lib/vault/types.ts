@@ -67,6 +67,35 @@ export interface Brief {
   summary?: string;
 }
 
+export interface LaunchBrief {
+  id: string;
+  companyId: string;
+  title: string;
+  summary?: string;
+  heartbeat?: string;
+  focus?: string;
+  thesis: string;
+  buyer: string;
+  wedge: string;
+  offer: string;
+  validationTest: string;
+  approvalGates: string[];
+  signalMetrics: string[];
+  nextStep: string;
+  landingHeadline?: string;
+  landingSubhead?: string;
+  landingPoints?: string[];
+  landingCta?: string;
+  outreachMessage?: string;
+  followUpMessage?: string;
+  qualificationQuestions?: string[];
+  signalCapture?: string;
+  mode: "live" | "dry-run";
+  createdAt?: string;
+  updatedAt?: string;
+  date: string;
+}
+
 export interface Decision {
   id: string;
   itemId: string;

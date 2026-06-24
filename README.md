@@ -22,6 +22,7 @@ vault/
   goals/          goals per company
   project_state/  current state per company
   briefs/         one file per council run (YYYY-MM-DD.md), holds the heartbeat
+  launches/       one file per launch loop run, holds the wedge and next test
   decisions/      written when you act on an item (next milestone)
 ```
 

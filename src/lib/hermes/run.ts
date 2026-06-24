@@ -1,5 +1,6 @@
 import { getStore } from "@/lib/vault/store";
 import { runCouncil } from "./council";
+import { runLaunchLoop } from "./launch";
 import { planExecution, renderPlanMarkdown } from "./operator";
 
 export interface CouncilRunSummary {
@@ -7,6 +8,13 @@ export interface CouncilRunSummary {
   mode: "live" | "dry-run";
   itemsWritten: number;
   heartbeat: string;
+}
+
+export interface LaunchRunSummary {
+  date: string;
+  mode: "live" | "dry-run";
+  saved: boolean;
+  title: string;
 }
 
 // Runs the council and writes the result into the vault: one item per proposal,
@@ -41,6 +49,37 @@ export async function runAndWriteCouncil(focus?: string): Promise<CouncilRunSumm
   });
 
   return { date: result.date, mode: result.mode, itemsWritten, heartbeat: result.heartbeat };
+}
+
+export async function runAndWriteLaunchLoop(focus?: string): Promise<LaunchRunSummary> {
+  const result = await runLaunchLoop(focus);
+  const store = getStore();
+  await store.upsertLaunch({
+    date: result.date,
+    companyId: result.companyId,
+    title: result.title,
+    summary: result.summary,
+    heartbeat: result.heartbeat,
+    focus: result.focus,
+    thesis: result.thesis,
+    buyer: result.buyer,
+    wedge: result.wedge,
+    offer: result.offer,
+    validationTest: result.validationTest,
+    approvalGates: result.approvalGates,
+    signalMetrics: result.signalMetrics,
+    nextStep: result.nextStep,
+    landingHeadline: result.landingHeadline,
+    landingSubhead: result.landingSubhead,
+    landingPoints: result.landingPoints,
+    landingCta: result.landingCta,
+    outreachMessage: result.outreachMessage,
+    followUpMessage: result.followUpMessage,
+    qualificationQuestions: result.qualificationQuestions,
+    signalCapture: result.signalCapture,
+    mode: result.mode,
+  });
+  return { date: result.date, mode: result.mode, saved: true, title: result.title };
 }
 
 export interface OperatorRunSummary {

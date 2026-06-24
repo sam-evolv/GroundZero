@@ -1,7 +1,9 @@
 import { getBriefView } from "@/lib/brief";
+import { getLaunchView } from "@/lib/launch";
 import { BriefHeader } from "@/components/brief/BriefHeader";
 import { BriefFooter } from "@/components/brief/BriefFooter";
 import { ItemCard } from "@/components/brief/ItemCard";
+import { LaunchCard } from "@/components/brief/LaunchCard";
 import { HermesControls } from "@/components/brief/HermesControls";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 
@@ -9,7 +11,7 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const view = await getBriefView();
+  const [view, launchView] = await Promise.all([getBriefView(), getLaunchView()]);
   const hasItems = Boolean(view.oneThing) || view.items.length > 0;
 
   return (
@@ -19,6 +21,16 @@ export default async function Home() {
       <div className="mt-6">
         <HermesControls />
       </div>
+
+      {launchView.latestLaunch && (
+        <section className="mt-8">
+          <Eyebrow>Launch loop</Eyebrow>
+          <LaunchCard
+            launch={launchView.latestLaunch}
+            company={view.companiesById[launchView.latestLaunch.companyId]}
+          />
+        </section>
+      )}
 
       {view.oneThing && (
         <section className="mt-8">

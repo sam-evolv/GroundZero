@@ -1,5 +1,5 @@
 import matter from "gray-matter";
-import type { VaultStore, DecisionInput, NewBrief, NewItem } from "./store";
+import type { VaultStore, DecisionInput, NewBrief, NewItem, NewLaunch } from "./store";
 import type { Brief, Company, Decision, Goal, Item, ItemState, ProjectState } from "./types";
 import {
   mapBrief,
@@ -7,6 +7,7 @@ import {
   mapDecision,
   mapGoal,
   mapItem,
+  mapLaunch,
   mapProjectState,
   type RawDoc,
 } from "./map";
@@ -15,7 +16,9 @@ import {
   buildBriefFile,
   buildDecisionFile,
   buildItemFile,
+  buildLaunchFile,
   buildPlanFile,
+  launchBriefId,
   proposedItemId,
 } from "./serialize";
 
@@ -145,6 +148,18 @@ export class GitHubVaultStore implements VaultStore {
       .sort((a, b) => (b.ranAt ?? b.date).localeCompare(a.ranAt ?? a.date))[0];
   }
 
+  async listLaunches(): Promise<any[]> {
+    return (await this.readCollection("launches")).map(mapLaunch);
+  }
+
+  async getLatestLaunch(): Promise<any | null> {
+    const docs = await this.readCollection("launches");
+    if (docs.length === 0) return null;
+    return docs
+      .map(mapLaunch)
+      .sort((a, b) => (b.updatedAt ?? b.createdAt ?? b.date).localeCompare(a.updatedAt ?? a.createdAt ?? a.date))[0];
+  }
+
   async listDecisions(): Promise<Decision[]> {
     return (await this.readCollection("decisions")).map(mapDecision);
   }
@@ -185,6 +200,41 @@ export class GitHubVaultStore implements VaultStore {
       summary: brief.summary,
     });
     await this.putFile(filePath, raw, `brief: ${brief.date}`, existing?.sha);
+  }
+
+  async upsertLaunch(launch: NewLaunch): Promise<void> {
+    const id = launchBriefId(launch.date, launch.title);
+    const filePath = `${this.base}/launches/${id}.md`;
+    const existing = await this.getFile(filePath);
+    const raw = buildLaunchFile({
+      id,
+      companyId: launch.companyId,
+      title: launch.title,
+      date: launch.date,
+      mode: launch.mode,
+      summary: launch.summary,
+      heartbeat: launch.heartbeat,
+      focus: launch.focus,
+      thesis: launch.thesis,
+      buyer: launch.buyer,
+      wedge: launch.wedge,
+      offer: launch.offer,
+      validationTest: launch.validationTest,
+      approvalGates: launch.approvalGates,
+      signalMetrics: launch.signalMetrics,
+      nextStep: launch.nextStep,
+      landingHeadline: launch.landingHeadline,
+      landingSubhead: launch.landingSubhead,
+      landingPoints: launch.landingPoints,
+      landingCta: launch.landingCta,
+      outreachMessage: launch.outreachMessage,
+      followUpMessage: launch.followUpMessage,
+      qualificationQuestions: launch.qualificationQuestions,
+      signalCapture: launch.signalCapture,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    });
+    await this.putFile(filePath, raw, `launch: ${launch.title}`, existing?.sha);
   }
 
   async upsertPlan(itemId: string, content: string): Promise<void> {

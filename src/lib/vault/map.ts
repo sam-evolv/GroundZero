@@ -8,6 +8,7 @@ import type {
   Goal,
   Item,
   ItemState,
+  LaunchBrief,
   ProjectState,
 } from "./types";
 
@@ -81,6 +82,37 @@ export function mapBrief({ data, content, slug }: RawDoc): Brief {
   };
 }
 
+export function mapLaunch({ data, content, slug }: RawDoc): LaunchBrief {
+  return {
+    id: str(data.id) ?? slug,
+    companyId: str(data.company_id) ?? "",
+    title: str(data.title) ?? "Untitled launch",
+    summary: str(data.summary) ?? (content || undefined),
+    heartbeat: str(data.heartbeat),
+    focus: str(data.focus),
+    thesis: str(data.thesis) ?? "",
+    buyer: str(data.buyer) ?? "",
+    wedge: str(data.wedge) ?? "",
+    offer: str(data.offer) ?? "",
+    validationTest: str(data.validation_test) ?? "",
+    approvalGates: arrayOfStrings(data.approval_gates),
+    signalMetrics: arrayOfStrings(data.signal_metrics),
+    nextStep: str(data.next_step) ?? "",
+    landingHeadline: str(data.landing_headline),
+    landingSubhead: str(data.landing_subhead),
+    landingPoints: arrayOfStrings(data.landing_points),
+    landingCta: str(data.landing_cta),
+    outreachMessage: str(data.outreach_message),
+    followUpMessage: str(data.follow_up_message),
+    qualificationQuestions: arrayOfStrings(data.qualification_questions),
+    signalCapture: str(data.signal_capture),
+    mode: (str(data.mode) as "live" | "dry-run") ?? "dry-run",
+    createdAt: str(data.created_at),
+    updatedAt: str(data.updated_at),
+    date: str(data.date) ?? slug,
+  };
+}
+
 export function mapDecision({ data, slug }: RawDoc): Decision {
   return {
     id: str(data.id) ?? slug,
@@ -114,4 +146,17 @@ function num(value: unknown): number | undefined {
 
 function bool(value: unknown): boolean {
   return value === true || value === "true";
+}
+
+function arrayOfStrings(value: unknown): string[] {
+  if (Array.isArray(value)) {
+    return value.map((entry) => String(entry).trim()).filter(Boolean);
+  }
+  if (typeof value === "string") {
+    return value
+      .split(/[\n,]/)
+      .map((part) => part.trim())
+      .filter(Boolean);
+  }
+  return [];
 }
