@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-06-24T16:02:09+01:00"
+updated_at: "2026-06-24T18:03:24+01:00"
 ---
 
 # Ideas Index
@@ -24,6 +24,13 @@ This index tracks the current active idea queue. Snoozed ideas stay out of the a
 ## Evolv Renewables
 - [[renew-grid-automation]] - likely project-worthy, M, proposed
 - [[renew-compliance-portal]] - new idea from gap analysis, M, proposed
+
+## Operations
+- [[ops-daily-sync-digest]] - cross-company daily ops digest, P1, proposed
+- [[oh-onboarding-packet-automation]] - OpenHouse onboarding packet, P2, proposed
+- [[oh-warranty-triage-router]] - OpenHouse warranty triage router, P3, proposed
+- [[ob-no-show-deposit-workflow]] - OpenBook deposit and no-show prevention, P2, proposed
+- [[renew-compliance-reporting-automation]] - Renew compliance reporting, P3, proposed
 
 ## Closed or complete
 - [[oh-sprint5-close]] - closed, do not re-propose

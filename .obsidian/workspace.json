@@ -183,6 +183,11 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/items/ops-daily-sync-digest.md",
+    "vault/items/oh-onboarding-packet-automation.md",
+    "vault/items/renew-compliance-reporting-automation.md",
+    "vault/items/oh-warranty-triage-router.md",
+    "vault/items/ob-no-show-deposit-workflow.md",
     "vault/briefs/10-non-common-ai-money-ideas.md",
     "vault/briefs/ai-money-patterns-2026-06.md",
     "vault/briefs/openhouse-ndrc-accelerator-pitch.md",
@@ -213,11 +218,6 @@
     "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/webVitalsAttribution.md",
     "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/useLightningcss.md",
     "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/urlImports.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/typescript.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/turbopack.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/transpilePackages.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/trailingSlash.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/serverExternalPackages.md",
-    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/rewrites.md"
+    "node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/typescript.md"
   ]
 }
