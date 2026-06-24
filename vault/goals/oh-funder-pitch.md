@@ -51,3 +51,4 @@ OpenHouse is the operating layer that turns property handover and aftercare from
 - `vault/context/openhouse-product-map.md`
 - `vault/context/openhouse-sales-routes.md`
 - `vault/imports/claude/openhouse-company-memory.md`
+- `vault/briefs/openhouse-ndrc-accelerator-pitch.md`
