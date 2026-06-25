@@ -12,24 +12,39 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-24
 run_date: "2026-06-24"
 created_at: "2026-06-24T17:02:14Z"
-updated_at: "2026-06-24T17:02:14Z"
+updated_at: "2026-06-25T00:02:14+01:00"
 ---
 
 ## What the automation does
 When a deal closes or a scheme moves to onboarding, this automation assembles the customer packet automatically. It should prefill known data, generate the welcome email, create the checklist, request the missing files, and open the internal follow-up tasks.
 
-## Tools and APIs
-- Supabase for source-of-truth data
-- Email provider such as Gmail, SendGrid, or Outlook
-- Google Drive or Docs for the packet output
-- OpenAI for draft copy and checklist shaping
-- Pipedream or Zapier for event wiring
+## Opportunity size
+High. Onboarding quality sets the tone for the relationship, and every manual packet burns time while introducing avoidable errors. If each onboarding saves 30 to 60 minutes and improves the first impression, the value compounds quickly as more schemes and homeowners come through.
 
-## Estimated setup effort
-M. The first version can be mostly template driven if the source data is clean.
+## Technical approach
+- Trigger the workflow when a deal closes or a scheme changes state to onboarding.
+- Pull source-of-truth data from Supabase and any linked docs or CRM fields.
+- Merge that data into email, checklist, and document templates.
+- Draft the welcome message in the OpenHouse premium tone.
+- Create internal tasks for any missing files or follow-up items.
+- Keep the first version template driven so the packet remains deterministic.
 
-## Expected time savings
-30 to 60 minutes per onboarding, plus fewer data-entry mistakes.
+## Risks
+- Bad source data will produce bad packets, so validation matters.
+- Over-automation can make the handoff feel generic if the templates are not polished.
+- The workflow needs a clear fallback when required fields are missing.
 
-## Priority ranking
-2. This removes repetitive launch admin and makes the first customer touch feel more polished.
+## Effort
+M. The first version should be mostly templated and event-driven. The main work is data mapping, template quality, and making the outputs look premium.
+
+## Market timing
+Timely. SaaS buyers increasingly expect fast, polished onboarding and immediate value delivery, and AI-assisted document generation is now a normal expectation rather than a novelty.
+
+## Connects to
+- oh-activation
+- oh-aftercare-os
+- scheme launch process
+- premium homeowner and developer experience
+
+## Recommendation
+This is a strong project candidate once the production migration stabilises. It is operationally useful, brand-positive, and easy to explain to customers.

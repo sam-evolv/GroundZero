@@ -1,0 +1,47 @@
+---
+id: oh-handover-readiness-scan
+company_id: openhouse-ai
+domain: innovation
+title: Scan scheme handover readiness for missing evidence and blockers
+rationale: OpenHouse already tracks handover, documents, issues, and aftercare. There is no single readiness scan that shows what is still missing before a scheme goes live.
+council_note: New idea from gap analysis · Effort M
+effort: M
+impact: 80
+state: proposed
+is_one_thing: false
+source: ground-zero-incubation 2026-06-25
+run_date: "2026-06-25"
+created_at: "2026-06-25T00:02:14+01:00"
+updated_at: "2026-06-25T00:02:14+01:00"
+---
+
+## Opportunity size
+High. Every missing document, unresolved issue, or incomplete homeowner setup item creates launch friction and support risk. A readiness scan reduces avoidable delays, makes handover feel more controlled, and gives developers a cleaner proof point that the scheme was managed properly.
+
+## Technical approach
+- Score each scheme against a readiness checklist covering documents, contacts, homeowner comms, warranty settings, and open issues.
+- Pull signals from the Developer Portal, Data Hub, issue workflow, and onboarding state.
+- Surface a red, amber, or green readiness view before launch.
+- Highlight the exact blockers instead of only showing aggregate status.
+- Reuse the same scan output for internal follow-up tasks and customer-facing evidence.
+
+## Risks
+- A noisy readiness score could create false confidence or unnecessary panic.
+- The checklist can become too broad if it tries to cover every possible launch detail.
+- Stale source data will undermine trust, so refresh quality matters.
+
+## Effort
+M. Mostly a rules and aggregation problem with a clear UI surface. The first version can stay read-only and become more valuable if it is paired with existing launch admin workflows.
+
+## Market timing
+Timely. Buyers increasingly expect software that proves operational readiness, not just task tracking. Readiness scoring also fits the current shift toward tighter evidence and auditability in proptech.
+
+## Connects to
+- OpenHouse product map
+- oh-onboarding-packet-automation
+- oh-warranty-evidence-pack
+- oh-aftercare-os
+- handover and launch operations
+
+## Recommendation
+This is a strong project candidate because it sits above several existing OpenHouse workflows and creates a better management layer for launch readiness.

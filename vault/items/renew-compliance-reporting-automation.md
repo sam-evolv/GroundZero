@@ -12,24 +12,38 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-24
 run_date: "2026-06-24"
 created_at: "2026-06-24T17:02:14Z"
-updated_at: "2026-06-24T17:02:14Z"
+updated_at: "2026-06-25T00:02:14+01:00"
 ---
 
 ## What the automation does
 Ingests install and survey data, then builds the compliance pack automatically. It should produce the monthly or weekly report, export the evidence files, and keep a client-ready summary updated without hand copying.
 
-## Tools and APIs
-- Supabase for live project data
-- Google Sheets or Drive for intake and exports
-- PDF generation for evidence packs
-- Scheduled automation via Hermes cron, Vercel Cron, or Pipedream
-- Optional: OpenAI for narrative summaries
+## Opportunity size
+Medium today, larger as the pipeline scales. A few hours a week of reporting drag is already enough to justify automation, and the bigger upside is avoiding missed evidence, late reports, and manual rework as the number of live sites grows.
 
-## Estimated setup effort
-M to L. The data model needs to be stable before the reporting can be trusted.
+## Technical approach
+- Pull install and survey records from Supabase or the operational source of truth.
+- Validate the data before generating the pack.
+- Build the compliance report, evidence exports, and summary in a repeatable template.
+- Schedule the workflow so it runs on the reporting cadence without human prompting.
+- Keep a manual review step for edge cases and anything that looks incomplete.
 
-## Expected time savings
-2 to 4 hours per week, plus less risk of forgetting a report step.
+## Risks
+- If the data model changes often, the report will be brittle.
+- Missing evidence or inconsistent survey data can create trust issues with clients.
+- A partially automated report still needs a clear human approval path.
 
-## Priority ranking
-3. Important once reporting volume increases, but slightly behind the OpenHouse and OpenBook automations.
+## Effort
+M to L. The build is manageable, but it depends on the underlying data model being stable enough to trust.
+
+## Market timing
+Good. Distributed energy operators are under pressure to do more with fewer admin hours, and simple evidence-heavy automation is a straightforward value proposition.
+
+## Connects to
+- renew-grid-automation
+- renew-compliance-portal
+- renew-pipeline
+- client reporting and evidence packs
+
+## Recommendation
+Project-worthy once reporting cadence hardens. If installs and surveys keep moving, this becomes the backbone of a broader client-facing reporting product.
