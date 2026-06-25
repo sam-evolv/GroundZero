@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-06-25T00:02:14+01:00"
+updated_at: "2026-06-25T18:02:35+01:00"
 ---
 
 # Ideas Index
@@ -28,10 +28,15 @@ This index tracks the current active idea queue. Snoozed ideas stay out of the a
 - [[renew-compliance-portal]] - new idea from gap analysis, M, proposed
 
 ## Operations
+- [[ops-pr-issue-ageing-escalator]] - GitHub triage pass, P1, proposed
+- [[ops-daily-report-pack]] - daily cross-company report pack, P1, proposed
 - [[ops-daily-sync-digest]] - cross-company daily ops digest, P1, proposed
+- [[ops-capture-inbox-refinery]] - vault hygiene and capture filing, P2, proposed
+- [[ops-weekly-status-pack]] - weekly cross-company status pack, P2, proposed
 - [[oh-onboarding-packet-automation]] - OpenHouse onboarding packet, P2, proposed
-- [[oh-warranty-triage-router]] - OpenHouse warranty triage router, P3, proposed
 - [[ob-no-show-deposit-workflow]] - OpenBook deposit and no-show prevention, P2, proposed
+- [[ops-meeting-followup-assembler]] - follow-up drafting and scheduling, P3, proposed
+- [[oh-warranty-triage-router]] - OpenHouse warranty triage router, P3, proposed
 - [[renew-compliance-reporting-automation]] - Renew compliance reporting, P3, proposed
 
 ## Closed or complete
