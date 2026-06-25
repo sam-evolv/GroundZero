@@ -183,6 +183,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/briefs/solar-installer-workflow-analysis.md",
     "vault/briefs/solar-installer-software-wedge.md",
     "vault/items/ops-weekly-status-pack.md",
     "vault/items/ops-capture-inbox-refinery.md",
@@ -217,7 +218,6 @@
     "src/app/launch/[id]",
     "src/app/launch",
     "vault/launches/launch-2026-06-24-launch-openbook-no-show-reduction-wedge.md",
-    "vault/launches",
-    "node_modules/next/README.md"
+    "vault/launches"
   ]
 }
