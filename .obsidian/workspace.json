@@ -183,6 +183,8 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/items/ops-index-maintenance-bot.md",
+    "vault/items/ops-project-state-reconciler.md",
     "vault/briefs/wiki-refiner-2026-06-26.md",
     "scripts/wiki-refiner.py",
     "vault/context/llm-wiki-pattern.md",
@@ -208,8 +210,6 @@
     "vault/items/ob-no-show-deposit-workflow.md",
     "vault/briefs/10-non-common-ai-money-ideas.md",
     "vault/briefs/ai-money-patterns-2026-06.md",
-    "vault/briefs/openhouse-ndrc-accelerator-pitch.md",
-    "vault/items/_Index.md",
     "vault/Daily",
     "vault/launch-signals",
     "src/components/launch/LaunchSignalForm.tsx",

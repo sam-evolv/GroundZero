@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-06-26T00:00:00+01:00"
+updated_at: "2026-06-26T18:02:52+01:00"
 ---
 
 # Ideas Index
@@ -34,8 +34,10 @@ This index tracks the current active idea queue. Snoozed ideas stay out of the a
 - [[ops-daily-report-pack]] - daily cross-company report pack, P1, proposed
 - [[ops-daily-sync-digest]] - cross-company daily ops digest, P1, proposed
 - [[ops-source-to-wiki-ingest]] - source-to-note wiki pass, P1, proposed
+- [[ops-project-state-reconciler]] - state sync bookkeeping, P1, proposed
 - [[ops-capture-inbox-refinery]] - vault hygiene and capture filing, P2, proposed
 - [[ops-weekly-status-pack]] - weekly cross-company status pack, P2, proposed
+- [[ops-index-maintenance-bot]] - index and daily log housekeeping, P2, proposed
 - [[oh-onboarding-packet-automation]] - OpenHouse onboarding packet, P2, proposed
 - [[ob-no-show-deposit-workflow]] - OpenBook deposit and no-show prevention, P2, proposed
 - [[ops-meeting-followup-assembler]] - follow-up drafting and scheduling, P3, proposed
