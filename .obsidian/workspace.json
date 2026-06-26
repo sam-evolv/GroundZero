@@ -183,6 +183,8 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/context/llm-wiki-pattern.md",
+    "vault/items/ops-source-to-wiki-ingest.md",
     "vault/Daily/2026-06-26.md",
     "vault/items/ob-venue-health-radar.md",
     "vault/items/oh-scheme-launch-scorecard.md",
@@ -207,8 +209,6 @@
     "vault/briefs/openhouse-ndrc-accelerator-pitch.md",
     "vault/items/_Index.md",
     "vault/items/oh-warranty-evidence-pack.md",
-    "vault/items/renew-compliance-portal.md",
-    "vault/Daily/2026-06-24.md",
     "vault/Daily",
     "vault/launch-signals",
     "src/components/launch/LaunchSignalForm.tsx",

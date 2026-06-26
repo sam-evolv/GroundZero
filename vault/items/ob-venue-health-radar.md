@@ -12,7 +12,8 @@ is_one_thing: false
 source: ground-zero-incubation 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T00:00:00+01:00"
-updated_at: "2026-06-26T00:00:00+01:00"
+updated_at: "2026-06-26T16:56:31+01:00"
+sync_status: "Checked 2026-06-26 16:56 IST. No OpenBook live-system change was checked in this sync."
 ---
 
 ## Opportunity size

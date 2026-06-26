@@ -33,6 +33,7 @@ This index tracks the current active idea queue. Snoozed ideas stay out of the a
 - [[ops-pr-issue-ageing-escalator]] - GitHub triage pass, P1, proposed
 - [[ops-daily-report-pack]] - daily cross-company report pack, P1, proposed
 - [[ops-daily-sync-digest]] - cross-company daily ops digest, P1, proposed
+- [[ops-source-to-wiki-ingest]] - source-to-note wiki pass, P1, proposed
 - [[ops-capture-inbox-refinery]] - vault hygiene and capture filing, P2, proposed
 - [[ops-weekly-status-pack]] - weekly cross-company status pack, P2, proposed
 - [[oh-onboarding-packet-automation]] - OpenHouse onboarding packet, P2, proposed

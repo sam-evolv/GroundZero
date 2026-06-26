@@ -65,3 +65,4 @@ Use this note when a model needs quick, high-signal context.
 - For learning reusable workflows, read [[context/learn-targets]].
 - For Claude app or Claude Desktop setup, read [[context/claude-vault-integration]], [[context/claude-quickstart]], or [[context/claude-access-observed]].
 - For a scaling / workflow question, read [[context/scaling-playbook]].
+- For source-to-note knowledge base building, read [[context/llm-wiki-pattern]].

@@ -12,7 +12,8 @@ is_one_thing: false
 source: ground-zero-incubation 2026-06-24
 run_date: "2026-06-24"
 created_at: "2026-06-24T11:05:00Z"
-updated_at: "2026-06-24T11:05:00Z"
+updated_at: "2026-06-26T16:56:31+01:00"
+sync_status: "Checked 2026-06-26 16:56 IST. OpenHouse repo still has 11 open PRs and 6 open issues. Vercel production latest deployment remains Ready. Supabase remote anomaly check is blocked by missing SUPABASE_ACCESS_TOKEN and a stopped Docker daemon."
 ---
 
 ## Opportunity size

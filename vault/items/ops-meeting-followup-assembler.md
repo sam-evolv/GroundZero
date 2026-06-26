@@ -12,7 +12,8 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-25
 run_date: "2026-06-25"
 created_at: "2026-06-25T18:02:35+01:00"
-updated_at: "2026-06-25T18:02:35+01:00"
+updated_at: "2026-06-26T16:56:31+01:00"
+sync_status: "Checked 2026-06-26 16:56 IST. Cross-company status unchanged in this sync."
 ---
 
 ## What the automation does

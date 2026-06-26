@@ -11,7 +11,8 @@ state: done
 source: ground-zero-vault 2026-06-09
 run_date: "2026-06-09"
 created_at: "2026-06-09T20:00:00Z"
-updated_at: "2026-06-24T12:01:21+01:00"
+updated_at: "2026-06-26T16:56:31+01:00"
+sync_status: "Checked 2026-06-26 16:56 IST. OpenHouse repo still has 11 open PRs and 6 open issues. Vercel production latest deployment remains Ready. Supabase remote anomaly check is blocked by missing SUPABASE_ACCESS_TOKEN and a stopped Docker daemon."
 ---
 
 PR #184, "Sprint 1b: Wire housing reasoning v0.1 into multimodal endpoint (flag-gated)", merged on 2026-05-23.

@@ -7,6 +7,7 @@ The Ground Zero vault is now git-backed at `sam-evolv/GroundZero`. Changes flow:
 - **Hermes council** (6am daily cron) → reads vault, proposes items, writes back
 - **Launch loop** → writes launch briefs into `vault/launches/` for the next market test
 - **Claude Code** → reads vault for context, writes progress back
+- **LLM wiki refiner** → turns imports and inbox scraps into linked notes and flags contradictions
 
 ## Shared context entry point
 

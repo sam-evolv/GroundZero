@@ -43,6 +43,7 @@ This is the first note to load when a model needs cross-business context.
 - Ground Zero review workflow: [[context/review-workflow]]
 - Ground Zero learn targets: [[context/learn-targets]]
 - Ground Zero automation ideas: [[context/automation-ideas]]
+- LLM wiki pattern: [[context/llm-wiki-pattern]]
 - Autonomous business launch loop: [[context/autonomous-business-launch-loop]]
 - Solo founder / agentic commerce thesis: [[context/solo-founder-era]]
 - Consulting wedges: [[context/consulting-wedges]]

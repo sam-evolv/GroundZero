@@ -1,6 +1,6 @@
 # OpenHouse AI - Company Memory
 
-Last updated: 24 June 2026. Maintained by Sam. The council reads this in full at the start of every run and treats it as current reality. Keep it short and current; prune anything stale.
+Last updated: 26 June 2026. Maintained by Sam. The council reads this in full at the start of every run and treats it as current reality. Keep it short and current; prune anything stale.
 
 ## What OpenHouse is
 A premium proptech SaaS platform for property developers: homeowner handover, aftercare, and sales pipeline management. Live homeowner and agent portals at portal.openhouseai.ie. Built largely solo with AI tooling. Premium design is non-negotiable on every surface.
