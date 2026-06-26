@@ -47,6 +47,7 @@ Build a *founder operating system for launching and improving one real wedge at 
 - [[context/capture-workflow]] — how signals enter the loop
 - [[briefs/ai-money-patterns-2026-06]] — pattern context
 
+- [[imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26]] — shared signals: maintaining, obsidian, gipp
 ## Ideal users
 
 - founder-led businesses

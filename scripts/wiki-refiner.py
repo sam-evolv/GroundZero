@@ -3,8 +3,10 @@
 
 Scans raw imports plus the capture inbox, routes durable scraps into the
 right vault note types, and writes a dated brief describing what was filed.
-The script is intentionally conservative: it preserves provenance, avoids
-silent overwrites, and only appends to target notes when the entry is new.
+
+NEW in this version: the refiner also writes auto-backlinks. When a source
+maps to a related note, the refiner appends a "Linked from" line pointing
+back to the source — so compounds automatically without manual passes.
 """
 
 from __future__ import annotations
@@ -67,6 +69,14 @@ class FilingResult:
     remaining_sections: dict[str, list[str]]
 
 
+@dataclass
+class Backlink:
+    target_path: Path
+    source_label: str
+    link_text: str
+    score: int
+
+
 def parse_frontmatter(text: str) -> dict[str, str]:
     if not text.startswith("---\n"):
         return {}
@@ -93,15 +103,12 @@ def first_heading(text: str) -> str | None:
     return None
 
 
-
 def load_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
-
 def write_text(path: Path, content: str) -> None:
     path.write_text(content, encoding="utf-8")
-
 
 
 def tokenize(text: str) -> set[str]:
@@ -110,7 +117,6 @@ def tokenize(text: str) -> set[str]:
         for token in re.findall(r"[a-z0-9]+", text.lower())
         if len(token) > 2 and token not in STOPWORDS
     }
-
 
 
 def note_title(path: Path, text: str) -> str:
@@ -123,7 +129,6 @@ def note_title(path: Path, text: str) -> str:
     if heading:
         return heading
     return path.stem.replace("-", " ").title()
-
 
 
 def collect_notes(exclude: set[Path] | None = None) -> list[Note]:
@@ -146,7 +151,6 @@ def collect_notes(exclude: set[Path] | None = None) -> list[Note]:
     return notes
 
 
-
 def collect_sources(inbox_text: str | None = None) -> list[SourceDoc]:
     sources: list[SourceDoc] = []
     if IMPORTS.exists():
@@ -163,7 +167,6 @@ def collect_sources(inbox_text: str | None = None) -> list[SourceDoc]:
     if inbox_text:
         sources.append(SourceDoc(path=CAPTURE_INBOX, text=inbox_text, title=note_title(CAPTURE_INBOX, inbox_text), tokens=tokenize(inbox_text + " " + CAPTURE_INBOX.stem)))
     return sources
-
 
 
 def score_related(source: SourceDoc, note: Note) -> int:
@@ -184,13 +187,11 @@ def score_related(source: SourceDoc, note: Note) -> int:
     return score
 
 
-
 def top_related(source: SourceDoc, notes: Iterable[Note], limit: int = 6) -> list[tuple[Note, int]]:
     scored = [(note, score_related(source, note)) for note in notes]
     scored = [pair for pair in scored if pair[1] >= 2]
     scored.sort(key=lambda pair: (-pair[1], pair[0].path.as_posix()))
     return scored[:limit]
-
 
 
 def classify_destination(source: SourceDoc, related: list[tuple[Note, int]]) -> str:
@@ -216,7 +217,6 @@ def classify_destination(source: SourceDoc, related: list[tuple[Note, int]]) -> 
     return "briefs/"
 
 
-
 def summarize_source(source: SourceDoc) -> str:
     body = re.sub(r"^---\n.*?\n---\n", "", source.text, flags=re.S).strip()
     lines = [line.strip() for line in body.splitlines() if line.strip()]
@@ -234,7 +234,6 @@ def summarize_source(source: SourceDoc) -> str:
     return " ".join(summary_lines) if summary_lines else lines[0]
 
 
-
 def inbox_sections(text: str) -> dict[str, list[str]]:
     sections: dict[str, list[str]] = {name: [] for name in INBOX_SECTIONS}
     current = None
@@ -248,10 +247,8 @@ def inbox_sections(text: str) -> dict[str, list[str]]:
     return sections
 
 
-
 def normalize_entry(text: str) -> str:
     return re.sub(r"\s+", " ", text.strip().lower())
-
 
 
 def classify_inbox_entry(entry: str, section: str) -> str | None:
@@ -278,7 +275,6 @@ def classify_inbox_entry(entry: str, section: str) -> str | None:
     if "http://" in text or "https://" in text or "[[" in text:
         return "context/index.md"
     return None
-
 
 
 def append_filed_entries(target_relpath: str, entries: list[str], source_section: str, source_label: str) -> bool:
@@ -308,7 +304,6 @@ def append_filed_entries(target_relpath: str, entries: list[str], source_section
     return True
 
 
-
 def file_inbox_entries(inbox_text: str) -> FilingResult:
     sections = inbox_sections(inbox_text)
     filed: list[Filing] = []
@@ -333,7 +328,6 @@ def file_inbox_entries(inbox_text: str) -> FilingResult:
     return FilingResult(filed=filed, remaining_sections=remaining)
 
 
-
 def render_inbox(remaining_sections: dict[str, list[str]]) -> str:
     lines = [
         "---",
@@ -356,8 +350,107 @@ def render_inbox(remaining_sections: dict[str, list[str]]) -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
+# ─── NEW: auto-backlink logic ──────────────────────────────────────────────
 
-def build_brief(notes: list[Note], sources: list[SourceDoc], filing: FilingResult) -> str:
+def wiki_link_for_path(path: Path, label: str | None = None) -> str:
+    """Build a [[wiki-link]] string for a vault file path."""
+    rel = path.relative_to(VAULT).with_suffix("")
+    target = rel.as_posix()
+    if label and label != target:
+        return f"[[{target}|{label}]]"
+    return f"[[{target}]]"
+
+
+def has_backlink(note_text: str, link_target: str) -> bool:
+    """Check whether a backlink to link_target already exists in note_text."""
+    # Match [[target]] or [[target|alias]]
+    pattern = re.compile(r"\[\[" + re.escape(link_target) + r"(\|[^\]]*)?\]\]")
+    # Also match without .md
+    alt_target = link_target.replace("/", "/")  # normalize
+    return bool(pattern.search(note_text))
+
+
+def add_backlink_to_note(note_path: Path, source_path: Path, source_tokens: set[str]) -> bool:
+    """Append a contextual backlink to a related note's 'Connected notes' or 'Related' section."""
+    if not note_path.exists():
+        return False
+    try:
+        text = load_text(note_path)
+    except Exception:
+        return False
+
+    rel_source = source_path.relative_to(VAULT).with_suffix("").as_posix()
+    
+    # Skip if already linked
+    if has_backlink(text, rel_source):
+        return False
+
+    # Link label: extract title from source
+    meta = parse_frontmatter(source_path.read_text(encoding="utf-8"))
+    source_label = meta.get("title", "") or source_path.stem.replace("-", " ").title()
+    link = wiki_link_for_path(source_path, source_label)
+
+    # Derive a short reason: which tokens overlap
+    overlap = tokenize(rel_source.replace("/", " ").replace("-", " ")) & source_tokens
+    top_terms = sorted(overlap, key=lambda t: -len(t))[:3]
+    reason = f"shared signals: {', '.join(top_terms)}" if top_terms else "source reference"
+
+    # Prepend a short backlink line into the existing "Connected vault notes" or "Connects to" section
+    marker = "## Connected vault notes"
+    alt_marker = "## Connects to"
+    
+    if marker in text:
+        idx = text.index(marker)
+        section_next = text.find("\n\n", idx)
+        insert_point = section_next if section_next != -1 else len(text)
+        # Find the end of the list (next ## or EOF)
+        next_section = text.find("\n## ", insert_point + 2)
+        if next_section != -1:
+            # Find end of list within this section
+            list_end = next_section
+        else:
+            list_end = len(text.rstrip()) + 1
+        new_line = f"- [[{rel_source}]] — {reason}"
+        # Check the section already exists
+        section_text = text[idx:list_end]
+        if rel_source not in section_text:
+            new_text = text[:list_end] + "\n" + new_line + text[list_end:]
+            write_text(note_path, new_text)
+            return True
+    elif alt_marker in text:
+        idx = text.index(alt_marker)
+        next_section = text.find("\n## ", idx + 2)
+        if next_section != -1:
+            list_end = next_section
+        else:
+            list_end = len(text.rstrip()) + 1
+        new_line = f"- [[{rel_source}]] — {reason}"
+        section_text = text[idx:list_end]
+        if rel_source not in section_text:
+            new_text = text[:list_end] + "\n" + new_line + text[list_end:]
+            write_text(note_path, new_text)
+            return True
+    return False
+
+
+def run_backlinks(sources: list[SourceDoc], notes: list[Note]) -> list[Backlink]:
+    """For every source → related note pair with score >= 3, write a backlink."""
+    written: list[Backlink] = []
+    for source in sources:
+        related = top_related(source, notes, limit=4)
+        for note, score in related:
+            if score < 3:
+                continue
+            rel = note.path.relative_to(VAULT).with_suffix("").as_posix()
+            link_text = f"[[{rel}]]"
+            if add_backlink_to_note(note.path, source.path, source.tokens):
+                written.append(Backlink(target_path=note.path, source_label=source.path.name, link_text=link_text, score=score))
+    return written
+
+
+# ─── Brief builder ─────────────────────────────────────────────────────────
+
+def build_brief(notes: list[Note], sources: list[SourceDoc], filing: FilingResult, backlinks: list[Backlink]) -> str:
     today = datetime.now().astimezone().strftime("%Y-%m-%d")
     run_at = datetime.now().astimezone().isoformat(timespec="seconds")
     lines: list[str] = [
@@ -370,7 +463,7 @@ def build_brief(notes: list[Note], sources: list[SourceDoc], filing: FilingResul
         "",
         f"# Wiki Refiner {today}",
         "",
-        "This brief captures raw sources reviewed by the wiki refiner and the notes they should connect to.",
+        "This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.",
         "",
     ]
 
@@ -378,6 +471,13 @@ def build_brief(notes: list[Note], sources: list[SourceDoc], filing: FilingResul
         lines.append("## Inbox filing results")
         for item in filing.filed:
             lines.append(f"- `{item.entry}` -> `{item.target}`")
+        lines.append("")
+
+    if backlinks:
+        lines.append("## Auto-backlinks written")
+        for bl in backlinks:
+            src = bl.source_label
+            lines.append(f"- `{src}` → `{bl.target_path.relative_to(VAULT)}` (score {bl.score})")
         lines.append("")
 
     if not sources:
@@ -429,7 +529,6 @@ def build_brief(notes: list[Note], sources: list[SourceDoc], filing: FilingResul
     return "\n".join(lines).rstrip() + "\n"
 
 
-
 def main() -> int:
     BRIEFS.mkdir(parents=True, exist_ok=True)
     today = datetime.now().astimezone().strftime("%Y-%m-%d")
@@ -442,7 +541,11 @@ def main() -> int:
 
     notes = collect_notes({brief_path})
     sources = collect_sources(inbox_text)
-    content = build_brief(notes, sources, filing)
+    
+    # NEW: auto-backlink pass
+    backlinks = run_backlinks(sources, notes)
+    
+    content = build_brief(notes, sources, filing, backlinks)
 
     previous = brief_path.read_text(encoding="utf-8") if brief_path.exists() else None
     changed = previous != content
@@ -450,13 +553,11 @@ def main() -> int:
         write_text(brief_path, content)
 
     print(f"wiki-refiner: {'updated' if changed else 'unchanged'} {brief_path.relative_to(VAULT)}")
-    print(f"wiki-refiner: sources={len(sources)} notes_indexed={len(notes)} filed={len(filing.filed)}")
+    print(f"wiki-refiner: sources={len(sources)} notes_indexed={len(notes)} filed={len(filing.filed)} backlinks={len(backlinks)}")
     for item in filing.filed:
         print(f"- filed {item.source_section}: {item.entry} -> {item.target}")
-    for source in sources:
-        related = top_related(source, notes)
-        related_txt = ", ".join(f"{note.path.relative_to(VAULT).as_posix()}({score})" for note, score in related[:4]) or "none"
-        print(f"- {source.path.relative_to(VAULT).as_posix()} -> {related_txt}")
+    for bl in backlinks:
+        print(f"- backlink: {bl.source_label} → {bl.target_path.relative_to(VAULT)} (score {bl.score})")
 
     return 0
 

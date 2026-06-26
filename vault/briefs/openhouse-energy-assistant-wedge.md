@@ -32,6 +32,8 @@ The strongest version is not "a chatbot for solar panels". It is an evidence and
 - [[context/business-opportunities-moc]] — MOC hub
 - [[briefs/ai-money-patterns-2026-06]] — pattern context
 
+- [[imports/claude/openhouse-company-memory]] — shared signals: openhouse, company, claude
+- [[imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26]] — shared signals: maintaining, obsidian, gipp
 ## Evidence from quick research
 
 ### 1. HPI / HPP already rewards the exact direction OpenHouse is moving in

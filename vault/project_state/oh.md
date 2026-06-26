@@ -31,3 +31,4 @@ The V2 rollout is still on track for end of month. Real Longview Estates data re
 - [[items/oh-onboarding-cut]] — strongest design candidate
 - [[items/oh-warranty-triage-router]] — AI issue triage
 - [[briefs/openhouse-ndrc-accelerator-pitch]] — NDRC pitch
+- [[imports/claude/openhouse-company-memory]] — shared signals: openhouse, company, claude

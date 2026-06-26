@@ -48,5 +48,6 @@ Not market-driven, but operationally urgent. A production data cleanup is the ki
 - Sprint 5 fixes
 - premium trust bar
 
+- [[imports/claude/openhouse-company-memory]] — shared signals: openhouse, company, claude
 ## Recommendation
 Keep as a current launch hygiene task. Finish the clean week and then remove the backups.
