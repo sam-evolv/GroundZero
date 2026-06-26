@@ -55,6 +55,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
 - [[companies/openbook]]
 - [[context/business-opportunities-moc]]
+- [[context/dashboard]]
 - [[goals/ob-retention]]
 - [[goals/ob-supply]]
 - [[items/ob-cancellation-waitlist]]
@@ -64,6 +65,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ob-venue-health-radar]]
 - [[items/ops-daily-sync-digest]]
 - [[project_state/ob]]
+
 
 ## Recommendation
 This is the clearest commercial lever in OpenBook right now. It should move into a project once the wedge validation shows real venue pull and the payment rules are confirmed.

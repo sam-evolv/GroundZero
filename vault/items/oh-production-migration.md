@@ -54,12 +54,14 @@ Not market-driven, but operationally urgent. A production data cleanup is the ki
 _Auto-generated: updated by wiki-refiner_
 - [[companies/openhouse-ai]]
 - [[context/dashboard]]
+- [[goals/oh-activation]]
 - [[goals/oh-v2-launch]]
 - [[items/oh-rls-audit]]
 - [[items/oh-sprint5-close]]
 - [[items/ops-daily-sync-digest]]
 - [[items/ops-pr-issue-ageing-escalator]]
 - [[project_state/oh]]
+
 
 ## Recommendation
 Keep as a current launch hygiene task. Finish the clean week and then remove the backups.

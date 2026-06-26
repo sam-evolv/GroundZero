@@ -59,11 +59,13 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/openhouse-product-map]]
 - [[context/ops-automation-moc]]
 - [[goals/oh-aftercare-os]]
+- [[goals/oh-guardrails-active]]
 - [[goals/oh-room-inference]]
 - [[items/oh-guardrails-eval]]
 - [[items/oh-warranty-evidence-pack]]
 - [[items/oh-warranty-filter]]
 - [[project_state/oh]]
+
 
 ## Recommendation
 Good project candidate, especially if it ships alongside the warranty data plumbing. Start read-only, then graduate to write-back once precision is proven.

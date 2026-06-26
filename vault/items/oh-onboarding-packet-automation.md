@@ -56,11 +56,16 @@ Timely. SaaS buyers increasingly expect fast, polished onboarding and immediate 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+- [[context/capture-workflow]]
 - [[goals/oh-activation]]
+- [[goals/oh-aftercare-os]]
 - [[items/oh-handover-readiness-scan]]
 - [[items/oh-onboarding-cut]]
 - [[items/oh-scheme-launch-scorecard]]
 - [[items/ops-meeting-followup-assembler]]
+- [[project_state/oh]]
+
 
 ## Recommendation
 This is a strong project candidate once the production migration stabilises. It is operationally useful, brand-positive, and easy to explain to customers.

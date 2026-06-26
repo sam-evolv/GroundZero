@@ -45,12 +45,17 @@ P1
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[context/dashboard]]
 - [[context/ops-automation-moc]]
 - [[context/review-workflow]]
 - [[decisions/ground-zero-canonical]]
 - [[items/ops-daily-report-pack]]
 - [[items/ops-daily-sync-digest]]
 - [[items/ops-weekly-status-pack]]
+- [[project_state/ob]]
+- [[project_state/oh]]
+- [[project_state/renew]]
+
 
 ## Recommendation
 Strong candidate because it removes the most repetitive bookkeeping after the daily status sweep. It also reduces the chance that later analyses run on stale state.

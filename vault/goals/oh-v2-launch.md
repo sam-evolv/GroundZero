@@ -40,10 +40,12 @@ V2 is the platform. Every other goal — activation, aftercare OS, funder pitch 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-09]]
 - [[companies/openhouse-ai]]
 - [[context/ground-zero-structure]]
 - [[context/model-pack]]
 - [[goals/oh-activation]]
+- [[goals/oh-aftercare-os]]
 - [[goals/oh-funder-pitch]]
 - [[items/oh-pricing-experiment]]
 - [[items/oh-production-migration]]

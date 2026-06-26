@@ -48,8 +48,12 @@ Not a market trend issue. It is a credibility issue. If this slips, it hurts the
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
 - [[context/dashboard]]
 - [[goals/oh-v2-launch]]
+- [[items/oh-production-migration]]
+- [[project_state/oh]]
+
 
 ## Recommendation
 Treat as project-critical launch work. Do not broaden scope until the gap is closed and verified.

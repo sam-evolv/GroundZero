@@ -67,6 +67,13 @@ Confirm the learned skill has a `SKILL.md` with trigger conditions, procedure, p
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[context/automation-ideas]]
+- [[context/capture-workflow]]
+- [[context/claude-vault-integration]]
 - [[context/index]]
+- [[context/llm-wiki-pattern]]
 - [[context/model-pack]]
+- [[context/review-workflow]]
+- [[items/ops-source-to-wiki-ingest]]
+- [[people/sam-donworth]]
 

@@ -49,6 +49,7 @@ This note is for quick loading, not deep understanding. If the task is strategic
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
 - [[context/claude-access-observed]]
 - [[context/claude-vault-integration]]
 - [[context/index]]

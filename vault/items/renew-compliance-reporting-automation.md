@@ -59,10 +59,14 @@ Good. Distributed energy operators are under pressure to do more with fewer admi
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/solar-installer-software-wedge]]
+- [[briefs/solar-installer-workflow-analysis]]
 - [[companies/evolv-renewables]]
 - [[goals/renew-pipeline]]
 - [[items/ops-daily-sync-digest]]
+- [[items/renew-compliance-portal]]
 - [[items/renew-grid-automation]]
+- [[project_state/renew]]
+
 
 ## Recommendation
 Project-worthy once reporting cadence hardens. If installs and surveys keep moving, this becomes the backbone of a broader client-facing reporting product.

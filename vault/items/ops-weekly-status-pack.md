@@ -47,4 +47,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]
 - [[context/ops-automation-moc]]
 - [[context/review-workflow]]
+- [[items/ops-daily-report-pack]]
+- [[items/ops-daily-sync-digest]]
+- [[items/ops-project-state-reconciler]]
 

@@ -92,8 +92,11 @@ That makes the first sale easier because the buyer is not just buying software; 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/10-non-common-ai-money-ideas]]
+- [[briefs/ai-money-patterns-2026-06]]
 - [[context/business-opportunities-moc]]
+- [[context/consulting-wedges]]
 - [[context/dashboard]]
 - [[context/index]]
 - [[context/irish-food-waste-wedge]]
+- [[people/sam-donworth]]
 

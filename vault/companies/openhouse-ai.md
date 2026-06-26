@@ -76,6 +76,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
 - [[briefs/2026-06-25]]
 - [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/openhouse-ndrc-accelerator-pitch]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-workflow-analysis]]
 - [[context/autonomous-business-launch-loop]]

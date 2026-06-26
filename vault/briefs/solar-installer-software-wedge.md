@@ -82,8 +82,10 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/ground-zero-structure]]
 - [[goals/renew-pipeline]]
 - [[items/renew-compliance-portal]]
+- [[items/renew-compliance-reporting-automation]]
 - [[items/renew-grid-automation]]
 - [[project_state/renew]]
+
 
 ## Recommendation
 Build this **only** if the wedge is narrow and operational:

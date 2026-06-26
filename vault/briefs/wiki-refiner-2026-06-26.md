@@ -2,7 +2,7 @@
 title: Wiki Refiner 2026-06-26
 kind: wiki_refiner_brief
 date: "2026-06-26"
-ran_at: "2026-06-26T21:36:37+01:00"
+ran_at: "2026-06-26T21:50:29+01:00"
 ---
 
 # Wiki Refiner 2026-06-26
@@ -21,15 +21,15 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
   - Related: [[context/capture-workflow]], [[context/ground-zero-structure]], [[context/llm-wiki-pattern]], [[context/autonomous-business-launch-loop]]
 
 ## Strongest connected notes
-- [[companies/openhouse-ai]] (212)
-- [[project_state/oh]] (81)
-- [[briefs/openhouse-energy-assistant-wedge]] (77)
-- [[items/oh-production-migration]] (65)
-- [[briefs/2026-06-25]] (58)
-- [[items/oh-warranty-filter]] (56)
+- [[companies/openhouse-ai]] (216)
+- [[project_state/oh]] (91)
+- [[briefs/openhouse-energy-assistant-wedge]] (79)
+- [[items/oh-production-migration]] (69)
+- [[briefs/2026-06-25]] (60)
+- [[items/oh-warranty-filter]] (58)
 - [[context/llm-wiki-pattern]] (51)
-- [[context/autonomous-business-launch-loop]] (37)
-- [[context/scaling-playbook]] (37)
+- [[context/autonomous-business-launch-loop]] (38)
+- [[context/scaling-playbook]] (38)
 - [[context/capture-workflow]] (30)
 - [[context/ops-automation-moc]] (29)
 - [[context/ground-zero-structure]] (14)

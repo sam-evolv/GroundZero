@@ -30,5 +30,8 @@ This item is closed.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+- [[goals/oh-v2-launch]]
 - [[items/oh-production-migration]]
+- [[project_state/oh]]
 

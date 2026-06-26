@@ -56,10 +56,12 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/dashboard]]
 - [[context/openhouse-product-map]]
 - [[goals/oh-activation]]
+- [[goals/oh-aftercare-os]]
 - [[items/oh-handover-readiness-scan]]
 - [[items/oh-onboarding-packet-automation]]
 - [[items/oh-scheme-launch-scorecard]]
 - [[project_state/oh]]
+
 
 ## Recommendation
 This is one of the strongest candidates to become a project because it attacks the metric that is currently stuck. It should move ahead once migration work is quiet enough to support UX changes.

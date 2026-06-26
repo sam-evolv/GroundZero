@@ -95,6 +95,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]
+- [[companies/evolv-renewables]]
+- [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[context/healthcare-revenue-cycle-wedge]]
 - [[context/index]]
@@ -104,4 +106,5 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/openhouse-sales-routes]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-funder-pitch]]
+- [[people/sam-donworth]]
 

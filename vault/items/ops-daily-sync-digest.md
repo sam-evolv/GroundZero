@@ -59,6 +59,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/dashboard]]
 - [[context/ops-automation-moc]]
 - [[context/review-workflow]]
+- [[goals/oh-v2-launch]]
+- [[items/ob-no-show-deposits]]
 - [[items/oh-production-migration]]
 - [[items/ops-capture-inbox-refinery]]
 - [[items/ops-daily-report-pack]]
@@ -68,6 +70,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-project-state-reconciler]]
 - [[items/ops-source-to-wiki-ingest]]
 - [[items/ops-weekly-status-pack]]
+- [[items/renew-compliance-reporting-automation]]
+
 
 ## Recommendation
 Strong candidate for a standing internal project. It is broad, cheap to run, and directly improves the quality of every other incubation pass.

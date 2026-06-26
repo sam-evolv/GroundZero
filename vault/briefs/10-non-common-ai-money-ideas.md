@@ -90,8 +90,12 @@ If AI does not save measurable time or unlock revenue inside a real workflow, it
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/ai-money-patterns-2026-06]]
+- [[briefs/solar-installer-software-wedge]]
 - [[context/business-opportunities-moc]]
+- [[context/consulting-wedges]]
 - [[context/healthcare-revenue-cycle-wedge]]
 - [[context/irish-food-waste-wedge]]
 - [[context/irish-prompt-payment-copilot]]
+- [[items/oh-warranty-triage-router]]
+- [[people/sam-donworth]]
 

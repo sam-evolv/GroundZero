@@ -55,10 +55,13 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]
 - [[companies/openbook]]
 - [[goals/ob-retention]]
+- [[goals/ob-supply]]
 - [[items/ob-no-show-deposit-workflow]]
 - [[items/ob-no-show-deposits]]
 - [[items/ob-realtime-availability]]
 - [[items/ob-venue-health-radar]]
+- [[project_state/ob]]
+
 
 ## Recommendation
 This is a solid follow-on project after realtime availability and deposit workflows. It is commercially meaningful, but it depends on reliable booking state first.

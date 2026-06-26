@@ -49,16 +49,22 @@ The pitch should make the company feel like a category with a real wedge, a real
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/openhouse-ndrc-accelerator-pitch]]
 - [[companies/openhouse-ai]]
 - [[context/autonomous-business-launch-loop]]
 - [[context/consulting-wedges]]
 - [[context/openhouse-sales-routes]]
 - [[context/scaling-playbook]]
 - [[context/solo-founder-era]]
+- [[decisions/ground-zero-canonical]]
+- [[goals/oh-activation]]
+- [[goals/oh-aftercare-os]]
 - [[goals/oh-v2-launch]]
 - [[items/oh-pricing-experiment]]
 - [[items/ops-meeting-followup-assembler]]
 - [[people/sam-donworth]]
+- [[project_state/oh]]
+
 
 ## Guardrails
 

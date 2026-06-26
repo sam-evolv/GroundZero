@@ -83,9 +83,23 @@ Use `read_file` on `/Users/samdonworth/GroundZero/vault/context/index.md` and co
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/planet-satellite-opportunity]]
+- [[briefs/solar-installer-software-wedge]]
+- [[companies/evolv-renewables]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
+- [[context/capture-workflow]]
 - [[context/dashboard]]
 - [[context/index]]
 - [[context/model-pack]]
 - [[context/ops-automation-moc]]
+- [[context/review-workflow]]
 - [[decisions/ground-zero-canonical]]
+- [[goals/ob-retention]]
+- [[goals/oh-activation]]
+- [[goals/oh-v2-launch]]
+- [[people/sam-donworth]]
+- [[project_state/ob]]
+- [[project_state/oh]]
+- [[project_state/renew]]
 

@@ -96,7 +96,14 @@ Build a target list of 50 developers and 20 partner channels, then test 3 messag
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[companies/openhouse-ai]]
+- [[context/consulting-wedges]]
 - [[context/index]]
+- [[context/openhouse-product-map]]
 - [[context/solo-founder-era]]
+- [[goals/oh-activation]]
+- [[goals/oh-funder-pitch]]
+- [[people/sam-donworth]]
 

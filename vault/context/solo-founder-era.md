@@ -48,8 +48,17 @@ Read this alongside [[context/autonomous-business-launch-loop]] and [[context/sc
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[companies/evolv-renewables]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
+- [[context/autonomous-business-launch-loop]]
+- [[context/business-opportunities-moc]]
 - [[context/index]]
 - [[context/model-pack]]
 - [[context/openhouse-sales-routes]]
+- [[context/scaling-playbook]]
+- [[goals/oh-funder-pitch]]
+- [[people/sam-donworth]]
 

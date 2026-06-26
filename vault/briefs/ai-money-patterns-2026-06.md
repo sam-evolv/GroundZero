@@ -104,7 +104,10 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/scaling-playbook]]
 - [[context/solo-founder-era]]
 - [[goals/ob-retention]]
+- [[goals/oh-funder-pitch]]
 - [[goals/oh-guardrails-active]]
 - [[goals/renew-pipeline]]
+- [[items/oh-warranty-triage-router]]
+- [[items/ops-daily-sync-digest]]
 - [[people/sam-donworth]]
 

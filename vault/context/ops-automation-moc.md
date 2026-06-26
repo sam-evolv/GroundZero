@@ -62,9 +62,17 @@ These explain *why* the automation matters, not just what it does:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/evolv-renewables]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
 - [[context/automation-ideas]]
+- [[context/capture-workflow]]
 - [[context/dashboard]]
+- [[context/ground-zero-structure]]
 - [[context/index]]
+- [[context/llm-wiki-pattern]]
+- [[context/review-workflow]]
+- [[items/oh-warranty-triage-router]]
 - [[items/ops-capture-inbox-refinery]]
 - [[items/ops-daily-report-pack]]
 - [[items/ops-daily-sync-digest]]
@@ -74,6 +82,10 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-project-state-reconciler]]
 - [[items/ops-source-to-wiki-ingest]]
 - [[items/ops-weekly-status-pack]]
+- [[project_state/ob]]
+- [[project_state/oh]]
+- [[project_state/renew]]
+
 
 ## See also
 

@@ -34,9 +34,11 @@ Guardrails are the gate on every AI surface. No active guardrails = no AI concie
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/ai-money-patterns-2026-06]]
 - [[companies/openhouse-ai]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-room-inference]]
 - [[items/oh-guardrails-eval]]
 - [[items/oh-warranty-triage-router]]
+- [[project_state/oh]]
 

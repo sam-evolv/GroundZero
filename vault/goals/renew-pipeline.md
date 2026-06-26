@@ -42,6 +42,7 @@ One install is generating; one is in survey. The automation work below protects 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
+- [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]

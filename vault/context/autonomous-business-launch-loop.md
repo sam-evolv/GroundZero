@@ -223,9 +223,18 @@ Given the current context, the strongest first bets are likely:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/ai-money-patterns-2026-06]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
+- [[context/business-opportunities-moc]]
+- [[context/capture-workflow]]
 - [[context/index]]
 - [[context/model-pack]]
 - [[context/solo-founder-era]]
+- [[goals/ob-retention]]
+- [[goals/oh-funder-pitch]]
+- [[people/sam-donworth]]
+
 
 ## Recommendation
 

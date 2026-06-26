@@ -54,6 +54,9 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/capture-workflow]]
 - [[context/learn-targets]]
 - [[context/llm-wiki-pattern]]
+- [[context/model-pack]]
 - [[context/ops-automation-moc]]
+- [[context/review-workflow]]
 - [[items/ops-capture-inbox-refinery]]
+- [[items/ops-daily-sync-digest]]
 

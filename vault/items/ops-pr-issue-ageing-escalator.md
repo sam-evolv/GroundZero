@@ -46,8 +46,11 @@ P1
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]
+- [[companies/openhouse-ai]]
 - [[context/dashboard]]
 - [[context/ops-automation-moc]]
+- [[goals/oh-v2-launch]]
 - [[items/oh-production-migration]]
+- [[items/ops-daily-report-pack]]
 - [[items/ops-daily-sync-digest]]
 

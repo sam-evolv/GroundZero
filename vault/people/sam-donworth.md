@@ -48,6 +48,9 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/solar-installer-workflow-analysis]]
+- [[companies/evolv-renewables]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
 - [[context/autonomous-business-launch-loop]]
 - [[context/capture-workflow]]
 - [[context/claude-vault-integration]]
@@ -63,5 +66,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/scaling-playbook]]
 - [[context/solo-founder-era]]
 - [[decisions/ground-zero-canonical]]
+- [[goals/oh-activation]]
 - [[goals/oh-funder-pitch]]
 

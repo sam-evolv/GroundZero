@@ -44,8 +44,11 @@ Use room measurements and photo uploads to auto-identify room types and features
 _Auto-generated: updated by wiki-refiner_
 - [[companies/openhouse-ai]]
 - [[context/openhouse-product-map]]
+- [[goals/oh-activation]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-guardrails-active]]
 - [[items/oh-warranty-evidence-pack]]
 - [[items/oh-warranty-filter]]
+- [[items/oh-warranty-triage-router]]
+- [[project_state/oh]]
 

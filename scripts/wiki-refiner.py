@@ -682,6 +682,10 @@ def main() -> int:
     # NEW: auto-backlink pass
     backlinks = run_backlinks(sources, notes)
     reverse_count = refresh_reverse_backlinks(notes)
+
+    # Update the dashboard
+    import subprocess, sys as _sys
+    subprocess.run([_sys.executable, str(Path(__file__).resolve().parent / "update-dashboard.py")], capture_output=True)
     
     content = build_brief(notes, sources, filing, backlinks)
     

@@ -179,6 +179,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "scripts/update-dashboard.py",
     "vault/decisions/_Index.md",
     "vault/context/dashboard.md",
     "vault/Daily/_Index.md",
@@ -206,7 +207,6 @@
     "vault/items/ops-meeting-followup-assembler.md",
     "vault/items/ops-daily-report-pack.md",
     "vault/items/ops-pr-issue-ageing-escalator.md",
-    "vault/items/ob-cancellation-waitlist.md",
     "vault/Daily",
     "vault/launch-signals",
     "src/components/launch/LaunchSignalForm.tsx",

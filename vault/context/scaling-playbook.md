@@ -117,8 +117,12 @@ Then wire the most important notes into MCP and any AI entry point so every mode
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/ai-money-patterns-2026-06]]
+- [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
+- [[context/index]]
 - [[context/model-pack]]
 - [[context/solo-founder-era]]
 - [[goals/oh-funder-pitch]]
+- [[people/sam-donworth]]
 

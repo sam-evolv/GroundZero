@@ -78,10 +78,28 @@ Use this note when a model needs quick, high-signal context.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/evolv-renewables]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
+- [[context/automation-ideas]]
+- [[context/autonomous-business-launch-loop]]
+- [[context/capture-workflow]]
+- [[context/claude-access-observed]]
 - [[context/claude-quickstart]]
+- [[context/claude-vault-integration]]
 - [[context/ground-zero-structure]]
 - [[context/index]]
+- [[context/learn-targets]]
+- [[context/llm-wiki-pattern]]
+- [[context/review-workflow]]
 - [[context/scaling-playbook]]
+- [[context/solo-founder-era]]
+- [[goals/ob-retention]]
+- [[goals/oh-activation]]
+- [[goals/oh-v2-launch]]
 - [[items/ops-source-to-wiki-ingest]]
 - [[people/sam-donworth]]
+- [[project_state/ob]]
+- [[project_state/oh]]
+- [[project_state/renew]]
 

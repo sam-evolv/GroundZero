@@ -37,6 +37,8 @@ This keeps the next session from assuming the access path or company naming is a
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+- [[context/capture-workflow]]
 - [[context/claude-quickstart]]
 - [[context/claude-vault-integration]]
 - [[context/index]]

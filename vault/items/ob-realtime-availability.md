@@ -53,9 +53,13 @@ Strong. Realtime availability is now expected in modern booking software, and it
 _Auto-generated: updated by wiki-refiner_
 - [[companies/openbook]]
 - [[context/dashboard]]
+- [[goals/ob-retention]]
 - [[goals/ob-supply]]
 - [[items/ob-cancellation-waitlist]]
+- [[items/ob-no-show-deposit-workflow]]
+- [[items/ob-no-show-deposits]]
 - [[project_state/ob]]
+
 
 ## Recommendation
 This is project-ready. Ship it or keep it in the immediate implementation queue.

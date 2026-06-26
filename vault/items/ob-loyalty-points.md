@@ -24,3 +24,13 @@ created_at: "2026-06-09T06:30:00Z"
 updated_at: "2026-06-26T16:56:31+01:00"
 sync_status: "Checked 2026-06-26 16:56 IST. No OpenBook live-system change was checked in this sync."
 ---
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openbook]]
+- [[goals/ob-retention]]
+- [[goals/ob-supply]]
+- [[items/ob-no-show-deposits]]
+- [[items/ob-venue-health-radar]]
+- [[project_state/ob]]
+

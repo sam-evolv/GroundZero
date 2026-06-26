@@ -58,7 +58,12 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
+- [[briefs/solar-installer-workflow-analysis]]
+- [[companies/evolv-renewables]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
 - [[context/autonomous-business-launch-loop]]
+- [[context/capture-workflow]]
 - [[context/consulting-wedges]]
 - [[context/dashboard]]
 - [[context/healthcare-revenue-cycle-wedge]]
@@ -68,6 +73,10 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/llm-wiki-pattern]]
 - [[context/scaling-playbook]]
 - [[context/solo-founder-era]]
+- [[items/ob-no-show-deposits]]
+- [[items/ob-venue-health-radar]]
+- [[items/renew-grid-automation]]
+
 
 ## See also
 

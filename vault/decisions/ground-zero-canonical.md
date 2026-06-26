@@ -34,5 +34,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/capture-workflow]]
 - [[context/claude-vault-integration]]
 - [[context/ground-zero-structure]]
+- [[context/review-workflow]]
 - [[goals/oh-funder-pitch]]
+- [[items/ops-project-state-reconciler]]
+- [[people/sam-donworth]]
 

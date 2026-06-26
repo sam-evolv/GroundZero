@@ -135,12 +135,16 @@ not to compete as another roof-and-electrician business.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[companies/evolv-renewables]]
+- [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[context/consulting-wedges]]
 - [[goals/renew-pipeline]]
 - [[items/renew-compliance-reporting-automation]]
 - [[items/renew-grid-automation]]
+- [[people/sam-donworth]]
 

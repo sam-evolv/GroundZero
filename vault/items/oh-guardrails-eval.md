@@ -50,9 +50,13 @@ Very timely. Teams shipping AI features are moving toward stronger eval gates, e
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
 - [[context/dashboard]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-guardrails-active]]
+- [[items/oh-warranty-triage-router]]
+- [[project_state/oh]]
+
 
 ## Recommendation
 This should stay inside the active guardrails project. Once the suite is bigger and stable, it becomes reasonable to flip from shadow to active mode.

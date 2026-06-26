@@ -51,10 +51,16 @@ Timely. Buyers increasingly expect software that proves operational readiness, n
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+- [[context/openhouse-product-map]]
 - [[goals/oh-activation]]
+- [[goals/oh-aftercare-os]]
 - [[items/oh-onboarding-cut]]
 - [[items/oh-onboarding-packet-automation]]
 - [[items/oh-scheme-launch-scorecard]]
+- [[items/oh-warranty-evidence-pack]]
+- [[project_state/oh]]
+
 
 ## Recommendation
 This is a strong project candidate because it sits above several existing OpenHouse workflows and creates a better management layer for launch readiness. It pairs well with onboarding packet automation and warranty evidence packs.

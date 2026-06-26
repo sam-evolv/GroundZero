@@ -46,5 +46,14 @@ Usage-based and hybrid pricing are normal now, especially when power users consu
 - agency economics
 - future product packaging
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+- [[goals/oh-activation]]
+- [[goals/oh-funder-pitch]]
+- [[goals/oh-v2-launch]]
+- [[project_state/oh]]
+
 ## Recommendation
 This is a plausible project once the V2 launch is stable. It should not distract from the current reliability work.

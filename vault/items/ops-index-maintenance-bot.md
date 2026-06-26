@@ -45,7 +45,10 @@ P2
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[context/automation-ideas]]
+- [[context/capture-workflow]]
 - [[context/ops-automation-moc]]
+- [[items/ops-daily-sync-digest]]
+
 
 ## Recommendation
 Low risk and easy to justify. It is not as valuable as the daily digest itself, but it removes a chore that happens every time the council adds new proposals.

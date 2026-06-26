@@ -75,10 +75,13 @@ If Claude does not see the vault after a config change:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+- [[context/capture-workflow]]
 - [[context/claude-access-observed]]
 - [[context/claude-quickstart]]
 - [[context/index]]
 - [[context/learn-targets]]
 - [[context/model-pack]]
 - [[decisions/ground-zero-canonical]]
+- [[people/sam-donworth]]
 

@@ -46,4 +46,7 @@ P3
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]
 - [[context/ops-automation-moc]]
+- [[goals/oh-funder-pitch]]
+- [[items/oh-onboarding-packet-automation]]
+- [[items/ops-daily-sync-digest]]
 

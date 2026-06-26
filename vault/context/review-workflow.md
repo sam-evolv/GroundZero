@@ -69,6 +69,7 @@ Use `read_file` on the current `project_state/` note and confirm it matches the 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[context/automation-ideas]]
+- [[context/capture-workflow]]
 - [[context/ground-zero-structure]]
 - [[context/index]]
 - [[context/learn-targets]]
@@ -76,5 +77,11 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/ops-automation-moc]]
 - [[decisions/ground-zero-canonical]]
 - [[items/ops-capture-inbox-refinery]]
+- [[items/ops-daily-sync-digest]]
+- [[items/ops-project-state-reconciler]]
 - [[items/ops-source-to-wiki-ingest]]
+- [[items/ops-weekly-status-pack]]
+- [[project_state/ob]]
+- [[project_state/oh]]
+- [[project_state/renew]]
 

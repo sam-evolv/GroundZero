@@ -61,5 +61,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ob-no-show-deposits]]
 - [[project_state/ob]]
 
+
 ## Recommendation
 Good follow-on after the no-show reduction and availability work. This would give OpenBook a sharper retention layer without adding much operational overhead.

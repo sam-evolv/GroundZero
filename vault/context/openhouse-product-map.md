@@ -92,8 +92,10 @@ If a person asks what OpenHouse does, say:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
 - [[companies/openhouse-ai]]
+- [[context/consulting-wedges]]
 - [[context/index]]
 - [[context/openhouse-sales-routes]]
 - [[goals/oh-activation]]
@@ -103,4 +105,5 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/oh-onboarding-cut]]
 - [[items/oh-scheme-launch-scorecard]]
 - [[items/oh-warranty-evidence-pack]]
+- [[items/oh-warranty-triage-router]]
 

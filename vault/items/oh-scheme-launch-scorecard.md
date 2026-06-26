@@ -53,8 +53,17 @@ Timely. Buyers want software that proves readiness and auditability, not just ta
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+- [[context/openhouse-product-map]]
 - [[goals/oh-activation]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-v2-launch]]
+- [[items/oh-handover-readiness-scan]]
 - [[items/oh-onboarding-cut]]
+- [[items/oh-onboarding-packet-automation]]
+- [[items/oh-warranty-evidence-pack]]
+- [[project_state/oh]]
+
 
 ## Recommendation
 Strong project candidate once migration work is quieter. This is a natural premium layer above the existing launch and aftercare workflow.
