@@ -11,6 +11,12 @@ This note captures the operating pattern behind a Hermes-driven Obsidian knowled
 
 Turn raw sources into durable, interlinked markdown notes instead of letting them sit in isolation.
 
+## Current implementation
+- Refiner script: `scripts/wiki-refiner.py`
+- Hermes cron job: `Ground Zero LLM Wiki Refiner` (`338ecd7eae63`)
+- Daily output: `briefs/wiki-refiner-YYYY-MM-DD.md`
+- Sync hook: `scripts/sync-vault.sh` runs the refiner before vault sync so the wiki compounds on every pull/push pass
+
 ## Inputs
 
 - `vault/imports/` for raw source drops and external exports

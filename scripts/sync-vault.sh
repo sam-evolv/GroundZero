@@ -13,6 +13,10 @@ cd "$REPO_DIR"
 echo "Pulling latest from GitHub..."
 git pull origin claude/gallant-tesla-YJu9m
 
+# Run the wiki refiner before syncing so raw imports and inbox scraps
+# turn into a dated brief and keep the wiki connected.
+python3 "$REPO_DIR/scripts/wiki-refiner.py"
+
 # Stage any local changes
 cd "$VAULT_DIR"
 if [ -n "$(git status --porcelain)" ]; then
