@@ -37,6 +37,15 @@ Medium today, larger as the pipeline scales. A few hours a week of reporting dra
 ## Effort
 M to L. The build is manageable, but it depends on the underlying data model being stable enough to trust.
 
+## Connects to
+
+- [[items/renew-grid-automation]] — sister grid automation
+- [[items/renew-compliance-portal]] — portal is the productized follow-on
+- [[goals/renew-pipeline]] — primary feeding goal
+- [[companies/evolv-renewables]] — parent company
+- [[project_state/renew]] — live status
+- [[briefs/solar-installer-workflow-analysis]] — Irish solar evidence
+
 ## Market timing
 Good. Distributed energy operators are under pressure to do more with fewer admin hours, and simple evidence-heavy automation is a straightforward value proposition.
 

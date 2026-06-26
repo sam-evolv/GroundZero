@@ -41,10 +41,15 @@ M. Mostly integration and rule-setting. The first useful version is a few hours 
 Timely. The broader trend is toward agentic ops tooling that compresses status reporting and highlights exceptions rather than asking humans to manually assemble a standup.
 
 ## Connects to
-- OpenHouse production migration
-- OpenHouse open issues and PR triage
-- OpenBook launch hygiene
-- Renew reporting and compliance cadence
+
+- [[items/oh-production-migration]] — OH production migration
+- [[items/ops-pr-issue-ageing-escalator]] — OH open issues and PR triage
+- [[items/ob-no-show-deposits]] — OB launch hygiene
+- [[items/renew-compliance-reporting-automation]] — Renew reporting cadence
+- [[items/ops-daily-report-pack]] — sister daily report
+- [[items/ops-project-state-reconciler]] — state reconciliation
+- [[context/ops-automation-moc]] — MOC hub
+- [[goals/oh-v2-launch]] — V2 migration goal
 
 ## Recommendation
 Strong candidate for a standing internal project. It is broad, cheap to run, and directly improves the quality of every other incubation pass.

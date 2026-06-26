@@ -29,6 +29,19 @@ This is the first note to load when a model needs cross-business context.
 - **capture/**: temporary inbox for uncategorized facts
 - **imports/**: raw source material and exports from other systems
 
+## MOC hubs (Maps of Content)
+
+- [[context/business-opportunities-moc]] — all wedge/opportunity briefs + cross-cutting themes
+- [[context/ops-automation-moc]] — cross-company ops automation backlog
+- [[items/_Index|items/_Index.md]] — active idea queue (item MOC)
+
+## Cross-cutting themes
+
+- [[context/llm-wiki-pattern]] — self-maintaining AI wiki (Gipp pattern)
+- [[context/solo-founder-era]] — solo founder + agentic commerce thesis
+- [[context/openhouse-sales-routes]] — sales routes for OpenHouse
+- [[briefs/planet-satellite-opportunity]] — satellite imagery cross-domain bridge
+
 ## Current picture
 - OpenHouse AI is the main focus. Production migration stabilisation continues, Sprint 5 PRs #184 and #186 are merged, and Vercel production is currently healthy.
 - OpenBook is a founder-led growth play with no-shows as the clearest churn lever.

@@ -38,10 +38,15 @@ M. A focused design and build slice, likely a few days if scope stays tight.
 Very timely. Best-in-class SaaS onboarding is increasingly AI-assisted and shorter, not longer. Users expect fast setup and instant value.
 
 ## Connects to
-- oh-activation
-- oh-aftercare-os
-- first-time agent success
-- premium experience bar
+
+- [[goals/oh-activation]] — primary feeding goal: activation is the gate
+- [[goals/oh-aftercare-os]] — aftercare OS vision this serves
+- [[items/oh-onboarding-packet-automation]] — sister item: packet + flow cut compound
+- [[items/oh-handover-readiness-scan]] — readiness scan feeds onboarding quality
+- [[items/oh-scheme-launch-scorecard]] — scorecard is the management view
+- [[companies/openhouse-ai]] — parent company
+- [[project_state/oh]] — live status
+- [[context/openhouse-product-map]] — product surface this ships on
 
 ## Recommendation
 This is one of the strongest candidates to become a project because it attacks the metric that is currently stuck. It should move ahead once migration work is quiet enough to support UX changes.

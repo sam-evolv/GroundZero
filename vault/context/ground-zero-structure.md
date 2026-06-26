@@ -29,15 +29,31 @@ Start at `vault/context/index.md`, then open the relevant domain note before edi
 
 ## Quick Reference
 
-- `people/` = stable personal preferences, working style, operating rules
-- `companies/` = canonical facts about each venture
-- `project_state/` = current headline status for active work
-- `goals/` = durable outcomes and targets
-- `items/` = active work and tactical tasks
-- `decisions/` = durable decisions and why they were made
-- `briefs/` = dated snapshots and handoff summaries
-- `context/` = shared entry points and operating notes
-- `capture/` = temporary inbox for uncategorized facts
+- `people/` = stable personal preferences → [[people/sam-donworth]]
+- `companies/` = canonical facts → [[companies/openhouse-ai]], [[companies/openbook]], [[companies/evolv-renewables]]
+- `project_state/` = current status → [[project_state/oh]], [[project_state/ob]], [[project_state/renew]]
+- `goals/` = target outcomes → [[goals/oh-activation]], [[goals/oh-v2-launch]], [[goals/ob-retention]]
+- `items/` = active work → [[items/_Index]]
+- `decisions/` = why choices were made → [[decisions/ground-zero-canonical]]
+- `briefs/` = dated snapshots → [[briefs/planet-satellite-opportunity]], [[briefs/solar-installer-software-wedge]]
+- `context/` = shared entry points → [[context/index]]
+- `capture/` = temporary inbox → [[capture/inbox]]
+## Connected vault notes
+
+- [[context/index]] — main entry point
+- [[context/model-pack]] — compact model context
+- [[context/capture-workflow]] — how information flows in
+- [[context/review-workflow]] — how it stays fresh
+- [[decisions/ground-zero-canonical]] — vault is canonical
+- [[README]] — pipeline update
+- [[Daily/_Index]] — chronological index of daily run notes
+- [[imports/claude/README.md]] — Claude import inbox
+- [[templates/company]] — starter shape for companies
+- [[templates/decision]] — starter shape for decisions
+- [[templates/goal]] — starter shape for goals
+- [[templates/item]] — starter shape for items
+- [[templates/person]] — starter shape for people
+- [[templates/project-state]] — starter shape for project state
 - `imports/` = raw source material from external systems
 - `templates/` = starter shapes for new notes
 

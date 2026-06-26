@@ -1,51 +1,64 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-06-26T18:02:52+01:00"
+updated_at: "2026-06-26"
 ---
 
 # Ideas Index
 
-This index tracks the current active idea queue. Snoozed ideas stay out of the active lane.
+This index tracks the current active idea queue. Each entry links to its item note.
 
 ## OpenHouse AI
-- [[oh-warranty-filter]] - fast follow UI and data fix, S, proposed
-- [[oh-production-migration]] - launch hygiene, S, proposed
-- [[oh-guardrails-eval]] - active guardrails project, M, proposed
-- [[oh-rls-audit]] - launch-critical security fix, S, building
-- [[oh-pricing-experiment]] - possible post-launch project, M, proposed
-- [[oh-onboarding-cut]] - strongest project candidate, M, proposed
-- [[oh-warranty-evidence-pack]] - new idea from gap analysis, M, proposed
-- [[oh-handover-readiness-scan]] - new gap-analysis idea, M, proposed
-- [[oh-scheme-launch-scorecard]] - new gap-analysis idea, M, proposed
+
+| Item | Summary | Size | Status |
+|---|---|---|---|
+| [[items/oh-onboarding-cut]] | Cut agent onboarding to three screens | M | proposed 🔥 |
+| [[items/oh-onboarding-packet-automation]] | Auto-generate onboarding packet | M | proposed |
+| [[items/oh-handover-readiness-scan]] | Handover readiness scan | M | proposed |
+| [[items/oh-scheme-launch-scorecard]] | Single launch scorecard | M | proposed |
+| [[items/oh-warranty-triage-router]] | AI issue triage + draft reply | M | proposed |
+| [[items/oh-warranty-evidence-pack]] | Warranty evidence from photos + history | M | proposed |
+| [[items/oh-guardrails-eval]] | Expand guardrails eval to 50+ | M | proposed |
+| [[items/oh-pricing-experiment]] | Post-launch pricing experiment | M | proposed |
+| [[items/oh-production-migration]] | Stabilize production migration | S | proposed |
+| [[items/oh-warranty-filter]] | Warranty filter on dashboard | S | proposed |
+| [[items/oh-rls-audit]] | RLS policy audit | S | building |
 
 ## OpenBook
-- [[ob-realtime-availability]] - project-ready, L, pr_ready
-- [[ob-no-show-deposits]] - clearest commercial lever, L, proposed
-- [[ob-cancellation-waitlist]] - new gap-analysis idea, M, proposed
-- [[ob-venue-health-radar]] - new gap-analysis idea, M, proposed
+
+| Item | Summary | Size | Status |
+|---|---|---|---|
+| [[items/ob-no-show-deposits]] | Refundable deposits to kill no-shows | L | proposed |
+| [[items/ob-no-show-deposit-workflow]] | Automate deposit + reminder sequence | M | proposed |
+| [[items/ob-realtime-availability]] | Live venue calendar sync | L | pr_ready |
+| [[items/ob-venue-health-radar]] | Venue churn health score | M | proposed |
+| [[items/ob-cancellation-waitlist]] | Auto-fill from waitlist | M | proposed |
+| [[items/ob-loyalty-points]] | Cross-venue loyalty points | L | snoozed |
 
 ## Evolv Renewables
-- [[renew-grid-automation]] - likely project-worthy, M, proposed
-- [[renew-compliance-portal]] - new idea from gap analysis, M, proposed
+
+| Item | Summary | Size | Status |
+|---|---|---|---|
+| [[items/renew-grid-automation]] | Automate grid export reporting | M | proposed |
+| [[items/renew-compliance-portal]] | Client compliance portal | M | proposed |
+| [[items/renew-compliance-reporting-automation]] | Auto-build compliance packs | M | proposed |
 
 ## Operations
-- [[ops-pr-issue-ageing-escalator]] - GitHub triage pass, P1, proposed
-- [[ops-daily-report-pack]] - daily cross-company report pack, P1, proposed
-- [[ops-daily-sync-digest]] - cross-company daily ops digest, P1, proposed
-- [[ops-source-to-wiki-ingest]] - source-to-note wiki pass, P1, proposed
-- [[ops-project-state-reconciler]] - state sync bookkeeping, P1, proposed
-- [[ops-capture-inbox-refinery]] - vault hygiene and capture filing, P2, proposed
-- [[ops-weekly-status-pack]] - weekly cross-company status pack, P2, proposed
-- [[ops-index-maintenance-bot]] - index and daily log housekeeping, P2, proposed
-- [[oh-onboarding-packet-automation]] - OpenHouse onboarding packet, P2, proposed
-- [[ob-no-show-deposit-workflow]] - OpenBook deposit and no-show prevention, P2, proposed
-- [[ops-meeting-followup-assembler]] - follow-up drafting and scheduling, P3, proposed
-- [[oh-warranty-triage-router]] - OpenHouse warranty triage router, P3, proposed
-- [[renew-compliance-reporting-automation]] - Renew compliance reporting, P3, proposed
 
-## Closed or complete
-- [[oh-sprint5-close]] - closed, do not re-propose
+| Item | Summary | Priority | Status |
+|---|---|---|---|
+| [[items/ops-daily-sync-digest]] | Daily ops anomaly check | P1 | proposed |
+| [[items/ops-project-state-reconciler]] | Reconcile project_state from live signals | P1 | proposed |
+| [[items/ops-source-to-wiki-ingest]] | Auto-file imports into wiki | P1 | proposed |
+| [[items/ops-pr-issue-ageing-escalator]] | Stale PR/issue escalation | P1 | proposed |
+| [[items/ops-daily-report-pack]] | Daily reporting per company | P1 | proposed |
+| [[items/ops-weekly-status-pack]] | Weekly cross-company brief | P2 | proposed |
+| [[items/ops-index-maintenance-bot]] | Auto-maintain items/_Index.md | P2 | proposed |
+| [[items/ops-capture-inbox-refinery]] | File capture inbox scraps | P2 | proposed |
+| [[items/ops-meeting-followup-assembler]] | Post-meeting recap + scheduling | P3 | proposed |
 
-## Snoozed
-- [[ob-loyalty-points]] - parked, do not pursue now
+## Cross-references
+
+- Goals feeding these items: [[goals/oh-activation]], [[goals/oh-aftercare-os]], [[goals/oh-v2-launch]], [[goals/oh-guardrails-active]], [[goals/oh-room-inference]], [[goals/ob-retention]], [[goals/ob-supply]], [[goals/renew-pipeline]]
+- Ops MOC: [[context/ops-automation-moc]]
+- Business opportunities: [[context/business-opportunities-moc]]

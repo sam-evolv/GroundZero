@@ -37,6 +37,16 @@ Write durable updates back into the vault, not into chat memory.
 - Tactical work goes in `items/`
 - Temporary scraps go in `capture/inbox.md`
 
+## Connected vault notes
+
+- [[context/claude-quickstart]] — quickest path
+- [[context/claude-access-observed]] — access observations
+- [[context/capture-workflow]] — how Claude files notes back
+- [[imports/claude/openhouse-company-memory]] — what Claude reads
+- [[companies/openhouse-ai]] — primary company
+- [[people/sam-donworth]] — founder context
+- [[decisions/ground-zero-canonical]] — vault is canonical
+
 ## Operating principles
 
 - Treat the vault as the source of truth

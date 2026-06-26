@@ -37,7 +37,14 @@ S. Mostly monitoring and validation, plus a small cleanup step at the end.
 Not market-driven, but operationally urgent. A production data cleanup is the kind of task that protects the whole commercial story.
 
 ## Connects to
-- OpenHouse V2 launch
+
+- [[goals/oh-v2-launch]] — primary feeding goal
+- [[goals/oh-activation]] — activation work scales after V2
+- [[items/oh-sprint5-close]] — sprint 5 is merged into this
+- [[items/ops-pr-issue-ageing-escalator]] — PR triage monitors this
+- [[items/ops-daily-sync-digest]] — daily monitoring
+- [[companies/openhouse-ai]] — parent company
+- [[project_state/oh]] — live status
 - Sprint 5 fixes
 - premium trust bar
 

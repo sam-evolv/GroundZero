@@ -18,6 +18,20 @@ The strongest version is not "a chatbot for solar panels". It is an evidence and
 - **Investor / lender / certification value:** cleaner evidence for HPI / HPP, green finance, ESG reporting, and operational performance narratives.
 - **OpenHouse moat:** device context, scheme context, handover docs, homeowner questions, issue reports, warranties, and bills all compound into a domain-specific data layer generic portals do not have.
 
+## Connected vault notes
+
+- [[companies/openhouse-ai]] — parent company
+- [[goals/oh-aftercare-os]] — aftercare OS vision this extends
+- [[goals/oh-funder-pitch]] — funder pitch narrative
+- [[goals/oh-activation]] — activation goal
+- [[briefs/solar-installer-software-wedge]] — solar wedge cross-link
+- [[briefs/solar-installer-workflow-analysis]] — Irish solar evidence
+- [[briefs/planet-satellite-opportunity]] — satellite monitoring
+- [[companies/evolv-renewables]] — renewables cross-link
+- [[context/consulting-wedges]] — consulting wedge
+- [[context/business-opportunities-moc]] — MOC hub
+- [[briefs/ai-money-patterns-2026-06]] — pattern context
+
 ## Evidence from quick research
 
 ### 1. HPI / HPP already rewards the exact direction OpenHouse is moving in

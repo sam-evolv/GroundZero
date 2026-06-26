@@ -96,3 +96,13 @@ Validate the wedge with 5-10 installer interviews and test whether they would pa
 
 ## Related later exploration
 - [[briefs/planet-satellite-opportunity]] — Planet/satellite-data wedge for solar farm construction, O&M monitoring, and commercial solar lead intelligence.
+- [[briefs/solar-installer-workflow-analysis]] — Irish solar market evidence
+- [[briefs/openhouse-energy-assistant-wedge]] — energy assistant cross-link
+- [[companies/evolv-renewables]] — parent company
+- [[goals/renew-pipeline]] — sign three rooftop deals
+- [[items/renew-grid-automation]] — grid export automation
+- [[items/renew-compliance-portal]] — compliance portal
+- [[items/renew-compliance-reporting-automation]] — compliance reporting
+- [[context/business-opportunities-moc]] — MOC hub
+- [[context/consulting-wedges]] — consulting wedge context
+- [[briefs/ai-money-patterns-2026-06]] — pattern context

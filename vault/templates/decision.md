@@ -8,6 +8,11 @@ date:
 
 # Decision
 
+## Connected notes
+
+- [[decisions/ground-zero-canonical]] — canonical decision
+- [[context/ground-zero-structure]] — vault structure
+
 ## Decision
 -
 

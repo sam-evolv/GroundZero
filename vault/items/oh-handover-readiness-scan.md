@@ -38,11 +38,15 @@ M. Mostly a rules and aggregation problem with a clear UI surface. The first ver
 Timely. Buyers increasingly expect software that proves operational readiness, not just task tracking. Readiness scoring also fits the current shift toward tighter evidence and auditability in proptech.
 
 ## Connects to
-- OpenHouse product map
-- oh-onboarding-packet-automation
-- oh-warranty-evidence-pack
-- oh-aftercare-os
-- handover and launch operations
+
+- [[items/oh-onboarding-cut]] — onboarding flow + readiness scan compound
+- [[items/oh-onboarding-packet-automation]] — packet automation feeds readiness data
+- [[items/oh-warranty-evidence-pack]] — evidence pack is a readiness output
+- [[goals/oh-aftercare-os]] — aftercare OS vision this serves
+- [[goals/oh-activation]] — activation feeds from clean handover
+- [[companies/openhouse-ai]] — parent company
+- [[project_state/oh]] — live status
+- [[context/openhouse-product-map]] — product surface this ships on
 
 ## Recommendation
 This is a strong project candidate because it sits above several existing OpenHouse workflows and creates a better management layer for launch readiness. It pairs well with onboarding packet automation and warranty evidence packs.

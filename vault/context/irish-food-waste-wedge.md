@@ -32,6 +32,15 @@ Using the EPA household benchmark as a transparent proxy:
 
 Treat that as an estimated sector-equivalent burden, not an audited official figure.
 
+## Connected vault notes
+
+- [[context/business-opportunities-moc]] — MOC hub for this wedge
+- [[context/consulting-wedges]] — other wedge comparisons
+- [[context/irish-prompt-payment-copilot]] — sibling Irish-market wedge
+- [[briefs/10-non-common-ai-money-ideas]] — pattern list
+- [[briefs/ai-money-patterns-2026-06]] — pattern context
+- [[people/sam-donworth]] — founder context
+
 ## Product concept
 **Yield & Waste Copilot**
 

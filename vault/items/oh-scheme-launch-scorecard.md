@@ -38,10 +38,17 @@ M. Mostly rules, aggregation, and presentation work, but the score has to be tru
 Timely. Buyers want software that proves readiness and auditability, not just task tracking. A launch scorecard fits the broader move toward evidence-heavy proptech operations.
 
 ## Connects to
-- oh-handover-readiness-scan
-- oh-onboarding-packet-automation
-- oh-warranty-evidence-pack
-- oh-aftercare-os
+
+- [[items/oh-handover-readiness-scan]] — scorecard surfaces readiness scan output
+- [[items/oh-onboarding-packet-automation]] — packet automation feeds scorecard data
+- [[items/oh-warranty-evidence-pack]] — evidence pack is a scorecard input
+- [[goals/oh-aftercare-os]] — aftercare OS vision
+- [[goals/oh-activation]] — primary feeding goal
+- [[goals/oh-v2-launch]] — V2 stability underpins the scorecard
+- [[items/oh-onboarding-cut]] — scorecard is the management view of onboarding quality
+- [[companies/openhouse-ai]] — parent company
+- [[project_state/oh]] — live status
+- [[context/openhouse-product-map]] — product surface this scores
 
 ## Recommendation
 Strong project candidate once migration work is quieter. This is a natural premium layer above the existing launch and aftercare workflow.

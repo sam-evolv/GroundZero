@@ -38,6 +38,17 @@ A premium proptech SaaS platform for property developers: homeowner handover, af
 - Vercel: deployment status, build and runtime logs.
 - GitHub: commit history, open PRs, open issues.
 
+## Connected vault notes
+
+- [[companies/openhouse-ai]] — curated from this import
+- [[project_state/oh]] — live status derived from this memory
+- [[goals/oh-activation]] — activation goal
+- [[goals/oh-v2-launch]] — V2 migration goal
+- [[items/oh-production-migration]] — production migration
+- [[items/oh-warranty-filter]] — warranty gap noted here
+- [[context/claude-vault-integration]] — how Claude reads this
+- [[briefs/wiki-refiner-2026-06-26]] — refiner reviewed this file
+
 ## Working preferences
 - Premium design is mandatory. Stability over clever refactors. Low tolerance for repeated breakage.
 - No em dashes anywhere. Timezone Europe/Dublin.

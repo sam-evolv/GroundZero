@@ -36,6 +36,17 @@ The Ground Zero version is better because it adds:
 Do not build a generic business brainstorm tool.
 Build a *founder operating system for launching and improving one real wedge at a time*.
 
+## Connected vault notes
+
+- [[people/sam-donworth]] — the founder this loop is built for
+- [[companies/openhouse-ai]] — primary test case
+- [[companies/openbook]] — secondary test case (booking wedge)
+- [[goals/oh-funder-pitch]] — pitch narrative feeds from launch loop evidence
+- [[goals/ob-retention]] — retention goal is a launch loop output
+- [[context/business-opportunities-moc]] — MOC for all wedge ideas
+- [[context/capture-workflow]] — how signals enter the loop
+- [[briefs/ai-money-patterns-2026-06]] — pattern context
+
 ## Ideal users
 
 - founder-led businesses

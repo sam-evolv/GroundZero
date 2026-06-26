@@ -37,7 +37,12 @@ M. Mostly product, billing, and messaging work, with some instrumentation.
 Usage-based and hybrid pricing are normal now, especially when power users consume a lot more product value than the average customer.
 
 ## Connects to
-- OpenHouse scale
+
+- [[goals/oh-activation]] — pricing affects activation
+- [[goals/oh-funder-pitch]] — pricing is a funder-story lever
+- [[goals/oh-v2-launch]] — post-launch pricing experiment
+- [[companies/openhouse-ai]] — parent company
+- [[project_state/oh]] — live status OpenHouse scale
 - agency economics
 - future product packaging
 

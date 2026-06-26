@@ -4,6 +4,15 @@ company_id: openbook
 domain: innovation
 title: Loyalty points across venues
 rationale: Cross-venue rewards could lift repeat bookings, but it is not this month's lever.
+
+## Connected vault notes
+
+- [[items/ob-no-show-deposits]] — sister retention wedge
+- [[items/ob-venue-health-radar]] — health score could factor in loyalty
+- [[goals/ob-retention]] — retention goal
+- [[goals/ob-supply]] — supply goal
+- [[companies/openbook]] — parent company
+- [[project_state/ob]] — live status
 council_note: Innovation pass · Effort L
 effort: L
 impact: 40

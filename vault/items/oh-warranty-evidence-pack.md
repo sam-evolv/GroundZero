@@ -38,10 +38,14 @@ M. Roughly a week if it is a report and UI slice, longer if the workflow also in
 Timely. Buyers of proptech software are asking for more evidence, less admin, and AI that reduces aftercare noise rather than adding another inbox.
 
 ## Connects to
-- oh-warranty-filter
-- oh-aftercare-os
-- room inference
-- premium developer reporting
+
+- [[items/oh-warranty-filter]] — warranty column is the input
+- [[items/oh-warranty-triage-router]] — triager feeds the pack with classified issues
+- [[goals/oh-aftercare-os]] — aftercare OS vision this serves
+- [[goals/oh-room-inference]] — room inference makes the pack smarter
+- [[companies/openhouse-ai]] — parent company
+- [[project_state/oh]] — live status
+- [[context/openhouse-product-map]] — product surface this ships on
 
 ## Recommendation
 This is a stronger commercial idea than the raw filter alone. It is a plausible project once the data plumbing is in place.

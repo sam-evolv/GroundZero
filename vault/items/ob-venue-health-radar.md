@@ -38,10 +38,14 @@ M. The scoring logic is straightforward, but it needs good thresholds and a clea
 Strong. SaaS teams increasingly use health scoring to prioritise retention work, and venue operators are becoming more comfortable with operational analytics that show risk earlier.
 
 ## Connects to
-- ob-no-show-deposits
-- ob-realtime-availability
-- ob-retention
-- OpenBook supply growth
+
+- [[items/ob-no-show-deposits]] — no-show rate is the key health signal
+- [[items/ob-cancellation-waitlist]] — cancellation rate feeds the score
+- [[items/ob-no-show-deposit-workflow]] — automation that reduces the risk score
+- [[goals/ob-retention]] — primary feeding goal
+- [[goals/ob-supply]] — proactive retention protects net venue count
+- [[companies/openbook]] — parent company
+- [[project_state/ob]] — live status
 
 ## Recommendation
 Good follow-on after the no-show reduction and availability work. This would give OpenBook a sharper retention layer without adding much operational overhead.

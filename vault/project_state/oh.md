@@ -20,3 +20,14 @@ The V2 rollout is still on track for end of month. Real Longview Estates data re
 
 ## Risks
 - Supabase remote anomaly checks are blocked in this environment because no access token is available and local status checks cannot run without Docker.
+
+## Connected vault notes
+
+- [[companies/openhouse-ai]] — parent company
+- [[goals/oh-activation]] — activation goal
+- [[goals/oh-v2-launch]] — V2 migration goal
+- [[goals/oh-aftercare-os]] — aftercare OS vision
+- [[items/oh-production-migration]] — stabilize migration
+- [[items/oh-onboarding-cut]] — strongest design candidate
+- [[items/oh-warranty-triage-router]] — AI issue triage
+- [[briefs/openhouse-ndrc-accelerator-pitch]] — NDRC pitch

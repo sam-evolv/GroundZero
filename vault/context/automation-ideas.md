@@ -35,6 +35,17 @@ Use vault notes as the input layer, then write the output back into the correct 
 - task generation from open gaps in `project_state/`
 - handoff brief into `briefs/`
 
+## Connected vault notes
+
+- [[context/ops-automation-moc]] — MOC hub for all ops automation items
+- [[context/capture-workflow]] — input layer for automation
+- [[context/review-workflow]] — daily/weekly review loop
+- [[items/ops-daily-sync-digest]] — P1 daily sync
+- [[items/ops-source-to-wiki-ingest]] — auto-file sources
+- [[items/ops-index-maintenance-bot]] — auto-maintain index
+- [[briefs/wiki-refiner-2026-06-26]] — actual refiner run output
+- [[context/llm-wiki-pattern]] — the "why" behind auto-filing
+
 ## Procedure
 
 1. Identify a repeatable workflow that currently needs manual review.

@@ -36,6 +36,8 @@ M. The main work is choosing the right signals and shaping them into a useful br
 P2
 
 ## Connects to
-- project_state refresh
-- daily ops digest
-- monthly planning and briefing
+
+- [[items/ops-project-state-reconciler]] — project_state refresh
+- [[items/ops-daily-sync-digest]] — daily ops digest
+- [[items/ops-daily-report-pack]] — monthly planning and briefing
+- [[context/ops-automation-moc]] — MOC hub

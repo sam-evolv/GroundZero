@@ -35,10 +35,12 @@ M. The main work is mapping live signals to the right note fields and making sur
 P1
 
 ## Connects to
-- daily ops digest
-- daily report pack
-- OpenHouse company memory
-- project_state notes
+
+- [[items/ops-daily-sync-digest]] — daily ops digest
+- [[items/ops-daily-report-pack]] — daily report pack
+- [[imports/claude/openhouse-company-memory]] — OH company memory
+- [[project_state/oh]], [[project_state/ob]], [[project_state/renew]] — project_state notes
+- [[context/ops-automation-moc]] — MOC hub
 
 ## Recommendation
 Strong candidate because it removes the most repetitive bookkeeping after the daily status sweep. It also reduces the chance that later analyses run on stale state.

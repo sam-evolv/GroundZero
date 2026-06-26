@@ -37,6 +37,17 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
 
+## Connected vault notes
+
+- [[context/llm-wiki-pattern]] — the pattern this refiner implements
+- [[context/capture-workflow]] — input layer
+- [[items/ops-source-to-wiki-ingest]] — automation that does this at scale
+- [[items/ops-capture-inbox-refinery]] — inbox automation
+- [[imports/claude/openhouse-company-memory]] — source reviewed
+- [[capture/inbox]] — capture inbox
+- [[companies/openhouse-ai]] — primary company
+- [[context/automation-ideas]] — broader automation context
+
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.
 - Do not delete source material after filing it.

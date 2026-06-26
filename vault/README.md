@@ -11,6 +11,17 @@ The Ground Zero vault is now git-backed at `sam-evolv/GroundZero`. Changes flow:
 
 ## Shared context entry point
 
-Start with `context/index.md` when a model needs cross-business context. It links the person profile, company notes, and live project state.
+Start with [[context/index]] when a model needs cross-business context. It links the person profile, company notes, and live project state.
+
+## Connected vault notes
+
+- [[imports/claude/README]] — Claude import inbox
+- [[context/index]] — main entry point
+- [[context/model-pack]] — compact model context
+- [[context/ground-zero-structure]] — vault layout
+- [[context/capture-workflow]] — input pipeline
+- [[context/review-workflow]] — review loop
+- [[decisions/ground-zero-canonical]] — canonical decision
+- [[people/sam-donworth]] — founder profile
 
 Test item added: `test-flow-check` — delete after confirming the flow works.

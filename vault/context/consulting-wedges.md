@@ -5,6 +5,18 @@ purpose: Specific sector problems that could become an AI consultancy offer
 
 # Consulting wedges to explore
 
+## Connected vault notes
+
+- [[companies/openhouse-ai]] — Wedge 1: developers / handover
+- [[companies/evolv-renewables]] — Wedge 2: renewables installers
+- [[goals/oh-aftercare-os]] — wedge narrative for developers
+- [[goals/oh-funder-pitch]] — funder angles
+- [[context/business-opportunities-moc]] — MOC for all wedges
+- [[briefs/solar-installer-software-wedge]] — solar software wedge
+- [[briefs/solar-installer-workflow-analysis]] — Irish solar evidence
+- [[briefs/openhouse-energy-assistant-wedge]] — energy assistant extension
+- [[people/sam-donworth]] — founder context
+
 ## Principle
 Do not sell "AI strategy" in the abstract.
 Sell a fix for a painful workflow that already costs time, money, or reputation.

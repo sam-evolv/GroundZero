@@ -20,3 +20,10 @@ PR #184, "Sprint 1b: Wire housing reasoning v0.1 into multimodal endpoint (flag-
 PR #186, "Sprint 1c: Housing reasoning prompt v0.2 (docs + sync)", merged on 2026-05-23.
 
 This item is closed.
+
+## Connected vault notes
+
+- [[goals/oh-v2-launch]] — V2 migration goal this sprint served
+- [[items/oh-production-migration]] — production migration
+- [[companies/openhouse-ai]] — parent company
+- [[project_state/oh]] — live status

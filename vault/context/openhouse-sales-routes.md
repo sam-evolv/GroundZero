@@ -82,3 +82,15 @@ Build a target list of 50 developers and 20 partner channels, then test 3 messag
 - finance
 - buyer experience
 
+## Connected vault notes
+
+- [[companies/openhouse-ai]] — parent company
+- [[goals/oh-funder-pitch]] — funder pitch narrative
+- [[goals/oh-activation]] — activation goal
+- [[context/consulting-wedges]] — consulting wedge context
+- [[context/openhouse-product-map]] — product surface map
+- [[context/solo-founder-era]] — solo founder thesis
+- [[briefs/openhouse-ndrc-accelerator-pitch]] — NDRC pitch
+- [[briefs/openhouse-energy-assistant-wedge]] — energy assistant wedge
+- [[people/sam-donworth]] — founder context
+

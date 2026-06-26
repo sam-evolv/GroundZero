@@ -34,9 +34,20 @@ Read the current context, then update the live notes before drafting any summary
 - stale cleanup: move dead scraps out of `capture/inbox.md`
 - handoff: write a dated `briefs/` note
 
+## Connected vault notes
+
+- [[context/automation-ideas]] — automating this review loop
+- [[items/ops-daily-sync-digest]] — daily automation of this workflow
+- [[items/ops-weekly-status-pack]] — weekly automation of this workflow
+- [[items/ops-project-state-reconciler]] — state reconciliation
+- [[project_state/oh]], [[project_state/ob]], [[project_state/renew]] — what this workflow reads
+- [[items/_Index]] — what this workflow checks
+- [[context/capture-workflow]] — input to the review cycle
+- [[Daily/_Index]] — daily notes produced by this workflow
+
 ## Procedure
 
-1. Load `context/index.md` and the relevant `project_state/` notes.
+1. Load [[context/index]] and the relevant project_state notes.
 2. Check active items and decide what moved, blocked, or completed.
 3. Update project state first so the vault reflects reality.
 4. Capture any new durable decisions in `decisions/`.

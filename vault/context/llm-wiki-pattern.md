@@ -63,3 +63,15 @@ A successful pass should show all of these:
 - Conflicts are flagged, not silently replaced
 - The raw source still exists in `imports/`
 - The final note set reads like a connected wiki, not a pile of isolated pages
+
+## Connected vault notes
+
+- [[items/ops-source-to-wiki-ingest]] — auto-filing implements this pattern
+- [[items/ops-capture-inbox-refinery]] — inbox refinery is the mechanism
+- [[context/capture-workflow]] — input layer
+- [[briefs/wiki-refiner-2026-06-26]] — actual refiner run
+- [[imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26]] — source tweet
+- [[context/automation-ideas]] — broader automation context
+- [[context/business-opportunities-moc]] — MOC this pattern feeds
+- [[items/_Index]] — items this pattern produces
+- [[imports/claude/README.md]] — source inbox for imports

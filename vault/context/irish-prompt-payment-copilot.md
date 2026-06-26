@@ -31,6 +31,15 @@ Public sources say:
 - The Department of Enterprise, Trade and Employment says late payment interest is automatically payable in commercial transactions when invoices go unpaid under the statutory rules.
 - The department also notes that in B2B contracts the agreed payment date cannot be grossly unfair to the supplier and, if greater than 60 days, must be expressly agreed.
 
+## Connected vault notes
+
+- [[context/business-opportunities-moc]] — MOC hub for this wedge
+- [[context/consulting-wedges]] — other wedge comparisons
+- [[context/irish-food-waste-wedge]] — sibling Irish-market wedge
+- [[briefs/10-non-common-ai-money-ideas]] — pattern list
+- [[briefs/ai-money-patterns-2026-06]] — pattern context
+- [[people/sam-donworth]] — founder context
+
 ## Product concept
 **PromptPay Copilot**
 

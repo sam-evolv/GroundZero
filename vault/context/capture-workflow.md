@@ -30,13 +30,21 @@ When the wiki refiner is enabled, it can auto-file confidently classifiable scra
 
 ## Quick Reference
 
-- temporary scraps -> `capture/inbox.md`
-- raw external source -> `imports/`
-- stable fact -> `people/` or `companies/`
-- live status -> `project_state/`
-- decision -> `decisions/`
-- action -> `items/`
-- reusable process -> `context/` or a skill
+- temporary scraps -> [[capture/inbox]]
+- raw external source -> [[imports/claude/openhouse-company-memory]]
+- stable fact -> [[people/sam-donworth]] or [[companies/openhouse-ai]]
+- live status -> [[project_state/oh]]
+- decision -> [[decisions/ground-zero-canonical]]
+- action -> [[items/_Index]]
+- reusable process -> [[context/]] or a skill
+
+## Connected vault notes
+
+- [[items/ops-capture-inbox-refinery]] — automates this workflow
+- [[items/ops-source-to-wiki-ingest]] — auto-file sources into the wiki
+- [[context/llm-wiki-pattern]] — the pattern this implements
+- [[briefs/wiki-refiner-2026-06-26]] — actual refiner run
+- [[context/automation-ideas]] — broader automation context
 
 ## Procedure
 

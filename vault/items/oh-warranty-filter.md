@@ -38,7 +38,13 @@ S. One to two hours for schema and write-path wiring, half a day if you include 
 Timely. Warranty and aftercare automation are becoming a clearer selling point in proptech because teams want fewer manual support loops and better evidence for customers.
 
 ## Connects to
-- OpenHouse aftercare OS
+
+- [[items/oh-warranty-triage-router]] — same data model
+- [[items/oh-warranty-evidence-pack]] — filter feeds the pack
+- [[goals/oh-room-inference]] — room inference feeds warranty classification
+- [[goals/oh-aftercare-os]] — aftercare OS vision
+- [[companies/openhouse-ai]] — parent company
+- [[project_state/oh]] — live status- OpenHouse aftercare OS
 - room inference
 - issue triage and premium developer reporting
 

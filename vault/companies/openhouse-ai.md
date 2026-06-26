@@ -26,7 +26,26 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 ## Known gaps
 - `warranty_relevant` lives only on `assistant_media_analysis`. Add a `warranty` column to `issue_reports`, or build a join view.
 
-## Decided
+## Connected notes
+
+- [[project_state/oh]] — live status, migration progress
+- [[goals/oh-activation]] — lift activation to 60%
+- [[goals/oh-v2-launch]] — migrate every agency to Database V2
+- [[goals/oh-aftercare-os]] — AI aftercare operating system vision
+- [[goals/oh-funder-pitch]] — funder-grade narrative
+- [[goals/oh-guardrails-active]] — flip guardrails to active
+- [[goals/oh-room-inference]] — room analysis MVP
+- [[items/oh-onboarding-cut]] — strongest design candidate
+- [[items/oh-production-migration]] — stabilize migration
+- [[items/oh-warranty-triage-router]] — AI issue triage
+- [[items/oh-warranty-evidence-pack]] — warranty evidence
+- [[items/oh-warranty-filter]] — warranty dashboard filter
+- [[context/openhouse-product-map]] — product surface map
+- [[briefs/openhouse-energy-assistant-wedge]] — energy assistant extension
+- [[briefs/openhouse-ndrc-accelerator-pitch]] — NDRC pitch
+- [[imports/claude/openhouse-company-memory]] — council-facing memory
+
+## Decisions
 - Stack is fixed: React, Next.js, Supabase, Vercel. No framework migrations.
 - Security audited and hardened: ten unauthenticated endpoints remediated, leaked service role key rotated, `withAuth` middleware in place, full RLS lockdown across 35+ tables.
 

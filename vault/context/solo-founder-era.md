@@ -32,3 +32,16 @@ purpose: Durable strategy lens for AI-native solo ventures
 
 ## Relationship to Ground Zero
 Read this alongside [[context/autonomous-business-launch-loop]] and [[context/scaling-playbook]].
+
+## Connected vault notes
+
+- [[people/sam-donworth]] — the founder this thesis describes
+- [[context/autonomous-business-launch-loop]] — launch loop expression
+- [[context/scaling-playbook]] — scaling playbook
+- [[context/openhouse-sales-routes]] — sales routes for OH
+- [[goals/oh-funder-pitch]] — funder narrative
+- [[briefs/ai-money-patterns-2026-06]] — AI money patterns
+- [[context/business-opportunities-moc]] — MOC for all wedges
+- [[companies/openhouse-ai]] — primary company
+- [[companies/openbook]] — booking company
+- [[companies/evolv-renewables]] — renewables company

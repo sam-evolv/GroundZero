@@ -38,9 +38,15 @@ M. The hardest part is the inventory and offer-state logic, not the UI.
 Timely. Venue software is moving toward better yield management, and automated cancellation recovery is a straightforward way to make the product feel smarter without adding much operational overhead.
 
 ## Connects to
-- ob-realtime-availability
-- ob-no-show-deposits
-- ob-retention
+
+- [[items/ob-realtime-availability]] — waitlist needs accurate availability data
+- [[items/ob-no-show-deposits]] — sister wedge: no-show reduction + cancellation recovery compound
+- [[items/ob-no-show-deposit-workflow]] — same payment/reminder infrastructure
+- [[items/ob-venue-health-radar]] — cancellation rate feeds the health score
+- [[goals/ob-retention]] — this item feeds the retention goal
+- [[goals/ob-supply]] — recovered slots improve net venue utilization
+- [[companies/openbook]] — parent company
+- [[project_state/ob]] — live status
 - OpenBook supply growth
 
 ## Recommendation

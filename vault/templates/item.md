@@ -9,6 +9,12 @@ updated_at:
 
 # Item
 
+## Connected notes
+
+- [[items/_Index]] — active idea queue
+- [[goals/oh-activation]] — example feeding goal
+- [[goals/ob-retention]] — example feeding goal
+
 ## Problem
 -
 

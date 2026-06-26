@@ -35,6 +35,16 @@ Invoke through the `learn` command in Hermes, then file the result back into Gro
 - deployment and sync workflow
 - decision capture workflow
 
+## Connected vault notes
+
+- [[context/llm-wiki-pattern]] — /learn is the mechanism for the wiki pattern
+- [[context/capture-workflow]] — repeatable capture workflow
+- [[context/review-workflow]] — repeatable review workflow
+- [[context/automation-ideas]] — repeatable automation design
+- [[context/claude-vault-integration]] — Claude integration is learn-worthy
+- [[items/ops-source-to-wiki-ingest]] — the automation that /learn would produce
+- [[people/sam-donworth]] — founder preferences for skill design
+
 ## Procedure
 
 1. Look for procedures that repeat across sessions.

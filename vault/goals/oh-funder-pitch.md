@@ -4,22 +4,28 @@ company_id: openhouse-ai
 title: Shape OpenHouse into a funder-grade story for incubators and investors
 status: active
 period: "2026-06"
-metric: A clear, credible pitch narrative that makes the company feel inevitable and worth backing
+metric: "A clear, credible pitch narrative that makes the company feel inevitable and worth backing"
+domain: fundraising
 ---
 
-OpenHouse is strongest when it is framed as the evidence layer for handover quality, buyer education, compliance, and aftercare.
+# Goal: Shape OpenHouse into a funder-grade story
 
-The pitch should do more than describe software. It should make the company feel like a category with a real wedge, a real buyer, and a real reason now.
+OpenHouse is strongest when framed as the evidence layer for handover quality, buyer education, compliance, and aftercare.
+
+The pitch should make the company feel like a category with a real wedge, a real buyer, and a real reason now.
 
 ## Core thesis
-OpenHouse is the operating layer that turns property handover and aftercare from a fragmented admin burden into a premium, data-rich system developers can use to prove quality, reduce friction, and strengthen their commercial story.
+
+> OpenHouse is the operating layer that turns property handover and aftercare from a fragmented admin burden into a premium, data-rich system developers can use to prove quality, reduce friction, and strengthen their commercial story.
 
 ## Strategic angles to test
+
 1. Compliance and evidence layer
-2. Finance and green-certification wedge
+2. Finance and green-certification wedge ([[briefs/openhouse-energy-assistant-wedge]])
 3. Buyer experience and aftercare wedge
 
 ## What the narrative must achieve
+
 - make the category feel larger than a portal
 - explain why the product matters now
 - show why the wedge is sharp enough to win
@@ -27,28 +33,26 @@ OpenHouse is the operating layer that turns property handover and aftercare from
 - make the founder story and product ambition feel coherent
 - stay grounded in proof, not hype
 
-## Morning deliverables
-- one-paragraph core thesis
-- three ranked positioning angles
-- slide-by-slide deck outline
-- improved slide copy
-- 30-second pitch
-- 2-minute founder pitch
-- proof gaps and missing assets
-- likely investor objections and answers
-- conservative version for funders
-- more ambitious version for incubators
+## Feeding notes
+
+- [[companies/openhouse-ai]] — current traction, live data, schemes
+- [[project_state/oh]] — deployment health for proof points
+- [[goals/oh-activation]] — activation rate is the strongest proof metric
+- [[goals/oh-aftercare-os]] — the vision behind the wedge
+- [[goals/oh-v2-launch]] — migration completion de-risks the story
+- [[briefs/openhouse-ndrc-accelerator-pitch]] — previous pitch iteration
+- [[briefs/openhouse-energy-assistant-wedge]] — HPI/HPP evidence angle
+- [[people/sam-donworth]] — founder context
 
 ## Guardrails
+
 - No invented traction.
 - No fake numbers.
 - No generic startup language.
-- No em dashes.
-- If a claim is not yet proved, label it clearly as a hypothesis or proof gap.
+- If a claim is not yet proved, label it as a hypothesis or proof gap.
 
-## Read first
-- `vault/companies/openhouse-ai.md`
-- `vault/context/openhouse-product-map.md`
-- `vault/context/openhouse-sales-routes.md`
-- `vault/imports/claude/openhouse-company-memory.md`
-- `vault/briefs/openhouse-ndrc-accelerator-pitch.md`
+## See also
+
+- [[context/scaling-playbook]] — solo-founder scaling lens
+- [[context/consulting-wedges]] — sharper wedge narrative
+- [[decisions/ground-zero-canonical]] — vault is canonical source

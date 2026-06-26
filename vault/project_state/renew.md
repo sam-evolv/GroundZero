@@ -7,3 +7,12 @@ updated_at: "2026-06-26T16:56:31+01:00"
 ---
 
 One install generating, one in survey. Compliance reporting eats a few hours a week. Checked 2026-06-26 16:56 IST. No new live-system changes were checked for Renewables in this sync.
+
+## Connected vault notes
+
+- [[companies/evolv-renewables]] — parent company
+- [[goals/renew-pipeline]] — sign three rooftop deals
+- [[items/renew-grid-automation]] — automate grid export
+- [[items/renew-compliance-portal]] — client portal
+- [[briefs/solar-installer-software-wedge]] — software-layer context
+- [[briefs/planet-satellite-opportunity]] — satellite monitoring

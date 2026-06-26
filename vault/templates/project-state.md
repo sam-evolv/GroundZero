@@ -9,6 +9,13 @@ updated_at:
 
 # Project state
 
+## Connected notes
+
+- [[project_state/oh]] — OpenHouse state
+- [[project_state/ob]] — OpenBook state
+- [[project_state/renew]] — Renew state
+- [[companies/openhouse-ai]] — parent company
+
 ## Summary
 -
 

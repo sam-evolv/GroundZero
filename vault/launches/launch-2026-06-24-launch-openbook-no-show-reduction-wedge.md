@@ -37,6 +37,17 @@ landing_points:
   - Clearer expectations before the visit
   - Simple pilot that proves the lift
 landing_cta: Ask for a pilot
+
+## Connected vault notes
+
+- [[items/ob-no-show-deposits]] — the wedge this launch tests
+- [[items/ob-no-show-deposit-workflow]] — the automation path
+- [[goals/ob-retention]] — the goal this serves
+- [[goals/ob-supply]] — supply goal
+- [[launch-signals/1782296564720-launch-2026-06-24-launch-openbook-no-show-reduction-wedge]] — venue reply signal
+- [[companies/openbook]] — parent company
+- [[project_state/ob]] — live status
+- [[context/business-opportunities-moc]] — MOC hub
 outreach_message: >-
   Hi — I’m testing a simple no-show reduction workflow for local service
   businesses. If I send a short pilot brief, would you tell me if missed

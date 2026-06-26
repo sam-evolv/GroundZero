@@ -35,6 +35,17 @@ It is used to:
 - watch folders per development
 - surface missing or weak document coverage
 
+## Connected vault notes
+
+- [[companies/openhouse-ai]] — parent company
+- [[goals/oh-aftercare-os]] — the vision this map serves
+- [[goals/oh-activation]] — onboarding feeds these surfaces
+- [[goals/oh-room-inference]] — room inference is a new surface
+- [[items/oh-onboarding-cut]] — onboarding redesign for these surfaces
+- [[items/oh-warranty-triage-router]] — homeowner issue triage
+- [[context/consulting-wedges]] — wedge narrative references this map
+- [[briefs/openhouse-energy-assistant-wedge]] — energy extension of this product
+
 ### 3. Homeowner / purchaser support
 The platform also serves homeowner aftercare and communication.
 It supports:

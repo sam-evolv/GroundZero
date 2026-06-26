@@ -39,6 +39,11 @@ That gives you:
 Any model should be able to start from:
 - [[context/index]]
 - [[context/model-pack]]
+- [[context/business-opportunities-moc]] — MOC for all wedge ideas
+- [[briefs/ai-money-patterns-2026-06]] — pattern context
+- [[goals/oh-funder-pitch]] — funder narrative
+- [[companies/openhouse-ai]] — primary company
+- [[people/sam-donworth]] — founder context
 - the relevant company note
 - the relevant project_state note
 - the current item or decision note

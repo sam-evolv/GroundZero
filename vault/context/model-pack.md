@@ -29,6 +29,15 @@ Use this note when a model needs quick, high-signal context.
 - Premium proptech SaaS for handover, aftercare, and sales pipeline management.
 - Current focus: stabilise production migration, close Sprint 5, keep premium quality.
 
+## Connected vault notes
+
+- [[context/index]] — main entry point
+- [[people/sam-donworth]] — founder profile
+- [[companies/openhouse-ai]], [[companies/openbook]], [[companies/evolv-renewables]] — companies
+- [[project_state/oh]], [[project_state/ob]], [[project_state/renew]] — live status
+- [[goals/oh-activation]], [[goals/oh-v2-launch]], [[goals/ob-retention]] — goals
+- [[items/_Index]] — active items
+
 ### OpenBook
 - SMB booking platform for Irish service businesses.
 - Founder-led growth.

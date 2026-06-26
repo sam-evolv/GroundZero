@@ -8,6 +8,11 @@ role:
 
 # Person
 
+## Connected notes
+
+- [[people/sam-donworth]] — Sam's profile
+- [[companies/openhouse-ai]] — primary company
+
 ## Summary
 -
 

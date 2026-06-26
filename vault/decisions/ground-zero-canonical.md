@@ -18,3 +18,13 @@ Sam wants one durable place for the important facts, business state, and working
 - Read from the vault before starting new work.
 - Write new durable facts back into the correct note type.
 - Preserve history rather than overwriting it.
+
+## Connected vault notes
+
+- [[context/ground-zero-structure]] — vault structure
+- [[context/capture-workflow]] — how information flows in
+- [[context/review-workflow]] — how it stays fresh
+- [[context/claude-vault-integration]] — Claude integration
+- [[items/ops-project-state-reconciler]] — state reconciliation
+- [[README]] — pipeline update
+- [[people/sam-donworth]] — founder context

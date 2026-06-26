@@ -37,9 +37,14 @@ M. This is well suited to a focused automation slice because the data volume is 
 Good. Energy and compliance teams are under pressure to do more with fewer hours, so simple automation has clear value.
 
 ## Connects to
-- renew-pipeline
-- live rooftop operations
-- future compliance reporting products
+
+- [[goals/renew-pipeline]] — primary feeding goal
+- [[items/renew-compliance-portal]] — portal builds on this automation
+- [[items/renew-compliance-reporting-automation]] — sister compliance item
+- [[companies/evolv-renewables]] — parent company
+- [[project_state/renew]] — live status
+- [[briefs/solar-installer-software-wedge]] — the broader software-layer context
+- [[briefs/solar-installer-workflow-analysis]] — how Irish solar providers operate
 
 ## Recommendation
 This is probably project-worthy now. It has immediate payback and a narrow scope, so it can be taken on once the current reporting cadence is confirmed.

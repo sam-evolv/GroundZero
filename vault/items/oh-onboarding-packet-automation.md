@@ -42,8 +42,14 @@ M. The first version should be mostly templated and event-driven. The main work 
 Timely. SaaS buyers increasingly expect fast, polished onboarding and immediate value delivery, and AI-assisted document generation is now a normal expectation rather than a novelty.
 
 ## Connects to
-- oh-activation
-- oh-aftercare-os
+
+- [[goals/oh-activation]] — primary feeding goal
+- [[goals/oh-aftercare-os]] — aftercare OS vision
+- [[items/oh-onboarding-cut]] — sister item: flow cut + packet compound
+- [[items/oh-handover-readiness-scan]] — readiness scan feeds packet data
+- [[companies/openhouse-ai]] — parent company
+- [[project_state/oh]] — live status
+- [[context/capture-workflow]] — input layer
 - scheme launch process
 - premium homeowner and developer experience
 

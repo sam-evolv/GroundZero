@@ -42,10 +42,13 @@ M. The policy logic, payment state handling, and reminder orchestration will tak
 Timely. Venues are increasingly willing to adopt revenue-protection mechanics, especially when no-shows are already hurting them and booking software is expected to do more of the enforcement automatically.
 
 ## Connects to
-- ob-no-show-deposits
-- ob-realtime-availability
-- ob-retention
-- OpenBook no-show reduction wedge
+
+- [[items/ob-no-show-deposits]] — this workflow automates the deposit wedge
+- [[items/ob-cancellation-waitlist]] — same payment/reminder infrastructure
+- [[items/ob-venue-health-radar]] — reducing no-shows improves health scores
+- [[goals/ob-retention]] — primary feeding goal
+- [[companies/openbook]] — parent company
+- [[project_state/ob]] — live status
 
 ## Recommendation
 Treat this as the operational implementation path for the no-show deposit wedge. It is strong enough to become a project once the venue policy and payment rules are validated.

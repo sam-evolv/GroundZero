@@ -36,6 +36,10 @@ M. It is mostly orchestration and formatting, but the signal selection needs to 
 P1
 
 ## Connects to
-- daily ops digest
-- project_state notes
-- company memory updates
+
+- [[items/ops-daily-sync-digest]] — sister daily automation
+- [[items/ops-project-state-reconciler]] — project_state notes
+- [[imports/claude/openhouse-company-memory]] — company memory updates
+- [[context/ops-automation-moc]] — MOC hub
+- [[Daily/<date>]] — output goes here
+- [[briefs/wiki-refiner-2026-06-26]] — refiner context

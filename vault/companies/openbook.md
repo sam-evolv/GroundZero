@@ -13,6 +13,20 @@ Real appointments at Irish service businesses. SMB booking platform. Priority by
 - No-shows are the top churn driver (18% of bookings)
 - Supply growth is healthy
 
+## Connected notes
+
+- [[project_state/ob]] — live status
+- [[goals/ob-retention]] — reduce churn below 4%
+- [[goals/ob-supply]] — reach 500 venues
+- [[items/ob-no-show-deposits]] — primary commercial lever
+- [[items/ob-no-show-deposit-workflow]] — deposit automation
+- [[items/ob-venue-health-radar]] — churn prediction
+- [[items/ob-realtime-availability]] — baseline booking feature
+- [[items/ob-cancellation-waitlist]] — cancellation recovery
+- [[launches/launch-2026-06-24-launch-openbook-no-show-reduction-wedge]] — launch brief
+- [[launch-signals/1782296564720-launch-2026-06-24-launch-openbook-no-show-reduction-wedge]] — venue reply
+- [[briefs/ai-money-patterns-2026-06]] — market context for boring-software SaaS
+
 ## Open questions
 - What is the current development status?
 - Is there a GitHub repo?

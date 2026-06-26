@@ -35,6 +35,10 @@ S. Mostly query logic, age thresholds, and a clean Markdown output.
 P1
 
 ## Connects to
-- OpenHouse open issues and PR triage
-- production migration monitoring
-- daily ops digest
+
+- [[items/oh-production-migration]] — OH production migration monitoring
+- [[items/ops-daily-sync-digest]] — daily ops digest
+- [[items/ops-daily-report-pack]] — daily report pack
+- [[goals/oh-v2-launch]] — V2 migration goal
+- [[companies/openhouse-ai]] — parent company
+- [[context/ops-automation-moc]] — MOC hub

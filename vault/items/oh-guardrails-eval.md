@@ -37,7 +37,12 @@ M. A few days to write and tune the additional questions, then ongoing upkeep.
 Very timely. Teams shipping AI features are moving toward stronger eval gates, especially where hallucination and ambiguity can damage trust.
 
 ## Connects to
-- oh-guardrails-active
+
+- [[goals/oh-guardrails-active]] — the goal this eval feeds
+- [[goals/oh-aftercare-os]] — aftercare OS needs active guardrails
+- [[items/oh-warranty-triage-router]] — triage is guardrails-sensitive
+- [[companies/openhouse-ai]] — parent company
+- [[project_state/oh]] — live status
 - oh-aftercare-os
 - room inference
 - premium support and triage surfaces

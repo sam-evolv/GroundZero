@@ -38,9 +38,16 @@ L. The payment and policy layer will take longer than the copy or UI.
 Timely. Venues are increasingly open to revenue-protection mechanics, especially when no-shows are already hurting them.
 
 ## Connects to
-- ob-retention
-- OpenBook no-show reduction wedge
-- launch brief from 2026-06-24
+
+- [[items/ob-no-show-deposit-workflow]] — automation wraps this wedge
+- [[items/ob-cancellation-waitlist]] — sister wedge: no-show + cancellation compound
+- [[items/ob-venue-health-radar]] — no-show rate is the key churn signal
+- [[goals/ob-retention]] — primary feeding goal
+- [[goals/ob-supply]] — retention makes supply growth net-positive
+- [[launches/launch-2026-06-24-launch-openbook-no-show-reduction-wedge]] — launch brief for this wedge
+- [[launch-signals/1782296564720-launch-2026-06-24-launch-openbook-no-show-reduction-wedge]] — venue replied wanting deposit pilot
+- [[companies/openbook]] — parent company
+- [[project_state/ob]] — live status
 
 ## Recommendation
 This is the clearest commercial lever in OpenBook right now. It should move into a project once the wedge validation shows real venue pull and the payment rules are confirmed.

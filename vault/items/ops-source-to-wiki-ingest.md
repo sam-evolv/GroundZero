@@ -40,8 +40,10 @@ P1
 
 ## Connects to
 
-- capture workflow
-- review workflow
-- briefs and decisions hygiene
-- daily ops digest
-- model-pack and context index maintenance
+- [[context/capture-workflow]] — capture workflow
+- [[context/review-workflow]] — review workflow
+- [[briefs/wiki-refiner-2026-06-26]] — briefs and decisions hygiene
+- [[items/ops-daily-sync-digest]] — daily ops digest
+- [[context/model-pack]] — model-pack and context index maintenance
+- [[context/llm-wiki-pattern]] — the pattern this implements
+- [[context/ops-automation-moc]] — MOC hub

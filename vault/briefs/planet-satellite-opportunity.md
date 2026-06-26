@@ -134,7 +134,14 @@ Potential buyers:
 5. Keep the first product as a service/reporting workflow before building a dashboard.
 
 ## Related notes
-- [[briefs/solar-installer-software-wedge]]
-- [[companies/evolv-renewables]]
-- [[project_state/renew]]
-- [[context/consulting-wedges]]
+- [[briefs/solar-installer-software-wedge]] — solar software wedge
+- [[companies/evolv-renewables]] — parent company
+- [[project_state/renew]] — live status
+- [[context/consulting-wedges]] — consulting wedge context
+- [[goals/renew-pipeline]] — sign three rooftop deals
+- [[items/renew-grid-automation]] — grid export automation
+- [[items/renew-compliance-portal]] — compliance portal
+- [[companies/openhouse-ai]] — cross-domain: OH progress evidence
+- [[companies/openbook]] — cross-domain: venue monitoring
+- [[context/business-opportunities-moc]] — MOC hub
+- [[briefs/ai-money-patterns-2026-06]] — pattern context

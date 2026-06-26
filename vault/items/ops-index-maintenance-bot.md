@@ -34,10 +34,12 @@ S. The logic is simple, but the index writer needs to avoid duplicate entries an
 P2
 
 ## Connects to
-- daily ops digest
-- capture workflow
-- item index upkeep
-- briefing and status note hygiene
+
+- [[items/ops-daily-sync-digest]] — daily ops digest
+- [[context/capture-workflow]] — capture workflow
+- [[items/_Index]] — item index upkeep
+- [[briefs/wiki-refiner-2026-06-26]] — briefing and status note hygiene
+- [[context/ops-automation-moc]] — MOC hub
 
 ## Recommendation
 Low risk and easy to justify. It is not as valuable as the daily digest itself, but it removes a chore that happens every time the council adds new proposals.

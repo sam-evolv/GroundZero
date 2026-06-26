@@ -36,6 +36,8 @@ M. The workflow is straightforward, but the integration points for email and cal
 P3
 
 ## Connects to
-- customer onboarding
-- sales follow-up
-- scheduling hygiene
+
+- [[items/oh-onboarding-packet-automation]] — customer onboarding
+- [[goals/oh-funder-pitch]] — sales follow-up
+- [[items/ops-daily-sync-digest]] — scheduling hygiene
+- [[context/ops-automation-moc]] — MOC hub

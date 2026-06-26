@@ -47,6 +47,19 @@ Common layers across the market:
 - solar, heat pumps, insulation, grants
 - support a home-energy bundle rather than just solar alone
 
+## Connected vault notes
+
+- [[briefs/solar-installer-software-wedge]] — the software opportunity this analysis feeds
+- [[briefs/planet-satellite-opportunity]] — satellite imagery for construction monitoring
+- [[briefs/openhouse-energy-assistant-wedge]] — energy assistant cross-link
+- [[companies/evolv-renewables]] — parent company
+- [[goals/renew-pipeline]] — sign three rooftop deals
+- [[items/renew-grid-automation]] — grid export automation
+- [[companies/openhouse-ai]] — wedge #1 in consulting notes
+- [[context/consulting-wedges]] — consulting wedge context
+- [[briefs/ai-money-patterns-2026-06]] — pattern context
+- [[people/sam-donworth]] — founder context
+
 ### SolarSmart / PVGEN / others
 - push battery storage
 - monitoring apps / performance tracking

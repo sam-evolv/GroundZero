@@ -4,5 +4,36 @@ company_id: openhouse-ai
 title: Migrate every agency to Database V2
 status: active
 period: "2026-06"
-metric: 70% to 100% migrated
+metric: "70% to 100% migrated"
+domain: platform
 ---
+
+# Goal: Migrate every agency to Database V2
+
+**Target:** move from 70% to 100% V2 migration by end of June 2026.
+
+Real Longview Estates data is live across four schemes. Backup tables are waiting for one clean week before drop.
+
+## Feeding items
+
+- [[items/oh-production-migration]] — stabilize migration + drop backup tables (S, 95)
+- [[items/oh-rls-audit]] — launch-critical RLS policy audit (S, building)
+
+## Grounding
+
+- [[companies/openhouse-ai]] — stack facts, live schemes, known gaps
+- [[project_state/oh]] — migration status, open PRs, Vercel health
+- [[goals/oh-activation]] — activation work scales only after V2 is stable
+- [[goals/oh-aftercare-os]] — aftercare OS builds on V2 data model
+- [[goals/oh-funder-pitch]] — migration completion de-risks the funder story
+
+## Signals to watch
+
+- migration progress (% schemes on V2)
+- backup-table validation clean week
+- open PRs / issues that block migration
+- Supabase remote anomaly checks (blocked until SUPABASE_ACCESS_TOKEN is set)
+
+## Why this matters
+
+V2 is the platform. Every other goal — activation, aftercare OS, funder pitch — builds on top of it. [[briefs/2026-06-09]] called stabilization the top priority.

@@ -21,5 +21,11 @@ owner:
 ## Open questions
 -
 
+## Connected notes
+
+- [[companies/openhouse-ai]] — primary company
+- [[companies/openbook]] — booking company
+- [[companies/evolv-renewables]] — renewables company
+
 ## Decisions
 -

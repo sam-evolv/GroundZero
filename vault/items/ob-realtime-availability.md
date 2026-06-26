@@ -39,10 +39,14 @@ L. More integration-heavy than it looks because reliability matters more than UI
 Strong. Realtime availability is now expected in modern booking software, and it is a baseline feature rather than a novelty.
 
 ## Connects to
-- OpenBook supply growth
-- retention
-- booking reliability
-- no-show reduction wedge
+
+- [[goals/ob-supply]] — supply growth depends on reliable availability
+- [[goals/ob-retention]] — booking reliability reduces churn
+- [[items/ob-no-show-deposits]] — no-show reduction wedge
+- [[items/ob-cancellation-waitlist]] — waitlist needs accurate availability
+- [[items/ob-no-show-deposit-workflow]] — same booking infrastructure
+- [[companies/openbook]] — parent company
+- [[project_state/ob]] — live status
 
 ## Recommendation
 This is project-ready. Ship it or keep it in the immediate implementation queue.

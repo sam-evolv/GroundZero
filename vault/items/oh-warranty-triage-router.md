@@ -41,10 +41,13 @@ M. The first useful version is a classifier and queue router. The more time-cons
 Timely. AI support triage is now a standard productivity play, but customers in proptech will only trust it if the tone is controlled and the escalation rules are tight.
 
 ## Connects to
-- oh-guardrails-active
-- oh-warranty-filter
-- oh-warranty-evidence-pack
-- OpenHouse aftercare OS
+
+- [[goals/oh-guardrails-active]] — guardrails must be active before triage scales
+- [[items/oh-warranty-filter]] — same data model powers both
+- [[items/oh-warranty-evidence-pack]] — triager feeds the evidence pack
+- [[goals/oh-aftercare-os]] — aftercare OS vision this serves
+- [[companies/openhouse-ai]] — parent company
+- [[project_state/oh]] — live status
 
 ## Recommendation
 Good project candidate, especially if it ships alongside the warranty data plumbing. Start read-only, then graduate to write-back once precision is proven.

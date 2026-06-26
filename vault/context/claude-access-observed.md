@@ -26,3 +26,11 @@ The vault currently uses **Evolv Renewables** as the canonical name. If another 
 ## Why this note exists
 
 This keeps the next session from assuming the access path or company naming is already settled when it has only been observed in one setup path.
+
+## Connected vault notes
+
+- [[context/claude-quickstart]] — fastest path for Claude
+- [[context/claude-vault-integration]] — vault integration details
+- [[context/capture-workflow]] — how Claude files notes back
+- [[imports/claude/openhouse-company-memory]] — what Claude reads
+- [[companies/openhouse-ai]] — naming check reference

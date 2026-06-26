@@ -34,6 +34,14 @@ The pain is directly tied to cash collection. If the workflow is improved, the b
 - CAQH reported that automating prior authorisation workflows could save **$515 million annually** and **14 minutes per authorisation**.
 - CAQH also said claim-status automation could save staff **up to 18 minutes per patient visit**.
 
+## Connected vault notes
+
+- [[context/business-opportunities-moc]] — MOC hub for this wedge
+- [[context/consulting-wedges]] — other wedge comparisons
+- [[briefs/10-non-common-ai-money-ideas]] — non-generic AI pattern list
+- [[briefs/ai-money-patterns-2026-06]] — pattern context
+- [[people/sam-donworth]] — founder context
+
 ## Product concept
 **Revenue Cycle Copilot**
 

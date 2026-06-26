@@ -48,6 +48,16 @@ Sell founder, market, competitor, or vendor research as a recurring service powe
 ### 8. Procurement / vendor matching copilot
 Match buyer requirements to supplier capabilities, create shortlists, and draft outreach or comparison tables.
 - Buyers: procurement teams, buyers, consultants
+
+## Connected vault notes
+
+- [[context/business-opportunities-moc]] — MOC for all wedge ideas
+- [[briefs/ai-money-patterns-2026-06]] — companion research brief
+- [[briefs/solar-installer-software-wedge]] — #1 tender/RFP in action
+- [[context/consulting-wedges]] — #1 compliance evidence
+- [[items/oh-warranty-triage-router]] — #4 warranty triage
+- [[context/irish-prompt-payment-copilot]] — document layer
+- [[people/sam-donworth]] — founder context
 - Why it works: saves search and evaluation time
 
 ### 9. Localization with compliance and tone control

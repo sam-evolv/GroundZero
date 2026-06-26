@@ -28,5 +28,16 @@ timezone: Europe/Dublin
 ## Business notes
 - OpenHouse AI is the core business.
 - OpenBook should be run end-to-end as far as possible: design handoff → build → deploy → domain.
+
+## Connected vault notes
+
+- [[companies/openhouse-ai]] — core business
+- [[companies/openbook]] — booking platform
+- [[companies/evolv-renewables]] — renewables company
+- [[goals/oh-funder-pitch]] — funder pitch narrative
+- [[goals/oh-activation]] — activation goal
+- [[context/index]] — main context entry
+- [[context/model-pack]] — compact model context
+- [[briefs/ai-money-patterns-2026-06]] — pattern lens
 - OpenBook lead gen should focus on small local Cork businesses.
 - Evolv Renewables needs more automation around reporting and sales pipeline tracking.

@@ -37,7 +37,11 @@ S. This should stay narrow, but the validation step matters as much as the code 
 Not a market trend issue. It is a credibility issue. If this slips, it hurts the launch narrative more than any feature gap.
 
 ## Connects to
-- OpenHouse V2 launch
+
+- [[goals/oh-v2-launch]] — primary feeding goal
+- [[items/oh-production-migration]] — production migration
+- [[companies/openhouse-ai]] — parent company
+- [[project_state/oh]] — live status
 - security baseline
 - premium trust bar
 

@@ -38,3 +38,11 @@ If something matters later, write it into the vault:
 ## Best use case
 
 This note is for quick loading, not deep understanding. If the task is strategic, follow the longer context chain too.
+
+## Connected vault notes
+
+- [[context/claude-vault-integration]] — full integration details
+- [[context/claude-access-observed]] — access path observations
+- [[context/index]] — main entry point
+- [[context/model-pack]] — compact context
+- [[companies/openhouse-ai]] — primary company

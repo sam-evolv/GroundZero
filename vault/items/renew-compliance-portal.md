@@ -38,9 +38,12 @@ M. Could start as a lightweight reporting page and grow into a fuller portal lat
 Good. Distributed energy operators increasingly need simple evidence, reporting, and stakeholder visibility without hiring more admin help.
 
 ## Connects to
-- renew-grid-automation
-- renew-pipeline
-- future rooftop deal conversion
+
+- [[items/renew-grid-automation]] — portal builds on this automation
+- [[goals/renew-pipeline]] — primary feeding goal
+- [[companies/evolv-renewables]] — parent company
+- [[project_state/renew]] — live status
+- [[briefs/solar-installer-software-wedge]] — the broader software-layer context
 
 ## Recommendation
 Treat as the productized follow-on to the automation work. If the first automation lands cleanly, this becomes a credible upsell and differentiation angle.

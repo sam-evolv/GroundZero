@@ -42,6 +42,12 @@ S to M. The routing rules are simple, but the note templates and edge cases need
 P2
 
 ## Connects to
-- capture workflow
-- review workflow
-- briefs and decisions hygiene
+
+- [[context/capture-workflow]] — capture workflow this refines
+- [[context/review-workflow]] — review workflow
+- [[briefs/wiki-refiner-2026-06-26]] — briefs and decisions hygiene
+- [[items/ops-source-to-wiki-ingest]] — sister wiki-ingest item
+- [[items/ops-daily-sync-digest]] — daily ops digest
+- [[context/llm-wiki-pattern]] — the pattern this implements
+- [[capture/inbox]] — the inbox this refines
+- [[context/ops-automation-moc]] — MOC hub

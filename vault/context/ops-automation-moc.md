@@ -1,0 +1,65 @@
+---
+title: Operations Automation MOC
+purpose: Cross-company ops automation backlog and its relationships
+kind: moc
+---
+
+# Operations Automation MOC
+
+Every operations automation item lives in `items/ops-*`. This hub links them to each other and to the grounding notes they read/write.
+
+## Why these exist
+
+Sam repeats the same daily context sweep:
+- check GitHub PRs, issues, deployments, Vercel, Supabase
+- update project_state notes for each company
+- draft daily briefings
+- file anything captured in the inbox
+
+These items automate that sweep so Sam's time goes into the right work, not the re-reading.
+
+## By function
+
+### Daily sync & digest
+- [[items/ops-daily-sync-digest]] — anomaly check + daily digest; the P1 core
+- [[items/ops-daily-report-pack]] — daily reporting packs per company
+- [[items/ops-project-state-reconciler]] — keep project_state/company memory aligned with live signals
+- [[items/ops-index-maintenance-bot]] — auto-maintain items/_Index.md and daily log entries
+
+### Triage & escalation
+- [[items/ops-pr-issue-ageing-escalator]] — stale PR/issue escalation, P1
+- [[items/oh-warranty-triage-router]] — OH-specific issue triage (AI classification + draft reply)
+
+### Reporting & hygiene
+- [[items/ops-weekly-status-pack]] — weekly cross-company brief
+- [[items/ops-capture-inbox-refinery]] — auto-file capture inbox scraps
+- [[items/ops-source-to-wiki-ingest]] — turn imports/ sources into linked wiki notes
+
+### Communication
+- [[items/ops-meeting-followup-assembler]] — post-meeting recap + scheduling
+
+## Cross-cutting reads/writes
+
+Every ops item reads from:
+- [[project_state/oh]], [[project_state/ob]], [[project_state/renew]]
+- [[companies/openhouse-ai]], [[companies/openbook]], [[companies/evolv-renewables]]
+- [[imports/claude/openhouse-company-memory]]
+
+Every ops item writes back to:
+- [[items/_Index|items/_Index.md]]
+- [[Daily/<date>]] (daily notes)
+- The relevant project_state note
+
+## Grounding notes
+
+These explain *why* the automation matters, not just what it does:
+- [[context/automation-ideas]] — general automation principles
+- [[context/capture-workflow]] — how sources flow into the wiki
+- [[context/review-workflow]] — daily/weekly review job description
+- [[context/llm-wiki-pattern]] — why auto-filing matters (Gipp pattern)
+- [[briefs/wiki-refiner-2026-06-26]] — actual run output for the refiner
+
+## See also
+
+- [[items/_Index]] — all active items including ops
+- [[context/ground-zero-structure]] — where ops output goes

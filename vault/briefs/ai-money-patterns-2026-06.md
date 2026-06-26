@@ -44,10 +44,23 @@ purpose: Distilled research on AI monetization patterns that appear to actually 
 - generic "build a website" offers
 - one-off novelty tools with no workflow anchor
 
+## Connected vault notes
+
+- [[context/business-opportunities-moc]] — MOC for all wedge ideas
+- [[briefs/10-non-common-ai-money-ideas]] — companion list of specific ideas
+- [[briefs/solar-installer-software-wedge]] — pattern #1 in action
+- [[companies/openbook]] — pattern #1 productized boring SaaS
+- [[goals/ob-retention]] — pattern #2 retention narrative
+- [[goals/oh-funder-pitch]] — pattern #3 narrative service
+- [[items/ops-daily-sync-digest]] — pattern #4 workflow automation
+- [[items/oh-warranty-triage-router]] — pattern #5 lead qualification
+- [[briefs/planet-satellite-opportunity]] — #6 niche data products
+- [[people/sam-donworth]] — founder context
+
 ## The strongest repeatable business shapes
 
 | Pattern | Why it works |
-|---|---|
+|---|
 | Niche AI service | Easy to sell if pain is obvious |
 | Intelligence subscription | Recurring value from monitoring and alerts |
 | Workflow automation | Direct labour savings |
