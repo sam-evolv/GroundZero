@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-06-25T18:02:35+01:00"
+updated_at: "2026-06-26T00:00:00+01:00"
 ---
 
 # Ideas Index
@@ -17,11 +17,13 @@ This index tracks the current active idea queue. Snoozed ideas stay out of the a
 - [[oh-onboarding-cut]] - strongest project candidate, M, proposed
 - [[oh-warranty-evidence-pack]] - new idea from gap analysis, M, proposed
 - [[oh-handover-readiness-scan]] - new gap-analysis idea, M, proposed
+- [[oh-scheme-launch-scorecard]] - new gap-analysis idea, M, proposed
 
 ## OpenBook
 - [[ob-realtime-availability]] - project-ready, L, pr_ready
 - [[ob-no-show-deposits]] - clearest commercial lever, L, proposed
 - [[ob-cancellation-waitlist]] - new gap-analysis idea, M, proposed
+- [[ob-venue-health-radar]] - new gap-analysis idea, M, proposed
 
 ## Evolv Renewables
 - [[renew-grid-automation]] - likely project-worthy, M, proposed

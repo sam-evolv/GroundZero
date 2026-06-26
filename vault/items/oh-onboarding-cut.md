@@ -43,4 +43,4 @@ Very timely. Best-in-class SaaS onboarding is increasingly AI-assisted and short
 - premium experience bar
 
 ## Recommendation
-This is one of the strongest candidates to become a project because it attacks the metric that is currently stuck.
+This is one of the strongest candidates to become a project because it attacks the metric that is currently stuck. It should move ahead once migration work is quiet enough to support UX changes.

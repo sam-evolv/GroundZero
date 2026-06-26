@@ -42,4 +42,4 @@ Timely. Venues are increasingly open to revenue-protection mechanics, especially
 - launch brief from 2026-06-24
 
 ## Recommendation
-This is the clearest commercial lever in OpenBook right now. It should move into a project once the wedge validation shows real venue pull.
+This is the clearest commercial lever in OpenBook right now. It should move into a project once the wedge validation shows real venue pull and the payment rules are confirmed.

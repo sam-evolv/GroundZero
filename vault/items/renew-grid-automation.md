@@ -41,4 +41,4 @@ Good. Energy and compliance teams are under pressure to do more with fewer hours
 - future compliance reporting products
 
 ## Recommendation
-This is probably project-worthy now. It has immediate payback and a narrow scope.
+This is probably project-worthy now. It has immediate payback and a narrow scope, so it can be taken on once the current reporting cadence is confirmed.
