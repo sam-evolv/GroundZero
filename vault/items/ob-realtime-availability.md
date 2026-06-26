@@ -48,5 +48,14 @@ Strong. Realtime availability is now expected in modern booking software, and it
 - [[companies/openbook]] — parent company
 - [[project_state/ob]] — live status
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openbook]]
+- [[context/dashboard]]
+- [[goals/ob-supply]]
+- [[items/ob-cancellation-waitlist]]
+- [[project_state/ob]]
+
 ## Recommendation
 This is project-ready. Ship it or keep it in the immediate implementation queue.

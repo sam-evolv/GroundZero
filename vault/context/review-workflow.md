@@ -65,3 +65,16 @@ Read the current context, then update the live notes before drafting any summary
 ## Verification
 
 Use `read_file` on the current `project_state/` note and confirm it matches the latest active work before writing a brief.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/automation-ideas]]
+- [[context/ground-zero-structure]]
+- [[context/index]]
+- [[context/learn-targets]]
+- [[context/model-pack]]
+- [[context/ops-automation-moc]]
+- [[decisions/ground-zero-canonical]]
+- [[items/ops-capture-inbox-refinery]]
+- [[items/ops-source-to-wiki-ingest]]
+

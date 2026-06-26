@@ -47,5 +47,17 @@ Timely. Buyers of proptech software are asking for more evidence, less admin, an
 - [[project_state/oh]] — live status
 - [[context/openhouse-product-map]] — product surface this ships on
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-09]]
+- [[companies/openhouse-ai]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-room-inference]]
+- [[items/oh-handover-readiness-scan]]
+- [[items/oh-scheme-launch-scorecard]]
+- [[items/oh-warranty-filter]]
+- [[items/oh-warranty-triage-router]]
+
 ## Recommendation
 This is a stronger commercial idea than the raw filter alone. It is a plausible project once the data plumbing is in place.

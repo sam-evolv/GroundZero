@@ -302,3 +302,18 @@ This avoids the product feeling surveillant while preserving the developer insig
 - Add 10-15 canned eval questions before demoing.
 - Keep the first pitch focused on Cairn-style new builds and HPI / ESG / buyer support.
 - Add the first 90 days energy concierge, bill explainer, smart handover checklist, and scheme-level energy report as the most compelling demo extras.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/solar-installer-software-wedge]]
+- [[briefs/solar-installer-workflow-analysis]]
+- [[companies/evolv-renewables]]
+- [[companies/openhouse-ai]]
+- [[context/business-opportunities-moc]]
+- [[context/consulting-wedges]]
+- [[context/dashboard]]
+- [[context/openhouse-product-map]]
+- [[context/openhouse-sales-routes]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-funder-pitch]]
+

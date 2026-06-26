@@ -65,4 +65,12 @@ Start with one narrow promise:
 5. expand to multi-site performance management
 
 ## Plain-English pitch
-"We help food manufacturers and processors cut waste and protect margin by predicting overproduction, managing shelf life, and turning messy production data into action." 
+"We help food manufacturers and processors cut waste and protect margin by predicting overproduction, managing shelf life, and turning messy production data into action."
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+- [[context/dashboard]]
+- [[context/index]]
+- [[context/irish-prompt-payment-copilot]]
+

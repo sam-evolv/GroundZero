@@ -86,3 +86,25 @@ It is in **using AI as a margin amplifier inside a real workflow**.
 - AI workflow products for document-heavy industries
 - AI research products for founders, investors, or operators
 - AI productized services with one clear business outcome
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/10-non-common-ai-money-ideas]]
+- [[briefs/2026-06-09]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/planet-satellite-opportunity]]
+- [[briefs/solar-installer-software-wedge]]
+- [[briefs/solar-installer-workflow-analysis]]
+- [[companies/openbook]]
+- [[context/autonomous-business-launch-loop]]
+- [[context/business-opportunities-moc]]
+- [[context/healthcare-revenue-cycle-wedge]]
+- [[context/irish-food-waste-wedge]]
+- [[context/irish-prompt-payment-copilot]]
+- [[context/scaling-playbook]]
+- [[context/solo-founder-era]]
+- [[goals/ob-retention]]
+- [[goals/oh-guardrails-active]]
+- [[goals/renew-pipeline]]
+- [[people/sam-donworth]]
+

@@ -7,6 +7,11 @@ purpose: Shared entry point for all models
 
 This is the first note to load when a model needs cross-business context.
 
+## Start here
+
+- **Need to know what to do?** → [[context/dashboard]] (active items, proposed, monitoring)
+- **Need to understand the whole portfolio?** → read on below
+
 ## Load order
 1. [[context/model-pack]]
 2. [[people/sam-donworth]]
@@ -67,3 +72,13 @@ This is the first note to load when a model needs cross-business context.
 
 ## Usage rule
 If a model needs context, start here, then follow the links for the specific business or workstream.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/claude-quickstart]]
+- [[context/ground-zero-structure]]
+- [[context/model-pack]]
+- [[context/review-workflow]]
+- [[context/scaling-playbook]]
+- [[people/sam-donworth]]
+

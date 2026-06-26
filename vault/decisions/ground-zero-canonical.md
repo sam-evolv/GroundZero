@@ -28,3 +28,11 @@ Sam wants one durable place for the important facts, business state, and working
 - [[items/ops-project-state-reconciler]] — state reconciliation
 - [[README]] — pipeline update
 - [[people/sam-donworth]] — founder context
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/capture-workflow]]
+- [[context/claude-vault-integration]]
+- [[context/ground-zero-structure]]
+- [[goals/oh-funder-pitch]]
+

@@ -55,3 +55,25 @@ The product opportunity is not more UI. It is a property-linked AI layer that ca
 - Better developer intelligence → stronger reason to pay
 - Better data linkage → moat-like benchmarking
 - Premium AI layer is more defensible than a bundle of isolated portals
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[companies/openhouse-ai]]
+- [[context/consulting-wedges]]
+- [[context/openhouse-product-map]]
+- [[goals/oh-activation]]
+- [[goals/oh-funder-pitch]]
+- [[goals/oh-guardrails-active]]
+- [[goals/oh-room-inference]]
+- [[goals/oh-v2-launch]]
+- [[items/oh-guardrails-eval]]
+- [[items/oh-handover-readiness-scan]]
+- [[items/oh-onboarding-cut]]
+- [[items/oh-onboarding-packet-automation]]
+- [[items/oh-scheme-launch-scorecard]]
+- [[items/oh-warranty-evidence-pack]]
+- [[items/oh-warranty-filter]]
+- [[items/oh-warranty-triage-router]]
+- [[project_state/oh]]
+

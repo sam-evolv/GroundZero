@@ -47,3 +47,13 @@ P1
 - [[context/model-pack]] — model-pack and context index maintenance
 - [[context/llm-wiki-pattern]] — the pattern this implements
 - [[context/ops-automation-moc]] — MOC hub
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/automation-ideas]]
+- [[context/capture-workflow]]
+- [[context/learn-targets]]
+- [[context/llm-wiki-pattern]]
+- [[context/ops-automation-moc]]
+- [[items/ops-capture-inbox-refinery]]
+

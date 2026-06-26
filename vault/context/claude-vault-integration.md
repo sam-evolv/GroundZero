@@ -72,3 +72,13 @@ If Claude does not see the vault after a config change:
 2. confirm the MCP config still points at `/Users/samdonworth/GroundZero`
 3. verify the repo still contains `vault/`
 4. reload `vault/context/index.md`
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/claude-access-observed]]
+- [[context/claude-quickstart]]
+- [[context/index]]
+- [[context/learn-targets]]
+- [[context/model-pack]]
+- [[decisions/ground-zero-canonical]]
+

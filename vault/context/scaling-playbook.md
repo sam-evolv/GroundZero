@@ -114,3 +114,11 @@ Keep populating the vault with:
 - active tasks
 
 Then wire the most important notes into MCP and any AI entry point so every model can read the same source of truth.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+- [[context/model-pack]]
+- [[context/solo-founder-era]]
+- [[goals/oh-funder-pitch]]
+

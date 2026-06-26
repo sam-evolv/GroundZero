@@ -46,3 +46,11 @@ This note is for quick loading, not deep understanding. If the task is strategic
 - [[context/index]] — main entry point
 - [[context/model-pack]] — compact context
 - [[companies/openhouse-ai]] — primary company
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/claude-access-observed]]
+- [[context/claude-vault-integration]]
+- [[context/index]]
+- [[context/model-pack]]
+

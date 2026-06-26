@@ -47,5 +47,19 @@ Strong. SaaS teams increasingly use health scoring to prioritise retention work,
 - [[companies/openbook]] — parent company
 - [[project_state/ob]] — live status
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openbook]]
+- [[context/business-opportunities-moc]]
+- [[context/dashboard]]
+- [[goals/ob-retention]]
+- [[goals/ob-supply]]
+- [[items/ob-cancellation-waitlist]]
+- [[items/ob-loyalty-points]]
+- [[items/ob-no-show-deposit-workflow]]
+- [[items/ob-no-show-deposits]]
+- [[project_state/ob]]
+
 ## Recommendation
 Good follow-on after the no-show reduction and availability work. This would give OpenBook a sharper retention layer without adding much operational overhead.

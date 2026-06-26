@@ -79,3 +79,16 @@ A successful pass should show all of these:
 - [[imports/claude/README.md]] — source inbox for imports
 
 - [[capture/inbox]] — shared signals: capture
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/automation-ideas]]
+- [[context/business-opportunities-moc]]
+- [[context/capture-workflow]]
+- [[context/index]]
+- [[context/learn-targets]]
+- [[context/model-pack]]
+- [[context/ops-automation-moc]]
+- [[items/ops-capture-inbox-refinery]]
+- [[items/ops-source-to-wiki-ingest]]
+

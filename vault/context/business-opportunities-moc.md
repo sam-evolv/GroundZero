@@ -50,6 +50,25 @@ Planet.com data is not a single-wedge opportunity. It touches multiple businesse
 - [[companies/evolv-renewables]] ← [[briefs/solar-installer-software-wedge]] ← [[briefs/planet-satellite-opportunity]]
 - [[companies/openbook]] ← [[items/ob-no-show-deposits]] ← [[items/ob-venue-health-radar]]
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/10-non-common-ai-money-ideas]]
+- [[briefs/ai-money-patterns-2026-06]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/planet-satellite-opportunity]]
+- [[briefs/solar-installer-software-wedge]]
+- [[context/autonomous-business-launch-loop]]
+- [[context/consulting-wedges]]
+- [[context/dashboard]]
+- [[context/healthcare-revenue-cycle-wedge]]
+- [[context/index]]
+- [[context/irish-food-waste-wedge]]
+- [[context/irish-prompt-payment-copilot]]
+- [[context/llm-wiki-pattern]]
+- [[context/scaling-playbook]]
+- [[context/solo-founder-era]]
+
 ## See also
 
 - [[context/llm-wiki-pattern]] — the LLM wiki refiner feeds these briefs from imports

@@ -39,3 +39,13 @@ Use room measurements and photo uploads to auto-identify room types and features
 - room classification accuracy
 - deflection of manual categorization work
 - developer-side value signal from the insight view
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+- [[context/openhouse-product-map]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-guardrails-active]]
+- [[items/oh-warranty-evidence-pack]]
+- [[items/oh-warranty-filter]]
+

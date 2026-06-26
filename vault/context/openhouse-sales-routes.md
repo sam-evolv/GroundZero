@@ -94,3 +94,9 @@ Build a target list of 50 developers and 20 partner channels, then test 3 messag
 - [[briefs/openhouse-energy-assistant-wedge]] — energy assistant wedge
 - [[people/sam-donworth]] — founder context
 
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[context/index]]
+- [[context/solo-founder-era]]
+

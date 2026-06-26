@@ -43,3 +43,13 @@ P1
 - [[context/ops-automation-moc]] — MOC hub
 - [[Daily/<date>]] — output goes here
 - [[briefs/wiki-refiner-2026-06-26]] — refiner context
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-25]]
+- [[context/ops-automation-moc]]
+- [[items/ops-daily-sync-digest]]
+- [[items/ops-pr-issue-ageing-escalator]]
+- [[items/ops-project-state-reconciler]]
+- [[items/ops-weekly-status-pack]]
+

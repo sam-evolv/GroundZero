@@ -42,3 +42,12 @@ P1
 - [[goals/oh-v2-launch]] — V2 migration goal
 - [[companies/openhouse-ai]] — parent company
 - [[context/ops-automation-moc]] — MOC hub
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-25]]
+- [[context/dashboard]]
+- [[context/ops-automation-moc]]
+- [[items/oh-production-migration]]
+- [[items/ops-daily-sync-digest]]
+

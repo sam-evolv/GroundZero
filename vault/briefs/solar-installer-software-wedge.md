@@ -68,6 +68,23 @@ Potential pricing:
 - €75/install -> €2.25M ARR
 - €100/install -> €3.00M ARR
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/10-non-common-ai-money-ideas]]
+- [[briefs/ai-money-patterns-2026-06]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/planet-satellite-opportunity]]
+- [[briefs/solar-installer-workflow-analysis]]
+- [[companies/evolv-renewables]]
+- [[context/business-opportunities-moc]]
+- [[context/consulting-wedges]]
+- [[context/ground-zero-structure]]
+- [[goals/renew-pipeline]]
+- [[items/renew-compliance-portal]]
+- [[items/renew-grid-automation]]
+- [[project_state/renew]]
+
 ## Recommendation
 Build this **only** if the wedge is narrow and operational:
 - not generic solar design software

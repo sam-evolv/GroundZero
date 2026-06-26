@@ -151,3 +151,11 @@ OpenHouse becomes the operating system for property developer handover quality, 
 - Add any real screenshots, scheme examples, or product visuals we can safely show.
 - If we have any customer quotes or usage proof, add them carefully.
 - Keep the messaging consistent with [[context/openhouse-product-map]], [[context/openhouse-sales-routes]], and [[context/solo-founder-era]].
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+- [[context/openhouse-sales-routes]]
+- [[goals/oh-funder-pitch]]
+- [[project_state/oh]]
+

@@ -51,3 +51,11 @@ P2
 - [[context/llm-wiki-pattern]] — the pattern this implements
 - [[capture/inbox]] — the inbox this refines
 - [[context/ops-automation-moc]] — MOC hub
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-25]]
+- [[context/capture-workflow]]
+- [[context/llm-wiki-pattern]]
+- [[context/ops-automation-moc]]
+

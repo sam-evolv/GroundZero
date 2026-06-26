@@ -38,3 +38,27 @@ domain: growth
 ## Why this matters
 
 Activation is the gate on every other revenue conversation. No activation = no GTM leverage. [[briefs/2026-06-09]] called this the number holding back the V2 launch story.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-09]]
+- [[briefs/2026-06-25]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[companies/openhouse-ai]]
+- [[context/ground-zero-structure]]
+- [[context/model-pack]]
+- [[context/openhouse-product-map]]
+- [[context/openhouse-sales-routes]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-funder-pitch]]
+- [[goals/oh-room-inference]]
+- [[goals/oh-v2-launch]]
+- [[items/oh-handover-readiness-scan]]
+- [[items/oh-onboarding-cut]]
+- [[items/oh-onboarding-packet-automation]]
+- [[items/oh-pricing-experiment]]
+- [[items/oh-production-migration]]
+- [[items/oh-scheme-launch-scorecard]]
+- [[people/sam-donworth]]
+- [[project_state/oh]]
+

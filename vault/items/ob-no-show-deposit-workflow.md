@@ -50,5 +50,15 @@ Timely. Venues are increasingly willing to adopt revenue-protection mechanics, e
 - [[companies/openbook]] — parent company
 - [[project_state/ob]] — live status
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openbook]]
+- [[goals/ob-retention]]
+- [[items/ob-cancellation-waitlist]]
+- [[items/ob-no-show-deposits]]
+- [[items/ob-realtime-availability]]
+- [[items/ob-venue-health-radar]]
+
 ## Recommendation
 Treat this as the operational implementation path for the no-show deposit wedge. It is strong enough to become a project once the venue policy and payment rules are validated.

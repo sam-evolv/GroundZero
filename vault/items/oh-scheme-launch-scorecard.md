@@ -50,5 +50,11 @@ Timely. Buyers want software that proves readiness and auditability, not just ta
 - [[project_state/oh]] — live status
 - [[context/openhouse-product-map]] — product surface this scores
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[goals/oh-activation]]
+- [[items/oh-onboarding-cut]]
+
 ## Recommendation
 Strong project candidate once migration work is quieter. This is a natural premium layer above the existing launch and aftercare workflow.

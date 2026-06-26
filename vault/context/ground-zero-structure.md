@@ -80,3 +80,12 @@ Start at `vault/context/index.md`, then open the relevant domain note before edi
 ## Verification
 
 Use `read_file` on `/Users/samdonworth/GroundZero/vault/context/index.md` and confirm the load order plus the note-type map are present.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/dashboard]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[context/ops-automation-moc]]
+- [[decisions/ground-zero-canonical]]
+

@@ -41,3 +41,10 @@ P2
 - [[items/ops-daily-sync-digest]] — daily ops digest
 - [[items/ops-daily-report-pack]] — monthly planning and briefing
 - [[context/ops-automation-moc]] — MOC hub
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-25]]
+- [[context/ops-automation-moc]]
+- [[context/review-workflow]]
+

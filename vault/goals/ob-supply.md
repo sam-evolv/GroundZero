@@ -37,3 +37,15 @@ Supply-side growth is healthy but needs to keep beating churn. Net venues = supp
 - net venue count (new − churned)
 - reply rate on pilot outreach
 - inbound vs outbound acquisition ratio
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openbook]]
+- [[goals/ob-retention]]
+- [[items/ob-cancellation-waitlist]]
+- [[items/ob-loyalty-points]]
+- [[items/ob-no-show-deposits]]
+- [[items/ob-realtime-availability]]
+- [[items/ob-venue-health-radar]]
+- [[project_state/ob]]
+

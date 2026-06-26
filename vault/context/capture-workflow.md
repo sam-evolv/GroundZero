@@ -65,3 +65,24 @@ When the wiki refiner is enabled, it can auto-file confidently classifiable scra
 ## Verification
 
 Use `read_file` on `/Users/samdonworth/GroundZero/vault/capture/inbox.md` and confirm it stays temporary, with durable facts filed elsewhere.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/automation-ideas]]
+- [[context/autonomous-business-launch-loop]]
+- [[context/business-opportunities-moc]]
+- [[context/claude-access-observed]]
+- [[context/claude-vault-integration]]
+- [[context/ground-zero-structure]]
+- [[context/index]]
+- [[context/learn-targets]]
+- [[context/llm-wiki-pattern]]
+- [[context/model-pack]]
+- [[context/ops-automation-moc]]
+- [[context/review-workflow]]
+- [[decisions/ground-zero-canonical]]
+- [[items/oh-onboarding-packet-automation]]
+- [[items/ops-capture-inbox-refinery]]
+- [[items/ops-index-maintenance-bot]]
+- [[items/ops-source-to-wiki-ingest]]
+

@@ -49,5 +49,21 @@ Timely. AI support triage is now a standard productivity play, but customers in 
 - [[companies/openhouse-ai]] — parent company
 - [[project_state/oh]] — live status
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/10-non-common-ai-money-ideas]]
+- [[briefs/ai-money-patterns-2026-06]]
+- [[companies/openhouse-ai]]
+- [[context/dashboard]]
+- [[context/openhouse-product-map]]
+- [[context/ops-automation-moc]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-room-inference]]
+- [[items/oh-guardrails-eval]]
+- [[items/oh-warranty-evidence-pack]]
+- [[items/oh-warranty-filter]]
+- [[project_state/oh]]
+
 ## Recommendation
 Good project candidate, especially if it ships alongside the warranty data plumbing. Start read-only, then graduate to write-back once precision is proven.

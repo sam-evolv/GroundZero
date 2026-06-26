@@ -41,5 +41,11 @@ P2
 - [[briefs/wiki-refiner-2026-06-26]] — briefing and status note hygiene
 - [[context/ops-automation-moc]] — MOC hub
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/automation-ideas]]
+- [[context/ops-automation-moc]]
+
 ## Recommendation
 Low risk and easy to justify. It is not as valuable as the daily digest itself, but it removes a chore that happens every time the council adds new proposals.

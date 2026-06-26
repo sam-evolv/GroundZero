@@ -42,5 +42,15 @@ P1
 - [[project_state/oh]], [[project_state/ob]], [[project_state/renew]] — project_state notes
 - [[context/ops-automation-moc]] — MOC hub
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/ops-automation-moc]]
+- [[context/review-workflow]]
+- [[decisions/ground-zero-canonical]]
+- [[items/ops-daily-report-pack]]
+- [[items/ops-daily-sync-digest]]
+- [[items/ops-weekly-status-pack]]
+
 ## Recommendation
 Strong candidate because it removes the most repetitive bookkeeping after the daily status sweep. It also reduces the chance that later analyses run on stale state.

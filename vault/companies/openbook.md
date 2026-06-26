@@ -3,6 +3,7 @@ id: openbook
 name: OpenBook
 short: OpenBook
 sector: Bookings
+role: portfolio-company
 ---
 
 Real appointments at Irish service businesses. SMB booking platform. Priority by volume and distribution. Founder-led growth model.
@@ -31,3 +32,29 @@ Real appointments at Irish service businesses. SMB booking platform. Priority by
 - What is the current development status?
 - Is there a GitHub repo?
 - What is the tech stack?
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-09]]
+- [[briefs/2026-06-25]]
+- [[briefs/ai-money-patterns-2026-06]]
+- [[briefs/planet-satellite-opportunity]]
+- [[context/autonomous-business-launch-loop]]
+- [[context/business-opportunities-moc]]
+- [[context/dashboard]]
+- [[context/ground-zero-structure]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[context/ops-automation-moc]]
+- [[context/solo-founder-era]]
+- [[goals/ob-retention]]
+- [[goals/ob-supply]]
+- [[items/ob-cancellation-waitlist]]
+- [[items/ob-loyalty-points]]
+- [[items/ob-no-show-deposit-workflow]]
+- [[items/ob-no-show-deposits]]
+- [[items/ob-realtime-availability]]
+- [[items/ob-venue-health-radar]]
+- [[people/sam-donworth]]
+- [[project_state/ob]]
+

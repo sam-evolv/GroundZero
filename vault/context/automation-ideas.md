@@ -65,3 +65,14 @@ Use vault notes as the input layer, then write the output back into the correct 
 ## Verification
 
 Confirm the automation reads the current `project_state/` note and writes a dated output note or task list back into the vault.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/capture-workflow]]
+- [[context/index]]
+- [[context/learn-targets]]
+- [[context/llm-wiki-pattern]]
+- [[context/model-pack]]
+- [[context/ops-automation-moc]]
+- [[context/review-workflow]]
+

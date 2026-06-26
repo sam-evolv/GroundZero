@@ -34,3 +34,11 @@ This keeps the next session from assuming the access path or company naming is a
 - [[context/capture-workflow]] — how Claude files notes back
 - [[imports/claude/openhouse-company-memory]] — what Claude reads
 - [[companies/openhouse-ai]] — naming check reference
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/claude-quickstart]]
+- [[context/claude-vault-integration]]
+- [[context/index]]
+- [[context/model-pack]]
+

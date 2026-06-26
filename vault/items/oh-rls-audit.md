@@ -45,5 +45,11 @@ Not a market trend issue. It is a credibility issue. If this slips, it hurts the
 - security baseline
 - premium trust bar
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/dashboard]]
+- [[goals/oh-v2-launch]]
+
 ## Recommendation
 Treat as project-critical launch work. Do not broaden scope until the gap is closed and verified.

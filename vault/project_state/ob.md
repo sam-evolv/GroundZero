@@ -4,6 +4,7 @@ company_id: openbook
 headline: 362 live venues in Dublin. No-shows are the top churn driver.
 valid: true
 updated_at: "2026-06-26T16:56:31+01:00"
+role: project-state
 ---
 
 Supply growth is healthy. Venues that churn almost always cite no-shows first. Checked 2026-06-26 16:56 IST. No new live-system changes were checked for OpenBook in this sync.
@@ -17,3 +18,24 @@ Supply growth is healthy. Venues that churn almost always cite no-shows first. C
 - [[items/ob-venue-health-radar]] — churn prediction
 - [[items/ob-realtime-availability]] — booking feature
 - [[launches/launch-2026-06-24-launch-openbook-no-show-reduction-wedge]] — launch brief
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-25]]
+- [[companies/openbook]]
+- [[context/dashboard]]
+- [[context/ground-zero-structure]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[context/ops-automation-moc]]
+- [[context/review-workflow]]
+- [[goals/ob-retention]]
+- [[goals/ob-supply]]
+- [[items/ob-cancellation-waitlist]]
+- [[items/ob-loyalty-points]]
+- [[items/ob-no-show-deposit-workflow]]
+- [[items/ob-no-show-deposits]]
+- [[items/ob-realtime-availability]]
+- [[items/ob-venue-health-radar]]
+- [[items/ops-project-state-reconciler]]
+

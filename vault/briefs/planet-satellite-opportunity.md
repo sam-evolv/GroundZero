@@ -145,3 +145,18 @@ Potential buyers:
 - [[companies/openbook]] — cross-domain: venue monitoring
 - [[context/business-opportunities-moc]] — MOC hub
 - [[briefs/ai-money-patterns-2026-06]] — pattern context
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/ai-money-patterns-2026-06]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/solar-installer-software-wedge]]
+- [[briefs/solar-installer-workflow-analysis]]
+- [[companies/evolv-renewables]]
+- [[context/business-opportunities-moc]]
+- [[context/dashboard]]
+- [[context/ground-zero-structure]]
+- [[context/index]]
+- [[goals/renew-pipeline]]
+- [[project_state/renew]]
+

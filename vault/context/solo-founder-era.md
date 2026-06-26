@@ -45,3 +45,11 @@ Read this alongside [[context/autonomous-business-launch-loop]] and [[context/sc
 - [[companies/openhouse-ai]] — primary company
 - [[companies/openbook]] — booking company
 - [[companies/evolv-renewables]] — renewables company
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[context/openhouse-sales-routes]]
+

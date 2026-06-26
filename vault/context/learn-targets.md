@@ -64,3 +64,9 @@ Invoke through the `learn` command in Hermes, then file the result back into Gro
 ## Verification
 
 Confirm the learned skill has a `SKILL.md` with trigger conditions, procedure, pitfalls, and verification steps.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+- [[context/model-pack]]
+

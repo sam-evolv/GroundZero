@@ -55,5 +55,14 @@ Good. Distributed energy operators are under pressure to do more with fewer admi
 - renew-pipeline
 - client reporting and evidence packs
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/solar-installer-software-wedge]]
+- [[companies/evolv-renewables]]
+- [[goals/renew-pipeline]]
+- [[items/ops-daily-sync-digest]]
+- [[items/renew-grid-automation]]
+
 ## Recommendation
 Project-worthy once reporting cadence hardens. If installs and surveys keep moving, this becomes the backbone of a broader client-facing reporting product.

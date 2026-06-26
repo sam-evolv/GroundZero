@@ -47,5 +47,12 @@ Very timely. Teams shipping AI features are moving toward stronger eval gates, e
 - room inference
 - premium support and triage surfaces
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/dashboard]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-guardrails-active]]
+
 ## Recommendation
 This should stay inside the active guardrails project. Once the suite is bigger and stable, it becomes reasonable to flip from shadow to active mode.

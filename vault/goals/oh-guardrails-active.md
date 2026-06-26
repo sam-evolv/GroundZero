@@ -31,3 +31,12 @@ Guardrails are currently in shadow mode. The path to active:
 ## Why this matters
 
 Guardrails are the gate on every AI surface. No active guardrails = no AI concierge, no auto-triage, no auto-generated packets. [[briefs/ai-money-patterns-2026-06]] notes that teams shipping AI features are moving toward stronger eval gates, especially where hallucination can damage trust.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-room-inference]]
+- [[items/oh-guardrails-eval]]
+- [[items/oh-warranty-triage-router]]
+

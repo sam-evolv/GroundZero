@@ -49,5 +49,16 @@ Timely. Venue software is moving toward better yield management, and automated c
 - [[project_state/ob]] — live status
 - OpenBook supply growth
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-25]]
+- [[companies/openbook]]
+- [[goals/ob-retention]]
+- [[items/ob-no-show-deposit-workflow]]
+- [[items/ob-no-show-deposits]]
+- [[items/ob-realtime-availability]]
+- [[items/ob-venue-health-radar]]
+
 ## Recommendation
 This is a solid follow-on project after realtime availability and deposit workflows. It is commercially meaningful, but it depends on reliable booking state first.

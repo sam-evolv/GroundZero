@@ -86,3 +86,12 @@ Weekly AI-assisted analysis of operations, anomalies, backlog, churn, or sales s
 
 ## Simple rule
 If AI does not save measurable time or unlock revenue inside a real workflow, it is probably not a business.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/ai-money-patterns-2026-06]]
+- [[context/business-opportunities-moc]]
+- [[context/healthcare-revenue-cycle-wedge]]
+- [[context/irish-food-waste-wedge]]
+- [[context/irish-prompt-payment-copilot]]
+

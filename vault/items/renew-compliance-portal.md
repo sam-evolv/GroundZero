@@ -45,5 +45,16 @@ Good. Distributed energy operators increasingly need simple evidence, reporting,
 - [[project_state/renew]] — live status
 - [[briefs/solar-installer-software-wedge]] — the broader software-layer context
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/planet-satellite-opportunity]]
+- [[briefs/solar-installer-software-wedge]]
+- [[companies/evolv-renewables]]
+- [[goals/renew-pipeline]]
+- [[items/renew-compliance-reporting-automation]]
+- [[items/renew-grid-automation]]
+- [[project_state/renew]]
+
 ## Recommendation
 Treat as the productized follow-on to the automation work. If the first automation lands cleanly, this becomes a credible upsell and differentiation angle.

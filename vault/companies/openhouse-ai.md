@@ -3,6 +3,7 @@ id: openhouse-ai
 name: OpenHouse AI
 short: OpenHouse
 sector: PropTech
+role: primary-company
 ---
 
 Premium proptech SaaS platform for property developers: homeowner handover, aftercare, and sales pipeline management. Live at portal.openhouseai.ie. Built largely solo with AI tooling. Premium design is non-negotiable on every surface.
@@ -69,3 +70,49 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - Build around simple infrastructure, strong context, and reusable workflows that can be automated without weakening the premium bar.
 - Use AI to compress repeatable work, but keep customer-facing commitments human-reviewed.
 - Prioritise regulated or proof-heavy pain points where the product can become the system of record for the relevant workflow.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-09]]
+- [[briefs/2026-06-25]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/planet-satellite-opportunity]]
+- [[briefs/solar-installer-workflow-analysis]]
+- [[context/autonomous-business-launch-loop]]
+- [[context/business-opportunities-moc]]
+- [[context/capture-workflow]]
+- [[context/claude-access-observed]]
+- [[context/claude-quickstart]]
+- [[context/claude-vault-integration]]
+- [[context/consulting-wedges]]
+- [[context/dashboard]]
+- [[context/ground-zero-structure]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[context/openhouse-product-map]]
+- [[context/openhouse-sales-routes]]
+- [[context/ops-automation-moc]]
+- [[context/scaling-playbook]]
+- [[context/solo-founder-era]]
+- [[goals/oh-activation]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-funder-pitch]]
+- [[goals/oh-guardrails-active]]
+- [[goals/oh-room-inference]]
+- [[goals/oh-v2-launch]]
+- [[items/oh-guardrails-eval]]
+- [[items/oh-handover-readiness-scan]]
+- [[items/oh-onboarding-cut]]
+- [[items/oh-onboarding-packet-automation]]
+- [[items/oh-pricing-experiment]]
+- [[items/oh-production-migration]]
+- [[items/oh-rls-audit]]
+- [[items/oh-scheme-launch-scorecard]]
+- [[items/oh-sprint5-close]]
+- [[items/oh-warranty-evidence-pack]]
+- [[items/oh-warranty-filter]]
+- [[items/oh-warranty-triage-router]]
+- [[items/ops-pr-issue-ageing-escalator]]
+- [[people/sam-donworth]]
+- [[project_state/oh]]
+

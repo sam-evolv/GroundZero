@@ -4,6 +4,7 @@ company_id: openhouse-ai
 headline: Database V2 migration is stabilising. Sprint 5 PRs are merged. Vercel production is healthy.
 valid: true
 updated_at: "2026-06-26T16:56:31+01:00"
+role: project-state
 ---
 
 The V2 rollout is still on track for end of month. Real Longview Estates data remains live across Longview Park, Ardan View, Rathard Lawn, and Rathard Park. PR #184 and PR #186 were merged on 2026-05-23. Checked 2026-06-26 16:56 IST. GitHub open PRs remain #204, #180, #147, #146, #104, #98, #41, #40, #38, #11, and #6. Current open issues in sam-evolv/property-assistant remain #195, #194, #130, #128, #125, and #123.
@@ -32,3 +33,35 @@ The V2 rollout is still on track for end of month. Real Longview Estates data re
 - [[items/oh-warranty-triage-router]] — AI issue triage
 - [[briefs/openhouse-ndrc-accelerator-pitch]] — NDRC pitch
 - [[imports/claude/openhouse-company-memory]] — shared signals: openhouse, company, claude
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-25]]
+- [[companies/openhouse-ai]]
+- [[context/capture-workflow]]
+- [[context/dashboard]]
+- [[context/ground-zero-structure]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[context/ops-automation-moc]]
+- [[context/review-workflow]]
+- [[goals/oh-activation]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-funder-pitch]]
+- [[goals/oh-guardrails-active]]
+- [[goals/oh-room-inference]]
+- [[goals/oh-v2-launch]]
+- [[items/oh-guardrails-eval]]
+- [[items/oh-handover-readiness-scan]]
+- [[items/oh-onboarding-cut]]
+- [[items/oh-onboarding-packet-automation]]
+- [[items/oh-pricing-experiment]]
+- [[items/oh-production-migration]]
+- [[items/oh-rls-audit]]
+- [[items/oh-scheme-launch-scorecard]]
+- [[items/oh-sprint5-close]]
+- [[items/oh-warranty-evidence-pack]]
+- [[items/oh-warranty-filter]]
+- [[items/oh-warranty-triage-router]]
+- [[items/ops-project-state-reconciler]]
+

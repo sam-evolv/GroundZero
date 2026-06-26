@@ -179,6 +179,8 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/decisions/_Index.md",
+    "vault/context/dashboard.md",
     "vault/Daily/_Index.md",
     "vault/context/ops-automation-moc.md",
     "vault/context/business-opportunities-moc.md",
@@ -205,8 +207,6 @@
     "vault/items/ops-daily-report-pack.md",
     "vault/items/ops-pr-issue-ageing-escalator.md",
     "vault/items/ob-cancellation-waitlist.md",
-    "vault/items/oh-handover-readiness-scan.md",
-    "vault/briefs/2026-06-25.md",
     "vault/Daily",
     "vault/launch-signals",
     "src/components/launch/LaunchSignalForm.tsx",

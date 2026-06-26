@@ -3,6 +3,7 @@ id: evolv-renewables
 name: Evolv Renewables
 short: Renewables
 sector: Renewables
+role: portfolio-company
 ---
 
 Renewables company. First commercial rooftop is live. Reporting is still manual.
@@ -23,3 +24,26 @@ Renewables company. First commercial rooftop is live. Reporting is still manual.
 - [[briefs/solar-installer-workflow-analysis]] — Irish solar market evidence
 - [[briefs/planet-satellite-opportunity]] — satellite imagery for construction monitoring
 - [[briefs/openhouse-energy-assistant-wedge]] — energy assistant cross-link
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-09]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/planet-satellite-opportunity]]
+- [[briefs/solar-installer-software-wedge]]
+- [[briefs/solar-installer-workflow-analysis]]
+- [[context/business-opportunities-moc]]
+- [[context/consulting-wedges]]
+- [[context/dashboard]]
+- [[context/ground-zero-structure]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[context/ops-automation-moc]]
+- [[context/solo-founder-era]]
+- [[goals/renew-pipeline]]
+- [[items/renew-compliance-portal]]
+- [[items/renew-compliance-reporting-automation]]
+- [[items/renew-grid-automation]]
+- [[people/sam-donworth]]
+- [[project_state/renew]]
+

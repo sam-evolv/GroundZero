@@ -46,5 +46,20 @@ Good. Energy and compliance teams are under pressure to do more with fewer hours
 - [[briefs/solar-installer-software-wedge]] — the broader software-layer context
 - [[briefs/solar-installer-workflow-analysis]] — how Irish solar providers operate
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-09]]
+- [[briefs/planet-satellite-opportunity]]
+- [[briefs/solar-installer-software-wedge]]
+- [[briefs/solar-installer-workflow-analysis]]
+- [[companies/evolv-renewables]]
+- [[context/business-opportunities-moc]]
+- [[context/dashboard]]
+- [[goals/renew-pipeline]]
+- [[items/renew-compliance-portal]]
+- [[items/renew-compliance-reporting-automation]]
+- [[project_state/renew]]
+
 ## Recommendation
 This is probably project-worthy now. It has immediate payback and a narrow scope, so it can be taken on once the current reporting cadence is confirmed.

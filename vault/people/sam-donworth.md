@@ -41,3 +41,27 @@ timezone: Europe/Dublin
 - [[briefs/ai-money-patterns-2026-06]] — pattern lens
 - OpenBook lead gen should focus on small local Cork businesses.
 - Evolv Renewables needs more automation around reporting and sales pipeline tracking.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/10-non-common-ai-money-ideas]]
+- [[briefs/2026-06-09]]
+- [[briefs/ai-money-patterns-2026-06]]
+- [[briefs/solar-installer-workflow-analysis]]
+- [[context/autonomous-business-launch-loop]]
+- [[context/capture-workflow]]
+- [[context/claude-vault-integration]]
+- [[context/consulting-wedges]]
+- [[context/ground-zero-structure]]
+- [[context/healthcare-revenue-cycle-wedge]]
+- [[context/index]]
+- [[context/irish-food-waste-wedge]]
+- [[context/irish-prompt-payment-copilot]]
+- [[context/learn-targets]]
+- [[context/model-pack]]
+- [[context/openhouse-sales-routes]]
+- [[context/scaling-playbook]]
+- [[context/solo-founder-era]]
+- [[decisions/ground-zero-canonical]]
+- [[goals/oh-funder-pitch]]
+

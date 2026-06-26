@@ -132,3 +132,15 @@ This is enough to support a meaningful SaaS price if the workflow savings are re
 The biggest installers are already moving toward a home-energy platform.
 The opportunity is to provide the **operating system** behind that platform,
 not to compete as another roof-and-electrician business.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/solar-installer-software-wedge]]
+- [[companies/evolv-renewables]]
+- [[context/business-opportunities-moc]]
+- [[context/consulting-wedges]]
+- [[goals/renew-pipeline]]
+- [[items/renew-compliance-reporting-automation]]
+- [[items/renew-grid-automation]]
+

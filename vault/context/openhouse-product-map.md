@@ -89,3 +89,18 @@ It is a developer operating system for:
 If a person asks what OpenHouse does, say:
 
 "It helps property developers manage handover, documents, homeowner communication, compliance evidence, and aftercare in one system."
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[companies/openhouse-ai]]
+- [[context/index]]
+- [[context/openhouse-sales-routes]]
+- [[goals/oh-activation]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-room-inference]]
+- [[items/oh-handover-readiness-scan]]
+- [[items/oh-onboarding-cut]]
+- [[items/oh-scheme-launch-scorecard]]
+- [[items/oh-warranty-evidence-pack]]
+

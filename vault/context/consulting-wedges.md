@@ -87,3 +87,21 @@ Most likely first bets:
 1. residential developers
 2. renewable installers / building services
 3. solicitors or conveyancers
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/10-non-common-ai-money-ideas]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/planet-satellite-opportunity]]
+- [[briefs/solar-installer-software-wedge]]
+- [[briefs/solar-installer-workflow-analysis]]
+- [[context/business-opportunities-moc]]
+- [[context/healthcare-revenue-cycle-wedge]]
+- [[context/index]]
+- [[context/irish-food-waste-wedge]]
+- [[context/irish-prompt-payment-copilot]]
+- [[context/openhouse-product-map]]
+- [[context/openhouse-sales-routes]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-funder-pitch]]
+

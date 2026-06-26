@@ -59,6 +59,22 @@ These explain *why* the automation matters, not just what it does:
 - [[context/llm-wiki-pattern]] — why auto-filing matters (Gipp pattern)
 - [[briefs/wiki-refiner-2026-06-26]] — actual run output for the refiner
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/automation-ideas]]
+- [[context/dashboard]]
+- [[context/index]]
+- [[items/ops-capture-inbox-refinery]]
+- [[items/ops-daily-report-pack]]
+- [[items/ops-daily-sync-digest]]
+- [[items/ops-index-maintenance-bot]]
+- [[items/ops-meeting-followup-assembler]]
+- [[items/ops-pr-issue-ageing-escalator]]
+- [[items/ops-project-state-reconciler]]
+- [[items/ops-source-to-wiki-ingest]]
+- [[items/ops-weekly-status-pack]]
+
 ## See also
 
 - [[items/_Index]] — all active items including ops

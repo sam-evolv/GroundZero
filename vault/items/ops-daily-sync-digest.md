@@ -51,5 +51,23 @@ Timely. The broader trend is toward agentic ops tooling that compresses status r
 - [[context/ops-automation-moc]] — MOC hub
 - [[goals/oh-v2-launch]] — V2 migration goal
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/ai-money-patterns-2026-06]]
+- [[context/automation-ideas]]
+- [[context/dashboard]]
+- [[context/ops-automation-moc]]
+- [[context/review-workflow]]
+- [[items/oh-production-migration]]
+- [[items/ops-capture-inbox-refinery]]
+- [[items/ops-daily-report-pack]]
+- [[items/ops-index-maintenance-bot]]
+- [[items/ops-meeting-followup-assembler]]
+- [[items/ops-pr-issue-ageing-escalator]]
+- [[items/ops-project-state-reconciler]]
+- [[items/ops-source-to-wiki-ingest]]
+- [[items/ops-weekly-status-pack]]
+
 ## Recommendation
 Strong candidate for a standing internal project. It is broad, cheap to run, and directly improves the quality of every other incubation pass.

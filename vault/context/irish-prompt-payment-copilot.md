@@ -88,3 +88,12 @@ That makes the first sale easier because the buyer is not just buying software; 
 
 ## Plain-English pitch
 "We help Irish engineering consultancies and similar B2B firms get paid faster by automating overdue invoice chasing, payment-term enforcement, and dispute evidence."
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/10-non-common-ai-money-ideas]]
+- [[context/business-opportunities-moc]]
+- [[context/dashboard]]
+- [[context/index]]
+- [[context/irish-food-waste-wedge]]
+

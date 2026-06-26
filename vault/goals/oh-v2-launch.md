@@ -37,3 +37,20 @@ Real Longview Estates data is live across four schemes. Backup tables are waitin
 ## Why this matters
 
 V2 is the platform. Every other goal — activation, aftercare OS, funder pitch — builds on top of it. [[briefs/2026-06-09]] called stabilization the top priority.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+- [[context/ground-zero-structure]]
+- [[context/model-pack]]
+- [[goals/oh-activation]]
+- [[goals/oh-funder-pitch]]
+- [[items/oh-pricing-experiment]]
+- [[items/oh-production-migration]]
+- [[items/oh-rls-audit]]
+- [[items/oh-scheme-launch-scorecard]]
+- [[items/oh-sprint5-close]]
+- [[items/ops-daily-sync-digest]]
+- [[items/ops-pr-issue-ageing-escalator]]
+- [[project_state/oh]]
+

@@ -38,3 +38,17 @@ One install is generating; one is in survey. The automation work below protects 
 ## Why this matters
 
 [[briefs/ai-money-patterns-2026-06]] energy and compliance teams are under pressure to do more with fewer hours. Clear ROI on automation → money for sales motion.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-09]]
+- [[briefs/planet-satellite-opportunity]]
+- [[briefs/solar-installer-software-wedge]]
+- [[briefs/solar-installer-workflow-analysis]]
+- [[companies/evolv-renewables]]
+- [[context/dashboard]]
+- [[items/renew-compliance-portal]]
+- [[items/renew-compliance-reporting-automation]]
+- [[items/renew-grid-automation]]
+- [[project_state/renew]]
+

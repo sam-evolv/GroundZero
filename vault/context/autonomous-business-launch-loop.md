@@ -48,6 +48,7 @@ Build a *founder operating system for launching and improving one real wedge at 
 - [[briefs/ai-money-patterns-2026-06]] — pattern context
 
 - [[imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26]] — shared signals: maintaining, obsidian, gipp
+- [[capture/inbox]] — shared signals: capture
 ## Ideal users
 
 - founder-led businesses
@@ -218,6 +219,13 @@ Given the current context, the strongest first bets are likely:
 - Should the product be optimized for new business creation or for improving an existing business?
 - Should it focus first on one industry wedge or stay general?
 - Should the output be a brief, a page, or a full launch kit?
+
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+- [[context/model-pack]]
+- [[context/solo-founder-era]]
 
 ## Recommendation
 

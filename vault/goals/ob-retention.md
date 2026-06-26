@@ -37,3 +37,22 @@ No-shows are the top churn complaint from venues, so retention lives or dies on 
 ## Why this matters
 
 [[briefs/ai-money-patterns-2026-06]] keeps boring booking software alive. A 4% churn venue base is fundable. 6.1% churn limits every other conversation with investors.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-09]]
+- [[briefs/2026-06-25]]
+- [[briefs/ai-money-patterns-2026-06]]
+- [[companies/openbook]]
+- [[context/autonomous-business-launch-loop]]
+- [[context/ground-zero-structure]]
+- [[context/model-pack]]
+- [[goals/ob-supply]]
+- [[items/ob-cancellation-waitlist]]
+- [[items/ob-loyalty-points]]
+- [[items/ob-no-show-deposit-workflow]]
+- [[items/ob-no-show-deposits]]
+- [[items/ob-realtime-availability]]
+- [[items/ob-venue-health-radar]]
+- [[project_state/ob]]
+

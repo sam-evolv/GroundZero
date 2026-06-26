@@ -48,5 +48,14 @@ Timely. Warranty and aftercare automation are becoming a clearer selling point i
 - room inference
 - issue triage and premium developer reporting
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-room-inference]]
+- [[items/oh-warranty-evidence-pack]]
+- [[items/oh-warranty-triage-router]]
+
 ## Recommendation
 Keep as a fast follow feature. It is valuable, but not yet large enough to justify its own project.

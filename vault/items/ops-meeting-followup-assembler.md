@@ -41,3 +41,9 @@ P3
 - [[goals/oh-funder-pitch]] — sales follow-up
 - [[items/ops-daily-sync-digest]] — scheduling hygiene
 - [[context/ops-automation-moc]] — MOC hub
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-25]]
+- [[context/ops-automation-moc]]
+

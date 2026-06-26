@@ -53,5 +53,14 @@ Timely. SaaS buyers increasingly expect fast, polished onboarding and immediate 
 - scheme launch process
 - premium homeowner and developer experience
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[goals/oh-activation]]
+- [[items/oh-handover-readiness-scan]]
+- [[items/oh-onboarding-cut]]
+- [[items/oh-scheme-launch-scorecard]]
+- [[items/ops-meeting-followup-assembler]]
+
 ## Recommendation
 This is a strong project candidate once the production migration stabilises. It is operationally useful, brand-positive, and easy to explain to customers.

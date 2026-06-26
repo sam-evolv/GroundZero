@@ -448,7 +448,126 @@ def run_backlinks(sources: list[SourceDoc], notes: list[Note]) -> list[Backlink]
     return written
 
 
+def refresh_reverse_backlinks(notes: list[Note]) -> int:
+    """Scan all notes and ensure each has an up-to-date 'Notes that link here' section.
+    Returns the count of notes updated."""
+    # Build reverse index
+    reverse_index: dict[str, list[str]] = {}
+    for note in notes:
+        rel = note.path.relative_to(VAULT).with_suffix("").as_posix()
+        links = re.findall(r'\[\[([^\]]+)\]\]', note.text)
+        for link in links:
+            target = link.split("|")[0].split("#")[0].strip()
+            if target:
+                reverse_index.setdefault(target, []).append(rel)
+
+    updated = 0
+    for note in notes:
+        rel = note.path.relative_to(VAULT).with_suffix("").as_posix()
+        sources = reverse_index.get(rel, [])
+        if not sources:
+            continue
+        if ensure_reverse_section(note.path, sources):
+            updated += 1
+    return updated
+
+
+def ensure_reverse_section(note_path: Path, source_list: list[str]) -> bool:
+    """Ensure the note has a '## Notes that link here' section listing unique sources.
+    Returns True if the file was modified."""
+    if not note_path.exists():
+        return False
+    try:
+        text = load_text(note_path)
+    except Exception:
+        return False
+
+    # Deduplicate and format links
+    unique_sources = sorted(set(source_list))
+    new_lines = [f"- [[{src}]]" for src in unique_sources]
+
+    section_header = "## Notes that link here"
+    auto_marker = "_Auto-generated: updated by wiki-refiner_"
+
+    if section_header in text:
+        # Replace existing section content
+        idx = text.index(section_header)
+        after = text[idx:]
+        next_section = after.find("\n## ", len(section_header))
+        if next_section != -1:
+            section_text = after[:next_section + idx - idx]  # tricky, redo
+            section_end = idx + next_section
+        else:
+            section_end = len(text)
+
+        existing_block = text[idx:section_end] if section_end <= len(text) else text[idx:]
+        new_block = f"{section_header}\n{auto_marker}\n" + "\n".join(new_lines) + "\n"
+
+        if existing_block.strip() != new_block.strip():
+            text = text[:idx] + new_block + "\n" + text[section_end:]
+            write_text(note_path, text)
+            return True
+        return False
+    else:
+        # Append before any ## Guardrails or ## Recommendation section, else at end
+        insert_markers = ["## Guardrails", "## Recommendation", "## See also"]
+        insert_idx = None
+        for marker in insert_markers:
+            if marker in text:
+                insert_idx = text.index(marker)
+                break
+
+        block = f"\n{section_header}\n{auto_marker}\n" + "\n".join(new_lines) + "\n\n"
+
+        if insert_idx is not None:
+            text = text[:insert_idx] + block + text[insert_idx:]
+        else:
+            text = text.rstrip() + "\n" + block
+        write_text(note_path, text)
+        return True
+
+
 # ─── Brief builder ─────────────────────────────────────────────────────────
+
+STALE_THRESHOLD_DAYS = 14
+MIN_INBOUND_LINKS = 2
+
+
+def detect_stale_notes(notes: list[Note]) -> list[tuple[Path, str, int]]:
+    """Find notes that haven't been modified in STALE_THRESHOLD_DAYS and have few inbound links.
+    Returns list of (path, modified_date, inbound_link_count)."""
+    import os
+    from datetime import datetime, timedelta
+
+    # Count inbound links for every note
+    inbound_counts: dict[str, int] = {}
+    for note in notes:
+        rel = note.path.relative_to(VAULT).with_suffix("").as_posix()
+        inbound_counts.setdefault(rel, 0)
+        for other in notes:
+            if other.path == note.path:
+                continue
+            other_rel = other.path.relative_to(VAULT).with_suffix("").as_posix()
+            if rel.lower() in other.text.lower().replace("[[", "").replace("]]", ""):
+                inbound_counts[rel] = inbound_counts.get(rel, 0) + 1
+
+    stale: list[tuple[Path, str, int]] = []
+    cutoff = datetime.now() - timedelta(days=STALE_THRESHOLD_DAYS)
+
+    for note in notes:
+        try:
+            mtime = datetime.fromtimestamp(os.path.getmtime(note.path))
+        except OSError:
+            continue
+        rel = note.path.relative_to(VAULT).with_suffix("").as_posix()
+        inbound = inbound_counts.get(rel, 0)
+        date_str = mtime.strftime("%Y-%m-%d")
+        if mtime < cutoff and inbound < MIN_INBOUND_LINKS:
+            stale.append((note.path, date_str, inbound))
+
+    stale.sort(key=lambda s: s[1])
+    return stale
+
 
 def build_brief(notes: list[Note], sources: list[SourceDoc], filing: FilingResult, backlinks: list[Backlink]) -> str:
     today = datetime.now().astimezone().strftime("%Y-%m-%d")
@@ -529,6 +648,24 @@ def build_brief(notes: list[Note], sources: list[SourceDoc], filing: FilingResul
     return "\n".join(lines).rstrip() + "\n"
 
 
+def build_stale_report(stale_notes: list[tuple[Path, str, int]]) -> str:
+    """Build a short stale-notes report for the brief."""
+    if not stale_notes:
+        return ""
+    lines = [
+        "",
+        "## Stale notes (14+ days, <2 inbound links)",
+        "_Consider: link them from a related note, archive them, or update them._",
+        "",
+    ]
+    for path, date_str, inbound in stale_notes[:10]:
+        rel = path.relative_to(VAULT).as_posix()
+        lines.append(f"- `{rel}` — modified {date_str}, {inbound} inbound links")
+    if len(stale_notes) > 10:
+        lines.append(f"- ... and {len(stale_notes) - 10} more")
+    return "\n".join(lines)
+
+
 def main() -> int:
     BRIEFS.mkdir(parents=True, exist_ok=True)
     today = datetime.now().astimezone().strftime("%Y-%m-%d")
@@ -544,8 +681,15 @@ def main() -> int:
     
     # NEW: auto-backlink pass
     backlinks = run_backlinks(sources, notes)
+    reverse_count = refresh_reverse_backlinks(notes)
     
     content = build_brief(notes, sources, filing, backlinks)
+    
+    # Append stale notes report
+    stale_notes = detect_stale_notes(notes)
+    stale_report = build_stale_report(stale_notes)
+    if stale_report:
+        content = content.rstrip() + "\n" + stale_report + "\n"
 
     previous = brief_path.read_text(encoding="utf-8") if brief_path.exists() else None
     changed = previous != content
@@ -553,11 +697,13 @@ def main() -> int:
         write_text(brief_path, content)
 
     print(f"wiki-refiner: {'updated' if changed else 'unchanged'} {brief_path.relative_to(VAULT)}")
-    print(f"wiki-refiner: sources={len(sources)} notes_indexed={len(notes)} filed={len(filing.filed)} backlinks={len(backlinks)}")
+    print(f"wiki-refiner: sources={len(sources)} notes_indexed={len(notes)} filed={len(filing.filed)} backlinks={len(backlinks)} reverse={reverse_count} stale={len(stale_notes)}")
     for item in filing.filed:
         print(f"- filed {item.source_section}: {item.entry} -> {item.target}")
     for bl in backlinks:
         print(f"- backlink: {bl.source_label} → {bl.target_path.relative_to(VAULT)} (score {bl.score})")
+    for s in stale_notes:
+        print(f"- STALE: {s[0].relative_to(VAULT)} (modified {s[1]}, inbound links: {s[2]})")
 
     return 0
 

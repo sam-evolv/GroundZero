@@ -80,4 +80,11 @@ AI is good at:
 - automating follow-up
 
 ## Plain-English pitch
-"We help hospitals get paid faster by stopping avoidable denials and automatically building the paperwork needed to win appeals." 
+"We help hospitals get paid faster by stopping avoidable denials and automatically building the paperwork needed to win appeals."
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+- [[context/dashboard]]
+- [[context/index]]
+

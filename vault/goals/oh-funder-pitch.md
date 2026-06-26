@@ -44,6 +44,22 @@ The pitch should make the company feel like a category with a real wedge, a real
 - [[briefs/openhouse-energy-assistant-wedge]] — HPI/HPP evidence angle
 - [[people/sam-donworth]] — founder context
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/ai-money-patterns-2026-06]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[companies/openhouse-ai]]
+- [[context/autonomous-business-launch-loop]]
+- [[context/consulting-wedges]]
+- [[context/openhouse-sales-routes]]
+- [[context/scaling-playbook]]
+- [[context/solo-founder-era]]
+- [[goals/oh-v2-launch]]
+- [[items/oh-pricing-experiment]]
+- [[items/ops-meeting-followup-assembler]]
+- [[people/sam-donworth]]
+
 ## Guardrails
 
 - No invented traction.
