@@ -39,6 +39,17 @@ Frame it as:
 The post-handover period is where trust is won or lost.
 OpenHouse can become the aftercare log, evidence pack, and customer communication layer.
 
+### 6. Energy assistant / low-carbon home OS wedge
+Use heat pumps, solar PV, EV charging, smart-meter data, bills, tariffs, and device manuals as a new buyer-support and developer-evidence layer.
+
+Why it works:
+- new homes already contain more low-carbon infrastructure that buyers struggle to operate confidently
+- HPI / HPP, green finance, ESG, and net-zero narratives all need better operational evidence
+- developers can get anonymised scheme-level insight without turning OpenHouse into individual household surveillance
+- the homeowner gets immediate value through bill explanations, tariff advice, solar self-consumption guidance, EV charging windows, and heat-pump confidence
+
+See [[briefs/openhouse-energy-assistant-wedge]].
+
 ## Who to sell to first
 Prioritise:
 - property developers in Ireland

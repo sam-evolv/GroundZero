@@ -93,3 +93,6 @@ Validate the wedge with 5-10 installer interviews and test whether they would pa
 2. faster quote turnaround
 3. post-install monitoring / support
 4. consolidated customer asset records
+
+## Related later exploration
+- [[briefs/planet-satellite-opportunity]] — Planet/satellite-data wedge for solar farm construction, O&M monitoring, and commercial solar lead intelligence.

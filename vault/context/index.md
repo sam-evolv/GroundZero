@@ -50,6 +50,7 @@ This is the first note to load when a model needs cross-business context.
 - Healthcare revenue-cycle wedge: [[context/healthcare-revenue-cycle-wedge]]
 - Irish food waste wedge: [[context/irish-food-waste-wedge]]
 - Irish prompt payment copilot: [[context/irish-prompt-payment-copilot]]
+- Planet satellite data opportunity: [[briefs/planet-satellite-opportunity]]
 
 ## Usage rule
 If a model needs context, start here, then follow the links for the specific business or workstream.

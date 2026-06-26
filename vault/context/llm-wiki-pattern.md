@@ -19,6 +19,9 @@ Turn raw sources into durable, interlinked markdown notes instead of letting the
 - Capture inbox auto-file: new scraps are routed into the right company, project, decision, item, or context note when the classifier is confident enough
 - Remaining inbox scraps stay in `capture/inbox.md` so ambiguous items can be reviewed instead of forced into the wrong note
 
+## External validation
+- 2026-06-26: Gipp described the same pattern as an Obsidian graph becoming a self-maintaining AI wiki: new sources expand into linked summaries, entities, concept pages, comparisons, open questions, and indexes instead of disposable ChatGPT context. Source preserved at [[imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26]].
+
 ## Inputs
 
 - `vault/imports/` for raw source drops and external exports
