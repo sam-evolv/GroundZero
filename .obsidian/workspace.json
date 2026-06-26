@@ -179,6 +179,9 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/imports/campaigns/openhouse-innovation-strategy.md",
+    "vault/imports/campaigns/openhouse-full-context.md",
+    "vault/imports/campaigns",
     "skills-lock.json",
     "scripts/update-dashboard.py",
     "vault/decisions/_Index.md",
@@ -207,13 +210,10 @@
     "vault/items/ops-capture-inbox-refinery.md",
     "vault/items/ops-meeting-followup-assembler.md",
     "vault/items/ops-daily-report-pack.md",
-    "vault/items/ops-pr-issue-ageing-escalator.md",
     "vault/Daily",
     "vault/launch-signals",
     "src/components/launch/LaunchSignalForm.tsx",
     "src/components/launch/LaunchSharePanel.tsx",
-    "src/components/launch",
-    "src/app/launch/[id]/page.tsx",
-    "src/app/launch/page.tsx"
+    "src/components/launch"
   ]
 }

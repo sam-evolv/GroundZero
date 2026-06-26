@@ -48,6 +48,8 @@ A premium proptech SaaS platform for property developers: homeowner handover, af
 - [[items/oh-warranty-filter]] — warranty gap noted here
 - [[context/claude-vault-integration]] — how Claude reads this
 - [[briefs/wiki-refiner-2026-06-26]] — refiner reviewed this file
+- [[imports/campaigns/openhouse-full-context]] — master strategy + context (June 2026)
+- [[imports/campaigns/openhouse-innovation-strategy]] — forward-looking analysis, unit economics, competitive landscape
 
 ## Working preferences
 - Premium design is mandatory. Stability over clever refactors. Low tolerance for repeated breakage.
