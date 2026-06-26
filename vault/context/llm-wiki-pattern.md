@@ -16,6 +16,8 @@ Turn raw sources into durable, interlinked markdown notes instead of letting the
 - Hermes cron job: `Ground Zero LLM Wiki Refiner` (`338ecd7eae63`)
 - Daily output: `briefs/wiki-refiner-YYYY-MM-DD.md`
 - Sync hook: `scripts/sync-vault.sh` runs the refiner before vault sync so the wiki compounds on every pull/push pass
+- Capture inbox auto-file: new scraps are routed into the right company, project, decision, item, or context note when the classifier is confident enough
+- Remaining inbox scraps stay in `capture/inbox.md` so ambiguous items can be reviewed instead of forced into the wrong note
 
 ## Inputs
 

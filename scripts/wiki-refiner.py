@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
 """Ground Zero LLM wiki refiner.
 
-Reads raw imports and the capture inbox, finds likely related notes in the
-vault, and writes a dated brief that turns the raw material into connected
-wiki work. The script is intentionally conservative: it preserves provenance,
-never mutates source notes, and only writes a new brief file.
+Scans raw imports plus the capture inbox, routes durable scraps into the
+right vault note types, and writes a dated brief describing what was filed.
+The script is intentionally conservative: it preserves provenance, avoids
+silent overwrites, and only appends to target notes when the entry is new.
 """
 
 from __future__ import annotations
 
 import re
-import sys
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -23,12 +22,13 @@ CAPTURE_INBOX = VAULT / "capture" / "inbox.md"
 BRIEFS = VAULT / "briefs"
 
 NOTE_DIRS = ["context", "people", "companies", "project_state", "goals", "items", "decisions", "briefs"]
+INBOX_SECTIONS = ("New facts to file", "Questions to resolve", "Links to sort")
 STOPWORDS = {
     "the", "and", "for", "with", "from", "that", "this", "into", "your", "you", "are", "was", "were",
-    "have", "has", "had", "will", "can", "should", "would", "could", "not", "but", "about", "into",
-    "current", "note", "notes", "file", "vault", "ground", "zero", "groundzero", "open", "live", "daily",
+    "have", "has", "had", "will", "can", "should", "would", "could", "not", "but", "about", "open",
+    "current", "note", "notes", "file", "vault", "ground", "zero", "groundzero", "live", "daily",
     "model", "brief", "briefs", "inbox", "imports", "shared", "context", "source", "sources", "their",
-    "there", "here", "what", "when", "where", "why", "how", "who", "which", "into", "after", "before",
+    "there", "here", "what", "when", "where", "why", "how", "who", "which", "after", "before",
 }
 
 
@@ -47,6 +47,24 @@ class SourceDoc:
     title: str
     tokens: set[str]
 
+
+@dataclass
+class InboxEntry:
+    section: str
+    text: str
+
+
+@dataclass
+class Filing:
+    target: str
+    source_section: str
+    entry: str
+
+
+@dataclass
+class FilingResult:
+    filed: list[Filing]
+    remaining_sections: dict[str, list[str]]
 
 
 def parse_frontmatter(text: str) -> dict[str, str]:
@@ -68,7 +86,6 @@ def parse_frontmatter(text: str) -> dict[str, str]:
     return data
 
 
-
 def first_heading(text: str) -> str | None:
     for line in text.splitlines():
         if line.startswith("# "):
@@ -79,6 +96,11 @@ def first_heading(text: str) -> str | None:
 
 def load_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
+
+
+
+def write_text(path: Path, content: str) -> None:
+    path.write_text(content, encoding="utf-8")
 
 
 
@@ -120,14 +142,12 @@ def collect_notes(exclude: set[Path] | None = None) -> list[Note]:
                 text = load_text(path)
             except Exception:
                 continue
-            title = note_title(path, text)
-            tokens = tokenize(" ".join([title, path.stem, text[:1200]]))
-            notes.append(Note(path=path, title=title, text=text, tokens=tokens))
+            notes.append(Note(path=path, title=note_title(path, text), text=text, tokens=tokenize(text + " " + path.stem)))
     return notes
 
 
 
-def collect_sources() -> list[SourceDoc]:
+def collect_sources(inbox_text: str | None = None) -> list[SourceDoc]:
     sources: list[SourceDoc] = []
     if IMPORTS.exists():
         for path in sorted(IMPORTS.rglob("*.md")):
@@ -137,45 +157,30 @@ def collect_sources() -> list[SourceDoc]:
                 text = load_text(path)
             except Exception:
                 continue
-            title = note_title(path, text)
-            tokens = tokenize(" ".join([title, path.stem, text[:1200]]))
-            sources.append(SourceDoc(path=path, text=text, title=title, tokens=tokens))
-    if CAPTURE_INBOX.exists():
-        text = load_text(CAPTURE_INBOX)
-        title = note_title(CAPTURE_INBOX, text)
-        tokens = tokenize(" ".join([title, CAPTURE_INBOX.stem, text[:1200]]))
-        sources.append(SourceDoc(path=CAPTURE_INBOX, text=text, title=title, tokens=tokens))
+            sources.append(SourceDoc(path=path, text=text, title=note_title(path, text), tokens=tokenize(text + " " + path.stem)))
+    if inbox_text is None and CAPTURE_INBOX.exists():
+        inbox_text = load_text(CAPTURE_INBOX)
+    if inbox_text:
+        sources.append(SourceDoc(path=CAPTURE_INBOX, text=inbox_text, title=note_title(CAPTURE_INBOX, inbox_text), tokens=tokenize(inbox_text + " " + CAPTURE_INBOX.stem)))
     return sources
 
 
 
 def score_related(source: SourceDoc, note: Note) -> int:
     source_text = source.text.lower()
-    note_text = note.text.lower()
     score = 0
-
-    # Exact title/path mentions are high-signal.
     if note.title.lower() in source_text:
         score += 6
     if note.path.stem.lower().replace("-", " ") in source_text:
         score += 3
-
-    overlap = source.tokens & note.tokens
-    score += len(overlap)
-
-    # Frontmatter ids and obvious aliases are also useful.
+    score += len(source.tokens & note.tokens)
     meta = parse_frontmatter(note.text)
     for key in ("id", "company_id", "kind", "purpose"):
         value = meta.get(key)
         if value and value.lower() in source_text:
             score += 2
-
-    # If the source and note share the first sentence, increase confidence.
-    source_head = source_text[:250]
-    note_head = note_text[:250]
-    shared = tokenize(source_head) & tokenize(note_head)
+    shared = tokenize(source_text[:250]) & tokenize(note.text.lower()[:250])
     score += min(2, len(shared) // 4)
-
     return score
 
 
@@ -191,30 +196,29 @@ def top_related(source: SourceDoc, notes: Iterable[Note], limit: int = 6) -> lis
 def classify_destination(source: SourceDoc, related: list[tuple[Note, int]]) -> str:
     text = source.text.lower()
     path = source.path.as_posix().lower()
-    if "company memory" in text or "what openhouse is" in text:
+    if any(token in text for token in ("company memory", "what openhouse is", "openhouse ai")):
         return "companies/openhouse-ai.md"
-    if "current priorities" in text and "openhouse" in text:
+    if any(token in text for token in ("current priorities", "openhouse", "property-assistant", "longview", "rathard", "ardan")):
         return "project_state/oh.md"
-    if "do not re-propose" in text or "known real gaps" in text:
-        return "items/oh-production-migration.md"
-    if "daily" in path or "brief" in path:
+    if any(token in text for token in ("openbook", "booking", "no-show", "venue", "cork")):
+        return "project_state/ob.md" if any(token in text for token in ("status", "current", "live", "healthy", "ready", "merged")) else "companies/openbook.md"
+    if any(token in text for token in ("evolv", "renewables", "solar", "grid", "compliance")):
+        return "project_state/renew.md" if any(token in text for token in ("status", "current", "live", "healthy", "ready", "merged")) else "companies/evolv-renewables.md"
+    if any(token in path for token in ("brief", "daily")):
         return "briefs/"
     if related:
         best = related[0][0].path
-        if best.parts:
-            try:
-                idx = best.parts.index("vault")
-                return "/".join(best.parts[idx + 1 :])
-            except ValueError:
-                pass
+        try:
+            idx = best.parts.index("vault")
+            return "/".join(best.parts[idx + 1 :])
+        except ValueError:
+            pass
     return "briefs/"
 
 
 
 def summarize_source(source: SourceDoc) -> str:
-    body = source.text
-    body = re.sub(r"^---\n.*?\n---\n", "", body, flags=re.S)
-    body = body.strip()
+    body = re.sub(r"^---\n.*?\n---\n", "", source.text, flags=re.S).strip()
     lines = [line.strip() for line in body.splitlines() if line.strip()]
     if not lines:
         return "(empty)"
@@ -231,11 +235,132 @@ def summarize_source(source: SourceDoc) -> str:
 
 
 
-def build_brief(notes: list[Note], sources: list[SourceDoc]) -> str:
+def inbox_sections(text: str) -> dict[str, list[str]]:
+    sections: dict[str, list[str]] = {name: [] for name in INBOX_SECTIONS}
+    current = None
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if line.startswith("## "):
+            current = line[3:].strip()
+            continue
+        if current in sections and line.startswith("-") and line != "-":
+            sections[current].append(line[1:].strip())
+    return sections
+
+
+
+def normalize_entry(text: str) -> str:
+    return re.sub(r"\s+", " ", text.strip().lower())
+
+
+
+def classify_inbox_entry(entry: str, section: str) -> str | None:
+    text = entry.lower()
+    if any(token in text for token in ("openhouse", "property-assistant", "longview", "rathard", "ardan", "portal.openhouseai", "vercel", "supabase", "handover", "aftercare", "warranty")):
+        if any(token in text for token in ("status", "current", "live", "healthy", "ready", "merged", "production", "migration", "deployment")):
+            return "project_state/oh.md"
+        return "companies/openhouse-ai.md"
+    if any(token in text for token in ("openbook", "booking", "no-show", "deposits", "venue", "cork")):
+        if any(token in text for token in ("status", "current", "live", "healthy", "ready", "merged")):
+            return "project_state/ob.md"
+        return "companies/openbook.md"
+    if any(token in text for token in ("evolv", "renewables", "solar", "grid", "compliance")):
+        if any(token in text for token in ("status", "current", "live", "healthy", "ready", "merged")):
+            return "project_state/renew.md"
+        return "companies/evolv-renewables.md"
+
+    if section == "Questions to resolve":
+        return "items/ops-capture-inbox-refinery.md"
+    if any(token in text for token in ("decided", "decision", "choose", "chosen", "prefer", "should", "agree")):
+        return "decisions/ground-zero-canonical.md"
+    if any(token in text for token in ("todo", "follow up", "action", "need to", "build", "fix", "investigate", "review")):
+        return "items/ops-capture-inbox-refinery.md"
+    if "http://" in text or "https://" in text or "[[" in text:
+        return "context/index.md"
+    return None
+
+
+
+def append_filed_entries(target_relpath: str, entries: list[str], source_section: str, source_label: str) -> bool:
+    if not entries:
+        return False
+    target_path = VAULT / target_relpath
+    if not target_path.exists():
+        return False
+    try:
+        existing = load_text(target_path)
+    except Exception:
+        return False
+
+    new_entries = [entry for entry in entries if normalize_entry(entry) not in normalize_entry(existing)]
+    if not new_entries:
+        return False
+
+    today = datetime.now().astimezone().strftime("%Y-%m-%d")
+    stamp = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M %Z")
+    block_lines = [
+        f"## Auto-filed from capture inbox {today}",
+        f"_Source: {source_label} · Section: {source_section} · Filed: {stamp}_",
+    ]
+    block_lines.extend(f"- {entry}" for entry in new_entries)
+    block = "\n".join(block_lines) + "\n"
+    write_text(target_path, existing.rstrip() + "\n\n" + block)
+    return True
+
+
+
+def file_inbox_entries(inbox_text: str) -> FilingResult:
+    sections = inbox_sections(inbox_text)
+    filed: list[Filing] = []
+    remaining: dict[str, list[str]] = {name: [] for name in INBOX_SECTIONS}
+    grouped: dict[tuple[str, str], list[str]] = {}
+
+    for section, entries in sections.items():
+        for entry in entries:
+            target = classify_inbox_entry(entry, section)
+            if target:
+                grouped.setdefault((target, section), []).append(entry)
+            else:
+                remaining[section].append(entry)
+
+    for (target, source_section), entries in grouped.items():
+        if append_filed_entries(target, entries, source_section, "capture/inbox.md"):
+            for entry in entries:
+                filed.append(Filing(target=target, source_section=source_section, entry=entry))
+        else:
+            remaining[source_section].extend(entries)
+
+    return FilingResult(filed=filed, remaining_sections=remaining)
+
+
+
+def render_inbox(remaining_sections: dict[str, list[str]]) -> str:
+    lines = [
+        "---",
+        "kind: capture_inbox",
+        "purpose: Temporary landing zone for new facts before filing",
+        "---",
+        "",
+        "# Inbox",
+        "",
+        "Use this note to capture anything important before filing it into the right person, company, project, goal, item, or decision note.",
+        "",
+    ]
+    for section in INBOX_SECTIONS:
+        lines.extend([f"## {section}"])
+        if remaining_sections.get(section):
+            lines.extend(f"- {entry}" for entry in remaining_sections[section])
+        else:
+            lines.append("-")
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+
+def build_brief(notes: list[Note], sources: list[SourceDoc], filing: FilingResult) -> str:
     today = datetime.now().astimezone().strftime("%Y-%m-%d")
     run_at = datetime.now().astimezone().isoformat(timespec="seconds")
-    lines: list[str] = []
-    lines.extend([
+    lines: list[str] = [
         "---",
         f'title: Wiki Refiner {today}',
         'kind: wiki_refiner_brief',
@@ -247,7 +372,13 @@ def build_brief(notes: list[Note], sources: list[SourceDoc]) -> str:
         "",
         "This brief captures raw sources reviewed by the wiki refiner and the notes they should connect to.",
         "",
-    ])
+    ]
+
+    if filing.filed:
+        lines.append("## Inbox filing results")
+        for item in filing.filed:
+            lines.append(f"- `{item.entry}` -> `{item.target}`")
+        lines.append("")
 
     if not sources:
         lines.extend([
@@ -280,7 +411,7 @@ def build_brief(notes: list[Note], sources: list[SourceDoc]) -> str:
                 continue
             seen.add(key)
             lines.append(f"- [[{key}]] ({score})")
-    if len(lines) and lines[-1] != "":
+    if lines[-1] != "":
         lines.append("")
 
     lines.extend([
@@ -302,19 +433,26 @@ def build_brief(notes: list[Note], sources: list[SourceDoc]) -> str:
 def main() -> int:
     BRIEFS.mkdir(parents=True, exist_ok=True)
     today = datetime.now().astimezone().strftime("%Y-%m-%d")
-    out = BRIEFS / f"wiki-refiner-{today}.md"
-    notes = collect_notes({out})
-    sources = collect_sources()
-    content = build_brief(notes, sources)
-    previous = out.read_text(encoding="utf-8") if out.exists() else None
-    if previous != content:
-        out.write_text(content, encoding="utf-8")
-        changed = True
-    else:
-        changed = False
+    brief_path = BRIEFS / f"wiki-refiner-{today}.md"
 
-    print(f"wiki-refiner: {'updated' if changed else 'unchanged'} {out.relative_to(VAULT)}")
-    print(f"wiki-refiner: sources={len(sources)} notes_indexed={len(notes)}")
+    inbox_text = CAPTURE_INBOX.read_text(encoding="utf-8") if CAPTURE_INBOX.exists() else ""
+    filing = file_inbox_entries(inbox_text) if inbox_text.strip() else FilingResult(filed=[], remaining_sections={name: [] for name in INBOX_SECTIONS})
+    if inbox_text:
+        write_text(CAPTURE_INBOX, render_inbox(filing.remaining_sections))
+
+    notes = collect_notes({brief_path})
+    sources = collect_sources(inbox_text)
+    content = build_brief(notes, sources, filing)
+
+    previous = brief_path.read_text(encoding="utf-8") if brief_path.exists() else None
+    changed = previous != content
+    if changed:
+        write_text(brief_path, content)
+
+    print(f"wiki-refiner: {'updated' if changed else 'unchanged'} {brief_path.relative_to(VAULT)}")
+    print(f"wiki-refiner: sources={len(sources)} notes_indexed={len(notes)} filed={len(filing.filed)}")
+    for item in filing.filed:
+        print(f"- filed {item.source_section}: {item.entry} -> {item.target}")
     for source in sources:
         related = top_related(source, notes)
         related_txt = ", ".join(f"{note.path.relative_to(VAULT).as_posix()}({score})" for note, score in related[:4]) or "none"

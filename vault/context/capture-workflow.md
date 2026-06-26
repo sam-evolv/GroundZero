@@ -26,6 +26,7 @@ This note describes the path from raw input to a filed vault note. It is for new
 Invoke through `read_file`, `search_files`, `patch`, and `write_file`.
 
 Use `capture/inbox.md` for uncategorized scraps, then move the useful parts into the correct note type.
+When the wiki refiner is enabled, it can auto-file confidently classifiable scraps into the right durable note and leave the ambiguous ones in the inbox for review.
 
 ## Quick Reference
 
