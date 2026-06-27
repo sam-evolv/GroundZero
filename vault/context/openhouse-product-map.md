@@ -45,6 +45,7 @@ It is used to:
 - [[items/oh-warranty-triage-router]] — homeowner issue triage
 - [[context/consulting-wedges]] — wedge narrative references this map
 - [[briefs/openhouse-energy-assistant-wedge]] — energy extension of this product
+- [[briefs/openhouse-energy-intelligence-sketch]] — broader energy intelligence vision
 
 ### 3. Homeowner / purchaser support
 The platform also serves homeowner aftercare and communication.

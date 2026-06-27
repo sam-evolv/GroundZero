@@ -318,6 +318,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/consulting-wedges]]
 - [[context/openhouse-product-map]]
 - [[context/openhouse-sales-routes]]
+- [[briefs/openhouse-energy-intelligence-sketch]] — broader energy intelligence vision
 - [[goals/oh-activation]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-funder-pitch]]
