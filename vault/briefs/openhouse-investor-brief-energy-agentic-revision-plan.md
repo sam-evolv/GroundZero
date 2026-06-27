@@ -23,6 +23,22 @@ The current deck is already directionally strong: it has moved from handover sof
 
 ## Current Deck Read
 
+### Additional correction from Sam
+
+The next deck revision should not over-rotate into energy so hard that it hides the day-one property assistant value. OpenHouse must still be clearly understood as a useful homeowner assistant from the first session: people can ask mundane questions, upload images, talk to it conversationally, and get practical answers about their actual home.
+
+Examples that should appear in the deck:
+- "What size is my living room?"
+- "Where is my stopcock?"
+- "What paint colour is on this wall?"
+- "How do I reset my heat pump?"
+- "Is this crack normal?"
+- "Can I hang a TV on this wall?"
+- "What warranty covers this appliance?"
+- "Who do I contact about this leak?"
+
+This matters because the assistant is the adoption layer. Energy intelligence is the bigger strategic opportunity, but the everyday property assistant is what makes homeowners use OpenHouse repeatedly.
+
 ### What is already working
 
 - The deck already avoids the “chatbot” trap.
@@ -168,6 +184,45 @@ Split into four layers:
 
 Suggested line:
 > **Generic energy tools see usage. OpenHouse sees the home that created the usage.**
+
+---
+
+## New Slide before / around Slide 6 — The Everyday Property Assistant
+
+This should be made explicit, either as its own slide or as a stronger product slide before the energy model.
+
+### Headline
+**The assistant homeowners use for everything about their home.**
+
+### Body
+Before OpenHouse becomes an agentic energy layer, it is immediately useful as a property assistant. Homeowners can ask simple, practical questions about the home they just bought and get answers grounded in the actual build data, documents, drawings, manuals and warranties.
+
+It can answer:
+- "What size is my living room?"
+- "Where is the stopcock?"
+- "What paint colour is in the kitchen?"
+- "What appliances are under warranty?"
+- "How do I reset the heat pump?"
+- "Can I drill into this wall?"
+- "Who installed this system?"
+- "What do I do if this alarm is flashing?"
+
+It can also handle multimodal issue intake:
+- upload a photo of a crack, leak, appliance fault or finish defect
+- describe the problem in plain language
+- ask follow-up questions
+- identify likely issue category
+- check warranty relevance
+- route to the developer, installer or maintenance workflow where needed
+
+### Key line
+> **Energy intelligence is the strategic expansion. The everyday property assistant is the adoption layer.**
+
+### Visual
+Phone chat UI with simple homeowner questions on the left and image upload / issue diagnosis on the right.
+
+### Speaker note
+This slide prevents the deck from sounding too abstract. Investors should understand that OpenHouse has day-one utility even before smart meter, heat pump, EV or battery integrations are mature.
 
 ---
 
@@ -572,25 +627,31 @@ Add language:
 
 # Slides to Add
 
-The current deck has 22 slides. I would add 4 new slides and possibly remove/compress a weaker appendix slide if length becomes an issue.
+The current deck has 22 slides. I would add 5 new slides and possibly remove/compress weaker appendix material if length becomes an issue.
 
-## New Slide A — The Living Home Model
+## New Slide A — The Everyday Property Assistant
+Place before or around current slide 6.
+
+This grounds the product in day-one homeowner value: simple questions, chat, image upload and issue diagnosis.
+
+## New Slide B — The Living Home Model
 Place after current slide 6.
 
-## New Slide B — Path to Agentic Energy Management
+## New Slide C — Path to Agentic Energy Management
 Place after current slide 7.
 
-## New Slide C — Data Ownership
+## New Slide D — Data Ownership
 Place after current slide 12.
 
-## New Slide D — Financial Model / Ireland to UK Scale
+## New Slide E — Financial Model / Ireland to UK Scale
 Place after current slide 15.
 
 If deck length must stay tight, combine:
+- The Everyday Property Assistant with What OpenHouse Knows, or
 - Data ownership into business model appendix, or
 - Financial model into business model slide.
 
-But for investors, I recommend keeping both as visible main slides because they answer obvious questions.
+But the property assistant should not disappear. It explains why homeowners will use the product before the deeper energy vision is fully integrated.
 
 ---
 
@@ -599,18 +660,19 @@ But for investors, I recommend keeping both as visible main slides because they 
 The revised deck should tell this story:
 
 1. Handover software is too small a category.
-2. Modern homes are becoming energy systems.
-3. Homeowners do not know how to operate them.
-4. Developers hold the home context, but it disappears after handover.
-5. OpenHouse captures that context at construction.
-6. It creates a living home model.
-7. The model powers education, diagnostics, aftercare and energy intelligence.
-8. It starts advisory, then moves toward assisted and agentic control.
-9. Developers pay a low-friction €99/home to create the model.
-10. Homeowners can subscribe at €9.99/month for ongoing intelligence.
-11. Agentic tiers increase ARPU once device integrations mature.
-12. Homeowners control personal and energy data; developers get portfolio insight.
-13. Ireland proves the model; UK expansion creates venture-scale potential.
+2. Modern homes are becoming more complex and energy-sensitive.
+3. Homeowners need a practical assistant for everyday questions from day one.
+4. They can ask simple questions, talk to the assistant, upload images and diagnose issues.
+5. Developers hold the home context, but it disappears after handover.
+6. OpenHouse captures that context at construction.
+7. It creates a living home model.
+8. The model powers practical property assistance, education, diagnostics, aftercare and energy intelligence.
+9. It starts advisory, then moves toward assisted and agentic energy control.
+10. Developers pay a low-friction €99/home to create the model.
+11. Homeowners can subscribe at €9.99/month for ongoing intelligence.
+12. Agentic tiers increase ARPU once device integrations mature.
+13. Homeowners control personal and energy data; developers get portfolio insight.
+14. Ireland proves the model; UK expansion creates venture-scale potential.
 
 ---
 
