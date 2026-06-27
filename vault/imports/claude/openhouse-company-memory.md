@@ -53,6 +53,7 @@ A premium proptech SaaS platform for property developers: homeowner handover, af
 - [[briefs/openhouse-energy-intelligence-sketch]] - broader energy intelligence idea sketch
 - [[briefs/openhouse-energy-investor-deck-outline]] - slide-by-slide investor deck outline
 - [[briefs/openhouse-energy-investor-deck-draft-v0]] - paste-ready investor deck draft
+- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]] - revision plan for adding construction-stage, agentic, pricing, data ownership, and UK-scale thinking to the current investor brief
 
 ## Working preferences
 - Premium design is mandatory. Stability over clever refactors. Low tolerance for repeated breakage.

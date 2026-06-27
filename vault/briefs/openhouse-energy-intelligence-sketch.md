@@ -7,6 +7,8 @@ status: idea-sketch
 
 # OpenHouse energy intelligence sketch
 
+Related deck revision: [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
+
 ## One-line thesis
 OpenHouse can become the intelligence layer for new homes and retrofit homes: it learns the home’s fabric, devices, usage patterns, and ownership context, then helps people use the house properly, lowers waste, and gives developers a live view of what is actually happening after handover.
 
