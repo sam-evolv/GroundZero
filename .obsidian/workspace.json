@@ -179,6 +179,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/briefs/openhouse-energy-investor-deck-outline.md",
     "vault/briefs/openhouse-energy-intelligence-sketch.md",
     "vault/Daily/2026-06-27.md",
     "vault/briefs/wiki-refiner-2026-06-27.md",
@@ -209,7 +210,6 @@
     "vault/Daily/2026-06-26.md",
     "vault/items/ob-venue-health-radar.md",
     "vault/items/oh-scheme-launch-scorecard.md",
-    "vault/items/ops-weekly-status-pack.md",
     "vault/Daily",
     "vault/launch-signals",
     "src/components/launch/LaunchSignalForm.tsx",
