@@ -47,7 +47,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]
 - [[companies/evolv-renewables]]
-- [[context/dashboard]]
 - [[items/renew-compliance-portal]]
 - [[items/renew-compliance-reporting-automation]]
 - [[items/renew-grid-automation]]

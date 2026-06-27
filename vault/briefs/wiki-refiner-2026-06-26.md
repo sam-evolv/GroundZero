@@ -40,6 +40,18 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/automation-ideas]]
+- [[context/capture-workflow]]
+- [[context/llm-wiki-pattern]]
+- [[context/ops-automation-moc]]
+- [[items/ops-capture-inbox-refinery]]
+- [[items/ops-daily-report-pack]]
+- [[items/ops-index-maintenance-bot]]
+- [[items/ops-source-to-wiki-ingest]]
+
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.
 - Do not delete source material after filing it.

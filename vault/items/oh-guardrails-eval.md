@@ -51,7 +51,6 @@ Very timely. Teams shipping AI features are moving toward stronger eval gates, e
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[companies/openhouse-ai]]
-- [[context/dashboard]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-guardrails-active]]
 - [[items/oh-warranty-triage-router]]

@@ -34,6 +34,8 @@ The strongest version is not "a chatbot for solar panels". It is an evidence and
 
 - [[imports/claude/openhouse-company-memory]] — shared signals: openhouse, company, claude
 - [[imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26]] — shared signals: maintaining, obsidian, gipp
+- [[imports/campaigns/openhouse-full-context]] — shared signals: openhouse, full
+- [[imports/campaigns/openhouse-innovation-strategy]] — shared signals: innovation, openhouse, strategy
 ## Evidence from quick research
 
 ### 1. HPI / HPP already rewards the exact direction OpenHouse is moving in
@@ -309,11 +311,11 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]
+- [[briefs/wiki-refiner-2026-06-26]]
 - [[companies/evolv-renewables]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[context/consulting-wedges]]
-- [[context/dashboard]]
 - [[context/openhouse-product-map]]
 - [[context/openhouse-sales-routes]]
 - [[goals/oh-activation]]

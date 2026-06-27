@@ -73,7 +73,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/ai-money-patterns-2026-06]]
 - [[context/business-opportunities-moc]]
 - [[context/consulting-wedges]]
-- [[context/dashboard]]
 - [[context/index]]
 - [[context/irish-prompt-payment-copilot]]
 - [[people/sam-donworth]]

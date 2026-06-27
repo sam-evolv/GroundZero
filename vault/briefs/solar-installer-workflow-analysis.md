@@ -65,6 +65,7 @@ Common layers across the market:
 - monitoring apps / performance tracking
 - post-install support as part of the offer
 
+- [[imports/campaigns/openhouse-innovation-strategy]] — shared signals: innovation, openhouse, strategy
 ## Where the time and money leak out
 ### 1. Lead qualification and quoting
 - many leads need a human to triage

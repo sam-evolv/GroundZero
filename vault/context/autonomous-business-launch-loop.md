@@ -49,6 +49,7 @@ Build a *founder operating system for launching and improving one real wedge at 
 
 - [[imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26]] — shared signals: maintaining, obsidian, gipp
 - [[capture/inbox]] — shared signals: capture
+- [[imports/campaigns/openhouse-innovation-strategy]] — shared signals: innovation, openhouse, strategy
 ## Ideal users
 
 - founder-led businesses
@@ -224,6 +225,7 @@ Given the current context, the strongest first bets are likely:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/ai-money-patterns-2026-06]]
+- [[briefs/wiki-refiner-2026-06-26]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]

@@ -34,7 +34,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/solar-installer-workflow-analysis]]
 - [[context/business-opportunities-moc]]
 - [[context/consulting-wedges]]
-- [[context/dashboard]]
 - [[context/ground-zero-structure]]
 - [[context/index]]
 - [[context/model-pack]]

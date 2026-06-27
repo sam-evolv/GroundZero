@@ -55,7 +55,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/10-non-common-ai-money-ideas]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[companies/openhouse-ai]]
-- [[context/dashboard]]
 - [[context/openhouse-product-map]]
 - [[context/ops-automation-moc]]
 - [[goals/oh-aftercare-os]]

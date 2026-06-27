@@ -52,7 +52,6 @@ Strong. SaaS teams increasingly use health scoring to prioritise retention work,
 _Auto-generated: updated by wiki-refiner_
 - [[companies/openbook]]
 - [[context/business-opportunities-moc]]
-- [[context/dashboard]]
 - [[goals/ob-retention]]
 - [[goals/ob-supply]]
 - [[items/ob-cancellation-waitlist]]

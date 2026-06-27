@@ -87,7 +87,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/claude-quickstart]]
 - [[context/claude-vault-integration]]
 - [[context/consulting-wedges]]
-- [[context/dashboard]]
 - [[context/ground-zero-structure]]
 - [[context/healthcare-revenue-cycle-wedge]]
 - [[context/irish-food-waste-wedge]]

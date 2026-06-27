@@ -157,7 +157,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[context/consulting-wedges]]
-- [[context/dashboard]]
 - [[context/ground-zero-structure]]
 - [[context/index]]
 - [[goals/renew-pipeline]]

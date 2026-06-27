@@ -51,6 +51,7 @@ Timely. Warranty and aftercare automation are becoming a clearer selling point i
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/wiki-refiner-2026-06-26]]
 - [[companies/openhouse-ai]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-room-inference]]

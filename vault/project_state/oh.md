@@ -38,6 +38,7 @@ The V2 rollout is still on track for end of month. Real Longview Estates data re
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[briefs/wiki-refiner-2026-06-26]]
 - [[companies/openhouse-ai]]
 - [[context/capture-workflow]]
 - [[context/dashboard]]

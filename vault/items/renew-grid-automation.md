@@ -55,7 +55,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/solar-installer-workflow-analysis]]
 - [[companies/evolv-renewables]]
 - [[context/business-opportunities-moc]]
-- [[context/dashboard]]
 - [[goals/renew-pipeline]]
 - [[items/renew-compliance-portal]]
 - [[items/renew-compliance-reporting-automation]]

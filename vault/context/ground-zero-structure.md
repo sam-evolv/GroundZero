@@ -85,6 +85,7 @@ Use `read_file` on `/Users/samdonworth/GroundZero/vault/context/index.md` and co
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
+- [[briefs/wiki-refiner-2026-06-26]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
