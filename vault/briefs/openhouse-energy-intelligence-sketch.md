@@ -196,6 +196,7 @@ OpenHouse teaches people how to live in better homes, and gives developers the c
 ## Connected vault notes
 
 - [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/openhouse-energy-investor-deck-outline]]
 - [[imports/campaigns/openhouse-innovation-strategy]]
 - [[imports/campaigns/openhouse-full-context]]
 - [[context/openhouse-product-map]]

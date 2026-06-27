@@ -93,6 +93,7 @@ Build a target list of 50 developers and 20 partner channels, then test 3 messag
 - [[briefs/openhouse-ndrc-accelerator-pitch]] — NDRC pitch
 - [[briefs/openhouse-energy-assistant-wedge]] — energy assistant wedge
 - [[briefs/openhouse-energy-intelligence-sketch]] — broader energy intelligence vision
+- [[briefs/openhouse-energy-investor-deck-outline]] — investor deck narrative for energy intelligence
 - [[people/sam-donworth]] — founder context
 
 ## Notes that link here

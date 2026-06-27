@@ -51,6 +51,7 @@ A premium proptech SaaS platform for property developers: homeowner handover, af
 - [[imports/campaigns/openhouse-full-context]] - master strategy + context (June 2026)
 - [[imports/campaigns/openhouse-innovation-strategy]] - forward-looking analysis, unit economics, competitive landscape
 - [[briefs/openhouse-energy-intelligence-sketch]] - broader energy intelligence idea sketch
+- [[briefs/openhouse-energy-investor-deck-outline]] - slide-by-slide investor deck outline
 
 ## Working preferences
 - Premium design is mandatory. Stability over clever refactors. Low tolerance for repeated breakage.
