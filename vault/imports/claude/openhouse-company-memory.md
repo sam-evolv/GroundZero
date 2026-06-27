@@ -1,6 +1,6 @@
 # OpenHouse AI - Company Memory
 
-Last updated: 26 June 2026. Maintained by Sam. The council reads this in full at the start of every run and treats it as current reality. Keep it short and current; prune anything stale.
+Last updated: 27 June 2026. Maintained by Sam. The council reads this in full at the start of every run and treats it as current reality. Keep it short and current; prune anything stale.
 
 ## What OpenHouse is
 A premium proptech SaaS platform for property developers: homeowner handover, aftercare, and sales pipeline management. Live homeowner and agent portals at portal.openhouseai.ie. Built largely solo with AI tooling. Premium design is non-negotiable on every surface.
@@ -40,16 +40,16 @@ A premium proptech SaaS platform for property developers: homeowner handover, af
 
 ## Connected vault notes
 
-- [[companies/openhouse-ai]] — curated from this import
-- [[project_state/oh]] — live status derived from this memory
-- [[goals/oh-activation]] — activation goal
-- [[goals/oh-v2-launch]] — V2 migration goal
-- [[items/oh-production-migration]] — production migration
-- [[items/oh-warranty-filter]] — warranty gap noted here
-- [[context/claude-vault-integration]] — how Claude reads this
-- [[briefs/wiki-refiner-2026-06-26]] — refiner reviewed this file
-- [[imports/campaigns/openhouse-full-context]] — master strategy + context (June 2026)
-- [[imports/campaigns/openhouse-innovation-strategy]] — forward-looking analysis, unit economics, competitive landscape
+- [[companies/openhouse-ai]] - curated from this import
+- [[project_state/oh]] - live status derived from this memory
+- [[goals/oh-activation]] - activation goal
+- [[goals/oh-v2-launch]] - V2 migration goal
+- [[items/oh-production-migration]] - production migration
+- [[items/oh-warranty-filter]] - warranty gap noted here
+- [[context/claude-vault-integration]] - how Claude reads this
+- [[briefs/wiki-refiner-2026-06-26]] - refiner reviewed this file
+- [[imports/campaigns/openhouse-full-context]] - master strategy + context (June 2026)
+- [[imports/campaigns/openhouse-innovation-strategy]] - forward-looking analysis, unit economics, competitive landscape
 
 ## Working preferences
 - Premium design is mandatory. Stability over clever refactors. Low tolerance for repeated breakage.

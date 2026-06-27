@@ -3,20 +3,20 @@ id: renew
 company_id: evolv-renewables
 headline: First commercial rooftop is live. Reporting is still manual.
 valid: true
-updated_at: "2026-06-26T16:56:31+01:00"
+updated_at: "2026-06-27T12:01:00+01:00"
 role: project-state
 ---
 
-One install generating, one in survey. Compliance reporting eats a few hours a week. Checked 2026-06-26 16:56 IST. No new live-system changes were checked for Renewables in this sync.
+One install generating, one in survey. Compliance reporting eats a few hours a week. Checked 2026-06-27 12:01 IST. No new live-system changes were checked for Renewables in this sync.
 
 ## Connected vault notes
 
-- [[companies/evolv-renewables]] — parent company
-- [[goals/renew-pipeline]] — sign three rooftop deals
-- [[items/renew-grid-automation]] — automate grid export
-- [[items/renew-compliance-portal]] — client portal
-- [[briefs/solar-installer-software-wedge]] — software-layer context
-- [[briefs/planet-satellite-opportunity]] — satellite monitoring
+- [[companies/evolv-renewables]] - parent company
+- [[goals/renew-pipeline]] - sign three rooftop deals
+- [[items/renew-grid-automation]] - automate grid export
+- [[items/renew-compliance-portal]] - client portal
+- [[briefs/solar-installer-software-wedge]] - software-layer context
+- [[briefs/planet-satellite-opportunity]] - satellite monitoring
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_

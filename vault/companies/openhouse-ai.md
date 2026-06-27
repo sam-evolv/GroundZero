@@ -19,7 +19,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - PR #184 and PR #186 are merged and no longer in flight.
 
 ## Live check
-- Checked 2026-06-26 16:56 IST. GitHub open PRs are still #204, #180, #147, #146, #104, #98, #41, #40, #38, #11, and #6.
+- Checked 2026-06-27 12:01 IST. GitHub open PRs are still #204, #180, #147, #146, #104, #98, #41, #40, #38, #11, and #6.
 - Open issues are still #195, #194, #130, #128, #125, and #123.
 - Vercel production remains healthy. `npx vercel ls` shows the latest deployment for `openhouseais-projects/ground-zero` as Ready.
 - Supabase CLI is installed, but `supabase status` is blocked by a stopped Docker daemon. `SUPABASE_ACCESS_TOKEN` is unset, so no remote Supabase check was attempted.
@@ -29,22 +29,22 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 
 ## Connected notes
 
-- [[project_state/oh]] — live status, migration progress
-- [[goals/oh-activation]] — lift activation to 60%
-- [[goals/oh-v2-launch]] — migrate every agency to Database V2
-- [[goals/oh-aftercare-os]] — AI aftercare operating system vision
-- [[goals/oh-funder-pitch]] — funder-grade narrative
-- [[goals/oh-guardrails-active]] — flip guardrails to active
-- [[goals/oh-room-inference]] — room analysis MVP
-- [[items/oh-onboarding-cut]] — strongest design candidate
-- [[items/oh-production-migration]] — stabilize migration
-- [[items/oh-warranty-triage-router]] — AI issue triage
-- [[items/oh-warranty-evidence-pack]] — warranty evidence
-- [[items/oh-warranty-filter]] — warranty dashboard filter
-- [[context/openhouse-product-map]] — product surface map
-- [[briefs/openhouse-energy-assistant-wedge]] — energy assistant extension
-- [[briefs/openhouse-ndrc-accelerator-pitch]] — NDRC pitch
-- [[imports/claude/openhouse-company-memory]] — council-facing memory
+- [[project_state/oh]] - live status, migration progress
+- [[goals/oh-activation]] - lift activation to 60%
+- [[goals/oh-v2-launch]] - migrate every agency to Database V2
+- [[goals/oh-aftercare-os]] - AI aftercare operating system vision
+- [[goals/oh-funder-pitch]] - funder-grade narrative
+- [[goals/oh-guardrails-active]] - flip guardrails to active
+- [[goals/oh-room-inference]] - room analysis MVP
+- [[items/oh-onboarding-cut]] - strongest design candidate
+- [[items/oh-production-migration]] - stabilize migration
+- [[items/oh-warranty-triage-router]] - AI issue triage
+- [[items/oh-warranty-evidence-pack]] - warranty evidence
+- [[items/oh-warranty-filter]] - warranty dashboard filter
+- [[context/openhouse-product-map]] - product surface map
+- [[briefs/openhouse-energy-assistant-wedge]] - energy assistant extension
+- [[briefs/openhouse-ndrc-accelerator-pitch]] - NDRC pitch
+- [[imports/claude/openhouse-company-memory]] - council-facing memory
 
 ## Decisions
 - Stack is fixed: React, Next.js, Supabase, Vercel. No framework migrations.
