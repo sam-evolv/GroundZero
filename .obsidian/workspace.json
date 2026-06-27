@@ -179,6 +179,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/briefs/openhouse-investor-brief-energy-agentic-revision-plan.md",
     "vault/briefs/openhouse-energy-investor-deck-draft-v0.md",
     "vault/briefs/openhouse-energy-investor-deck-outline.md",
     "vault/briefs/openhouse-energy-intelligence-sketch.md",
@@ -209,7 +210,6 @@
     "vault/context/llm-wiki-pattern.md",
     "vault/items/ops-source-to-wiki-ingest.md",
     "vault/Daily/2026-06-26.md",
-    "vault/items/ob-venue-health-radar.md",
     "vault/Daily",
     "vault/launch-signals",
     "src/components/launch/LaunchSignalForm.tsx",
