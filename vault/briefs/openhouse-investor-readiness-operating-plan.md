@@ -16,6 +16,7 @@ links:
   - [[briefs/openhouse-investor-brief-v1-review-2026-06-28]]
   - [[briefs/openhouse-investor-brief-update-1-qa-2026-06-28]]
   - [[briefs/openhouse-claude-design-final-polish-prompt]]
+  - [[briefs/openhouse-standalone-investor-brief-qa-2026-06-28]]
   - [[briefs/openhouse-energy-investor-deck-draft-v0]]
   - [[context/openhouse-sales-routes]]
 ---
