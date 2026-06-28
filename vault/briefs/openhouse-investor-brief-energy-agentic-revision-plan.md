@@ -11,6 +11,7 @@ links:
   - [[briefs/openhouse-energy-intelligence-sketch]]
   - [[briefs/openhouse-energy-investor-deck-draft-v0]]
   - [[briefs/openhouse-energy-investor-deck-outline]]
+  - [[briefs/investor-pitch-deck-research-openhouse]]
   - [[context/openhouse-sales-routes]]
   - [[imports/claude/openhouse-company-memory]]
 ---
