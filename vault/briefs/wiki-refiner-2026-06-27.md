@@ -56,6 +56,26 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-25]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[briefs/planet-satellite-opportunity]]
+- [[briefs/solar-installer-workflow-analysis]]
+- [[briefs/wiki-refiner-2026-06-26]]
+- [[companies/openhouse-ai]]
+- [[context/autonomous-business-launch-loop]]
+- [[context/capture-workflow]]
+- [[context/ground-zero-structure]]
+- [[context/llm-wiki-pattern]]
+- [[context/openhouse-sales-routes]]
+- [[context/ops-automation-moc]]
+- [[context/scaling-playbook]]
+- [[items/oh-production-migration]]
+- [[project_state/oh]]
+
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.
 - Do not delete source material after filing it.

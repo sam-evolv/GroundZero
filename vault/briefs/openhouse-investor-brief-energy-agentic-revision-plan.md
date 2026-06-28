@@ -700,5 +700,9 @@ That will make the deck feel less like a good product concept and more like a se
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-28]]
 - [[briefs/openhouse-energy-intelligence-sketch]]
+- [[briefs/openhouse-energy-investor-deck-draft-v0]]
+- [[briefs/openhouse-energy-investor-deck-outline]]
+- [[context/openhouse-sales-routes]]
 

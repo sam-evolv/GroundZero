@@ -37,6 +37,7 @@ Real appointments at Irish service businesses. SMB booking platform. Priority by
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
 - [[briefs/2026-06-25]]
+- [[briefs/2026-06-28]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/planet-satellite-opportunity]]
 - [[context/autonomous-business-launch-loop]]

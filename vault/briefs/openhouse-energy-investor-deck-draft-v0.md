@@ -495,7 +495,9 @@ Night-time housing estate with subtle energy lines connecting homes, residents, 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-28]]
 - [[briefs/openhouse-energy-intelligence-sketch]]
+- [[briefs/openhouse-energy-investor-deck-outline]]
 - [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
 - [[context/openhouse-sales-routes]]
 

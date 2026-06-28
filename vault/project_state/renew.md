@@ -21,6 +21,7 @@ One install generating, one in survey. Compliance reporting eats a few hours a w
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]
+- [[briefs/2026-06-28]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[companies/evolv-renewables]]

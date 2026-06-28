@@ -28,6 +28,7 @@ Renewables company. First commercial rooftop is live. Reporting is still manual.
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
+- [[briefs/2026-06-28]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]

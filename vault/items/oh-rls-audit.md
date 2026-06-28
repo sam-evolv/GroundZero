@@ -48,6 +48,7 @@ Not a market trend issue. It is a credibility issue. If this slips, it hurts the
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-28]]
 - [[companies/openhouse-ai]]
 - [[context/dashboard]]
 - [[goals/oh-v2-launch]]

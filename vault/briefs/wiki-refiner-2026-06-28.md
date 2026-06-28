@@ -2,7 +2,7 @@
 title: Wiki Refiner 2026-06-28
 kind: wiki_refiner_brief
 date: "2026-06-28"
-ran_at: "2026-06-28T02:19:39+01:00"
+ran_at: "2026-06-28T08:47:34+01:00"
 ---
 
 # Wiki Refiner 2026-06-28
@@ -27,13 +27,13 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
   - Related: [[briefs/wiki-refiner-2026-06-26]], [[briefs/wiki-refiner-2026-06-27]], [[context/capture-workflow]], [[context/ground-zero-structure]]
 
 ## Strongest connected notes
-- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]] (315)
+- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]] (316)
 - [[briefs/openhouse-energy-assistant-wedge]] (311)
-- [[briefs/openhouse-energy-investor-deck-draft-v0]] (288)
-- [[briefs/openhouse-energy-investor-deck-outline]] (268)
-- [[briefs/openhouse-energy-intelligence-sketch]] (182)
-- [[briefs/openhouse-ndrc-accelerator-pitch]] (161)
-- [[companies/openhouse-ai]] (218)
+- [[briefs/openhouse-energy-investor-deck-draft-v0]] (291)
+- [[briefs/openhouse-energy-investor-deck-outline]] (271)
+- [[briefs/openhouse-energy-intelligence-sketch]] (183)
+- [[briefs/openhouse-ndrc-accelerator-pitch]] (162)
+- [[companies/openhouse-ai]] (220)
 - [[briefs/wiki-refiner-2026-06-27]] (108)
 - [[briefs/wiki-refiner-2026-06-26]] (103)
 - [[project_state/oh]] (93)

@@ -75,6 +75,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
 - [[briefs/2026-06-25]]
+- [[briefs/2026-06-28]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-energy-intelligence-sketch]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
