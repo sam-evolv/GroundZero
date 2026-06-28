@@ -60,6 +60,7 @@ A premium proptech SaaS platform for property developers: homeowner handover, af
 - [[briefs/openhouse-investor-brief-update-1-qa-2026-06-28]] - QA of the latest Investor Brief update; best version so far, export clutter still blocker
 - [[briefs/openhouse-claude-design-final-polish-prompt]] - paste-ready Claude Design prompt for the final investor deck polish/export cleanup
 - [[briefs/openhouse-standalone-investor-brief-qa-2026-06-28]] - QA of standalone HTML investor brief; clean 16-slide deck, ready for friendly review pending clean PDF export if needed
+- [[briefs/openhouse-investor-brief-latest-pdf-qa-2026-06-28]] - QA of latest exported PDF; content strong but PDF export has sideways portrait pages, URL/date artifacts and clipped headlines
 
 ## Working preferences
 - Premium design is mandatory. Stability over clever refactors. Low tolerance for repeated breakage.
