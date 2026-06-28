@@ -335,3 +335,60 @@ M apps/unified-portal/app/api/chat/route.ts
 ```
 
 No production data has been touched.
+
+## 2026-06-28 continuation: Golden Home polish slice
+
+Local product commit:
+
+`ea7fb155 feat(homeowner): sharpen Cairn Golden Home demo`
+
+Files changed:
+
+- `apps/unified-portal/components/purchaser/PurchaserMyHomeTab.tsx`
+- `apps/unified-portal/components/purchaser/PurchaserChatTab.tsx`
+
+What changed:
+
+- Fixed the visible My Home typo:
+  - from: `so the room is in shifting load to night`
+  - to: `so there is room to shift more load to night`
+- Made demo/live wording safer for the Bayly synthetic energy view:
+  - `Demo live view`
+  - `Simulated right now`
+  - `demo readings from this home model`
+  - kept the explicit `not a live meter feed` language
+- Added a dedicated `Money / Comfort / Risk` section to My Home:
+  - Money: EV charging on the dear day rate
+  - Comfort: heat pump low-and-constant running
+  - Risk: short-cycling and ventilation downtime
+- Changed `What would help` sublabel from `tap to do it` to `recommended actions`.
+- Replaced generic assistant starter prompts with Golden Home prompts:
+  - `What size is my living room?`
+  - `Why is my electricity high?`
+  - `What warranty covers my heat pump?`
+  - `Upload a photo of an issue`
+  - `Where are my fire safety documents?`
+  - `How do I move EV charging to night?`
+- Expanded the starter prompt grid so the six home-specific prompts can fit cleanly.
+
+Verification:
+
+```bash
+npm run typecheck
+# passed
+
+npm run build
+# passed
+```
+
+Build caveat remains the same local env warning about missing Supabase public env vars during static generation of auth/admin pages. The build completes successfully.
+
+Safety:
+
+- No database migrations.
+- No seed scripts.
+- No Supabase writes.
+- No deployment.
+- No push to GitHub.
+- No production config changes.
+- No secrets printed.
