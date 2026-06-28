@@ -152,6 +152,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]
+- [[briefs/wiki-refiner-2026-06-27]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]

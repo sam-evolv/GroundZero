@@ -50,6 +50,7 @@ P1
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/wiki-refiner-2026-06-26]]
 - [[context/automation-ideas]]
 - [[context/capture-workflow]]
 - [[context/learn-targets]]

@@ -63,6 +63,7 @@ These explain *why* the automation matters, not just what it does:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-06-26]]
+- [[briefs/wiki-refiner-2026-06-27]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]

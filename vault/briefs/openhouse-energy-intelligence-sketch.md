@@ -206,3 +206,12 @@ OpenHouse teaches people how to live in better homes, and gives developers the c
 - [[context/openhouse-sales-routes]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/openhouse-energy-investor-deck-draft-v0]]
+- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
+- [[context/openhouse-product-map]]
+- [[context/openhouse-sales-routes]]
+

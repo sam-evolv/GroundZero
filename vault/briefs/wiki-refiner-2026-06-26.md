@@ -43,14 +43,25 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-25]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/wiki-refiner-2026-06-27]]
+- [[companies/openhouse-ai]]
 - [[context/automation-ideas]]
+- [[context/autonomous-business-launch-loop]]
 - [[context/capture-workflow]]
+- [[context/ground-zero-structure]]
 - [[context/llm-wiki-pattern]]
 - [[context/ops-automation-moc]]
+- [[context/scaling-playbook]]
+- [[items/oh-production-migration]]
+- [[items/oh-warranty-filter]]
 - [[items/ops-capture-inbox-refinery]]
 - [[items/ops-daily-report-pack]]
 - [[items/ops-index-maintenance-bot]]
 - [[items/ops-source-to-wiki-ingest]]
+- [[project_state/oh]]
+
 
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.

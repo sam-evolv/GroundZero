@@ -94,6 +94,7 @@ If a person asks what OpenHouse does, say:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/openhouse-energy-intelligence-sketch]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
 - [[companies/openhouse-ai]]
 - [[context/consulting-wedges]]

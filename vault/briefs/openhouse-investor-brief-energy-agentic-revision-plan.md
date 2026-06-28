@@ -697,3 +697,8 @@ Do not rebuild the whole deck. The current deck is directionally right and visua
 > **construction-stage installation → living home model → energy intelligence → trusted data ownership → low-friction pricing → agentic control → UK scale.**
 
 That will make the deck feel less like a good product concept and more like a serious venture-backed company thesis.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-energy-intelligence-sketch]]
+

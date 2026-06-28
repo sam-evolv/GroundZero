@@ -119,6 +119,7 @@ Then wire the most important notes into MCP and any AI entry point so every mode
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/wiki-refiner-2026-06-26]]
+- [[briefs/wiki-refiner-2026-06-27]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]

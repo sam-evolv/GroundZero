@@ -55,6 +55,7 @@ P2
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]
+- [[briefs/wiki-refiner-2026-06-26]]
 - [[context/capture-workflow]]
 - [[context/llm-wiki-pattern]]
 - [[context/ops-automation-moc]]

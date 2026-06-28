@@ -140,6 +140,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
+- [[briefs/wiki-refiner-2026-06-27]]
 - [[companies/evolv-renewables]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]

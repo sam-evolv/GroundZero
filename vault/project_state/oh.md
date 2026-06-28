@@ -39,6 +39,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
 - [[briefs/wiki-refiner-2026-06-26]]
+- [[briefs/wiki-refiner-2026-06-27]]
 - [[companies/openhouse-ai]]
 - [[context/capture-workflow]]
 - [[context/dashboard]]

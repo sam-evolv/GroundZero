@@ -56,6 +56,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/10-non-common-ai-money-ideas]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/openhouse-energy-intelligence-sketch]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]

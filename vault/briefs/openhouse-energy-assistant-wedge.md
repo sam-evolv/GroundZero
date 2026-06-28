@@ -308,17 +308,18 @@ This avoids the product feeling surveillant while preserving the developer insig
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/ai-money-patterns-2026-06]]
+- [[briefs/openhouse-energy-intelligence-sketch]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]
 - [[briefs/wiki-refiner-2026-06-26]]
+- [[briefs/wiki-refiner-2026-06-27]]
 - [[companies/evolv-renewables]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[context/consulting-wedges]]
 - [[context/openhouse-product-map]]
 - [[context/openhouse-sales-routes]]
-- [[briefs/openhouse-energy-intelligence-sketch]] — broader energy intelligence vision
 - [[goals/oh-activation]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-funder-pitch]]

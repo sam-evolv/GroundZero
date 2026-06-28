@@ -492,3 +492,10 @@ Night-time housing estate with subtle energy lines connecting homes, residents, 
 - Selling homeowner data.
 - National decarbonisation platform as the first wedge.
 - Estate batteries as the first product.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-energy-intelligence-sketch]]
+- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
+- [[context/openhouse-sales-routes]]
+
