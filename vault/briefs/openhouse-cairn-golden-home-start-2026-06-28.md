@@ -392,3 +392,57 @@ Safety:
 - No push to GitHub.
 - No production config changes.
 - No secrets printed.
+
+## 2026-06-28 continuation: energy intelligence pass
+
+Local product commit pending at time of note update.
+
+Files changed:
+
+- `apps/unified-portal/lib/energy/home-energy-intelligence.ts`
+- `apps/unified-portal/lib/house-context/loader.ts`
+- `apps/unified-portal/lib/openhouse-agent/v1/prompt.ts`
+- `apps/unified-portal/app/api/chat/route.ts`
+- `docs/prompts/openhouse-assistant-v1.md`
+
+What changed:
+
+- Added a shared energy intelligence module that derives patterns from `units.metadata.demo_home`:
+  - heat-pump COP vs design SPF
+  - heat-pump excess kWh / excess percent
+  - solar generated, exported, self-consumed and self-consumption percent
+  - EV day-rate vs night-rate charging
+  - night/day/peak grid-import split
+  - day/peak exposure
+  - Money / Comfort / Risk interpretation
+  - next-best-actions for the homeowner
+- Injected the derived `energy_intelligence` block into the OpenHouse Agent v1 HOUSE CONTEXT via `loadHouseContext`.
+- Updated the v1 prompt so energy answers prefer the derived intelligence block for high-usage diagnosis, system patterns and next-best-actions.
+- Switched legacy `/api/chat` energy answers to use the same shared intelligence module, keeping both runtime paths safe for the Golden Home demo.
+- Synced `docs/prompts/openhouse-assistant-v1.md` with the live prompt.
+
+Verification:
+
+```bash
+npx tsx apps/unified-portal/scripts/smoke/openhouse-agent-v1.smoke.ts
+# passed
+
+npm run typecheck
+# passed
+
+git diff --check
+# passed
+
+npm run build
+# passed
+```
+
+Build caveat remains the same local env warning about missing Supabase public env vars during static generation of auth/admin pages. The build completes successfully.
+
+Safety:
+
+- No database migrations.
+- No seed scripts.
+- No Supabase writes.
+- No production config changes.
+- No secrets printed.
