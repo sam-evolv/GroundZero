@@ -179,17 +179,18 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
-    "repos/property-assistant/apps/marketing/node_modules/next/web-vitals.d.ts",
-    "repos/property-assistant/node_modules/next/web-vitals.d.ts",
-    "repos/property-assistant/apps/marketing/node_modules/next/server.d.ts",
-    "repos/property-assistant/node_modules/next/server.d.ts",
-    "repos/property-assistant/apps/marketing/node_modules/next/script.d.ts",
-    "repos/property-assistant/node_modules/next/script.d.ts",
-    "repos/property-assistant/apps/marketing/node_modules/next/router.d.ts",
-    "repos/property-assistant/node_modules/next/router.d.ts",
-    "repos/property-assistant/apps/marketing/node_modules/next/og.d.ts",
-    "repos/property-assistant/node_modules/next/og.d.ts",
-    "repos/property-assistant/apps/marketing/node_modules/next/navigation.d.ts",
+    "vault/briefs/openhouse-cairn-golden-home-start-2026-06-28.md",
+    "repos/property-assistant/scripts/embed-bayly-sections.ts",
+    "repos/property-assistant/apps/unified-portal/public/docs/34bayly-warranties.pdf",
+    "repos/property-assistant/apps/unified-portal/public/docs/34bayly-ventilation-guide.pdf",
+    "repos/property-assistant/apps/unified-portal/public/docs/34bayly-specification.pdf",
+    "repos/property-assistant/apps/unified-portal/public/docs/34bayly-snag-list.pdf",
+    "repos/property-assistant/apps/unified-portal/public/docs/34bayly-site-layout.pdf",
+    "repos/property-assistant/apps/unified-portal/public/docs/34bayly-sections.pdf",
+    "repos/property-assistant/apps/unified-portal/public/docs/34bayly-parking-bins.pdf",
+    "repos/property-assistant/apps/unified-portal/public/docs/34bayly-homeowner-manual.pdf",
+    "repos/property-assistant/apps/unified-portal/public/docs/34bayly-homebond.pdf",
+    "repos/property-assistant/apps/unified-portal/public/bayly-logo1.png",
     "repos/property-assistant/node_modules/next/README.md",
     "repos/property-assistant/apps/marketing/node_modules/next/README.md",
     "repos/property-assistant/node_modules/next/license.md",
@@ -223,7 +224,6 @@
     "repos/property-assistant/apps/openhouse-select/node_modules/@react-navigation/elements/src/assets/search-icon@2x.ios.png",
     "repos/property-assistant/apps/openhouse-select/node_modules/@react-navigation/elements/src/assets/search-icon@2x.android.png",
     "repos/property-assistant/apps/openhouse-select/node_modules/@react-navigation/elements/src/assets/search-icon@1x.ios.png",
-    "repos/property-assistant/apps/openhouse-select/node_modules/@react-navigation/elements/src/assets/search-icon@1x.android.png",
-    "repos/property-assistant/apps/openhouse-select/node_modules/@react-navigation/elements/src/assets/search-icon.png"
+    "repos/property-assistant/apps/openhouse-select/node_modules/@react-navigation/elements/src/assets/search-icon@1x.android.png"
   ]
 }
