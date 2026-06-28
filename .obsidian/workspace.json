@@ -179,6 +179,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/briefs/investor-pitch-deck-research-openhouse.md",
     "vault/briefs/openhouse-investor-readiness-operating-plan.md",
     "vault/briefs/2026-06-28.md",
     "vault/briefs/wiki-refiner-2026-06-28.md",
@@ -208,7 +209,6 @@
     "vault/capture/inbox.md",
     "vault/items/ops-index-maintenance-bot.md",
     "vault/items/ops-project-state-reconciler.md",
-    "vault/briefs/wiki-refiner-2026-06-26.md",
     "scripts/wiki-refiner.py",
     "vault/Daily",
     "vault/launch-signals",
