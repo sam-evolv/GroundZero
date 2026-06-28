@@ -179,6 +179,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "repos/property-assistant/apps/unified-portal/scripts/seed-bs08-home-model.ts",
     "repos/property-assistant/apps/unified-portal/app/api/purchaser/home-model/route.ts",
     "repos/property-assistant/apps/unified-portal/app/api/purchaser/home-model",
     "repos/property-assistant/apps/unified-portal/components/purchaser/PurchaserIssuesTab.tsx",
@@ -190,7 +191,6 @@
     "repos/property-assistant/apps/unified-portal/public/docs/34bayly-ventilation-guide.pdf",
     "repos/property-assistant/apps/unified-portal/public/docs/34bayly-specification.pdf",
     "repos/property-assistant/apps/unified-portal/public/docs/34bayly-snag-list.pdf",
-    "repos/property-assistant/apps/unified-portal/public/docs/34bayly-site-layout.pdf",
     "repos/property-assistant/apps/unified-portal/public/bayly-logo1.png",
     "repos/property-assistant/node_modules/next/README.md",
     "repos/property-assistant/apps/marketing/node_modules/next/README.md",
