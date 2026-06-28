@@ -179,6 +179,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/briefs/openhouse-claude-design-final-polish-prompt.md",
     "vault/briefs/openhouse-investor-brief-update-1-qa-2026-06-28.md",
     "vault/briefs/openhouse-investor-brief-v1-review-2026-06-28.md",
     "vault/briefs/investor-pitch-deck-research-openhouse.md",
@@ -208,7 +209,6 @@
     "vault/briefs/solar-installer-workflow-analysis.md",
     "vault/briefs/planet-satellite-opportunity.md",
     "vault/briefs/solar-installer-software-wedge.md",
-    "vault/capture/inbox.md",
     "scripts/wiki-refiner.py",
     "vault/Daily",
     "vault/launch-signals",
