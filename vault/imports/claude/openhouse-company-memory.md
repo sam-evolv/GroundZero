@@ -56,6 +56,7 @@ A premium proptech SaaS platform for property developers: homeowner handover, af
 - [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]] - revision plan for adding construction-stage, agentic, pricing, data ownership, and UK-scale thinking to the current investor brief
 - [[briefs/openhouse-investor-readiness-operating-plan]] - 90-day founder operating plan to turn the new OpenHouse thesis into investor-ready proof
 - [[briefs/investor-pitch-deck-research-openhouse]] - researched investor deck rules and OpenHouse-specific deck structure
+- [[briefs/openhouse-investor-brief-v1-review-2026-06-28]] - review of updated Investor Brief 1 PDF after research-informed revision
 
 ## Working preferences
 - Premium design is mandatory. Stability over clever refactors. Low tolerance for repeated breakage.
