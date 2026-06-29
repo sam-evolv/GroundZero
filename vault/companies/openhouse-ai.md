@@ -44,6 +44,11 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[context/openhouse-product-map]] - product surface map
 - [[briefs/openhouse-energy-assistant-wedge]] - energy assistant extension
 - [[briefs/openhouse-ndrc-accelerator-pitch]] - NDRC pitch
+- [[briefs/openhouse-post-cairn-strategy-2026-06-29]] - post-Cairn funding / UK-US / DTC strategy reset
+- [[briefs/openhouse-ireland-funding-routes-2026-06-29]] - Ireland funding and backing routes
+- [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] - UK/US expansion research
+- [[briefs/openhouse-dtc-home-context-research-2026-06-29]] - direct-to-consumer home context feasibility
+- [[briefs/openhouse-dtc-core-thesis-2026-06-29]] - DTC as core company thesis, not fallback
 - [[imports/claude/openhouse-company-memory]] - council-facing memory
 
 ## Decisions

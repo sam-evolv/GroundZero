@@ -95,6 +95,10 @@ Build a target list of 50 developers and 20 partner channels, then test 3 messag
 - [[briefs/openhouse-energy-intelligence-sketch]] — broader energy intelligence vision
 - [[briefs/openhouse-energy-investor-deck-outline]] — investor deck narrative for energy intelligence
 - [[briefs/openhouse-energy-investor-deck-draft-v0]] — paste-ready investor deck draft
+- [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] — UK/US expansion and competitor research
+- [[briefs/openhouse-ireland-funding-routes-2026-06-29]] — Ireland funding and backing routes
+- [[briefs/openhouse-dtc-home-context-research-2026-06-29]] — DTC home context feasibility
+- [[briefs/openhouse-post-cairn-strategy-2026-06-29]] — post-Cairn route reset
 - [[people/sam-donworth]] — founder context
 
 ## Notes that link here

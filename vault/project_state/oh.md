@@ -1,9 +1,9 @@
 ---
 id: oh
 company_id: openhouse-ai
-headline: Database V2 migration is stabilising. Sprint 5 PRs are merged. Vercel production is healthy.
+headline: Database V2 is stabilising; Cairn declined the large-developer route, so OpenHouse is shifting toward funding, UK/US channels, and DTC optionality.
 valid: true
-updated_at: "2026-06-27T12:01:00+01:00"
+updated_at: "2026-06-29T17:23:00+01:00"
 role: project-state
 ---
 
@@ -32,6 +32,11 @@ The V2 rollout is still on track for end of month. Real Longview Estates data re
 - [[items/oh-onboarding-cut]] - strongest design candidate
 - [[items/oh-warranty-triage-router]] - AI issue triage
 - [[briefs/openhouse-ndrc-accelerator-pitch]] - NDRC pitch
+- [[briefs/openhouse-post-cairn-strategy-2026-06-29]] - post-Cairn route reset: funding, UK/US channels, and DTC optionality
+- [[briefs/openhouse-ireland-funding-routes-2026-06-29]] - funding/backing route research
+- [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] - UK/US route research
+- [[briefs/openhouse-dtc-home-context-research-2026-06-29]] - DTC feasibility research
+- [[briefs/openhouse-dtc-core-thesis-2026-06-29]] - DTC as core company thesis
 - [[imports/claude/openhouse-company-memory]] - shared signals: openhouse, company, claude
 
 ## Notes that link here
