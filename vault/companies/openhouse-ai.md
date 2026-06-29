@@ -49,6 +49,9 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] - UK/US expansion research
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]] - direct-to-consumer home context feasibility
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]] - DTC as core company thesis, not fallback
+- [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]] - DTC Home Savings Scan / Home Agent plan
+- [[briefs/openhouse-dtc-acquisition-hooks-research-2026-06-29]] - DTC acquisition hooks and personas
+- [[briefs/openhouse-dtc-energy-savings-guarantee-research-2026-06-29]] - savings guarantee and DTC energy mechanisms
 - [[imports/claude/openhouse-company-memory]] - council-facing memory
 
 ## Decisions
