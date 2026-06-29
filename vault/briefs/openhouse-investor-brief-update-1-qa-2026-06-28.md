@@ -62,6 +62,13 @@ This makes the deck look unfinished. Must export cleanly before sending.
 - Trust/data ownership: 8.5/10
 - Fundability: 8/10
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-claude-design-final-polish-prompt]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[briefs/openhouse-standalone-investor-brief-qa-2026-06-28]]
+
 ## Recommendation
 
 Do not rewrite again. Run a final export and typo pass:

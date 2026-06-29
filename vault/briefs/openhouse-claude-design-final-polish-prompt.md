@@ -842,3 +842,11 @@ The final deck should feel like this:
 
 **OpenHouse captures construction-stage home context, turns it into a living home model, gives homeowners a practical assistant from day one, expands into energy intelligence, and later becomes the trusted optimisation layer for modern homes.**
 ```
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-chatgpt-deck-rebuild-context]]
+- [[briefs/openhouse-investor-brief-latest-pdf-qa-2026-06-28]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[briefs/openhouse-standalone-investor-brief-qa-2026-06-28]]
+

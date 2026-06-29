@@ -499,5 +499,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-energy-intelligence-sketch]]
 - [[briefs/openhouse-energy-investor-deck-outline]]
 - [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[briefs/wiki-refiner-2026-06-28]]
 - [[context/openhouse-sales-routes]]
 

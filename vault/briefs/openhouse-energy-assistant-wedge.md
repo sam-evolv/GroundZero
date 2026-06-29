@@ -314,6 +314,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/solar-installer-workflow-analysis]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
+- [[briefs/wiki-refiner-2026-06-28]]
 - [[companies/evolv-renewables]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]

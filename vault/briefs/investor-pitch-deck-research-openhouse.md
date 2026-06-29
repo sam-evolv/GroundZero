@@ -339,3 +339,10 @@ Key visuals:
 - Sequoia Capital, "Writing a Business Plan": https://www.sequoiacap.com/article/writing-a-business-plan/
 - Guy Kawasaki 10/20/30 rule: direct page blocked during research; use only as a common heuristic, not a hard rule.
 - DocSend pitch deck research: direct pages blocked during research; use only as directional support for the fact that investors skim quickly, not as a cited numeric basis here.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
+- [[briefs/openhouse-investor-brief-update-1-qa-2026-06-28]]
+- [[briefs/openhouse-investor-brief-v1-review-2026-06-28]]
+

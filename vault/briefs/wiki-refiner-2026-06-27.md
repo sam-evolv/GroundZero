@@ -65,6 +65,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-workflow-analysis]]
 - [[briefs/wiki-refiner-2026-06-26]]
+- [[briefs/wiki-refiner-2026-06-28]]
 - [[companies/openhouse-ai]]
 - [[context/autonomous-business-launch-loop]]
 - [[context/capture-workflow]]
@@ -75,6 +76,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/scaling-playbook]]
 - [[items/oh-production-migration]]
 - [[project_state/oh]]
+
 
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.

@@ -227,6 +227,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
+- [[briefs/wiki-refiner-2026-06-28]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]

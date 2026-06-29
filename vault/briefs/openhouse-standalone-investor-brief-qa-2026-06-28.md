@@ -55,6 +55,12 @@ The standalone HTML viewer includes a left slide-thumbnail sidebar and deck navi
 
 The HTML source still contains a few em dash characters in the bundle/runtime code, but no visible deck-copy issue was observed from the reviewed slides.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-investor-brief-latest-pdf-qa-2026-06-28]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
+
 ## Recommendation
 
 Use this version for friendly investor/advisor review if sharing as an interactive HTML deck is acceptable.

@@ -69,6 +69,12 @@ Generated a cleaned salvage PDF by cropping browser margins and rotating the sli
 
 This removes browser URL/date clutter and makes slides landscape/upright, but it cannot fix text that was already clipped in the exported PDF. Use only for internal review, not investor sending.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-chatgpt-deck-rebuild-context]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
+
 ## Recommendation
 
 Return to Claude Design / browser print and export again with:

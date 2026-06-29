@@ -494,3 +494,10 @@ Data ownership, consent, and no-surveillance positioning must be clear from the 
 OpenHouse can become a multi-million euro company if it avoids being trapped as a handover tool and proves a larger category: construction-stage home intelligence.
 
 The near-term job is not to build the full agentic energy system. The near-term job is to prove that developers will pay to create a living home model and that homeowners will use it repeatedly as a practical assistant. Once that is true, energy intelligence and agentic optimisation become credible expansion layers with much higher revenue potential.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/investor-pitch-deck-research-openhouse]]
+- [[briefs/openhouse-chatgpt-deck-rebuild-context]]
+- [[briefs/openhouse-investor-brief-v1-review-2026-06-28]]
+

@@ -253,3 +253,10 @@ The next improvement should not be another full rewrite. It should be a surgical
 - pricing correction
 - export polish
 - main-deck compression
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-claude-design-final-polish-prompt]]
+- [[briefs/openhouse-investor-brief-update-1-qa-2026-06-28]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
+

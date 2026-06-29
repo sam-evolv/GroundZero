@@ -87,6 +87,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
+- [[briefs/wiki-refiner-2026-06-28]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]

@@ -70,6 +70,7 @@ Use `read_file` on `/Users/samdonworth/GroundZero/vault/capture/inbox.md` and co
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
+- [[briefs/wiki-refiner-2026-06-28]]
 - [[companies/openhouse-ai]]
 - [[context/automation-ideas]]
 - [[context/autonomous-business-launch-loop]]

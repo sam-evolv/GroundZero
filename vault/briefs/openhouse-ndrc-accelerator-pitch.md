@@ -155,6 +155,7 @@ OpenHouse becomes the operating system for property developer handover quality, 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-06-27]]
+- [[briefs/wiki-refiner-2026-06-28]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-product-map]]
 - [[context/openhouse-sales-routes]]
