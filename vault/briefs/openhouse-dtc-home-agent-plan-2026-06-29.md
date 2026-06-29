@@ -418,6 +418,7 @@ Investor line:
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]] — DTC data feasibility research
 - [[briefs/openhouse-dtc-acquisition-hooks-research-2026-06-29]] — DTC acquisition hooks and personas
 - [[briefs/openhouse-dtc-energy-savings-guarantee-research-2026-06-29]] — DTC savings guarantee and energy mechanisms
+- [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]] — 14-day concierge MVP execution sprint
 - [[briefs/openhouse-energy-assistant-wedge]] — energy assistant wedge
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]] — post-Cairn reset
 - [[briefs/openhouse-investor-readiness-operating-plan]] — investor plan
