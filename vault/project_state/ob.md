@@ -15,6 +15,7 @@ Supply growth is healthy. Venues that churn almost always cite no-shows first. C
 - [[goals/ob-retention]] - reduce churn below 4%
 - [[goals/ob-supply]] - reach 500 venues
 - [[items/ob-no-show-deposits]] - primary commercial lever
+- [[briefs/consultancy-quick-revenue-strategy-2026-06-29]] - consultancy quick-revenue strategy
 - [[items/ob-venue-health-radar]] - churn prediction
 - [[items/ob-realtime-availability]] - booking feature
 - [[launches/launch-2026-06-24-launch-openbook-no-show-reduction-wedge]] - launch brief

@@ -53,6 +53,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[briefs/openhouse-dtc-acquisition-hooks-research-2026-06-29]] - DTC acquisition hooks and personas
 - [[briefs/openhouse-dtc-energy-savings-guarantee-research-2026-06-29]] - savings guarantee and DTC energy mechanisms
 - [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]] - 14-day DTC concierge MVP execution sprint
+- [[briefs/consultancy-quick-revenue-strategy-2026-06-29]] - consultancy quick-revenue strategy
 - [[imports/claude/openhouse-company-memory]] - council-facing memory
 
 ## Decisions

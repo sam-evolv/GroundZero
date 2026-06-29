@@ -24,6 +24,7 @@ Renewables company. First commercial rooftop is live. Reporting is still manual.
 - [[briefs/solar-installer-workflow-analysis]] — Irish solar market evidence
 - [[briefs/planet-satellite-opportunity]] — satellite imagery for construction monitoring
 - [[briefs/openhouse-energy-assistant-wedge]] — energy assistant cross-link
+- [[briefs/consultancy-quick-revenue-strategy-2026-06-29]] — consultancy quick-revenue strategy
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_

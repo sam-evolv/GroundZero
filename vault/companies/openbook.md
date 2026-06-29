@@ -27,6 +27,7 @@ Real appointments at Irish service businesses. SMB booking platform. Priority by
 - [[launches/launch-2026-06-24-launch-openbook-no-show-reduction-wedge]] — launch brief
 - [[launch-signals/1782296564720-launch-2026-06-24-launch-openbook-no-show-reduction-wedge]] — venue reply
 - [[briefs/ai-money-patterns-2026-06]] — market context for boring-software SaaS
+- [[briefs/consultancy-quick-revenue-strategy-2026-06-29]] — consultancy quick-revenue strategy
 
 ## Open questions
 - What is the current development status?

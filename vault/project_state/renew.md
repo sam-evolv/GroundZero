@@ -16,6 +16,7 @@ One install generating, one in survey. Compliance reporting eats a few hours a w
 - [[items/renew-grid-automation]] - automate grid export
 - [[items/renew-compliance-portal]] - client portal
 - [[briefs/solar-installer-software-wedge]] - software-layer context
+- [[briefs/consultancy-quick-revenue-strategy-2026-06-29]] - consultancy quick-revenue strategy
 - [[briefs/planet-satellite-opportunity]] - satellite monitoring
 
 ## Notes that link here
