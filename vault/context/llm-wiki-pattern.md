@@ -85,6 +85,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
 - [[briefs/wiki-refiner-2026-06-28]]
+- [[briefs/wiki-refiner-2026-06-29]]
 - [[context/automation-ideas]]
 - [[context/business-opportunities-moc]]
 - [[context/capture-workflow]]

@@ -91,6 +91,7 @@ Most likely first bets:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/10-non-common-ai-money-ideas]]
+- [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]

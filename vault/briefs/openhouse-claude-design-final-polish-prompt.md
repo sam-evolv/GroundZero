@@ -847,6 +847,10 @@ The final deck should feel like this:
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-chatgpt-deck-rebuild-context]]
 - [[briefs/openhouse-investor-brief-latest-pdf-qa-2026-06-28]]
+- [[briefs/openhouse-investor-brief-update-1-qa-2026-06-28]]
+- [[briefs/openhouse-investor-brief-v1-review-2026-06-28]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[briefs/openhouse-standalone-investor-brief-qa-2026-06-28]]
+- [[briefs/wiki-refiner-2026-06-29]]
+- [[companies/openhouse-ai]]
 

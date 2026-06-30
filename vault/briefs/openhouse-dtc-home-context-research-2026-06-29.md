@@ -229,3 +229,16 @@ Do not bypass developers entirely as the long-term strategy, but do run a DTC MV
 - [[briefs/openhouse-energy-assistant-wedge]] — energy assistant wedge
 - [[briefs/openhouse-investor-readiness-operating-plan]] — investor operating plan
 - [[context/openhouse-sales-routes]] — sales routes and wedges
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-acquisition-hooks-research-2026-06-29]]
+- [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
+- [[briefs/openhouse-dtc-energy-savings-guarantee-research-2026-06-29]]
+- [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
+- [[briefs/openhouse-ireland-funding-routes-2026-06-29]]
+- [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
+- [[companies/openhouse-ai]]
+- [[context/openhouse-sales-routes]]
+- [[project_state/oh]]
+

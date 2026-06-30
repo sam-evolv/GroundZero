@@ -743,3 +743,13 @@ Before considering the deck done, check:
 Paste this above or below this markdown when using ChatGPT:
 
 I want you to recreate the OpenHouse investor deck using the context below. Claude Design got the strategy mostly right but failed the export and layout. Please create a clean, premium, investor-ready deck structure and slide-by-slide copy for a 15 to 16 slide main deck plus appendix. Keep it concise, visual, founder-grade and investor-grade. Do not invent traction, users, revenue, pilots, logos or raise amount. Use euros. Do not use em dashes. Prioritise day-one utility, construction-stage source-of-truth data, living home model, energy intelligence expansion, data ownership and Ireland-to-UK scale. If you can generate a deck file, make it landscape, one slide per page, with no browser print artifacts and no clipped text.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-claude-design-final-polish-prompt]]
+- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
+- [[briefs/openhouse-investor-brief-latest-pdf-qa-2026-06-28]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[briefs/wiki-refiner-2026-06-29]]
+- [[companies/openhouse-ai]]
+

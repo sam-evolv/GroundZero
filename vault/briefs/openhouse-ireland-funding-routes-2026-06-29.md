@@ -143,3 +143,12 @@ Prioritised for fit:
 - [[briefs/openhouse-investor-readiness-operating-plan]] — investor operating plan
 - [[goals/oh-funder-pitch]] — funder-grade narrative
 - [[context/openhouse-sales-routes]] — sales route context
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
+- [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
+- [[companies/openhouse-ai]]
+- [[context/openhouse-sales-routes]]
+- [[project_state/oh]]
+

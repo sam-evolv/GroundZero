@@ -710,5 +710,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-investor-brief-v1-review-2026-06-28]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[briefs/wiki-refiner-2026-06-28]]
+- [[briefs/wiki-refiner-2026-06-29]]
 - [[context/openhouse-sales-routes]]
 

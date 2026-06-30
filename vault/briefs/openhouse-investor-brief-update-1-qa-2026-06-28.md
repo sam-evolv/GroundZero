@@ -65,9 +65,13 @@ This makes the deck look unfinished. Must export cleanly before sending.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/investor-pitch-deck-research-openhouse]]
 - [[briefs/openhouse-claude-design-final-polish-prompt]]
+- [[briefs/openhouse-investor-brief-v1-review-2026-06-28]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[briefs/openhouse-standalone-investor-brief-qa-2026-06-28]]
+- [[companies/openhouse-ai]]
+
 
 ## Recommendation
 

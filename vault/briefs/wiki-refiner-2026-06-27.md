@@ -66,6 +66,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/solar-installer-workflow-analysis]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-28]]
+- [[briefs/wiki-refiner-2026-06-29]]
 - [[companies/openhouse-ai]]
 - [[context/autonomous-business-launch-loop]]
 - [[context/capture-workflow]]

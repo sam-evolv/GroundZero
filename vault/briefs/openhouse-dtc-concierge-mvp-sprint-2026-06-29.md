@@ -576,3 +576,10 @@ Investor line:
 - [[briefs/openhouse-dtc-energy-savings-guarantee-research-2026-06-29]] — savings guarantee logic
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]] — DTC as core thesis
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]] — post-Cairn strategy reset
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
+- [[companies/openhouse-ai]]
+- [[project_state/oh]]
+

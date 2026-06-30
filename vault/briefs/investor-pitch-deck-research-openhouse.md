@@ -345,4 +345,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
 - [[briefs/openhouse-investor-brief-update-1-qa-2026-06-28]]
 - [[briefs/openhouse-investor-brief-v1-review-2026-06-28]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[companies/openhouse-ai]]
 

@@ -58,8 +58,12 @@ The HTML source still contains a few em dash characters in the bundle/runtime co
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-claude-design-final-polish-prompt]]
 - [[briefs/openhouse-investor-brief-latest-pdf-qa-2026-06-28]]
+- [[briefs/openhouse-investor-brief-update-1-qa-2026-06-28]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[companies/openhouse-ai]]
+
 
 ## Recommendation
 

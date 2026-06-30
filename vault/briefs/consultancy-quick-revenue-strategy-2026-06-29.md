@@ -410,3 +410,13 @@ Every consultancy sprint should produce one reusable artifact:
 - [[context/business-opportunities-moc]] — opportunity hub
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]] — funding/channel reset
 - [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]] — DTC product thesis
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/evolv-renewables]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
+- [[project_state/ob]]
+- [[project_state/oh]]
+- [[project_state/renew]]
+

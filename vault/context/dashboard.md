@@ -33,7 +33,7 @@ updated: "2026-06-26"
 ## 🟢 Monitoring
 
 - 🟢 [[project_state/ob|ob]]: 362 live venues in Dublin. No-shows are the top churn driver.
-- 🔴 [[project_state/oh|oh]]: Database V2 migration is stabilising. Sprint 5 PRs are merged. Vercel production is healthy.
+- 🔴 [[project_state/oh|oh]]: Database V2 is stabilising; Cairn declined the large-developer route, so OpenHouse is shifting toward funding, UK/US channels, and DTC optionality.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -56,4 +56,4 @@ updated: "2026-06-26"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-06-29 02:15 IST
+- Dashboard: 2026-06-30 02:15 IST

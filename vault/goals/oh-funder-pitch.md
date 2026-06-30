@@ -49,7 +49,9 @@ The pitch should make the company feel like a category with a real wedge, a real
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/openhouse-ireland-funding-routes-2026-06-29]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
 - [[companies/openhouse-ai]]
 - [[context/autonomous-business-launch-loop]]
 - [[context/consulting-wedges]]

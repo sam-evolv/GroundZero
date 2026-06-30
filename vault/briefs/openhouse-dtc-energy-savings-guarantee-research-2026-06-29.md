@@ -328,3 +328,11 @@ For Ireland, start with ESB HDF/CSV upload and tariff/savings report. For broade
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]] — DTC core thesis
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]] — DTC context feasibility
 - [[briefs/openhouse-energy-assistant-wedge]] — energy assistant wedge
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]]
+- [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
+- [[companies/openhouse-ai]]
+- [[project_state/oh]]
+

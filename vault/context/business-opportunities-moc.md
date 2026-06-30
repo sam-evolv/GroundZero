@@ -55,8 +55,12 @@ Planet.com data is not a single-wedge opportunity. It touches multiple businesse
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/10-non-common-ai-money-ideas]]
 - [[briefs/ai-money-patterns-2026-06]]
+- [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
+- [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-energy-intelligence-sketch]]
+- [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
+- [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]

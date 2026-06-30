@@ -73,7 +73,11 @@ This removes browser URL/date clutter and makes slides landscape/upright, but it
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-chatgpt-deck-rebuild-context]]
+- [[briefs/openhouse-claude-design-final-polish-prompt]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[briefs/openhouse-standalone-investor-brief-qa-2026-06-28]]
+- [[companies/openhouse-ai]]
+
 
 ## Recommendation
 

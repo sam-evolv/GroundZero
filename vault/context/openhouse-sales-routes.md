@@ -103,13 +103,19 @@ Build a target list of 50 developers and 20 partner channels, then test 3 messag
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
+- [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
+- [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-energy-intelligence-sketch]]
 - [[briefs/openhouse-energy-investor-deck-draft-v0]]
 - [[briefs/openhouse-energy-investor-deck-outline]]
 - [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[briefs/openhouse-ireland-funding-routes-2026-06-29]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
+- [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
 - [[briefs/wiki-refiner-2026-06-27]]
 - [[companies/openhouse-ai]]
 - [[context/consulting-wedges]]
