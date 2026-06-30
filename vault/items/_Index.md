@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-06-26"
+updated_at: "2026-06-30"
 ---
 
 # Ideas Index
@@ -42,6 +42,12 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/renew-grid-automation]] | Automate grid export reporting | M | proposed |
 | [[items/renew-compliance-portal]] | Client compliance portal | M | proposed |
 | [[items/renew-compliance-reporting-automation]] | Auto-build compliance packs | M | proposed |
+
+## Consultancy / quick revenue
+
+| Item | Summary | Size | Status |
+|---|---|---|---|
+| [[items/consultancy-cork-property-outreach]] | Contact first 10 Cork property prospects | S | building 🔥 |
 
 ## Operations
 

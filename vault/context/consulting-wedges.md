@@ -15,6 +15,9 @@ purpose: Specific sector problems that could become an AI consultancy offer
 - [[briefs/solar-installer-software-wedge]] — solar software wedge
 - [[briefs/solar-installer-workflow-analysis]] — Irish solar evidence
 - [[briefs/openhouse-energy-assistant-wedge]] — energy assistant extension
+- [[briefs/consultancy-quick-revenue-strategy-2026-06-29]] — productised quick-revenue strategy
+- [[briefs/consultancy-cork-property-prospect-list-2026-06-30]] — first Cork property prospect batch
+- [[items/consultancy-cork-property-outreach]] — active outreach item
 - [[people/sam-donworth]] — founder context
 
 ## Principle

@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Ground Zero keeps vendored/reference projects and Obsidian plugins in-tree.
+    // They are not part of this Next app and have their own lint baselines.
+    "repos/**",
+    ".obsidian/**",
   ]),
 ]);
 

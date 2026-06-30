@@ -1,6 +1,6 @@
 import matter from "gray-matter";
 import type { VaultStore, DecisionInput, NewBrief, NewItem, NewLaunch, NewLaunchSignal } from "./store";
-import type { Brief, Company, Decision, Goal, Item, ItemState, LaunchSignal, ProjectState } from "./types";
+import type { Brief, Company, Decision, Goal, Item, ItemState, LaunchBrief, LaunchSignal, ProjectState } from "./types";
 import {
   mapBrief,
   mapCompany,
@@ -140,11 +140,11 @@ export class GitHubVaultStore implements VaultStore {
       .sort((a, b) => (b.ranAt ?? b.date).localeCompare(a.ranAt ?? a.date))[0];
   }
 
-  async listLaunches(): Promise<any[]> {
+  async listLaunches(): Promise<LaunchBrief[]> {
     return (await this.readCollection("launches")).map(mapLaunch);
   }
 
-  async getLatestLaunch(): Promise<any | null> {
+  async getLatestLaunch(): Promise<LaunchBrief | null> {
     const docs = await this.readCollection("launches");
     if (docs.length === 0) return null;
     return docs

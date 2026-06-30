@@ -21,6 +21,9 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 
 ### PropTech & Aftercare
 - [[companies/openhouse-ai]] — OpenHouse: handover + aftercare + sales pipeline for developers
+- [[briefs/consultancy-quick-revenue-strategy-2026-06-29]] — productised AI workflow consulting for near-term cash
+- [[briefs/consultancy-cork-property-prospect-list-2026-06-30]] — first Cork property prospect batch for the AI Maintenance & Follow-Up Desk
+- [[items/consultancy-cork-property-outreach]] — active outreach item for the first 10 Cork property prospects
 
 ### Irish-Market Wedges
 - [[context/healthcare-revenue-cycle-wedge]] — US/UK hospital claims adjudication

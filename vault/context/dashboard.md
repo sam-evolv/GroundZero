@@ -2,7 +2,7 @@
 title: Ground Zero Dashboard
 purpose: Single view of what needs attention across all businesses
 kind: dashboard
-updated: "2026-06-26"
+updated: "2026-06-30"
 ---
 
 # Ground Zero Dashboard
@@ -13,6 +13,9 @@ updated: "2026-06-26"
 
 ### OpenHouse AI
   - **Close the tenant data gap before the V2 launch** → [[items/oh-rls-audit]] (🔴 building)
+
+### Consultancy / quick revenue
+  - **Contact first 10 Cork property consultancy prospects** → [[items/consultancy-cork-property-outreach]] (🔴 building)
 
 ### OpenBook
   - **Live availability sync with venue calendars** → [[items/ob-realtime-availability]] (🟡 pr_ready)
@@ -42,12 +45,14 @@ updated: "2026-06-26"
 | Company | WIP | Proposed | Goal | Status |
 |---|---|---|---|---|
 | OpenHouse AI | 1 | 10 | Lift new-agent activation to 60% | 🟡 |
+| Consultancy / quick revenue | 1 | 0 | Book first paid €500 audit from Cork property prospects | 🔴 |
 | OpenBook | 1 | 4 | Reach 500 live venues in Dublin | 🟡 |
 | Evolv Renewables | 0 | 3 | Sign three commercial rooftop deals | 🟢 |
 
 
 ## 🧭 Navigate
 
+- Latest daily brief: [[briefs/2026-06-30]]
 - All ideas: [[items/_Index]]
 - All opportunities: [[context/business-opportunities-moc]]
 - All ops automation: [[context/ops-automation-moc]]
@@ -56,4 +61,4 @@ updated: "2026-06-26"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-06-30 02:15 IST
+- Dashboard: 2026-06-30 08:31 IST
