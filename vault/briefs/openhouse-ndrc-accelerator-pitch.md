@@ -6,7 +6,21 @@ purpose: Pitch narrative and deck outline for the NDRC accelerator application
 # OpenHouse NDRC accelerator pitch draft
 
 ## One-line positioning
-OpenHouse is the premium evidence and workflow layer for property developers, turning handover, aftercare, compliance, and buyer communication into a structured system of record.
+OpenHouse gives every home a brain, starting with developer handover and aftercare, then expanding into homeowner support, energy intelligence, warranties, maintenance, and the persistent living home model.
+
+## Current NDRC narrative
+
+OpenHouse should not be pitched narrowly as a portal for developers. The NDRC version must be more ambitious:
+
+> OpenHouse is building the AI operating layer for modern homes. It starts where home context is born, at handover, then turns documents, photos, issues, warranties, bills, and energy systems into a living home model that helps homeowners and property companies manage the home over time.
+
+## Post-Cairn learning to include carefully
+
+A major Irish developer effectively validated the category while declining to adopt externally. They acknowledged gaps around customer-care automation and energy/home intelligence, but internal inertia meant adoption was blocked.
+
+Use this as learning, not grievance:
+
+> We learned that the category is real, but founder-led sales into the largest developers is too slow and politically exposed before the company has outside legitimacy. That is why NDRC is the right next step: funding, network, investor discipline, and market access can convert a strong product into a fundable company with multiple routes to market.
 
 ## Core thesis
 OpenHouse helps property developers prove quality, reduce friction, and strengthen the commercial story around each scheme by centralising the operational truth of handover and aftercare.

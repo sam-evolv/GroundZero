@@ -18,6 +18,14 @@ This is a material blow because Cairn represented the largest Irish developer ta
 
 Sam is drained and disappointed after the meeting. The strategic response should reduce pressure, create concrete next actions, and avoid pretending this was not a hit.
 
+Update 2026-06-30: Sam reported that the Cairn meeting felt predetermined. The head of customer care appeared to have decided not to use Walkin House before the meeting, despite acknowledging capability gaps in Cairn's current route. Sam estimates this effectively removes roughly 7–8% of the Irish new-build market from the immediate target list. The psychological hit is real, but Sam also noted he handled it better than previous setbacks, went for a walk, and is becoming more resilient to disappointment.
+
+Key signal from the meeting:
+- Cairn's current system lacks even a rudimentary chatbot, so customer questions still route back to customer care.
+- Cairn acknowledged they do not have the energy/home intelligence layer.
+- The rejection was therefore not a clean product-quality rejection. It was an adoption/incentive/politics rejection.
+- This mirrors prior experience with SE Systems: obvious efficiency improvements can still be ignored when the buyer lacks urgency, ownership, or incentive to change.
+
 ## Strategic interpretation
 
 The Cairn outcome weakens the direct top-tier Irish developer wedge, but it strengthens the investor narrative:
