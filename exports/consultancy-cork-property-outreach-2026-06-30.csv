@@ -1,0 +1,11 @@
+priority,business,location,phone,email,website,offer,pitch_angle,status,next_action
+1,ERA Downey McCarthy,"South Mall, Cork",+353 21 490 5000,info@eracork.ie,https://www.eracork.ie/,AI Maintenance & Follow-Up Desk,"admin triage and client/vendor reporting",not_contacted,send_message
+2,Jeremy Murphy & Associates,"50 South Mall, Cork",+353 21 427 0020,info@jeremymurphy.ie,https://www.jeremymurphy.ie/,AI Maintenance & Follow-Up Desk,"enquiry-to-follow-up workflow",not_contacted,send_message
+3,Woodwards Auctioneers,"26 Cook Street, Cork",+353 21 427 3327,info@woodward.ie,https://www.woodward.ie/,AI Maintenance & Follow-Up Desk,"simple fixed-fee workflow with no migration",not_contacted,send_message
+4,Frank V Murphy,"47 South Mall, Cork",+353 21 427 4204,,https://frankvmurphy.ie/,AI Maintenance & Follow-Up Desk,"missed enquiry and client update automation",not_contacted,send_message
+5,Casey & Kingston,"43 Grand Parade, Cork",+353 21 427 1127,,https://www.caseyandkingston.ie/,AI Maintenance & Follow-Up Desk,"client reporting and enquiry triage",not_contacted,send_message
+6,Barry Auctioneers,"77 South Mall, Cork",+353 21 427 9677,,https://www.barryauctioneers.ie/,AI Maintenance & Follow-Up Desk,"lead capture viewing follow-up and updates",not_contacted,send_message
+7,REA O'Donoghue & Clarke,"16 Cook Street, Cork, T12 WFF8",+353 21 425 1010,,https://www.reaodonoghueclarke.ie/,AI Maintenance & Follow-Up Desk,"property enquiry and client update workflow",not_contacted,send_message
+8,Michael Pigott Auctioneer & Valuer,"Kilmoney Road, Carrigaline",+353 21 437 3300,,https://www.michaelpigott.ie/,AI Maintenance & Follow-Up Desk,"enquiry follow-up and viewing pipeline",not_contacted,send_message
+9,Cronin Wall Properties,"Cork area",+353 21 4630 400,,https://www.croninwall.com,AI Maintenance & Follow-Up Desk,"property enquiry workflow and client report automation",not_contacted,send_message
+10,Daniel Fleming Auctioneers,"Blarney area",+353 21 438 5524 / +353 87 257 5712,sales@blarneyauctioneers.com,,AI Maintenance & Follow-Up Desk,"visible admin relief for smaller operator",not_contacted,send_message

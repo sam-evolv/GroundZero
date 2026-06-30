@@ -401,6 +401,7 @@ Every consultancy sprint should produce one reusable artifact:
 ## Connected vault notes
 
 - [[companies/openhouse-ai]] — primary company and property/aftercare alignment
+- [[briefs/consultancy-cork-property-prospect-list-2026-06-30]] — first Cork property prospect batch
 - [[companies/openbook]] — booking/no-show quick-win route
 - [[companies/evolv-renewables]] — renewable installer/aftercare route
 - [[project_state/oh]] — current OpenHouse state
