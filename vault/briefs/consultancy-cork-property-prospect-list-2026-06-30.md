@@ -244,3 +244,14 @@ If there is no response after 10 property businesses, revise the offer and test 
 - [[project_state/oh]] — OpenHouse current state
 - [[context/consulting-wedges]] — consulting sector wedges
 - [[context/business-opportunities-moc]] — opportunity hub
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-30]]
+- [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
+- [[companies/openhouse-ai]]
+- [[context/business-opportunities-moc]]
+- [[context/consulting-wedges]]
+- [[items/consultancy-cork-property-outreach]]
+- [[project_state/oh]]
+

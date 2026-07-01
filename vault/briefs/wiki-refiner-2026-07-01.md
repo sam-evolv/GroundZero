@@ -1,11 +1,11 @@
 ---
-title: Wiki Refiner 2026-06-29
+title: Wiki Refiner 2026-07-01
 kind: wiki_refiner_brief
-date: "2026-06-29"
-ran_at: "2026-06-29T02:15:53+01:00"
+date: "2026-07-01"
+ran_at: "2026-07-01T02:15:30+01:00"
 ---
 
-# Wiki Refiner 2026-06-29
+# Wiki Refiner 2026-07-01
 
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
 
@@ -18,52 +18,34 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
   - Related: [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]], [[briefs/openhouse-energy-assistant-wedge]], [[briefs/openhouse-claude-design-final-polish-prompt]], [[briefs/openhouse-investor-readiness-operating-plan]]
 - `imports/claude/openhouse-company-memory.md` -> `companies/openhouse-ai.md`
   - Summary: Last updated: 27 June 2026. Maintained by Sam. The council reads this in full at the start of every run and treats it as current reality. Keep it short and current; prune anythi... A premium proptech SaaS platform for property developers: homeowner handover, aftercare, and sales pipeline management. Live homeowner and agent portals at portal.openhouseai.ie... 1. Stabilise the production database migration. Real Longview Estates data is now live across the four schemes; the backup tables are still waiting for one clean week before drop. 2. Triage the current open issues in sam-evolv/property-assistant: #195 raw markdown bold rendering, #194 tsconfig ignoreDeprecations mismatch, #130 chat-route refactor, #128 nu...
-  - Related: [[companies/openhouse-ai]], [[briefs/wiki-refiner-2026-06-28]], [[briefs/openhouse-claude-design-final-polish-prompt]], [[briefs/openhouse-chatgpt-deck-rebuild-context]]
+  - Related: [[companies/openhouse-ai]], [[briefs/openhouse-claude-design-final-polish-prompt]], [[briefs/wiki-refiner-2026-06-29]], [[briefs/wiki-refiner-2026-06-30]]
 - `imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26.md` -> `briefs/wiki-refiner-2026-06-27.md`
   - Summary: Source tweet: https://x.com/gippp69/status/2070482723014078865?s=20 > THE OBSIDIAN GRAPH IS NOT A PRETTY NOTE MAP, IT IS A SELF-MAINTAINING AI WIKI THAT CAN TURN 120 SAVED SOURCES INTO 700 LINKED PAGES WHILE YOU ONLY KEEP ADDING NEW MATERIAL > > 00:11 the graph opens and the trick becomes obvious: every dot is a saved idea, every cluster is a topic, and every line is context the AI no longer has to rebuild from scratc...
-  - Related: [[briefs/wiki-refiner-2026-06-27]], [[briefs/wiki-refiner-2026-06-28]], [[briefs/wiki-refiner-2026-06-26]], [[briefs/openhouse-energy-assistant-wedge]]
+  - Related: [[briefs/wiki-refiner-2026-06-27]], [[briefs/wiki-refiner-2026-06-29]], [[briefs/wiki-refiner-2026-06-28]], [[briefs/wiki-refiner-2026-06-26]]
 - `capture/inbox.md` -> `briefs/wiki-refiner-2026-06-26.md`
   - Summary: Use this note to capture anything important before filing it into the right person, company, project, goal, item, or decision note. - - -
-  - Related: [[briefs/wiki-refiner-2026-06-26]], [[briefs/wiki-refiner-2026-06-27]], [[briefs/wiki-refiner-2026-06-28]], [[context/capture-workflow]]
+  - Related: [[briefs/wiki-refiner-2026-06-26]], [[briefs/wiki-refiner-2026-06-27]], [[briefs/wiki-refiner-2026-06-28]], [[briefs/wiki-refiner-2026-06-29]]
 
 ## Strongest connected notes
-- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]] (316)
-- [[briefs/openhouse-energy-assistant-wedge]] (311)
-- [[briefs/openhouse-claude-design-final-polish-prompt]] (297)
-- [[briefs/openhouse-chatgpt-deck-rebuild-context]] (296)
+- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]] (317)
+- [[briefs/openhouse-energy-assistant-wedge]] (316)
+- [[briefs/openhouse-claude-design-final-polish-prompt]] (299)
+- [[briefs/openhouse-chatgpt-deck-rebuild-context]] (297)
 - [[briefs/openhouse-energy-investor-deck-draft-v0]] (291)
-- [[briefs/openhouse-investor-readiness-operating-plan]] (279)
-- [[companies/openhouse-ai]] (226)
+- [[briefs/openhouse-investor-readiness-operating-plan]] (283)
+- [[companies/openhouse-ai]] (241)
+- [[briefs/wiki-refiner-2026-06-29]] (122)
+- [[briefs/wiki-refiner-2026-06-30]] (122)
 - [[briefs/wiki-refiner-2026-06-28]] (121)
-- [[briefs/wiki-refiner-2026-06-27]] (114)
-- [[briefs/wiki-refiner-2026-06-26]] (108)
-- [[context/llm-wiki-pattern]] (51)
+- [[briefs/wiki-refiner-2026-06-27]] (63)
+- [[briefs/wiki-refiner-2026-06-26]] (61)
 - [[context/capture-workflow]] (15)
-- [[context/ground-zero-structure]] (14)
 
 ## Suggested follow-ups
 - Move durable facts from imports into the relevant company, person, or project note.
 - Keep the raw source in `imports/` so provenance stays intact.
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
-
-
-## Notes that link here
-_Auto-generated: updated by wiki-refiner_
-- [[briefs/openhouse-chatgpt-deck-rebuild-context]]
-- [[briefs/openhouse-claude-design-final-polish-prompt]]
-- [[briefs/openhouse-energy-assistant-wedge]]
-- [[briefs/openhouse-energy-investor-deck-draft-v0]]
-- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
-- [[briefs/openhouse-investor-readiness-operating-plan]]
-- [[briefs/wiki-refiner-2026-06-26]]
-- [[briefs/wiki-refiner-2026-06-27]]
-- [[briefs/wiki-refiner-2026-06-28]]
-- [[briefs/wiki-refiner-2026-06-30]]
-- [[companies/openhouse-ai]]
-- [[context/capture-workflow]]
-- [[context/ground-zero-structure]]
-- [[context/llm-wiki-pattern]]
 
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.

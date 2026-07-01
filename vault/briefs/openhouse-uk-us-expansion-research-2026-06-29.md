@@ -137,9 +137,13 @@ source: delegated web research
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[briefs/openhouse-ireland-funding-routes-2026-06-29]]
+- [[briefs/openhouse-ndrc-accelerator-pitch]]
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
 - [[companies/openhouse-ai]]
+- [[context/business-opportunities-moc]]
 - [[context/openhouse-sales-routes]]
 - [[project_state/oh]]
 

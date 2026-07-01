@@ -94,6 +94,8 @@ Most likely first bets:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/10-non-common-ai-money-ideas]]
+- [[briefs/2026-06-30]]
+- [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/planet-satellite-opportunity]]
@@ -110,5 +112,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/openhouse-sales-routes]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-funder-pitch]]
+- [[items/consultancy-cork-property-outreach]]
 - [[people/sam-donworth]]
 

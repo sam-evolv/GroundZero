@@ -147,8 +147,12 @@ Prioritised for fit:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[briefs/openhouse-ndrc-accelerator-pitch]]
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
+- [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-sales-routes]]
+- [[goals/oh-funder-pitch]]
 - [[project_state/oh]]
 

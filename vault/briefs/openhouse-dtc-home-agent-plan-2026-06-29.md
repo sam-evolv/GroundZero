@@ -429,7 +429,13 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/openhouse-dtc-acquisition-hooks-research-2026-06-29]]
 - [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]]
+- [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-dtc-energy-savings-guarantee-research-2026-06-29]]
+- [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
 - [[companies/openhouse-ai]]
+- [[context/openhouse-sales-routes]]
 - [[project_state/oh]]
 

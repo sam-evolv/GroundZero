@@ -331,8 +331,12 @@ For Ireland, start with ESB HDF/CSV upload and tariff/savings report. For broade
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-acquisition-hooks-research-2026-06-29]]
 - [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]]
+- [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
+- [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
+- [[briefs/openhouse-energy-assistant-wedge]]
 - [[companies/openhouse-ai]]
 - [[project_state/oh]]
 

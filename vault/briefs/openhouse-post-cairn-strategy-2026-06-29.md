@@ -182,15 +182,21 @@ Cairn saying no does not mean the problem is fake. It means the largest incumben
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-30]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/openhouse-dtc-acquisition-hooks-research-2026-06-29]]
 - [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]]
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[briefs/openhouse-ireland-funding-routes-2026-06-29]]
+- [[briefs/openhouse-ndrc-accelerator-pitch]]
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
 - [[companies/openhouse-ai]]
+- [[context/business-opportunities-moc]]
 - [[context/openhouse-sales-routes]]
+- [[goals/oh-funder-pitch]]
 - [[project_state/oh]]
 

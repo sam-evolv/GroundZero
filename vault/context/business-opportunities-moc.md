@@ -57,7 +57,9 @@ Planet.com data is not a single-wedge opportunity. It touches multiple businesse
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/10-non-common-ai-money-ideas]]
+- [[briefs/2026-06-30]]
 - [[briefs/ai-money-patterns-2026-06]]
+- [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-energy-assistant-wedge]]
@@ -81,6 +83,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/llm-wiki-pattern]]
 - [[context/scaling-playbook]]
 - [[context/solo-founder-era]]
+- [[items/consultancy-cork-property-outreach]]
 - [[items/ob-no-show-deposits]]
 - [[items/ob-venue-health-radar]]
 - [[items/renew-grid-automation]]

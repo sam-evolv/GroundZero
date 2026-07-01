@@ -176,7 +176,13 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]]
 - [[briefs/openhouse-dtc-energy-savings-guarantee-research-2026-06-29]]
 - [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
+- [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
+- [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
 - [[companies/openhouse-ai]]
+- [[context/business-opportunities-moc]]
+- [[context/openhouse-sales-routes]]
 - [[project_state/oh]]
 

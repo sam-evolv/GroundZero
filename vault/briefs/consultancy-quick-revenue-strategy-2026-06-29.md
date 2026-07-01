@@ -414,9 +414,16 @@ Every consultancy sprint should produce one reusable artifact:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-06-30]]
+- [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
+- [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
+- [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
+- [[context/business-opportunities-moc]]
+- [[context/consulting-wedges]]
+- [[items/consultancy-cork-property-outreach]]
 - [[project_state/ob]]
 - [[project_state/oh]]
 - [[project_state/renew]]
