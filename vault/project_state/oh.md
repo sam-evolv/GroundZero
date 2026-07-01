@@ -32,6 +32,7 @@ The V2 rollout is still on track for end of month. Real Longview Estates data re
 - [[items/oh-onboarding-cut]] - strongest design candidate
 - [[items/oh-warranty-triage-router]] - AI issue triage
 - [[briefs/openhouse-ndrc-accelerator-pitch]] - NDRC pitch
+- [[briefs/openhouse-ndrc-submission-sprint-2026-07-01]] - active NDRC submission sprint and deck QA plan
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]] - post-Cairn route reset: funding, UK/US channels, and DTC optionality
 - [[briefs/openhouse-ireland-funding-routes-2026-06-29]] - funding/backing route research
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] - UK/US route research
