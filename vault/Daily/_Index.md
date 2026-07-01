@@ -12,6 +12,7 @@ kind: moc
 | [[Daily/2026-06-25]] | Scanned workflows, added five automation proposals | ops-pr-issue-ageing-escalator, ops-capture-inbox-refinery, ops-weekly-status-pack, ops-meeting-followup-assembler, ob-cancellation-waitlist |
 | [[Daily/2026-06-26]] | Expanded incubator with gap-analysis ideas | oh-handover-readiness-scan, oh-scheme-launch-scorecard, ob-venue-health-radar, ops-index-maintenance-bot, ops-project-state-reconciler, ops-source-to-wiki-ingest, openhouse-energy-assistant-wedge |
 | [[Daily/2026-06-27]] | Synced live systems and refreshed project state notes | project_state/oh, project_state/ob, project_state/renew |
+| [[Daily/2026-07-01]] | Synced live systems, refreshed OpenHouse/OpenBook/Renew state notes, and checked Vercel/Supabase | project_state/oh, project_state/ob, project_state/renew, items/oh-production-migration, items/ob-realtime-availability |
 | [[briefs/2026-06-28]] | Daily brief: OpenHouse remains active focus; energy-intelligence investor-deck revision thread is the useful new change | openhouse-energy-intelligence-sketch, openhouse-energy-investor-deck-outline, openhouse-energy-investor-deck-draft-v0, openhouse-investor-brief-energy-agentic-revision-plan |
 
 ## Pattern

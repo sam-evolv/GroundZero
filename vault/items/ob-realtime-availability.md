@@ -13,8 +13,8 @@ is_one_thing: false
 source: morning-brief 2026-06-09
 run_date: "2026-06-09"
 created_at: "2026-06-09T06:30:00Z"
-updated_at: "2026-06-26T16:56:31+01:00"
-sync_status: "Checked 2026-06-26 16:56 IST. No OpenBook live-system change was checked in this sync."
+updated_at: "2026-07-01T00:00:00+01:00"
+sync_status: "Checked 2026-07-01. No OpenBook live-system change was checked in this sync."
 ---
 
 ## Opportunity size

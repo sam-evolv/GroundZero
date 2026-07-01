@@ -3,15 +3,15 @@ id: oh
 company_id: openhouse-ai
 headline: Database V2 is stabilising; Cairn declined the large-developer route, so OpenHouse is shifting toward funding, UK/US channels, and DTC optionality.
 valid: true
-updated_at: "2026-06-29T17:23:00+01:00"
+updated_at: "2026-07-01T00:00:00+01:00"
 role: project-state
 ---
 
-The V2 rollout is still on track for end of month. Real Longview Estates data remains live across Longview Park, Ardan View, Rathard Lawn, and Rathard Park. PR #184 and PR #186 remain merged. Checked 2026-06-27 12:01 IST. GitHub open PRs remain #204, #180, #147, #146, #104, #98, #41, #40, #38, #11, and #6. Current open issues in sam-evolv/property-assistant remain #195, #194, #130, #128, #125, and #123. Vercel production is still Ready. Supabase remote anomaly checks are still blocked in this environment because `SUPABASE_ACCESS_TOKEN` is unset and `supabase status` cannot run without a working Docker daemon.
+The V2 rollout is still on track for end of month. Real Longview Estates data remains live across Longview Park, Ardan View, Rathard Lawn, and Rathard Park. PR #184 and PR #186 remain merged. Checked 2026-07-01. GitHub open PRs remain #204, #180, #147, #146, #104, #98, #41, #40, #38, #11, and #6. Current open issues in sam-evolv/property-assistant remain #195, #194, #130, #128, #125, and #123. Vercel production is still Ready. Supabase remote anomaly checks are still blocked in this environment because `SUPABASE_ACCESS_TOKEN` is unset and local `supabase status` cannot run without a working Docker daemon.
 
 ## Summary
 - Production migration is still the top priority.
-- Vercel production deployment was inspected again on 2026-06-27 at 12:01 IST and the latest deployment is Ready.
+- Vercel production deployment was inspected again on 2026-07-01 and the latest deployment is Ready.
 - Guardrails remain in shadow mode and the eval suite still needs expansion before flipping to active.
 - Supabase remote anomaly checks are still blocked because `SUPABASE_ACCESS_TOKEN` is unset and local `supabase status` cannot reach Docker.
 

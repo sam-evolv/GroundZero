@@ -3,11 +3,11 @@ id: renew
 company_id: evolv-renewables
 headline: First commercial rooftop is live. Reporting is still manual.
 valid: true
-updated_at: "2026-06-27T12:01:00+01:00"
+updated_at: "2026-07-01T00:00:00+01:00"
 role: project-state
 ---
 
-One install generating, one in survey. Compliance reporting eats a few hours a week. Checked 2026-06-27 12:01 IST. No new live-system changes were checked for Renewables in this sync.
+One install generating, one in survey. Compliance reporting eats a few hours a week. Checked 2026-07-01. No new live-system changes were checked for Renewables in this sync.
 
 ## Connected vault notes
 

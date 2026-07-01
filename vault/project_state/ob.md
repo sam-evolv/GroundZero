@@ -3,11 +3,11 @@ id: ob
 company_id: openbook
 headline: 362 live venues in Dublin. No-shows are the top churn driver.
 valid: true
-updated_at: "2026-06-27T12:01:00+01:00"
+updated_at: "2026-07-01T00:00:00+01:00"
 role: project-state
 ---
 
-Supply growth is healthy. Venues that churn almost always cite no-shows first. Checked 2026-06-27 12:01 IST. No new live-system changes were checked for OpenBook in this sync.
+Supply growth is healthy. Venues that churn almost always cite no-shows first. Checked 2026-07-01. No new live-system changes were checked for OpenBook in this sync.
 
 ## Connected vault notes
 
