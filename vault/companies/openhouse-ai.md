@@ -45,6 +45,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[briefs/openhouse-energy-assistant-wedge]] - energy assistant extension
 - [[briefs/openhouse-ndrc-accelerator-pitch]] - NDRC pitch
 - [[briefs/openhouse-ndrc-submission-sprint-2026-07-01]] - active NDRC submission sprint and deck QA plan
+- [[briefs/openhouse-ndrc-application-pack-2026-07-01]] - NDRC application fields, answers, blockers and upload checklist
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]] - post-Cairn funding / UK-US / DTC strategy reset
 - [[briefs/openhouse-ireland-funding-routes-2026-06-29]] - Ireland funding and backing routes
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] - UK/US expansion research

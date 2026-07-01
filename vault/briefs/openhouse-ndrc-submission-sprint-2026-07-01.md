@@ -266,4 +266,5 @@ Unknown later pages must be reviewed after first-page completion. Do not submit 
 - [[briefs/investor-pitch-deck-research-openhouse]] - deck research
 - [[briefs/openhouse-chatgpt-deck-rebuild-context]] - deck rebuild context
 - [[briefs/openhouse-claude-design-final-polish-prompt]] - final polish prompt
+- [[briefs/openhouse-ndrc-application-pack-2026-07-01]] - application fields, answers, blockers and upload checklist
 - [[goals/oh-funder-pitch]] - funder-grade narrative
