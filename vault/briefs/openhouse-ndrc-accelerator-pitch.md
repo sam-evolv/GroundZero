@@ -169,6 +169,8 @@ OpenHouse becomes the operating system for property developer handover quality, 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-ireland-funding-routes-2026-06-29]]
+- [[briefs/openhouse-ndrc-application-pack-2026-07-01]]
+- [[briefs/openhouse-ndrc-submission-sprint-2026-07-01]]
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
 - [[briefs/wiki-refiner-2026-06-27]]

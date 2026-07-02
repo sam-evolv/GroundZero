@@ -155,3 +155,10 @@ Do not submit if:
 - the website URL is wrong or unavailable,
 - later form pages require information we cannot truthfully answer,
 - the application asks for legal/fundraising details Sam has not confirmed.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-ndrc-submission-sprint-2026-07-01]]
+- [[companies/openhouse-ai]]
+- [[project_state/oh]]
+

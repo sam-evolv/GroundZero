@@ -346,5 +346,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-investor-brief-update-1-qa-2026-06-28]]
 - [[briefs/openhouse-investor-brief-v1-review-2026-06-28]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[briefs/openhouse-ndrc-submission-sprint-2026-07-01]]
 - [[companies/openhouse-ai]]
 

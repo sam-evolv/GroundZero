@@ -268,3 +268,10 @@ Unknown later pages must be reviewed after first-page completion. Do not submit 
 - [[briefs/openhouse-claude-design-final-polish-prompt]] - final polish prompt
 - [[briefs/openhouse-ndrc-application-pack-2026-07-01]] - application fields, answers, blockers and upload checklist
 - [[goals/oh-funder-pitch]] - funder-grade narrative
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-ndrc-application-pack-2026-07-01]]
+- [[companies/openhouse-ai]]
+- [[project_state/oh]]
+
