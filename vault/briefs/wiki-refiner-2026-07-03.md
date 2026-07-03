@@ -1,11 +1,11 @@
 ---
-title: Wiki Refiner 2026-07-01
+title: Wiki Refiner 2026-07-03
 kind: wiki_refiner_brief
-date: "2026-07-01"
-ran_at: "2026-07-01T02:15:30+01:00"
+date: "2026-07-03"
+ran_at: "2026-07-03T02:46:50+01:00"
 ---
 
-# Wiki Refiner 2026-07-01
+# Wiki Refiner 2026-07-03
 
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
 
@@ -29,41 +29,23 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 ## Strongest connected notes
 - [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]] (317)
 - [[briefs/openhouse-energy-assistant-wedge]] (316)
-- [[briefs/openhouse-claude-design-final-polish-prompt]] (299)
-- [[briefs/openhouse-chatgpt-deck-rebuild-context]] (297)
+- [[briefs/openhouse-claude-design-final-polish-prompt]] (301)
+- [[briefs/openhouse-chatgpt-deck-rebuild-context]] (299)
 - [[briefs/openhouse-energy-investor-deck-draft-v0]] (291)
 - [[briefs/openhouse-investor-readiness-operating-plan]] (283)
 - [[companies/openhouse-ai]] (241)
 - [[briefs/wiki-refiner-2026-06-29]] (122)
 - [[briefs/wiki-refiner-2026-06-30]] (122)
 - [[briefs/wiki-refiner-2026-06-28]] (121)
+- [[briefs/wiki-refiner-2026-07-01]] (121)
 - [[briefs/wiki-refiner-2026-06-27]] (63)
 - [[briefs/wiki-refiner-2026-06-26]] (61)
-- [[context/capture-workflow]] (15)
 
 ## Suggested follow-ups
 - Move durable facts from imports into the relevant company, person, or project note.
 - Keep the raw source in `imports/` so provenance stays intact.
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
-
-
-## Notes that link here
-_Auto-generated: updated by wiki-refiner_
-- [[briefs/openhouse-chatgpt-deck-rebuild-context]]
-- [[briefs/openhouse-claude-design-final-polish-prompt]]
-- [[briefs/openhouse-energy-assistant-wedge]]
-- [[briefs/openhouse-energy-investor-deck-draft-v0]]
-- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
-- [[briefs/openhouse-investor-readiness-operating-plan]]
-- [[briefs/wiki-refiner-2026-06-26]]
-- [[briefs/wiki-refiner-2026-06-27]]
-- [[briefs/wiki-refiner-2026-06-28]]
-- [[briefs/wiki-refiner-2026-06-29]]
-- [[briefs/wiki-refiner-2026-06-30]]
-- [[briefs/wiki-refiner-2026-07-02]]
-- [[companies/openhouse-ai]]
-- [[context/capture-workflow]]
 
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.

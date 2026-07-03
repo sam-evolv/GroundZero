@@ -271,7 +271,12 @@ Unknown later pages must be reviewed after first-page completion. Do not submit 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/investor-pitch-deck-research-openhouse]]
+- [[briefs/openhouse-chatgpt-deck-rebuild-context]]
+- [[briefs/openhouse-claude-design-final-polish-prompt]]
+- [[briefs/openhouse-ndrc-accelerator-pitch]]
 - [[briefs/openhouse-ndrc-application-pack-2026-07-01]]
 - [[companies/openhouse-ai]]
+- [[goals/oh-funder-pitch]]
 - [[project_state/oh]]
 
