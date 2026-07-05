@@ -65,6 +65,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-01]]
 - [[briefs/wiki-refiner-2026-07-02]]
 - [[briefs/wiki-refiner-2026-07-03]]
+- [[briefs/wiki-refiner-2026-07-04]]
 - [[companies/openhouse-ai]]
 - [[context/autonomous-business-launch-loop]]
 - [[context/capture-workflow]]

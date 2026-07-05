@@ -63,6 +63,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-06-30]]
 - [[briefs/wiki-refiner-2026-07-02]]
 - [[briefs/wiki-refiner-2026-07-03]]
+- [[briefs/wiki-refiner-2026-07-04]]
 - [[companies/openhouse-ai]]
 - [[context/capture-workflow]]
 
