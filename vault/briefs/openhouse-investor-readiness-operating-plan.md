@@ -519,6 +519,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-02]]
 - [[briefs/wiki-refiner-2026-07-03]]
 - [[briefs/wiki-refiner-2026-07-04]]
+- [[briefs/wiki-refiner-2026-07-05]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-sales-routes]]
 
