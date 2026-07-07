@@ -56,4 +56,4 @@ updated: "2026-06-30"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-07-06 05:17 CEST
+- Dashboard: 2026-07-07 03:50 CEST
