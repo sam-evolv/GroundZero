@@ -1,11 +1,11 @@
 ---
-title: Wiki Refiner 2026-07-08
+title: Wiki Refiner 2026-07-10
 kind: wiki_refiner_brief
-date: "2026-07-08"
-ran_at: "2026-07-08T02:22:35+02:00"
+date: "2026-07-10"
+ran_at: "2026-07-10T03:08:21+02:00"
 ---
 
-# Wiki Refiner 2026-07-08
+# Wiki Refiner 2026-07-10
 
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
 
@@ -46,23 +46,6 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - Keep the raw source in `imports/` so provenance stays intact.
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
-
-
-## Notes that link here
-_Auto-generated: updated by wiki-refiner_
-- [[briefs/openhouse-chatgpt-deck-rebuild-context]]
-- [[briefs/openhouse-claude-design-final-polish-prompt]]
-- [[briefs/openhouse-energy-assistant-wedge]]
-- [[briefs/openhouse-energy-investor-deck-draft-v0]]
-- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
-- [[briefs/openhouse-investor-readiness-operating-plan]]
-- [[briefs/wiki-refiner-2026-06-26]]
-- [[briefs/wiki-refiner-2026-06-27]]
-- [[briefs/wiki-refiner-2026-06-28]]
-- [[briefs/wiki-refiner-2026-06-29]]
-- [[briefs/wiki-refiner-2026-06-30]]
-- [[briefs/wiki-refiner-2026-07-01]]
-- [[companies/openhouse-ai]]
 
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.

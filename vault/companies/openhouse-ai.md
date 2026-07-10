@@ -129,6 +129,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-06]]
 - [[briefs/wiki-refiner-2026-07-07]]
 - [[briefs/wiki-refiner-2026-07-08]]
+- [[briefs/wiki-refiner-2026-07-09]]
 - [[context/autonomous-business-launch-loop]]
 - [[context/business-opportunities-moc]]
 - [[context/capture-workflow]]
