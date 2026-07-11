@@ -13,9 +13,11 @@ Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea
 
 ## Current state
 
-- Starter pack exists with product spec, app/design spec, competitive landscape, margin strategy, and Phase 0 prompt.
-- No substantial app/backend code is present in the zip yet; directories are scaffolding/README placeholders.
-- The correct next build unit is M1: one live call connected to a +353 number with transcript persistence.
+- Starter pack documentation exists with product spec, app/design spec, competitive landscape, margin strategy, and Phase 0 prompt.
+- The 2026-07-12 conversation handoff reports an overnight build with Python code, 17 passing tests, an HTML prototype, financial model, scripts, one-pager, and name check.
+- **Artifact discrepancy:** the cached `cara-starter.zip` Hermes inspected contains only 17 entries and no implementation files beyond README placeholders. Treat the richer artifacts as reported-but-unverified until the full/newer archive is located or uploaded.
+- The correct next build unit remains M1: one live call connected to a +353 number with transcript persistence.
+- Naming is urgent: the handoff reports Cara is crowded and recommends **Orla**, subject to proper IEDR/EUIPO/domain/app-store checks.
 
 ## Active milestone
 
@@ -36,6 +38,7 @@ Acceptance target from the starter pack:
 - [[companies/cara]] — parent project/company note
 - [[briefs/cara-starter-product-spec]] — starter spec summary
 - [[briefs/cara-success-strategy-2026-07-11]] — recommended success strategy
+- [[imports/cara-conversation-summary-2026-07-12]] — full conversation handoff and artifact-verification note
 - [[items/cara-phase0-m1-live-call]] — active item
 - [[context/index]] — shared entry point
 - [[context/model-pack]] — compact portfolio context
