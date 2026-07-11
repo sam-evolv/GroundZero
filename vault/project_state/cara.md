@@ -25,6 +25,17 @@ Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea
 
 [[items/cara-phase0-m1-live-call]] remains the underlying telephony milestone, expanded beyond a two-minute demo into the founder dogfood loop.
 
+## Hermes implementation baseline — 12 July 2026
+
+- GitHub `sam-evolv/Cara` was verified empty: no default branch and no Claude branch existed remotely at inspection time.
+- Local clone: `/Users/samdonworth/GroundZero/repos/cara-hermes`.
+- Separate local branch: `hermes/founder-voice-alpha` (not pushed).
+- Dedicated isolated Hermes profile: `~/.hermes/profiles/cara`, with messaging credentials removed and an authenticated API server on `127.0.0.1:8643`.
+- Implemented Twilio ConversationRelay webhook/WebSocket → caller-scoped Hermes Agent brain → interruptible spoken response.
+- Verified real local end-to-end round trip through the running Cara service and Hermes API.
+- Nine tests pass. Local commit: `f2bb0c6`.
+- A real phone call now requires Twilio account credentials, a +353 number, and a public HTTPS/WSS tunnel; Twilio signature validation must be added before exposing the endpoint beyond controlled alpha use.
+
 Acceptance target from the starter pack:
 
 - Ring the number from a mobile.
