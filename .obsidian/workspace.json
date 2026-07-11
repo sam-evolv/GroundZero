@@ -179,6 +179,8 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/decisions/cara-founder-dogfood-voice-first.md",
+    "vault/items/cara-founder-voice-dogfood.md",
     "vault/imports/cara-conversation-summary-2026-07-12.md",
     "vault/briefs/cara-success-strategy-2026-07-11.md",
     "vault/items/cara-phase0-m1-live-call.md",
@@ -209,8 +211,6 @@
     "exports",
     "vault/briefs/consultancy-cork-property-prospect-list-2026-06-30.md",
     "vault/briefs/wiki-refiner-2026-06-30.md",
-    "vault/briefs/consultancy-quick-revenue-strategy-2026-06-29.md",
-    "vault/briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29.md",
     "repos/property-assistant/apps/unified-portal/lib/energy/home-energy-intelligence.ts",
     "repos/property-assistant/apps/unified-portal/lib/energy",
     "repos/property-assistant/apps/unified-portal/scripts/seed-bs08-home-model.ts",

@@ -12,7 +12,8 @@ This index tracks the current active idea queue. Each entry links to its item no
 
 | Item | Summary | Size | Status |
 |---|---|---|---|
-| [[items/cara-phase0-m1-live-call]] | One live +353 call with transcript + cost log | M | building 🔥 |
+| [[items/cara-founder-voice-dogfood]] | Full founder brainstorming calls + memory + post-call artefacts | L | building 🔥 |
+| [[items/cara-phase0-m1-live-call]] | One live +353 call with transcript + cost log | M | building |
 
 ## OpenHouse AI
 

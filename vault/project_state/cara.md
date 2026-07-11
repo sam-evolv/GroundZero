@@ -21,7 +21,9 @@ Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea
 
 ## Active milestone
 
-[[items/cara-phase0-m1-live-call]] — prove one excellent live call before app/dashboard work.
+[[items/cara-founder-voice-dogfood]] — build a voice experience Sam personally uses for long brainstorming meetings, post-call artefacts, and cross-call continuity.
+
+[[items/cara-phase0-m1-live-call]] remains the underlying telephony milestone, expanded beyond a two-minute demo into the founder dogfood loop.
 
 Acceptance target from the starter pack:
 
