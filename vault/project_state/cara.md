@@ -35,6 +35,7 @@ Acceptance target from the starter pack:
 
 - [[companies/cara]] — parent project/company note
 - [[briefs/cara-starter-product-spec]] — starter spec summary
+- [[briefs/cara-success-strategy-2026-07-11]] — recommended success strategy
 - [[items/cara-phase0-m1-live-call]] — active item
 - [[context/index]] — shared entry point
 - [[context/model-pack]] — compact portfolio context

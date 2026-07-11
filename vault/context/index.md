@@ -73,6 +73,7 @@ This is the first note to load when a model needs cross-business context.
 - Irish prompt payment copilot: [[context/irish-prompt-payment-copilot]]
 - Planet satellite data opportunity: [[briefs/planet-satellite-opportunity]]
 - Cara starter product spec: [[briefs/cara-starter-product-spec]]
+- Cara success strategy: [[briefs/cara-success-strategy-2026-07-11]]
 
 ## Usage rule
 If a model needs context, start here, then follow the links for the specific business or workstream.
