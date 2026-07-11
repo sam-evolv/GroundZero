@@ -26,6 +26,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[items/consultancy-cork-property-outreach]] — active outreach item for the first 10 Cork property prospects
 
 ### Irish-Market Wedges
+- [[companies/cara]] — Irish SME phone-number-with-a-brain/digital assistant, now started-building
 - [[context/healthcare-revenue-cycle-wedge]] — US/UK hospital claims adjudication
 - [[context/irish-food-waste-wedge]] — food manufacturing yield & waste AI
 - [[context/irish-prompt-payment-copilot]] — B2B collections for Irish service firms

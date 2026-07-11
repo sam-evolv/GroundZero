@@ -8,6 +8,12 @@ updated_at: "2026-06-30"
 
 This index tracks the current active idea queue. Each entry links to its item note.
 
+## Cara
+
+| Item | Summary | Size | Status |
+|---|---|---|---|
+| [[items/cara-phase0-m1-live-call]] | One live +353 call with transcript + cost log | M | building 🔥 |
+
 ## OpenHouse AI
 
 | Item | Summary | Size | Status |

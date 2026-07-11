@@ -16,11 +16,13 @@ This is the first note to load when a model needs cross-business context.
 1. [[context/model-pack]]
 2. [[people/sam-donworth]]
 3. [[companies/openhouse-ai]]
-4. [[companies/openbook]]
-5. [[companies/evolv-renewables]]
-6. [[project_state/oh]]
-7. [[project_state/ob]]
-8. [[project_state/renew]]
+4. [[companies/cara]]
+5. [[companies/openbook]]
+6. [[companies/evolv-renewables]]
+7. [[project_state/cara]]
+8. [[project_state/oh]]
+9. [[project_state/ob]]
+10. [[project_state/renew]]
 
 ## What lives where
 - **people/**: stable personal preferences, working style, and operating rules
@@ -49,6 +51,7 @@ This is the first note to load when a model needs cross-business context.
 
 ## Current picture
 - OpenHouse AI is the main focus. Production migration stabilisation continues, Sprint 5 PRs #184 and #186 are merged, and Vercel production is currently healthy.
+- Cara is a new started-building venture: Irish SME callable digital assistant; Phase 0 target is one excellent +353 live call before app/dashboard work.
 - OpenBook is a founder-led growth play with no-shows as the clearest churn lever.
 - Evolv Renewables has live commercial generation, with reporting still too manual.
 - OpenHouse sales routes: [[context/openhouse-sales-routes]]
@@ -69,6 +72,7 @@ This is the first note to load when a model needs cross-business context.
 - Irish food waste wedge: [[context/irish-food-waste-wedge]]
 - Irish prompt payment copilot: [[context/irish-prompt-payment-copilot]]
 - Planet satellite data opportunity: [[briefs/planet-satellite-opportunity]]
+- Cara starter product spec: [[briefs/cara-starter-product-spec]]
 
 ## Usage rule
 If a model needs context, start here, then follow the links for the specific business or workstream.

@@ -11,11 +11,13 @@ Use this note when a model needs quick, high-signal context.
 1. [[context/index]]
 2. [[people/sam-donworth]]
 3. [[companies/openhouse-ai]]
-4. [[companies/openbook]]
-5. [[companies/evolv-renewables]]
-6. [[project_state/oh]]
-7. [[project_state/ob]]
-8. [[project_state/renew]]
+4. [[companies/cara]]
+5. [[companies/openbook]]
+6. [[companies/evolv-renewables]]
+7. [[project_state/cara]]
+8. [[project_state/oh]]
+9. [[project_state/ob]]
+10. [[project_state/renew]]
 
 ## Sam
 - Founder of OpenHouse AI, OpenBook, and Evolv Renewables.
@@ -24,6 +26,10 @@ Use this note when a model needs quick, high-signal context.
 - Prefers voice replies only in car mode or after sending a voice note.
 
 ## Companies
+### Cara
+- New started-building venture: Irish SME callable digital assistant / phone-number-with-a-brain.
+- Immediate focus: Phase 0 M1 — one excellent +353 live call with transcript and cost logging before app/dashboard work.
+
 ### OpenHouse AI
 - Core business.
 - Premium proptech SaaS for handover, aftercare, and sales pipeline management.
@@ -33,8 +39,8 @@ Use this note when a model needs quick, high-signal context.
 
 - [[context/index]] — main entry point
 - [[people/sam-donworth]] — founder profile
-- [[companies/openhouse-ai]], [[companies/openbook]], [[companies/evolv-renewables]] — companies
-- [[project_state/oh]], [[project_state/ob]], [[project_state/renew]] — live status
+- [[companies/openhouse-ai]], [[companies/cara]], [[companies/openbook]], [[companies/evolv-renewables]] — companies
+- [[project_state/cara]], [[project_state/oh]], [[project_state/ob]], [[project_state/renew]] — live status
 - [[goals/oh-activation]], [[goals/oh-v2-launch]], [[goals/ob-retention]] — goals
 - [[items/_Index]] — active items
 
@@ -75,6 +81,7 @@ Use this note when a model needs quick, high-signal context.
 - For Claude app or Claude Desktop setup, read [[context/claude-vault-integration]], [[context/claude-quickstart]], or [[context/claude-access-observed]].
 - For a scaling / workflow question, read [[context/scaling-playbook]].
 - For source-to-note knowledge base building, read [[context/llm-wiki-pattern]].
+- For the Cara phone-number-with-a-brain venture/spec, read [[briefs/cara-starter-product-spec]].
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
