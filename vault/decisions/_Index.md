@@ -16,6 +16,13 @@ Every decision is stored in `decisions/` as a permanent note. This log orders th
 | 2026-06-09 | Stack fixed: React, Next.js, Supabase, Vercel | No framework migrations proposed | Active |
 | 2026-06-09 | Security audited and hardened | 10 endpoints remediated, RLS on 35+ tables | Active |
 
+## Cara
+
+| Date | Decision | Consequences | Status |
+|---|---|---|---|
+| 2026-07-12 | [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]] - ElevenLabs WebRTC with Hermes Custom LLM | Fast barge-in/voice alpha while preserving Hermes as semantic brain | Active |
+| 2026-07-12 | [[decisions/cara-founder-dogfood-voice-first]] - founder voice dogfooding before SME pilots | No broader product surfaces until Sam voluntarily uses the voice loop | Active |
+
 ## OpenBook
 
 | Date | Decision | Consequences | Status |
