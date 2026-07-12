@@ -39,9 +39,25 @@ Create a voice relationship Sam voluntarily uses for 20-60 minute founder conver
 
 Realtime speech transport may own audio turn-taking, VAD, denoising, and voice rendering, but Hermes remains the durable context/tool brain. Avoid two competing conversational brains. If a native speech-to-speech model speaks directly, define exactly when it calls Hermes and how memory/tool results are injected before committing to that architecture.
 
-## Immediate decision under research
+## Selected alpha path
 
-Compare current OpenAI Realtime, Gemini Live native audio, and ElevenLabs Conversational AI for iPhone WebRTC, car Bluetooth routing, barge-in, noise, latency, voice quality, transcript truth, recording, cost, and Hermes integration. Select the fastest credible founder-alpha path, then build provider boundaries so the stack can be changed without rewriting memory, evaluation, or artefact capture.
+ElevenLabs ElevenAgents is the temporary founder-alpha WebRTC transport because Sam has remaining credits and it minimizes time to a real car test. It uses Hermes through an OpenAI-compatible Custom LLM endpoint. This does not replace the production reference stack in `cara-master-spec.md`.
+
+## Turn-taking requirements
+
+- Initial endpointing is deliberately patient: prefer a short extra silence to interrupting a thought.
+- Caller barge-in must stop Cara within 300 ms.
+- Thinking pauses of at least 2.5 seconds must not routinely trigger Cara.
+- Persist each caller's within-turn pause distribution, completed-turn silence, false endpoints, barge-ins, and correction events.
+- Learn a bounded caller cadence profile only after enough clean observed turns; exclude transport drops and high-noise intervals.
+- Use non-floor-seizing backchannels where supported; otherwise remain silent rather than guessing.
+- After a genuinely complete turn, target first audible response below 1.5 seconds.
+
+## Cost and model policy
+
+- At the current published hosted-agent overage price of about $0.08/min, a 20-minute test is about $1.60, 30 minutes about $2.40, and 60 minutes about $4.80 before LLM usage.
+- Production path remains Pipecat/LiveKit + Deepgram + Hermes + routed cascade/frontier models + Cartesia, with Sesame CSM evaluated for self-hosted voice later.
+- Gemini Flash-class models handle cheap routine turns, routing, and extraction. Brainstorming, planning, consequential actions, and ambiguous requests escalate to a stronger model.
 
 ## Connected vault notes
 

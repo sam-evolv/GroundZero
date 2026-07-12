@@ -9,7 +9,7 @@ company_id: cara
 
 ## Decision
 
-Use ElevenLabs ElevenAgents as the first realtime car-audio layer over iPhone Safari WebRTC, while configuring its Custom LLM endpoint to the existing Hermes-compatible `/v1/chat/completions` brain.
+Use ElevenLabs ElevenAgents as the fastest **temporary founder-dogfood transport** over iPhone Safari WebRTC, configured to call the existing Hermes-compatible `/v1/chat/completions` brain. This is not the default production cost architecture. The production reference stack remains the repository master specification: Pipecat or LiveKit, Deepgram streaming ASR, Hermes orchestration, a frontier/cascade LLM router, and Cartesia Sonic by default, with ElevenLabs used for premium voice tests.
 
 ## Why
 
