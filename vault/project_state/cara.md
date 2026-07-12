@@ -59,8 +59,11 @@ Acceptance target from the starter pack:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/cara-founder-voice-build-sprint-2026-07-12]]
+- [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
+- [[briefs/daily-portfolio-brief-2026-07-12]]
 - [[companies/cara]]
+- [[context/dashboard]]
 - [[context/index]]
 - [[context/model-pack]]
 - [[decisions/cara-founder-dogfood-voice-first]]

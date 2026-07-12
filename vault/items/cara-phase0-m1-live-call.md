@@ -54,8 +54,12 @@ Read CLAUDE.md and docs/cara-master-spec.md §11. Start Milestone M1: a Pipecat 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
+- [[briefs/daily-portfolio-brief-2026-07-12]]
 - [[companies/cara]]
+- [[context/business-opportunities-moc]]
+- [[context/dashboard]]
 - [[decisions/cara-founder-dogfood-voice-first]]
 - [[items/cara-founder-voice-dogfood]]
 - [[project_state/cara]]

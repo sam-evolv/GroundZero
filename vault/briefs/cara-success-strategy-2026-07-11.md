@@ -208,8 +208,12 @@ Everything that helps produce that sentence is Phase 1. Everything else waits.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/cara-starter-product-spec]]
 - [[companies/cara]]
+- [[context/business-opportunities-moc]]
 - [[context/index]]
+- [[context/solo-founder-era]]
 - [[decisions/cara-founder-dogfood-voice-first]]
+- [[items/cara-phase0-m1-live-call]]
 - [[project_state/cara]]
 

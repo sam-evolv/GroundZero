@@ -87,6 +87,7 @@ Use this note when a model needs quick, high-signal context.
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-30]]
 - [[briefs/cara-starter-product-spec]]
+- [[companies/cara]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]

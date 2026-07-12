@@ -94,10 +94,14 @@ Use `PHASE0.md` opening prompt to start M1 in Claude Code after accounts are ope
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/cara-success-strategy-2026-07-11]]
 - [[companies/cara]]
+- [[companies/openbook]]
+- [[context/business-opportunities-moc]]
 - [[context/index]]
 - [[context/model-pack]]
+- [[context/solo-founder-era]]
 - [[decisions/cara-founder-dogfood-voice-first]]
 - [[items/cara-founder-voice-dogfood]]
 - [[items/cara-phase0-m1-live-call]]
+- [[people/sam-donworth]]
 - [[project_state/cara]]
 

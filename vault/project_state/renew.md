@@ -24,6 +24,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]
 - [[briefs/2026-06-28]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
+- [[briefs/daily-portfolio-brief-2026-07-12]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[companies/evolv-renewables]]

@@ -2,16 +2,12 @@
 title: Wiki Refiner 2026-07-12
 kind: wiki_refiner_brief
 date: "2026-07-12"
-ran_at: "2026-07-12T02:15:44+01:00"
+ran_at: "2026-07-12T08:32:14+01:00"
 ---
 
 # Wiki Refiner 2026-07-12
 
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
-
-## Auto-backlinks written
-- `cara-conversation-summary-2026-07-12.md` → `briefs/cara-starter-product-spec.md` (score 36)
-- `cara-conversation-summary-2026-07-12.md` → `companies/cara.md` (score 29)
 
 ## Sources reviewed
 - `imports/campaigns/openhouse-full-context.md` -> `companies/openhouse-ai.md`
@@ -22,7 +18,7 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
   - Related: [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]], [[briefs/openhouse-energy-assistant-wedge]], [[briefs/openhouse-claude-design-final-polish-prompt]], [[briefs/openhouse-investor-readiness-operating-plan]]
 - `imports/cara-conversation-summary-2026-07-12.md` -> `project_state/cara.md`
   - Summary: Source received from Sam on 2026-07-12. Canonical cached source: `/Users/samdonworth/.hermes/cache/documents/doc_3a4bed503f5b_cara-conversation-summary.md` This import is intentionally provenance-only. Curated facts live in: - [[companies/cara]]
-  - Related: [[project_state/cara]], [[briefs/cara-starter-product-spec]], [[briefs/openhouse-cairn-golden-home-start-2026-06-28]], [[companies/cara]]
+  - Related: [[project_state/cara]], [[briefs/cara-starter-product-spec]], [[companies/cara]], [[briefs/openhouse-cairn-golden-home-start-2026-06-28]]
 - `imports/claude/openhouse-company-memory.md` -> `companies/openhouse-ai.md`
   - Summary: Last updated: 27 June 2026. Maintained by Sam. The council reads this in full at the start of every run and treats it as current reality. Keep it short and current; prune anythi... A premium proptech SaaS platform for property developers: homeowner handover, aftercare, and sales pipeline management. Live homeowner and agent portals at portal.openhouseai.ie... 1. Stabilise the production database migration. Real Longview Estates data is now live across the four schemes; the backup tables are still waiting for one clean week before drop. 2. Triage the current open issues in sam-evolv/property-assistant: #195 raw markdown bold rendering, #194 tsconfig ignoreDeprecations mismatch, #130 chat-route refactor, #128 nu...
   - Related: [[companies/openhouse-ai]], [[briefs/openhouse-claude-design-final-polish-prompt]], [[briefs/wiki-refiner-2026-06-29]], [[briefs/wiki-refiner-2026-06-30]]
@@ -41,10 +37,10 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - [[briefs/openhouse-energy-investor-deck-draft-v0]] (291)
 - [[briefs/openhouse-investor-readiness-operating-plan]] (283)
 - [[project_state/cara]] (62)
-- [[briefs/cara-starter-product-spec]] (36)
+- [[briefs/cara-starter-product-spec]] (38)
+- [[companies/cara]] (31)
 - [[briefs/openhouse-cairn-golden-home-start-2026-06-28]] (30)
-- [[companies/cara]] (29)
-- [[briefs/cara-success-strategy-2026-07-11]] (28)
+- [[briefs/cara-success-strategy-2026-07-11]] (29)
 - [[briefs/cara-founder-voice-build-sprint-2026-07-12]] (27)
 - [[companies/openhouse-ai]] (241)
 - [[briefs/wiki-refiner-2026-06-29]] (122)
