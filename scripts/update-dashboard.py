@@ -47,7 +47,7 @@ def render_active_section() -> str:
     """Find all items in 'building' or 'pr_ready' state."""
     lines = ["## 🔴 Active right now\n"]
 
-    for company_id, company_name, short_id in [("openhouse-ai", "OpenHouse AI", "oh"), ("openbook", "OpenBook", "ob"), ("evolv-renewables", "Evolv Renewables", "renew")]:
+    for company_id, company_name, short_id in [("cara", "Cara", "cara"), ("openhouse-ai", "OpenHouse AI", "oh"), ("openbook", "OpenBook", "ob"), ("evolv-renewables", "Evolv Renewables", "renew")]:
         active_items = []
         for item_file in sorted(ITEMS_DIR.glob("*.md")):
             if item_file.name.startswith("_"):
@@ -55,7 +55,10 @@ def render_active_section() -> str:
             item_fm = parse_frontmatter(load_text(item_file))
             if item_fm.get("company_id") != company_id:
                 continue
-            state = item_fm.get("state", "")
+            # Older item notes use `state`; newer active-venture notes use
+            # `status`. Treat them as equivalent so the dashboard does not
+            # silently omit live work.
+            state = item_fm.get("state") or item_fm.get("status", "")
             if state in ("building", "pr_ready", "in_progress"):
                 title = item_fm.get("title", item_file.stem)
                 rel = item_file.relative_to(VAULT).with_suffix("").as_posix()
@@ -97,7 +100,7 @@ def render_proposed_section() -> str:
         if item_file.name.startswith("_"):
             continue
         fm = parse_frontmatter(load_text(item_file))
-        if fm.get("state") != "proposed":
+        if (fm.get("state") or fm.get("status")) != "proposed":
             continue
         title = fm.get("title", item_file.stem)
         impact = int(fm.get("impact", "0") or "0")
@@ -177,7 +180,7 @@ def render_portfolio_section() -> str:
     """Build a portfolio summary table."""
     lines = ["## 📊 Portfolio at a glance\n"]
 
-    companies = [("openhouse-ai", "OpenHouse AI"), ("openbook", "OpenBook"), ("evolv-renewables", "Evolv Renewables")]
+    companies = [("cara", "Cara"), ("openhouse-ai", "OpenHouse AI"), ("openbook", "OpenBook"), ("evolv-renewables", "Evolv Renewables")]
 
     lines.append("| Company | WIP | Proposed | Goal | Status |")
     lines.append("|---|---|---|---|---|")
@@ -191,7 +194,7 @@ def render_portfolio_section() -> str:
             fm = parse_frontmatter(load_text(item_file))
             if fm.get("company_id") != cid:
                 continue
-            state = fm.get("state", "")
+            state = fm.get("state") or fm.get("status", "")
             if state in ("building", "pr_ready", "in_progress"):
                 wip += 1
             elif state == "proposed":

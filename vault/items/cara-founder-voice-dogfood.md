@@ -1,5 +1,6 @@
 ---
 id: cara-founder-voice-dogfood
+title: Complete the Cara founder voice dogfood loop
 company_id: cara
 status: building
 size: L

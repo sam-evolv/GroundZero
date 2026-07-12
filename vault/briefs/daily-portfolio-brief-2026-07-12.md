@@ -41,3 +41,14 @@ date: "2026-07-12"
 - [[project_state/ob]] — OpenBook recorded state
 - [[project_state/renew]] — Renewables recorded state
 - [[context/dashboard]] — operating dashboard
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/cara-founder-voice-build-sprint-2026-07-12]]
+- [[items/cara-founder-voice-dogfood]]
+- [[items/cara-phase0-m1-live-call]]
+- [[project_state/cara]]
+- [[project_state/ob]]
+- [[project_state/oh]]
+- [[project_state/renew]]
+

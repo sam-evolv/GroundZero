@@ -11,6 +11,10 @@ updated: "2026-06-30"
 
 ## 🔴 Active right now
 
+### Cara
+  - **Complete the Cara founder voice dogfood loop** → [[items/cara-founder-voice-dogfood]] (🔴 building)
+  - **Complete Cara Phase 0 M1 — one live +353 call** → [[items/cara-phase0-m1-live-call]] (🔴 building)
+
 ### OpenHouse AI
   - **Close the tenant data gap before the V2 launch** → [[items/oh-rls-audit]] (🔴 building)
 
@@ -42,6 +46,7 @@ updated: "2026-06-30"
 
 | Company | WIP | Proposed | Goal | Status |
 |---|---|---|---|---|
+| Cara | 2 | 0 | — | 🟡 |
 | OpenHouse AI | 1 | 10 | Lift new-agent activation to 60% | 🟡 |
 | OpenBook | 1 | 4 | Reach 500 live venues in Dublin | 🟡 |
 | Evolv Renewables | 0 | 3 | Sign three commercial rooftop deals | 🟢 |
@@ -57,4 +62,4 @@ updated: "2026-06-30"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-07-12 08:32 IST
+- Dashboard: 2026-07-12 08:33 IST
