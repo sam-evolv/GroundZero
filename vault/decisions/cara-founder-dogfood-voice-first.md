@@ -54,3 +54,9 @@ Build the personal founder loop first, but do not pivot into a standalone consum
 - [[items/cara-phase0-m1-live-call]] — earlier M1 milestone, now expanded
 - [[briefs/cara-success-strategy-2026-07-11]] — commercial wedge strategy
 - [[briefs/cara-starter-product-spec]] — founding product spec
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/cara-founder-voice-build-sprint-2026-07-12]]
+- [[items/cara-founder-voice-dogfood]]
+

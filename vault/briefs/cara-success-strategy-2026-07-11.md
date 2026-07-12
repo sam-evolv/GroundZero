@@ -205,3 +205,11 @@ Everything that helps produce that sentence is Phase 1. Everything else waits.
 - [[briefs/cara-starter-product-spec]] — full starter-spec synthesis
 - [[context/solo-founder-era]] — strategic operating lens
 - [[context/business-opportunities-moc]] — opportunity map
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/cara]]
+- [[context/index]]
+- [[decisions/cara-founder-dogfood-voice-first]]
+- [[project_state/cara]]
+

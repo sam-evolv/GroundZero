@@ -32,6 +32,7 @@ updated: "2026-06-30"
 
 ## 🟢 Monitoring
 
+- 🟡 [[project_state/cara|cara]]: New idea Sam has started building: Irish SME callable digital assistant; Phase 0 is one live +353 call.
 - 🟢 [[project_state/ob|ob]]: 362 live venues in Dublin. No-shows are the top churn driver.
 - 🔴 [[project_state/oh|oh]]: Database V2 is stabilising; Cairn declined the large-developer route, so OpenHouse is shifting toward funding, UK/US channels, and DTC optionality.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
@@ -56,4 +57,4 @@ updated: "2026-06-30"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-07-11 04:53 CEST
+- Dashboard: 2026-07-12 02:15 IST

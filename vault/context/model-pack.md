@@ -86,6 +86,7 @@ Use this note when a model needs quick, high-signal context.
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-30]]
+- [[briefs/cara-starter-product-spec]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
@@ -107,6 +108,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/oh-v2-launch]]
 - [[items/ops-source-to-wiki-ingest]]
 - [[people/sam-donworth]]
+- [[project_state/cara]]
 - [[project_state/ob]]
 - [[project_state/oh]]
 - [[project_state/renew]]

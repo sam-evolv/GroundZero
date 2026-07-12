@@ -54,3 +54,10 @@ This is founder dogfooding of the shared core, not a move toward a standalone co
 - [[project_state/cara]] — live status
 - [[items/cara-phase0-m1-live-call]] — original live-call milestone
 - [[briefs/cara-starter-product-spec]] — full context
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/cara-founder-voice-build-sprint-2026-07-12]]
+- [[decisions/cara-founder-dogfood-voice-first]]
+- [[project_state/cara]]
+

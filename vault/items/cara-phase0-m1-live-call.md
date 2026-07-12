@@ -51,3 +51,12 @@ Read CLAUDE.md and docs/cara-master-spec.md §11. Start Milestone M1: a Pipecat 
 - [[project_state/cara]] — live state
 - [[briefs/cara-starter-product-spec]] — source spec
 - [[context/business-opportunities-moc]] — opportunity hub
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/cara-success-strategy-2026-07-11]]
+- [[companies/cara]]
+- [[decisions/cara-founder-dogfood-voice-first]]
+- [[items/cara-founder-voice-dogfood]]
+- [[project_state/cara]]
+

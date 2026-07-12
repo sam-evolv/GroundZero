@@ -87,3 +87,17 @@ Use `PHASE0.md` opening prompt to start M1 in Claude Code after accounts are ope
 - [[context/business-opportunities-moc]] — opportunity hub
 - [[companies/openbook]] — adjacent SMB service-business wedge
 - [[people/sam-donworth]] — founder context
+
+- [[imports/cara-conversation-summary-2026-07-12]] — shared signals: conversation, summary, cara
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/cara-success-strategy-2026-07-11]]
+- [[companies/cara]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[decisions/cara-founder-dogfood-voice-first]]
+- [[items/cara-founder-voice-dogfood]]
+- [[items/cara-phase0-m1-live-call]]
+- [[project_state/cara]]
+

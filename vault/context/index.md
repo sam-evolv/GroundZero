@@ -81,6 +81,7 @@ If a model needs context, start here, then follow the links for the specific bus
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-30]]
+- [[briefs/cara-starter-product-spec]]
 - [[briefs/planet-satellite-opportunity]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]
@@ -107,6 +108,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/scaling-playbook]]
 - [[context/solo-founder-era]]
 - [[people/sam-donworth]]
+- [[project_state/cara]]
 - [[project_state/ob]]
 - [[project_state/oh]]
 - [[project_state/renew]]

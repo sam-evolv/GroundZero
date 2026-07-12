@@ -55,3 +55,15 @@ Acceptance target from the starter pack:
 - [[items/cara-phase0-m1-live-call]] — active item
 - [[context/index]] — shared entry point
 - [[context/model-pack]] — compact portfolio context
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/cara-founder-voice-build-sprint-2026-07-12]]
+- [[briefs/cara-success-strategy-2026-07-11]]
+- [[companies/cara]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[decisions/cara-founder-dogfood-voice-first]]
+- [[items/cara-founder-voice-dogfood]]
+- [[items/cara-phase0-m1-live-call]]
+

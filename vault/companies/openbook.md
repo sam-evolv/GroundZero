@@ -41,6 +41,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-28]]
 - [[briefs/2026-06-30]]
 - [[briefs/ai-money-patterns-2026-06]]
+- [[briefs/cara-starter-product-spec]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/planet-satellite-opportunity]]
 - [[context/autonomous-business-launch-loop]]

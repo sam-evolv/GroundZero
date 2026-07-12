@@ -47,8 +47,22 @@ Phase 0: prove one excellent live +353 call before building app/dashboard/paymen
 - [[context/solo-founder-era]] — strategic lens
 - [[people/sam-donworth]] — founder context
 
+- [[imports/cara-conversation-summary-2026-07-12]] — shared signals: conversation, summary, cara
 ## Open questions
 
 - Final naming/trademark/domain status for Cara vs fallback names.
 - Whether Phase 0 starts with Pipecat self-hosted immediately or a managed wrapper for speed.
 - First three pilot businesses from Sam's network.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/cara-founder-voice-build-sprint-2026-07-12]]
+- [[briefs/cara-success-strategy-2026-07-11]]
+- [[context/business-opportunities-moc]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[decisions/cara-founder-dogfood-voice-first]]
+- [[items/cara-founder-voice-dogfood]]
+- [[items/cara-phase0-m1-live-call]]
+- [[project_state/cara]]
+
