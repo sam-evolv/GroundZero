@@ -13,11 +13,14 @@ Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea
 
 ## Current state
 
-- Starter pack documentation exists with product spec, app/design spec, competitive landscape, margin strategy, and Phase 0 prompt.
-- The 2026-07-12 conversation handoff reports an overnight build with Python code, 17 passing tests, an HTML prototype, financial model, scripts, one-pager, and name check.
-- **Artifact discrepancy:** the cached `cara-starter.zip` Hermes inspected contains only 17 entries and no implementation files beyond README placeholders. Treat the richer artifacts as reported-but-unverified until the full/newer archive is located or uploaded.
-- The correct next build unit remains M1: one live call connected to a +353 number with transcript persistence.
-- Naming is urgent: the handoff reports Cara is crowded and recommends **Orla**, subject to proper IEDR/EUIPO/domain/app-store checks.
+- Starter documentation remains the source product brief, but the working Hermes implementation now supersedes its missing-code archive.
+- Working repo: `/Users/samdonworth/GroundZero/repos/cara-hermes`, branch `hermes/founder-voice-alpha`.
+- Local commits include the Hermes-backed voice alpha and mobile hands-free browser loop; nothing has been pushed remotely.
+- Dedicated Hermes profile and API brain run locally, with caller-scoped continuity, streamed responses, SQLite transcripts/events, interruption/error capture, and structured post-call artefacts.
+- A temporary HTTPS mobile voice page is reachable from Sam's iPhone and successfully completes the public WebSocket → Hermes → streamed reply loop.
+- **Current limiting layer:** browser speech recognition and browser speech synthesis are suitable only for first contact. They are not sufficient for robust car Bluetooth use, background noise, natural barge-in/talk-over, or controlled branded voice quality.
+- P0 has therefore tightened from "make one call" to **a repeatedly useful 20-60 minute hands-free car conversation with low latency, natural interruption, noise resilience, full two-sided capture, and daily quality iteration**.
+- Naming still likely moves from Cara to Orla; do not let naming block founder dogfooding.
 
 ## Active milestone
 
