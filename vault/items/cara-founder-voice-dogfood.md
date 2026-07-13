@@ -59,10 +59,12 @@ This is founder dogfooding of the shared core, not a move toward a standalone co
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/cara-founder-voice-build-sprint-2026-07-12]]
+- [[briefs/cara-realtime-car-voice-acceptance]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/daily-portfolio-brief-2026-07-12]]
 - [[companies/cara]]
 - [[context/dashboard]]
+- [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]]
 - [[decisions/cara-founder-dogfood-voice-first]]
 - [[items/cara-phase0-m1-live-call]]
 - [[project_state/cara]]

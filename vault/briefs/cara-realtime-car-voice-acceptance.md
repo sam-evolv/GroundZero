@@ -66,3 +66,8 @@ ElevenLabs ElevenAgents is the temporary founder-alpha WebRTC transport because 
 - [[items/cara-founder-voice-dogfood]] - active milestone
 - [[decisions/cara-founder-dogfood-voice-first]] - durable sequencing decision
 - [[briefs/cara-founder-voice-build-sprint-2026-07-12]] - earlier build sprint
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]]
+
