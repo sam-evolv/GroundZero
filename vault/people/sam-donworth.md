@@ -39,6 +39,7 @@ timezone: Europe/Dublin
 - [[context/index]] — main context entry
 - [[context/model-pack]] — compact model context
 - [[briefs/ai-money-patterns-2026-06]] — pattern lens
+- [[briefs/sam-90-day-cash-authority-plan-2026-07-13]] — proposed runway, cash, equity operating plan
 - OpenBook lead gen should focus on small local Cork businesses.
 - Evolv Renewables needs more automation around reporting and sales pipeline tracking.
 
