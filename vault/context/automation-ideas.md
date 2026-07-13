@@ -44,6 +44,7 @@ Use vault notes as the input layer, then write the output back into the correct 
 - [[items/ops-source-to-wiki-ingest]] — auto-file sources
 - [[items/ops-index-maintenance-bot]] — auto-maintain index
 - [[briefs/wiki-refiner-2026-06-26]] — actual refiner run output
+- [[briefs/2026-07-13-hermes-community-setup-review]] — community-informed Hermes setup repair
 - [[context/llm-wiki-pattern]] — the "why" behind auto-filing
 
 ## Procedure
