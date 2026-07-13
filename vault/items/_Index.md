@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-06-30"
+updated_at: "2026-07-13"
 ---
 
 # Ideas Index
@@ -30,6 +30,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/oh-production-migration]] | Stabilize production migration | S | proposed |
 | [[items/oh-warranty-filter]] | Warranty filter on dashboard | S | proposed |
 | [[items/oh-rls-audit]] | RLS policy audit | S | building |
+| [[items/oh-dtc-home-savings-scan-concierge]] | Validate paid DTC Home Savings Scan with 10 concierge customers | S | proposed |
 
 ## OpenBook
 

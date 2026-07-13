@@ -44,6 +44,29 @@ Sam can ring Cara for a full 20–60 minute brainstorming meeting, find the conv
 - Post-call artefacts require only minor edits.
 - Known failures have graceful fallback behaviour.
 
+## Incubation analysis, 13 July 2026
+
+### Commercial opportunity
+The immediate value is not a new consumer voice product. Founder dogfooding de-risks the conversational core required for the intended Irish SME missed-call and workflow-recovery wedge. A reliable, asynchronous voice loop can protect bookings and enquiries for service businesses that lose revenue when calls go unanswered. The testable commercial claim after the exit gate is simple: recover enough qualified enquiries or staff time to justify a monthly fee.
+
+### Technical approach
+Keep the selected ElevenLabs WebRTC voice layer and Hermes Custom LLM semantic layer. Complete the controlled telephony edge with a +353 number, authenticated webhook and WebSocket handling, caller identity, interruption-safe streaming, durable transcripts and cost events. Use the recorded dogfood gauntlet to prioritise latency, barge-in, memory retrieval and artefact quality before adding SME integrations.
+
+### Risks
+- Telephony credentials, public endpoint security and signature verification remain prerequisites for real-call testing.
+- A technically fluent call can still fail if long-form conversation feels interruptive or generic.
+- Memory errors and weak post-call artefacts would destroy trust faster than a visible feature gap.
+- Cost can become uneconomic if long calls are not measured from the first controlled call.
+
+### Effort and timing
+Large, but sequenced. The controlled real-call and measurement baseline is a small, bounded milestone. The five-call exit gate is the appropriate investment gate before any SME pilot, so no market-facing expansion should be scheduled yet.
+
+### Market timing
+Timely, but crowded. Real-time voice agents are improving quickly, which makes reliable turn-taking and a workflow-specific outcome more valuable than a generic voice bot. The differentiation must be trusted continuity and recovered business outcomes, not voice novelty.
+
+### Recommendation
+Do not promote this into a separate commercial project. It is already the active P0 build. Promote the Irish SME recovery pilot only after the founder exit gate is passed and per-call costs, latency and artefact quality are evidenced.
+
 ## Guardrail
 
 This is founder dogfooding of the shared core, not a move toward a standalone consumer product. The commercial wedge remains Irish SME missed-call and workflow recovery once the core experience is ready.
