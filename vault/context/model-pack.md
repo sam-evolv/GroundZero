@@ -76,6 +76,7 @@ Use this note when a model needs quick, high-signal context.
 - For structure and filing, read [[context/ground-zero-structure]] and [[context/capture-workflow]].
 - For review and maintenance, read [[context/review-workflow]] and [[context/automation-ideas]].
 - For founder execution, decisions, and high-leverage triage, read [[context/founder-execution-os]].
+- For agentic strategy, capability adoption and autonomy boundaries, read [[context/agentic-value-creation-mission]].
 - For launch-loop strategy, read [[context/autonomous-business-launch-loop]].
 - For solo-founder / agentic-commerce strategy, read [[context/solo-founder-era]].
 - For learning reusable workflows, read [[context/learn-targets]].
