@@ -179,6 +179,8 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/context/founder-execution-os.md",
+    "vault/decisions/ai-founder-coach-operating-agreement-2026-07-14.md",
     "repos/DavidHowardGolf/tests/test_heading_layout_contract.py",
     "vault/briefs/david-howard-open-week-live-companion-2026-07-14.md",
     "repos/DavidHowardGolf/tests/test_live_module_contract.py",
@@ -190,7 +192,6 @@
     "repos/DavidHowardGolf/week.json",
     "repos/DavidHowardGolf/vercel.json",
     "repos/DavidHowardGolf/sitemap.xml",
-    "repos/DavidHowardGolf/robots.txt",
     "repos/DavidHowardGolf/print/dhg-card-front.png",
     "repos/DavidHowardGolf/print/dhg-card-back.png",
     "repos/DavidHowardGolf/port/images/qualifying-board.jpg",
@@ -223,7 +224,6 @@
     "repos/cara-hermes/node_modules/rxjs/CODE_OF_CONDUCT.md",
     "repos/cara-hermes/node_modules/rxjs/CHANGELOG.md",
     "repos/cara-hermes/node_modules/livekit-client/README.md",
-    "repos/cara-hermes/node_modules/@types/dom-mediacapture-record/README.md",
-    "repos/cara-hermes/node_modules/@livekit/mutex/README.md"
+    "repos/cara-hermes/node_modules/@types/dom-mediacapture-record/README.md"
   ]
 }
