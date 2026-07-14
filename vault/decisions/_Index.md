@@ -42,6 +42,7 @@ Every decision is stored in `decisions/` as a permanent note. This log orders th
 | Date | Decision | Consequences | Status |
 |---|---|---|---|
 | 2026-06-19 | [[decisions/ground-zero-canonical]] — vault is canonical | Hermes, Claude, Gemini all source from vault | Active |
+| 2026-07-14 | [[decisions/ai-founder-coach-operating-agreement-2026-07-14]] — Hermes acts as candid AI founder coach | Voice context compounds into grounded challenge, decision support and execution focus | Active |
 
 ## How to use
 

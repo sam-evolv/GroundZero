@@ -18,6 +18,9 @@ timezone: Europe/Dublin
 - Likes grounded, honest feedback over hype, especially when outreach is ignored.
 - Prefers voice replies only when he says he is in the car or sends a voice note.
 - Prefers business advice framed through a solo-founder, agentic-commerce, and context-engineering lens.
+- Wants Hermes to act as a candid cofounder-quality thinking partner: classify ideas plainly, separate evidence from assumptions, challenge distraction and avoidance, and pull only decision-changing threads.
+- Primary outcome is durable financial freedom through meaningful business success and the ability to support his family; near-term decisions should maintain a credible route to replacing day-job income.
+- Values proactive capture of voice-note context into Ground Zero so decision quality compounds across sessions.
 - Prefers simple stacks, public distribution early, and compliant automation over headcount-heavy scaling.
 
 ## Model preferences

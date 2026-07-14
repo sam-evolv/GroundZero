@@ -46,6 +46,7 @@ This is the first note to load when a model needs cross-business context.
 
 - [[context/llm-wiki-pattern]] — self-maintaining AI wiki (Gipp pattern)
 - [[context/solo-founder-era]] — solo founder + agentic commerce thesis
+- [[decisions/ai-founder-coach-operating-agreement-2026-07-14]] — AI founder coach operating agreement
 - [[context/openhouse-sales-routes]] — sales routes for OpenHouse
 - [[briefs/planet-satellite-opportunity]] — satellite imagery cross-domain bridge
 
