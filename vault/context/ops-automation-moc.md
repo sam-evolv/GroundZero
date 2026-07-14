@@ -53,6 +53,7 @@ Every ops item writes back to:
 ## Grounding notes
 
 These explain *why* the automation matters, not just what it does:
+- [[briefs/daily-ai-brief-2026-07-14]] — current evidence for durable background-job contracts and provider-neutral orchestration
 - [[context/automation-ideas]] — general automation principles
 - [[context/capture-workflow]] — how sources flow into the wiki
 - [[context/review-workflow]] — daily/weekly review job description

@@ -35,6 +35,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 ### Cross-cutting AI patterns
 - [[briefs/ai-money-patterns-2026-06]] — what public discussion keeps converging on for AI monetization
 - [[briefs/10-non-common-ai-money-ideas]] — non-generic AI business patterns
+- [[briefs/daily-ai-brief-2026-07-14]] — current agent-control-plane, coding-agent and energy-forecasting signals
 - [[items/ob-venue-health-radar]] — venue health scoring (applies to any multi-tenant SaaS)
 
 ## Satellites → cross-domain bridges
