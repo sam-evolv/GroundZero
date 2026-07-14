@@ -23,6 +23,7 @@ Every decision is stored in `decisions/` as a permanent note. This log orders th
 | 2026-07-12 | [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]] - ElevenLabs WebRTC with Hermes Custom LLM | Fast barge-in/voice alpha while preserving Hermes as semantic brain | Active |
 | 2026-07-12 | [[decisions/cara-founder-dogfood-voice-first]] - founder voice dogfooding before SME pilots | No broader product surfaces until Sam voluntarily uses the voice loop | Active |
 | 2026-07-13 | [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]] - Cara as primary founder bet; self-serve follows proof | Concentrate founder energy on product quality, then create plug-and-play onboarding | Active |
+| 2026-07-14 | [[decisions/cara-telegram-founder-control-plane-2026-07-14]] - Telegram-first founder control plane | Validate messaging, voice-note, task and memory usefulness without confusing it with the live voice benchmark | Active |
 
 ## OpenBook
 

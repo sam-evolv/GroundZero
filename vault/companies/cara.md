@@ -44,6 +44,7 @@ Phase 0: prove one excellent live +353 call before building app/dashboard/paymen
 - [[briefs/cara-starter-product-spec]] — ingested starter spec
 - [[briefs/cara-success-strategy-2026-07-11]] — recommended wedge, onboarding, build, and 90-day success plan
 - [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]] — primary-founder-bet and self-serve decision
+- [[decisions/cara-telegram-founder-control-plane-2026-07-14]] — Telegram-first founder-control decision
 - [[briefs/cara-world-class-product-route-research-2026-07-13]] — researched architecture and quality route
 - [[context/business-opportunities-moc]] — opportunity hub
 - [[context/solo-founder-era]] — strategic lens

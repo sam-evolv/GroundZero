@@ -23,6 +23,7 @@ Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea
 - Naming still likely moves from Cara to Orla; do not let naming block founder dogfooding.
 - **Strategy decision (13 July):** Cara is Sam’s primary founder bet. The target is eventually self-serve, plug-and-play onboarding; it must first earn that through an excellent founder voice loop and narrow pilot proof. See [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]].
 - **World-class route research (13 July):** Start the quality benchmark with direct native iOS → OpenAI Realtime over WebRTC and a Cara-owned action/memory gateway; keep Gemini and the modular pipeline as challengers. Do not add LiveKit unless telephony, provider routing, group rooms, server-side media or fleet observability creates a concrete need. See [[briefs/cara-world-class-product-route-research-2026-07-13]].
+- **Founder-control decision (14 July):** Add a dedicated private Telegram Cara profile for text, voice notes, memory, tasks and artefacts before spending on telephony. Telegram Bot API does not provide bot voice calls, so it is a complementary daily-use surface rather than a substitute for the realtime/car voice benchmark. See [[decisions/cara-telegram-founder-control-plane-2026-07-14]].
 
 ## Active milestone
 
