@@ -437,5 +437,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-sales-routes]]
+- [[items/oh-dtc-home-savings-scan-concierge]]
 - [[project_state/oh]]
 

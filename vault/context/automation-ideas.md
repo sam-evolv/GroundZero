@@ -69,6 +69,7 @@ Confirm the automation reads the current `project_state/` note and writes a date
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-13-hermes-community-setup-review]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[context/capture-workflow]]
 - [[context/index]]

@@ -52,6 +52,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[briefs/sam-90-day-cash-authority-plan-2026-07-13]]
 - [[companies/cara]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]

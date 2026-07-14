@@ -78,3 +78,8 @@ The golf-management opportunity is relationship and credibility capital, not an 
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]] — prior offer/pricing research
 - [[context/consulting-wedges]] — related sectors
 - [[context/solo-founder-era]] — operating thesis
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[people/sam-donworth]]
+

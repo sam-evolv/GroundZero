@@ -108,3 +108,9 @@ The existing Cara implementation is a valuable proof-of-architecture, not yet a 
 - [[decisions/cara-founder-dogfood-voice-first]] — sequencing
 - [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]] — strategy
 - [[briefs/cara-starter-product-spec]] — original product vision
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/cara]]
+- [[project_state/cara]]
+

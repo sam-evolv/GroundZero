@@ -18,6 +18,13 @@ The intended business is not a high-touch service. The target is a self-serve, p
 - It is intellectually and technically demanding in a way Sam wants: voice, trust, memory, actions, onboarding and reliability must all work together.
 - Founder dogfooding is a uniquely strong product-quality loop: Sam’s own long, nuanced, hands-free conversations reveal the standards the product must meet before broad distribution.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/cara-world-class-product-route-research-2026-07-13]]
+- [[companies/cara]]
+- [[project_state/cara]]
+
 ## Guardrails
 - This is not permission to rush into a generic self-serve landing page or broad public launch.
 - First prove the founder voice loop: repeated 20–60 minute conversations with natural latency, patient endpointing, barge-in, continuity and review artefacts.

@@ -55,6 +55,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/openhouse-product-map]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-room-inference]]
+- [[items/oh-dtc-home-savings-scan-concierge]]
 - [[items/oh-handover-readiness-scan]]
 - [[items/oh-scheme-launch-scorecard]]
 - [[items/oh-warranty-filter]]

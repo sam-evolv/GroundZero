@@ -210,6 +210,7 @@ Everything that helps produce that sentence is Phase 1. Everything else waits.
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/wiki-refiner-2026-07-12]]
+- [[briefs/wiki-refiner-2026-07-13]]
 - [[companies/cara]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]

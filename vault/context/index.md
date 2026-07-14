@@ -81,6 +81,7 @@ If a model needs context, start here, then follow the links for the specific bus
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-30]]
+- [[briefs/2026-07-13-hermes-community-setup-review]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
 - [[briefs/planet-satellite-opportunity]]

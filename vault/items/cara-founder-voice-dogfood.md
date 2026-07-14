@@ -89,6 +89,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/dashboard]]
 - [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]]
 - [[decisions/cara-founder-dogfood-voice-first]]
+- [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]]
 - [[items/cara-phase0-m1-live-call]]
 - [[project_state/cara]]
 

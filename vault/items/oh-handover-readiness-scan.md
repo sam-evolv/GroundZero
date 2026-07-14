@@ -55,6 +55,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/openhouse-product-map]]
 - [[goals/oh-activation]]
 - [[goals/oh-aftercare-os]]
+- [[items/oh-dtc-home-savings-scan-concierge]]
 - [[items/oh-onboarding-cut]]
 - [[items/oh-onboarding-packet-automation]]
 - [[items/oh-scheme-launch-scorecard]]

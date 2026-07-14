@@ -40,3 +40,12 @@ Use ElevenLabs ElevenAgents as the fastest **temporary founder-dogfood transport
 - [[briefs/cara-realtime-car-voice-acceptance]] - acceptance criteria
 - [[items/cara-founder-voice-dogfood]] - active milestone
 - [[decisions/cara-founder-dogfood-voice-first]] - sequencing decision
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/cara-realtime-car-voice-acceptance]]
+- [[companies/cara]]
+- [[decisions/cara-founder-dogfood-voice-first]]
+- [[items/cara-founder-voice-dogfood]]
+- [[project_state/cara]]
+

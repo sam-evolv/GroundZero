@@ -418,6 +418,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
 - [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
+- [[briefs/sam-90-day-cash-authority-plan-2026-07-13]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]

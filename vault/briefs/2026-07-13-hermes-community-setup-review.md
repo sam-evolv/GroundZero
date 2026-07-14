@@ -42,3 +42,9 @@ Use the vault for durable context, skills for reusable procedures, cron for narr
 - [[context/review-workflow]] — review and briefing loop
 - [[context/ground-zero-structure]] — vault filing model
 - [[briefs/2026-07-13-hermes-community-setup-review]] — this review
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-13-hermes-community-setup-review]]
+- [[context/automation-ideas]]
+

@@ -34,6 +34,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/planet-satellite-opportunity]]
+- [[briefs/sam-90-day-cash-authority-plan-2026-07-13]]
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]
 - [[context/business-opportunities-moc]]

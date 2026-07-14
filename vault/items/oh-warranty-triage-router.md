@@ -60,6 +60,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-guardrails-active]]
 - [[goals/oh-room-inference]]
+- [[items/oh-dtc-home-savings-scan-concierge]]
 - [[items/oh-guardrails-eval]]
 - [[items/oh-warranty-evidence-pack]]
 - [[items/oh-warranty-filter]]

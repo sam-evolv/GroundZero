@@ -58,6 +58,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/oh-activation]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-v2-launch]]
+- [[items/oh-dtc-home-savings-scan-concierge]]
 - [[items/oh-handover-readiness-scan]]
 - [[items/oh-onboarding-cut]]
 - [[items/oh-onboarding-packet-automation]]
