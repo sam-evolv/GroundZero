@@ -3,11 +3,13 @@ id: oh
 company_id: openhouse-ai
 headline: Database V2 is stabilising; Cairn declined the large-developer route, so OpenHouse is shifting toward funding, UK/US channels, and DTC optionality.
 valid: true
-updated_at: "2026-07-01T00:00:00+01:00"
+updated_at: "2026-07-15T07:00:00+01:00"
 role: project-state
 ---
 
 The V2 rollout is still on track for end of month. Real Longview Estates data remains live across Longview Park, Ardan View, Rathard Lawn, and Rathard Park. PR #184 and PR #186 remain merged. Checked 2026-07-01. GitHub open PRs remain #204, #180, #147, #146, #104, #98, #41, #40, #38, #11, and #6. Current open issues in sam-evolv/property-assistant remain #195, #194, #130, #128, #125, and #123. Vercel production is still Ready. Supabase remote anomaly checks are still blocked in this environment because `SUPABASE_ACCESS_TOKEN` is unset and local `supabase status` cannot run without a working Docker daemon.
+
+**Live check, 2026-07-15 07:00 IST:** the local `property-assistant` clone is clean, with no commits since yesterday; GitHub reports the default `main` branch was last pushed on 2026-07-02. The 11 open PRs and 6 open issues are unchanged in count; PR #204 is the only clean mergeable PR, while #180 is draft/dirty and #147, #146, #104, #98, #41, #38, #11 and #6 are dirty (with #40 unstable). Vercel's latest `property-assistant` production deployment is **Ready**, but is 17 days old; its newest preview deployment is 13 days old and two previews from 17 days ago are errored. This is a durable delivery-staleness signal, not evidence of a current production outage.
 
 ## Summary
 - Production migration is still the top priority.
