@@ -96,6 +96,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/cara-world-class-product-route-research-2026-07-13]]
 - [[briefs/wiki-refiner-2026-07-12]]
 - [[briefs/wiki-refiner-2026-07-13]]
+- [[briefs/wiki-refiner-2026-07-14]]
 - [[companies/cara]]
 - [[companies/openbook]]
 - [[context/business-opportunities-moc]]

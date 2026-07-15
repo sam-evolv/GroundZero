@@ -58,6 +58,7 @@ Good. Distributed energy operators are under pressure to do more with fewer admi
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/daily-portfolio-brief-2026-07-14]]
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]
 - [[companies/evolv-renewables]]

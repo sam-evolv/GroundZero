@@ -111,3 +111,9 @@ Hermes should surface a hard check when one of these occurs:
 - [[context/model-pack]] — compact shared model context
 - [[context/solo-founder-era]] — solo founder strategy lens
 - [[briefs/sam-90-day-cash-authority-plan-2026-07-13]] — current income and authority plan
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/agentic-value-creation-mission]]
+- [[context/index]]
+

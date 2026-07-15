@@ -60,5 +60,16 @@ Run ten manually delivered scans before productisation.
 - [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]] provides a prior 14-day execution frame.
 - [[project_state/oh]] confirms migration stability remains the current prerequisite for product work.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]]
+- [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
+- [[items/oh-handover-readiness-scan]]
+- [[items/oh-scheme-launch-scorecard]]
+- [[items/oh-warranty-evidence-pack]]
+- [[items/oh-warranty-triage-router]]
+- [[project_state/oh]]
+
 ## Recommendation
 This is mature enough to become a tightly bounded validation project, not a full DTC product project. Approve only the ten-scan concierge experiment after defining consent and report-claim guardrails. Promote to product build only if the validation gate passes.

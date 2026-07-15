@@ -49,6 +49,7 @@ The prospect list identifies 18 Cork property businesses from an OpenStreetMap O
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-30]]
+- [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[companies/openhouse-ai]]

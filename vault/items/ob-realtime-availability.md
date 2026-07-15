@@ -53,6 +53,7 @@ Strong. Realtime availability is now expected in modern booking software, and it
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-28]]
 - [[briefs/2026-06-30]]
+- [[briefs/daily-portfolio-brief-2026-07-14]]
 - [[companies/openbook]]
 - [[context/dashboard]]
 - [[goals/ob-retention]]

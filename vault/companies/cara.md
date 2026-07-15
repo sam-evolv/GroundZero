@@ -59,13 +59,17 @@ Phase 0: prove one excellent live +353 call before building app/dashboard/paymen
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-14-morning-briefing-golf-cara]]
 - [[briefs/cara-founder-voice-build-sprint-2026-07-12]]
 - [[briefs/cara-realtime-car-voice-acceptance]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
 - [[briefs/cara-world-class-product-route-research-2026-07-13]]
+- [[briefs/daily-ai-brief-2026-07-14]]
 - [[briefs/wiki-refiner-2026-07-12]]
 - [[briefs/wiki-refiner-2026-07-13]]
+- [[briefs/wiki-refiner-2026-07-14]]
+- [[context/agentic-value-creation-mission]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]
 - [[context/model-pack]]
@@ -73,6 +77,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]]
 - [[decisions/cara-founder-dogfood-voice-first]]
 - [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]]
+- [[decisions/cara-telegram-founder-control-plane-2026-07-14]]
 - [[items/cara-founder-voice-dogfood]]
 - [[items/cara-phase0-m1-live-call]]
 - [[people/sam-donworth]]

@@ -71,6 +71,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-13-hermes-community-setup-review]]
 - [[context/automation-ideas]]
 - [[context/capture-workflow]]
+- [[context/founder-execution-os]]
 - [[context/ground-zero-structure]]
 - [[context/index]]
 - [[context/learn-targets]]

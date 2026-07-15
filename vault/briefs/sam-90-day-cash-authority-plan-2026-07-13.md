@@ -81,5 +81,11 @@ The golf-management opportunity is relationship and credibility capital, not an 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
+- [[companies/evolv-renewables]]
+- [[companies/openhouse-ai]]
+- [[context/consulting-wedges]]
+- [[context/solo-founder-era]]
+- [[decisions/ai-founder-coach-operating-agreement-2026-07-14]]
 - [[people/sam-donworth]]
 

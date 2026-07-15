@@ -67,3 +67,10 @@ Important distinction to verify before changing the product route: Telegram Bot 
 - [[companies/openhouse-ai]] — OpenHouse context
 - [[briefs/openhouse-ireland-funding-routes-2026-06-29]] — NDRC context
 - [[context/index]] — shared context entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/david-howard-open-week-linkedin-2026-07-14]]
+- [[briefs/david-howard-site-audit-2026-07-14]]
+- [[decisions/cara-telegram-founder-control-plane-2026-07-14]]
+

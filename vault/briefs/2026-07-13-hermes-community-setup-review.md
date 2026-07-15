@@ -47,4 +47,7 @@ Use the vault for durable context, skills for reusable procedures, cron for narr
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-13-hermes-community-setup-review]]
 - [[context/automation-ideas]]
+- [[context/ground-zero-structure]]
+- [[context/index]]
+- [[context/review-workflow]]
 

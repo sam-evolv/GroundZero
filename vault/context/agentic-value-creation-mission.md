@@ -116,3 +116,10 @@ Each recommendation must show the use case, expected value, effort, risk, test, 
 - [[companies/openhouse-ai]] — core company context
 - [[companies/openbook]] — SMB platform context
 - [[companies/evolv-renewables]] — commercial renewables context
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
+- [[context/index]]
+- [[context/model-pack]]
+

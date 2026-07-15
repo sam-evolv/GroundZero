@@ -44,3 +44,8 @@ Today's AI research brief recommends defining a provider-neutral asynchronous-jo
 - [[items/ob-realtime-availability]] — OpenBook PR-ready work
 - [[items/renew-compliance-reporting-automation]] — Evolv operational lever
 - [[briefs/daily-ai-brief-2026-07-14]] — related research signal
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/dashboard]]
+

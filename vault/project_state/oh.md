@@ -55,6 +55,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/daily-portfolio-brief-2026-07-12]]
+- [[briefs/daily-portfolio-brief-2026-07-14]]
 - [[briefs/openhouse-dtc-acquisition-hooks-research-2026-06-29]]
 - [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]]
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]

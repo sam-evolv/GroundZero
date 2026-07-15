@@ -179,6 +179,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/briefs/wiki-refiner-2026-07-15.md",
     "repos/DavidHowardGolf/api/open-scoring.js",
     "repos/DavidHowardGolf/api",
     "repos/DavidHowardGolf/tests/test_open_scoring.mjs",
@@ -204,7 +205,6 @@
     "repos/DavidHowardGolf/scripts/__init__.py",
     "repos/DavidHowardGolf/scripts/validate_live_data.py",
     "repos/DavidHowardGolf/scripts",
-    "repos/DavidHowardGolf/tests/test_live_data.py",
     "repos/DavidHowardGolf/port/HANDOFF.md",
     "repos/DavidHowardGolf/README.md",
     "vault/briefs/david-howard-live-updates-architecture-2026-07-14.md",

@@ -57,6 +57,7 @@ Build the personal founder loop first, but do not pivot into a standalone consum
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-14-morning-briefing-golf-cara]]
 - [[briefs/cara-founder-voice-build-sprint-2026-07-12]]
 - [[briefs/cara-realtime-car-voice-acceptance]]
 - [[briefs/cara-starter-product-spec]]
@@ -65,6 +66,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[companies/cara]]
 - [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]]
 - [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]]
+- [[decisions/cara-telegram-founder-control-plane-2026-07-14]]
 - [[items/cara-founder-voice-dogfood]]
 - [[items/cara-phase0-m1-live-call]]
 - [[project_state/cara]]

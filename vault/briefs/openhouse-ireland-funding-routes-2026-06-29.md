@@ -146,6 +146,7 @@ Prioritised for fit:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-14-morning-briefing-golf-cara]]
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]

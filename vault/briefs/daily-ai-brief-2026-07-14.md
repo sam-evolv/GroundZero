@@ -18,6 +18,13 @@ status: signal-only
 - **Proven fact — Ground Zero / agent workflows:** Google’s newly announced agent interface exposes the same primitives Ground Zero’s recurring work benefits from: durable task IDs, observable status, reconnection and bounded tool access. Maintain these as provider-neutral requirements for future daily-refiner and long-running research jobs; do not couple the vault workflow to a single model API.
 - **Hypothesis — Cara and Evolv:** keep Cara’s live voice stack on its measured Realtime bake-off; test Sonnet 5 only as an asynchronous post-call/artifact worker. Separately, prototype Aurora-style probabilistic solar forecasts against one Evolv site’s existing generation data before presenting any forecasting promise to customers.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/daily-portfolio-brief-2026-07-14]]
+- [[context/business-opportunities-moc]]
+- [[context/ops-automation-moc]]
+
 ## Recommendation
 
 **This week: define one provider-neutral `AsyncJob` contract for Cara post-call work**—`job_id`, status, structured result, retry/error receipt and explicit approval boundary—then run the same small post-call summary/evaluation workload through the existing worker and Sonnet 5. Keep the live voice loop unchanged; adopt only if quality, cost and recoverability improve.

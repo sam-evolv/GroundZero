@@ -46,3 +46,9 @@ The existing `cara` Hermes profile and gateway are running, but Telegram is not 
 - [[decisions/cara-founder-dogfood-voice-first]] — live voice loop remains a separate quality gate
 - [[briefs/2026-07-14-morning-briefing-golf-cara]] — source journal
 - [[context/index]] — shared context entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/cara]]
+- [[project_state/cara]]
+

@@ -21,9 +21,14 @@ The intended business is not a high-touch service. The target is a self-serve, p
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/cara-realtime-car-voice-acceptance]]
 - [[briefs/cara-world-class-product-route-research-2026-07-13]]
 - [[companies/cara]]
+- [[decisions/cara-founder-dogfood-voice-first]]
+- [[items/cara-founder-voice-dogfood]]
+- [[people/sam-donworth]]
 - [[project_state/cara]]
+
 
 ## Guardrails
 - This is not permission to rush into a generic self-serve landing page or broad public launch.

@@ -80,6 +80,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/business-opportunities-moc]]
 - [[context/claude-access-observed]]
 - [[context/claude-vault-integration]]
+- [[context/founder-execution-os]]
 - [[context/ground-zero-structure]]
 - [[context/index]]
 - [[context/learn-targets]]

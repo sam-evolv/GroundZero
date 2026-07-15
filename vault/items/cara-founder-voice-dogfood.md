@@ -85,6 +85,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/cara-realtime-car-voice-acceptance]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/daily-portfolio-brief-2026-07-12]]
+- [[briefs/daily-portfolio-brief-2026-07-14]]
 - [[companies/cara]]
 - [[context/dashboard]]
 - [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]]

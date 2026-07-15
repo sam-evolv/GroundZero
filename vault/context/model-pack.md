@@ -106,6 +106,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/review-workflow]]
 - [[context/scaling-playbook]]
 - [[context/solo-founder-era]]
+- [[decisions/ai-founder-coach-operating-agreement-2026-07-14]]
 - [[goals/ob-retention]]
 - [[goals/oh-activation]]
 - [[goals/oh-v2-launch]]

@@ -24,8 +24,10 @@ Supply growth is healthy. Venues that churn almost always cite no-shows first. C
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]
 - [[briefs/2026-06-28]]
+- [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/daily-portfolio-brief-2026-07-12]]
+- [[briefs/daily-portfolio-brief-2026-07-14]]
 - [[companies/openbook]]
 - [[context/dashboard]]
 - [[context/ground-zero-structure]]

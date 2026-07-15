@@ -234,3 +234,11 @@ For any consequential action, require a clear approval screen: action, audience,
 - [[decisions/_Index]] — decision log
 - [[items/_Index]] — active work queue
 - [[people/sam-donworth]] — founder constraints and working style
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
+- [[context/agentic-value-creation-mission]]
+- [[context/index]]
+- [[context/model-pack]]
+

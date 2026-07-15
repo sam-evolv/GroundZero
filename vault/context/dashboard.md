@@ -58,9 +58,8 @@ updated: "2026-06-30"
 - All opportunities: [[context/business-opportunities-moc]]
 - All ops automation: [[context/ops-automation-moc]]
 - Daily notes: [[Daily/_Index]]
-- Latest portfolio review: [[briefs/daily-portfolio-brief-2026-07-14]]
 - Vault structure: [[context/ground-zero-structure]]
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-07-14 02:15 IST
+- Dashboard: 2026-07-15 02:15 IST

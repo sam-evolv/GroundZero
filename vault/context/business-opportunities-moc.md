@@ -65,6 +65,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/cara-success-strategy-2026-07-11]]
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
+- [[briefs/daily-ai-brief-2026-07-14]]
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-energy-intelligence-sketch]]
