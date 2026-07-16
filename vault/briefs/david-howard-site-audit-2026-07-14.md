@@ -88,3 +88,9 @@ Do not add pricing or sponsor packages publicly during the week. Any real sponso
 
 - [[briefs/david-howard-open-week-linkedin-2026-07-14]] — social copy
 - [[briefs/2026-07-14-morning-briefing-golf-cara]] — source context
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-14-morning-briefing-golf-cara]]
+- [[briefs/david-howard-open-week-linkedin-2026-07-14]]
+

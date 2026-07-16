@@ -27,6 +27,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-ai-brief-2026-07-14]]
 - [[briefs/daily-portfolio-brief-2026-07-12]]
 - [[briefs/daily-portfolio-brief-2026-07-14]]
+- [[briefs/daily-portfolio-brief-2026-07-15]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[companies/evolv-renewables]]

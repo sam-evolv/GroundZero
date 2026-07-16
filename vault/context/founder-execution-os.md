@@ -239,6 +239,11 @@ For any consequential action, require a clear approval screen: action, audience,
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[context/agentic-value-creation-mission]]
+- [[context/automation-ideas]]
+- [[context/capture-workflow]]
 - [[context/index]]
+- [[context/llm-wiki-pattern]]
 - [[context/model-pack]]
+- [[context/review-workflow]]
+- [[people/sam-donworth]]
 

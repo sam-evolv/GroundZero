@@ -52,6 +52,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
+- [[briefs/daily-portfolio-brief-2026-07-15]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[context/consulting-wedges]]

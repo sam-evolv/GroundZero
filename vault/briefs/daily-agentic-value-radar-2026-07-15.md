@@ -33,3 +33,8 @@ Ground Zero’s active P0 requires logged costs, latency, interruptions, correct
 - [[items/cara-founder-voice-dogfood]] — P0 quality gate
 - [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]] — current transport decision
 - [[context/index]] — shared entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/daily-portfolio-brief-2026-07-15]]
+

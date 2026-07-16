@@ -45,3 +45,8 @@ status: operational
 - [[items/ob-realtime-availability]] — OpenBook PR-ready work
 - [[items/consultancy-cork-property-outreach]] — approved founder-sales test
 - [[briefs/daily-agentic-value-radar-2026-07-15]] — current research signal
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+

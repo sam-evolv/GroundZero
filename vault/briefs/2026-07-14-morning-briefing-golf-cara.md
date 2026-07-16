@@ -72,5 +72,11 @@ Important distinction to verify before changing the product route: Telegram Bot 
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/david-howard-open-week-linkedin-2026-07-14]]
 - [[briefs/david-howard-site-audit-2026-07-14]]
+- [[briefs/openhouse-ireland-funding-routes-2026-06-29]]
+- [[companies/cara]]
+- [[companies/openhouse-ai]]
+- [[context/index]]
+- [[decisions/cara-founder-dogfood-voice-first]]
 - [[decisions/cara-telegram-founder-control-plane-2026-07-14]]
+- [[project_state/cara]]
 

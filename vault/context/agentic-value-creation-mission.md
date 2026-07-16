@@ -120,6 +120,15 @@ Each recommendation must show the use case, expected value, effort, risk, test, 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
+- [[briefs/daily-agentic-value-radar-2026-07-15]]
+- [[companies/cara]]
+- [[companies/evolv-renewables]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
+- [[context/founder-execution-os]]
 - [[context/index]]
+- [[context/llm-wiki-pattern]]
 - [[context/model-pack]]
+- [[context/solo-founder-era]]
+- [[decisions/ai-founder-coach-operating-agreement-2026-07-14]]
 

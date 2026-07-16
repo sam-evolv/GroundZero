@@ -44,6 +44,7 @@ Use ElevenLabs ElevenAgents as the fastest **temporary founder-dogfood transport
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/cara-realtime-car-voice-acceptance]]
+- [[briefs/daily-agentic-value-radar-2026-07-15]]
 - [[companies/cara]]
 - [[decisions/cara-founder-dogfood-voice-first]]
 - [[items/cara-founder-voice-dogfood]]

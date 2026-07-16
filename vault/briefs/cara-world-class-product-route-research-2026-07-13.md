@@ -114,6 +114,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/cara-realtime-car-voice-acceptance]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/wiki-refiner-2026-07-14]]
+- [[briefs/wiki-refiner-2026-07-15]]
 - [[companies/cara]]
 - [[decisions/cara-founder-dogfood-voice-first]]
 - [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]]

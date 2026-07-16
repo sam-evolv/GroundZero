@@ -144,3 +144,15 @@ Do not add payment-taking, exact quotes, safety-critical advice, autonomous disp
 - [[companies/openhouse-ai]]
 - [[companies/openbook]]
 - [[companies/evolv-renewables]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/evolv-renewables]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
+- [[context/agentic-value-creation-mission]]
+- [[context/founder-execution-os]]
+- [[items/consultancy-cork-property-outreach]]
+- [[project_state/cara]]
+- [[project_state/ob]]
+

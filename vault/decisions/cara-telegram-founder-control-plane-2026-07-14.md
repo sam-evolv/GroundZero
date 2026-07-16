@@ -49,6 +49,9 @@ The existing `cara` Hermes profile and gateway are running, but Telegram is not 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-14-morning-briefing-golf-cara]]
 - [[companies/cara]]
+- [[context/index]]
+- [[decisions/cara-founder-dogfood-voice-first]]
 - [[project_state/cara]]
 

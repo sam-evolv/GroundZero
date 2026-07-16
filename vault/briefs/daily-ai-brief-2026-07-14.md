@@ -22,8 +22,14 @@ status: signal-only
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-portfolio-brief-2026-07-14]]
+- [[companies/cara]]
+- [[companies/evolv-renewables]]
 - [[context/business-opportunities-moc]]
+- [[context/index]]
 - [[context/ops-automation-moc]]
+- [[project_state/cara]]
+- [[project_state/renew]]
+
 
 ## Recommendation
 
