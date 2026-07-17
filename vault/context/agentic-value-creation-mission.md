@@ -122,6 +122,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/daily-agentic-value-radar-2026-07-15]]
 - [[briefs/daily-agentic-value-radar-2026-07-16]]
+- [[briefs/daily-agentic-value-radar-2026-07-17]]
 - [[companies/cara]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]

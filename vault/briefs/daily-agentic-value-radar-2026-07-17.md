@@ -35,3 +35,9 @@ The unmeasured founder-call gate is the live bottleneck: it prevents a defensibl
 - [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]] — selected transport and fallback
 - [[briefs/daily-agentic-value-radar-2026-07-16]] — prior radar
 - [[context/index]] — shared entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/daily-portfolio-brief-2026-07-17]]
+- [[context/index]]
+

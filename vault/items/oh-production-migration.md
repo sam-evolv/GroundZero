@@ -55,6 +55,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-28]]
 - [[briefs/2026-06-30]]
 - [[briefs/daily-portfolio-brief-2026-07-16]]
+- [[briefs/daily-portfolio-brief-2026-07-17]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
 - [[companies/openhouse-ai]]

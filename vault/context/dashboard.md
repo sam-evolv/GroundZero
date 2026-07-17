@@ -17,6 +17,7 @@ updated: "2026-07-15"
 
 ### OpenHouse AI
   - **Close the tenant data gap before the V2 launch** → [[items/oh-rls-audit]] (🔴 building)
+  - ⚠️ Blocked signal in [[project_state/openhouse-ai|OpenHouse AI]]
 
 ### OpenBook
   - **Live availability sync with venue calendars** → [[items/ob-realtime-availability]] (🟡 pr_ready)
@@ -62,4 +63,4 @@ updated: "2026-07-15"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-07-17 02:15 IST
+- Dashboard: 2026-07-17 08:32 IST
