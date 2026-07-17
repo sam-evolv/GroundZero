@@ -64,6 +64,8 @@ Delete anything that does not become more credible after inserting one concrete 
 ## Connected vault notes
 
 - [[briefs/2026-07-14-morning-briefing-golf-cara]] — source journal
+- [[briefs/david-howard-open-week-live-companion-2026-07-14]] — supporter-facing live companion blueprint
+- [[briefs/david-howard-live-updates-architecture-2026-07-14]] — verified live-data architecture
 - [[context/index]] — shared context entry point
 
 ## Notes that link here

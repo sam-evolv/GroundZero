@@ -151,3 +151,8 @@ Maintain two deliberately separate streams.
 # Sponsor and partner benefit
 
 A tasteful `Follow David's Open Week` experience creates a credible asset for future supporters without making the coverage feel commercial. Measurement should be limited to event visits, return visitors, outbound official-leaderboard clicks, calendar adds, sharing and CF Ireland referral clicks.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/david-howard-open-week-linkedin-2026-07-14]]
+

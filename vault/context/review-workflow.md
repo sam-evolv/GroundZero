@@ -44,6 +44,7 @@ Read the current context, then update the live notes before drafting any summary
 - [[items/_Index]] — what this workflow checks
 - [[context/capture-workflow]] — input to the review cycle
 - [[Daily/_Index]] — daily notes produced by this workflow
+- [[briefs/wiki-refiner-2026-07-17]] — latest automated refiner review
 
 ## Procedure
 

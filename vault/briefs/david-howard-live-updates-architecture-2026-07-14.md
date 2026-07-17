@@ -151,3 +151,8 @@ Poll it every 60 seconds and render a `last updated` marker. It should show actu
 ## Deployment gate
 
 The public site is Vercel production deployment `dpl_E7UMBxKrMDo5awvpPwg1UmQZPpSW` under `openhouseais-projects`. The source repository was not present in the inspected local workspace, so do not edit/deploy until the source location and intended data-source permission are confirmed.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/david-howard-open-week-linkedin-2026-07-14]]
+
