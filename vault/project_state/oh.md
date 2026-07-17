@@ -13,6 +13,8 @@ The V2 rollout is still on track for end of month. Real Longview Estates data re
 
 **Live check, 2026-07-16 07:00 IST:** GitHub `main` is unchanged at `ad327a4b` (commit 2026-06-28; repository last pushed 2026-07-02). The same 11 PRs and 6 non-PR issues remain open; #204 is still the only clean mergeable PR. Both available local clones are clean but on old feature/preview branches, not `main`; they should not be treated as an up-to-date production checkout. Vercel lists the latest `property-assistant` production deployment as **Ready** (18 days old) and the newest preview as **Ready** (14 days old); `https://portal.openhouseai.ie` returned HTTP 200 from Vercel. This confirms availability, while reinforcing delivery staleness; it does not validate Supabase data or RLS because remote Supabase access remains unavailable.
 
+**Live check, 2026-07-17 07:01 IST:** No delivery movement since 16 July. GitHub `main` remains `ad327a4b` (committed 2026-06-28; repository last pushed 2026-07-02). All 11 PRs and 6 non-PR issues remain open; #204 remains the only clean mergeable PR and was last updated 2026-06-05. Both local clones are clean but remain on stale non-`main` branches. GitHub records the latest production deployment as **success** on 2026-06-28 (now 19 days old), while `https://portal.openhouseai.ie` returned HTTP 200 in 0.48s. Production is available but delivery is stale. Remote Supabase/RLS and migration-anomaly validation remain blocked: `SUPABASE_ACCESS_TOKEN` is not configured and local Docker is unavailable.
+
 ## Summary
 - Production migration is still the top priority.
 - Vercel production deployment was inspected again on 2026-07-01 and the latest deployment is Ready.
