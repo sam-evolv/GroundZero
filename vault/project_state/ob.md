@@ -29,6 +29,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-portfolio-brief-2026-07-12]]
 - [[briefs/daily-portfolio-brief-2026-07-14]]
 - [[briefs/daily-portfolio-brief-2026-07-15]]
+- [[briefs/daily-portfolio-brief-2026-07-16]]
 - [[companies/openbook]]
 - [[context/dashboard]]
 - [[context/ground-zero-structure]]

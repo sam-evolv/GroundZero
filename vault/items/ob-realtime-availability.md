@@ -55,6 +55,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-30]]
 - [[briefs/daily-portfolio-brief-2026-07-14]]
 - [[briefs/daily-portfolio-brief-2026-07-15]]
+- [[briefs/daily-portfolio-brief-2026-07-16]]
 - [[companies/openbook]]
 - [[context/dashboard]]
 - [[goals/ob-retention]]

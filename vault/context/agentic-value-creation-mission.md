@@ -121,6 +121,7 @@ Each recommendation must show the use case, expected value, effort, risk, test, 
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/daily-agentic-value-radar-2026-07-15]]
+- [[briefs/daily-agentic-value-radar-2026-07-16]]
 - [[companies/cara]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]

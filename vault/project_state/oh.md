@@ -61,6 +61,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-portfolio-brief-2026-07-12]]
 - [[briefs/daily-portfolio-brief-2026-07-14]]
 - [[briefs/daily-portfolio-brief-2026-07-15]]
+- [[briefs/daily-portfolio-brief-2026-07-16]]
 - [[briefs/openhouse-dtc-acquisition-hooks-research-2026-06-29]]
 - [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]]
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]

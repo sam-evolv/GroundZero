@@ -47,3 +47,8 @@ status: operational
 - [[items/ob-realtime-availability]] — OpenBook PR-ready work
 - [[briefs/daily-agentic-value-radar-2026-07-16]] — current measurement signal
 - [[briefs/daily-portfolio-brief-2026-07-15]] — prior portfolio review
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+

@@ -33,3 +33,8 @@ status: signal-only
 - [[decisions/cara-founder-dogfood-voice-first]] — founder-use sequencing
 - [[briefs/daily-agentic-value-radar-2026-07-15]] — prior radar
 - [[context/index]] — shared entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/daily-portfolio-brief-2026-07-16]]
+

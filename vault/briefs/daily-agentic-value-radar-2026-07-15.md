@@ -36,5 +36,11 @@ Ground Zero’s active P0 requires logged costs, latency, interruptions, correct
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/daily-agentic-value-radar-2026-07-16]]
 - [[briefs/daily-portfolio-brief-2026-07-15]]
+- [[context/agentic-value-creation-mission]]
+- [[context/index]]
+- [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]]
+- [[items/cara-founder-voice-dogfood]]
+- [[project_state/cara]]
 
