@@ -71,6 +71,8 @@ Delete anything that does not become more credible after inserting one concrete 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-14-morning-briefing-golf-cara]]
+- [[briefs/david-howard-live-updates-architecture-2026-07-14]]
+- [[briefs/david-howard-open-week-live-companion-2026-07-14]]
 - [[briefs/david-howard-site-audit-2026-07-14]]
 - [[context/index]]
 
