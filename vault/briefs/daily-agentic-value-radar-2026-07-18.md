@@ -32,3 +32,9 @@ The bottleneck remains measurement, not transport: Cara’s accepted quality bar
 - [[decisions/cara-founder-dogfood-voice-first]] — quality bar
 - [[briefs/daily-agentic-value-radar-2026-07-17]] — prior radar
 - [[context/index]] — shared entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/daily-portfolio-brief-2026-07-18]]
+- [[context/index]]
+

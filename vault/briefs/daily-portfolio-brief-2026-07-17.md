@@ -53,6 +53,7 @@ status: operational
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-agentic-value-radar-2026-07-17]]
 - [[briefs/daily-portfolio-brief-2026-07-16]]
+- [[briefs/daily-portfolio-brief-2026-07-18]]
 - [[context/index]]
 - [[items/cara-founder-voice-dogfood]]
 - [[items/ob-realtime-availability]]

@@ -50,7 +50,8 @@ This is the first note to load when a model needs cross-business context.
 - [[context/solo-founder-era]] — solo founder + agentic commerce thesis
 - [[decisions/ai-founder-coach-operating-agreement-2026-07-14]] — AI founder coach operating agreement
 - [[context/openhouse-sales-routes]] — sales routes for OpenHouse
-- [[briefs/daily-portfolio-brief-2026-07-17]] — current daily portfolio review
+- [[briefs/daily-portfolio-brief-2026-07-18]] — current daily portfolio review
+- [[briefs/daily-portfolio-brief-2026-07-17]] — prior daily portfolio review
 - [[briefs/daily-agentic-value-radar-2026-07-18]] — current agentic capability and leverage review
 - [[briefs/daily-agentic-value-radar-2026-07-17]] — prior agentic capability and leverage review
 - [[briefs/planet-satellite-opportunity]] — satellite imagery cross-domain bridge
@@ -94,11 +95,13 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-agentic-value-radar-2026-07-15]]
 - [[briefs/daily-agentic-value-radar-2026-07-16]]
 - [[briefs/daily-agentic-value-radar-2026-07-17]]
+- [[briefs/daily-agentic-value-radar-2026-07-18]]
 - [[briefs/daily-ai-brief-2026-07-14]]
 - [[briefs/daily-portfolio-brief-2026-07-14]]
 - [[briefs/daily-portfolio-brief-2026-07-15]]
 - [[briefs/daily-portfolio-brief-2026-07-16]]
 - [[briefs/daily-portfolio-brief-2026-07-17]]
+- [[briefs/daily-portfolio-brief-2026-07-18]]
 - [[briefs/david-howard-open-week-linkedin-2026-07-14]]
 - [[briefs/planet-satellite-opportunity]]
 - [[companies/cara]]

@@ -30,6 +30,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-portfolio-brief-2026-07-15]]
 - [[briefs/daily-portfolio-brief-2026-07-16]]
 - [[briefs/daily-portfolio-brief-2026-07-17]]
+- [[briefs/daily-portfolio-brief-2026-07-18]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[companies/evolv-renewables]]

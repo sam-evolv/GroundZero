@@ -39,6 +39,7 @@ The unmeasured founder-call gate is the live bottleneck: it prevents a defensibl
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-agentic-value-radar-2026-07-16]]
+- [[briefs/daily-agentic-value-radar-2026-07-18]]
 - [[briefs/daily-portfolio-brief-2026-07-17]]
 - [[context/agentic-value-creation-mission]]
 - [[context/index]]

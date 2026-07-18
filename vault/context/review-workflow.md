@@ -70,6 +70,7 @@ Use `read_file` on the current `project_state/` note and confirm it matches the 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-13-hermes-community-setup-review]]
+- [[briefs/wiki-refiner-2026-07-17]]
 - [[context/automation-ideas]]
 - [[context/capture-workflow]]
 - [[context/founder-execution-os]]

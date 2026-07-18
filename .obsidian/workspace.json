@@ -179,6 +179,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/briefs/daily-portfolio-brief-2026-07-18.md",
     "vault/briefs/daily-agentic-value-radar-2026-07-18.md",
     "vault/briefs/wiki-refiner-2026-07-18.md",
     "vault/briefs/daily-portfolio-brief-2026-07-17.md",
@@ -223,7 +224,6 @@
     "repos/OpenHouse-MarketingSite-v3/node_modules/three-stdlib/README.md",
     "repos/OpenHouse-MarketingSite-v3/node_modules/caniuse-lite/README.md",
     "repos/OpenHouse-MarketingSite-v3/node_modules/zod/README.md",
-    "repos/OpenHouse-MarketingSite-v3/node_modules/tailwindcss/README.md",
-    "repos/OpenHouse-MarketingSite-v3/node_modules/tailwindcss/CHANGELOG.md"
+    "repos/OpenHouse-MarketingSite-v3/node_modules/tailwindcss/README.md"
   ]
 }
