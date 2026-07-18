@@ -7,7 +7,7 @@ rationale: The capture inbox is a temporary bucket, but it still needs regular m
 council_note: Vault hygiene pass | Effort S
 effort: S
 impact: 82
-state: proposed
+state: building
 is_one_thing: true
 source: ground-zero-ops-scan 2026-06-25
 run_date: "2026-06-25"
@@ -51,6 +51,14 @@ P2
 - [[context/llm-wiki-pattern]] — the pattern this implements
 - [[capture/inbox]] — the inbox this refines
 - [[context/ops-automation-moc]] — MOC hub
+
+## Incubation analysis, 18 July 2026
+
+### Opportunity, risks and timing
+The value is internal leverage: less manual filing and better retrieval across every company. The main risk is silent corruption of canonical context through bad routing, duplicate notes or lost provenance. Market timing is strong because agent output is increasing faster than Sam's review capacity, but this is already an implemented workflow rather than a new commercial opportunity.
+
+### Effort and recommendation
+Remaining effort is small and should focus on precision, rollback and an exception queue. Status is now `building` to match the documented implementation. Treat it as standing infrastructure and do not promote it into a separate project unless routing quality is measured and maintenance becomes material.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_

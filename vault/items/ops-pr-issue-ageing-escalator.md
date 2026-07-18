@@ -43,6 +43,17 @@ P1
 - [[companies/openhouse-ai]] — parent company
 - [[context/ops-automation-moc]] — MOC hub
 
+## Incubation analysis, 18 July 2026
+
+### Opportunity size
+The current OpenHouse queue has 11 open PRs and 6 non-PR issues, with production delivery now 20 days old. This gives the proposal a concrete risk-reduction case, but escalation only creates value if it leads to a disposition decision.
+
+### Technical approach, risks and effort
+Use deterministic age, mergeability, check and review-state rules. Produce one ranked queue with owner, recommended disposition and evidence links. Do not auto-comment. Small effort can be folded into the existing daily portfolio check. Alert fatigue and stale mergeability data are the main risks.
+
+### Market timing and recommendation
+This is timely internal delivery hygiene, not a market opportunity. Promote it only as a rule set inside [[items/ops-daily-sync-digest]], not as a standalone project. Success is fewer unresolved aged items, not more alerts.
+
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]

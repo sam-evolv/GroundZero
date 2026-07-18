@@ -46,6 +46,29 @@ The product risk is not the app. The risk is whether the phone-number experience
 Read CLAUDE.md and docs/cara-master-spec.md §11. Start Milestone M1: a Pipecat pipeline connected to my Twilio number so I can ring it and have a natural conversation — Deepgram ASR, Claude Sonnet responses, Cartesia TTS, disclosure line in the greeting, transcript saved to Supabase. Scaffold the repo (backend/, gauntlet/, packs/), create .env.example, and tell me exactly what to put in .env. Then help me test it live on a real call.
 ```
 
+## Incubation analysis, 18 July 2026
+
+### Opportunity size
+This is the narrow technical proof beneath Cara's commercial wedge. It does not create revenue alone, but it unlocks the test that matters: whether one recovered trade enquiry can justify a €99 to €149 monthly plan. The first call should therefore be valued as risk retirement and evidence creation, not as a product launch.
+
+### Current technical route
+The original Deepgram, Claude and Cartesia scope is now superseded by the selected ElevenLabs WebRTC voice layer with Hermes as the semantic and memory layer. The milestone still requires a real +353 edge, authenticated webhook handling, caller identity, transcript and event persistence, and a per-call cost record. Preserve provider-independent task, memory and audit schemas so the voice transport remains replaceable.
+
+### Risks
+- A two-minute demo can pass while the longer founder dogfood loop still fails on interruption, latency or context loss.
+- Public telephony without signature validation creates an avoidable security exposure.
+- Recording requires a clear consent and retention rule.
+- Provider and model costs can make the intended SME price uneconomic if they are not logged from the first call.
+
+### Effort
+Small to medium for the controlled live-call edge once credentials and a number exist. The broader conversational quality problem remains inside [[items/cara-founder-voice-dogfood]] and must not be hidden inside this milestone.
+
+### Market timing
+The European Commission states that AI Act transparency rules take effect in August 2026 and that people should be informed when they are interacting with a machine. Cara's warm disclosure, audit trail and fallback policy are therefore launch requirements, not later polish. Source: [European Commission AI Act overview](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai), checked 18 July 2026.
+
+### Recommendation
+Keep this as an active sub-milestone, not a separate project. Mark it complete only when a real call, transcript, disclosure and cost record are evidenced. Do not treat completion as permission for external pilots until the founder dogfood exit gate passes.
+
 ## Connected vault notes
 
 - [[companies/cara]] — parent project

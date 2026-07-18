@@ -42,6 +42,17 @@ P2
 - [[items/ops-daily-report-pack]] — monthly planning and briefing
 - [[context/ops-automation-moc]] — MOC hub
 
+## Incubation analysis, 18 July 2026
+
+### Opportunity, risks and timing
+A weekly decision view can save one to two hours and reveal cross-company trade-offs that daily exception notes miss. The risk is another summary that repeats stale project_state facts without causing a decision.
+
+### Technical approach and effort
+Generate it from the same canonical structured snapshot as the daily digest. Focus on movement, commercial evidence, ageing assumptions, decisions required and the next proof gate. Medium setup effort falls to small if no new collection pipeline is created.
+
+### Recommendation
+Keep as a view inside the existing portfolio review system, not a standalone project. Promote only when project-state reconciliation is trustworthy and the weekly pack has a named review ritual.
+
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]

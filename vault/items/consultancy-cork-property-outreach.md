@@ -36,6 +36,29 @@ The prospect list identifies 18 Cork property businesses from an OpenStreetMap O
 - The offer can become too generic if it is framed as AI consulting rather than a fixed 7–10 day workflow.
 - Spending weeks waiting on one sector would distract from the quick-revenue goal.
 
+## Incubation analysis, 18 July 2026
+
+### Opportunity size
+The immediate experiment is deliberately small: ten messages with a target of one paid €500 audit. The larger opportunity is a productised maintenance and follow-up service that can produce near-term cash while creating reusable discovery, workflow and proof assets for OpenHouse. One sale validates more than another broad market report.
+
+### Delivery approach
+Sell a fixed diagnostic, not open-ended AI consulting. Use the existing prospect list, a property-specific observation, a seven to ten day scope, a defined output and a €500 price. Track contact, reply, call, objection, next action and payment in one ledger. Delivery should reuse OpenHouse issue, evidence and follow-up concepts without changing the production product.
+
+### Risks
+- The list and messaging are now more than two weeks old, so stale contacts and weak follow-through may be mistaken for market rejection.
+- Estate agents may not own enough maintenance workflow pain. Property managers, developers or installers may be better buyers.
+- A bespoke audit can become low-margin consulting unless the scope and delivery time are capped.
+- Consultancy work can distract from Cara unless it has a short stop condition.
+
+### Effort
+Small. Allow one focused outreach block, one follow-up block and a maximum of one day to fulfil the first paid audit. Stop or reposition after ten qualified contacts if there is no reply evidence.
+
+### Market timing
+Timely because narrow workflow services are easier to buy than generic AI transformation, and the portfolio already has property-specific credibility. The test is currently ageing, so execution evidence matters more than additional research.
+
+### Recommendation
+Keep as a seven-day revenue experiment, not a new company or software project. If one paid audit closes and can be delivered in under one day, promote the offer into a repeatable consultancy project. If the ten-contact gate produces no signal, move to the installer or trades segment already documented in [[context/consulting-wedges]].
+
 ## Connected vault notes
 
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]] — source prospect list and outreach script

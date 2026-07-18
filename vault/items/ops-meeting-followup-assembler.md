@@ -42,6 +42,17 @@ P3
 - [[items/ops-daily-sync-digest]] — scheduling hygiene
 - [[context/ops-automation-moc]] — MOC hub
 
+## Incubation analysis, 18 July 2026
+
+### Opportunity size
+The time saving can be high on meeting-heavy weeks, but current portfolio evidence shows customer contact volume is not yet high enough to make this a priority. Its commercial value is indirect: faster follow-up improves conversion and reduces dropped commitments.
+
+### Technical approach, risks and effort
+Start with transcript or notes to a draft recap, explicit action list and proposed calendar hold. Keep sending and scheduling behind approval. Medium effort is driven by Gmail and Calendar permissions, identity mistakes and the need to link commitments back to the correct company and item. The core risk is confidently sending an inaccurate commitment.
+
+### Market timing and recommendation
+Timely as supervised workflow automation, but premature relative to Cara quality measurement and live customer outreach. Keep P3 and promote only when at least five external meetings per week make the manual cost visible. It may later reuse Cara post-call artefacts rather than require a separate ingestion path.
+
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]

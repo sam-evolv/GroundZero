@@ -44,6 +44,17 @@ P1
 - [[Daily/<date>]] — output goes here
 - [[briefs/wiki-refiner-2026-06-26]] — refiner context
 
+## Incubation analysis, 18 July 2026
+
+### Opportunity, risks and timing
+At 20 to 30 minutes saved per day, the direct return is roughly two hours a week, plus earlier detection of delivery or data risks. The main danger is duplication: the existing daily portfolio brief and sync digest already cover much of this output. A second reporting layer would increase reading and maintenance without creating new decisions.
+
+### Technical approach and effort
+Use one evidence collection pass, one canonical structured snapshot and multiple thin views only where audiences genuinely differ. Medium effort becomes small if this is folded into the existing daily portfolio job rather than built separately.
+
+### Recommendation
+Do not promote as a standalone project. Merge its useful per-company sections into [[items/ops-daily-sync-digest]] and [[items/ops-project-state-reconciler]], then archive this proposal if no distinct user or decision contract can be named.
+
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]

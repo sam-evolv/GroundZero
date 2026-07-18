@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-07-13"
+updated_at: "2026-07-18"
 ---
 
 # Ideas Index
@@ -38,6 +38,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 |---|---|---|---|
 | [[items/ob-no-show-deposits]] | Refundable deposits to kill no-shows | L | proposed |
 | [[items/ob-no-show-deposit-workflow]] | Automate deposit + reminder sequence | M | proposed |
+| [[items/ob-no-show-deposit-proof-sprint]] | Validate deposit policy and economics with five venues | S | proposed 🔥 |
 | [[items/ob-realtime-availability]] | Live venue calendar sync | L | pr_ready |
 | [[items/ob-venue-health-radar]] | Venue churn health score | M | proposed |
 | [[items/ob-cancellation-waitlist]] | Auto-fill from waitlist | M | proposed |
@@ -50,6 +51,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/renew-grid-automation]] | Automate grid export reporting | M | proposed |
 | [[items/renew-compliance-portal]] | Client compliance portal | M | proposed |
 | [[items/renew-compliance-reporting-automation]] | Auto-build compliance packs | M | proposed |
+| [[items/renew-reporting-source-baseline]] | Baseline one live reporting cycle before automation | S | proposed 🔥 |
 
 ## Consultancy / quick revenue
 
@@ -68,8 +70,16 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/ops-daily-report-pack]] | Daily reporting per company | P1 | proposed |
 | [[items/ops-weekly-status-pack]] | Weekly cross-company brief | P2 | proposed |
 | [[items/ops-index-maintenance-bot]] | Auto-maintain items/_Index.md | P2 | proposed |
-| [[items/ops-capture-inbox-refinery]] | File capture inbox scraps | P2 | proposed |
+| [[items/ops-capture-inbox-refinery]] | File capture inbox scraps | P2 | building |
 | [[items/ops-meeting-followup-assembler]] | Post-meeting recap + scheduling | P3 | proposed |
+
+## Promotion recommendations, 18 July 2026
+
+- [[items/ob-no-show-deposit-proof-sprint]] is mature enough for a bounded validation project after the OpenBook live-state refresh. A full payments build remains gated on venue commitment, conversion and policy evidence.
+- [[items/renew-reporting-source-baseline]] is mature enough for a bounded discovery project. It should precede the three Renew automation and portal proposals.
+- [[items/ops-project-state-reconciler]] is project-worthy as internal infrastructure after Cara's P0 measurement gap. Fold daily reporting, ageing and weekly views into one evidence pipeline rather than creating parallel projects.
+- [[items/ops-capture-inbox-refinery]] is already implemented and is now marked building. Consolidate [[items/ops-source-to-wiki-ingest]] into the same knowledge-ingestion path.
+- [[items/cara-phase0-m1-live-call]] remains a sub-milestone of [[items/cara-founder-voice-dogfood]], not a separate commercial project.
 
 ## Cross-references
 

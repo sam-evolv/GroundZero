@@ -43,6 +43,17 @@ P1
 - [[context/ops-automation-moc]] — MOC hub
 
 
+## Incubation analysis, 18 July 2026
+
+### Opportunity size
+This has high portfolio leverage because stale state is already affecting decisions: OpenBook and Evolv have not been live-refreshed since 1 July, while OpenHouse checks are current. Better reconciliation reduces repeated research and prevents work being prioritised against old facts.
+
+### Technical approach, risks and effort
+Create a source hierarchy, compare timestamped live observations with canonical claims, and draft minimal patches with provenance. Never overwrite unresolved contradictions. Medium setup effort is justified only if the reconciler distinguishes unknown, blocked and unchanged states. The central risk is converting an unavailable check into a false statement that nothing changed.
+
+### Market timing and recommendation
+Agentic operations increase the value of reliable shared state, but correctness matters more than automation breadth. This is mature enough for a bounded internal project after Cara's P0 measurement gap. First scope should cover only project_state timestamps, GitHub facts and explicit unavailable checks.
+
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[context/dashboard]]

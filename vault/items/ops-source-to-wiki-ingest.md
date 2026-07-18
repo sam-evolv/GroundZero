@@ -48,6 +48,17 @@ P1
 - [[context/llm-wiki-pattern]] — the pattern this implements
 - [[context/ops-automation-moc]] — MOC hub
 
+## Incubation analysis, 18 July 2026
+
+### Opportunity, risks and timing
+A trustworthy source-to-wiki path compounds every research and operating workflow by preserving provenance and reducing rediscovery. The risk is also portfolio-wide: an incorrect synthesis can spread into decisions, briefs and agent prompts. This is timely because source volume and agent output are rising, but much of the capture path is already implemented by the wiki refiner.
+
+### Technical approach and effort
+Use content hashes, source metadata, note-type schemas, explicit confidence and a review queue for contradictions. Keep raw imports immutable. Medium effort remains for duplicate detection and evidence-linked updates, but the routing layer should reuse the current refiner rather than become a second pipeline.
+
+### Recommendation
+Merge this proposal with [[items/ops-capture-inbox-refinery]] as one knowledge-ingestion project. Do not build or schedule a competing writer. Promotion is justified only if one owner, one implementation and measurable routing precision are defined.
+
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-06-26]]
