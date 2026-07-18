@@ -35,6 +35,11 @@ The bottleneck remains measurement, not transport: Cara’s accepted quality bar
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/daily-agentic-value-radar-2026-07-17]]
 - [[briefs/daily-portfolio-brief-2026-07-18]]
+- [[context/agentic-value-creation-mission]]
 - [[context/index]]
+- [[decisions/cara-founder-dogfood-voice-first]]
+- [[items/cara-founder-voice-dogfood]]
+- [[project_state/cara]]
 
