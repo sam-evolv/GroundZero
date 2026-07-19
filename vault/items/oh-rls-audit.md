@@ -54,6 +54,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-portfolio-brief-2026-07-16]]
 - [[briefs/daily-portfolio-brief-2026-07-17]]
 - [[briefs/daily-portfolio-brief-2026-07-18]]
+- [[briefs/daily-portfolio-brief-2026-07-19]]
 - [[companies/openhouse-ai]]
 - [[context/dashboard]]
 - [[goals/oh-v2-launch]]

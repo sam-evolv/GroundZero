@@ -61,6 +61,18 @@ Promote the automation into a project if:
 - expected setup and three-month maintenance cost is lower than six months of saved labour or creates clear sales value;
 - exceptions and approval ownership are documented.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/daily-portfolio-brief-2026-07-19]]
+- [[briefs/solar-installer-workflow-analysis]]
+- [[companies/evolv-renewables]]
+- [[goals/renew-pipeline]]
+- [[items/renew-compliance-portal]]
+- [[items/renew-compliance-reporting-automation]]
+- [[items/renew-grid-automation]]
+- [[project_state/renew]]
+
 ## Recommendation
 
 This is mature enough to become a bounded discovery and validation project. It should precede both compliance automation and the portal, and it may reveal that the two existing automation notes should be consolidated.

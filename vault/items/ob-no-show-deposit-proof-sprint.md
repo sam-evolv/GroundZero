@@ -60,6 +60,20 @@ Promote the deposit workflow into a delivery project if:
 - refund, release and exception paths can be specified without ongoing manual intervention;
 - at least two venues state a price or retention commitment tied to the result.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/daily-portfolio-brief-2026-07-19]]
+- [[companies/openbook]]
+- [[context/dashboard]]
+- [[goals/ob-retention]]
+- [[items/ob-cancellation-waitlist]]
+- [[items/ob-no-show-deposit-workflow]]
+- [[items/ob-no-show-deposits]]
+- [[items/ob-realtime-availability]]
+- [[items/ob-venue-health-radar]]
+- [[project_state/ob]]
+
 ## Recommendation
 
 This is mature enough to become a bounded validation project after the OpenBook live-state refresh. It is the correct bridge between the existing deposit idea and a full payment build.

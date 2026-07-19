@@ -58,6 +58,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-portfolio-brief-2026-07-16]]
 - [[briefs/daily-portfolio-brief-2026-07-17]]
 - [[briefs/daily-portfolio-brief-2026-07-18]]
+- [[briefs/daily-portfolio-brief-2026-07-19]]
 - [[companies/openbook]]
 - [[context/dashboard]]
 - [[goals/ob-retention]]

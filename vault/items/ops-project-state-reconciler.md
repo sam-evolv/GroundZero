@@ -56,7 +56,6 @@ Agentic operations increase the value of reliable shared state, but correctness 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
-- [[context/dashboard]]
 - [[context/ops-automation-moc]]
 - [[context/review-workflow]]
 - [[decisions/ground-zero-canonical]]
