@@ -54,7 +54,8 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/daily-portfolio-brief-2026-07-18]] — prior daily portfolio review
 - [[briefs/daily-agentic-value-radar-2026-07-18]] — current agentic capability and leverage review
 - [[briefs/daily-agentic-value-radar-2026-07-17]] — prior agentic capability and leverage review
-- [[briefs/wiki-refiner-2026-07-18]] — current vault refinement report
+- [[briefs/wiki-refiner-2026-07-19]] — current vault refinement and graph-health report
+- [[briefs/wiki-refiner-2026-07-18]] — prior vault refinement report
 - [[briefs/planet-satellite-opportunity]] — satellite imagery cross-domain bridge
 
 ## Current picture
