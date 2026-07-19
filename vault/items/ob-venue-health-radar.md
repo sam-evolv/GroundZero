@@ -56,6 +56,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/ob-supply]]
 - [[items/ob-cancellation-waitlist]]
 - [[items/ob-loyalty-points]]
+- [[items/ob-no-show-deposit-proof-sprint]]
 - [[items/ob-no-show-deposit-workflow]]
 - [[items/ob-no-show-deposits]]
 - [[project_state/ob]]

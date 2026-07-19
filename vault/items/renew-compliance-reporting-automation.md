@@ -66,6 +66,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-daily-sync-digest]]
 - [[items/renew-compliance-portal]]
 - [[items/renew-grid-automation]]
+- [[items/renew-reporting-source-baseline]]
 - [[project_state/renew]]
 
 

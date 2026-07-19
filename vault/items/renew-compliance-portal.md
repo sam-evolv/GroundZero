@@ -54,7 +54,9 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/renew-pipeline]]
 - [[items/renew-compliance-reporting-automation]]
 - [[items/renew-grid-automation]]
+- [[items/renew-reporting-source-baseline]]
 - [[project_state/renew]]
+
 
 ## Recommendation
 Treat as the productized follow-on to the automation work. If the first automation lands cleanly, this becomes a credible upsell and differentiation angle.

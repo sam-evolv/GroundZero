@@ -770,5 +770,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-15]]
 - [[briefs/wiki-refiner-2026-07-16]]
 - [[briefs/wiki-refiner-2026-07-17]]
+- [[briefs/wiki-refiner-2026-07-18]]
 - [[companies/openhouse-ai]]
 

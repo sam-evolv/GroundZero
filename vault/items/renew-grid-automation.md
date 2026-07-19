@@ -58,6 +58,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/renew-pipeline]]
 - [[items/renew-compliance-portal]]
 - [[items/renew-compliance-reporting-automation]]
+- [[items/renew-reporting-source-baseline]]
 - [[project_state/renew]]
 
 

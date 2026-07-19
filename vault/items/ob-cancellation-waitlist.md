@@ -56,6 +56,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[companies/openbook]]
 - [[goals/ob-retention]]
 - [[goals/ob-supply]]
+- [[items/ob-no-show-deposit-proof-sprint]]
 - [[items/ob-no-show-deposit-workflow]]
 - [[items/ob-no-show-deposits]]
 - [[items/ob-realtime-availability]]

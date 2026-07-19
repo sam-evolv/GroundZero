@@ -57,6 +57,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/dashboard]]
 - [[goals/ob-retention]]
 - [[items/ob-cancellation-waitlist]]
+- [[items/ob-no-show-deposit-proof-sprint]]
 - [[items/ob-no-show-deposits]]
 - [[items/ob-realtime-availability]]
 - [[items/ob-venue-health-radar]]

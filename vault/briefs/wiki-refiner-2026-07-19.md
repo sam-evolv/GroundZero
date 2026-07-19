@@ -1,11 +1,11 @@
 ---
-title: Wiki Refiner 2026-07-18
+title: Wiki Refiner 2026-07-19
 kind: wiki_refiner_brief
-date: "2026-07-18"
-ran_at: "2026-07-18T08:32:56+01:00"
+date: "2026-07-19"
+ran_at: "2026-07-19T02:15:01+01:00"
 ---
 
-# Wiki Refiner 2026-07-18
+# Wiki Refiner 2026-07-19
 
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
 
@@ -56,11 +56,6 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - Keep the raw source in `imports/` so provenance stays intact.
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
-
-
-## Notes that link here
-_Auto-generated: updated by wiki-refiner_
-- [[context/index]]
 
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.

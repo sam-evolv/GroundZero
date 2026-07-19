@@ -29,11 +29,11 @@ updated: "2026-07-15"
 | [[items/oh-onboarding-cut|Cut agent onboarding to three screens]] | 95 | M | 🔥 |
 | [[items/oh-production-migration|Stabilise production migration and drop backup tables]] | 95 | S | 🔥 |
 | [[items/ops-daily-sync-digest|Daily ops sync digest and anomaly check]] | 92 | M | 🔥 |
+| [[items/ob-no-show-deposit-proof-sprint|Validate OpenBook no-show deposits with five venues]] | 91 | S | 🔥 |
 | [[items/ops-pr-issue-ageing-escalator|Auto-escalate stale PRs and issues]] | 90 | S | 🔥 |
 | [[items/ob-no-show-deposit-workflow|Automate OpenBook deposits and no-show prevention]] | 88 | M | 🔥 |
 | [[items/ob-no-show-deposits|Add refundable deposits to kill no-shows]] | 88 | L | 🔥 |
 | [[items/ops-daily-report-pack|Assemble daily reporting packs for each company]] | 88 | M | 🔥 |
-| [[items/ops-project-state-reconciler|Reconcile project_state and company memory from live signals]] | 87 | M | 🔥 |
 
 ## 🟢 Monitoring
 
@@ -49,8 +49,8 @@ updated: "2026-07-15"
 |---|---|---|---|---|
 | Cara | 2 | 0 | — | 🟡 |
 | OpenHouse AI | 1 | 11 | Lift new-agent activation to 60% | 🟡 |
-| OpenBook | 1 | 4 | Reach 500 live venues in Dublin | 🟡 |
-| Evolv Renewables | 0 | 3 | Sign three commercial rooftop deals | 🟢 |
+| OpenBook | 1 | 5 | Reach 500 live venues in Dublin | 🟡 |
+| Evolv Renewables | 0 | 4 | Sign three commercial rooftop deals | 🟢 |
 
 
 ## 🧭 Navigate
@@ -63,4 +63,4 @@ updated: "2026-07-15"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-07-18 08:32 IST
+- Dashboard: 2026-07-19 02:15 IST

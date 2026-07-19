@@ -148,5 +148,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/renew-pipeline]]
 - [[items/renew-compliance-reporting-automation]]
 - [[items/renew-grid-automation]]
+- [[items/renew-reporting-source-baseline]]
 - [[people/sam-donworth]]
 

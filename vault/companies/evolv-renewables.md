@@ -51,6 +51,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/renew-compliance-portal]]
 - [[items/renew-compliance-reporting-automation]]
 - [[items/renew-grid-automation]]
+- [[items/renew-reporting-source-baseline]]
 - [[people/sam-donworth]]
 - [[project_state/renew]]
 
