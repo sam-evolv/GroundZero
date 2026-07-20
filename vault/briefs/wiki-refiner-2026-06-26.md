@@ -67,6 +67,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-16]]
 - [[briefs/wiki-refiner-2026-07-17]]
 - [[briefs/wiki-refiner-2026-07-18]]
+- [[briefs/wiki-refiner-2026-07-19]]
 - [[companies/openhouse-ai]]
 - [[context/automation-ideas]]
 - [[context/autonomous-business-launch-loop]]

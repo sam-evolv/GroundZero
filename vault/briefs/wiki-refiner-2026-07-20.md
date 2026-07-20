@@ -1,11 +1,11 @@
 ---
-title: Wiki Refiner 2026-07-15
+title: Wiki Refiner 2026-07-20
 kind: wiki_refiner_brief
-date: "2026-07-15"
-ran_at: "2026-07-15T02:15:53+01:00"
+date: "2026-07-20"
+ran_at: "2026-07-20T02:15:33+01:00"
 ---
 
-# Wiki Refiner 2026-07-15
+# Wiki Refiner 2026-07-20
 
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
 
@@ -40,14 +40,16 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - [[briefs/cara-starter-product-spec]] (38)
 - [[briefs/wiki-refiner-2026-07-12]] (34)
 - [[briefs/wiki-refiner-2026-07-13]] (34)
+- [[briefs/wiki-refiner-2026-07-18]] (34)
 - [[briefs/wiki-refiner-2026-07-14]] (33)
-- [[briefs/cara-world-class-product-route-research-2026-07-13]] (32)
-- [[companies/openhouse-ai]] (241)
-- [[briefs/wiki-refiner-2026-06-29]] (122)
+- [[companies/openhouse-ai]] (242)
+- [[briefs/wiki-refiner-2026-07-15]] (124)
 - [[briefs/wiki-refiner-2026-06-27]] (63)
+- [[briefs/wiki-refiner-2026-06-29]] (63)
 - [[briefs/wiki-refiner-2026-06-28]] (62)
-- [[briefs/wiki-refiner-2026-06-26]] (61)
-- [[briefs/wiki-refiner-2026-06-30]] (61)
+- [[briefs/wiki-refiner-2026-07-17]] (62)
+- [[briefs/wiki-refiner-2026-06-26]] (16)
+- [[briefs/wiki-refiner-2026-06-30]] (16)
 - [[briefs/wiki-refiner-2026-07-01]] (16)
 
 ## Suggested follow-ups
@@ -55,35 +57,6 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - Keep the raw source in `imports/` so provenance stays intact.
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
-
-
-## Notes that link here
-_Auto-generated: updated by wiki-refiner_
-- [[briefs/cara-starter-product-spec]]
-- [[briefs/cara-world-class-product-route-research-2026-07-13]]
-- [[briefs/openhouse-chatgpt-deck-rebuild-context]]
-- [[briefs/openhouse-claude-design-final-polish-prompt]]
-- [[briefs/openhouse-energy-assistant-wedge]]
-- [[briefs/openhouse-energy-investor-deck-draft-v0]]
-- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
-- [[briefs/openhouse-investor-readiness-operating-plan]]
-- [[briefs/wiki-refiner-2026-06-26]]
-- [[briefs/wiki-refiner-2026-06-27]]
-- [[briefs/wiki-refiner-2026-06-28]]
-- [[briefs/wiki-refiner-2026-06-29]]
-- [[briefs/wiki-refiner-2026-06-30]]
-- [[briefs/wiki-refiner-2026-07-01]]
-- [[briefs/wiki-refiner-2026-07-12]]
-- [[briefs/wiki-refiner-2026-07-13]]
-- [[briefs/wiki-refiner-2026-07-14]]
-- [[briefs/wiki-refiner-2026-07-16]]
-- [[briefs/wiki-refiner-2026-07-17]]
-- [[briefs/wiki-refiner-2026-07-18]]
-- [[briefs/wiki-refiner-2026-07-19]]
-- [[companies/cara]]
-- [[companies/openhouse-ai]]
-- [[project_state/cara]]
-
 
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.
