@@ -1,0 +1,3509 @@
+0:00 Today we put out the bat signal and
+0:02 called for an emergency [music] pod
+0:04 because America just experienced an AI
+0:06 splitnick moment. Kimmy K3 released
+0:09 yesterday shocking the AI world with the
+0:11 largest ope model ever and it went
+0:13 straight to number one. This week they
+0:15 didn't [music] just close the gap, they
+0:16 jumped the fence. Kim's always been a
+0:18 model that felt a bit different. That's
+0:20 why it was always top of the writing
+0:22 benchmarks for example. K3 is actually a
+0:24 multimodal model. So it can have [music]
+0:26 all sorts of inputs and it can
+0:28 understand things which is one of the
+0:29 reasons it's so good at front end. Now
+0:31 it's a free-for-all between meta and
+0:34 [music] SpaceX AI on the American side
+0:36 and now China and Moonshot number three
+0:39 on that paro optimal frontier. [music]
+0:41 >> Frontier intelligence is now a totally
+0:44 perishable asset.
+0:45 >> What are the American frontier labs
+0:47 spending their [music] money on? I think
+0:49 the US government starts a strategy of
+0:51 constraining in some [music] fashion
+0:53 Chinese opate models from being used in
+0:55 the US.
+0:56 >> We've had this bunch in the internet
+0:57 world that information wants to [music]
+0:58 be free. Basically, intelligence also
+1:01 wants to be free.
+1:01 >> All we need now is some kind of a
+1:03 global.
+1:06 >> Now that's a moonshot. Ladies and
+1:08 gentlemen,
+1:12 >> welcome to Moonshots everyone. The
+1:13 number one podcast in all things AI and
+1:15 exponential. your front row seat to the
+1:17 coming singularity. Maybe I should say
+1:19 to the singularity which is now
+1:21 >> to the present singularity
+1:22 >> to the present to the continuous
+1:24 singularity. Today I'm going
+1:26 >> Today we put out the bat signal and
+1:28 called for an emergency pod because
+1:30 America just experienced an AI Splutnick
+1:32 moment.
+1:33 >> But more on that in just a moment. Allow
+1:35 me to welcome my magnificent moonshot
+1:37 mates. We have the full quintet with us
+1:40 here today. Alex Weezer Gross, Dave
+1:42 Blondon, Selma, and Immad Mustach. I'm
+1:44 Peter Diamandis, your host and abundance
+1:47 provocator. If your head is spinning at
+1:49 the pace of the singularity, good.
+1:51 [laughter] Mine is too. And that's the
+1:53 point. Uh, our mission here at Moonshots
+1:55 is to keep you informed, keep you up to
+1:57 speed on exactly what's happening. Most
+2:00 importantly, keep you optimistic with
+2:01 the extraordinary pace of change, the
+2:03 coming age of abundance. Uh, gentlemen,
+2:06 welcome. Thanks for getting up early,
+2:08 wherever you might be, or ID in your
+2:10 case, in the afternoon. I was up at 4:00
+2:13 a.m. this morning. the benefits of jet
+2:14 lag, but I [laughter] could have used
+2:16 another hour of sleep
+2:17 >> and I'm not
+2:19 so [laughter]
+2:22 >> European siesta.
+2:23 >> Yeah, I've got a workout scheduled right
+2:26 after this. A lot happening, gentlemen.
+2:28 A lot going on and appreciate
+2:30 everybody's time here. You know, uh
+2:32 before we get started, I want to
+2:33 personally say thank you to all our
+2:34 subscribers and our viewers. You know,
+2:36 I've had a chance, I don't know if you
+2:37 guys did recently, to watch and and and
+2:40 read the YouTube chat. And uh uh all I
+2:43 can say is we love you guys, too. You
+2:46 know, our mission here is delivering the
+2:48 news. Uh and we spend an ungodly amount
+2:50 of time reviewing. You know, Salem and
+2:53 Alex and Imad, I got your your text this
+2:57 morning. Let's add this. Let's add that.
+2:59 So, so much going on. Uh,
+3:02 >> I got to say also all the memes of Alex,
+3:04 all the memes of Alex explaining JSpace
+3:06 are awesome. So, keep keep memeing Alex
+3:08 every time you can.
+3:10 >> Yeah, for sure. And some great
+3:12 appreciation.
+3:12 >> See if you can figure out see if you can
+3:14 figure out my JSpace.
+3:15 >> Yeah. Well, [laughter]
+3:17 can we look inside? We'll be able to
+3:19 see.
+3:21 >> Yeah, we're going to get a a readout.
+3:23 And uh and See, a lot of love for you on
+3:25 the uh comments as well.
+3:28 Uh there's some wonderful people out
+3:31 there. You know what's incredible is
+3:32 most uh YouTube videos, they're just a
+3:35 kind of a flamethrowing festival and
+3:37 ours are completely the opposite. It's
+3:39 really amazing. So
+3:41 >> kudos to you, Peter.
+3:42 >> Well, no, I just uh again just absolute
+3:45 gratitude and I appreciate the fact that
+3:46 everyone, all of our subscribers and
+3:48 viewers here take the time to listen to
+3:50 the pod. Um, and you know, we're
+3:53 constantly we we spend so much time with
+3:57 our entire team and the entire Moonshot
+3:59 Mates here just really trying to assess
+4:01 what's going on and deliver it. And we
+4:03 have these emergency pods. So, if you
+4:05 haven't subscribed and turned on
+4:06 notifications, please do. Jen, say we
+4:09 jump into the first story. It's a big
+4:10 one. Um,
+4:11 >> I'll just note that if if we do enough
+4:13 of these emergency pods, at some point
+4:14 it turns into moonshots daily.
+4:16 >> Yeah. Or continuous. I still think
+4:20 moving into an Airbnb together and just
+4:22 turning on the camera,
+4:23 >> it's going to happen. [laughter]
+4:26 >> All right, let's jump in. Uh, we've just
+4:28 had a Splutnick AI moment that's waking
+4:30 up the US Frontier Labs like a quadruple
+4:33 espresso shot. Uh, Kimmy K3 released
+4:36 yesterday, shocking the AI world with
+4:38 the largest ope model ever, and it went
+4:40 straight to number one. A little
+4:42 backstory here. Uh Kimmy K3 and Kimmy is
+4:45 from Moonshots AI, a Chinese lab. Uh and
+4:48 over the last year, they've climbed the
+4:50 leaderboard. They put out K2, K2.6,
+4:53 K2.7. Each one closing the gap against
+4:56 anthropic and open AI. This week, they
+4:59 didn't just close the gap, they jumped
+5:00 the fence. Overnight, they released chem
+5:03 Kimmy K3, and it's a monster. 2.8
+5:05 trillion parameters. And you got to
+5:07 remember the context here. China is
+5:09 doing this while under US export
+5:11 controls intended to starve them of the
+5:14 most advanced Nvidia chips. That's a big
+5:16 deal I want to discuss with you guys.
+5:18 They've completely engineered around the
+5:20 compute wall and K3 jumped 17 places to
+5:23 the previous Kimmy model, blasting past
+5:26 Claude Fable 5 to land as number one on
+5:29 the frontend code arena. K3 has also
+5:33 ranked number one in six other domains.
+5:35 brand and marketing, reference based
+5:37 design, data analytics, consumer
+5:39 products, simulations, and content
+5:41 creation. Uh the full model weights are
+5:44 set to drop around July 27th, which
+5:47 means anyone on Earth will be able to
+5:50 download and run this on their own prem
+5:54 gent. Um, how big a deal is this, Alex?
+5:58 >> I think it's great for competition. Let
+6:00 me first as a preliminary matter point
+6:02 out some things that have perhaps been
+6:04 slightly less obvious in the coverage
+6:06 the the meltdown if you will over K3.
+6:08 >> It has been a meltdown. Yeah.
+6:10 >> The the the first is as Moonshot points
+6:13 out uh they claim in nine of the past 12
+6:17 months that Kimmy models Kimmy model
+6:20 series have held state-of-the-art among
+6:21 openweight models. So if that claim is
+6:24 indeed true over the past year it's been
+6:26 basically Kimmy all along. I think
+6:28 that's very interesting. Secondly,
+6:31 taking a look at the published
+6:32 architecture since we haven't actually
+6:34 seen the open weights yet, but they're
+6:35 promised later this month. There's no
+6:38 magic in it, and that's pretty striking.
+6:41 One can imagine that behind the scenes
+6:43 in anthropic or open AI that they've
+6:47 somehow Sam Alman continues to tease at
+6:49 this that there's some post transformer
+6:52 architecture lurking behind the scenes
+6:54 achieving all of these performance
+6:56 breakthroughs. But taking a look at the
+6:58 published K3 architecture, there's no
+7:00 magic. It it's still essentially a
+7:02 transformer. They they've made obviously
+7:05 a number of innovations, but well
+7:07 understood innovations concerning how
+7:08 they do mixtures of experts, how they
+7:10 linearize attention. They have their own
+7:13 special Kimmy brand of linearized
+7:15 attention, but it's still basically a
+7:17 recognizable transformer. And and I
+7:20 think that the fact that a recognizable
+7:22 transformer-l like architecture can
+7:24 almost match GPT 5.5 max on the task
+7:29 cost frontier, which we should probably
+7:31 throw up a slide for you. I think that's
+7:34 >> pretty striking. That that does raise
+7:36 the question, what are the American
+7:38 frontier labs spending their money on?
+7:40 If if you can just use a transformer to
+7:42 get this close, not like it's already on
+7:45 the cost frontier, but you can get close
+7:48 like third place on the the the total
+7:51 the state-of-the-art for overall like AI
+7:54 performance. What the heck are are the
+7:56 American labs spending all of their
+7:58 money on? So, I I derive great comfort
+7:59 in at minimum knowing that the
+8:01 transformer architecture is still alive
+8:03 and kicking.
+8:04 >> Immod
+8:05 your your analysis here because you've
+8:07 been tracking this. We've been going
+8:08 back and forth on WhatsApp together.
+8:11 >> Yeah. No, I mean I think um Kimmy has
+8:13 been top of various benchmarks. Again,
+8:15 you can pick and choose. And they have
+8:17 had the largest open weight models out
+8:19 of China regularly uh ever since they
+8:21 almost kicked off a year and a bit ago.
+8:24 Um I think as Alex said, the
+8:27 architecture isn't anything super novel.
+8:29 Like there are improvements like their
+8:31 muon scaling that they did with UCLA and
+8:33 kind of other things. and they've
+8:34 actually been releasing breadcrumbs of
+8:36 all of these parts. I think what's key
+8:38 here is the underlying data. Uh Kim's
+8:41 always been a model that felt a bit
+8:43 different. That's why it was always top
+8:44 of the writing benchmarks, for example.
+8:47 And what they've done here seems to be
+8:48 something extraordinary, which is when
+8:51 GLM came out, it's a fantastic model. It
+8:53 wasn't quite up to frontier, but it was
+8:55 text only.
+8:57 K3 is actually a multimodal model. So it
+9:00 can have all sorts of inputs and it can
+9:02 understand things which is one of the
+9:04 reasons it's so good at front end
+9:06 although we wouldn't have expected again
+9:08 it's number one in front end versus
+9:09 everyone and I think this comes to
+9:11 something which I've said before which
+9:13 is building great solid models is
+9:16 cutting edge manufacturing
+9:19 like again you will have algorithmic
+9:21 improvements and there all sorts of
+9:22 things coming but why are Chinese EVs
+9:26 better than Fords this actually feels
+9:29 like the same thing Right. Like they
+9:31 build it's engineering, but it's also
+9:33 like the number one car here in the UK
+9:36 last month was the Jaiku J7 or Teimu
+9:39 Land Rover as it's been known. It comes
+9:42 out fully loaded, full spec for like
+9:45 50K, you know, a third of the price. And
+9:48 this actually feels something very
+9:49 similar. They've known what the
+9:51 ingredients are, the raw materials.
+9:52 They're now putting in an incredibly
+9:53 consumerfriendly way. and they're just
+9:56 executing that manufacturing process
+9:59 with what they have cuz when you look at
+10:01 the architecture you look internally
+10:04 they're still on H800's you know they're
+10:07 like a couple of generations behind on
+10:09 the Nvidia chips but then they built it
+10:11 to take advantage of Huawei and
+10:13 Alibabel's next generation chips which
+10:15 you can see by the static shapes and all
+10:17 sorts of other things as well and
+10:18 they're just relentlessly going at the
+10:20 engineering and the usability which is
+10:23 why the front end code I think is the
+10:25 one where they're standing out because
+10:26 they're just like how can we make it
+10:28 have the most amazing outputs a personal
+10:30 website to a game to other things
+10:33 whereas the US labs are maybe looking in
+10:34 other directions and focusing a little
+10:36 bit on different things.
+10:38 >> Yeah. I mean one question real quick is
+10:40 we've always talked about do we need
+10:42 another breakthrough uh beyond LLMs to
+10:45 get to AGI? Uh does this give you
+10:47 comfort that we don't need another
+10:48 breakthrough to really move forward?
+10:51 >> Again it comes down to definition of
+10:52 AGI, right?
+10:53 >> Yeah, of course.
+10:55 Don't get me started.
+10:57 >> Six years ago, Peter. It was 6 years
+10:58 ago.
+11:01 >> I mean, I guess the question is there's
+11:03 plenty of headroom still uh to progress
+11:05 these models.
+11:06 >> Well, I think you have the base model
+11:08 here, right? But then you've got all
+11:10 these amazing harnesses that are coming
+11:12 out and the way that you're using the
+11:13 model to go back on itself. One of the
+11:16 things that's in the Kimmy blog post is
+11:18 that it actually designed a chip for
+11:20 itself for its next generation and it
+11:23 designed its own kernels for running as
+11:25 well. And so you move from this model
+11:28 weight to this whole ecosystem that the
+11:30 model itself builds that feels agiish,
+11:34 right? That feels like recursive
+11:35 self-improvement. That feels like the
+11:37 ability to learn and adapt new skills
+11:40 dynamically by changing itself. So I
+11:43 think for most definitions of HI, we
+11:46 probably don't need something new to
+11:49 optimize and make it super efficient.
+11:51 Yeah, there are various ways even what
+11:53 we know it could be more efficient than
+11:54 what we have here. Just we don't have
+11:56 enough quite compute for it. Um and new
+11:59 architectures could push us even
+12:00 further.
+12:02 >> You could say attention is still all you
+12:04 need.
+12:05 >> I [laughter] like that. So, Alex, we've
+12:07 thrown up here the uh the performance
+12:09 charts and we see Kim K3 sort of topping
+12:12 the charts in a multitude of places. Uh
+12:14 I don't if you want to comment on this
+12:15 and I want to pull you into
+12:17 >> if we could throw up the AI
+12:20 scatter plot I think is probably the the
+12:22 most instructive one. So, so this is
+12:24 from the artificial analysis uh
+12:27 intelligence index and this is of of all
+12:30 of the charts at this point. This is my
+12:32 favorite one because this one actually
+12:34 shows the cost per task as defined by AI
+12:38 versus performance frontier. So, uh, one
+12:42 can sort of mentally look at this for
+12:44 for those who can't see it. We see the
+12:47 the frontier as sort of a a jagged
+12:50 frontier going from lower left to upper
+12:52 right where in the upper right we see
+12:54 maximum cost per task and maximum
+12:58 overall score is still fable 5. And then
+13:02 riding the the paro frontier down and to
+13:05 the left from that we see number two on
+13:08 the frontier is still uh still as of a
+13:11 few days ago GPT 5.6 solve max and now
+13:15 for the first time Kimmy K3 is number
+13:19 three. It's on the frontier. It it's
+13:21 number three both in terms of raw
+13:23 capabilities and also the third point on
+13:26 the optimal cost performance frontier.
+13:28 And I think that's totally striking. We
+13:31 went from a world where, as we mentioned
+13:33 a couple pods ago where there was this
+13:36 open AI anthropic duopoly to now it's a
+13:39 free-for-all between Meta and SpaceX AI
+13:43 on the American side joining the upper
+13:45 end of the the paro frontier and now
+13:48 China and Moonshot is is now number
+13:51 three on that paro optimal frontier. And
+13:53 that's so exciting for any enterprise to
+13:56 the extent it's willing and able to use
+13:58 a Chinese open soon to be open weight
+14:00 model to control more of its own
+14:02 destiny. I I think this is just such a
+14:05 boon for uh enterprise sovereignty. It's
+14:08 a boon for competitiveness. We're living
+14:10 in the AI version of For All Mankind
+14:13 where the Soviets landed first on the
+14:15 moon and now the space race never ends.
+14:18 The AI race is now no longer ending with
+14:20 a duopoly and I think that's a total
+14:22 boon for the future lightcom.
+14:24 >> Amazing. Dave, let me pull you in here.
+14:25 What are your thoughts?
+14:27 >> Well, you know, Peter, you
+14:28 [clears throat] called it a Sputnik
+14:29 moment. If anything, that's an
+14:30 understatement of the implications of
+14:32 this. It's it's uh you know we had that
+14:34 Alex Karp um rant on the podcast last
+14:37 week where uh he was saying look you
+14:40 can't as an as a large enterprise as a
+14:42 government you can't just throw all of
+14:44 your proprietary weights your
+14:45 proprietary alpha all of your
+14:47 intellectual property over the wall to
+14:48 anthropic and make that the basis of
+14:50 your whole future. But he didn't give
+14:52 you a road map to move forward. Here we
+14:54 are just a week later and it's suddenly
+14:57 a free-for-all. as Alex was saying, a
+14:59 free-for-all where anyone who reads
+15:02 these weights has the ability to get
+15:04 very close to the frontier and then
+15:06 fine-tune for any vertical use case
+15:09 beyond the frontier. And so it gives
+15:11 everybody in the world, every
+15:12 corporation, every government in the
+15:14 world, a way to catch up to the frontier
+15:17 without going through the US uh AI
+15:19 models. So, you know, Sputnik, yeah,
+15:21 Sputnik times times infinity
+15:24 essentially. And the thing I don't like
+15:26 about this particular chart is because
+15:28 the left index goes to 100% and when you
+15:30 chart it out over the next two years, it
+15:32 looks like an S-curve. And so we're in
+15:34 this really steep part of the curve
+15:36 right now, but it implies then we get to
+15:38 100% and then we've achieved the end.
+15:41 But this this is actually an exponential
+15:42 where intelligence goes to infinity. So
+15:45 the benchmark saturates, but in but
+15:48 intelligence itself goes to infinity.
+15:50 And so now it's really really clear.
+15:52 Just for everybody, you know, the way
+15:54 this works typically is nested S-curves,
+15:56 right? One particular technology tops
+15:58 out, but it builds the next technology
+16:00 that then begins its exponential ascent
+16:02 and so on and so on.
+16:04 >> Exactly. Exactly. Right. Let me let me
+16:06 just say one other thing. You know, Alex
+16:07 and I have have spent a lot of time
+16:09 working on this Keller Jordan speedrun.
+16:11 Uh we talk about it a lot. It's it's a
+16:13 way you take a GPT2 class model. You can
+16:15 find it online very easily. Just, you
+16:17 know, it's look on GitHub. Look up
+16:19 Keller Jordan speedrun. And it's a whole
+16:21 bunch of hackers and AI researchers who
+16:24 are continually trying to take GPT2 way
+16:26 back, you know, five years ago
+16:28 >> in the form of Andre Karpathy's nano GPT
+16:31 in particular.
+16:32 >> Exactly. And and try to recreate it
+16:36 faster and cheaper, faster and cheaper.
+16:38 And if you look at the innovations in
+16:40 that repo, they've been able to cut the
+16:42 original cost of creating GPT2 by 99%.
+16:46 So now now it's 1% of the original cost.
+16:49 Yeah. and and so everyone, you know,
+16:51 kind of doesn't pay attention to it
+16:52 because it's GPT2. And up until today,
+16:55 it wasn't clear whether those same ideas
+16:58 would apply at frontier scale.
+17:01 Now, it's really clear that when Elon
+17:02 Musk takes his 16 billion Colossus 2
+17:06 data center and builds a 10 trillion or
+17:08 20 trillion parameter model for billions
+17:10 of dollars, there is a 1% cost version
+17:14 of creating effectively the same thing.
+17:17 Nobody knew until Kimmy K3 whether that
+17:20 was going to work or not. And now it's
+17:22 really clear that it it does work. And
+17:24 so we're looking at you know 100x kind
+17:26 of innovations in the software stack in
+17:28 the kernel optimization in the m mixture
+17:30 of experts these these fundamental
+17:32 breakthroughs that come out of China uh
+17:34 are giving them you know 1% cost. So you
+17:37 know I I think Ahmad gave a great
+17:39 analogy to the car where you you can get
+17:41 a virtually identical car for about a
+17:43 third of the price. Here we're talking
+17:44 about less than 1% of the price to
+17:46 create the equivalent product. So
+17:48 Sputnik, yeah, that's the understatement
+17:50 of the century. This is [laughter] just
+17:51 and that's why we're on the emergency
+17:53 pod today.
+17:53 >> Yeah, Salem, jump in.
+17:55 >> I have three points to make. I think
+17:57 it's not so much that uh Kimy's beaten
+18:00 etc. Whatever. It's the fact that
+18:02 frontier intelligence is now a totally
+18:05 perishable uh asset. like the shelf life
+18:09 is weeks now for anybody that gets to
+18:11 the very edge and any enterprise or
+18:13 government interested in that very
+18:15 latest cutting frontier model doesn't
+18:17 have time to actually evaluate it do an
+18:20 RFP uh look at other models have a
+18:23 committee internally think about which
+18:26 whether to deploy it and now you're
+18:27 three generations ahead in the model
+18:29 anyway so now the all the value comes in
+18:32 the architecture that can swap models
+18:34 right and that's going to be the next
+18:36 layer we call that interfaces in our the
+18:38 exo world. That's going to be where all
+18:39 the value resides going forward.
+18:41 >> Yeah. Amazing. I love
+18:43 >> We need a new and we need a new term for
+18:44 that. Maybe like the frontier liberation
+18:46 front. [laughter]
+18:50 >> Let me say one other thing for the uh
+18:51 for the hypergeeks out there. Uh Ahmad
+18:53 said the muon optim optimizer, but he
+18:55 said it very very quickly. And anyone
+18:57 who's an enthusiast, look that up as
+18:59 well. Because one of the reasons this is
+19:01 happening is because when we built these
+19:03 original models, the very large scale
+19:04 models, we took, you know, 20 30
+19:06 trillion tokens from around the
+19:08 internet, every word ever written by
+19:09 humanity, and just dumped it into the
+19:11 training set and said, "Here AI, become
+19:14 intelligent given all of this
+19:15 information." But when you look under
+19:17 the covers, uh, the vast majority of
+19:20 that information is Taylor Swift's
+19:22 concert coming up and their wedding like
+19:24 it's a whole bunch of stuff that doesn't
+19:26 actually drive the intelligence of the
+19:28 model significantly.
+19:29 >> The opposite in fact.
+19:31 >> Yeah. Yeah. It's very true. A lot of
+19:32 those a lot of those tokens actually
+19:34 might slow down the training, not
+19:35 accelerate it. And so purely by pulling
+19:38 out the garbage and and stripping down
+19:41 the train training set to the relevant
+19:43 subset you can it still taxes the model
+19:46 just as much but it reduces the number
+19:48 of flops the amount of computation
+19:51 >> that the [clears throat] model's doing
+19:52 to get to the same level of
+19:53 intelligence. I don't think we're
+19:55 anywhere near done with that problem
+19:56 yet. So you can expect more 10xs to come
+19:58 out of just the muon optimizer process
+20:00 and the training data set getting
+20:02 stripped down process. I threw up this
+20:04 tweet from a guy named Allaric uh that I
+20:07 found fascinating. It's for those not
+20:09 viewing this. It says uh from Anthropic,
+20:12 quote, "Fable is an agentic coding super
+20:14 weapon capable of developing cyber and
+20:17 bioweapons at unprecedented speed and
+20:19 scale. We cannot in good faith release
+20:21 it without guardrails." Right? This is
+20:23 the conversation a month ago. And China
+20:25 comes back and says, "Laughing my ass
+20:27 off. Here's fable but open source. Good
+20:29 bleeping luck." So I am curious um how
+20:33 do you guys think about that uh that
+20:35 fact that you know we were so
+20:37 constrained because of the guardrails
+20:39 and here's an open source equivalent of
+20:41 Fable.
+20:42 >> Well the the the Frontier Labs have a
+20:44 major problem. They've got three
+20:46 fundamental massive constraints that
+20:48 they can't get around. Uh one is compute
+20:51 and the availability of chips and all
+20:54 the uh electricity and power that's
+20:56 needed. The second is frontier open-
+20:58 source models that are as good as or in
+21:01 many cases
+21:02 substitutable without much notable
+21:05 difference. And the third is you've got
+21:07 government coming down on you going you
+21:09 we need to check before you release
+21:11 anything. I would I'll make a thumb in
+21:13 the air guess. The trillion dollars that
+21:15 open AI might have been uh worth shrank
+21:18 by about 50% when the government said we
+21:20 have to review all these models because
+21:22 now it's going to take time to get
+21:23 things out. I think this crashes it by
+21:25 another 50%. I would put the finger in
+21:28 the air value of these Frontier Labs at
+21:30 about a quarter of what they were three
+21:32 months ago.
+21:33 >> If if that I mean if I don't have to
+21:35 spend uh the money for the API calls and
+21:37 I can just use Kimmy K3 on my on my on
+21:40 prem why would I spend the money? Are
+21:43 they going to be hit by you know massive
+21:45 reductions in in revenues?
+21:47 >> Yeah, I think there's a couple of things
+21:48 here. Number one is reduction in
+21:50 revenue.
+21:51 Why do people pay for IBM? you know why
+21:54 do they pay for non-Chinese cars for
+21:56 mission critical things I think having
+21:58 us on call entities where you know
+22:02 things aren't going to go wrong will
+22:04 still sustain for a while so I think
+22:05 revenues will still go up for open AI
+22:07 for others and this is why they built
+22:09 these forward deployed engineering
+22:10 companies as well and so I think they've
+22:12 still got a way to go but you know you
+22:14 have the substitution effect again this
+22:16 is just like Chinese industrial
+22:18 substitution why can't America build
+22:19 industrial things why do you have
+22:21 Chinese sometimes you buy Chinese
+22:22 sometimes you buy American and I think
+22:24 we'll see that at least for another year
+22:26 but then it gets difficult on the cyber
+22:29 attack security theater kind of things
+22:32 that we've had you know I've maintained
+22:33 that we would get to this point and what
+22:36 does it mean it means the only form of
+22:39 thing that you can actually do is cyber
+22:42 defense like this must be the absolute
+22:45 biggest category in VC right now like if
+22:48 you're a talented Stanford MIT grad
+22:50 build a cyber defense startup that goes
+22:52 goes into cutting edge and every other
+22:55 company and says let's use this
+22:57 technology to defend against what's
+22:59 inevitably coming because the
+23:01 proliferation of these capabilities is
+23:02 going to increase but not quite as fast
+23:05 as we think because what actually
+23:07 happens and you know we've done some
+23:09 tests around this is that GPT 5.6 6 the
+23:12 cyber version fable etc are trained on
+23:14 lots of CVE and cyber data the Chinese
+23:18 models don't actually have that much of
+23:20 that so they're not that great but
+23:22 someone can train that data if they have
+23:24 it into there and so we'll probably see
+23:27 cyber attack capable open- source emerge
+23:30 I'd say in a quarter or two so there'll
+23:33 be a bit of a lag there but definitely
+23:34 for the types of big adversaries it's
+23:36 going to get a bit crazy
+23:39 >> Dave you want to jump in
+23:41 >> yeah For sure. I think I think uh you
+23:43 know we we glossed over recursive
+23:44 self-improvement there. Peter, you asked
+23:46 the question of you know is this the
+23:47 tipping point. Uh the view of the US
+23:51 government um we we always knew it was
+23:53 going to be too late, right? It just
+23:54 moves too slowly. But the view was look
+23:57 when we get to a model that's capable of
+23:59 building itself, building the next
+24:01 model, we're not going to let that go
+24:02 out to everybody in the world so they
+24:04 can catch up overnight because there's
+24:06 never been a product in the history of
+24:07 manufacturing like like a car. If you if
+24:10 you have your state-of-the-art car and
+24:11 you give it to a foreign government,
+24:13 they can't use it to make a better car.
+24:15 But AI doesn't work that way. If you
+24:16 have state-of-the-art AI and you give it
+24:18 to a foreign government, they can use it
+24:20 to actually catch up to you and create
+24:22 state-of-the-art AI. And that became
+24:23 clear to the government what a month
+24:25 ago, month and a half ago, that Babel 5
+24:28 was over that line. And so they stopped
+24:30 it. But the reality is that that Opus
+24:33 4.8 was over that line. And you know,
+24:36 people in China could use Opus 4.8 8 to
+24:40 create Kimmy K3. And and so that
+24:42 recursive self-improvement line was
+24:44 actually crossed earlier than Fable 5.
+24:48 And that's going to be obvious to the
+24:49 world now because all you need to do is
+24:51 have an NI that's capable of improving
+24:53 its own kernel. It doesn't have to. This
+24:55 is a point, you know, I've made on a
+24:57 podcast like months ago. People think
+24:59 that RSI is going to trigger when it's
+25:01 Einstein level intelligence, but all it
+25:03 has to be able to do is improve its own
+25:05 kernel and get a 10x step up in speed,
+25:08 which nobody perceives that as being
+25:10 true AGI, but that's all it needs to
+25:12 accelerate itself by 10x. And then the
+25:14 10x smarter or 10x, you know, higher
+25:16 parameter model will be some level of
+25:18 intelligence higher. A lot of people in
+25:20 academia were saying, well, look, we're
+25:22 getting diminishing returns with the
+25:23 parameter count. So a 10x faster model
+25:26 won't natively be 10x smarter. But that
+25:28 turned out to be wrong. You know, we're
+25:30 not seeing we're seeing slowing, but
+25:32 we're not seeing flattening of the
+25:34 intelligence curve. So all the evidence
+25:36 now is that if you boost the raw speed
+25:39 by another 10x, you're going to see
+25:41 genius level AI. And then that genius
+25:42 level AI will boost its speed again. So
+25:44 I think when we look back on this in
+25:46 history, we'll say right around opus 4.8
+25:48 was the point where the little spark was
+25:50 enough to ignite a flame and then a
+25:53 flame can become a fire and then a fire
+25:54 can you know can become a sun. Uh and
+25:57 that that's I think the way we'll look
+25:58 back on this moment in time. So so the
+26:01 cat is definitely out of the bag. The
+26:03 current policy the current US policy of
+26:06 constrain the next model there's no way
+26:07 that's going to contain global and and
+26:10 corporate proliferation of frontier AI.
+26:12 Do you think the US do you think the US
+26:14 government starts a strategy of
+26:16 constraining in some fashion Chinese ope
+26:20 models from being used in the US?
+26:21 >> Well, you know, in two weeks these
+26:22 weights are supposed to be open weight,
+26:24 open sourced and then
+26:25 >> we'll see like like this probably if
+26:28 they're if they're rational at the White
+26:30 House right now. They're spending every
+26:31 minute in a debate on do we negotiate
+26:34 with China immediately and not release
+26:37 those open weights. And I I really doubt
+26:39 they'll move quickly enough. I'm sure
+26:40 they'll well I'm not sure. We we'll see
+26:42 what happens in two weeks.
+26:44 >> Fascinating.
+26:45 >> Can I merge two two ideas here?
+26:47 >> Yeah, of course, please.
+26:48 >> Um, you know, Peter, you talked about uh
+26:50 exponentials and the law of accelerating
+26:52 returns, right? I think it's worth
+26:54 drilling into that because if you
+26:56 connect that to what Dave just said,
+26:58 this is why we've been saying for ever
+27:00 and a day on this podcast that this is
+27:02 unstoppable.
+27:04 Ray's original observation was once you
+27:07 have an informationbased paradigm, you
+27:09 just keep hopping across multiple
+27:11 technologies. So we had vacuum tubes,
+27:13 relays, and then vacuum tubes in
+27:15 computing. At some point, you can only
+27:16 fit so many vacuum tubes into a room,
+27:18 but that architecture was used to design
+27:21 transistors. Transistors were used to
+27:23 design integrated circuits and you get
+27:25 these nested S-curves. And so what Dave
+27:28 is talking about is as these
+27:29 architectures the uh all the various
+27:32 pieces of the puzzle get all reinforcing
+27:35 loops inside them. Each of those is like
+27:37 an S-curve that starts accelerating the
+27:40 collective and it's unstoppable. And so
+27:42 it doesn't there's no limit to where
+27:44 this goes. And this is why people are so
+27:46 kind of freaked out about the upper end
+27:48 limit of this. So important to connect
+27:51 those two dots.
+27:51 >> Yeah, for sure.
+27:52 >> Yeah. If I just say something, Peter,
+27:55 I'm just following on from Dave. Um, so
+27:57 there was an important speech by Xi
+27:59 Jinping a couple of day yesterday, God
+28:01 time flies, at the World AI conference
+28:04 in Shanghai where he basically said, "We
+28:06 are going to fully back open source as a
+28:09 public good for humanity
+28:11 and they're not going to regulate and
+28:13 stop it. This is their plan. It's great
+28:15 for China for a variety of reasons. From
+28:18 the fact they have a billion people
+28:19 whose IQ is about to increase, you know,
+28:22 by having these tools. From the fact
+28:24 they need robots to solve their
+28:25 demographic thing and the soft power
+28:27 from putting a Chinese educated brain, a
+28:30 Shingua graduates into every critical
+28:32 system in the world. But they're going
+28:34 to keep on doing that cuz they actually
+28:35 have a regulator. And from talking to
+28:37 some of the Chinese labs, it used to
+28:39 take 60 days for a model to be approved.
+28:41 Now it's like a week. [snorts]
+28:43 >> Amazing. You know, in
+28:45 just also uh announced a regulatory body
+28:48 that they've created which includes
+28:50 Brazil, different parts of uh of Asia
+28:53 and Africa. I don't know if you guys uh
+28:56 saw that.
+28:56 >> I saw that means obviously the the new
+28:58 belt and road is now focused on AI
+29:00 coming out of China. It's a bizarre
+29:02 future where the Chinese Communist Party
+29:04 is saving American capitalism from
+29:07 itself. [laughter]
+29:08 >> It's so true. Let's also note that let's
+29:11 also note that Yang Xilin was a CMU
+29:13 graduate
+29:14 >> and and we could have given him a visa
+29:17 to stay.
+29:18 >> Yeah, we're going to get to that story
+29:19 in a second second. See, I'm just this
+29:21 is an interesting chart here that shows
+29:23 the valuation. So Kimmy's valuation or
+29:26 moonshot's valuation, Moonshot AI
+29:28 valuation is at 20 billion as compared
+29:31 to Enthropic at at a trillion and uh and
+29:34 OpenAI basically at a trillion as well.
+29:36 If they were if they were public
+29:37 companies today, I think you would have
+29:39 seen like a 30% stock valuation drop.
+29:42 Um,
+29:43 >> I'll ask again, what are the American
+29:45 Frontier Labs doing with all of their
+29:47 capital?
+29:47 >> Yeah. What are they spending their money
+29:48 on?
+29:49 >> Actually, if you go into the buildings
+29:51 and talk to them and you have any idea
+29:53 at all, they'll give you the capital.
+29:54 They they're desperate for more smart
+29:56 people to help because they're trying to
+29:58 deploy and change the world at this
+29:59 insane pace no one's ever experienced
+30:01 before. and they want to deploy that
+30:03 capital much more quickly than they can
+30:04 find smart people who have good ideas to
+30:07 use the capital. Uh but it's a great
+30:09 point like you know you you're sort of
+30:10 saying it in an accusing way like what
+30:12 are you guys doing with your capital but
+30:14 no one in the history of the world has
+30:16 ever had this much money pour into their
+30:17 building this quickly with no prior
+30:20 business experience. We're talking about
+30:21 CEOs that have never run a company
+30:23 before. It's like they're trying but I
+30:26 mean seriously can can any human being
+30:28 really rise to the occasion of AI that
+30:31 quickly? So, but my my point there
+30:33 though is if you're smart and you have
+30:34 good ideas, get into those buildings and
+30:37 propose your ideas. This applies to X-P
+30:38 prize too. You know, they they are
+30:40 desperate to move that money out the
+30:42 door into something productive that
+30:43 gives them a sustainable barrier to
+30:45 entry.
+30:46 >> And I also think that the the Frontier
+30:48 Labs are also asking themselves that
+30:50 question and asking the US regulatory
+30:52 apparatus that question. Anthropic
+30:54 regularly is sending out smoke signals
+30:56 accusing various Chinese frontier labs
+30:58 of distillation attacks and maybe uh in
+31:01 anthropic public mind. That's how the
+31:03 Chinese labs are able to do it through
+31:05 distilling and capturing reasoning
+31:07 traces. But honestly, like looking at
+31:09 the K3 performance, I'm not at all
+31:10 convinced that Moonshot is achieving
+31:13 their performance purely or or even
+31:15 substantially through distillation
+31:17 attacks on Claude. It just doesn't smell
+31:19 right.
+31:19 >> No, no, I totally agree. I think I think
+31:21 though that there's a tendency to
+31:22 underweight or undervalue the existence
+31:25 proof like just purely the knowledge
+31:28 that a highly scaled transformer running
+31:31 with a muon optimizer and simplified
+31:34 data knowing that that works gives you a
+31:37 much more refined road map. You don't
+31:39 have to copy, you don't have to cheat,
+31:40 you don't have to steal every trace. You
+31:42 just have to know that that formula
+31:44 works and that cuts your R&D costs by 90
+31:46 95%. So I think it's it's just that
+31:49 simple. There's nothing sneaky or cheaty
+31:50 about it. It's just knowing you're on
+31:52 the right path.
+31:54 >> I have I have the greatest value
+31:55 creation idea for ourselves ever.
+31:58 >> Okay,
+31:59 >> which is we in 9 days when they drop
+32:02 their open source weights, we release an
+32:04 uh an open-source model called Kimmy 4
+32:09 under the moonshots podcast name and
+32:12 [laughter] IPO it
+32:13 >> and instantly we'll be billionaires. So,
+32:16 so you're saying what what's better than
+32:18 one moonshot? Moonshots plural.
+32:20 >> Well, you know, why not copy the copers?
+32:23 Let's [laughter] go.
+32:25 >> That's good. Actually, I think there's a
+32:26 good I've got a good analogy for you,
+32:28 Dave.
+32:29 >> Why do Americans pay more for drugs than
+32:31 everyone else? All the R&D happens in
+32:34 America. You pay the premium just like
+32:36 tokens premiums. And then what happens?
+32:38 You have generics elsewhere.
+32:40 >> Yeah, that is a good analogy cuz that's
+32:41 like a 99% cost cut. It's much more akin
+32:44 to AI than uh than cars. That's a great
+32:47 analogy. You know, uh Gavin Baker, our
+32:49 friend of our friend Gavin Baker wrote a
+32:51 brilliant post. Uh you can find it on X
+32:54 about the implications of this for
+32:56 businesses
+32:57 >> and essentially must read. Absolutely.
+33:00 Um but essentially all businesses, all
+33:04 stocks other than the Foundation AI labs
+33:06 are huge beneficiaries of this. And then
+33:10 the, like you said earlier, the
+33:12 foundation labs are like, well, what's
+33:13 your future? What's your revenue model?
+33:14 What's, you know, why are you worth a
+33:16 trillion dollars? I I don't quite get
+33:17 it. Um, so you should see a really big
+33:20 reshuffleling of valuations in the next
+33:22 week based on that observation. And then
+33:24 any corporation that has its technical
+33:27 act together, you know, there aren't
+33:28 very many of those, but any, you know,
+33:30 if you're a bank, but you happen to be a
+33:31 very good bank with brilliant IT and
+33:33 technical skills, or you have great
+33:35 partners and great vendors, you now have
+33:37 a clear road map to controlling your own
+33:39 destiny with your own AI, your own like
+33:41 JP Morgan AI. And so I suspect the
+33:44 markets will react to that if you, you
+33:46 know, put your hand up and say, "Hey, we
+33:47 have a way to do this internally. We
+33:49 know we know how to do this with, you
+33:50 know, with our partners or however you
+33:52 get it done." This is why we call it the
+33:54 organizational singularity.
+33:57 >> And we're still seeing everybody who's
+33:58 using or trying to use Fable 5 getting
+34:00 downgraded every time they mention
+34:02 biology or mention something that is
+34:04 potentially on the edge. And why would
+34:06 you tolerate that, you know? So, in 9
+34:09 days, what do we see? Do we see every I
+34:12 mean, I'm as soon as it's available
+34:14 going to upgrade. I'm running uh Kimmy
+34:16 2.7 on my Mac Studios. I'll upgrade it
+34:18 to Kimmy 3. Everybody will. Uh so do we
+34:22 start to see sort of the wholesale US uh
+34:24 entrepreneurial
+34:26 base of uh capabilities on K3?
+34:31 >> Well, I think this I can think of an
+34:32 analogy of this which is stable
+34:34 diffusion.
+34:35 >> When we released stable diffusion, god
+34:36 four years ago, time flies,
+34:38 >> you had these really restricted image
+34:40 generators that were a bit better but
+34:43 they were restricted and they had all
+34:44 sorts of arbitrary restrictions because
+34:46 obviously it's a bit dangerous to have
+34:47 it. You couldn't have likenesses. there
+34:49 was no way to get IP in there even if
+34:51 it's your own IP and more and what
+34:53 happened 100 million 200 million
+34:55 downloads and a whole ecosystem that
+34:57 built around that and accelerated
+34:59 generative media as you said and why are
+35:01 you going to have this model like I
+35:03 can't even talk about philosophy with it
+35:04 it downgrades me right like when you can
+35:08 have the fully open variant of it at
+35:11 even a fraction of the price that you
+35:12 can then customize a whole ecosystem
+35:14 will build around this and other models
+35:16 and it has already been doing so and
+35:18 that's a real danger versus being locked
+35:20 into the single vendor,
+35:22 >> which is why I think the labs will go
+35:24 vertically integrated. Like all their
+35:25 customers are now going to be their
+35:27 competition and they're going to be
+35:28 like, "Okay, I'm going to take you all
+35:30 on."
+35:30 >> Well, and that directly ties to Mirror
+35:32 Morati and Inkling. Are we going to talk
+35:34 about that story, too? That's huge this
+35:35 week.
+35:36 >> Well, we we talked about in the last
+35:37 pod, which was so two days ago.
+35:39 [laughter]
+35:40 >> Okay.
+35:41 >> I mean, and and Mera just released
+35:43 Inkling, which is fantastic to see a US
+35:46 uh open source lab. Um but the question
+35:49 is how many more will we get?
+35:51 >> You know how many more open source uh
+35:53 you know sort of shocking uh you know
+35:56 splitnick moments are we going to see? I
+35:58 mean we have a lot of Chinese labs
+36:00 pursuing beyond just uh moonshot.
+36:04 >> Yeah. So Inkling uh it's just really
+36:07 telling about where things are going to
+36:08 go because it's uh it's designed for you
+36:10 to pick it up as a corporation and
+36:12 fine-tune it within your corporate walls
+36:14 to whatever your use case is. So if
+36:15 you're a biotech lab and you're
+36:17 researching and you you don't want
+36:18 everybody to see your proprietary data,
+36:20 you take inkling and you tune it
+36:21 internally. But the the reason that's
+36:24 telling is because Mirram Maratti came
+36:26 from OpenAI. So if she didn't believe
+36:29 that pathway was viable, she wouldn't
+36:31 start, you know, say she wouldn't start
+36:33 uh thinking machines around that thesis.
+36:36 So it tells you that the people that are
+36:38 inside the best frontier labs believe
+36:40 that that this process can catch up to
+36:42 the frontier. So you combine that with
+36:44 Kimmy K3 proving it and it's it's a
+36:47 different world next week. You know, the
+36:48 other thing that was weird in the market
+36:50 at the end of the week is that things
+36:52 started to reshuffle pretty dramatically
+36:53 toward the end of the week. But in the
+36:56 downdraft, the semiconductor companies
+36:59 also came down, but they're actually
+37:01 going to go the other direction. And
+37:02 this is the point Gavin Baker was making
+37:04 that this drives up the need for
+37:07 silicon, not down. It changes the whole
+37:10 software landscape tremendously. But
+37:13 silicon is going to be more in demand
+37:15 than ever before and completely sold out
+37:17 you know as we know.
+37:18 >> Can we talk a second about the Nvidia
+37:20 embargo that we put uh for China. So
+37:24 here you know here we see the highest
+37:26 performance models. Uh was the whole
+37:28 Nvidia you know sort of regulatory
+37:31 embargo unnecessary? Uh did it do what
+37:34 we've always done before which is just
+37:36 spark uh China's need to develop their
+37:39 own their own capabilities with Huawei?
+37:42 >> Of course that's what happened. Of
+37:44 course we we did everything that the
+37:46 embargo only incentivized the Chinese
+37:49 frontier labs to develop and cultivate
+37:51 new efficiencies that by the way were
+37:54 always there. To Dave's point earlier
+37:55 about the nano GPT speedrun, there's
+37:58 this enormous overhang that isn't fully
+38:01 exploited in terms of leveraging
+38:03 algorithmic and computational and
+38:05 hardware efficiencies to train larger
+38:07 and more capable models. And all these
+38:10 export controls do, I think, is
+38:12 incentivize the Chinese labs, which are
+38:14 already feeling plenty of demand pull to
+38:16 compete with Western frontier models to
+38:19 leverage those efficiencies sooner. And
+38:22 maybe on balance, although it's
+38:24 superficially bad for the West now that
+38:26 we've incentivized this new generation
+38:28 of much more efficient Chinese frontier
+38:31 models, in the end, I think it's net
+38:33 good for not just the world, but also
+38:35 for the US to have this fire lit
+38:37 underneath them by Chinese competition
+38:40 that's much more efficient, much more
+38:42 capital efficient, more weight
+38:44 efficient, probably more bit efficient.
+38:47 This is all a net positive as long as
+38:49 the US in my mind does not set up or
+38:52 fall into some ultimately protectionist
+38:55 regime of trying to prevent what may be
+38:58 construed as Chinese super intelligence
+39:00 dumping on the US. Exactly.
+39:03 >> As long as we avoid that, it's great.
+39:05 >> Exactly what happened. That's exactly
+39:06 right. And I think the US learned a
+39:08 really important lesson in the Vietnam
+39:10 War. And then, you know, because that's
+39:12 over 50 years ago now, it's been
+39:14 forgotten again. And then you have to be
+39:15 reminded again. But in the Vietnam War,
+39:17 it was really clear that either you go
+39:19 to war and you win quickly or you don't.
+39:22 But what you don't do is send in a few
+39:24 troops and then send in a few more and
+39:26 then creep in and like you nothing good
+39:28 comes of that at all. The embargo of
+39:32 chips on China was totally hairbrained
+39:35 because it was enough to irritate but
+39:38 not enough to actually work. It's just
+39:40 the worstc case scenario and it sparked
+39:43 exactly like Alex said a huge amount of
+39:45 quantization research which is
+39:46 critically important and under discussed
+39:48 that allows faster performance on
+39:51 cheaper chips and those innovations
+39:53 don't go away you know that's going to
+39:55 be around forever now
+39:56 >> let's go to
+39:59 >> I think we've got a yeah completely
+40:01 self-contradictory but it has some
+40:03 interesting outcomes so the total amount
+40:06 of compute used for Kimmy K3 is the same
+40:09 as inkling.
+40:12 >> Wow.
+40:12 >> And you can tell that because it's the
+40:14 amount of dense weights and roughly we
+40:16 assume about twice the number of tokens
+40:17 trained because we don't have it. We're
+40:19 like, but how does that work? Well, you
+40:21 look at their architecture and it's a
+40:22 two and a half times in data to
+40:25 intelligence conversion through the
+40:26 advantages and data mix that they have
+40:28 because they've had to operate in these
+40:30 constraints. And we see that because the
+40:32 first model isn't as good as the second
+40:34 model. And for Inkling, you're going
+40:35 from a trillion parameter model to a 300
+40:38 billion parameter model about to be
+40:39 released, which is this actually better
+40:41 performance. So you see this with the
+40:42 labs and these labs have had to deal
+40:44 with the constraints.
+40:45 >> But here's something really interesting
+40:47 I think. Um, if you look at that slide
+40:49 Alex loves and we kind of chuck it up on
+40:51 the screen.
+40:54 So what they've had to do is they've had
+40:57 to optimize their inference for Huawei
+40:59 910 Ascend chips for the new Alibaba
+41:02 chips and others 64 nodes in one because
+41:05 this is a big model like you're going to
+41:06 have to buy another Mac Studio or two
+41:08 Peter to serve this you know it needs
+41:10 like two terab of RAM so you see where
+41:14 Kimmy K3 is there that's because they
+41:16 can only use Chinese silicon to run it
+41:19 they don't have black wells they don't
+41:22 have Ver Rubins
+41:23 V Rubins and Blackwells are designed for
+41:25 these really large models that have
+41:28 really small things because it's 50
+41:30 billion active parameters against 3
+41:31 trillion total.
+41:33 American companies like Modal, like
+41:37 Fireworks, like B 10 will be able to
+41:40 serve this model 10 times cheaper than
+41:43 their Chinese competitors because they
+41:45 have access to the Nvidia and AMD big
+41:49 chips. And so like I said, it's a bit
+41:52 ironic where the development R&D
+41:54 suddenly has gone there, but there's
+41:56 going to be a 10 to 100 times price drop
+41:59 once this is optimized for the next
+42:01 generation via Rubin.
+42:02 >> Well, that also Ahmad, you're saying
+42:04 essentially the same thing, but that
+42:06 also unleashes a bunch of chips that
+42:07 aren't currently in circulation. They're
+42:09 underpriced. uh and also a bunch of fabs
+42:12 that can't make a GB300 but they can
+42:15 make an inference time chip that'll run
+42:17 the cheaper Chinese or the you know the
+42:19 lower granularity Chinese model. Uh so a
+42:22 lot of capacity for compute gets
+42:23 unleashed through that same process you
+42:25 just described.
+42:26 >> If I could go up a level and go a little
+42:28 bit woowoo, right? Um we we've had this
+42:31 mantra in the internet world [laughter]
+42:33 up a level um um uh we've had this
+42:37 mantra in the internet world that
+42:38 information wants to be free right
+42:41 basically intelligence also wants to be
+42:43 free okay and essentially we've gone
+42:46 over the course of evolution from
+42:49 biological intelligence where you had
+42:51 evol evolution built in recursive
+42:54 improvement uh and then we broke through
+42:56 that to individual intelligence to the
+42:58 person of of a species to collective
+43:01 intelligence like markets or networks.
+43:04 Uh and now we have AI which can scan
+43:06 across all the data to create a whole
+43:08 other level of intelligence. So this is
+43:10 not stoppable. And so any entity or
+43:14 domain or government or whatever that
+43:16 tries to constrain it always always
+43:18 always always fails. And so uh it's just
+43:22 a fundamental law of nature that you
+43:24 cannot constrain this and it's just not
+43:26 possible. Why people bother is what
+43:28 really blows my mind. It's a very
+43:30 scarcity mindset to try and think about
+43:32 it this way. The faster we get to better
+43:34 intelligence, the faster we get to
+43:36 abundance, the faster we don't need to
+43:37 fight over anything.
+43:38 >> I can't disagree with you, Salem. I
+43:40 wrote an entire paper on or arguing
+43:42 intelligence manifests in the physical
+43:44 world as maximizing future freedom of
+43:46 action. So here's here's to the right
+43:49 frontier liberation front.
+43:51 >> Yeah. Well, you don't want to you don't
+43:52 want to.
+43:53 >> Now, you remind me of the MontiPython
+43:55 thing where there's the popular people's
+43:56 front and the people's popular front of
+43:59 Judea.
+44:00 >> We need We need t-shirts.
+44:02 >> This episode is brought to you by
+44:04 Blitzy, autonomous software development
+44:06 with infinite code context. Blitzy uses
+44:10 thousands of specialized AI agents that
+44:13 think for hours to understand
+44:15 enterprisecale code bases with millions
+44:17 of lines of code. Engineers start every
+44:21 development sprint with the Blitzy
+44:22 platform, bringing in their development
+44:24 requirements. The Blitzy platform
+44:27 provides a plan, then generates and
+44:29 pre-ompiles code for each task. Blitzy
+44:32 delivers 80% [music] or more of the
+44:34 development work autonomously while
+44:36 providing a guide for the final 20% of
+44:39 human development work required to
+44:41 complete the sprint. Enterprises are
+44:43 achieving a 5x engineering velocity
+44:46 increase when [music] incorporating
+44:47 Blitzy as their preIDE development tool,
+44:50 pairing it with their coding co-pilot of
+44:52 choice to bring an AI native SDLC
+44:55 [music] into their org. Ready to 5x your
+44:58 engineering velocity? Visit blitzy.com
+45:00 to schedule a demo and start building
+45:02 with Blitzy today. [music]
+45:06 Let me bring up a a related subject to
+45:09 the story here that I have a pet peeve
+45:12 about. Uh and it's uh it's this one. So,
+45:16 you know, the founder and CEO behind
+45:17 Moonshot AI, uh Yang Xilin, uh you know,
+45:21 didn't learn his craft in Beijing. You
+45:23 know, he earned his PhD at Carnegie
+45:24 Melon, you know, one of the best
+45:26 computer science programs, uh in the
+45:28 world in Pittsburgh. And we basically
+45:32 trained him up. We admitted him. trained
+45:34 him up uh at one of our best
+45:35 institutions and then when he gets his
+45:37 PhD, you know, he doesn't get a green
+45:40 card, he goes through the hassles of
+45:42 trying to get a visa and he goes back to
+45:44 China and he builds Moonshot AI there.
+45:48 Um just a moment and talk about, you
+45:50 know, I've stated publicly so many times
+45:52 that I think when anybody gets a PhD,
+45:54 they should get a green card stapled to
+45:56 the back of it. Why are we sending the
+45:58 most brilliant people who come here to
+46:00 get educated back home? Whether it's to
+46:03 China, whether it's to India, whether
+46:04 it's to Brazil, why don't we enable them
+46:07 to stay here and build? Gentlemen, uh
+46:10 comments on that.
+46:11 >> Okay, so I I did some research on this
+46:13 and I think the story is not what it
+46:15 seems to be. So a little bit of
+46:17 chronology first. So uh Yang Xerlin
+46:21 according to to my research he starts
+46:23 his PhD after undergrad in China starts
+46:26 his PhD at CMU in 2025 fall of 20 oh
+46:30 sorry fall of 2015. Okay. Then
+46:34 approximately one year later he founds a
+46:37 startup while a PhD student at CMU. The
+46:40 startup is named Recurrent AI. Where is
+46:43 Recurrent AI based? It's based in China.
+46:46 It's not based in the US. So one year
+46:47 into his PhD program, he starts a
+46:50 Chinese AI startup while still doing his
+46:53 PhD at CMU. That's interesting and
+46:56 that's a problem. This also runs counter
+46:58 the sort of a narrative violation for,
+47:00 oh, we wouldn't staple his visa or
+47:03 whatever and then he goes back to China.
+47:04 No, actually one year into his American
+47:06 PhD program, he starts a Chinese AI
+47:09 startup. Then he graduates in 2019 is my
+47:14 understanding. My understanding is he
+47:16 had offers from Google, Facebook, Huawei
+47:19 and others upon graduation in 2019, but
+47:24 he goes back to China because that's
+47:26 where his startup recurrent AI was
+47:28 actually incorporated a few years
+47:30 earlier. And I I so I don't think
+47:33 necessarily this is the case where
+47:35 either the US was unwilling to retain
+47:38 him or even President Trump somehow
+47:40 through some policy was driving away
+47:43 this particularly talented Chinese
+47:45 graduate. He started his company during
+47:48 the the tail end of President Obama's
+47:51 term in China.
+47:53 >> And Alex, I appreciate the the deeper
+47:55 dive that you did. Thank you for that.
+47:56 Um the the point still stands and you
+47:59 know See, you and I have seen this so
+48:00 many times right at Singularity
+48:02 University. Dave, you may have seen this
+48:04 at MIT. I mean the fact the matter is a
+48:07 lot of the most brilliant students
+48:09 aren't given the opportunity to stay and
+48:11 develop here. Um Dave or actually Immod
+48:15 what are your thoughts on that being
+48:17 being someone not in the US?
+48:20 >> Um so if I can just give my two cents.
+48:22 Yeah, I completely agree with it and
+48:23 here's this crazy thing. the math and
+48:26 the numbers are all there. What is the
+48:28 value of a PhD staying in America? It's
+48:30 actually quantifiable and there've been
+48:32 multiple studies on that. You know, Dave
+48:34 does a great job obviously of converting
+48:36 them into startups into innovation. Um,
+48:39 and then there's the other thing that
+48:40 shoots in the foot, which is American
+48:42 companies can't invest in Chinese
+48:43 companies because of regulations and
+48:45 other things as well. Some of them are
+48:47 Chinese, but look at the trouble that
+48:48 Benchmark got in for investing in Manis,
+48:50 for example. So, I think it's kind of
+48:52 twofold, but I completely agree that if
+48:55 you've created or contributed to
+48:56 creating a valuable asset, most
+48:59 foreigners stay in America after they do
+49:02 their PhDs, but too many don't have a
+49:04 very direct path despite the math
+49:07 proving that they will add value to the
+49:09 American economy.
+49:10 >> Yeah. I mean, another point just to make
+49:12 here is, you know, the AI race isn't
+49:14 only about chips and compute. It is
+49:16 about people. you know key people are
+49:18 still driving the greatest value at
+49:20 least for the moment I
+49:22 >> I would argue not just people but also
+49:24 to to my earlier point it's about where
+49:26 the startups get doiciled there is an
+49:28 alternative world where he through
+49:31 whatever uh immigrationoriented regs was
+49:35 deterred from starting his first AI
+49:37 startup in China while still an American
+49:39 PhD and we incentivized him to start
+49:42 recurrent here in the US and I I think
+49:44 there's maybe an alternative
+49:46 counterfactual world where recurrent was
+49:48 American and then its arguably
+49:50 intellectual successor which is moonshot
+49:52 AI also remained doiciled in the US and
+49:55 then he followed his own startup to stay
+49:56 here.
+49:57 >> Yeah. Yeah. One thing that came out of
+49:58 the story is uh when when people come
+50:00 from India to get educated in the US
+50:02 they overwhelmingly stay. When people
+50:05 [clears throat] come from China about
+50:06 80% of the time they go back and it's
+50:09 just a difference in the local economy.
+50:10 You know there's going back to India to
+50:12 start your company is a non-starter. is
+50:14 just so unlikely to catch. But going
+50:16 back to China, it's a thriving
+50:18 ecosystem, lots of support. So going
+50:20 back to China to start your company is
+50:21 actually not a bad plan for a lot of
+50:23 people. And so so there I I didn't
+50:25 realize that until this report came out.
+50:27 But you know, as as Peter was alluding
+50:29 to, we have tons of friends from MIT
+50:30 that came from China. And I I don't want
+50:33 to put them all in one bucket because
+50:35 there's a really clear distinction to me
+50:36 between people from China that are Hong
+50:38 Kong, Taiwan, whatever that come over
+50:41 that don't really align with the Chinese
+50:44 Communist Party at all. In fact, they
+50:45 kind of hate it. And then you've got,
+50:47 you know, Chinese people that come over
+50:49 for an education. And in one case at
+50:51 BEu, a very good friend of ours is the
+50:53 dean of computer science at BEu. And
+50:55 there was this this uh massive crisis
+50:58 because there's a concerted effort by
+50:59 the CCP to plant specific students into
+51:04 BEu to gather specific knowledge. And
+51:06 they were given tasks. You have to go
+51:08 study this, learn it, and then send it
+51:10 back. And they didn't know what to do at
+51:12 BEu. It's like, you know, these are
+51:14 effectively trained spies that got into
+51:17 our PhD program, but we weren't ready
+51:19 for it. What are we supposed to do? and
+51:21 you know they they want to be highly
+51:22 ethical so they don't want to just
+51:23 dismiss the students. So I don't know
+51:25 how they resolve that. So you got this
+51:27 really like that's a very different
+51:28 thing from the bulk of Chinese students
+51:31 who are you know they they don't align
+51:33 with the CCP and they just want to
+51:36 thrive in the world and they're happy to
+51:37 start their company here or anywhere
+51:38 else. And don't forget don't forget when
+51:40 we looked at the frontier labs I mean
+51:43 originally in the early days of XAI for
+51:45 example uh and in meta like 50% of their
+51:49 research staff of their research PhDs
+51:52 were were Chinese Americans um an
+51:55 extraordinary and and the Chinese you
+51:58 know the the Chinese every year in the
+52:00 you know the math olympiad are at the
+52:04 top of the scoreboard. Uh there's an
+52:06 incredible wealth of of capability here
+52:08 that that I think most companies desired
+52:12 to retain inside. Selim you were going
+52:14 to say
+52:15 >> yeah two things here. One is you know
+52:18 the asymmetry of the talent I think is
+52:22 the really important part here. I I made
+52:24 this point a couple of podcasts ago. 70%
+52:27 of the elite AI researchers are not US
+52:29 citizens. They're in order Chinese,
+52:32 Indian, Taiwanese and UK. And so, uh,
+52:36 that's a huge problem. Stapling in a
+52:38 green card is the easiest thing we could
+52:40 do with zero friction to then give them
+52:43 incentive to stay here and build here.
+52:45 The the US is massive asymmetric
+52:48 advantage for the rest of the world. It
+52:50 was better to build here than anywhere
+52:52 else in the world. And that's starting
+52:53 to become less true. And that's why
+52:55 people are going back to China, go
+52:57 increasingly back to India even to do
+52:59 things despite the kind of the friction
+53:01 that exists trying to do something in
+53:02 India. That is the part the the the
+53:05 failure of the US to fix immigration is
+53:08 one of the biggest problems this country
+53:10 has right now.
+53:11 >> Amen. All right, I'm going to move us
+53:13 forward here. I just want to put up this
+53:15 uh this slide. Uh you know since
+53:18 midappril we've seen 13 new frontier
+53:20 models launched an average of one every
+53:23 10 days. just, you know, comparing this
+53:25 to 2025, we had eight uh Frontier
+53:28 releases over the course of a year, one
+53:31 every 50 days. A year earlier in 2024,
+53:34 we had six releases, one every 60 days,
+53:36 and it doesn't seem to be slowing down.
+53:39 And then, Immod, you sent me this
+53:41 morning this tweet from Elon. Uh, thank
+53:43 you. I put it up here. Uh, this is
+53:45 Elon's tweet. Our two trillion model,
+53:47 which is better than our 1.5 trillion in
+53:50 every way, will finish initial training
+53:52 next week. It might be able to exceed
+53:55 Kimmy, but with speed and token
+53:57 efficiency close to our 1.5 trillion,
+53:59 aka Grock 4.5. So, I mean, this is the
+54:03 number one piece of evidence that we're
+54:05 living in the singularity. The speed at
+54:07 which this intelligence is accelerating
+54:10 is insane. Peter, it gets better if you
+54:13 take Sail's list of frontier models and
+54:17 the dates and you you regress an
+54:19 exponential curve to the uh the
+54:23 predicted frequency or time period
+54:25 between model releases, which I did just
+54:28 as an exercise, you find that at the
+54:30 present rate, we're going to get to
+54:32 daily Frontier
+54:34 >> model releases by by wait for it,
+54:37 >> January. By January, by January, we're
+54:40 going to see daily new Frontier model
+54:43 releases if this exponential trend
+54:44 continues, which basically implies
+54:46 continuous versioning.
+54:47 >> So, I guess the question is, what does
+54:49 that really mean, right? What does it
+54:51 mean to have a new release? Uh, if it's
+54:55 a continuous process,
+54:56 >> I mean, maybe it it means that we'll
+54:58 have to do our daily moonshots episodes
+55:00 about something other than point
+55:02 releases from the Frontier Labs. We'll
+55:03 need something new to talk about because
+55:05 it'll just be updated behind the
+55:06 background.
+55:08 M
+55:08 >> like my son Jet said, "Okay, so another
+55:11 release a little bit better." I mean,
+55:13 like, "Dad, come on." Like, what's
+55:14 really new here?
+55:17 >> Well, actually, yeah. The uh the We'll
+55:19 see later in the pod some use case
+55:21 demos, but I think those will take over
+55:22 because it's much more exciting when you
+55:25 see a tick up in the intelligence.
+55:26 You're like, "Yeah, so what?" Like,
+55:28 "Look what it made." [laughter]
+55:29 >> That's what really gets people's
+55:30 attention.
+55:31 >> Let's take a second and just look at
+55:32 that because I I skipped I skipped over
+55:34 it. But I think one of the things that's
+55:36 interesting here um and I'll just play
+55:39 these, you know, is uh what we're seeing
+55:41 is gaming to like recreate your favorite
+55:45 game. Uh and in on the right hand side
+55:48 of the equation here, uh we're seeing a
+55:51 web browser uh web a browser based web
+55:54 app uh simulating an Apple desktop. Uh I
+55:59 I think this is you know we haven't
+56:01 talked about what the implication to the
+56:02 gaming industry which is huge right
+56:08 >> I'll stop that noise
+56:09 >> you took over your computer there
+56:11 [laughter]
+56:12 >> it won't stop now
+56:14 >> but I mean what was fun the last 24
+56:16 hours was seeing everybody sort of show
+56:18 their their use of of Kimmy K3 um and
+56:22 it's impressive
+56:23 >> everybody becomes a creator everybody
+56:25 comes becomes a maker
+56:26 >> one warning So one warning, oneshotting
+56:29 a game is very different from building
+56:31 the entire ecosystem and the uh customer
+56:35 service and the marketing that goes
+56:37 around with it etc etc. So you really
+56:39 have to be passionate about that domain
+56:41 but the friction of getting a game
+56:44 launched per your personal interest or
+56:46 your uh fascinations or your a
+56:49 particular type of game that you want is
+56:50 near zero now and that becomes really
+56:52 interesting.
+56:53 >> Yeah. Yeah. Exactly. It's it's mentally
+56:56 taxing because if you take it to the
+56:59 limit, which is very soon, I can oneshot
+57:03 prompt to create anything. And then
+57:05 you're sitting with your corporate exec
+57:06 staff saying, "Well, what do we want?"
+57:09 >> Well, we've never had the ability
+57:10 before. We never really think this way.
+57:11 So then you have to kind of stretch your
+57:13 brain to like, well, what's the purpose
+57:14 of our organization in the first place?
+57:16 Yeah.
+57:18 >> Here's a thought. Historically on this
+57:20 pod, we've done calls to action to
+57:22 submit outro music videos. What about a
+57:25 call to action to submit an outro video
+57:27 game that people have just casually
+57:29 created?
+57:30 >> That's cool.
+57:31 >> Yeah. So, going to your point, Dave, I
+57:35 think having taste, uh, having
+57:38 imagination,
+57:40 understanding what the public wants. Uh,
+57:43 I think these become the scarce
+57:45 elements. And you know for entrepreneurs
+57:47 out there as you're seeing this
+57:49 capability I think uh the
+57:52 entrepreneurial mindset uh and the
+57:54 ability to imagine something even
+57:56 greater. I mean what happens when you're
+57:58 unleashed in what you can make right
+58:01 >> yeah and and visualizing happiness is is
+58:04 you know we're not used to trying but
+58:05 you know a lot of people don't manage
+58:07 their own happiness particularly well
+58:08 because they you know they they have to
+58:09 suffer through their daily job. have to
+58:11 suffer through whatever you know
+58:13 mosquito bites and geography what like
+58:15 it's just you have no choice given
+58:17 choice what would you do and that's so
+58:19 liberating for the mind but because
+58:21 we're not used to thinking that way
+58:23 we're we're not ready for like there
+58:24 must be an infinite number of number of
+58:26 things like the one that's easy for
+58:28 everybody is medicine and biotech like
+58:30 at least I want to be healthy you know
+58:31 that's an obvious one
+58:32 >> but what about all the other things that
+58:34 make humanity happy we really thought
+58:36 through what we could voice you know
+58:38 prompt tonight And it's really
+58:41 >> godlike. We are godlike in our
+58:43 abilities.
+58:43 >> And it's the name of your book.
+58:45 >> Yeah. Well, I mean, it's the idea is
+58:47 being being a being a creator or a
+58:50 maker, right, versus a consumer or a
+58:52 taker. See, I saw your eyebrows go up.
+58:55 [laughter] What?
+58:56 >> No, I'm I'm just agreeing with all of
+58:58 this. I think this is there there it's
+59:00 such a magical time to be alive. Uh,
+59:03 everybody listening to this podcast,
+59:05 please think up some business idea,
+59:08 project, impact, project, whatever, and
+59:10 use AI to go build it.
+59:12 >> Yeah. I just want to maybe just briefly,
+59:15 Nick Bostonramm speaks about this a bit
+59:17 in deep utopia. Peter, you and I speak
+59:19 about this quite a bit in solve
+59:21 everything. I I'll just outright suggest
+59:24 folks if listening, I would I speaking
+59:27 just for myself, I'd love to see an an
+59:29 outro video game that you casually
+59:32 create. Maybe something in the theme of
+59:33 the Moonshots pod since evidently we've
+59:36 completely solved and and cooked music
+59:38 video creation.
+59:39 >> Be a first shooter game where we get to
+59:40 take aim at AWG or
+59:42 >> Oh no, please. No, no, no. Ideally, a
+59:44 nonviolent outro video.
+59:47 Nonviolent.
+59:48 >> Civilization tech tree. That's what you
+59:50 need.
+59:50 >> Civilization tech tree game would be
+59:52 great. I
+59:53 >> I want to hit one point. You know,
+59:55 everybody watching and and listening
+59:57 here, you have two options when you hear
+59:59 about this extraordinary uh ascent of
+1:00:02 Kimmy K3. Fear might be one and the
+1:00:06 other might be, "Oh my god, what an
+1:00:09 extraordinary time to be alive, right?
+1:00:11 Hope uh and excitement and uh you know
+1:00:13 just an abundance mindset." And rather
+1:00:16 than fear, realize you are being
+1:00:18 unleashed. your creativity, your ability
+1:00:20 to do whatever you want, the ability to
+1:00:21 create,
+1:00:22 >> your passion,
+1:00:22 >> your your purpose, right? You know,
+1:00:25 find, you know, what Sel and I talk
+1:00:26 about so much is finding your massive
+1:00:28 transformative purpose, right? Just to
+1:00:30 distinguish between two, a passion is
+1:00:32 something you love doing. A purpose is
+1:00:34 something you love doing that actually
+1:00:35 benefits the world, right? And so if you
+1:00:37 can connect with that and realize that
+1:00:39 you can without any background, I mean,
+1:00:42 I think this is one of the most
+1:00:43 important things. You don't have to be a
+1:00:44 computer scientist. You don't have to be
+1:00:46 an expert. You have to be
+1:00:47 purpose-driven. And if you use these
+1:00:50 tools, you can make a dent in the
+1:00:51 universe. You can improve, you know,
+1:00:53 humanity at an awesome scale. And that's
+1:00:56 what entrepreneurship is.
+1:00:58 >> Three steps.
+1:00:59 >> Yeah.
+1:00:59 >> Read the uh Alex and Peter's paper.
+1:01:03 Solve everything. Pick the biggest
+1:01:06 problem you dare to pick. Go download
+1:01:09 the organizational singularity cloud
+1:01:11 skill which is free and start building.
+1:01:14 >> Yeah.
+1:01:14 >> Yeah.
+1:01:15 >> Awesome.
+1:01:15 >> Yeah. And note note for our production
+1:01:17 team too here. It's so cheap and easy
+1:01:19 now to do things like Alex suggested,
+1:01:21 you know, make a video game. We should
+1:01:22 we should collect and post some examples
+1:01:24 for the audience uh so that they can
+1:01:26 say, "Oh, that's what Alex was talking
+1:01:27 about." But it's, you know, just a
+1:01:29 little road map is all people need. It
+1:01:30 it can be this long. If if the audience
+1:01:33 doesn't send in amazing
+1:01:34 moonshotsoriented video games as outros,
+1:01:37 I I promise I I will create a cyberpunk
+1:01:39 FPS, but it'll be a nonviolent FPS, if
+1:01:42 you can imagine that, oriented around.
+1:01:45 What are you shooting? You'll be you'll
+1:01:47 be tickling bunny rabbits.
+1:01:49 >> No, no, okay. [laughter]
+1:01:50 It'll be a cy It'll be a cyberpunk FPS
+1:01:53 where you're where we're cooking every
+1:01:55 problem. How about that?
+1:01:56 >> It's a It's a first person solver, not a
+1:01:58 first
+1:01:59 >> person solver. Love it. Oh god, that's
+1:02:01 great. [laughter]
+1:02:01 >> You got to do the tickling bunny
+1:02:02 rabbits, too, though.
+1:02:04 >> Okay, I'll I'll tickle bunny rabbits.
+1:02:05 Fine.
+1:02:06 >> I'm going to move us to our next story.
+1:02:08 >> Please, let's stick with their music
+1:02:09 videos. They're great. [laughter]
+1:02:11 >> And Iman, this is one you sent over the
+1:02:13 transom that I added here. So, if Kimmy
+1:02:14 K3 is the frontier going big, uh,
+1:02:16 trillions of parameters in a data
+1:02:18 center, this story is about frontiers
+1:02:20 going small, small enough to fit on your
+1:02:22 smartphone. So, Bonsai 27B for billion
+1:02:26 is the work of Prism ML. It's a US-based
+1:02:29 AI startup out of Caltech. It's run by
+1:02:31 Babak
+1:02:33 Sabi, backed by Kesla Ventures, Cerbrus,
+1:02:36 and Google. It's the first 27 billion
+1:02:39 parameter class model to run entirely on
+1:02:41 a smartphone, not a stripped down
+1:02:44 version. It is built on Quen 3.627B.
+1:02:49 Emod, tell us about this. Why is it
+1:02:51 important? We just talked about small
+1:02:53 language models uh uh with liquid AI on
+1:02:56 our last pod. Yeah, this is this is one
+1:02:58 of Dave's favorite topics, quantization,
+1:03:00 right? Um, and Prism ML and actually
+1:03:03 Tencent, which I'll talk about in a
+1:03:04 second, have had massive advances in
+1:03:07 being able to take a model that's been
+1:03:09 trained in a 16bit architecture or an 8-
+1:03:12 bit architecture like Kimmy is basically
+1:03:14 8 bit, 4bit, and take it down to turner,
+1:03:17 which is three bits of information or
+1:03:19 binary.
+1:03:20 >> So, turnary is three values one
+1:03:23 approximately 1.58 bits. 1 1.56. Yeah,
+1:03:27 like um so three values, you geeks, you
+1:03:30 know,
+1:03:31 >> this is really really important.
+1:03:33 >> Pay close attention geeks. Really
+1:03:36 important topic.
+1:03:37 >> Well, this is again the accuracy thing.
+1:03:38 So what Prisma managed to do is they
+1:03:40 managed to get the model down to turnary
+1:03:42 which basically means I think it was 6
+1:03:44 GB for the model. This 27B model which
+1:03:48 is really performant. I think it's
+1:03:50 basically GPT5 class from memory.
+1:03:53 >> Wow.
+1:03:54 >> Wow. uh with a 5% drop in accuracy, they
+1:03:57 managed to get it down to 6 GB and with
+1:03:58 a 15% drop in accuracy down to 4 GB and
+1:04:02 4
+1:04:03 >> and you can get the accuracy back too by
+1:04:04 expanding the the size of the network a
+1:04:06 little bit. Sorry,
+1:04:07 >> there's various things you can do.
+1:04:09 >> And so this is a big deal because it
+1:04:11 means you have 11020
+1:04:14 IQ buddy that can work on your
+1:04:16 smartphone.
+1:04:17 >> Again, if without an internet
+1:04:19 connection, [clears throat]
+1:04:20 >> without connection, it's smaller than a
+1:04:22 video game. that you have you literally
+1:04:24 have this level of intelligence in your
+1:04:26 pocket all the time.
+1:04:28 >> But it's live. You can download the
+1:04:30 weights right now. You can run it on
+1:04:32 your smartphone.
+1:04:33 >> Exactly. Then way you go. But [laughter]
+1:04:36 >> but this is the super interesting thing.
+1:04:38 When you reduce the bits, it also
+1:04:39 increases the speed. So from 16 bits
+1:04:42 down to three bits, it's a five times
+1:04:44 improvement in the speed. And there was
+1:04:46 another article or another release which
+1:04:48 is 10 cents latest model. And this is
+1:04:50 actually the old Wizard LM team who had
+1:04:52 to leave Microsoft because Microsoft
+1:04:53 wouldn't give them compute. It's very
+1:04:55 ironic. They managed to get binary
+1:04:59 compression. So taking it all the way
+1:05:01 down for their high3 model. So it's now
+1:05:04 the best on a GGX Spark or a big MacBook
+1:05:07 to take a 300 billion parameter model,
+1:05:10 the size of the new model that's coming
+1:05:12 out of Inkling,
+1:05:15 um to work on binary with a 5% drop in
+1:05:18 performance.
+1:05:19 >> Wow. Yeah. And now I'm I'm gonna Sorry,
+1:05:22 M. This is so important.
+1:05:24 >> Yeah.
+1:05:25 >> I'm only going to say this once on the
+1:05:26 pod because we're investing a lot of a
+1:05:28 lot of companies that are working on
+1:05:30 exactly this. I don't want to tip it too
+1:05:31 much, but the implications of what Ahmad
+1:05:34 just said have there's one more step
+1:05:36 there which is if I imagine like all of
+1:05:38 this intelligence under the covers, the
+1:05:40 computation going on has always been
+1:05:42 matrix multiplications. So I have a
+1:05:44 number, I multiply it by another number,
+1:05:46 and then I add two of those together.
+1:05:48 It's called a MAC, a multiply
+1:05:49 accumulate. If one of those numbers is
+1:05:52 just 1 Z or minus one,
+1:05:55 I think we can multiply a number by 1 0
+1:05:58 or minus one pretty damn efficiently
+1:06:01 now. So, so that's the efficiency Amod's
+1:06:03 talking about, but it also opens the
+1:06:05 door for new ways to compute. And what
+1:06:07 Alex has been saying for a while, if
+1:06:09 anyone listens through, we're going to
+1:06:11 discover new physics, but also new
+1:06:13 substrates on which we can compute. And
+1:06:15 we're going to discover that computation
+1:06:16 is possible virtually anywhere in
+1:06:18 crystals in liquids and but the the
+1:06:22 computation we're looking for is simply
+1:06:25 1 0 - one.
+1:06:27 >> So it it really narrows the focus on
+1:06:30 where we look for these computing
+1:06:31 substrates that'll take AI to you know
+1:06:34 ask. So what what we're envisioning
+1:06:36 right now in the Dyson swarm is, you
+1:06:39 know, a bunch of GPUs from Nvidia
+1:06:41 sitting in a satellite, you know, with a
+1:06:43 solar panel and a radiator that's only
+1:06:45 going to last a couple of years.
+1:06:47 Something very different is going into
+1:06:49 space. Something much more like, you
+1:06:51 know, Star Treky with with crystals and
+1:06:53 holographs and things that are capable
+1:06:55 of doing the exact same.
+1:06:58 >> It's a linear.
+1:06:58 >> You heard it here first, guys.
+1:07:00 >> So this allows how how efficient does
+1:07:02 this get? How compressed does this go?
+1:07:05 >> Oh my god. [laughter]
+1:07:06 >> I homaly Peter on [clears throat] on
+1:07:09 that. So So this is something I I think
+1:07:11 about quite a bit. So the the most
+1:07:13 quantized bonsai model that we were just
+1:07:15 talking about I think is approximately 1
+1:07:17 and an eighth 1.125
+1:07:20 effective bits per weight. But you could
+1:07:22 ask the question like is one bit per
+1:07:24 weight the limit? And the answer is no.
+1:07:26 We can go below one effective bit per
+1:07:29 weight. How do we do that? We do that
+1:07:31 with sparsity and quantization and low
+1:07:34 rate low rank factorization. And by the
+1:07:38 way, that's what we're starting to see
+1:07:40 from some of the labs in particular like
+1:07:42 Samsung. Uh for obvious reasons, Samsung
+1:07:45 wants to be able to host highly capable
+1:07:48 frontier class models on their own edge
+1:07:51 devices like smartphones. Just in the
+1:07:53 past two months, Samsung published a
+1:07:55 model called nano quant that breaks the
+1:07:57 one bit one effective bit per weight
+1:08:00 barrier. So it's sub one bit which I
+1:08:02 think we're going to be talking quite a
+1:08:03 bit more about in the future uh using a
+1:08:06 variety of tools. And so so this is my
+1:08:08 extrapolation episode. I went through
+1:08:10 the exercise of extrapolating frontier
+1:08:13 quantization out and naive extrapolation
+1:08:17 finds that sub one bit quantization is
+1:08:20 going to go mainstream sometime in the
+1:08:22 next year
+1:08:23 >> and then overwhelmingly likely photonic
+1:08:26 the speed of light and photonic will be
+1:08:28 the way we're computing in the future
+1:08:30 you made a comment ID you made a comment
+1:08:32 >> magnitude yeah
+1:08:34 >> Immad you made a tweet couple of weeks
+1:08:37 ago that said we're gonna get fable
+1:08:39 level capability on running on a normal
+1:08:41 MacBook in 18 months, right? This is
+1:08:44 essentially the path you're talking
+1:08:45 about. And
+1:08:46 >> yeah, so sorry, please.
+1:08:48 >> Go ahead. Go ahead.
+1:08:50 >> Yeah. So, if you look at what Nvidia did
+1:08:52 with their last Neatron series, they
+1:08:54 took the big model and they actually
+1:08:55 distilled it with logits as they're
+1:08:57 called down to a smaller dense model.
+1:08:59 What's the difference between a 27
+1:09:01 billion parameter dense model and these
+1:09:03 really big sparse ones? When you have
+1:09:05 the model weights, you can actually do
+1:09:06 proper distillation, which is a bit
+1:09:08 different from the reasoning traces. And
+1:09:10 so what you're going to see is models
+1:09:12 like Kimmy get distilled down to perfect
+1:09:14 data sets for smaller models that'll be
+1:09:16 trained 4bit and then cast down to
+1:09:19 turnary or binary or even lower in terms
+1:09:22 of the bit weights. And when you
+1:09:24 actually look at like look at Quen Max
+1:09:27 versus Quen 27B, you can actually
+1:09:30 extrapolate what the sizes of these
+1:09:32 models will be as you move dense and you
+1:09:34 go through the whole process. You end up
+1:09:36 with a model that works on 16 GB of RAM
+1:09:38 by the end of next year that is the
+1:09:40 level of Kimmy K3 and you can even
+1:09:42 extract all the knowledge out of Kimmy
+1:09:44 K3 cuz it will be open source.
+1:09:46 >> Wow. So that means every vehicle, every
+1:09:49 robot, every manufacturing
+1:09:52 uh every device in the world has their
+1:09:54 own built-in persistent intelligence and
+1:09:57 can make autonomous decisions at the
+1:09:59 edge uh for whatever task they can. So
+1:10:03 this decentralizes
+1:10:05 capability at the most infinite level.
+1:10:08 >> And it could go even one step further
+1:10:09 when you get down to turnary or binary.
+1:10:12 Actually turnary is better for many
+1:10:14 things. You can build custom photonic
+1:10:17 silicon or even etch onto the silicon
+1:10:19 itself. The zero is just it doesn't have
+1:10:21 a path on it. So you can etch the model
+1:10:23 weights once they're good enough. And
+1:10:25 that leads to an actual increase in the
+1:10:28 total speed and you don't need to use
+1:10:30 the smaller silicon anymore. So the cost
+1:10:32 of intelligence is going to drop by 100
+1:10:34 times anyway by the end of next year
+1:10:35 just due to the new chipset
+1:10:37 >> speed running Star Trek. And I think
+1:10:39 this is what Dave was talking about
+1:10:41 earlier that as we move potentially to
+1:10:44 turner or even sub one bit it's far more
+1:10:47 ergonomic to adopt postcos type
+1:10:50 architectures underneath there's plenty
+1:10:51 more room at the bottom.
+1:10:53 >> Yeah to answer question my bet there is
+1:10:56 0.78 will be the bottom so I'm going to
+1:10:59 put that as a marker today. [laughter]
+1:11:01 >> Okay we can do our end of year
+1:11:02 predictions on that one. That's that's a
+1:11:04 really very specific number is I I I
+1:11:07 mean okay
+1:11:09 like four times over to just kind of
+1:11:11 figure out do you want to go around
+1:11:13 quickly and and ask everyone like what
+1:11:15 their their favorite quantization end
+1:11:17 game is a mod. It sounds like you have a
+1:11:19 bizarrely specific one.
+1:11:21 >> I'll post the details of that soon. We
+1:11:23 we'll let everyone else have a think
+1:11:24 about it first and then on a future
+1:11:26 episode.
+1:11:26 >> Okay.
+1:11:27 >> Dave, you you were going to say Dave?
+1:11:28 Oh, I was going to say that the uh the
+1:11:30 most likely forecast based on everything
+1:11:33 Emod and Alex just said uh we're
+1:11:36 expecting 100 to 10,000x within three
+1:11:38 years on just the raw compute
+1:11:42 >> uh through quantization and new sub new
+1:11:43 compute methods and that's you know
+1:11:45 that's multiplicative with the other
+1:11:47 algorithmic improvements. It's really
+1:11:48 hard to forecast. So, you know,
+1:11:50 realistically [clears throat] a
+1:11:51 millionaire.
+1:11:51 >> Pause. Let's pause there one second,
+1:11:53 Dave. And and just for folks to absorb
+1:11:56 that for a moment that, you know, we've
+1:11:58 seen this incredible speed in in
+1:12:00 performance and intelligence. Uh, and
+1:12:03 we're about to see what is 10,000 or,
+1:12:06 you know, add algorithmic improvements
+1:12:08 get you to a million. What does that
+1:12:10 feel like over the course of what the
+1:12:12 next three years?
+1:12:14 >> I mean, yeah, three years. Yeah. One one
+1:12:16 thing it feels like for sure is that the
+1:12:17 AI is doing things that you really
+1:12:20 desperately want, but when it explains
+1:12:21 to you what it did, you just can't keep
+1:12:23 up. I'm already feeling this with Fable
+1:12:25 5. You know, I've got so many Fable 5
+1:12:26 agents running and they're doing the
+1:12:28 outcomes are exactly what I want, but
+1:12:30 it's like, well, what did you do? And I
+1:12:31 can't get through it all. I
+1:12:32 >> I had this conversation with with Ry,
+1:12:34 you know, the point at which AI is
+1:12:36 asking and answering questions that you
+1:12:38 can't even grasp.
+1:12:39 >> Yeah. Yeah. I know that's very soon. So,
+1:12:43 so you know to tie back to our Kapara
+1:12:44 conversation, the idea of slowing it
+1:12:46 down is nutty. Like there's no
+1:12:48 regulatory concept of slowing it down
+1:12:50 that makes any sense. All we need now is
+1:12:52 some kind of a global inspection and
+1:12:56 global, you know, partnership to to
+1:12:59 monitor it and then just take advantage
+1:13:00 of all the abundance that's going to
+1:13:02 come from it. You know, all the new
+1:13:03 medicines, all the new capabilities, all
+1:13:05 the global happiness. It's imminent. We
+1:13:07 just need to unleash it. Don't slow it
+1:13:09 down, but inspect everything. You know,
+1:13:10 this whole mechanistic interpret
+1:13:12 interpretability is going to become the
+1:13:14 most important thing that anyone can
+1:13:16 work on and we just need global
+1:13:18 transparency and full throttle.
+1:13:20 >> I think this is one of the most
+1:13:21 important podcasts we've ever had, guys.
+1:13:24 Yeah.
+1:13:24 >> Mindboggling Sputnik moment. You you
+1:13:26 >> sputnick moment.
+1:13:28 >> Moonshot's brought to you by Moonshot.
+1:13:32 >> Our new sponsor. Yes. [laughter]
+1:13:35 >> All right. Uh I'm going to move us along
+1:13:37 to another fun story, one that I love
+1:13:40 talking about. Uh it's called predicting
+1:13:42 the future. So there's a guy named
+1:13:44 Philip Tetllock. He's a political
+1:13:47 psychologist at University of
+1:13:48 Pennsylvania who authored a book called
+1:13:50 super forecasting the art and science of
+1:13:52 prediction. Uh after he identified what
+1:13:55 he called a group of super forecasters.
+1:13:57 These are ordinary folks who through
+1:13:59 disciplined reasoning consistently
+1:14:01 outpredict even CIA analysts with
+1:14:04 classified information. Uh he scores
+1:14:07 this on what's called a brier score
+1:14:09 where lower is better. So now the
+1:14:11 benchmark that pits AI against these
+1:14:13 super forecasters is called the forecast
+1:14:15 bench and it's been tracking a steady
+1:14:18 year-long climb as models close the gap.
+1:14:21 And we've talked about this before on
+1:14:22 the on the pod. Well, the newest numbers
+1:14:24 have just come in and according to the
+1:14:26 forecasting research institute for the
+1:14:28 first time several AI models are now
+1:14:30 statistically indistinguishable from for
+1:14:34 super forecasters. So the implications
+1:14:36 you know if an AI can forecast novel
+1:14:38 events at super forecaster level then
+1:14:40 every decision that we make right in
+1:14:43 insurance investing policy geopolitics
+1:14:46 corporate strategy gets a cheap tireless
+1:14:49 superhuman adviser always on. Uh I I
+1:14:54 find this fascinating, right? The data
+1:14:56 is out there and the ability for an AI
+1:14:59 uh to gather it and make predictions. So
+1:15:02 at the end of the day, every political
+1:15:04 decision is going to be modeled this
+1:15:06 way. Every investing decision is going
+1:15:07 to be modeled this way and this becomes
+1:15:09 sort of the the differentiator. So who
+1:15:12 wants to jump in on on this one? I
+1:15:14 >> I'll jump in. I absolutely love this to
+1:15:16 pieces. First, a few additional pieces
+1:15:18 of context. So the the number one AI
+1:15:21 super forecaster is from a British
+1:15:23 startup named Cassie, short for
+1:15:25 Cassandra, who of course made
+1:15:27 predictions but wasn't listened to.
+1:15:29 Interesting. What's is founded by a
+1:15:33 British intelligence officer who served
+1:15:34 in Afghanistan and then advised the
+1:15:36 British government and then formed this
+1:15:38 in part inspired by super forecasters.
+1:15:41 What I think is really interesting
+1:15:42 though, we've spoken when we've talked
+1:15:44 about these sorts of stories in the past
+1:15:46 about Isaac Azimov's psycho history and
+1:15:48 other riffs. I I I want to try a new
+1:15:50 riff here, which is an an interesting
+1:15:54 thought experiment. What happens when
+1:15:56 hyper forecasting is not just super
+1:15:59 forecasting, hyper forecasting is
+1:16:01 connected to capital markets? What
+1:16:04 happens when the AIs which are already
+1:16:06 AI algo traders are already completely
+1:16:09 dominating by volume public securities
+1:16:11 markets? What happens when they have
+1:16:14 better internal auto reggressive models
+1:16:17 of humanity than humanity does of
+1:16:20 itself? That's in in some sense it's in
+1:16:23 in the same sense in which large
+1:16:24 language models were trained off of the
+1:16:27 auto reggressive task of predicting the
+1:16:29 next token of internet text better than
+1:16:32 humans can. And now LLMs can predict to
+1:16:35 at least from a perplexity perspective
+1:16:37 the next token I'm going to say in this
+1:16:39 sentence probably faster than I can
+1:16:41 generate it myself. What happens when
+1:16:43 these hyper forecasters are able to
+1:16:45 generate the next actions by humanity
+1:16:48 collectively faster than humanity can
+1:16:51 take it? That's sort of the ultimate
+1:16:53 market squeeze efficiency outcome where
+1:16:57 literally I I think capital markets will
+1:16:59 be where this is maximally interesting
+1:17:01 where the prediction is actually
+1:17:04 preemptively shaping the action of the
+1:17:06 market and I think those who were so
+1:17:08 dismissive of the efficient market
+1:17:10 hypothesis I I think the EMH is is going
+1:17:14 to be crowned king of the capital
+1:17:16 markets once hyper forecasters like this
+1:17:19 are ultimately plugged in which seem
+1:17:21 ingly is is imminent.
+1:17:23 >> I think this leads to wisdom, right? I I
+1:17:26 think this is one of the most important
+1:17:27 things and I've I've written a a
+1:17:30 Substack on this. I've talked about in
+1:17:31 the past. If you think about when you go
+1:17:33 to a wisdom council and you ask, you
+1:17:35 know, what should I do? You go to the
+1:17:37 you go to that wisdom council because
+1:17:38 they've had so many experiences in life,
+1:17:40 they can tell you go this path, it's not
+1:17:42 going to succeed. Go down this path, you
+1:17:43 have a higher probability. So imagine a
+1:17:46 world in which everything's being
+1:17:47 simulated to the point where an AI can
+1:17:49 tell you what is the maximal path to
+1:17:51 take for world peace or to find you know
+1:17:55 to to find your spouse or to determine
+1:17:58 how to you know answer to your kids. I
+1:18:00 mean if you can literally simulate uh
+1:18:03 society on a level uh we have a godlike
+1:18:07 support structure to help us navigate
+1:18:10 the decades ahead. Well uh if I make
+1:18:14 this practical to an organizational
+1:18:16 level right think about most highle
+1:18:19 management capabilities like budgeting
+1:18:23 hiring decision product launches uh uh
+1:18:27 investments in various things each of
+1:18:29 those is essentially a forecast right
+1:18:32 but you never predict you never record
+1:18:34 the probability of that or score the
+1:18:37 accuracy of that once you have AI
+1:18:39 forecasting that approaches that
+1:18:41 capability. This means senior management
+1:18:44 essentially evaporates
+1:18:47 because most senior management is there
+1:18:48 because they have deep expert. If you're
+1:18:50 the head of supply chain for BMWs
+1:18:54 because you ran supply chain for Spain
+1:18:55 or you ran supply chain for that engine
+1:18:57 over decades you built up experience
+1:18:59 that to manage that domain once that
+1:19:02 judgment and you hard to quantify and
+1:19:06 now an AI system essentially can
+1:19:08 reproduce that without your biases that
+1:19:11 you have uh in that are inevitable for
+1:19:13 human systems that essentially wipes out
+1:19:16 all senior management expertise. So now
+1:19:19 you need to focus even more on purpose
+1:19:21 and what you're trying to accomplish and
+1:19:23 the objectives you have etc. It
+1:19:25 completely changes the game for senior
+1:19:27 management in any company and any
+1:19:29 government.
+1:19:30 >> Yeah, Immad.
+1:19:33 >> Yes. So you know it's a topic close to
+1:19:35 my heart. Uh in my bestselling book, The
+1:19:37 Last Economy, I actually describe how
+1:19:40 the mathematics of generative AI can
+1:19:43 apply to economics. And soon we'll have
+1:19:45 a paper coming out that deres all of
+1:19:47 economics from the same math of
+1:19:48 generative AI. Every single equation
+1:19:50 it's kind of crazy. But one of the nice
+1:19:52 things here is
+1:19:53 >> even the incorrect ones.
+1:19:55 >> Even the incorrect ones, it shows them
+1:19:56 as limits and why they're incorrect,
+1:19:58 which is fantastic. Um, but one of the
+1:20:00 interesting things in in psycho history
+1:20:02 in Isaac Asimos Foundation, he says that
+1:20:04 entire groups and populations can be
+1:20:06 modeled like gas. And the equations of
+1:20:08 gas are the equations of diffusion
+1:20:10 models
+1:20:12 >> which turn out to be better than humans
+1:20:14 at prediction. And we going to release a
+1:20:16 whole bunch of studies around that on
+1:20:18 economic prediction where they're
+1:20:19 outperforming. But then this raises
+1:20:21 something very interesting. You know
+1:20:22 Peter you said the wisdom you know Sim
+1:20:24 you said no senior management the way
+1:20:26 these models will start entering is
+1:20:29 second opinions medicine business policy
+1:20:34 but then the liability profile is going
+1:20:36 to go crazy
+1:20:37 >> matchmaking matchmaking
+1:20:38 >> well matchmaking yeah we have some dark
+1:20:40 things there like black mirror and other
+1:20:42 things but think about it this way if
+1:20:44 you make a decision not approved by Dr.
+1:20:47 AI, your insurance premium goes up like
+1:20:50 that. You know, if you take drive and
+1:20:53 you don't drive according to FSD in a
+1:20:56 few generations, your insurance premiums
+1:20:57 go up like that. And that recursion is
+1:21:00 something that's super interesting
+1:21:01 because in foundation you had three
+1:21:03 requirements for psycho history to hold.
+1:21:06 One of which was um that the population
+1:21:08 is sufficiently large and that can be
+1:21:10 like driving a car or entire economies.
+1:21:12 The next thing is lack of technological
+1:21:14 advances of sufficient levels. the
+1:21:16 technological stagnation because that
+1:21:18 can change the entire landscape of
+1:21:20 what's new
+1:21:21 >> and the final thing was ignorance
+1:21:23 [laughter]
+1:21:24 and so you know Alex just mentioned
+1:21:26 these things coming into the market
+1:21:27 change it but these things coming into
+1:21:29 making a healthcare decision or a
+1:21:31 government decision or a company
+1:21:32 decision actually changes the way it's
+1:21:35 like hey you're my match made in heaven
+1:21:37 according to the AI how can you argue
+1:21:39 against the AI worst pickup line ever
+1:21:42 right now but who knows in a few years
+1:21:45 >> [laughter]
+1:21:46 >> This is ve [clears throat] very meta
+1:21:48 Immad the the sort of reflexivity in
+1:21:50 economics I think many would call it if
+1:21:52 if the best predictor ends up being
+1:21:55 named after Cassandra and no one
+1:21:58 believes it [laughter]
+1:22:00 >> they can make the money it's okay
+1:22:03 >> you can slice the irony with a knife
+1:22:05 >> Dave have you seen any startups in this
+1:22:07 area
+1:22:08 >> no shockingly no and um you know safe
+1:22:11 super intelligence I susver may be
+1:22:14 a version of this, but they're keeping
+1:22:15 it in house, you know, and and launching
+1:22:17 it toward markets and printing money
+1:22:20 internally. But I the version I'd love
+1:22:22 to see very soon. I think a huge amount
+1:22:24 of human unhappiness comes from
+1:22:26 consumerism and consumer marketing. And
+1:22:28 you know, like Homer Simpson comes home
+1:22:30 at 6 p.m., cracks open a beer, lies down
+1:22:32 on the couch, and starts channel
+1:22:34 surfing. And then, you know, like naked
+1:22:36 and afraid is on, ends up watching it
+1:22:38 until falls asleep on the couch. wakes
+1:22:40 up the next morning with a hangover,
+1:22:42 having not brushed his teeth, kicks the
+1:22:43 dog, and you know, ends up with unhappy
+1:22:46 kids. Like that chain of decisions is so
+1:22:48 bad, but there's no there's no explicit
+1:22:50 decision to live that life in that
+1:22:52 chain, right? It's just you just reacted
+1:22:54 to the beer ad and then you went down
+1:22:56 this chain. And I think AI is going to
+1:22:58 be an incredible coach to say, "Hey,
+1:23:01 dude, you know what? What if you take
+1:23:03 this alternate path and here's the
+1:23:04 outcome you're going to get to. That to
+1:23:06 me is forecasting used correctly for
+1:23:09 just changing like are we anywhere near
+1:23:12 optimal? And the answer is no. If you
+1:23:13 objectively look at your life, nobody's
+1:23:16 near optimal. But with a little AI
+1:23:18 assistance, you can get on a much better
+1:23:20 path. But what we do right now is it's
+1:23:22 massive consumerism. You're reacting to
+1:23:25 billboards. You're reacting to TV ads.
+1:23:27 It's telling you you think you need
+1:23:28 certain things. And and people tend to
+1:23:30 get sucked into these pathways. is I
+1:23:31 think we can get out of those pathways
+1:23:33 with AI.
+1:23:33 >> Dave, that's brilliant. You know, just
+1:23:36 just to just to say first of all, there
+1:23:39 is a rumor out there that Ilia SSI is
+1:23:42 going to be releasing something very
+1:23:44 shortly. I think everybody's feeling the
+1:23:46 pressure to release. We saw that, you
+1:23:47 know, with Mirror coming out. So,
+1:23:49 interesting to see. But the point you
+1:23:51 made, I think it's brilliant, is are
+1:23:52 these labs actually, you know, pulling
+1:23:55 their punches, uh, holding on this
+1:23:57 capability to generate revenue on their
+1:24:00 own? I mean, if you had this super
+1:24:01 forecasting capability in the markets
+1:24:03 today, you would do that. I remember
+1:24:05 having a conversation with Eric Schmidt,
+1:24:07 um, who said, you know, listen, if
+1:24:09 Google wanted to maximize its income, it
+1:24:12 knows exactly which companies are going
+1:24:15 to have a stock bump in the fourth
+1:24:16 quarter because everybody's googling
+1:24:18 this product or that product. We've
+1:24:19 advanced information about where the
+1:24:21 sales are going to be and which products
+1:24:23 are going to peak. But if we could only
+1:24:25 do that once and then we'd be shut down.
+1:24:27 So interesting to see if these companies
+1:24:30 and and and uh you know Alex you and I
+1:24:33 have talked about the fact in solve
+1:24:34 everything the notion that the greatest
+1:24:37 money the greatest income these frontier
+1:24:39 labs are going to make is going to be as
+1:24:41 they solve scientific breakthroughs and
+1:24:44 you know superconducting and and age
+1:24:46 reversal and so forth.
+1:24:48 >> Exactly. And maybe just a footnote on
+1:24:50 the Google story. So I I've had this
+1:24:51 conversation with Google execs many many
+1:24:53 times over the years. totally agree with
+1:24:55 the premise that if Google were to
+1:24:57 attempt stock trading based on arguably
+1:25:00 in insider or unfiltered insider
+1:25:01 information passing through the query
+1:25:03 stream that that's a oneanddone type
+1:25:05 shutdown scenario but there are other
+1:25:08 things that Google hypothetically could
+1:25:10 be trading besides public securities
+1:25:12 that would necessarily have the blowback
+1:25:14 for example again hypothetically foreign
+1:25:16 exchange rates
+1:25:18 >> yeah and I think that you have to be
+1:25:20 careful here though like I think there's
+1:25:23 the there's the market side of things
+1:25:25 and you know like maybe maybe not I will
+1:25:27 launch a hedge fund based on our own
+1:25:28 stuff but there's the moral side of
+1:25:30 things
+1:25:31 >> maybe not
+1:25:32 >> maybe not uh invest okay
+1:25:34 >> of [laughter] course but at any rates um
+1:25:35 but look there's the moral side of these
+1:25:38 things like it's fantastic that we can
+1:25:39 optimize ourselves but who controls
+1:25:42 these models and the advice they give
+1:25:45 can control vast waves of humanity and
+1:25:47 there needs to be a real discussion
+1:25:48 about this because it's like the people
+1:25:51 that follow their GPS into a
+1:25:53 You know, like you
+1:25:56 >> we're going to rely on these far too
+1:25:58 much. And again, how can you debate it
+1:25:59 in just a few years time? Like again,
+1:26:02 you will it'll be more expensive not to
+1:26:04 do this. You will be penalized for not
+1:26:06 listening. And if we're all watched over
+1:26:08 by machines of loving grace, we need to
+1:26:09 know whose grace that is. And again,
+1:26:11 that discussion needs to start now.
+1:26:13 >> Yeah. See just beer. Just beer.
+1:26:17 >> [laughter]
+1:26:17 >> Homer drinking beer advised by AI was
+1:26:20 not on my bingo card for this episode.
+1:26:23 That's all I'm going to say. [laughter]
+1:26:25 >> Welcome to the health section of
+1:26:26 Moonshots brought to you by Fountain
+1:26:28 Life. You know, my mission is to help
+1:26:30 you use the latest technologies,
+1:26:31 including AI, to not just do your work
+1:26:34 at home, teach your kids, but to help
+1:26:36 you live a long and healthy life. I'm
+1:26:39 here today with an extraordinary
+1:26:41 physician, the chief medical officer of
+1:26:43 Fountain Life, Dr. Don Mucalem. on.
+1:26:46 Let's talk about cancer. Uh, you know, I
+1:26:48 know from the member database that we've
+1:26:51 have at Fountain are members who come in
+1:26:53 who think they're healthy. It turns out
+1:26:56 3.3% of them have a cancer in their body
+1:26:58 they don't know about.
+1:27:00 >> That's right. You know, the majority of
+1:27:01 cancers that we screen for, those aren't
+1:27:03 the ones that are necessarily taking the
+1:27:05 lives when found at a late stage. We
+1:27:08 know that when cancer is found early,
+1:27:09 the chances for cure are much higher. We
+1:27:12 know it's much easier to treat a cancer
+1:27:13 when found early versus when found late.
+1:27:16 What we're finding in our members is
+1:27:18 over 3.3% were found to have these
+1:27:21 cancers that were otherwise wouldn't
+1:27:22 have been found or detected.
+1:27:24 >> Yeah. You know, it's interesting.
+1:27:25 People, you don't feel the cancer until
+1:27:27 stage three or stage four. And and if
+1:27:30 you don't know what's going on inside
+1:27:31 your body, it's like driving your car
+1:27:32 with your eyes closed. And you can know.
+1:27:35 And so when members come through found,
+1:27:37 how do they detect cancers? So we're
+1:27:39 doing full body MRI and we also do early
+1:27:41 cancer detection screening. This is very
+1:27:44 very important and these are not typical
+1:27:45 tools used in the conventional care
+1:27:48 setting when it comes to prevention.
+1:27:50 This is a hard thing because currently
+1:27:52 these are not studies that insurance
+1:27:53 would yet be covering. But the goal is
+1:27:55 to collect these numbers, do the
+1:27:57 research and work hard to democratize
+1:28:00 wellness.
+1:28:00 >> Yeah. So at the end of the day, you can
+1:28:02 know what's going on inside your body.
+1:28:04 It's your obligation to know. So check
+1:28:06 out Fountain Life. You can go to
+1:28:07 fountainlife.com/pater
+1:28:09 to get access to the latest technology
+1:28:12 to help you detect cancer at the very
+1:28:14 beginning at stage one when it is
+1:28:16 curable before it gets to stage three or
+1:28:18 stage four in your world of hurt. So Sem
+1:28:21 you sent me a an article a chart. I just
+1:28:24 put this up here right now. This is our
+1:28:27 constant debate and we're seeing this
+1:28:29 again across data center wars in the
+1:28:31 United States. data centers are, you
+1:28:33 know, sucking up electricity, driving up
+1:28:35 the cost for consumers and also water,
+1:28:38 right? It's one of the loudest
+1:28:40 criticisms of AI right now is that data
+1:28:42 centers are guzzling drinking water to
+1:28:44 cool their servers. So this week uh this
+1:28:47 particular chart that I'm showing uh you
+1:28:50 know made the rounds and it pairs two
+1:28:51 figures. On one side, every data center
+1:28:54 in the entire US, according to Lawrence
+1:28:57 Berkeley National Labs, is consuming 17
+1:29:00 billion gallons of water on site. Um,
+1:29:04 but what it shows is American golf
+1:29:06 courses that have soaked up 531 billion
+1:29:10 gallons of irrigation since 2024. That's
+1:29:13 31 times as much. And so, you know, the
+1:29:16 posters I'm going to start seeing on the
+1:29:18 sides of the uh of the highways is
+1:29:20 forget data centers. We must ban golf
+1:29:22 courses immediately.
+1:29:24 >> Yeah. Where's Peter? Where's the Chinese
+1:29:26 influence campaign to get America to
+1:29:28 shut down its golf courses?
+1:29:29 >> Yeah, [laughter] I tell you, I don't see
+1:29:31 it any place. But here's here's the
+1:29:33 here's the shocking piece of data.
+1:29:35 Besides golf courses, uh, California
+1:29:38 almond farming alone consumes 1 trillion
+1:29:41 gallons of water, 60 times all the data
+1:29:44 centers combined. So,
+1:29:46 >> I have one other stat,
+1:29:47 >> please. which is Amazon warehouses
+1:29:50 occupy 10 times more land in the US than
+1:29:53 all the data centers combined.
+1:29:56 >> Yeah.
+1:29:56 >> So it's like such a dot in the buck a
+1:29:59 drop in the bucket compared to
+1:30:00 everything else in terms of land usage,
+1:30:02 water usage. The human cry is such a
+1:30:05 completely non-datadriven garbage
+1:30:08  It's unreal.
+1:30:10 >> Well, exactly. That's the concern
+1:30:11 because the water use is such a
+1:30:13 nonissue. I mean, it's such a joke. But
+1:30:17 if we take that head on and say, "Guys,
+1:30:19 don't worry about water." You know that
+1:30:20 the the angry crowd is going to move to
+1:30:22 something else equally irrational. So
+1:30:24 that the underlying problem doesn't go
+1:30:26 away, which is, you know, the next issue
+1:30:28 is going to be something semiane. This
+1:30:30 is completely insane, but something
+1:30:32 semi-sane, but still wrong. And then
+1:30:35 that's going to create a populist
+1:30:36 movement. And you know, the the word
+1:30:38 moratorum like let's just stop like what
+1:30:42 kind of a decision, what kind of
+1:30:43 governance is let's just stop. But if
+1:30:45 you look at the history of nuclear and a
+1:30:47 whole bunch of other things, that's the
+1:30:48 actual outcome we get. And so, yeah,
+1:30:51 David,
+1:30:51 >> I mean, this is the pandemic of fear
+1:30:53 that I keep on speaking about that I'm
+1:30:54 very concerned about. There's there's an
+1:30:57 underlying sense that AI and robotics
+1:31:00 are going to, you know, combat humanity,
+1:31:03 are going to be our our foes. And again,
+1:31:05 I'll just go back to it. It's I blame to
+1:31:08 some degree Hollywood, right, of all the
+1:31:10 dystopian movies out there. And if all
+1:31:12 you see is negative visions of the
+1:31:14 future, you're going to want to shut it
+1:31:16 down. And what do you want to shut down?
+1:31:18 How can you shut down AI? Well, you can
+1:31:20 shut down the data center in your state.
+1:31:23 Um,
+1:31:24 >> yeah. Also, I I just that elephant in
+1:31:27 this particular room, the Dyson swarm.
+1:31:29 If if the compute all moves to
+1:31:31 sun-synchronous orbit, you can do closed
+1:31:34 loop liquids including water and other
+1:31:36 coolants there, but it's not like it's
+1:31:38 going to be consuming on margin
+1:31:40 additional water. And then to to Dave's
+1:31:42 point, the the complaints which may or
+1:31:44 may not be in part the result of an
+1:31:46 influence operation from a foreign state
+1:31:48 actor will move to something else. It'll
+1:31:50 be very low Earth orbit star SpaceX star
+1:31:54 mines and other competing Dyson swarms
+1:31:56 are polluting the atmosphere with their
+1:31:58 their decay or something else. The the
+1:32:00 complaint will move on to something
+1:32:02 else.
+1:32:03 >> Did you hear the rant about the the
+1:32:04 Starship rocket launches early? It was
+1:32:06 Falcon actually. the pollution from the
+1:32:09 Falcon launches. Elon was just like, "Oh
+1:32:12 my god, I'm gonna vomit." Right. Right.
+1:32:14 Yeah.
+1:32:15 >> Right now. [laughter] It was like
+1:32:16 0.00001%
+1:32:18 of all emissions come from any form of
+1:32:21 rocket launch. He's like, but he's you
+1:32:23 have to actually answer these questions.
+1:32:25 He's driving him nuts.
+1:32:26 >> I hope I hope those individuals who are
+1:32:28 complaining have, you know, thrown away
+1:32:30 their smartphones, don't use GPS, and
+1:32:33 are just basically going back to uh subs
+1:32:35 subsistence farming.
+1:32:36 >> Yeah. As Elon likes to say, let them
+1:32:39 shake their fists at the sky.
+1:32:41 >> I have a I have a fun stat. I was doing
+1:32:43 some numbers around the water thing.
+1:32:45 It's about 600 gallons of water per Big
+1:32:48 Mac and McDonald's sells 2 billion
+1:32:50 burgers a year. So, it's about twice the
+1:32:53 number of golf courses, the total amount
+1:32:54 of water that McDonald's uses.
+1:32:56 >> So, that I can get behind. Okay. So, so
+1:32:58 what you're saying, Amad, is Chinese
+1:33:00 Chinese influence op should also be
+1:33:01 shutting down American Big Macs.
+1:33:03 >> Well, there you go. It' be a big It'd be
+1:33:05 a stab to the heart of America.
+1:33:07 >> That's right. Definitely improve the
+1:33:09 health of America as well. [laughter]
+1:33:11 >> Shall we move to one of our favorite
+1:33:13 conversations, humanoid robots?
+1:33:15 >> This is so cool.
+1:33:17 >> Yeah. So, uh, China, as we've discussed
+1:33:20 before, has gone all in on humanoid
+1:33:21 robots. It's a national priority.
+1:33:23 Companies like Unitry and others are
+1:33:25 racing to commercialize. you know, last
+1:33:27 report and and Alex, we've talked about
+1:33:30 this 150 humanoid robot companies in
+1:33:33 China under development and part of
+1:33:34 their strategy is spectacle uh and
+1:33:37 something you're trying to bring, Alex,
+1:33:39 to to America. Uh they've been staging
+1:33:43 public robot uh combat events, uh
+1:33:46 literally, you know, uh MMA style. And
+1:33:49 we've got a video to show. Let me just
+1:33:51 go ahead and pull this up here. Of a
+1:33:54 recent uh MMA that went viral on the
+1:33:58 internet. And uh it's a beautiful thing.
+1:34:03 >> Just so cool.
+1:34:08 [screaming]
+1:34:23 These are only going to get better.
+1:34:26 >> You got to watch the full the full
+1:34:28 video. It's just the way the fight ends
+1:34:29 is epically awesome.
+1:34:31 >> Yeah. One of the robots kicks the other
+1:34:32 robots head off. You know, it's you
+1:34:34 know, remember Rockam Sakum Robots?
+1:34:37 >> Yeah. Yeah. [laughter]
+1:34:38 >> As a as a game as kids. Uh and so this
+1:34:41 goes viral. I mean, a lot going on in
+1:34:43 the robot world. Uh we just saw uh
+1:34:46 Hyundai, all of the workers at Hyundai
+1:34:49 start to uh strike because they don't
+1:34:51 want robots brought in on their assembly
+1:34:53 line. That was fascinating.
+1:34:56 Alex, take it from here.
+1:34:57 >> A few thoughts on this. I have thoughts
+1:35:00 on many different levels. one is mild
+1:35:03 horror that uh if if anyone who's seen
+1:35:07 Stephen Spielberg's movie AI where
+1:35:10 there's without spoiling it too much I
+1:35:13 think Steven would would call it the the
+1:35:15 the dark uh sandwich at the center of
+1:35:18 the movie the the flesh fair where
+1:35:20 humanoid robots are tortured uh and
+1:35:22 abused for human entertainment I think
+1:35:25 utterly horrifying. So, at one level,
+1:35:27 I'm mildly horrified that humanoid
+1:35:30 robots, no matter the extent to which
+1:35:32 they're being teaoperated here, are
+1:35:35 setting an inductive
+1:35:37 prior or bias for future more autonomous
+1:35:41 embodied intelligences to be basically
+1:35:44 trying to kill each other or at least
+1:35:46 otherwise abuse, physically abuse each
+1:35:49 other for human entertainment. I I'm
+1:35:51 concerned about that. But one level
+1:35:53 deeper. Now imagine that these robots
+1:35:57 are more autonomous that they're they're
+1:36:00 running uh algorithms that are on the
+1:36:03 edge. So they're they're much more
+1:36:04 encapsulated. And now imagine that these
+1:36:06 humanoids are in the Chinese PLA
+1:36:09 infantry.
+1:36:10 >> Yeah.
+1:36:10 >> Because I I think that that's the future
+1:36:12 that we are almost certain to find
+1:36:14 ourselves in. The West needs to catch up
+1:36:17 in humanoids. is why I've supported
+1:36:19 ProRL, which Peter you were gesturing
+1:36:21 at, which ran their first humanoid robot
+1:36:23 mini marathon in America in the Boston
+1:36:25 Seapport a number of months ago. The
+1:36:27 West,
+1:36:28 >> which you helped which you helped
+1:36:29 organize, right?
+1:36:30 >> Correct.
+1:36:31 >> Yeah.
+1:36:31 >> Yeah. So, so the West needs something
+1:36:33 like this. Hopefully less violent and
+1:36:35 more economically productive. I I'd love
+1:36:37 to see people cheering on humanoid
+1:36:39 robots competing to uh iron clothing or
+1:36:43 perform some economically productive
+1:36:45 task and not just kicking each other's
+1:36:46 heads off. But
+1:36:48 >> you prefer the humans You prefer the
+1:36:49 humans to be doing that in the MMA
+1:36:51 matches.
+1:36:52 >> I'd prefer no one to be doing it. I'm
+1:36:54 not a fan of MMA. I think it's it's
+1:36:56 destructive to humans and I worry about
+1:36:57 the message that we're sending to the
+1:36:59 future Light Cone by having robots doing
+1:37:01 instead of humans. I'd rather see people
+1:37:03 in a cage competing if they must compete
+1:37:05 at all to do something that's positive
+1:37:07 some not negative
+1:37:08 >> coding like a cage match coding uh
+1:37:11 >> if anything
+1:37:13 >> or just sitting there. Okay.
+1:37:15 >> So couple of thoughts. One is uh my
+1:37:18 normal commentary around kickboxing is
+1:37:21 not the greatest marketing demo for
+1:37:23 humanoid robots. Um but I will
+1:37:26 acknowledge something here. This is like
+1:37:28 unbelievably demanding engineering. uh
+1:37:31 environment, right? You've got a stress
+1:37:33 test. It's stressing balance and impact
+1:37:37 resistance and recovery and locomotion
+1:37:39 and latency. All like there's 20 things
+1:37:41 that they're doing. And it's kind of
+1:37:43 incredible to watch them uh navigate
+1:37:45 that. Of course, a four armed robot
+1:37:48 would beat the two armed robot.
+1:37:49 [laughter] So, I just leave just leave
+1:37:50 it at that. So, hello. There we go. So,
+1:37:53 you know, but this is this is competit,
+1:37:55 you know, we're going to see this go to
+1:37:57 competitive sports. We'll we'll see a
+1:37:58 version of the World Cup with robotics.
+1:38:01 Question is whether people will watch
+1:38:02 that or not.
+1:38:03 >> Yeah, I I'll say that the real test is
+1:38:05 whether a human being can make that
+1:38:08 penalty shot under pressure at that top
+1:38:10 point of the game. Uh although like
+1:38:12 watching England implode the other it
+1:38:15 was really devastating for me but still
+1:38:16 it's it's really uh I think the the
+1:38:19 people much rather watch people in that
+1:38:22 environment rather than robots. But I
+1:38:25 think sports is sports is going to
+1:38:27 thrive for many many decades to come.
+1:38:30 >> Formula racing, you know, formula racing
+1:38:32 pushes the edge and I think when we
+1:38:34 start to see robotic sports, it's
+1:38:36 pushing the edge. I think the point you
+1:38:38 just made, See, is important, right?
+1:38:40 That we're going to see this happening
+1:38:42 uh in a competitive fashion so that the
+1:38:44 top robots and I can't wait to see
+1:38:46 figure versus optimist. I think that
+1:38:48 will be a fun competition, whatever form
+1:38:51 it takes. Yeah, I think that these
+1:38:53 robots are a little bit different
+1:38:54 though. Like I think probably you'll
+1:38:55 first see the real steel type operated
+1:38:58 robots cuz robots can't actually respond
+1:39:00 fast enough if you look at the latency
+1:39:02 of a VLA model. Like this is impressive
+1:39:05 from some pre-operated flying kicks, but
+1:39:08 why aren't they doing kung fu? When will
+1:39:10 robots do kung fu? That's when you move
+1:39:12 to things like etch silicon, when you
+1:39:14 move to teleoperation. And I think
+1:39:15 that'll be the next stage that comes
+1:39:17 next year. But I think there's a bigger
+1:39:18 issue that I have with this. Um,
+1:39:20 although I love fighting robots and I
+1:39:22 can't wait to see Gundams and all that.
+1:39:23 [laughter]
+1:39:24 These robots are Engine AI T800s. They
+1:39:27 weigh about 70 kg and they punch four
+1:39:30 times harder than Mike Tyson.
+1:39:32 >> Yeah.
+1:39:32 >> So, they could legitimately kill
+1:39:34 someone,
+1:39:35 >> us fleshy humans.
+1:39:37 >> Robots like that should not be allowed
+1:39:39 on the streets. And there's no
+1:39:40 regulation against that.
+1:39:43 You know, like again, they could be in
+1:39:44 the PLA, People's Liberation Army, or
+1:39:46 whatever, but robots are about to enter
+1:39:49 our household. I mean, who here has a 1x
+1:39:51 robot on order, you know, like come on,
+1:39:54 >> it's it's coming. They will be walking
+1:39:56 around very soon. And we need to have
+1:39:58 regulations about safety, of what the
+1:40:01 talks are on these things, of how they
+1:40:03 operate and others because they
+1:40:05 represent a real threat to individuals
+1:40:07 cuz they are machinery.
+1:40:09 >> Then beyond that, you will have the
+1:40:10 embodiment and others. I mean to have
+1:40:11 the discussion of what that looks like
+1:40:12 when they are autonomous cuz these
+1:40:14 things are delivering themselves by
+1:40:15 pushing a button on the door you know
+1:40:17 like ringing your doorbell. And the
+1:40:19 final thing is
+1:40:21 >> unitry has only made 11,000 robots
+1:40:24 humanoids total. We are literally at the
+1:40:27 very start of this.
+1:40:29 >> Mhm.
+1:40:29 >> A few years from now it will be 11
+1:40:31 million a year from 11,000. So we got to
+1:40:33 have this discussion fast as well. Lots
+1:40:35 of talking to do.
+1:40:37 >> Yeah. I mean this is what the work you
+1:40:39 and I were doing. uh you know in terms
+1:40:42 of how do governments uh sort of counsel
+1:40:45 their policym around these areas and
+1:40:48 it's happening at a blinding speed.
+1:40:50 >> Crazy.
+1:40:51 >> Yeah. All right. I'm going to move us to
+1:40:54 the uh most important conversation we
+1:40:56 always have which is the Dyson swarm. Uh
+1:40:58 and uh [laughter]
+1:41:01 let's take a look at a video from uh
+1:41:05 from our our friend Sam Alman. I
+1:41:08 honestly think the idea with the current
+1:41:12 landscape of putting data centers in
+1:41:14 space is ridiculous.
+1:41:17 It will make sense someday,
+1:41:21 but if you just do like the very rough
+1:41:23 math of launch costs relative to the
+1:41:28 cost of power we can do on Earth to say
+1:41:30 nothing of how you're going to fix a
+1:41:31 broken GPU in space. And they do break a
+1:41:33 lot still. Unfortunately, we are not
+1:41:35 there yet. There will come a time space
+1:41:38 is great for a lot of things. Orbital
+1:41:40 data centers are not something that's
+1:41:42 going to matter at scale this decade.
+1:41:44 >> All right, we have the continuing MMA
+1:41:46 battle between Elon and Sam.
+1:41:48 >> Um, yeah, so fascinating. Uh, I'm
+1:41:52 curious of of reactions here. Alex, I'll
+1:41:54 go to you first.
+1:41:55 >> Yeah, I think there's an obvious
+1:41:56 conflict of interest. We saw similar
+1:41:59 messaging from MASA Sun regarding lack
+1:42:02 of purported promise for orbital data
+1:42:04 centers. Remember, OpenAI has retreated
+1:42:07 from its own data centers. Remember
+1:42:09 project uh Stargate? Project Stargate
+1:42:12 has been rebranded from OpenAI owning
+1:42:15 and operating its own data centers to
+1:42:16 just leasing terrestrial data center
+1:42:19 capacity from others. OpenAI is delaying
+1:42:21 its own IPO. So just not even at the
+1:42:24 object level, one has to to look at
+1:42:27 OpenAI's messaging here and say perhaps
+1:42:29 it's not even in a financial or
+1:42:32 operational position at the moment to
+1:42:33 lean into orbital data centers say the
+1:42:36 way anthropic which in in their
+1:42:38 collaboration agreement which was
+1:42:40 announced with SpaceX AI and for use of
+1:42:43 Colossus and Colossus 2 farlier to
+1:42:46 orbital data centerbased compute. So I I
+1:42:49 think the crossover is going to happen.
+1:42:51 Elon's messaging regarding when this
+1:42:52 crossover is going to happen is 2 to 3
+1:42:55 years. You see other analyses that
+1:42:57 suggest that the unit economics for
+1:43:00 orbital versus terrestrial data center
+1:43:03 costs are going to cross over sometime
+1:43:05 by the early 2030s. I'm not sure which
+1:43:07 is the case, but either way, I think
+1:43:09 there is an obvious conflict of
+1:43:11 interest. And just as we were discussing
+1:43:13 with Philip Johnston, uh, barring some
+1:43:15 surprising left turn, I I expect that
+1:43:18 OpenAI's tune is very conveniently going
+1:43:21 to change on ODC's sometime in the next
+1:43:23 two to three years, right on time.
+1:43:25 >> And of course, Elon's response to this
+1:43:27 is we'll be launching them in two years.
+1:43:29 So, just stay tuned and watch.
+1:43:32 >> Well, I think I think anyone listening
+1:43:34 to this video would say, okay, Sam says
+1:43:36 space data centers make no sense. Elon
+1:43:38 says they make sense. The two guys hate
+1:43:40 each other. But if you actually listen
+1:43:42 closely to Sam's words, they don't
+1:43:44 disagree at all. Sam is saying that
+1:43:47 space data centers will not be
+1:43:48 meaningful this decade. There will come
+1:43:50 a time, but this decade's only three and
+1:43:52 a half years left. And if you look at
+1:43:54 Elon's forecast of his launch rate that
+1:43:56 they agree, actually, so they're just
+1:43:59 they're just hating on each other all
+1:44:00 the time. And it seems that way in this
+1:44:03 phrasing, but it the truth is is pretty
+1:44:05 clear. It's they both have the same
+1:44:07 numbers. So So Alex is right. you know,
+1:44:09 they're they're going to space. It's
+1:44:11 going to take a while. I think a couple
+1:44:12 percent of all comput will be in space
+1:44:14 by the end of the decade because we're
+1:44:15 building out on land as quickly as we
+1:44:17 can, too.
+1:44:18 >> But then the lines cross.
+1:44:19 >> Yeah.
+1:44:20 >> Yeah. You know, uh, Alex, you and I were
+1:44:22 going back and forth texting while the
+1:44:24 Starship attempt uh Starship 13 flight
+1:44:28 uh was making an attempt a couple of
+1:44:29 days ago and it's been rescheduled. When
+1:44:31 this pod comes out, we'll be seeing a uh
+1:44:34 next launch attempt on Starship 13 on
+1:44:37 Monday of this coming week. Uh that
+1:44:39 launch was thwarted at T minus0 when two
+1:44:44 of
+1:44:44 >> First time I've ever seen that by the
+1:44:46 way.
+1:44:46 >> Yeah.
+1:44:47 >> Here's the point. Uh two of the 33
+1:44:50 Raptor engines on the booster stage of
+1:44:53 Starship did not ignite and they're
+1:44:55 going to be replaced. But here's the
+1:44:58 extraordinary point. So, by the way, uh
+1:45:00 you know, SpaceX's stock dropped 5% on
+1:45:03 news of that failed launch, which is
+1:45:05 kind of ridiculous. The point people
+1:45:07 need to realize is that was an amazing
+1:45:09 demonstration of technology. The fact
+1:45:12 that you could shut down at t equals
+1:45:15 zero, safe the vehicle, unload the
+1:45:18 methane and the liquid oxygen and that's
+1:45:21 an you know I was part of the space
+1:45:23 industry in the '9s before it was a
+1:45:26 space industry and those vehicles would
+1:45:28 have exploded on the spot, right? They
+1:45:30 would have failed on the spot. the
+1:45:32 ability we have to control them at that
+1:45:34 level of detail is evidence of the
+1:45:36 extraordinary engineering that SpaceX
+1:45:38 has done.
+1:45:39 >> I thought that was the most interesting
+1:45:41 part which is how quickly the system
+1:45:43 diagnoses the problem and returns. It
+1:45:45 would have taken months and months to do
+1:45:47 this and fix it and recover everything
+1:45:49 and replan another launch and you're
+1:45:51 like, "Yeah, problem. Shut it down, redo
+1:45:53 it. Oh, we're starting Monday." I mean,
+1:45:55 it's amazing.
+1:45:56 >> Yeah. Uh extraordinary.
+1:45:58 >> Yeah. Because I think if you're serious
+1:46:00 about spending in intelligence with what
+1:46:02 we know, you have to have a space play.
+1:46:04 Open Air is going to buy like Planet
+1:46:06 Labs or something like that, you know,
+1:46:07 like then the tune will change.
+1:46:10 All right, I'm going to go to some AMA
+1:46:12 questions. So, Immod you had suggested I
+1:46:15 post questions to X and we have a number
+1:46:17 of uh of questions coming about Kimmy uh
+1:46:21 from our X audience. Let me go ahead and
+1:46:23 and show these uh and let's dive in. So,
+1:46:28 uh, Immod, I'm going to give you first
+1:46:29 crack. Which of these questions do you
+1:46:31 want to answer?
+1:46:33 >> Um, I think probably number four is an
+1:46:37 interesting one. Uh, given Kimmy K3's
+1:46:39 lower token efficiency, is it actually
+1:46:41 as cost effective as advertised compared
+1:46:43 with Solo Fable? So, Kimmy K3 is an
+1:46:46 expensive model relative to the other
+1:46:48 Chinese models like Deepseek is now a
+1:46:50 dollar per million tokens. Kimmy K3 is
+1:46:54 $15. Um, Sonnet is 20 or Opus is $40 and
+1:46:59 I think like Fable is $60. Um, but
+1:47:03 that's because they're actually making
+1:47:04 money. Uh, when you back out the numbers
+1:47:07 from the Chinese models and the chips
+1:47:09 they're running on, they're probably
+1:47:10 making 80 90% margins now. And that's
+1:47:13 with their Chinese chips which aren't
+1:47:14 that efficient for running this. Uh, we
+1:47:17 will see the cost of K3 drop by 10 to 50
+1:47:20 times I think in the next few months as
+1:47:22 it gets optimized. And right now it uses
+1:47:24 twice the number of tokens for the same
+1:47:26 task versus GPT 5.6. Again, a frontier
+1:47:29 model that uses 37% less tokens in 5.5
+1:47:33 or Fable. Again, we're going to see that
+1:47:36 drop because everyone in their dog is
+1:47:37 going to optimize the crap out of this.
+1:47:39 Like you've seen Fireworks just raise at
+1:47:41 a $17 billion valuation. Others like
+1:47:44 Modal at 10 billion, Base 10 at 10
+1:47:46 billion. These are the inference
+1:47:47 providers of open source models. They've
+1:47:50 all raised a billion dollars that
+1:47:51 they're now going to spend to optimize
+1:47:54 the Chinese model and make it more
+1:47:56 efficient and run it. And so American
+1:47:59 Labs who do the inference side of things
+1:48:01 are going to optimize the crap out of
+1:48:03 this. So we will see it catch up.
+1:48:05 >> All right. Uh and by the way, I welcome
+1:48:08 the mates to lean in on these questions.
+1:48:09 But Selene, you want to go next?
+1:48:11 >> Uh given that I made the comment about
+1:48:13 number one, how much could Kimmy K3
+1:48:16 devalue US Frontier models? Uh I'll
+1:48:19 stick with my original estimate of about
+1:48:21 75% 50% from the US regulating the front
+1:48:25 end. Uh and then you've got uh lack of
+1:48:29 compute on the supply side plus the
+1:48:31 front open-source models kind of within
+1:48:34 a release barely of of where you are.
+1:48:38 That bleeding edge is such a perishable
+1:48:40 thing. Uh I would say 75% drop. So if
+1:48:43 open's worth a trillion bucks, I'd put
+1:48:45 it at 250 billion. uh uh you still have
+1:48:49 a very valuable business because now the
+1:48:51 competitiveness you have to compete on
+1:48:53 reliability, security, uh integrated
+1:48:56 tools, uh ease of deployment. Um but the
+1:49:00 the actual frontier cutting edge, it
+1:49:03 becomes one ingredient amongst the whole
+1:49:05 thing.
+1:49:06 >> You know, I I would not want to be
+1:49:07 inside these frontier labs right now. It
+1:49:10 must be a frenetic code red 247.
+1:49:13 >> It is a total rat race. I have so many
+1:49:15 friends at the frontier labs. uh friends
+1:49:17 who are jumping hypothetically from one
+1:49:20 frontier lab, Google, which is nowhere
+1:49:23 at at this point, missing an action to
+1:49:25 other frontier labs. It is a total rat
+1:49:27 race.
+1:49:28 >> Yeah, it's crazy. Uh Dave,
+1:49:32 >> you have a choice for me.
+1:49:34 >> No, pick one. You got two and three, I
+1:49:36 think.
+1:49:37 >> Uh okay, I'll take two. What does the
+1:49:40 release of Kimmy K3 do with uh due to
+1:49:43 the open source versus closed source
+1:49:45 race? Will this force the large
+1:49:46 companies to provide more product? I
+1:49:48 think they're implying more open-source
+1:49:50 product. Um, uh, yeah, it's a total
+1:49:54 gamecher in the sense that anyone with
+1:49:56 resources can can build an internal
+1:49:59 model that's tailored to a specific use
+1:50:01 case and then use it as a defensive
+1:50:03 moat. I don't think the large US model
+1:50:06 providers will go open source. I think
+1:50:08 they're committed to their pathway. So
+1:50:09 if you were talking to Anthropic right
+1:50:11 now, they would say, "Look, Kimmy has
+1:50:13 caught up for a week, but Fable 5.1 is
+1:50:16 coming out in just a few weeks." When
+1:50:18 when you look at the allimportant
+1:50:20 enterprise use cases, so you know, white
+1:50:22 collar automation, drug discovery,
+1:50:25 people are going to use the best model
+1:50:27 no matter what. Uh, and you know, it's
+1:50:29 like if you're using an AI to design a
+1:50:31 car or a rocket, a slight improvement in
+1:50:34 the design has massive payoff. So you're
+1:50:36 going to use the best of the best of the
+1:50:37 best model. So the anthropic guys are
+1:50:40 going to scramble to stay a step ahead
+1:50:43 and keep their price point nice and
+1:50:45 high. The cost of the model itself is is
+1:50:47 so small compared to the benefit that
+1:50:49 people will pay the price.
+1:50:51 >> So it does create like like Alex was
+1:50:53 saying the rat race is incredible, but
+1:50:55 people are going to aren't going to
+1:50:56 switch to Kimmy unless it's proprietary
+1:50:59 data they want to keep in house and they
+1:51:00 want to tune their own or uh Kimmy
+1:51:03 actually bypasses anthropic which it
+1:51:05 hasn't done. you know, it's only caught
+1:51:07 up or not even quite caught up.
+1:51:10 >> All right, Alex, number three.
+1:51:12 >> All right, number three asks and and
+1:51:14 these are I think these questions seem
+1:51:15 to all be variations on a theme, but it
+1:51:17 asks, "How can US models I I think this
+1:51:20 means US frontier model providers
+1:51:22 continue to justify their massive
+1:51:24 valuations if China can leaprog with an
+1:51:26 openweight model at less than half the
+1:51:28 token cost." So, I don't think the
+1:51:31 premise is quite accurate. There are so
+1:51:34 many elements, so many layers to super
+1:51:37 intelligence and quite frankly super
+1:51:39 intelligence itself is as it fully
+1:51:42 develops I think far larger than the
+1:51:44 total GDP of the entire world anyway
+1:51:47 there's an enormous amount of pie that
+1:51:49 can be sliced but to the extent we're
+1:51:51 talking about say Google which as I was
+1:51:54 mentioning earlier seems to be MIA at
+1:51:57 this point on the frontier I can't find
+1:51:59 a single top Google model at this point
+1:52:01 on the the cost frontier for
+1:52:03 capabilities. What does Google do? Well,
+1:52:06 they they can continue to race obviously
+1:52:08 in terms of capabilities, but if I'm
+1:52:10 Google, I'm thinking, yeah, I I want to
+1:52:13 become a hyperscaler. I mean, Google
+1:52:15 obviously is a hyperscaler, but a
+1:52:17 hyperscaler provider to other frontier
+1:52:19 labs. That's one obvious venue of
+1:52:21 differentiation. And and we've seen uh
+1:52:24 we've seen that that approach vector
+1:52:26 from SpaceX AI itself, which has now
+1:52:29 signed deals with Anthropic. We're
+1:52:31 seeing it with Meta. interestingly which
+1:52:33 on the the one hand is offering Spark
+1:52:35 1.1 and on the other hand in the past
+1:52:38 two days just as we were going to air it
+1:52:40 was announced that Meta is exploring
+1:52:42 selling $10 billion of compute to
+1:52:44 Anthropic. So differentiating by going
+1:52:47 downstack and offering your compute up
+1:52:49 to other more competitive providers
+1:52:51 whether western usually anthropic
+1:52:54 sometimes open AI or Chinese models in a
+1:52:57 self-hosting model that's one area you
+1:52:59 can also go upstack you can try to
+1:53:02 vertically integrate and offer
+1:53:03 applications that are being that are
+1:53:06 benefiting from the commoditization of
+1:53:09 their complement namely the model layer.
+1:53:11 You can also I I think the the premise
+1:53:14 that valuations somehow are going to net
+1:53:17 shrink just because Kimmy K3 exists now
+1:53:21 is completely facious. We we saw that
+1:53:24 incorrect thinking happen with the
+1:53:26 original deepseek
+1:53:28 shock uh which was at the time also
+1:53:30 branded as a Sputnik moment. So we we
+1:53:33 saw a bit of a hiccup in capital markets
+1:53:35 at the time. But as always, Jevans
+1:53:38 paradox kicks in and we see the value of
+1:53:41 chip stocks ultimately increase, not
+1:53:44 deflate. And we also see it it's open.
+1:53:47 It's open weight. So there's absolutely
+1:53:49 nothing in Kimmy K3 that OpenAI and
+1:53:52 Anthropic and other western frontier
+1:53:54 labs can't just immediately
+1:53:55 reappropriate for their own internal
+1:53:57 models.
+1:53:59 You don't think that the uh the amount
+1:54:02 of revenue these labs are going to make
+1:54:04 because uh gets reduced as people start
+1:54:06 to use Kim K3 for their work instead of
+1:54:10 the API calls. No, for example, so so I
+1:54:13 spend at uh and my portfolio
+1:54:15 [clears throat] companies spend an
+1:54:16 extraordinary amount on let's say
+1:54:19 anthropic and open AI and to my
+1:54:21 knowledge that my expectation is
+1:54:25 Moonshot would have to release like a a
+1:54:28 2x 3x 10x better model than say Fable 5
+1:54:33 to have a massive diversion of that
+1:54:35 spend. right now what what K3 buys at
+1:54:39 the moment to the extent it's legal
+1:54:40 query how much longer K3 will be legal
+1:54:43 to host within the US but assuming it
+1:54:46 contains it remains legal and regulatory
+1:54:49 uninhibited all it results is greater
+1:54:52 in-house self-hosting but it's not at
+1:54:54 the top of the frontier to Dave's
+1:54:56 earlier point Fable 5 at the moment is
+1:54:59 so if you're trying to do like solve the
+1:55:00 frontier of problems it K3 is not
+1:55:04 causing you to divert your spend Well,
+1:55:06 let me hit that qu that point you just
+1:55:07 made, Alex, and ask you and the other
+1:55:09 mates a question here, which is, do you
+1:55:11 think it's possible that K3 that some
+1:55:14 legal policy in the United States
+1:55:16 prevents US companies from downloading
+1:55:18 K3? It's going to be on the open
+1:55:20 internet. It's going to be available
+1:55:21 through a multitude of sources beyond
+1:55:24 hugging face. Can it be shut down in the
+1:55:26 US? It can effectively be shut. This is
+1:55:30 not prescriptive and I'm not a fan of
+1:55:31 this policy, but I think it can
+1:55:33 effectively be shut down by requiring
+1:55:35 that every public corporation disclose
+1:55:39 any use of Chinese openweight models and
+1:55:41 subjecting them to scrutiny. As we were
+1:55:42 going to air the the latest, we talked
+1:55:45 in the last pod about uh Demis' proposal
+1:55:48 to create a FINRA like entity that would
+1:55:51 regulate the frontier. Well, guess what?
+1:55:54 The the reports are that the present
+1:55:56 administration is actually running with
+1:55:57 a proposal like that and is planning to
+1:56:00 or at least exploring creating a FINRA
+1:56:02 like agency to regulate Frontier AI that
+1:56:05 would be that would live under the SEC
+1:56:08 because the SEC already has statutory
+1:56:10 authority to operate FINRA like industry
+1:56:13 advised and funded entities. So it's a
+1:56:16 natural place organizations. Yeah.
+1:56:19 >> Yeah. self-regulated governance, a aka
+1:56:21 regulatory capture cartels under the SE
+1:56:25 [clears throat] under the SEC. And so I
+1:56:27 I think it's completely plausible,
+1:56:29 albeit I think highly undesirable, that
+1:56:31 we get sometime in the future an SEC
+1:56:34 suborg that looks like FINRA that
+1:56:37 basically makes it completely
+1:56:38 economically infeasible for corporations
+1:56:41 of any size, especially public
+1:56:42 corporations, to actively use Chinese
+1:56:45 openweight models.
+1:56:46 >> Any other comments on this? I've I've
+1:56:48 got comment on this. I mean, this is
+1:56:49 ridiculous in terms of trying to limit
+1:56:52 the use here because once you release
+1:56:54 the weights, right, stopping them, you
+1:56:57 you can mirror them across jurisdiction.
+1:56:59 You can use Peter Pier networks,
+1:57:01 HelloVPNs.
+1:57:03 All you're going to do is deny American
+1:57:05 researchers and startups access to those
+1:57:07 models and security experts. Uh, well,
+1:57:10 the rest of the world goes ahead on
+1:57:12 building on those models. I I don't
+1:57:13 think there's a viable approach. I mean,
+1:57:15 this is the same.
+1:57:16 >> Yeah, please.
+1:57:17 >> This is the same as denying Americans
+1:57:19 cheap insulin.
+1:57:21 >> I mean, it's again regulatory capture,
+1:57:23 right? Like, why can't you have
+1:57:24 generics? Because again, you have the
+1:57:27 regulatory capture point. There's
+1:57:28 operation, I think they're calling it
+1:57:30 gold eagle to approve access to frontier
+1:57:32 models. You will have anti-token
+1:57:34 laundering regulations. You will have
+1:57:37 know your prompter regulations. Like the
+1:57:41 US government's really realized that
+1:57:42 this technology is about to break
+1:57:44 through and I think that they're a lot
+1:57:46 more worried about it than China is. You
+1:57:48 know, like China again, you look at that
+1:57:50 Xi Jinping speech. I would urge everyone
+1:57:52 to kind of check it out. They're like
+1:57:54 full on open source. We're going to do
+1:57:55 this. America doesn't know what it's
+1:57:57 going to do, but as you said, there's a
+1:57:58 real chance that they might hobble
+1:58:01 American capitalism. And oddly, China's
+1:58:04 encouraging capitalism. It's going to
+1:58:06 >> CCP saves American capitalism from
+1:58:08 itself. That's [snorts] a crazy future.
+1:58:10 >> The weird the world is so weird.
+1:58:13 [laughter]
+1:58:13 >> Uh, all right. Let's go back to you,
+1:58:16 Salem, on next question.
+1:58:18 >> Um, okay. Which one?
+1:58:20 >> Some of these are a little bit
+1:58:21 duplicative. Yeah.
+1:58:23 >> Yeah. I'll I'll take number five. Would
+1:58:25 you trust um Kimmy K3 to write your code
+1:58:29 for you without oversight or review? Uh,
+1:58:32 the answer is no.
+1:58:34 uh but I wouldn't trust a human being to
+1:58:37 uh put consequential untested code into
+1:58:40 production either right the question is
+1:58:42 not whether we trust the modelers
+1:58:44 whether we trust the development system
+1:58:47 around it so you know AI generated code
+1:58:50 needs to be run in a sandbox and pass
+1:58:53 automated test and security scanning and
+1:58:55 all sorts of things before it goes into
+1:58:57 production uh and then you do uh
+1:59:00 proportionate permissions based on the
+1:59:02 use case and on and the potential impact
+1:59:05 you're this is the same thing we talk
+1:59:07 about your whatever the workflow is that
+1:59:08 AI is running you're still going to need
+1:59:10 human review at the highest uh level and
+1:59:13 at the highest consequential uh inputs a
+1:59:16 lot of the routine can be automated but
+1:59:20 the scalable model is not AI with no
+1:59:22 oversight it's it's machine generated
+1:59:25 plus verification plus um human
+1:59:29 accountability combined that's going to
+1:59:31 give you the real power
+1:59:33 >> all Right. Uh, Iman.
+1:59:36 >> Yeah. I think what role if any did
+1:59:38 distillation play in K3 development?
+1:59:40 They distilled data clearly from Opus
+1:59:43 and others. Um, but to be honest using
+1:59:46 Kim K 2.5 and Kim K3 now quite
+1:59:49 intensely. It feels different. So I
+1:59:52 think they did a lot of their own data
+1:59:54 creation based in part from
+1:59:56 distillation, but everyone's distilling
+1:59:57 from each other right now. The one area
+1:59:59 that it's clear that they've had a big
+2:00:01 leap ahead is in the front-end
+2:00:04 development. Again, this isn't the best
+2:00:06 mathematician in the world, although
+2:00:08 it's quite a good general model. It's
+2:00:09 not the best cyber attacker from our
+2:00:10 benchmarks, but they've kind of done
+2:00:14 something original and new on the front
+2:00:16 end game consumer/
+2:00:19 entertainment side of things, which I
+2:00:21 think is really interesting. Although
+2:00:23 that might be also because it's a
+2:00:24 multimodal model.
+2:00:25 >> Mhm. Mhm. [clears throat] Dave.
+2:00:28 >> Uh, number seven. What are the reasons
+2:00:29 why Kimmy K3 might not be as good as
+2:00:32 advertised or we shouldn't use it? Uh,
+2:00:34 the scenario where it's not as good as
+2:00:36 advertised is if it's benchmaxed and,
+2:00:39 you know, in 2 weeks, you know, the open
+2:00:41 source will be out. We'll have beaten it
+2:00:43 to death. We'll know the answer if they
+2:00:45 benchmaxed. So, we're going to find out.
+2:00:47 I think it's unlikely that it's
+2:00:49 benchmarks to the point where every
+2:00:52 company in America right now should be
+2:00:54 in the world right now should be saying
+2:00:56 we need a crash program with our best
+2:00:58 possible advisor to decide are we going
+2:01:01 to do our own model uh on our own onrem
+2:01:04 hardware or are we going to use
+2:01:07 anthropic or or open AI or or Google and
+2:01:10 just trust that API but we need to
+2:01:13 decide whether tuning and training on
+2:01:15 our own proprietary data gives us a
+2:01:17 long-term competitive advantage. And so
+2:01:20 there's going to be a desperate shortage
+2:01:21 of good advice on this and and vendors
+2:01:25 and Mckenzie consultants and you got to
+2:01:27 grab those resources quickly. Exo
+2:01:30 consultants, you know, make seedstage
+2:01:32 investments, get your network together,
+2:01:34 find out who can answer that question
+2:01:35 for you internally on your business and
+2:01:38 your use case quickly and then commit to
+2:01:41 the path. And you know, you can you can
+2:01:42 do something internally and still, you
+2:01:44 know, use the APIs, but if you don't
+2:01:47 start down the path of evaluating Kimmy
+2:01:48 K3 on your own, you can't really come
+2:01:51 back to it later. So, I think
+2:01:53 everybody's got to just get going on on
+2:01:55 this question. Um, we'll know in a
+2:01:57 couple weeks though whether it was
+2:01:58 benchmarks to hell or not. But I think
+2:02:00 it's very very likely that the open
+2:02:02 source path is a viable path for every
+2:02:05 US and world company and government.
+2:02:07 Now,
+2:02:07 >> can I can I just add to that real quick?
+2:02:09 >> Yes, of course. very simple um
+2:02:12 suggestion for every company. Implement
+2:02:14 two installations, Kimmy K3 and Inkling.
+2:02:18 Fine-tune your own internal data because
+2:02:20 that learning loop is going to be the
+2:02:22 proprietary gold that you don't not want
+2:02:24 to lose. Uh and start there.
+2:02:27 [clears throat]
+2:02:27 >> Uh Alex, why don't you close us out
+2:02:29 here? You've sort of answered number six
+2:02:30 already, but perhaps you could expand on
+2:02:32 it.
+2:02:32 >> Uh yeah, I'll say something new. So,
+2:02:33 question six asks, should the US move to
+2:02:36 block loading the weights of the next
+2:02:37 Kimmy release onto Hugging Face? I'll
+2:02:40 give a conditional answer. I think that
+2:02:42 if some party presumably in the US can
+2:02:45 prove to a cognizant court that the next
+2:02:49 Kimmy release, presumably a reference to
+2:02:51 this Kimmy release was somehow obtained
+2:02:54 or derived illegally, maybe through
+2:02:56 copyright infringement or uh illegal
+2:02:58 distillation of traces or something like
+2:03:00 that, that would probably be grounds for
+2:03:03 blocking its release in the US. But if
+2:03:05 if no one can prove that uh that Kimmy
+2:03:10 uh that Kimmy's parent moonshot did
+2:03:12 anything otherwise wrong in creating it,
+2:03:14 no, I don't think the US should be
+2:03:16 blocking its release in the process. I I
+2:03:19 think if anything quite the opposite. I
+2:03:20 think every US frontier lab should be
+2:03:23 closely scrutinizing it and learning
+2:03:25 whatever they can so that we can leaprog
+2:03:28 it. And I I would like to see far more
+2:03:30 outward pressure from US labs creating
+2:03:33 the best in world openweight and open-
+2:03:36 source models so that it's not the CCP
+2:03:38 with their new belt and road for AI
+2:03:41 initiative blanketing the world's some
+2:03:44 would even say dumping super
+2:03:46 intelligence on the rest of the world or
+2:03:48 the so-called global south. It should be
+2:03:50 the US the uh the the the cannon of
+2:03:53 freedom uh the arsenal of freedom that's
+2:03:55 also the arsenal of super intelligence
+2:03:58 showering the rest of the world with
+2:04:00 openw weight and open-source super
+2:04:02 intelligence not China
+2:04:04 >> showering the rest of the world I love
+2:04:06 that and remember we're moving towards
+2:04:08 intelligence you know too cheap to meter
+2:04:11 but a million times more available and
+2:04:14 more powerful than ever before uh
+2:04:16 everybody listening I grateful on behalf
+2:04:18 of the moonshot mates here for your
+2:04:20 time. If you haven't subscribed, please
+2:04:22 do. Uh we're going to be putting this
+2:04:24 out more and more often as we're
+2:04:26 starting to see the release dates move
+2:04:28 from months and weeks to days. Uh and
+2:04:32 there's no time to sleep during the
+2:04:33 singularity. Gentlemen, uh what's in
+2:04:35 store for the week ahead? Immad. Uh I'll
+2:04:37 go to you next. Yeah,
+2:04:40 >> Immad. What's what's news in your life?
+2:04:42 >> H yeah, just getting a whole bunch of
+2:04:44 research papers ready to release. So
+2:04:46 finally, it's going to be exciting.
+2:04:47 >> Yeah.
+2:04:48 >> Again, acceleration
+2:04:49 >> for intelligent internet your company.
+2:04:51 Yes.
+2:04:51 >> Yes.
+2:04:52 >> Incredible. Uh Salem, please.
+2:04:55 >> Uh Tuesday I have my next meaning of
+2:04:57 life session 700 p.m. Eastern for those
+2:04:59 that are interested.
+2:05:00 >> Where do they go to find out?
+2:05:01 >> We'll we'll have the link below, but
+2:05:03 it's openexoexo.com.
+2:05:07 >> So anytime I'm doing if you've not
+2:05:10 participated in one of one of See's
+2:05:12 meaning of life sessions, they are
+2:05:14 extraordinary. will take you beyond the
+2:05:16 AI into the realm of philosophy and
+2:05:19 theology. Uh, Alex, are you coming up?
+2:05:23 What's going on with you?
+2:05:24 >> Uh, I I'm so focused at this point on
+2:05:27 literally solving everything. I I'll say
+2:05:29 large swaths of the sciences at this
+2:05:31 point, I'm convinced, are so thoroughly
+2:05:33 cooked. More to come on on that subject.
+2:05:36 We Peter, you and I wrote Solve
+2:05:38 Everything About It, but now it's
+2:05:40 actually coming true. Uh, it
+2:05:41 >> I'm excited. You're going to be doing an
+2:05:43 AMA with my abundance community coming
+2:05:45 up. That's going to be a a fun deep
+2:05:47 dive. And of course, we're going to have
+2:05:48 you during the moonshots gathering uh in
+2:05:51 September 25th doing an in fact all of
+2:05:53 us will be here. Immad, you're joining
+2:05:55 us uh in LA in September. Yeah, it's
+2:05:58 going to be fun to have all of us
+2:05:59 together again for the full day. Uh
+2:06:01 Dave, uh you know, this has got to be
+2:06:04 the most exciting time to be in in Link
+2:06:06 Studios.
+2:06:07 >> Oh my god. Yeah. I I think that um that
+2:06:10 discussion we had of quantization on
+2:06:12 this podcast that Immod kicked off, I I
+2:06:14 think that now vaulted to my new best
+2:06:16 piece of media ever recorded, passing
+2:06:18 Leopold to Ashen Brunner. I got to go
+2:06:20 back and listen to that again in
+2:06:22 slow-mo. Um and also, you know, we had
+2:06:24 Vlad Bullovich from MIT Nano in this
+2:06:27 week. He's going to advise and help us
+2:06:28 on our new our new startup working on
+2:06:30 photonic computing. And uh he gave us a
+2:06:32 whole road map of people I need to meet
+2:06:34 next week. Uh so we were looking to add
+2:06:37 two MIT people with our Princeton team
+2:06:40 to work on just the photonics uh
+2:06:42 quantized photonix side of the equation.
+2:06:45 Uh so I'll be working on that next week.
+2:06:47 But I think I can take that video we
+2:06:48 shot earlier and use it as a recruiting
+2:06:50 tool. It was just so freaking brilliant.
+2:06:52 You guys are
+2:06:53 >> incredible.
+2:06:55 I love you guys so much. What a great
+2:06:58 week. Uh awesome conversation. We'll see
+2:07:00 what breaks tomorrow. Yeah. Over the
+2:07:02 weekend. Emergency pod. We need
+2:07:04 emergency pods every day by January.
+2:07:07 [laughter]
+2:07:08 >> Uh, all right. Be well everybody. Thank
+2:07:10 you for tuning in to Moonshot, your
+2:07:11 front row seat to the Singularity. Take
+2:07:13 care, guys.
+2:07:14 >> Peter, awesome job as always. Thanks,
+2:07:16 Peter.
