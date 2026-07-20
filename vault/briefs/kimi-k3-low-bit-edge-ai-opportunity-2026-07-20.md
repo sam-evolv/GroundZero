@@ -37,7 +37,9 @@ His thesis is:
 4. More importantly, it may permit new compute architectures and substrates designed specifically for low-bit operations.
 5. The investable stack therefore includes quantisation, specialised kernels and runtimes, low-bit accelerators, edge deployment, in-memory or photonic compute, and potentially more speculative physical substrates.
 
-This is an investor disclosure, not a secret product announcement. He is indicating portfolio exposure across the stack and withholding company-level detail. His public profile also lists him as founder of **QuanTM**, described as building at the frontier of AI quantisation. Link Ventures publicly lists relevant exposure including Liquid AI, Lambda, Standard Kernel, Spinor Energy, Starcloud, robotics, and many AI applications. Standard Kernel specifically builds AI-generated low-level GPU and TPU kernels, the runtime layer required to turn model compression into hardware efficiency. The specific companies Dave meant in the clip are not disclosed.
+This is investor signalling and active company formation, not neutral technical commentary. His public profile lists him as founder of **QuanTM**, described as building at the frontier of AI quantisation. Link Ventures publicly lists relevant exposure including Liquid AI, Lambda, Standard Kernel, Spinor Energy, Starcloud, robotics, and many AI applications. Standard Kernel specifically builds AI-generated low-level GPU and TPU kernels, the runtime layer required to turn model compression into hardware efficiency.
+
+The closing disclosure at 2:06:07 to 2:06:45 is decisive: Dave says his organisation has a new photonic-computing startup, that MIT.nano's Vladimir Bulovic is advising them, and that they are recruiting two MIT people into a Princeton team focused on quantised photonics. He also says the episode can serve as a recruiting tool. This strengthens the category signal while creating a direct conflict of interest. The specific earlier investments, their cheque sizes, maturity, and commercial traction remain undisclosed.
 
 ## What is demonstrated now
 
@@ -59,12 +61,14 @@ Primary sources:
 
 - Kimi K3's official weights were not public on 2026-07-20. The episode says they are expected around 2026-07-27.
 - The claim that frontier-equivalent training now costs 1 percent as much is an extrapolation made by the guests, not a demonstrated apples-to-apples audited result.
+- The later discussion qualifies the early cost headline: the episode cites K3 at roughly $15 per million tokens versus roughly $20 to $60 for named closed alternatives, and says K3 may use about twice as many tokens on a comparable task. The predicted 10 to 50 times price reduction is future optimisation, not current measured cost.
 - Bonsai performance figures are vendor model-card claims and should be independently benchmarked on the exact hardware and tasks that matter.
 - Dave's forecast of 100 to 10,000 times raw-compute improvement within three years is a forecast, not an established roadmap.
 - Crystal, liquid, holographic, photonic, and space-based compute comments range from plausible research direction to highly speculative extrapolation.
 - Compression does not guarantee product quality. Context handling, tool use, speech latency, safety, factuality, and reliability still require evaluation.
 - Weight compression is only part of inference cost. Activations, KV cache, context length, memory movement, speech components, and tool execution remain.
 - Native low-bit training and post-training quantisation are different. Very aggressive post-training compression can lose capability even when native low-bit architectures remain promising.
+- Physically etching fixed model weights into silicon creates a versioning problem when the same episode says frontier models may change every ten days. Fixed-weight hardware is most credible for stable, bounded tasks rather than whichever general model is briefly at the frontier.
 
 ## Where value migrates
 
