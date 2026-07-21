@@ -124,6 +124,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-agentic-value-radar-2026-07-16]]
 - [[briefs/daily-agentic-value-radar-2026-07-17]]
 - [[briefs/daily-agentic-value-radar-2026-07-18]]
+- [[briefs/daily-agentic-value-radar-2026-07-20]]
+- [[briefs/kimi-k3-low-bit-edge-ai-opportunity-2026-07-20]]
 - [[companies/cara]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]

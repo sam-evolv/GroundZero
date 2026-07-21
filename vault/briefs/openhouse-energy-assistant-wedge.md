@@ -308,6 +308,7 @@ This avoids the product feeling surveillant while preserving the developer insig
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/ai-money-patterns-2026-06]]
+- [[briefs/kimi-k3-low-bit-edge-ai-opportunity-2026-07-20]]
 - [[briefs/openhouse-dtc-acquisition-hooks-research-2026-06-29]]
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-dtc-energy-savings-guarantee-research-2026-06-29]]
@@ -343,6 +344,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-17]]
 - [[briefs/wiki-refiner-2026-07-18]]
 - [[briefs/wiki-refiner-2026-07-19]]
+- [[briefs/wiki-refiner-2026-07-20]]
 - [[companies/evolv-renewables]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]

@@ -32,3 +32,8 @@ Cara’s current state requires repeated 20–60-minute hands-free conversations
 - [[decisions/cara-founder-dogfood-voice-first]] — quality bar
 - [[briefs/daily-agentic-value-radar-2026-07-18]] — prior radar
 - [[context/index]] — shared entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+

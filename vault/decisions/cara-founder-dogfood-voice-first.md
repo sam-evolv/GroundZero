@@ -65,6 +65,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/cara-world-class-product-route-research-2026-07-13]]
 - [[briefs/daily-agentic-value-radar-2026-07-16]]
 - [[briefs/daily-agentic-value-radar-2026-07-18]]
+- [[briefs/daily-agentic-value-radar-2026-07-20]]
 - [[companies/cara]]
 - [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]]
 - [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]]

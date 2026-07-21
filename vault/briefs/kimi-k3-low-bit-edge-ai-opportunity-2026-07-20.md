@@ -185,3 +185,10 @@ Treat low-bit edge AI as an architecture direction and a strengthening of OpenHo
 - [[context/business-opportunities-moc]] - opportunity hub
 - [[context/solo-founder-era]] - founder strategy lens
 - [[context/agentic-value-creation-mission]] - model-independent value creation
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/cara]]
+- [[companies/openhouse-ai]]
+- [[context/business-opportunities-moc]]
+

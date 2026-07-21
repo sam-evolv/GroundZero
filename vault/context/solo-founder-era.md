@@ -51,6 +51,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
+- [[briefs/kimi-k3-low-bit-edge-ai-opportunity-2026-07-20]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
 - [[briefs/sam-90-day-cash-authority-plan-2026-07-13]]
 - [[companies/cara]]
