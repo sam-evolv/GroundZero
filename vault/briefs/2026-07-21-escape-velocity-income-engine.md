@@ -13,6 +13,12 @@ Sam is not seeking reassurance, reduced ambition, or a single all-in startup bet
 
 The immediate goal is to design a discreet side-income engine that builds capital and exit options without requiring resignation, fresh capital, or a new SaaS build. The long-term aim remains independent ownership and an AI-native business.
 
+## Correction, 21 July 2026
+
+Sam rejected the proposed Bid and Sales-Demo Sprint and related B2B outreach route. It conflicts with the real operating constraints: it depends on local businesses responding to a stranger, daytime sales/meetings, and relationship access that is currently unavailable. Do not revive this as a default recommendation.
+
+The required bridge route must be after-hours/weekend, online-first, no-up-front-cost, and based on a platform or buyer channel where strangers can already transact without local cold outreach. Current research is testing AI/data-evaluation contract platforms, demand-pull online marketplaces, and high-leverage job switches against those constraints.
+
 ## Decision candidate
 
 Run a 30-day **dual-track escape-velocity experiment**:
