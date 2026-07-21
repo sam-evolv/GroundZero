@@ -21,13 +21,43 @@ The required bridge route must be after-hours/weekend, online-first, no-up-front
 
 ## Decision candidate
 
-Run a 30-day **dual-track escape-velocity experiment**:
+Run a 30-day **online-first bridge and option experiment**:
 
-1. **Capital track:** sell bounded, asynchronous, high-value implementation or proposal work that can be delivered outside work hours.
-2. **Option track:** pursue a small number of high-fit salaried or fixed-term AI/product roles that can materially improve income, network, and optionality.
-3. **North-star protection:** keep [[companies/cara]] to founder dogfooding only. No new product-surface build until the voice loop is used personally and produces evidence.
+1. **Bridge track:** apply once to a small stack of asynchronous AI/data and UX-testing platforms where the platform sources tasks. This is a low-ceiling, allocation-uncertain supplement, not an income forecast.
+2. **Demand-pull test:** run only a bounded Upwork test using included/free Connects plus one tightly scoped Fiverr Gig. Stop rather than paying for credits, ads, memberships, or more listings.
+3. **Option track:** pursue a small number of high-fit global AI/product roles that can materially improve income, network, and optionality.
+4. **North-star protection:** keep [[companies/cara]] to founder dogfooding only. No new product-surface build until the voice loop is used personally and produces evidence.
 
 This is not a decision to abandon [[companies/openhouse-ai]] or [[companies/openbook]]. It is an explicit refusal to ask them to solve immediate financial pressure without evidence.
+
+## Validated research conclusion, 21 July 2026
+
+No high-confidence after-hours cash bridge was found. Every online platform has screening, allocation, competition, or payout-delay risk. The appropriate move is a **parallel application stack with a strict time limit**, not an expectation that any one platform will replace salary.
+
+### Apply once, then wait for real task allocation
+
+- [UserTesting](https://www.usertesting.com/get-paid-to-test) — asynchronous recorded tests; official page says payment for completed tests is usually sent 14 days later. Ireland acceptance is not explicitly confirmed.
+- [Appen CrowdGen](https://crowdgen.com/) — AI evaluation/annotation; contributor presence in 200 countries and flexible pacing claimed by the platform; payout cadence and volume unverified.
+- [OneForma](https://www.oneforma.com/jobs/) — use only current listings explicitly marked Worldwide.
+- [Alignerr](https://app.alignerr.com/signup) — active remote task-author roles observed at nominal $20–$50/hour; Ireland eligibility and payment cadence unverified.
+- [Outlier](https://app.outlier.ai/opportunities) — officially flexible and weekly paid, but Ireland eligibility and current task allocation unverified.
+
+### Bounded demand-pull test
+
+- **Upwork:** respond only to fresh fixed-price, tightly scoped work using any included/free Connects. Do not buy Connects. New-profile win probability is low but buyers have already declared an active need.
+- **Fiverr:** publish one narrow fixed-scope gig only. It is passive, buyer-searchable, and has a 20% seller commission. Do not expect organic discovery quickly and do not create a catalogue of generic AI gigs.
+
+The only marketplace packages with live category/job evidence were a tightly bounded lead-routing automation and a one-page Next.js launch page. They must be fully asynchronous, fixed scope, client-access supplied, one revision, no recurring support, and no “AI agent” claims.
+
+### Higher-leverage option track
+
+Apply to live employer-posted roles that create a genuine income and credibility step-up:
+
+1. [Supabase, Design Engineer](https://jobs.ashbyhq.com/supabase/2e6ee4b3-6573-477f-9c95-d1221cd9f9f9) — global remote, async-friendly, strongest product/web/design fit.
+2. [Cursor, AI Adoption Engineer](https://jobs.ashbyhq.com/cursor/ecc15f50-5d5b-4f79-a14c-e424b0c1bec6) — remote, strong AI adoption/demo fit, stretch on senior technical credibility.
+3. [PostHog, Technical Customer Success Manager, EMEA](https://jobs.ashbyhq.com/posthog/0be1b52c-2401-4ae2-b7fc-5d018c1ff96f) — EMEA remote/async-first, stretch on technical troubleshooting.
+
+These are job-switch applications, not work that can be held alongside the current full-time role. Request an early or late first screen, then use annual leave if a later-stage exercise is worth it.
 
 ## Constraints
 
@@ -37,66 +67,19 @@ This is not a decision to abandon [[companies/openhouse-ai]] or [[companies/open
 - No unpaid bespoke pilots. All work needs a fixed scope, deposit, or paid diagnostic.
 - Work must be deliverable asynchronously in evenings/weekends, with a clear handover and no always-on support.
 
-## Capital track: one primary offer
+## Superseded routes, retained for history
 
-### 48-hour Bid and Sales-Demo Sprint
+The 48-hour Bid and Sales-Demo Sprint, agency white-label outreach, tender partner route, and local daytime B2B prospecting are **not active recommendations**. Sam rejected them because they rely on daytime relationship selling and access that he does not currently have. Do not allocate evenings to these routes unless the operating constraint changes or an inbound partner opportunity appears.
 
-**Buyer:** construction, renewable-energy, building-product, engineering, and B2B software suppliers with a live tender, proposal, framework application, grant application, or major quote.
+## Active next actions
 
-**Offer:** turn a live opportunity and existing material into a decision-ready response structure, evidence map, selected first-draft sections, case-study/credential extraction, and a buyer-facing demo or pitch narrative. All claims remain human reviewed and source-linked.
+1. In one 90-minute evening, create accounts/apply to UserTesting, Appen CrowdGen, OneForma, Alignerr, Outlier, and DataAnnotation. Complete only the first mandatory assessment for each. Never pay a fee.
+2. Create one Upwork profile and one Fiverr Gig only if the profile setup is genuinely free. Use included/free Connects only, submit only to fresh small fixed-price briefs, and stop when those credits are exhausted.
+3. Prepare the Supabase Design Engineer application first, then Cursor and PostHog. Re-check live status before submitting.
+4. Keep a simple ledger of approved work, hours, paid amount, and payout date. Allocation, not nominal rates, determines whether a platform deserves more time.
+5. Keep Cara to founder dogfooding only; do not let the bridge experiment become another build.
 
-**Test price:** €350–€500 paid triage, credited against a €1,250–€2,000 full sprint. Take 50% upfront for the full sprint.
-
-**Why this is the primary offer:** it uses Sam’s construction, renewables, product, AI, and commercial-storytelling advantage. It is deadline-linked, can close faster than a broad consultancy sale, and does not require public AI-agency positioning.
-
-**10-day pass threshold:** five real buyer conversations, two live opportunities reviewed, and one paid triage. If it fails, change the buyer/trigger rather than building software or rewriting the brand.
-
-## Capital track: backup channel
-
-### Agency white-label implementation
-
-Contact 20 credible web, product, RevOps, automation, and digital consultancies with a bounded offer:
-
-> I can take an existing client brief and ship the AI, web, product, or integration layer under your brand in a defined sprint.
-
-**Positioning:** delivery capacity for AI workflows, customer demos, web experiences, documentation/knowledge systems, and human-approved operational automations.
-
-**Commercial boundary:** fixed sprint or €50–€90/hour, written scope, no unpaid test project, no unlimited support.
-
-## Option track: applications worth preparing
-
-These were live when researched on 21 July 2026. Re-verify status before applying.
-
-1. **Concern Worldwide, AI & Digital Capability Programme Lead** — two-year fixed term, Dublin hybrid, €80,184–€89,094. Strong fit for AI adoption, training, governance, workshops, and practical implementation. [Official vacancies](https://www.concern.net/vacancies)
-2. **Super, AI Accelerator – Commercial** — Ireland. Strong fit for AI workflow discovery, agent/automation delivery, demos, and adoption. [Careers](https://www.super.xyz/careers/)
-3. **Protex AI, Technical Solutions Engineer** — Limerick/Dublin listings observed. Strong fit for prototypes, integrations, customer delivery, and industrial/construction adjacency. [Careers](https://www.protex.ai/careers)
-
-Applications should lead with a one-page case-study format: operational problem → working system/prototype → human approval/guardrails → user adoption → measurable value. Do not present a scattered project history.
-
-## Tender and partner route
-
-Public tenders are not a near-term solo-income strategy unless mandatory criteria are met. Use them as a partner/subcontracting channel:
-
-- [Wayside Celtic FC Renewable Energy Upgrade](https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8635353) — possible only with a qualified electrical/renewable delivery partner.
-- [Mayo SEC Energy Master Plans](https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8649275) — potential partner bids if named energy-planning credentials are covered.
-- [Fingal/Dublin LEO Digital for Business framework](https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8563426) — pursue specialist subcontracting with an established consultancy, not a direct lead bid.
-
-## Weekly allocation
-
-- Two evenings: capital-track outreach and follow-up
-- One evening: proposal/delivery preparation or agency outreach
-- One focused block: one high-fit job application
-- One bounded Cara founder dogfood session, no new surface build
-
-The system is judged by customer conversations, paid diagnostics, partner introductions, interviews, and cash. Research, dashboards, websites, and new products do not count as momentum.
-
-## Immediate next actions
-
-1. Review employment contract boundaries for outside work and conflicts.
-2. Prepare a two-page capability pack for the Bid and Sales-Demo Sprint.
-3. Build a list of 10 warm contacts and 20 targeted firms with live commercial triggers.
-4. Prepare tailored applications for Concern, Super, and Protex.
-5. Identify one qualified renewable/energy partner before considering the relevant tenders.
+The system is judged by funded milestones, cleared payments, task allocation, interviews, and a completed job application. Research, profile polish, dashboards, websites, and new products do not count as momentum.
 
 ## Connected vault notes
 
