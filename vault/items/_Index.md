@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-07-18"
+updated_at: "2026-07-22"
 ---
 
 # Ideas Index
@@ -31,6 +31,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/oh-warranty-filter]] | Warranty filter on dashboard | S | proposed |
 | [[items/oh-rls-audit]] | RLS policy audit | S | building |
 | [[items/oh-dtc-home-savings-scan-concierge]] | Validate paid DTC Home Savings Scan with 10 concierge customers | S | proposed |
+| [[items/oh-uk-aftercare-design-partner-sprint]] | Validate UK evidence-led aftercare with five design partners | S | proposed |
 
 ## OpenBook
 
@@ -80,6 +81,13 @@ This index tracks the current active idea queue. Each entry links to its item no
 - [[items/ops-project-state-reconciler]] is project-worthy as internal infrastructure after Cara's P0 measurement gap. Fold daily reporting, ageing and weekly views into one evidence pipeline rather than creating parallel projects.
 - [[items/ops-capture-inbox-refinery]] is already implemented and is now marked building. Consolidate [[items/ops-source-to-wiki-ingest]] into the same knowledge-ingestion path.
 - [[items/cara-phase0-m1-live-call]] remains a sub-milestone of [[items/cara-founder-voice-dogfood]], not a separate commercial project.
+
+## Promotion recommendations, 22 July 2026
+
+- [[items/oh-handover-readiness-scan]] is mature enough as one consolidated project specification after migration validation becomes available. [[items/oh-scheme-launch-scorecard]] should be its management and export view, not a second project.
+- [[items/oh-uk-aftercare-design-partner-sprint]] is mature enough as a bounded commercial validation specification, but should not activate under the current one-proof-loop WIP limit. Activate only when a warm channel or inbound design partner exists.
+- [[items/ops-index-maintenance-bot]] should not become a standalone project. Fold deterministic index validation into the existing refiner or daily evidence pipeline.
+- Existing 18 July recommendations for OpenBook deposits, Renew reporting baseline and the project-state reconciler remain valid. Their stale live-state prerequisites are unchanged.
 
 ## Cross-references
 

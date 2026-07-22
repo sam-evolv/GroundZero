@@ -51,5 +51,21 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-daily-sync-digest]]
 
 
+## Incubation analysis, 22 July 2026
+
+### Opportunity size
+The direct saving is only 10 to 15 minutes per incubation run. The larger value is portfolio accuracy: missing, duplicated or stale index rows can cause agents to revive parked work or overlook an active proof gate. This is internal hygiene, not a commercial opportunity.
+
+### Technical approach
+Generate the table from parsed frontmatter, validate that each linked note exists, preserve section ordering and write only a minimal diff. Daily-log text should remain a draft derived from actual file changes. Use deterministic rules for status and size. Route unknown schemas or conflicting fields to review instead of guessing.
+
+### Risks
+- A writer can silently reorder the index or overwrite human prioritisation.
+- Inconsistent use of `state` and `status`, or `effort` and `size`, can produce false rows.
+- Automating a small chore can cost more to maintain than it saves.
+
+### Effort and timing
+Small if implemented as a validation and rendering step inside the existing wiki-refiner or daily job. Timely because the active queue now spans four companies, but there is no justification for another scheduled agent.
+
 ## Recommendation
-Low risk and easy to justify. It is not as valuable as the daily digest itself, but it removes a chore that happens every time the council adds new proposals.
+Do not promote as a standalone project. Add index validation and deterministic rendering to [[items/ops-capture-inbox-refinery]] or [[items/ops-daily-sync-digest]] only when it can reuse their existing run and rollback path.

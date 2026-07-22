@@ -63,5 +63,13 @@ _Auto-generated: updated by wiki-refiner_
 - [[project_state/oh]]
 
 
+## Incubation update, 22 July 2026
+
+This overlaps materially with [[items/oh-scheme-launch-scorecard]]. The readiness scan is the underlying rules and blocker engine. The scorecard is only a view and export of the same result. Building them as separate projects would duplicate source mapping, thresholds and trust work.
+
+Commercial value comes from proving that a developer will use the output to approve a launch, chase missing evidence or reduce post-handover exceptions. The first version should therefore run against the four live Longview schemes as a deterministic, internal-only checklist. Measure missing inputs found, false blockers, time saved and whether an operator acts on the result. Do not add AI scoring until the rules produce a stable decision.
+
+Effort remains medium for one shared data contract and read-only operator view. Main risks are stale source fields, false green status and checklist sprawl. Current production migration and unavailable remote Supabase validation block a trustworthy launch.
+
 ## Recommendation
-This is a strong project candidate because it sits above several existing OpenHouse workflows and creates a better management layer for launch readiness. It pairs well with onboarding packet automation and warranty evidence packs.
+Promote one consolidated handover-readiness project after migration validation is available. Absorb [[items/oh-scheme-launch-scorecard]] as its customer-facing view rather than launching two projects.

@@ -66,5 +66,13 @@ _Auto-generated: updated by wiki-refiner_
 - [[project_state/oh]]
 
 
+## Incubation update, 22 July 2026
+
+This is not a distinct product from [[items/oh-handover-readiness-scan]]. A scorecard without the shared readiness rules is presentation without evidence. Treat red, amber and green status, top blockers and PDF export as views over one canonical readiness result.
+
+The opportunity is commercially meaningful only if a developer uses the score to make or accelerate a launch decision. Validate on the four live schemes with internal operators before exposing it externally. Success is fewer missing handover inputs and faster sign-off, not score views.
+
+Effort becomes small once the readiness engine exists. The principal risks are hiding nuance behind one colour, presenting stale data as current and creating false assurance. Every score must show source freshness, exact blockers and an owner.
+
 ## Recommendation
-Strong project candidate once migration work is quieter. This is a natural premium layer above the existing launch and aftercare workflow.
+Do not promote separately. Consolidate this note into the future handover-readiness project as the management and export surface.
