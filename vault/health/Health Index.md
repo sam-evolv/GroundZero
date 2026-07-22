@@ -6,7 +6,9 @@ Private health and fitness tracking for Sam.
 
 - [[2026-07-21-recomposition-block]]
 - [[2026-07-21-baseline-physique-review]]
+- [[2026-07-21-usual-breakfast-review]]
 - [[photos/2026-07-21-baseline]]
+- [[photos/2026-07-21-breakfast]]
 
 ## Operating principle
 
