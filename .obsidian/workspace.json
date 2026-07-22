@@ -179,6 +179,14 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/private/agent-co-pilot/daily-decision-card-template.md",
+    "vault/private/agent-co-pilot/weekly-executive-review-template.md",
+    "vault/private/agent-co-pilot/2026-07-22-initial-voice-journal.md",
+    "vault/private/agent-co-pilot/README.md",
+    "vault/private/agent-co-pilot",
+    "vault/private",
+    "vault/decisions/2026-07-22-six-month-agent-co-pilot-protocol.md",
+    "vault/briefs/2026-07-22-six-month-agent-co-pilot-challenge.md",
     "vault/health/2026-07-22-lower-a-session.md",
     "vault/health/photos/2026-07-21-breakfast/whey-protein-label.jpg",
     "vault/health/2026-07-21-usual-breakfast-review.md",
@@ -203,8 +211,6 @@
     "repos/DavidHowardGolf/tests/__pycache__/test_live_module_contract.cpython-312-pytest-9.1.1.pyc",
     "repos/DavidHowardGolf/tests/__pycache__/test_live_data.cpython-312-pytest-9.1.1.pyc",
     "repos/DavidHowardGolf/tests/__pycache__/test_heading_layout_contract.cpython-312-pytest-9.1.1.pyc",
-    "repos/DavidHowardGolf/tests/__pycache__",
-    "repos/DavidHowardGolf/scripts/__pycache__/validate_live_data.cpython-312.pyc",
     "vault/briefs/2026-07-21-escape-velocity-income-engine.md",
     "vault/briefs/daily-agentic-value-radar-2026-07-21.md",
     "vault/briefs/wiki-refiner-2026-07-21.md",
@@ -218,12 +224,6 @@
     "vault/items/ob-no-show-deposit-proof-sprint.md",
     "vault/briefs/daily-portfolio-brief-2026-07-18.md",
     "vault/briefs/daily-agentic-value-radar-2026-07-18.md",
-    "vault/briefs/wiki-refiner-2026-07-18.md",
-    "vault/briefs/daily-portfolio-brief-2026-07-17.md",
-    "vault/briefs/daily-agentic-value-radar-2026-07-17.md",
-    "vault/briefs/wiki-refiner-2026-07-17.md",
-    "vault/briefs/daily-portfolio-brief-2026-07-16.md",
-    "vault/briefs/daily-agentic-value-radar-2026-07-16.md",
-    "vault/briefs/wiki-refiner-2026-07-16.md"
+    "vault/briefs/wiki-refiner-2026-07-18.md"
   ]
 }
