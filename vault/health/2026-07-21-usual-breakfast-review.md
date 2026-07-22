@@ -38,6 +38,10 @@ Use this as the standard version after recording the current original portions o
 
 The objective is for breakfast to contribute roughly 30 to 40 g protein toward the daily 180 g target. Use the actual labels of the chosen oats, granola, dairy, and whey to log the exact total.
 
+### Whey product recorded
+
+The photographed whey concentrate provides, per 30 g scoop: 110 kcal, 22 g protein, 2.1 g fat, 1.4 g carbohydrate, and 0.26 g salt. The visible label directs mixing one scoop with 200 ml water or milk and limits intake to two portions daily. It contains milk and may contain gluten, egg, fish, peanuts, and soy.
+
 ## Supplement review
 
 ### Creatine
