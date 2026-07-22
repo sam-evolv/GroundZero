@@ -34,9 +34,23 @@ The right sequence is:
 
 **Status:** draft only. Do not send without Sam’s approval.
 
-## Prospect research
+## Verified prospect research · 22 July 2026
 
-A verification pass is in progress. Do not assume development count, scale, decision-makers, or commercial fit until the source-linked research is back.
+**Assessment:** high-fit and worth the warm introduction.
+
+- Bridgewater operates as Bridgewater Group / Bridgewater Construction / Bridgewater Homes, headquartered in Cork.
+- It publicly describes an end-to-end model across development, planning, design, construction, sales/marketing, property/building management, customer service, and post-build property management.
+- Its live developments page lists five currently marketed schemes: Waterfall Avenue and Waterfall Heights in Bishopstown; The Orchard in Rochestown/Douglas; Glenwood in Strawhall, Fermoy; and Ocean Drive in Ballycotton.
+- The official sitemap shows the developments index updated 16 March 2026 and Waterfall Avenue updated 16 March 2026. This is current enough to use as a research base.
+- No named director/MD was safely verified. The warm introduction should ask for the person responsible for residential delivery, customer care, or sales/marketing.
+
+**OpenHouse angle:** one branded homeowner record per plot across schemes: completion pack, BER/warranty/O&M evidence, photographic handover record, snag/aftercare workflow, and one resident-facing source of truth. Position it as a way to standardise high-quality handover and post-completion communication without adding site or sales-team admin.
+
+**Do not say:** their process is broken. Parts of their public Help-to-Buy/New Homes copy appear stale, but that is only a public-content observation, not proof of an operational failure.
+
+**Sources:** https://www.bridgewaterconstruction.ie/our-company · https://www.bridgewaterconstruction.ie/new-developments · https://www.bridgewaterconstruction.ie/sitemap.xml · https://www.bridgewaterconstruction.ie/contact
+
+See [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]].
 
 ## Success condition
 

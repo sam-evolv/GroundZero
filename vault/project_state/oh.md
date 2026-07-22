@@ -26,7 +26,7 @@ The V2 rollout is still on track for end of month. Real Longview Estates data re
 ## Next actions
 - Keep monitoring the production migration until the backup tables can be dropped after a clean week.
 - Triage any open issues that affect the portal experience.
-- Prepare and accept Carol Tallon’s warm Bridgewater Developments introduction in parallel with marketing-site refinement; prospect fit and development facts are awaiting verification. See [[items/oh-bridgewater-warm-introduction]].
+- Prepare and accept Carol Tallon’s warm Bridgewater Developments introduction in parallel with marketing-site refinement. Bridgewater is now verified as a high-fit, five-scheme Cork prospect. See [[items/oh-bridgewater-warm-introduction]].
 
 ## Risks
 - Supabase remote anomaly checks are blocked in this environment because no access token is available and local status checks cannot run without Docker.

@@ -40,11 +40,10 @@ However, the response is not indiscriminate outreach. The plan is:
 
 ## Concrete next actions
 
-1. Verify Bridgewater’s current developments and buyer/aftercare context.
-2. Decide whether to send Carol the drafted acceptance reply.
-3. Create the minimum marketing-site conversion pass: clear one-line value proposition, credible proof, relevant product screenshots, and a clear developer conversation CTA.
-4. Prepare a Bridgewater-specific discovery brief once the introduction lands.
-5. Continue AxisBIC application confirmation and submission.
+1. If not already done, send Carol the drafted acceptance reply.
+2. Create the minimum marketing-site conversion pass: clear one-line value proposition, credible proof, relevant product screenshots, and a clear developer conversation CTA.
+3. Use the completed [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]] when Carol's introduction lands.
+4. Continue AxisBIC application confirmation and submission.
 
 ## Connected vault notes
 
