@@ -5,6 +5,8 @@ Private health and fitness tracking for Sam.
 ## Active block
 
 - [[2026-07-21-recomposition-block]]
+- [[2026-07-21-baseline-physique-review]]
+- [[photos/2026-07-21-baseline]]
 
 ## Operating principle
 
