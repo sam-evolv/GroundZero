@@ -188,7 +188,10 @@ Treat low-bit edge AI as an architecture direction and a strengthening of OpenHo
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-energy-assistant-wedge]]
 - [[companies/cara]]
 - [[companies/openhouse-ai]]
+- [[context/agentic-value-creation-mission]]
 - [[context/business-opportunities-moc]]
+- [[context/solo-founder-era]]
 

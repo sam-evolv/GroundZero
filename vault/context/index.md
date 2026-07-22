@@ -99,6 +99,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-agentic-value-radar-2026-07-17]]
 - [[briefs/daily-agentic-value-radar-2026-07-18]]
 - [[briefs/daily-agentic-value-radar-2026-07-20]]
+- [[briefs/daily-agentic-value-radar-2026-07-21]]
 - [[briefs/daily-ai-brief-2026-07-14]]
 - [[briefs/daily-portfolio-brief-2026-07-14]]
 - [[briefs/daily-portfolio-brief-2026-07-15]]

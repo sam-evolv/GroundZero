@@ -90,3 +90,8 @@ The system is judged by funded milestones, cleared payments, task allocation, in
 - [[companies/openbook]] — product capability, not current rescue plan
 - [[companies/cara]] — founder dogfooding only
 - [[people/sam-donworth]] — founder context
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+

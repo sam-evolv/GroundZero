@@ -35,5 +35,11 @@ Cara’s current state requires repeated 20–60-minute hands-free conversations
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/daily-agentic-value-radar-2026-07-18]]
+- [[briefs/daily-agentic-value-radar-2026-07-21]]
+- [[context/agentic-value-creation-mission]]
 - [[context/index]]
+- [[decisions/cara-founder-dogfood-voice-first]]
+- [[items/cara-founder-voice-dogfood]]
+- [[project_state/cara]]
 

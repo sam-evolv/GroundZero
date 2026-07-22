@@ -95,6 +95,7 @@ Most likely first bets:
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/10-non-common-ai-money-ideas]]
 - [[briefs/2026-06-30]]
+- [[briefs/2026-07-21-escape-velocity-income-engine]]
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/openhouse-energy-assistant-wedge]]

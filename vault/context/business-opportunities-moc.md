@@ -62,6 +62,7 @@ Planet.com data is not a single-wedge opportunity. It touches multiple businesse
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/10-non-common-ai-money-ideas]]
 - [[briefs/2026-06-30]]
+- [[briefs/2026-07-21-escape-velocity-income-engine]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]

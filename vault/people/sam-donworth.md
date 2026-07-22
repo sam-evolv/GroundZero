@@ -50,6 +50,7 @@ timezone: Europe/Dublin
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/10-non-common-ai-money-ideas]]
 - [[briefs/2026-06-09]]
+- [[briefs/2026-07-21-escape-velocity-income-engine]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/sam-90-day-cash-authority-plan-2026-07-13]]

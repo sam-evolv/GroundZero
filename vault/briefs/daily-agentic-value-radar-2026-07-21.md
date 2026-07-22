@@ -38,3 +38,8 @@ Cara’s stated acceptance criteria require latency, interruption, corrections, 
 - [[decisions/cara-founder-dogfood-voice-first]] — quality bar
 - [[briefs/daily-agentic-value-radar-2026-07-20]] — prior radar
 - [[context/index]] — shared entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+
