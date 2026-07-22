@@ -66,6 +66,30 @@ Use a pad and choose a conservative first working weight. Focus on a controlled 
 - 8 to 10 minutes bike or rower at conversational pace.
 - No run today.
 
+## Actual session log · 22 July 2026
+
+**Context:** gym was unusually busy. Exercise order was changed pragmatically rather than waiting for stations. This was the right call.
+
+- Bike warm-up: 4 minutes.
+- Dumbbell Bulgarian split squat: 8 kg, 3 × 8 each side. **Balance was poor.**
+- Bench hip thrust: 16 kg, 3 × 12. **Form uncertain.**
+- Hammer Strength seated hamstring curl: machine setting 47, 3 × 15. Unit is unconfirmed because the machine is marked 5–138; record as `47 machine units` until confirmed.
+- Leg press: 105 kg, 3 × 12. Felt good.
+- Leg extension: 26 kg, 3 working sets. Reps were not recorded.
+- Calf raise: 30 kg, 3 × 12.
+- Tibialis raises, Pallof press, and optional cardio: skipped because of time/equipment pressure.
+- Water during session: approximately 500 ml.
+- Heavy perspiration reported. Treat this as a hydration/heat cue, not a session-quality metric.
+
+## Next-time progression cues
+
+- **Bulgarian split squat:** keep 8 kg. Lightly hold a rack or Smith upright for balance. Build stable control to 3 × 10 each side before increasing load.
+- **Hip thrust:** do not add weight yet. Use a lighter or bodyweight rehearsal set first, then keep ribs down, chin tucked, and finish with glutes rather than arching the lower back. Use a Smith or hip-thrust machine if that makes setup more stable.
+- **Hamstring curl:** repeat `47 machine units` once more with a full squeeze. Increase only when every rep is controlled.
+- **Leg press:** repeat 105 kg if depth/control or effort was uncertain. If all 3 × 12 were clean with about two reps left, target 110 kg for 3 × 10–12 next time.
+- **Leg extension:** record reps next time. Stay at 26 kg until they are known and controlled.
+- **Calf raise:** keep 30 kg and move to 3 × 15 before adding load.
+
 ## What to log after the session
 
 - Main quad movement, load, and reps for all three sets.
