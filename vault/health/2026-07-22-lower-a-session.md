@@ -1,0 +1,80 @@
+# Training Session · 22 July 2026 · Lower A
+
+**Context:** back and triceps were trained on 21 July.  
+**Goal today:** train quads, hamstrings, glutes, calves, core, and shin resilience without stacking more direct back or triceps fatigue.  
+**Gym capability:** photographs show a full free-weight/rack area, benches, dumbbells, cable stations, treadmills, bikes, rowers, and elliptical-style cardio equipment. This supports the active [[2026-07-21-recomposition-block]].
+
+## Session rules
+
+- Total time: 55 to 65 minutes.
+- Use a load that leaves roughly two good reps in reserve on most working sets.
+- No sharp pain. Replace any movement that causes knee, hip, back, or shin pain.
+- No heavy deadlifts today: back was trained yesterday.
+- Do not add chest, shoulders, triceps, or extra back work today.
+
+## 1. Warm-up · 7 minutes
+
+- 4 minutes on bike or elliptical at an easy pace. Choose this over treadmill if shins are tender.
+- 15 controlled tibialis raises.
+- 12 slow bodyweight calf raises.
+- 10 bodyweight squats.
+- Two gradual warm-up sets for the first leg movement.
+
+## 2. Main quad movement · 3 working sets
+
+Choose one:
+
+- Leg press: 8 to 12 reps.
+- Hack squat: 8 to 12 reps.
+- If neither is available, Smith-machine box squat: 8 to 10 reps.
+
+Rest 90 to 120 seconds. Use full comfortable depth and controlled lowering.
+
+## 3. Split squat · 3 sets each side
+
+- Dumbbell Bulgarian split squat or a controlled step-up: 8 to 10 reps per side.
+- Rest 60 to 90 seconds between sides.
+
+Keep this controlled. It is not a conditioning test.
+
+## 4. Hamstring curl · 3 sets
+
+- Seated or lying leg curl: 10 to 15 reps.
+- Pause for one second in the contracted position.
+- Rest 60 to 90 seconds.
+
+## 5. Glute movement · 3 sets
+
+- Barbell, Smith-machine, or dumbbell hip thrust: 8 to 12 reps.
+- Rest 90 seconds.
+
+Use a pad and choose a conservative first working weight. Focus on a controlled lockout, not an overextended lower back.
+
+## 6. Leg extension + calf raise superset · 2 rounds
+
+- Leg extension: 12 to 15 controlled reps.
+- Standing or seated calf raise: 12 to 15 controlled reps.
+- Rest 60 seconds after both movements.
+
+## 7. Shin and trunk finisher · 2 rounds
+
+- Tibialis raises against a wall or machine: 15 to 25 reps.
+- Pallof press on cable: 10 to 12 reps each side.
+
+## Optional cardio · only if time and shins feel good
+
+- 8 to 10 minutes bike or rower at conversational pace.
+- No run today.
+
+## What to log after the session
+
+- Main quad movement, load, and reps for all three sets.
+- Split-squat weight and reps.
+- Hamstring curl and hip-thrust load/reps.
+- Shoulder pain, 0 to 10: should be irrelevant today; note anything unexpected.
+- Shin pain before and after, 0 to 10.
+- Energy, 1 to 5.
+
+## Next session
+
+The next upper session should be a shoulder-friendly Upper A or Upper B, depending on how triceps and back feel after their recovery day.
