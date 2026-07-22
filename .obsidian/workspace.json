@@ -179,6 +179,14 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/private/learning-library/README.md",
+    "vault/private/learning-library/podcasts/_Index.md",
+    "vault/private/learning-library/books/_Index.md",
+    "vault/private/learning-library/quote-bank.md",
+    "vault/private/learning-library/podcasts",
+    "vault/private/learning-library/inbox.md",
+    "vault/private/learning-library/books",
+    "vault/private/learning-library",
     "vault/private/agent-co-pilot/daily-decision-card-template.md",
     "vault/private/agent-co-pilot/weekly-executive-review-template.md",
     "vault/private/agent-co-pilot/2026-07-22-initial-voice-journal.md",
@@ -208,9 +216,6 @@
     "vault/health/2026-07-21-recomposition-block.md",
     "vault/health",
     "repos/DavidHowardGolf/tests/__pycache__/test_site_quality_contract.cpython-312-pytest-9.1.1.pyc",
-    "repos/DavidHowardGolf/tests/__pycache__/test_live_module_contract.cpython-312-pytest-9.1.1.pyc",
-    "repos/DavidHowardGolf/tests/__pycache__/test_live_data.cpython-312-pytest-9.1.1.pyc",
-    "repos/DavidHowardGolf/tests/__pycache__/test_heading_layout_contract.cpython-312-pytest-9.1.1.pyc",
     "vault/briefs/2026-07-21-escape-velocity-income-engine.md",
     "vault/briefs/daily-agentic-value-radar-2026-07-21.md",
     "vault/briefs/wiki-refiner-2026-07-21.md",
@@ -219,11 +224,6 @@
     "vault/briefs/wiki-refiner-2026-07-20.md",
     "vault/briefs/daily-portfolio-brief-2026-07-19.md",
     "vault/briefs/wiki-refiner-2026-07-19.md",
-    "vault/Daily/2026-07-18.md",
-    "vault/items/renew-reporting-source-baseline.md",
-    "vault/items/ob-no-show-deposit-proof-sprint.md",
-    "vault/briefs/daily-portfolio-brief-2026-07-18.md",
-    "vault/briefs/daily-agentic-value-radar-2026-07-18.md",
-    "vault/briefs/wiki-refiner-2026-07-18.md"
+    "vault/Daily/2026-07-18.md"
   ]
 }
