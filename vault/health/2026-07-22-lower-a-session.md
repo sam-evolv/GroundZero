@@ -81,6 +81,12 @@ Use a pad and choose a conservative first working weight. Focus on a controlled 
 - Water during session: approximately 500 ml.
 - Heavy perspiration reported. Treat this as a hydration/heat cue, not a session-quality metric.
 
+### Post-workout intake
+
+- Whey protein: one 30 g scoop, 22 g protein, 110 kcal.
+- Coffee: one espresso with approximately 200 ml frothed milk. Milk type is unconfirmed, so calories and protein are not yet estimated.
+- Water after training: one pint, in addition to the approximately 500 ml consumed during the session.
+
 ## Next-time progression cues
 
 - **Bulgarian split squat:** keep 8 kg. Lightly hold a rack or Smith upright for balance. Build stable control to 3 × 10 each side before increasing load.
