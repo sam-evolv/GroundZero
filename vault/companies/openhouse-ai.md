@@ -16,6 +16,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 ## In flight
 - Production migration stabilisation and backup-table cleanup.
 - Vercel production deployments are healthy. Latest deployment is ready.
+- Carol Tallon has offered a warm introduction to Bridgewater Developments. This is an active lead, being researched and prepared in parallel with marketing-site refinement. See [[items/oh-bridgewater-warm-introduction]].
 - PR #184 and PR #186 are merged and no longer in flight.
 
 ## Live check
