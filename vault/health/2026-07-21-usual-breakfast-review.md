@@ -25,22 +25,25 @@ The meal appears carbohydrate-heavy and probably protein-light. Exact calorie an
 
 This is not a reason to remove porridge. It is a reason to give the breakfast a defined protein anchor and measure the calorie-dense dry ingredients once.
 
-## Default recomposition version
+## Default recomposition timing
 
-Use this as the standard version after recording the current original portions once:
+### Before morning training
 
-- 60 g dry oats.
-- 25 to 30 g granola, weighed rather than poured freely.
-- One scoop of whey mixed in after cooking, or 200 to 250 g skyr/Greek yoghurt alongside it.
-- Berries or another fruit for fibre and volume.
-- Tea as normal.
-- 5 g creatine monohydrate daily. Timing is not important; consistency is.
+Keep the current breakfast routine:
 
-The objective is for breakfast to contribute roughly 30 to 40 g protein toward the daily 180 g target. Use the actual labels of the chosen oats, granola, dairy, and whey to log the exact total.
+- Porridge/oats and granola.
+- Tea with a small amount of milk.
+- Electrolyte if wanted.
+- 5 g creatine mixed into the electrolyte.
+- Multivitamin with breakfast.
 
-### Whey product recorded
+Measure the dry oats and granola once so this becomes an accurate recurring log entry. If the porridge feels heavy during training, reduce the granola portion or leave more time between breakfast and the gym rather than removing the oats.
 
-The photographed whey concentrate provides, per 30 g scoop: 110 kcal, 22 g protein, 2.1 g fat, 1.4 g carbohydrate, and 0.26 g salt. The visible label directs mixing one scoop with 200 ml water or milk and limits intake to two portions daily. It contains milk and may contain gluten, egg, fish, peanuts, and soy.
+### After morning training
+
+- One 30 g whey scoop mixed with water: 110 kcal and 22 g protein.
+
+The protein from the whey plus the protein already in the oats/granola makes this a solid training-morning intake. If the combined breakfast and whey later prove to be below roughly 30 g protein, add a protein-rich food later in the morning rather than forcing more into the pre-workout meal.
 
 ## Supplement review
 
