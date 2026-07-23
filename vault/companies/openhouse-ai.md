@@ -44,6 +44,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[items/oh-warranty-filter]] - warranty dashboard filter
 - [[context/openhouse-product-map]] - product surface map
 - [[briefs/openhouse-energy-assistant-wedge]] - energy assistant extension
+- [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]] - research-backed marketing-site creative direction, interaction system, validation and performance targets
 - [[briefs/kimi-k3-low-bit-edge-ai-opportunity-2026-07-20]] - model-swappable and edge-ready home intelligence direction
 - [[briefs/openhouse-ndrc-accelerator-pitch]] - NDRC pitch
 - [[briefs/openhouse-ndrc-submission-sprint-2026-07-01]] - active NDRC submission sprint and deck QA plan
