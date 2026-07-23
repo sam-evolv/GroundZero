@@ -114,10 +114,12 @@ Hermes should surface a hard check when one of these occurs:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-22-six-month-agent-co-pilot-challenge]]
 - [[briefs/sam-90-day-cash-authority-plan-2026-07-13]]
 - [[context/agentic-value-creation-mission]]
 - [[context/index]]
 - [[context/model-pack]]
 - [[context/solo-founder-era]]
+- [[decisions/2026-07-22-six-month-agent-co-pilot-protocol]]
 - [[people/sam-donworth]]
 

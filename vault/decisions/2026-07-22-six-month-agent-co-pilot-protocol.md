@@ -66,3 +66,8 @@ Review on 5 August 2026. Continue, simplify, or stop based on observable outcome
 - [[context/founder-execution-os]] — evidence and WIP framework
 - [[briefs/2026-07-21-escape-velocity-income-engine]] — cash route constraints
 - [[health/2026-07-21-recomposition-block]] — first personal proof loop
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[items/oh-uk-aftercare-design-partner-sprint]]
+

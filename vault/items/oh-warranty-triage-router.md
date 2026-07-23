@@ -62,6 +62,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/oh-room-inference]]
 - [[items/oh-dtc-home-savings-scan-concierge]]
 - [[items/oh-guardrails-eval]]
+- [[items/oh-uk-aftercare-design-partner-sprint]]
 - [[items/oh-warranty-evidence-pack]]
 - [[items/oh-warranty-filter]]
 - [[project_state/oh]]

@@ -41,5 +41,10 @@ Cara’s stated acceptance criteria require latency, interruption, corrections, 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/daily-agentic-value-radar-2026-07-20]]
+- [[context/agentic-value-creation-mission]]
 - [[context/index]]
+- [[decisions/cara-founder-dogfood-voice-first]]
+- [[items/cara-founder-voice-dogfood]]
+- [[project_state/cara]]
 

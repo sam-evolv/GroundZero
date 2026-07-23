@@ -63,3 +63,11 @@ A scheduled discovery conversation with the appropriate Bridgewater decision-mak
 - [[briefs/2026-07-22-reset-and-bridgewater-opportunity]] — source reflection and operating decision context
 - [[context/openhouse-sales-routes]] — sales/channel strategy
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]] — channel-leverage strategy after Cairn
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-22-reset-and-bridgewater-opportunity]]
+- [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
+- [[companies/openhouse-ai]]
+- [[project_state/oh]]
+

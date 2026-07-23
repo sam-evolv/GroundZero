@@ -119,6 +119,7 @@ Each recommendation must show the use case, expected value, effort, risk, test, 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-22-reset-and-bridgewater-opportunity]]
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/daily-agentic-value-radar-2026-07-15]]
 - [[briefs/daily-agentic-value-radar-2026-07-16]]

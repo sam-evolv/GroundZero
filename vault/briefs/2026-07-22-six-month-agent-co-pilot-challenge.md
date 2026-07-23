@@ -190,3 +190,8 @@ The later case study should show the system, the evidence, the misses, the bound
 - [[companies/openhouse-ai]] — long-term equity company
 - [[companies/cara]] — founder dogfooding constraint
 - [[health/2026-07-21-recomposition-block]] — body-composition proof loop
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[decisions/2026-07-22-six-month-agent-co-pilot-protocol]]
+

@@ -62,6 +62,7 @@ Phase 0: prove one excellent live +353 call before building app/dashboard/paymen
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-14-morning-briefing-golf-cara]]
 - [[briefs/2026-07-21-escape-velocity-income-engine]]
+- [[briefs/2026-07-22-six-month-agent-co-pilot-challenge]]
 - [[briefs/cara-founder-voice-build-sprint-2026-07-12]]
 - [[briefs/cara-realtime-car-voice-acceptance]]
 - [[briefs/cara-starter-product-spec]]
@@ -79,6 +80,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-19]]
 - [[briefs/wiki-refiner-2026-07-20]]
 - [[briefs/wiki-refiner-2026-07-21]]
+- [[briefs/wiki-refiner-2026-07-22]]
 - [[context/agentic-value-creation-mission]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]

@@ -93,5 +93,13 @@ The system is judged by funded milestones, cleared payments, task allocation, in
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-22-six-month-agent-co-pilot-challenge]]
+- [[companies/cara]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
+- [[context/consulting-wedges]]
+- [[context/founder-execution-os]]
+- [[decisions/2026-07-22-six-month-agent-co-pilot-protocol]]
+- [[people/sam-donworth]]
 

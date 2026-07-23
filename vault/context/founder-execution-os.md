@@ -238,6 +238,7 @@ For any consequential action, require a clear approval screen: action, audience,
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-21-escape-velocity-income-engine]]
+- [[briefs/2026-07-22-six-month-agent-co-pilot-challenge]]
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[context/agentic-value-creation-mission]]
 - [[context/automation-ideas]]
@@ -246,5 +247,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/llm-wiki-pattern]]
 - [[context/model-pack]]
 - [[context/review-workflow]]
+- [[decisions/2026-07-22-six-month-agent-co-pilot-protocol]]
 - [[people/sam-donworth]]
 

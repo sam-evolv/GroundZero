@@ -53,3 +53,9 @@ However, the response is not indiscriminate outreach. The plan is:
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]] — channel strategy after Cairn
 - [[private/agent-co-pilot/axisbic-application-pack-2026-07-22]] — AxisBIC application preparation
 - [[context/agentic-value-creation-mission]] — agent partnership operating thesis
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
+- [[items/oh-bridgewater-warm-introduction]]
+

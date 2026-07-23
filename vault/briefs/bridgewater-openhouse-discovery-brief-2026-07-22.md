@@ -70,3 +70,9 @@ Send a tailored one-page recap within 24 hours of the meeting. It should name th
 - [[project_state/oh]] — live product status
 - [[briefs/2026-07-22-reset-and-bridgewater-opportunity]] — source founder reflection
 - [[context/openhouse-sales-routes]] — broader sales strategy
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-22-reset-and-bridgewater-opportunity]]
+- [[items/oh-bridgewater-warm-introduction]]
+

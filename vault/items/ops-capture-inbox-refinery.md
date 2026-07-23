@@ -69,5 +69,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/ops-automation-moc]]
 - [[context/review-workflow]]
 - [[items/ops-daily-sync-digest]]
+- [[items/ops-index-maintenance-bot]]
 - [[items/ops-source-to-wiki-ingest]]
 
