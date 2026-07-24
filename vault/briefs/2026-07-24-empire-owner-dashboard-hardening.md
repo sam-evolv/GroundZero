@@ -17,7 +17,10 @@ company: OpenBook
 
 - Worktree: `/Users/samdonworth/OpenBook-empire-owner-dashboard`
 - Branch: `feat/empire-owner-dashboard`
-- Local commit: `175a73e Harden owner website dashboard`
+- Local dashboard commits:
+  - `175a73e Harden owner website dashboard`
+  - `f7d720f Keep hero uploads aligned with public renderer`
+- Local renderer commit: `9f7aba8 Preserve owner About copy in renderer`
 
 The Website dashboard now:
 
@@ -25,6 +28,7 @@ The Website dashboard now:
 - shows a plain-language Site check for hero, about content, services, contact details, gallery and domain status;
 - links the owner straight to the relevant edit surface;
 - retains structured content/media editing through the existing dashboard;
+- keeps hero uploads aligned with the renderer-priority `business_media` record, so a newly uploaded hero cannot be masked by stale media;
 - makes custom-domain mutation operator-managed: client purchase, attach and removal actions are blocked server-side and removed from the customer UI.
 
 ## Why custom-domain mutation is disabled
@@ -35,7 +39,7 @@ Re-enable only after implementing and testing an explicit per-business renderer-
 
 ## Verification
 
-- `npm test`: 63 files, 587 tests passed.
+- `npm test`: 64 files, 589 tests passed.
 - `npm run build`: passed.
 - `git diff --check`: passed before commit.
 - Standalone `npx tsc --noEmit` still has a pre-existing ES2017 target mismatch in `__tests__/passes/generate-booking-pass.test.ts`; the production Next build typecheck passed.
