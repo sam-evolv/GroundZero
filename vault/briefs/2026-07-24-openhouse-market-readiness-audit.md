@@ -237,6 +237,34 @@ The next strategic work should be a **30-day market-readiness hardening sprint**
 4. Select a single measurable developer pilot outcome.
 5. Reconcile every public statement to evidence.
 
+## Ireland market evidence and commercial sequencing
+
+### Verified market facts
+
+- RTB recorded **327,992 tenancies** at the end of 2024, including **36,521 student-specific accommodation tenancies**. Large landlords with 100+ tenancies represented 13.11% of private tenancies nationally and 26% in Dublin. Source: [RTB Annual Report 2024](https://rtb.ie/wp-content/uploads/2025/09/Annual-Report-2024.pdf).
+- Ireland’s 2026 rental reforms increase the importance of retention, maintenance efficiency and operating NOI for institutional landlords. Source: [Department of Housing rental-sector reforms](https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/government-reforms-to-the-rental-sector-starting-1-march-2026/).
+- The National Student Accommodation Strategy projects approximately **42,000 beds** required by 2035, including a 15,000-bed deficit. This validates PBSA as a future vertical but not necessarily a first sales route. Source: [National Student Accommodation Strategy 2026-2035](https://www.gov.ie/en/department-of-further-and-higher-education-research-innovation-and-science/publications/national-student-accommodation-strategy-2026-2035/).
+- HPI and HPP explicitly include consumer information, aftercare, commissioning, performance monitoring and post-occupancy evaluation. OpenHouse can organise the underlying evidence and homeowner workflow but must not claim to certify compliance. Sources: [HPI technical manual](https://homeperformanceindex.ie/wp-content/uploads/2025/11/HPI-Technical-Manual-v3.1.pdf) and [HPP manual](https://homeperformanceindex.ie/wp-content/uploads/2026/03/hpp_technical-manual_v1-1_26-03-12.pdf).
+- SEAI is explicit that BER is an asset rating, not measured household consumption. This makes a home-specific education and consent-led data layer legitimate, but prohibits unproven savings claims. Source: [SEAI, Understand a BER](https://www.seai.ie/ber/understand-a-ber-rating).
+- Smart meters record half-hourly usage. The registered customer can download consumption/export data, while supplier access to detailed data is consent-governed. OpenHouse should start with homeowner CSV/HDF upload and explicit consent, not automatic data collection. Sources: [CRU smart meters](https://www.cru.ie/consumer-information/billing/smart-meters-and-services/) and [ESB Networks usage data](https://www.esbnetworks.ie/customer-support/customer-support-queries/meter-reading/my-energy-consumption).
+
+### Market recommendation
+
+The commercial order is:
+
+1. **Build-to-sell developer pilot:** Living Home Handover & Aftercare.
+2. **Private BTR operator:** 90-day, 150–500-home resident operations and verified building-knowledge pilot.
+3. **Private PBSA operator:** only after BTR/build-to-sell proof, as an augmentation layer rather than a booking, tenancy or welfare system.
+4. **Public HEI/state-backed PBSA:** strategic later route, after a private reference, DPIA and procurement-ready security pack exist.
+
+The BTR/PBSA pilot should measure support deflection, correct fault routing, time-to-resolution, recurring-fault signals, resident usefulness and operator-validated staff time saved. It should not claim rent optimisation, tenant scoring, automated tenancy decisions, system diagnosis or energy savings.
+
+### Independent legacy-tree audit warning
+
+An independent read-only review found severe unauthenticated API, QR/revocation and chat-scope vulnerabilities in a divergent local `property-assistant` copy. The canonical worktree inspected for this audit already has materially different route implementations, including QR validation and secured admin-homeowner access, so those legacy findings must **not** be misrepresented as confirmed production vulnerabilities.
+
+They do, however, prove a P0 release-control requirement: quarantine/remove the unmanaged tree after retaining any genuinely needed changes, and confirm the Vercel deployment uses only the canonical repository and branch. Any future security audit must record exact repository root, commit SHA and deployment target.
+
 ## Connected vault notes
 
 - [[companies/openhouse-ai]] — company context
