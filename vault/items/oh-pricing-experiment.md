@@ -57,3 +57,6 @@ _Auto-generated: updated by wiki-refiner_
 
 ## Recommendation
 This is a plausible project once the V2 launch is stable. It should not distract from the current reliability work.
+
+## Incubation note, 24 July 2026
+The founding premise ("top 5% of agencies drive 40% of usage") is not grounded in current reality. OpenHouse's live data is Longview Estates across four schemes, and the buyer is property developers, not a base of many agencies. Treat this idea as parked-pending-scale, not near-term. It is not commercially relevant while the focus is marketing-site completion and investor/developer outreach per [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]. Revisit only after there are enough paying developer accounts with real usage dispersion to make tiering defensible. Until then, pricing is a funder-narrative talking point, not a build.

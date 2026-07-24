@@ -16,6 +16,7 @@ kind: moc
 | [[Daily/2026-07-13]] | Incubated active ideas, added a bounded DTC validation proposal, and avoided duplicate portfolio work | items/cara-founder-voice-dogfood, items/oh-dtc-home-savings-scan-concierge, items/_Index |
 | [[Daily/2026-07-18]] | Expanded thin ideas, consolidated duplicate ops proposals, and added two evidence-gate experiments | items/ob-no-show-deposit-proof-sprint, items/renew-reporting-source-baseline, items/_Index |
 | [[Daily/2026-07-22]] | Consolidated duplicate readiness proposals and added one channel-gated UK aftercare proof idea | items/oh-handover-readiness-scan, items/oh-scheme-launch-scorecard, items/oh-uk-aftercare-design-partner-sprint, items/ops-index-maintenance-bot, items/_Index |
+| [[Daily/2026-07-24]] | Incubated the 24 July reset gap: created the two missing OpenBook commercial-unblock ideas and re-parked a stale pricing idea | items/ob-client-self-edit-portal-billing, items/ob-prepared-leadgen-loop, items/oh-pricing-experiment, items/_Index |
 | [[briefs/2026-06-28]] | Daily brief: OpenHouse remains active focus; energy-intelligence investor-deck revision thread is the useful new change | openhouse-energy-intelligence-sketch, openhouse-energy-investor-deck-outline, openhouse-energy-investor-deck-draft-v0, openhouse-investor-brief-energy-agentic-revision-plan |
 
 ## Pattern

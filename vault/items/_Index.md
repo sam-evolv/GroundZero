@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-07-22"
+updated_at: "2026-07-24"
 ---
 
 # Ideas Index
@@ -37,6 +37,8 @@ This index tracks the current active idea queue. Each entry links to its item no
 
 | Item | Summary | Size | Status |
 |---|---|---|---|
+| [[items/ob-client-self-edit-portal-billing]] | Client self-edit portal + Stripe €79/mo billing | M | building 🔥 |
+| [[items/ob-prepared-leadgen-loop]] | Constrained prepared-lead loop, 10 review-ready leads/day | M | proposed |
 | [[items/ob-no-show-deposits]] | Refundable deposits to kill no-shows | L | proposed |
 | [[items/ob-no-show-deposit-workflow]] | Automate deposit + reminder sequence | M | proposed |
 | [[items/ob-no-show-deposit-proof-sprint]] | Validate deposit policy and economics with five venues | S | proposed 🔥 |
@@ -88,6 +90,12 @@ This index tracks the current active idea queue. Each entry links to its item no
 - [[items/oh-uk-aftercare-design-partner-sprint]] is mature enough as a bounded commercial validation specification, but should not activate under the current one-proof-loop WIP limit. Activate only when a warm channel or inbound design partner exists.
 - [[items/ops-index-maintenance-bot]] should not become a standalone project. Fold deterministic index validation into the existing refiner or daily evidence pipeline.
 - Existing 18 July recommendations for OpenBook deposits, Renew reporting baseline and the project-state reconciler remain valid. Their stale live-state prerequisites are unchanged.
+
+## Promotion recommendations, 24 July 2026
+
+- [[items/ob-client-self-edit-portal-billing]] is the highest-value near-term item in the portfolio and is already committed by the [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]] decision. It is marked building. It unblocks charging an existing customer plus a warm prospect (Grace), and two to three €79/month subscriptions cover most of the ~€300/month subscription burn. Scope discipline: fixed minimum content model, not a general CMS.
+- [[items/ob-prepared-leadgen-loop]] is a genuine acquisition-leverage idea but must stay gated behind the portal and billing path per the same decision. Activate only for one small pilot slice, and measure reply rate per prepared lead, not sites generated.
+- OpenHouse focus this cycle is marketing-site completion and investor/developer outreach. Do not open new OpenHouse build proposals that compete with that. [[items/oh-pricing-experiment]] has been re-marked parked-pending-scale because its usage-dispersion premise is not grounded in current Longview-only data.
 
 ## Cross-references
 
