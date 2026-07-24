@@ -1,13 +1,15 @@
 ---
 id: ob
 company_id: openbook
-headline: Existing OpenBook customer and Grace prospect are blocked on a light self-edit portal before €79/month billing.
+headline: Empire Gym's owner dashboard hardening is locally verified; safe publish/handoff is pending, and Stripe billing follows only after the owner journey is proven.
 valid: true
 updated_at: "2026-07-24T00:00:00+01:00"
 role: project-state
 ---
 
 OpenBook's immediate commercial path is a minimum client portal for editing text and photos, followed by Stripe subscriptions at €79/month. Existing lead-generation infrastructure may support a constrained automated prospecting pilot, but the old 20-minute-per-demo manual workflow is parked.
+
+On 2026-07-24, the isolated Empire Gym owner-dashboard branch passed 587 tests and a production build. The verified handoff, safety decisions and renderer blocker are in [[briefs/2026-07-24-empire-owner-dashboard-hardening]].
 
 ## Connected vault notes
 
