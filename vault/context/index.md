@@ -59,9 +59,9 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/planet-satellite-opportunity]] — satellite imagery cross-domain bridge
 
 ## Current picture
-- OpenHouse AI is the main focus. Production migration stabilisation continues, Sprint 5 PRs #184 and #186 are merged, and Vercel production is currently healthy.
+- OpenHouse AI is the main focus. The marketing site is nearly complete, followed by investor/developer outreach and funding/award applications. See [[briefs/2026-07-24-openhouse-openbook-reset]].
 - Cara is a new started-building venture: Irish SME callable digital assistant; Phase 0 target is one excellent +353 live call before app/dashboard work.
-- OpenBook is a founder-led growth play with no-shows as the clearest churn lever.
+- OpenBook's immediate commercial unblock is a light client-edit portal followed by €79/month Stripe billing; lead-gen automation is a constrained follow-on pilot.
 - Evolv Renewables has live commercial generation, with reporting still too manual.
 - OpenHouse sales routes: [[context/openhouse-sales-routes]]
 - OpenHouse product map: [[context/openhouse-product-map]]
