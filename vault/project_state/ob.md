@@ -11,6 +11,8 @@ OpenBook's immediate commercial path is a minimum client portal for editing text
 
 On 2026-07-24, the isolated Empire Gym owner-dashboard branch passed 587 tests and a production build. The verified handoff, safety decisions and renderer blocker are in [[briefs/2026-07-24-empire-owner-dashboard-hardening]].
 
+On 2026-07-24, a separate fact-safe prospect preview factory was implemented locally for the existing dedicated preview host. It has an isolated preview table/bucket migration, tokenised `noindex` route, guarded draft/publish scripts, and a manual Instagram-ready queue. No migration, Vercel environment mutation, deployment, production write or outreach has occurred. See [[briefs/2026-07-24-openbook-prospect-preview-factory]].
+
 ## Connected vault notes
 
 - [[companies/openbook]] - parent company
