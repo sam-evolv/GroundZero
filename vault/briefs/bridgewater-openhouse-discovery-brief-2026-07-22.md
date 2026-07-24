@@ -74,5 +74,8 @@ Send a tailored one-page recap within 24 hours of the meeting. It should name th
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-22-reset-and-bridgewater-opportunity]]
+- [[companies/openhouse-ai]]
+- [[context/openhouse-sales-routes]]
 - [[items/oh-bridgewater-warm-introduction]]
+- [[project_state/oh]]
 

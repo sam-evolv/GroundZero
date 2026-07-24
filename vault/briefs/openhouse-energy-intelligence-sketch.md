@@ -215,6 +215,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-energy-investor-deck-outline]]
 - [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
 - [[briefs/wiki-refiner-2026-06-28]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]

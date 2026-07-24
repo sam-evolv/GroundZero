@@ -90,6 +90,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-20]]
 - [[briefs/wiki-refiner-2026-07-21]]
 - [[briefs/wiki-refiner-2026-07-22]]
+- [[briefs/wiki-refiner-2026-07-23]]
 - [[companies/openhouse-ai]]
 - [[context/autonomous-business-launch-loop]]
 - [[context/capture-workflow]]

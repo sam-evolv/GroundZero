@@ -57,5 +57,9 @@ However, the response is not indiscriminate outreach. The plan is:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
+- [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
+- [[companies/openhouse-ai]]
+- [[context/agentic-value-creation-mission]]
 - [[items/oh-bridgewater-warm-introduction]]
+- [[project_state/oh]]
 

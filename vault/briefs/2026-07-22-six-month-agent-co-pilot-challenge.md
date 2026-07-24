@@ -193,5 +193,11 @@ The later case study should show the system, the evidence, the misses, the bound
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-21-escape-velocity-income-engine]]
+- [[companies/cara]]
+- [[companies/openhouse-ai]]
+- [[context/founder-execution-os]]
 - [[decisions/2026-07-22-six-month-agent-co-pilot-protocol]]
+- [[decisions/ai-founder-coach-operating-agreement-2026-07-14]]
+- [[people/sam-donworth]]
 

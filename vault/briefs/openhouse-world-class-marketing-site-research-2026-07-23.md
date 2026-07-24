@@ -913,3 +913,8 @@ Create a premium, cinematic, product-led OpenHouse homepage around “A home wit
 - Google Web Vitals: https://web.dev/articles/vitals
 - WCAG 2.2: https://www.w3.org/TR/WCAG22/
 - Reduced motion: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+

@@ -73,6 +73,21 @@ Promote to a bounded commercial validation project only if:
 - the expected contract value justifies procurement and support overhead;
 - activation does not breach the current one-proof-loop WIP limit.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
+- [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
+- [[companies/openhouse-ai]]
+- [[decisions/2026-07-22-six-month-agent-co-pilot-protocol]]
+- [[goals/oh-aftercare-os]]
+- [[goals/oh-funder-pitch]]
+- [[items/oh-handover-readiness-scan]]
+- [[items/oh-scheme-launch-scorecard]]
+- [[items/oh-warranty-evidence-pack]]
+- [[items/oh-warranty-triage-router]]
+- [[project_state/oh]]
+
 ## Recommendation
 
 Mature enough as a project specification, but not for immediate activation. Keep it as the prepared UK proof loop. Activate only when the current cash-authority cycle permits it and a warm channel or inbound design partner exists.

@@ -69,5 +69,10 @@ Review on 5 August 2026. Continue, simplify, or stop based on observable outcome
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-21-escape-velocity-income-engine]]
+- [[briefs/2026-07-22-six-month-agent-co-pilot-challenge]]
+- [[context/founder-execution-os]]
+- [[decisions/ai-founder-coach-operating-agreement-2026-07-14]]
 - [[items/oh-uk-aftercare-design-partner-sprint]]
+- [[people/sam-donworth]]
 

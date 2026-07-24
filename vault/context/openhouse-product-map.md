@@ -96,6 +96,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-energy-intelligence-sketch]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
 - [[companies/openhouse-ai]]
 - [[context/consulting-wedges]]
 - [[context/index]]

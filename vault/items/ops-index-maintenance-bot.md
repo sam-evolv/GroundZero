@@ -48,6 +48,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/automation-ideas]]
 - [[context/capture-workflow]]
 - [[context/ops-automation-moc]]
+- [[items/ops-capture-inbox-refinery]]
 - [[items/ops-daily-sync-digest]]
 
 
