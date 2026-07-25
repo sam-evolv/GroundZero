@@ -69,3 +69,29 @@ status: overnight run — local only, nothing pushed/deployed
 
 - Nothing pushed, deployed, migrated, or mutated remotely. No secrets/env/signing changes. No outreach. One read-only Vercel inspect call.
 - Local-only commits this run: OpenHouse `97b95ebe`; OpenBook `ea106ee`. Both worktrees clean; both branches unpushed.
+
+---
+
+# Run 3 — early morning, 25 July 2026
+
+## 1. OpenHouse security (`fix/market-readiness-foundations`)
+
+**New local commit `7a908f49` — fix(security): derive homeowner Care authority server-side (Batch 2).**
+
+- Closed the documented Batch 2 gap: homeowner Care routes (`telemetry/[installationId]`, `service-records`, `content`, `conversations`, `dismiss-alert`, `service-booking`, `chat`) and the PII-serialising `/care/[installationId]` layout all trusted a raw client-supplied installationId.
+- Fix (`lib/security/care-scope.ts`): POST `/api/care/access` now sets an httpOnly cookie carrying the existing access code (no new secrets/signing); guarded routes resolve it DB-backed (`access_code` + `is_active`) and require strict id equality. DB-backed fallbacks preserve the two other legitimate flows: installer portal session owning the tenant (admin preview) and Supabase-authed email matching `customer_email` (magic-link login). Bare URLs and `?qr=` params never authorise. Fail closed everywhere: 401 on routes, redirect to `/care` for views.
+- Known UX consequence (deliberate, is the fix): existing homeowner PWA bookmarks of `/care/{id}` without the cookie will be sent to the access-code screen once.
+- Verification: security suite 30/30 (13 new node:test cases incl. resolver query contract + both fallbacks); `tsc --noEmit` clean; `npm run build` exit 0; `git diff --check` clean; `tsconfig.tsbuildinfo` churn reverted; independent read-only subagent review returned APPROVE (notes: 180-day cookie revocable only via `is_active`; integration wrappers covered by composition, not e2e).
+- Recorded blocker unchanged: build still logs 4× missing `NEXT_PUBLIC_SUPABASE_URL/ANON_KEY` auth warnings during static generation — launch blocker, not bypassed.
+
+## 2. OpenHouse provenance — remains CLOSED (run 2); no action.
+
+## 3–4. OpenBook (`feat/openbook-automation-readiness`) — no change this run
+
+- Worktree clean, 3 local commits still unpushed. Website editor re-audited: gallery delete/reorder now correctly scoped by `business_id` (prior fragility gone); live renderer `force-dynamic`/`revalidate 0`, so no stale-publish defect.
+- Candidate defect noted, deliberately not fixed: `saveCustomDomain` persists `website_custom_domain` before `addDomainToProject`, with no rollback if the Vercel attach fails — remediation and verification would require write-side Vercel domain API calls (prohibited). Needs Sam.
+
+## Exact non-production state (run 3)
+
+- Nothing pushed, deployed, migrated, or mutated remotely. No secrets/env/signing changes. No outreach. No Vercel API calls this run.
+- Local-only commit this run: OpenHouse `7a908f49`. Both worktrees clean; both branches unpushed.
