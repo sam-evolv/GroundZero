@@ -93,6 +93,7 @@ If a person asks what OpenHouse does, say:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openhouse-market-readiness-audit]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-energy-intelligence-sketch]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]

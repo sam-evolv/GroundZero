@@ -20,6 +20,7 @@ updated: "2026-07-15"
   - ⚠️ Blocked signal in [[project_state/openhouse-ai|OpenHouse AI]]
 
 ### OpenBook
+  - **OpenBook client self-edit portal plus Stripe billing** → [[items/ob-client-self-edit-portal-billing]] (🔴 building)
   - **Live availability sync with venue calendars** → [[items/ob-realtime-availability]] (🟡 pr_ready)
 
 ## 🟡 Proposed — ready to activate
@@ -38,8 +39,8 @@ updated: "2026-07-15"
 ## 🟢 Monitoring
 
 - 🔴 [[project_state/cara|cara]]: New idea Sam has started building: Irish SME callable digital assistant; Phase 0 is one live +353 call.
-- 🟢 [[project_state/ob|ob]]: 362 live venues in Dublin. No-shows are the top churn driver.
-- 🔴 [[project_state/oh|oh]]: Database V2 is stabilising; Cairn declined the large-developer route, so OpenHouse is shifting toward funding, UK/US channels, and DTC optionality.
+- 🟢 [[project_state/ob|ob]]: Empire Gym's owner dashboard hardening is locally verified; safe publish/handoff is pending, and Stripe billing follows only after the owner journey is proven.
+- 🔴 [[project_state/oh|oh]]: OpenHouse is the active focus; marketing site nearly complete, followed by investor/developer outreach and funding/award applications.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -49,7 +50,7 @@ updated: "2026-07-15"
 |---|---|---|---|---|
 | Cara | 2 | 0 | — | 🟡 |
 | OpenHouse AI | 1 | 12 | Lift new-agent activation to 60% | 🟡 |
-| OpenBook | 1 | 5 | Reach 500 live venues in Dublin | 🟡 |
+| OpenBook | 2 | 6 | Reach 500 live venues in Dublin | 🟡 |
 | Evolv Renewables | 0 | 4 | Sign three commercial rooftop deals | 🟢 |
 
 
@@ -63,4 +64,4 @@ updated: "2026-07-15"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-07-24 02:15 IST
+- Dashboard: 2026-07-25 02:15 IST

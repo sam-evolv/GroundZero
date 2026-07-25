@@ -79,3 +79,9 @@ No Instagram login, scraping or automatic outbound is part of this system.
 - [[project_state/ob]] — live OpenBook status
 - [[briefs/2026-07-24-empire-owner-dashboard-hardening]] — separate owner portal work
 - [[context/ops-automation-moc]] — reusable automation operating pattern
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openbook]]
+- [[project_state/ob]]
+

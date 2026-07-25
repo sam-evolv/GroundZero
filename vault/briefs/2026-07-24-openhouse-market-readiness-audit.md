@@ -275,3 +275,10 @@ They do, however, prove a P0 release-control requirement: quarantine/remove the 
 - [[items/oh-onboarding-cut]] — onboarding work
 - [[items/oh-rls-audit]] — tenant and RLS work
 - [[items/oh-handover-readiness-scan]] — launch readiness work
+
+- [[imports/campaigns/openhouse-full-context]] — shared signals: openhouse, full
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[project_state/oh]]
+

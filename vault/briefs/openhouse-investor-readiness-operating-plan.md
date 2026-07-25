@@ -497,6 +497,7 @@ The near-term job is not to build the full agentic energy system. The near-term 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openhouse-market-readiness-audit]]
 - [[briefs/investor-pitch-deck-research-openhouse]]
 - [[briefs/openhouse-chatgpt-deck-rebuild-context]]
 - [[briefs/openhouse-claude-design-final-polish-prompt]]
@@ -538,6 +539,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-21]]
 - [[briefs/wiki-refiner-2026-07-22]]
 - [[briefs/wiki-refiner-2026-07-23]]
+- [[briefs/wiki-refiner-2026-07-24]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-sales-routes]]
 

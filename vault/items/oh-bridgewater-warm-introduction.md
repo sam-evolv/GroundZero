@@ -67,6 +67,7 @@ A scheduled discovery conversation with the appropriate Bridgewater decision-mak
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-22-reset-and-bridgewater-opportunity]]
+- [[briefs/2026-07-24-openhouse-openbook-reset]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
 - [[companies/openhouse-ai]]

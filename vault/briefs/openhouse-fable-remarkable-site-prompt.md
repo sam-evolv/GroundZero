@@ -314,3 +314,8 @@ Lead with the outcome. Then provide:
 - any unresolved decisions that require founder input
 
 Do not push, merge or deploy. Leave the completed work ready for review.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/wiki-refiner-2026-07-24]]
+

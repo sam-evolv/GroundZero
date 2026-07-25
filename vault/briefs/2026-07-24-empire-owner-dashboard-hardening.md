@@ -54,3 +54,9 @@ The local `OB-ClientSiteTemplate` worktree has unresolved merge conflict markers
 - [[project_state/ob]]
 - [[companies/openbook]]
 - [[briefs/2026-07-24-openhouse-openbook-reset]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openbook-prospect-preview-factory]]
+- [[project_state/ob]]
+

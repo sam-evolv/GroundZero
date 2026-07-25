@@ -52,6 +52,7 @@ Very timely. Best-in-class SaaS onboarding is increasingly AI-assisted and short
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
+- [[briefs/2026-07-24-openhouse-market-readiness-audit]]
 - [[companies/openhouse-ai]]
 - [[context/dashboard]]
 - [[context/openhouse-product-map]]

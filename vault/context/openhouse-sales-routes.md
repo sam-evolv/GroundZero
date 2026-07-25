@@ -103,6 +103,7 @@ Build a target list of 50 developers and 20 partner channels, then test 3 messag
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openhouse-openbook-reset]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]

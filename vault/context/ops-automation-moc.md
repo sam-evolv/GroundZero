@@ -63,6 +63,8 @@ These explain *why* the automation matters, not just what it does:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openbook-prospect-preview-factory]]
+- [[briefs/2026-07-24-openhouse-openbook-reset]]
 - [[briefs/daily-ai-brief-2026-07-14]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]

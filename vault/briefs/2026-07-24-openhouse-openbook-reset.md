@@ -57,3 +57,13 @@ status: current
 - [[context/openhouse-sales-routes]] — investor/developer routes
 - [[items/oh-bridgewater-warm-introduction]] — existing warm OpenHouse route
 - [[context/ops-automation-moc]] — automation backlog
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-empire-owner-dashboard-hardening]]
+- [[context/index]]
+- [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
+- [[items/ob-client-self-edit-portal-billing]]
+- [[items/ob-prepared-leadgen-loop]]
+- [[project_state/ob]]
+

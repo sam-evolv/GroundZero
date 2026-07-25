@@ -27,3 +27,10 @@ Keep the current experiment focused on OpenHouse. Do not divert into the previou
 - [[companies/openbook]]
 - [[project_state/ob]]
 - [[briefs/2026-07-24-openhouse-openbook-reset]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[items/ob-client-self-edit-portal-billing]]
+- [[items/ob-prepared-leadgen-loop]]
+- [[items/oh-pricing-experiment]]
+

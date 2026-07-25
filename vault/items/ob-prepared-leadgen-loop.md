@@ -47,5 +47,10 @@ Neutral to favourable. Automated research and drafting are cheap and capable now
 - [[project_state/ob]] — live status
 - [[goals/ob-supply]] — grows venue supply
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[items/ob-client-self-edit-portal-billing]]
+
 ## Recommendation
 Do not activate until the self-edit portal and Stripe charging path are moving. Then run a single small end-to-end pilot to prove the existing infrastructure produces cheap, review-ready leads with an acceptable reply rate before committing to a larger agent build. Success metric is reply rate per prepared lead, not sites generated.
