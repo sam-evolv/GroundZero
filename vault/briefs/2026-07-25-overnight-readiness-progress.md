@@ -36,3 +36,36 @@ status: overnight run — local only, nothing pushed/deployed
 - Nothing pushed, deployed, migrated, or mutated remotely. No secrets/signing/env changes. No outreach.
 - Local-only commits this run: OpenHouse `2452f6c9`; OpenBook `48ec57f`. Both worktrees clean.
 - Prospect-preview factory branches remain local-awaiting-activation per 2026-07-24 brief.
+
+---
+
+# Run 2 — later on 25 July 2026
+
+## 1. OpenHouse security (`fix/market-readiness-foundations`)
+
+**New local commit `97b95ebe` — fix(security): bind noticeboard comment access to caller's development.**
+
+- Defect (cross-development IDOR): `app/api/purchaser/noticeboard/[noticeId]/comments/route.ts` GET/POST validated the target notice by `tenant_id` only, while the noticeboard list GET deliberately filters by the caller's `development_id`. A purchaser with a valid QR for a unit in development A could read and post comments on any notice in any other development of the same tenant via a foreign `noticeId`.
+- Fix: new `lib/security/notice-scope.ts` (`isNoticeInCallerScope`, fail-closed, semantics mirror the list filter exactly incl. null-development handling) enforced in both GET and POST; returns 404 to avoid existence disclosure. Noticeboard PATCH/DELETE and comment PATCH/DELETE already enforce `unit_id` ownership — verified safe, untouched. `report/route.ts` similarly binds targets to `unit_id` for reports.
+- Verification: node:test security suite 17/17 pass (6 new); `npx tsc --noEmit` clean; `npm run build` exit 0; `git diff --check` clean; `tsconfig.tsbuildinfo` churn reverted; diff self-reviewed. Worktree clean.
+- Recorded blocker unchanged: build still logs 4× missing `NEXT_PUBLIC_SUPABASE_URL/ANON_KEY` auth warnings during static generation — launch blocker, not bypassed.
+- Audited-and-safe this run: purchaser docs-list/profile/issues/notes routes derive scope from QR-bound unit; care homeowner routes trusting raw `installationId` (telemetry, service-records, content, chat, service-booking) remain a **documented deferred gap ("Batch 2")**, not fixed this run — flagging as the next security work item.
+
+## 2. OpenHouse provenance — CLOSED (read-only, verified)
+
+- `vercel project inspect property-assistant` (read-only): project `prj_okAOLGbRgbTKEvbl1RgD4UsRdZX2`, owner OpenHouseAi's projects, **Root Directory `.`**, Build Command `cd apps/unified-portal && npm run build`, Output `apps/unified-portal/.next`, Next.js preset.
+- Conclusion: the deployed app is the monorepo's `apps/unified-portal`, built from the repo root — NOT the nested legacy `property-assistant/` subtree. The nested subtree's `.vercel/project.json` points at the same project but is inert for builds.
+- Remaining follow-up (deliberate, needs Sam): quarantine/remove the tracked nested `property-assistant/` subtree (895 files) from the canonical repo.
+
+## 3. OpenBook Preview-to-Claim (`feat/openbook-automation-readiness`)
+
+**New local commit `ea106ee` — fix(prospecting): enforce prospect stage transitions server-side.**
+
+- Gap: `transitionProspect` server action accepted any status jump; the human-review ladder (`transitionsFor`) was enforced client-side only, so a forged/replayed request could jump `sourced → live`, skipping the reviewed `converted` gate.
+- Fix: new pure `isAllowedTransition` derived from the same `transitionsFor` map the UI renders (no drift possible); server action now loads current status and rejects moves the pipeline doesn't offer. No copy changes, no gates removed, no automation added.
+- Verification: vitest 34/34 (admin+website suites, 2 new tests); tsc clean except known pre-existing TS1501; `npm run build` exit 0; `git diff --check` clean. Worktree clean.
+
+## Exact non-production state (run 2)
+
+- Nothing pushed, deployed, migrated, or mutated remotely. No secrets/env/signing changes. No outreach. One read-only Vercel inspect call.
+- Local-only commits this run: OpenHouse `97b95ebe`; OpenBook `ea106ee`. Both worktrees clean; both branches unpushed.
