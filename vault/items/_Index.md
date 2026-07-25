@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-07-24"
+updated_at: "2026-07-25"
 ---
 
 # Ideas Index
@@ -32,6 +32,8 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/oh-rls-audit]] | RLS policy audit | S | building |
 | [[items/oh-dtc-home-savings-scan-concierge]] | Validate paid DTC Home Savings Scan with 10 concierge customers | S | proposed |
 | [[items/oh-uk-aftercare-design-partner-sprint]] | Validate UK evidence-led aftercare with five design partners | S | proposed |
+| [[items/oh-proof-asset-engine]] | Reusable proof assets from the live Longview deployment | S | proposed 🔥 |
+| [[items/oh-developer-outreach-proposal-pack]] | Warm-intro discovery-to-proposal pack (Bridgewater test case) | S | proposed |
 
 ## OpenBook
 
@@ -96,6 +98,13 @@ This index tracks the current active idea queue. Each entry links to its item no
 - [[items/ob-client-self-edit-portal-billing]] is the highest-value near-term item in the portfolio and is already committed by the [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]] decision. It is marked building. It unblocks charging an existing customer plus a warm prospect (Grace), and two to three €79/month subscriptions cover most of the ~€300/month subscription burn. Scope discipline: fixed minimum content model, not a general CMS.
 - [[items/ob-prepared-leadgen-loop]] is a genuine acquisition-leverage idea but must stay gated behind the portal and billing path per the same decision. Activate only for one small pilot slice, and measure reply rate per prepared lead, not sites generated.
 - OpenHouse focus this cycle is marketing-site completion and investor/developer outreach. Do not open new OpenHouse build proposals that compete with that. [[items/oh-pricing-experiment]] has been re-marked parked-pending-scale because its usage-dispersion premise is not grounded in current Longview-only data.
+
+## Promotion recommendations, 25 July 2026
+
+- [[items/oh-proof-asset-engine]] and [[items/oh-developer-outreach-proposal-pack]] are new, non-build items that directly serve the committed OpenHouse investor and developer outreach cycle. They do not conflict with the [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]] focus because neither is a product build; both are content and evidence leverage. Recommend activating the proof-asset engine as a small slice ahead of the Bridgewater conversation, with the proposal pack sequenced just behind it.
+- Both must under-claim. The 24 July market-readiness audit shows OpenHouse is not yet safe to present as enterprise-rollout ready, so all proof assets and proposals stay strictly to what is live and true on Longview.
+- No new OpenHouse build proposals were opened, and no parked, snoozed, or decided items were re-proposed. The existing idea notes across OpenHouse, OpenBook, Cara, and Renew are already well-developed from prior runs and did not require expansion this cycle.
+- Funding and award applications are already in execution via the NDRC and Entrepreneur Experience routes; a separate repeatable funding-pipeline item was considered and deliberately not created to avoid duplicating live work.
 
 ## Cross-references
 
