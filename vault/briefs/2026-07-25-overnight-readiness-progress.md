@@ -95,3 +95,29 @@ status: overnight run — local only, nothing pushed/deployed
 
 - Nothing pushed, deployed, migrated, or mutated remotely. No secrets/env/signing changes. No outreach. No Vercel API calls this run.
 - Local-only commit this run: OpenHouse `7a908f49`. Both worktrees clean; both branches unpushed.
+
+---
+
+# Run 4 — morning, 25 July 2026
+
+## 1. OpenHouse security (`fix/market-readiness-foundations`)
+
+**New local commit `ee225e13` — fix(security): require the property code to claim a unit at homeowner registration (Batch 3).**
+
+- Defect (account-takeover IDOR, confirmed by code trace): `app/api/homeowner/register/route.ts` accepted a bare `unitId` UUID and, with no secret at all, created a Supabase auth user, bound it to the unit (`user_id`, `purchaser_email`, `unit_status='handed_over'`, `handover_date`) and signed the caller in as that home's owner. Unit UUIDs circulate in QR flows/API responses; the handover-pack property code (`units.unit_uid`) was only checked client-side via `/lookup-code`, never server-side — any unclaimed unit was hijackable.
+- Fix: new pure fail-closed `lib/security/homeowner-claim.ts` (`isHomeownerClaimAuthorized` + `normalizePropertyCode` mirroring lookup-code normalisation); route now requires `code` in body and validates it against the DB-fetched unit row (which already selects `user_id, unit_uid`) *before* any user creation; 403 on mismatch/claimed/missing. Sole caller `app/login/homeowner/page.tsx` already collects the code and now forwards it — no UX change. Upholds the invariant: URL/body IDs never authorise.
+- Verification (subagent-run, then independently re-verified by orchestrator): security suite 37/37 pass (7 new tests, re-run confirmed 0 fail); `tsc --noEmit` clean; `npm run build` exit 0 with exactly the 4 known Supabase-env auth warnings (untouched); `git diff --check` clean; tsbuildinfo churn reverted; full diff re-reviewed read-only by orchestrator (4 files, +119/−4, narrow, race-safe update path unchanged).
+- Recorded blocker unchanged: 4× missing `NEXT_PUBLIC_SUPABASE_URL/ANON_KEY` warnings during static generation remain a launch blocker, not bypassed.
+- Noted for future batches (not fixed): `app/api/care/third-party/upload-complete` lets an unauthenticated caller update an upload row's `storage_path` by guessable uploadId (by-design unauth intake, weakly bound); `purchaser/pre-handover` serves only static demo data.
+
+## 2. OpenHouse provenance — remains CLOSED (run 2); no action.
+
+## 3–4. OpenBook (`feat/openbook-automation-readiness`) — no change this run
+
+- Audit subagent timed out (600s) mid-exploration of Preview-to-Claim RLS/publish gating and onboarding share paths with **no confirmed defect identified** — it committed nothing; worktree verified clean at `ea106ee` afterwards. Honest outcome: no material, confirmed defect within allowed scope this run.
+- Standing blocked item unchanged (needs Sam): `saveCustomDomain` persists before Vercel attach with no rollback — remediation needs write-side Vercel API (prohibited).
+
+## Exact non-production state (run 4)
+
+- Nothing pushed, deployed, migrated, or mutated remotely. No secrets/env/signing changes. No outreach. No external API calls.
+- Local-only commit this run: OpenHouse `ee225e13`. Both worktrees clean; both branches unpushed (OpenHouse now 6 local commits ahead, OpenBook 3).
