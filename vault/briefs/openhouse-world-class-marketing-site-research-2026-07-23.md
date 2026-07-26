@@ -15,6 +15,11 @@ links:
 
 OpenHouse should not behave like a conventional proptech brochure, a broad SaaS platform catalogue, or an awards-first studio portfolio.
 
+## Related execution briefs
+
+- [[briefs/openhouse-site-strategic-audit-2026-07-23]] — commercial scope, capability-truth and conversion recommendations for the same marketing surface.
+- [[briefs/openhouse-fable-creative-direction-prompt]] — build brief derived from this research for a complete creative-direction deliverable.
+
 The world-class direction is a compressed product demonstration built around one memorable idea:
 
 > **A home with a memory.**
