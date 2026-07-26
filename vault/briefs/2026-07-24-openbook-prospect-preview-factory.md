@@ -82,6 +82,8 @@ No Instagram login, scraping or automatic outbound is part of this system.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-empire-owner-dashboard-hardening]]
 - [[companies/openbook]]
+- [[context/ops-automation-moc]]
 - [[project_state/ob]]
 

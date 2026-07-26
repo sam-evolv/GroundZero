@@ -49,7 +49,14 @@ Not timing-sensitive. This is an existing promise to an existing customer. The v
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openhouse-openbook-reset]]
+- [[companies/openbook]]
+- [[context/dashboard]]
+- [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
+- [[goals/ob-supply]]
 - [[items/ob-prepared-leadgen-loop]]
+- [[project_state/ob]]
+
 
 ## Recommendation
 This is the clearest promotion candidate in the OpenBook queue and is already committed in the 24 July decision. Treat it as an active build, not a proposal. Sequence: minimum content model, then scoped edit portal tested against the live customer site, then Stripe €79/month with verified webhook states before any charge. Do not expand into a general CMS.

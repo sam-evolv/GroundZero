@@ -918,6 +918,7 @@ Create a premium, cinematic, product-led OpenHouse homepage around “A home wit
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-energy-intelligence-sketch]]
 - [[briefs/wiki-refiner-2026-07-24]]
+- [[briefs/wiki-refiner-2026-07-25]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-product-map]]
 

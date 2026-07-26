@@ -127,5 +127,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/oh-activation]]
 - [[goals/oh-funder-pitch]]
 - [[items/oh-bridgewater-warm-introduction]]
+- [[items/oh-developer-outreach-proposal-pack]]
 - [[people/sam-donworth]]
 

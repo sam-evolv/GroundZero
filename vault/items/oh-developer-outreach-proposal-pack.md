@@ -46,5 +46,10 @@ Timely. The Bridgewater introduction is being prepared now, so the pack is most 
 - [[companies/openhouse-ai]] — parent company
 - [[project_state/oh]] — live status
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[items/oh-proof-asset-engine]]
+
 ## Recommendation
 Good, low-cost enabler for the active outreach cycle. Sequence it just behind [[items/oh-proof-asset-engine]], since the proposal pack is far stronger once the proof assets exist. Do not activate as a formal project until Bridgewater validates the proposal shape; keep it as a lightweight, dogfooded template first.

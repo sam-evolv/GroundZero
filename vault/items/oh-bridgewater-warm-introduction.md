@@ -72,5 +72,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-sales-routes]]
+- [[items/oh-developer-outreach-proposal-pack]]
+- [[items/oh-proof-asset-engine]]
 - [[project_state/oh]]
 

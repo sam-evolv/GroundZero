@@ -34,7 +34,7 @@ updated: "2026-07-15"
 | [[items/ops-pr-issue-ageing-escalator|Auto-escalate stale PRs and issues]] | 90 | S | 🔥 |
 | [[items/ob-no-show-deposit-workflow|Automate OpenBook deposits and no-show prevention]] | 88 | M | 🔥 |
 | [[items/ob-no-show-deposits|Add refundable deposits to kill no-shows]] | 88 | L | 🔥 |
-| [[items/ops-daily-report-pack|Assemble daily reporting packs for each company]] | 88 | M | 🔥 |
+| [[items/oh-proof-asset-engine|Turn the live Longview deployment into reusable proof assets]] | 88 | S | 🔥 |
 
 ## 🟢 Monitoring
 
@@ -49,7 +49,7 @@ updated: "2026-07-15"
 | Company | WIP | Proposed | Goal | Status |
 |---|---|---|---|---|
 | Cara | 2 | 0 | — | 🟡 |
-| OpenHouse AI | 1 | 12 | Lift new-agent activation to 60% | 🟡 |
+| OpenHouse AI | 1 | 14 | Lift new-agent activation to 60% | 🟡 |
 | OpenBook | 2 | 6 | Reach 500 live venues in Dublin | 🟡 |
 | Evolv Renewables | 0 | 4 | Sign three commercial rooftop deals | 🟢 |
 
@@ -64,4 +64,4 @@ updated: "2026-07-15"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-07-25 02:15 IST
+- Dashboard: 2026-07-26 02:15 IST

@@ -86,6 +86,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-22]]
 - [[briefs/wiki-refiner-2026-07-23]]
 - [[briefs/wiki-refiner-2026-07-24]]
+- [[briefs/wiki-refiner-2026-07-25]]
 - [[companies/cara]]
 - [[companies/openhouse-ai]]
 - [[project_state/cara]]

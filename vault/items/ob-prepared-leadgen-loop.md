@@ -50,7 +50,13 @@ Neutral to favourable. Automated research and drafting are cheap and capable now
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openhouse-openbook-reset]]
+- [[companies/openbook]]
+- [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
+- [[goals/ob-supply]]
 - [[items/ob-client-self-edit-portal-billing]]
+- [[project_state/ob]]
+
 
 ## Recommendation
 Do not activate until the self-edit portal and Stripe charging path are moving. Then run a single small end-to-end pilot to prove the existing infrastructure produces cheap, review-ready leads with an acceptable reply rate before committing to a larger agent build. Success metric is reply rate per prepared lead, not sites generated.

@@ -50,10 +50,12 @@ Usage-based and hybrid pricing are normal now, especially when power users consu
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[companies/openhouse-ai]]
+- [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
 - [[goals/oh-activation]]
 - [[goals/oh-funder-pitch]]
 - [[goals/oh-v2-launch]]
 - [[project_state/oh]]
+
 
 ## Recommendation
 This is a plausible project once the V2 launch is stable. It should not distract from the current reliability work.

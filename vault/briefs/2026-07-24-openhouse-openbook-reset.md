@@ -61,9 +61,15 @@ status: current
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-empire-owner-dashboard-hardening]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
 - [[context/index]]
+- [[context/openhouse-sales-routes]]
+- [[context/ops-automation-moc]]
 - [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
 - [[items/ob-client-self-edit-portal-billing]]
 - [[items/ob-prepared-leadgen-loop]]
+- [[items/oh-bridgewater-warm-introduction]]
 - [[project_state/ob]]
+- [[project_state/oh]]
 

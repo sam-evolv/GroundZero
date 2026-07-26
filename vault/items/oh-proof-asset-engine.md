@@ -52,5 +52,10 @@ Timely. Investor and developer outreach is live now and Bridgewater is a warm, h
 - [[project_state/oh]] — live status
 - [[briefs/openhouse-investor-readiness-operating-plan]] — investor readiness context
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[items/oh-developer-outreach-proposal-pack]]
+
 ## Recommendation
 Strong, low-risk near-term item that directly supports the active cycle. It is not a build proposal, so it does not conflict with the marketing-site and outreach focus. Recommend activating as a small slice ahead of, or alongside, the Bridgewater conversation. Keep scope to the three assets above; do not let it expand into a full case-study library.

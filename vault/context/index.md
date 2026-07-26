@@ -92,6 +92,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-30]]
 - [[briefs/2026-07-13-hermes-community-setup-review]]
 - [[briefs/2026-07-14-morning-briefing-golf-cara]]
+- [[briefs/2026-07-24-openhouse-openbook-reset]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
 - [[briefs/daily-agentic-value-radar-2026-07-15]]

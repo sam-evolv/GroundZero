@@ -30,7 +30,14 @@ Keep the current experiment focused on OpenHouse. Do not divert into the previou
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openhouse-openbook-reset]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
 - [[items/ob-client-self-edit-portal-billing]]
 - [[items/ob-prepared-leadgen-loop]]
+- [[items/oh-developer-outreach-proposal-pack]]
 - [[items/oh-pricing-experiment]]
+- [[items/oh-proof-asset-engine]]
+- [[project_state/ob]]
+- [[project_state/oh]]
 
