@@ -11,7 +11,12 @@ status: active-decision
 
 OpenHouse will treat direct-to-consumer as a serious second acquisition route into the same living Home Record used by developer handover.
 
-The next DTC step is a bounded concierge validation of the **OpenHouse Upgrade Ready Plan** at €79, not a broad consumer-app build or a generic €5 monthly assistant launch.
+The next DTC step is a bounded matched concierge validation of two €79 hypotheses, not a broad consumer-app build or a generic €5 monthly assistant launch:
+
+- **OpenHouse Upgrade Ready Plan** for a high-intent upgrade or quote decision
+- **OpenHouse Home Performance Check** for modern, heat-pump, solar, EV or battery homes seeking operational guidance and a first evidence-backed baseline
+
+Payment commitment, useful action, second evidence, return behaviour and fulfilment economics determine the winner. Stated preference does not.
 
 Twenty paid or payment-committed Irish plans are required before productising the consumer Snapshot MVP. The continuing membership is offered only after recurring household value is observed.
 

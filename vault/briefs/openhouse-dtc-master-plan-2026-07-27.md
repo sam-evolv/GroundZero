@@ -16,20 +16,38 @@ The company-level product is:
 
 > **The evidence-backed operating record for the home, with an agent that notices, explains, prioritises, follows through and remembers.**
 
-The first Irish acquisition product is:
+The first Irish acquisition hypothesis is:
 
 > **OpenHouse Upgrade Ready Plan**
 > Before you spend thousands upgrading your home, know what to do first.
 
 The customer uploads a BER or survey, a recent bill and a few guided photos. OpenHouse returns a sourced, home-specific plan showing what is known, what remains uncertain, what to do first and what to ask before accepting a quote.
 
-This paid decision product starts the persistent Home Record. OpenHouse then offers ongoing membership only when the record contains enough recurring value to justify it.
+Sam's 27 July voice stress-test established a second hypothesis, the **Home Performance Check**: help a heat-pump, solar, EV or modern-home owner understand how the home wants to be run, identify one evidence-backed operational opportunity and establish a performance baseline. Upgrade Ready and Home Performance must be tested against payment commitment before the acquisition product is fixed.
+
+Either paid decision product starts the persistent Home Record. OpenHouse offers ongoing membership only when the record contains enough recurring value to justify it.
 
 DTC and developer handover are not separate companies. They are two ways of creating the same living Home Record:
 
 - Developer distribution supplies a verified baseline at handover.
 - DTC lets an existing homeowner progressively build the same record.
 - The private household layer remains owned and controlled by the household.
+
+### North-star clarification from the voice stress-test
+
+The consumer category is:
+
+> **OpenHouse knows your home and helps you run it right.**
+
+The internal system is a Home Record, evidence graph, event engine, value ledger and approval-controlled action layer. The consumer buys the assistant, not the architecture.
+
+Energy and homeowner operation are the first recurring proof loop. The agent should observe, infer, qualify, notify, explain, recommend, verify and remember. The digital twin is accumulated through useful interactions rather than demanded at onboarding.
+
+A guided spatial and systems capture is now a priority feasibility experiment. On supported Apple devices, RoomPlan can use camera and LiDAR to create room geometry with dimensions and furniture types. A normal video cannot yet be promised to produce survey-grade floor plans or authoritative hidden-property facts. All extracted attributes remain candidate facts until evidence or confirmation promotes them.
+
+A future scoped MCP or equivalent Home Context API can let other assistants use OpenHouse's permissioned home knowledge. This is a long-term distribution architecture, not a current integration claim.
+
+See [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]] and [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]].
 
 ## The founder-level correction
 
@@ -174,9 +192,9 @@ Best moments:
 - smart-home hobbyists seeking broad automation
 - people wanting unlimited chat for €5 per month
 
-## The first paid product
+## Paid acquisition candidates
 
-### OpenHouse Upgrade Ready Plan
+### Candidate A: OpenHouse Upgrade Ready Plan
 
 Consumer promise:
 
@@ -197,6 +215,27 @@ Deliverable:
 - one next-best evidence request
 
 Delivery during concierge validation: within 48 hours.
+
+### Candidate B: OpenHouse Home Performance Check
+
+Consumer promise:
+
+> **Find out how your home wants to be run, what may be costing you and what to change first.**
+> Provide your BER or handover information, a bill or HDF where available, and a short guided systems capture. OpenHouse explains the home's intended operation, identifies one evidence-backed opportunity and establishes a first performance baseline.
+
+Price during matched concierge validation: **€79**.
+
+Deliverable:
+
+- sourced home and low-carbon-system facts
+- plain-English controls and operating guide
+- one evidence-backed operational opportunity where the evidence supports it
+- Money, Comfort and Risk explanation
+- first Home Performance baseline with confidence and exclusions
+- one next action and one next evidence request
+- candidate systems and room context entering the Home Record
+
+This candidate is strongest for heat-pump, solar, EV, battery and recently built homes. It must not promise live monitoring without a real refresh source or attribute consumption change to OpenHouse without sufficient evidence.
 
 ### Useful Action Guarantee
 
@@ -644,11 +683,13 @@ Do not adapt the broad application yet.
 
 Create:
 
-- one Upgrade Ready Plan offer
-- one honest sample report
-- one payment and upload path
-- one manual fulfilment workflow
+- one Upgrade Ready proposition and sample
+- one Home Performance proposition and sample
+- one shared payment and evidence-upload path
+- one manual fulfilment workflow built on the same Home Record
 - one feedback/outcome ledger
+
+Show both propositions to qualified households and use payment or a refundable deposit, not stated preference, to select the winning acquisition message.
 
 Capacity: maximum four plans per week.
 
@@ -873,15 +914,16 @@ Chat messages, uploads, registrations and reports sent are supporting metrics, n
 ## Immediate sequence
 
 1. Protect the existing developer-pilot P0 safety work.
-2. Define one concierge Upgrade Ready Plan template and one illustrative sample.
-3. Create the minimum payment, upload, consent and fulfilment path.
-4. Recruit only qualified, evidence-bearing households.
-5. Fulfil the first ten manually and capture the value ledger.
-6. Decide after twenty paid plans whether to productise Snapshot MVP.
-7. Add HDF and bill ingestion before any device connector.
-8. Earn subscription through observed recurrence.
-9. Add read-only connectors in ranked order.
-10. Attempt approved control only after advisory outcomes are trusted.
+2. Define matched concierge templates and illustrative samples for Upgrade Ready and Home Performance.
+3. Prototype guided walkthrough capture manually across LiDAR, ordinary video and still-photo paths before committing to computer-vision infrastructure.
+4. Create the minimum shared payment, upload, consent and fulfilment path.
+5. Recruit only qualified, evidence-bearing households and test payment commitment rather than preference.
+6. Fulfil the first ten manually and capture the value ledger.
+7. Decide after twenty paid plans which entry wedge, if either, deserves productisation.
+8. Add HDF and bill ingestion before any device connector.
+9. Earn subscription through observed recurrence.
+10. Add read-only connectors in ranked order.
+11. Attempt approved control only after advisory outcomes are trusted.
 
 ## Decision status
 
@@ -889,6 +931,7 @@ This plan authorises a bounded DTC concierge validation track as the next produc
 
 ## Official and primary sources
 
+- Apple RoomPlan: https://developer.apple.com/augmented-reality/roomplan/
 - ESB Networks smart-meter usage and HDF: https://www.esbnetworks.ie/services/manage-my-meter/view-my-smart-meter-usage
 - CRU smart meters and services: https://www.cru.ie/consumer-information/billing/smart-meters-and-services/
 - SEAI National BER Register: https://ndber.seai.ie/pass/ber/search.aspx
@@ -914,6 +957,9 @@ This plan authorises a bounded DTC concierge validation track as the next produc
 - [[context/openhouse-sales-routes]]
 - [[context/business-opportunities-moc]]
 - [[briefs/openhouse-dtc-onboarding-positioning-update-2026-07-27]]
+- [[imports/chatgpt/openhouse-dtc-voice-stress-test-2026-07-27]]
+- [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]]
+- [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
 - [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
 - [[briefs/openhouse-dtc-energy-savings-guarantee-research-2026-06-29]]

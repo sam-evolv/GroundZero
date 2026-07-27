@@ -1,15 +1,15 @@
 ---
 id: oh
 company_id: openhouse-ai
-headline: OpenHouse is closing external-pilot safety gates while validating a paid DTC Upgrade Ready Plan as a second route into the same living Home Record.
+headline: OpenHouse is closing external-pilot safety gates while testing two paid entry wedges for a home-specific operating assistant.
 valid: true
-updated_at: "2026-07-27T18:30:00+01:00"
+updated_at: "2026-07-27T20:18:55+01:00"
 role: project-state
 ---
 
 ## Current direction: 2026-07-27
 
-OpenHouse is closing its external-pilot safety gates while opening a bounded DTC validation track. The canonical strategy is [[briefs/openhouse-dtc-master-plan-2026-07-27]]. DTC starts with a €79 Upgrade Ready Plan and requires 20 paid or payment-committed concierge plans before broad consumer productisation. Developer handover and DTC remain two routes into one living Home Record. This direction does not authorise production deployment, migration application, paid acquisition, vendor contracting or device control.
+OpenHouse is closing its external-pilot safety gates while opening a bounded DTC validation track. The category north star is the home-specific operating assistant: OpenHouse knows your home and helps you run it right. The canonical strategy is [[briefs/openhouse-dtc-master-plan-2026-07-27]], refined by [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]]. Upgrade Ready and Home Performance must be tested against payment commitment before the winning entry wedge is fixed. Twenty paid or payment-committed concierge plans still gate broad consumer productisation. Developer handover and DTC remain two routes into one living Home Record. This direction does not authorise production deployment, migration application, paid acquisition, vendor contracting or device control.
 
 ## Prior reset: 2026-07-24
 OpenHouse is the active strategic focus. The marketing site is nearly complete. The earlier statement that older DTC notes were historical has now been superseded only by the bounded 2026-07-27 DTC validation decision. Developer outreach, NDRC preparation and market-readiness work remain active.

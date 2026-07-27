@@ -10,7 +10,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 
 ## Current priorities
 1. Close the verified P0 market-readiness gates before any external developer or consumer-data rollout.
-2. Validate the direct-to-consumer Upgrade Ready Plan through 20 paid or payment-committed concierge plans before building a broad consumer application. See [[briefs/openhouse-dtc-master-plan-2026-07-27]].
+2. Validate the DTC acquisition wedge by testing the Upgrade Ready Plan against the Home Performance Check through paid or payment-committed concierge plans before building a broad consumer application. See [[briefs/openhouse-dtc-master-plan-2026-07-27]].
 3. Package one narrow, evidence-backed developer handover pilot using the same living Home Record architecture.
 4. Hold every scheme portal at feature parity and at the premium bar.
 
@@ -54,7 +54,9 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[briefs/openhouse-ireland-funding-routes-2026-06-29]] - Ireland funding and backing routes
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] - UK/US expansion research
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]] - canonical DTC product, context, integration, economics, GTM and validation strategy
-- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]] - bounded €79 Upgrade Ready Plan validation decision
+- [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]] - reviewed voice-session implications, corrections and dual-wedge test
+- [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]] - category north star and first recurring proof loop
+- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]] - bounded €79 dual-wedge validation decision
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]] - direct-to-consumer home context feasibility
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]] - DTC as core company thesis, not fallback
 - [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]] - DTC Home Savings Scan / Home Agent plan

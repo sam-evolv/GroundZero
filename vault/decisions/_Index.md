@@ -12,7 +12,8 @@ Every decision is stored in `decisions/` as a permanent note. This log orders th
 
 | Date | Decision | Consequences | Status |
 |---|---|---|---|
-| 2026-07-27 | [[decisions/openhouse-dtc-concierge-validation-2026-07-27]] - Validate DTC through the €79 Upgrade Ready Plan before broad consumer build | One Home Record architecture; 20 paid plans gate productisation; no universal savings or device-control claims | Active |
+| 2026-07-27 | [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]] - OpenHouse becomes the home-specific operating assistant | Energy and homeowner operation are the first recurring proof loop; guided capture and external-assistant context are bounded future experiments | Active |
+| 2026-07-27 | [[decisions/openhouse-dtc-concierge-validation-2026-07-27]] - Validate DTC through paid concierge plans before broad consumer build | Test Upgrade Ready against Home Performance; 20 paid plans gate productisation; no universal savings or device-control claims | Active |
 | 2026-06-19 | [[decisions/ground-zero-canonical]] — Ground Zero vault is canonical shared context | All models read/write vault; no re-deriving from chat | Active |
 | 2026-06-09 | Stack fixed: React, Next.js, Supabase, Vercel | No framework migrations proposed | Active |
 | 2026-06-09 | Security audited and hardened | 10 endpoints remediated, RLS on 35+ tables | Active |
