@@ -121,3 +121,8 @@ status: overnight run — local only, nothing pushed/deployed
 
 - Nothing pushed, deployed, migrated, or mutated remotely. No secrets/env/signing changes. No outreach. No external API calls.
 - Local-only commit this run: OpenHouse `ee225e13`. Both worktrees clean; both branches unpushed (OpenHouse now 6 local commits ahead, OpenBook 3).
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[project_state/oh]]
+

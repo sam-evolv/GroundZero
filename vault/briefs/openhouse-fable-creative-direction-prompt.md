@@ -89,3 +89,8 @@ Before finishing:
 - verify there are no em dashes;
 - verify every factual product claim is traceable to the supplied sources or labelled as Example or Direction;
 - report the file path and a concise summary of the chosen direction.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
+

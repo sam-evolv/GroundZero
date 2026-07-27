@@ -49,7 +49,13 @@ Timely. The Bridgewater introduction is being prepared now, so the pack is most 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+- [[context/openhouse-sales-routes]]
+- [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
+- [[items/oh-bridgewater-warm-introduction]]
 - [[items/oh-proof-asset-engine]]
+- [[project_state/oh]]
+
 
 ## Recommendation
 Good, low-cost enabler for the active outreach cycle. Sequence it just behind [[items/oh-proof-asset-engine]], since the proposal pack is far stronger once the proof assets exist. Do not activate as a formal project until Bridgewater validates the proposal shape; keep it as a lightweight, dogfooded template first.

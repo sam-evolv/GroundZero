@@ -97,6 +97,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-06-27]]
 - [[briefs/wiki-refiner-2026-06-28]]
 - [[briefs/wiki-refiner-2026-07-25]]
+- [[briefs/wiki-refiner-2026-07-26]]
 - [[companies/openhouse-ai]]
 - [[context/capture-workflow]]
 - [[context/dashboard]]

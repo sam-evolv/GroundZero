@@ -284,6 +284,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[briefs/wiki-refiner-2026-07-25]]
+- [[briefs/wiki-refiner-2026-07-26]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-product-map]]
 - [[items/oh-handover-readiness-scan]]

@@ -55,7 +55,15 @@ Timely. Investor and developer outreach is live now and Bridgewater is a warm, h
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[companies/openhouse-ai]]
+- [[context/dashboard]]
+- [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
+- [[goals/oh-funder-pitch]]
+- [[items/oh-bridgewater-warm-introduction]]
 - [[items/oh-developer-outreach-proposal-pack]]
+- [[project_state/oh]]
+
 
 ## Recommendation
 Strong, low-risk near-term item that directly supports the active cycle. It is not a build proposal, so it does not conflict with the marketing-site and outreach focus. Recommend activating as a small slice ahead of, or alongside, the Bridgewater conversation. Keep scope to the three assets above; do not let it expand into a full case-study library.

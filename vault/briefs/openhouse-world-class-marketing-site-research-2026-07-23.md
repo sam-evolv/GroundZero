@@ -924,6 +924,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-energy-intelligence-sketch]]
 - [[briefs/wiki-refiner-2026-07-24]]
 - [[briefs/wiki-refiner-2026-07-25]]
+- [[briefs/wiki-refiner-2026-07-26]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-product-map]]
 

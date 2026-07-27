@@ -177,3 +177,8 @@ Do not add more products or features to the site. Subtract breadth, add real pro
 A developer should leave thinking: "This turns the documents I already have into fewer repeated questions and better handovers."
 
 An investor should leave thinking: "They own the persistent information layer for each home, and every interaction makes that layer more valuable."
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
+
