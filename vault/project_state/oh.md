@@ -1,15 +1,17 @@
 ---
 id: oh
 company_id: openhouse-ai
-headline: OpenHouse is closing external-pilot safety gates while testing two paid entry wedges for a home-specific operating assistant.
+headline: OpenHouse has a verified local Founder Alpha for the home operating-assistant loop; one permissioned-home dogfood test is the next evidence gate.
 valid: true
-updated_at: "2026-07-27T20:18:55+01:00"
+updated_at: "2026-07-27T22:09:36+01:00"
 role: project-state
 ---
 
 ## Current direction: 2026-07-27
 
 OpenHouse is closing its external-pilot safety gates while opening a bounded DTC validation track. The category north star is the home-specific operating assistant: OpenHouse knows your home and helps you run it right. The canonical strategy is [[briefs/openhouse-dtc-master-plan-2026-07-27]], refined by [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]]. Upgrade Ready and Home Performance must be tested against payment commitment before the winning entry wedge is fixed. Twenty paid or payment-committed concierge plans still gate broad consumer productisation. Developer handover and DTC remain two routes into one living Home Record. This direction does not authorise production deployment, migration application, paid acquisition, vendor contracting or device control.
+
+**Founder Alpha checkpoint, 2026-07-27:** A private local tracer bullet now proves one synthetic capture → understand → notice → act → remember loop. It accepts only the bundled fictitious heat-pump artifact, creates provenance-bearing candidate facts, requires confirmation of all material evidence, generates one deterministic Money/Comfort/Risk notice, requires explicit advisory approval, records a bounded outcome receipt and restores only invariant-valid local state. The implementation is default-off and development-only; production page/API probes return 404, no Supabase, database, storage, OCR, LLM, notification, connector or device-control path was added, and the final fail-closed review passed. Local code checkpoint: `a210268c` on `feat/dtc-founder-alpha`; nothing was pushed or deployed. This proves product-loop mechanics only, not OCR, production memory, live monitoring, identity, measured savings or demand. The next evidence gate is one explicitly permissioned real-home pack and measured time-to-first-useful-notice before matched [[decisions/openhouse-dtc-concierge-validation-2026-07-27|Upgrade Ready versus Home Performance]] payment testing.
 
 ## Prior reset: 2026-07-24
 OpenHouse is the active strategic focus. The marketing site is nearly complete. The earlier statement that older DTC notes were historical has now been superseded only by the bounded 2026-07-27 DTC validation decision. Developer outreach, NDRC preparation and market-readiness work remain active.
