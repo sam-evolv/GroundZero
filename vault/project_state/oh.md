@@ -1,14 +1,18 @@
 ---
 id: oh
 company_id: openhouse-ai
-headline: OpenHouse is the active focus; marketing site nearly complete, followed by investor/developer outreach and funding/award applications.
+headline: OpenHouse is closing external-pilot safety gates while validating a paid DTC Upgrade Ready Plan as a second route into the same living Home Record.
 valid: true
-updated_at: "2026-07-24T00:00:00+01:00"
+updated_at: "2026-07-27T18:30:00+01:00"
 role: project-state
 ---
 
-## Current reset: 2026-07-24
-OpenHouse is the active strategic focus. The marketing site is nearly complete. Next is investor/developer outreach, supported by the Entrepreneur Experience application and relevant AI award applications. Do not infer that the older UK/US or DTC route notes below override this current decision; they are preserved history.
+## Current direction: 2026-07-27
+
+OpenHouse is closing its external-pilot safety gates while opening a bounded DTC validation track. The canonical strategy is [[briefs/openhouse-dtc-master-plan-2026-07-27]]. DTC starts with a €79 Upgrade Ready Plan and requires 20 paid or payment-committed concierge plans before broad consumer productisation. Developer handover and DTC remain two routes into one living Home Record. This direction does not authorise production deployment, migration application, paid acquisition, vendor contracting or device control.
+
+## Prior reset: 2026-07-24
+OpenHouse is the active strategic focus. The marketing site is nearly complete. The earlier statement that older DTC notes were historical has now been superseded only by the bounded 2026-07-27 DTC validation decision. Developer outreach, NDRC preparation and market-readiness work remain active.
 
 **Market-readiness audit, 2026-07-24:** The canonical build succeeds, but OpenHouse is not yet safe to represent as enterprise/developer-rollout ready. Verified P0 work includes tenant-isolation fixes in an isolated local branch; unresolved blockers include dependency exposure, runtime schema mutation, unsecured QR handover links, release-tree ambiguity and fail-soft production configuration. See [[briefs/2026-07-24-openhouse-market-readiness-audit]].
 

@@ -9,9 +9,10 @@ role: primary-company
 Premium proptech SaaS platform for property developers: homeowner handover, aftercare, and sales pipeline management. Live at portal.openhouseai.ie. Built largely solo with AI tooling. Premium design is non-negotiable on every surface.
 
 ## Current priorities
-1. Stabilise the production database migration. Real Longview Estates data is now live across four schemes; the backup tables are still waiting for one clean week before drop.
-2. Triage the current open issues in sam-evolv/property-assistant: #195 raw markdown bold rendering, #194 tsconfig ignoreDeprecations mismatch, #130 chat-route refactor, #128 nullability cleanup, #125 RLS policy migration, #123 homeowner session design.
-3. Hold every scheme portal at feature parity and at the premium bar.
+1. Close the verified P0 market-readiness gates before any external developer or consumer-data rollout.
+2. Validate the direct-to-consumer Upgrade Ready Plan through 20 paid or payment-committed concierge plans before building a broad consumer application. See [[briefs/openhouse-dtc-master-plan-2026-07-27]].
+3. Package one narrow, evidence-backed developer handover pilot using the same living Home Record architecture.
+4. Hold every scheme portal at feature parity and at the premium bar.
 
 ## In flight
 - Production migration stabilisation and backup-table cleanup.
@@ -52,6 +53,8 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]] - post-Cairn funding / UK-US / DTC strategy reset
 - [[briefs/openhouse-ireland-funding-routes-2026-06-29]] - Ireland funding and backing routes
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] - UK/US expansion research
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]] - canonical DTC product, context, integration, economics, GTM and validation strategy
+- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]] - bounded €79 Upgrade Ready Plan validation decision
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]] - direct-to-consumer home context feasibility
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]] - DTC as core company thesis, not fallback
 - [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]] - DTC Home Savings Scan / Home Agent plan

@@ -20,7 +20,9 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[companies/openbook]] — OpenBook's core wedge: restaurant bookings + no-show reduction
 
 ### PropTech & Aftercare
-- [[companies/openhouse-ai]] — OpenHouse: handover + aftercare + sales pipeline for developers
+- [[companies/openhouse-ai]] — OpenHouse: one living Home Record reached through developer handover or direct consumer onboarding
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]] — canonical DTC product, context engine, energy-integration, business-model and validation strategy
+- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]] — €79 Upgrade Ready Plan concierge validation before broad consumer build
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]] — productised AI workflow consulting for near-term cash
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]] — first Cork property prospect batch for the AI Maintenance & Follow-Up Desk
 - [[items/consultancy-cork-property-outreach]] — active outreach item for the first 10 Cork property prospects
