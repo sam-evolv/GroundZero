@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-07-25"
+updated_at: "2026-07-27"
 ---
 
 # Ideas Index
@@ -34,6 +34,8 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/oh-uk-aftercare-design-partner-sprint]] | Validate UK evidence-led aftercare with five design partners | S | proposed |
 | [[items/oh-proof-asset-engine]] | Reusable proof assets from the live Longview deployment | S | proposed 🔥 |
 | [[items/oh-developer-outreach-proposal-pack]] | Warm-intro discovery-to-proposal pack (Bridgewater test case) | S | proposed |
+| [[items/oh-answer-quality-audit-loop]] | Merge PR #205, then monthly homeowner answer-accuracy audit feeding proof assets | S | proposed 🔥 |
+| [[items/oh-marketing-site-conversion-instrumentation]] | Ship site v3 with CTA, UTM analytics, and booking link so outreach is measurable | S | proposed |
 
 ## OpenBook
 
@@ -105,6 +107,12 @@ This index tracks the current active idea queue. Each entry links to its item no
 - Both must under-claim. The 24 July market-readiness audit shows OpenHouse is not yet safe to present as enterprise-rollout ready, so all proof assets and proposals stay strictly to what is live and true on Longview.
 - No new OpenHouse build proposals were opened, and no parked, snoozed, or decided items were re-proposed. The existing idea notes across OpenHouse, OpenBook, Cara, and Renew are already well-developed from prior runs and did not require expansion this cycle.
 - Funding and award applications are already in execution via the NDRC and Entrepreneur Experience routes; a separate repeatable funding-pipeline item was considered and deliberately not created to avoid duplicating live work.
+
+## Promotion recommendations, 27 July 2026
+
+- PR #205 on sam-evolv/property-assistant is the freshest delivery signal (opened 22 July): it fixes wrong specs for three Longview homes and a guard misfire that corrupted ~15% of stored homeowner answers. Merge and deploy it before any proof metrics are quoted externally. New item [[items/oh-answer-quality-audit-loop]] carries the follow-through.
+- [[items/oh-marketing-site-conversion-instrumentation]] should ship with marketing site v3, not after. Half a day of work makes the entire investor/developer outreach cycle measurable per channel. Both new items are non-build leverage on the committed cycle, consistent with the 24 July focus decision.
+- Priority order against current conditions is unchanged: 1) OpenBook portal + Stripe billing (only near-term cash), 2) merge #205 + finish site v3 with instrumentation, 3) Bridgewater proposal built on audited Longview proof, 4) everything else waits.
 
 ## Cross-references
 
