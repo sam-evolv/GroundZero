@@ -922,9 +922,12 @@ Create a premium, cinematic, product-led OpenHouse homepage around “A home wit
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-energy-intelligence-sketch]]
+- [[briefs/openhouse-fable-creative-direction-prompt]]
+- [[briefs/openhouse-site-strategic-audit-2026-07-23]]
 - [[briefs/wiki-refiner-2026-07-24]]
 - [[briefs/wiki-refiner-2026-07-25]]
 - [[briefs/wiki-refiner-2026-07-26]]
+- [[briefs/wiki-refiner-2026-07-27]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-product-map]]
 

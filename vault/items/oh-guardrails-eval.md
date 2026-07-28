@@ -53,6 +53,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[companies/openhouse-ai]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-guardrails-active]]
+- [[items/oh-answer-quality-audit-loop]]
 - [[items/oh-warranty-triage-router]]
 - [[project_state/oh]]
 

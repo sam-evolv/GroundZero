@@ -272,6 +272,14 @@ Risk:
 - value may be weak without sufficient evidence
 - scoring can become gimmicky or misleading
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
+- [[companies/openhouse-ai]]
+- [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
+- [[project_state/oh]]
+
 ## Recommendation
 
 Do not discard Upgrade Ready or declare Home Performance the winner from one conversation.

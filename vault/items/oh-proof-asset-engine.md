@@ -55,13 +55,16 @@ Timely. Investor and developer outreach is live now and Bridgewater is a warm, h
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-27-market-intel]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[companies/openhouse-ai]]
 - [[context/dashboard]]
 - [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
 - [[goals/oh-funder-pitch]]
+- [[items/oh-answer-quality-audit-loop]]
 - [[items/oh-bridgewater-warm-introduction]]
 - [[items/oh-developer-outreach-proposal-pack]]
+- [[items/oh-marketing-site-conversion-instrumentation]]
 - [[project_state/oh]]
 
 

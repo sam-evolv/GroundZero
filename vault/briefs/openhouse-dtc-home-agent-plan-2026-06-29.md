@@ -432,6 +432,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-dtc-energy-savings-guarantee-research-2026-06-29]]
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]]

@@ -281,12 +281,17 @@ They do, however, prove a P0 release-control requirement: quarantine/remove the 
 - [[imports/claude/openhouse-company-memory]] — shared signals: openhouse, company, claude
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-27-market-intel]]
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[briefs/wiki-refiner-2026-07-25]]
 - [[briefs/wiki-refiner-2026-07-26]]
+- [[briefs/wiki-refiner-2026-07-27]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-product-map]]
+- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
+- [[items/oh-answer-quality-audit-loop]]
 - [[items/oh-handover-readiness-scan]]
 - [[items/oh-onboarding-cut]]
 - [[items/oh-rls-audit]]

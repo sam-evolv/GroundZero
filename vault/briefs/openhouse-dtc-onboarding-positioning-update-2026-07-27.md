@@ -99,3 +99,8 @@ It gives a first meaningful output despite no developer handover, earns the righ
 ## Prior work
 
 This is a current-source refinement of [[briefs/openhouse-dtc-home-context-research-2026-06-29]], which contains broader UK/US comparison and earlier pricing hypotheses.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
+

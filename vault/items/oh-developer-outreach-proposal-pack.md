@@ -49,10 +49,13 @@ Timely. The Bridgewater introduction is being prepared now, so the pack is most 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-27-market-intel]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-sales-routes]]
 - [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
+- [[items/oh-answer-quality-audit-loop]]
 - [[items/oh-bridgewater-warm-introduction]]
+- [[items/oh-marketing-site-conversion-instrumentation]]
 - [[items/oh-proof-asset-engine]]
 - [[project_state/oh]]
 

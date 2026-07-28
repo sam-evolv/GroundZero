@@ -40,7 +40,7 @@ updated: "2026-07-15"
 
 - 🔴 [[project_state/cara|cara]]: New idea Sam has started building: Irish SME callable digital assistant; Phase 0 is one live +353 call.
 - 🟢 [[project_state/ob|ob]]: Empire Gym's owner dashboard hardening is locally verified; safe publish/handoff is pending, and Stripe billing follows only after the owner journey is proven.
-- 🔴 [[project_state/oh|oh]]: OpenHouse is the active focus; marketing site nearly complete, followed by investor/developer outreach and funding/award applications.
+- 🔴 [[project_state/oh|oh]]: OpenHouse has a verified local Founder Alpha for the home operating-assistant loop; one permissioned-home dogfood test is the next evidence gate.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -49,7 +49,7 @@ updated: "2026-07-15"
 | Company | WIP | Proposed | Goal | Status |
 |---|---|---|---|---|
 | Cara | 2 | 0 | — | 🟡 |
-| OpenHouse AI | 1 | 14 | Lift new-agent activation to 60% | 🟡 |
+| OpenHouse AI | 1 | 16 | Lift new-agent activation to 60% | 🟡 |
 | OpenBook | 2 | 6 | Reach 500 live venues in Dublin | 🟡 |
 | Evolv Renewables | 0 | 4 | Sign three commercial rooftop deals | 🟢 |
 
@@ -64,4 +64,4 @@ updated: "2026-07-15"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-07-27 02:15 IST
+- Dashboard: 2026-07-28 02:16 IST

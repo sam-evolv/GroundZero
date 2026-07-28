@@ -966,3 +966,19 @@ This plan authorises a bounded DTC concierge validation track as the next produc
 - [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]]
 - [[briefs/2026-07-24-openhouse-market-readiness-audit]]
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
+
+- [[imports/campaigns/openhouse-full-context]] — shared signals: openhouse, full
+- [[imports/campaigns/openhouse-innovation-strategy]] — shared signals: innovation, openhouse, strategy
+- [[imports/cara-conversation-summary-2026-07-12]] — shared signals: conversation, summary, cara
+- [[imports/claude/openhouse-company-memory]] — shared signals: openhouse, company, memory
+- [[imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26]] — shared signals: maintaining, obsidian, 2026
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]]
+- [[companies/openhouse-ai]]
+- [[context/business-opportunities-moc]]
+- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
+- [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
+- [[project_state/oh]]
+

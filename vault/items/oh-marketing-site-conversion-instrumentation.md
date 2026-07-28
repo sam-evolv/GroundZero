@@ -33,3 +33,8 @@ This is finishing the committed marketing-site work properly, not a new build. C
 - [[items/oh-developer-outreach-proposal-pack]]
 - [[items/oh-proof-asset-engine]]
 - [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-27-market-intel]]
+

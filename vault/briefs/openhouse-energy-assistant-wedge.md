@@ -36,6 +36,7 @@ The strongest version is not "a chatbot for solar panels". It is an evidence and
 - [[imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26]] — shared signals: maintaining, obsidian, gipp
 - [[imports/campaigns/openhouse-full-context]] — shared signals: openhouse, full
 - [[imports/campaigns/openhouse-innovation-strategy]] — shared signals: innovation, openhouse, strategy
+- [[imports/chatgpt/openhouse-dtc-voice-stress-test-2026-07-27]] — shared signals: openhouse, chatgpt, stress
 ## Evidence from quick research
 
 ### 1. HPI / HPP already rewards the exact direction OpenHouse is moving in
@@ -352,6 +353,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-24]]
 - [[briefs/wiki-refiner-2026-07-25]]
 - [[briefs/wiki-refiner-2026-07-26]]
+- [[briefs/wiki-refiner-2026-07-27]]
 - [[companies/evolv-renewables]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]

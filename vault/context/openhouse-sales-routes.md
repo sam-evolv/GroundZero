@@ -108,6 +108,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-energy-intelligence-sketch]]
 - [[briefs/openhouse-energy-investor-deck-draft-v0]]

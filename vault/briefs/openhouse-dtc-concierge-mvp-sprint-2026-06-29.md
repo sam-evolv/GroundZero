@@ -583,6 +583,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-dtc-energy-savings-guarantee-research-2026-06-29]]
 - [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
 - [[companies/openhouse-ai]]
 - [[items/oh-dtc-home-savings-scan-concierge]]
