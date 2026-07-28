@@ -179,6 +179,7 @@
   },
   "active": "eb5fc23b93b01bd0",
   "lastOpenFiles": [
+    "vault/briefs/openhouse-ndrc-pre-accelerator-rehearsal-2026-07-28.md",
     "vault/briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28.md",
     "vault/briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28.md",
     "vault/decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28.md",
@@ -206,7 +207,6 @@
     "vault/decisions/openhouse-dtc-concierge-validation-2026-07-27.md",
     "vault/briefs/openhouse-dtc-onboarding-positioning-update-2026-07-27.md",
     "scripts/build_ndrc_deck.py",
-    "vault/briefs/2026-07-27-market-intel.md",
     "repos/OpenHouse-MarketingSite-v3/node_modules/supabase/bin/supabase",
     "repos/OpenHouse-MarketingSite-v3/node_modules/supabase/bin",
     "repos/OpenHouse-MarketingSite-v3/node_modules/next/web-vitals.d.ts",
