@@ -8,6 +8,8 @@ Private health and fitness tracking for Sam.
 - [[2026-07-21-baseline-physique-review]]
 - [[2026-07-21-usual-breakfast-review]]
 - [[2026-07-22-lower-a-session]]
+- [[2026-07-22-daily-log]]
+- [[2026-07-28-daily-log]]
 - [[photos/2026-07-21-baseline]]
 - [[photos/2026-07-21-breakfast]]
 
