@@ -16,6 +16,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 5. Validate address-to-planning-record discovery inside the bounded DTC concierge check before building a broad public-data platform. Use the official national planning and Tailte building layers for candidate discovery; keep planning-document import homeowner-led until access, copyright and reuse rights are approved. See [[briefs/openhouse-public-home-context-data-strategy-2026-07-28]].
 6. Run a bounded Context Acquisition Lab across varied permissioned homes before broad DTC UI build. Validate public-record yield, walkthrough value, installed-system confirmation, job-specific assistant confidence and homeowner effort. See [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]].
 7. Validate scoped estate, phase and house-type learning plus the My Home energy evidence ladder. Use privacy-safe cohort claims rather than copying household records; begin with HDF and bills, then add approved vendor connections where they change the homeowner's answer. Use the Longview show house for the connection pipeline and an occupied home for outcome validation. See [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]].
+8. Enforce the ten-minute DTC activation contract: address or Eircode, building confirmation, consent, one goal and at most one optional evidence action must produce a credible home-specific benefit. Serial numbers may identify and bind devices but cannot replace approved homeowner authorisation. See [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]].
 
 ## In flight
 - Production migration stabilisation and backup-table cleanup.
@@ -63,6 +64,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]] - reviewed voice-session implications, corrections and dual-wedge test
 - [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]] - category north star and first recurring proof loop
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]] - bounded €79 dual-wedge validation decision
+- [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]] - non-negotiable activation inputs, passive acquisition order, serial-number boundary, first-value contract and DTC failure conditions
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]] - direct-to-consumer home context feasibility
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]] - DTC as core company thesis, not fallback
 - [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]] - DTC Home Savings Scan / Home Agent plan
@@ -79,6 +81,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - Public-data enrichment converges into the same living Home Record. OpenHouse stores source artifacts and claim-level provenance, retrieves relevant evidence on demand, and never silently promotes planning, mapping or area context to confirmed as-built or measured household fact.
 - Assistant confidence is claim-specific and job-specific, not one score for the whole home. Address confirmation should trigger background evidence recovery; the homeowner supplies one proof and receives value before any broader inventory is requested.
 - Context acquisition will be exhausted through the bounded [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]] before broad DTC productisation, while preserving the existing paid concierge and deployment gates.
+- Broad paid DTC must meet the [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]: a credible home-specific result from minimal compulsory input, with further evidence requested progressively only when its benefit is clear.
 
 ## Key facts
 - GitHub: org `sam-evolv`, repo `sam-evolv/property-assistant`, workspace `apps/unified-portal`

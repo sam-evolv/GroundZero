@@ -12,6 +12,7 @@ Every decision is stored in `decisions/` as a permanent note. This log orders th
 
 | Date | Decision | Consequences | Status |
 |---|---|---|---|
+| 2026-07-28 | [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]] - Ten-minute home-specific value is a DTC viability gate | Limit compulsory activation to address, building confirmation, consent, one goal and at most one optional evidence action; acquire and inherit the rest passively; reconsider broad paid DTC if this cannot be repeated | Active |
 | 2026-07-28 | [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]] - Exhaust home-context acquisition through a bounded lab before broad DTC build | Extend the €79 concierge validation across varied homes; recover context in parallel; productise only repeated high-value, low-friction routes | Active |
 | 2026-07-27 | [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]] - OpenHouse becomes the home-specific operating assistant | Energy and homeowner operation are the first recurring proof loop; guided capture and external-assistant context are bounded future experiments | Active |
 | 2026-07-27 | [[decisions/openhouse-dtc-concierge-validation-2026-07-27]] - Validate DTC through paid concierge plans before broad consumer build | Test Upgrade Ready against Home Performance; 20 paid plans gate productisation; no universal savings or device-control claims | Active |
