@@ -34,3 +34,14 @@ Source constraint: external web research tools were unavailable this run. Everyt
 - [[project_state/ob]]
 - [[items/_Index]]
 - [[briefs/2026-07-24-openhouse-market-readiness-audit]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openhouse-market-readiness-audit]]
+- [[items/oh-answer-quality-audit-loop]]
+- [[items/oh-developer-outreach-proposal-pack]]
+- [[items/oh-marketing-site-conversion-instrumentation]]
+- [[items/oh-proof-asset-engine]]
+- [[project_state/ob]]
+- [[project_state/oh]]
+

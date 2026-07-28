@@ -2,20 +2,12 @@
 title: Wiki Refiner 2026-07-28
 kind: wiki_refiner_brief
 date: "2026-07-28"
-ran_at: "2026-07-28T02:16:00+01:00"
+ran_at: "2026-07-28T13:27:31+01:00"
 ---
 
 # Wiki Refiner 2026-07-28
 
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
-
-## Auto-backlinks written
-- `openhouse-full-context.md` → `briefs/openhouse-dtc-master-plan-2026-07-27.md` (score 436)
-- `openhouse-innovation-strategy.md` → `briefs/openhouse-dtc-master-plan-2026-07-27.md` (score 211)
-- `cara-conversation-summary-2026-07-12.md` → `briefs/openhouse-dtc-master-plan-2026-07-27.md` (score 39)
-- `openhouse-dtc-voice-stress-test-2026-07-27.md` → `briefs/openhouse-energy-assistant-wedge.md` (score 188)
-- `openhouse-company-memory.md` → `briefs/openhouse-dtc-master-plan-2026-07-27.md` (score 144)
-- `gipp-obsidian-self-maintaining-wiki-2026-06-26.md` → `briefs/openhouse-dtc-master-plan-2026-07-27.md` (score 79)
 
 ## Sources reviewed
 - `imports/campaigns/openhouse-full-context.md` -> `companies/openhouse-ai.md`
@@ -41,12 +33,12 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
   - Related: [[briefs/wiki-refiner-2026-06-26]], [[briefs/wiki-refiner-2026-06-27]], [[briefs/wiki-refiner-2026-06-28]], [[briefs/wiki-refiner-2026-06-29]]
 
 ## Strongest connected notes
-- [[briefs/openhouse-dtc-master-plan-2026-07-27]] (436)
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]] (437)
 - [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]] (382)
-- [[briefs/2026-07-24-openhouse-market-readiness-audit]] (319)
+- [[briefs/2026-07-24-openhouse-market-readiness-audit]] (321)
 - [[briefs/openhouse-fable-remarkable-site-prompt]] (319)
+- [[briefs/openhouse-energy-assistant-wedge]] (317)
 - [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]] (317)
-- [[briefs/openhouse-energy-assistant-wedge]] (316)
 - [[briefs/openhouse-claude-design-final-polish-prompt]] (163)
 - [[project_state/cara]] (45)
 - [[briefs/cara-starter-product-spec]] (38)

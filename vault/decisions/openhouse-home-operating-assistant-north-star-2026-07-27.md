@@ -63,4 +63,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]]
 - [[companies/openhouse-ai]]
+- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
+- [[project_state/oh]]
 

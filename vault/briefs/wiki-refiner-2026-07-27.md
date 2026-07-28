@@ -59,6 +59,33 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openhouse-market-readiness-audit]]
+- [[briefs/cara-starter-product-spec]]
+- [[briefs/openhouse-claude-design-final-polish-prompt]]
+- [[briefs/openhouse-energy-assistant-wedge]]
+- [[briefs/openhouse-fable-remarkable-site-prompt]]
+- [[briefs/openhouse-investor-brief-energy-agentic-revision-plan]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
+- [[briefs/wiki-refiner-2026-06-26]]
+- [[briefs/wiki-refiner-2026-06-27]]
+- [[briefs/wiki-refiner-2026-06-28]]
+- [[briefs/wiki-refiner-2026-06-29]]
+- [[briefs/wiki-refiner-2026-06-30]]
+- [[briefs/wiki-refiner-2026-07-01]]
+- [[briefs/wiki-refiner-2026-07-12]]
+- [[briefs/wiki-refiner-2026-07-13]]
+- [[briefs/wiki-refiner-2026-07-14]]
+- [[briefs/wiki-refiner-2026-07-15]]
+- [[briefs/wiki-refiner-2026-07-18]]
+- [[companies/cara]]
+- [[companies/openhouse-ai]]
+- [[project_state/cara]]
+- [[project_state/oh]]
+
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.
 - Do not delete source material after filing it.

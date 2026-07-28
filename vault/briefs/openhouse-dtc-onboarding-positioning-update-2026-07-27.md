@@ -102,5 +102,6 @@ This is a current-source refinement of [[briefs/openhouse-dtc-home-context-resea
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 

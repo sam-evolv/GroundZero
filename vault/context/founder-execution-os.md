@@ -240,6 +240,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-21-escape-velocity-income-engine]]
 - [[briefs/2026-07-22-six-month-agent-co-pilot-challenge]]
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
+- [[briefs/hermes-community-use-cases-2026-07-28]]
 - [[context/agentic-value-creation-mission]]
 - [[context/automation-ideas]]
 - [[context/capture-workflow]]

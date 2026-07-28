@@ -40,5 +40,10 @@ PR #205 (opened 22 July, currently the only recent delivery movement on sam-evol
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openhouse-market-readiness-audit]]
 - [[briefs/2026-07-27-market-intel]]
+- [[items/oh-developer-outreach-proposal-pack]]
+- [[items/oh-guardrails-eval]]
+- [[items/oh-proof-asset-engine]]
+- [[project_state/oh]]
 

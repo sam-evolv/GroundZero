@@ -56,6 +56,7 @@ Timely. Investor and developer outreach is live now and Bridgewater is a warm, h
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-27-market-intel]]
+- [[briefs/hermes-community-use-cases-2026-07-28]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[companies/openhouse-ai]]
 - [[context/dashboard]]

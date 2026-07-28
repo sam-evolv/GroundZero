@@ -97,6 +97,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-portfolio-brief-2026-07-17]]
 - [[briefs/daily-portfolio-brief-2026-07-18]]
 - [[briefs/daily-portfolio-brief-2026-07-19]]
+- [[briefs/hermes-community-use-cases-2026-07-28]]
 - [[companies/cara]]
 - [[context/dashboard]]
 - [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]]

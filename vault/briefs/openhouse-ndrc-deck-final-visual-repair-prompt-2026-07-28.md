@@ -121,3 +121,8 @@ Before exporting, inspect the actual slideshow view at 16:9 and verify:
 
 Make only these corrections. Do not introduce new decorative elements, extra logos, new sections or additional slides.
 ```
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-ndrc-final-premium-polish-prompt-2026-07-28]]
+

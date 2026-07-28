@@ -69,6 +69,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/cara-success-strategy-2026-07-11]]
 - [[briefs/cara-world-class-product-route-research-2026-07-13]]
 - [[briefs/daily-ai-brief-2026-07-14]]
+- [[briefs/hermes-community-use-cases-2026-07-28]]
 - [[briefs/kimi-k3-low-bit-edge-ai-opportunity-2026-07-20]]
 - [[briefs/wiki-refiner-2026-07-12]]
 - [[briefs/wiki-refiner-2026-07-13]]

@@ -277,8 +277,10 @@ Risk:
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[companies/openhouse-ai]]
+- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
 - [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
 - [[project_state/oh]]
+
 
 ## Recommendation
 

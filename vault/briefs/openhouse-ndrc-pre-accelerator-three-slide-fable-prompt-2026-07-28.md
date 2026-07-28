@@ -210,3 +210,8 @@ Before finishing:
 
 Do the simplest thing that achieves this exceptionally well. If a slide feels weak, improve hierarchy and remove clutter before adding content. Build and polish the complete artifact now.
 ```
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-ndrc-three-slide-deck-repair-prompt-2026-07-28]]
+

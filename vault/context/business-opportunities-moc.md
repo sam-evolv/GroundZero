@@ -39,6 +39,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[briefs/ai-money-patterns-2026-06]] — what public discussion keeps converging on for AI monetization
 - [[briefs/10-non-common-ai-money-ideas]] — non-generic AI business patterns
 - [[briefs/daily-ai-brief-2026-07-14]] — current agent-control-plane, coding-agent and energy-forecasting signals
+- [[briefs/hermes-community-use-cases-2026-07-28]] — 262-story community review translated into bounded, Sam-specific operating patterns
 - [[briefs/kimi-k3-low-bit-edge-ai-opportunity-2026-07-20]] — low-bit edge intelligence and the model-swappable OpenHouse/Cara opportunity
 - [[items/ob-venue-health-radar]] — venue health scoring (applies to any multi-tenant SaaS)
 
@@ -71,6 +72,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/daily-ai-brief-2026-07-14]]
+- [[briefs/hermes-community-use-cases-2026-07-28]]
 - [[briefs/kimi-k3-low-bit-edge-ai-opportunity-2026-07-20]]
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
@@ -96,6 +98,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/llm-wiki-pattern]]
 - [[context/scaling-playbook]]
 - [[context/solo-founder-era]]
+- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
 - [[items/cara-phase0-m1-live-call]]
 - [[items/consultancy-cork-property-outreach]]
 - [[items/ob-no-show-deposits]]

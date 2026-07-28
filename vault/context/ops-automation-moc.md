@@ -54,6 +54,7 @@ Every ops item writes back to:
 
 These explain *why* the automation matters, not just what it does:
 - [[briefs/daily-ai-brief-2026-07-14]] — current evidence for durable background-job contracts and provider-neutral orchestration
+- [[briefs/hermes-community-use-cases-2026-07-28]] — review of 262 community stories; event-driven, approval-gated adaptations for OpenHouse, Cara, and Ground Zero
 - [[context/automation-ideas]] — general automation principles
 - [[context/capture-workflow]] — how sources flow into the wiki
 - [[context/review-workflow]] — daily/weekly review job description
@@ -66,6 +67,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openbook-prospect-preview-factory]]
 - [[briefs/2026-07-24-openhouse-openbook-reset]]
 - [[briefs/daily-ai-brief-2026-07-14]]
+- [[briefs/hermes-community-use-cases-2026-07-28]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
 - [[companies/evolv-renewables]]

@@ -975,9 +975,17 @@ This plan authorises a bounded DTC concierge validation track as the next produc
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openhouse-market-readiness-audit]]
+- [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]]
+- [[briefs/openhouse-dtc-energy-savings-guarantee-research-2026-06-29]]
+- [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]
+- [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
+- [[briefs/openhouse-dtc-onboarding-positioning-update-2026-07-27]]
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
+- [[context/openhouse-product-map]]
+- [[context/openhouse-sales-routes]]
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
 - [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
 - [[project_state/oh]]
