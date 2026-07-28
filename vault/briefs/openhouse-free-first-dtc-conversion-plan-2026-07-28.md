@@ -14,7 +14,7 @@ OpenHouse should not ask an Irish homeowner to pay before it has demonstrated sp
 
 The conversion is not a charge for generic AI chat. It is membership of a living, protected Home Record: the evidence-backed operating and service history of the home that becomes more useful as the homeowner uses it.
 
-This supersedes the paid-first acquisition assumption in [[briefs/openhouse-dtc-master-plan-2026-07-27]] for the initial DTC experience. Paid decision products remain possible later, but only after OpenHouse has earned trust and proved a repeatable outcome.
+Free-first applies to the initial ten-minute reveal only. It does not supersede the commercial gate in [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]: deeper manual concierge fulfilment requires a real €79 payment or refundable payment commitment, and twenty paid or payment-committed plans still gate productisation. The free reveal proves recognition and usefulness; payment proves demand.
 
 ## The psychological job
 
@@ -124,6 +124,8 @@ For developer-provided homes, homeowner questions and evidence should produce pr
 
 Before broad consumer build, test the free-first experience manually across the existing three-home truth-test shape: Sam's occupied home, the Longview show house and an independent older data-poor home.
 
+These three homes validate activation mechanics, evidence quality, source yield and founder-independence. They do not validate demand. Stated willingness and stated annual value are qualitative signals only; payment commitment remains the commercial evidence.
+
 Measure:
 
 - time to a credible first result;
@@ -131,7 +133,7 @@ Measure:
 - voluntary completion of the one next evidence action;
 - whether the homeowner returns for a second job;
 - whether they understand verified versus candidate context;
-- whether they say the record would be worth maintaining annually;
+- whether they say the record would be worth maintaining annually, recorded only as a directional signal;
 - what feature or trigger would make them pay;
 - privacy, rights and data-quality failures.
 
@@ -148,11 +150,12 @@ The membership proposition is not validated by trial sign-up alone. It is valida
 
 ## Immediate next steps
 
-1. Design the ten-minute free Home snapshot and one-goal entry flow.
-2. Define the minimal DTC Home Record fields, evidence states and first-value contract.
-3. Select the first three trial goals and their best single follow-up proof.
-4. Run the three-home manual validation and record return, evidence and membership signals.
-5. Convert only the repeated, trusted parts of the trial into product build.
+1. Run one operator-mediated occupied-home proof with Sam's Eircode or address, building confirmation, explicit consent and one current goal. Do not put private identifiers in the vault.
+2. Deliver the first result under the ten-minute contract with transparent provenance and at most one optional evidence action.
+3. Record whether it changes a decision, action or question, plus actual source and operator cost.
+4. Require a real €79 payment or refundable payment commitment before deeper concierge fulfilment.
+5. Continue to Longview only with organisational permission, then test one independently consented older data-poor home without founder briefing.
+6. Convert only repeated, trusted bottlenecks into product build. Developer proof packaging and Bridgewater outreach remain the primary commercial lane.
 
 ## Connected notes
 
