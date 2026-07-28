@@ -7,6 +7,8 @@ status: field-protocol
 
 # OpenHouse A1 show-house evidence capture
 
+Related evidence: [[openhouse-show-house-manual-evidence-register-2026-07-28]]
+
 ## Purpose
 
 Use the A1-rated Longview show house as a permissioned internal case study to test how much trustworthy, home-specific assistance OpenHouse can create from a guided walkthrough, device photographs and available handover evidence.
@@ -87,6 +89,22 @@ Narrate without changing anything:
 - Which thermostat appears to control which area.
 - Whether the system uses radiators or underfloor heating.
 - Any schedules visible through ordinary display navigation only. Stop if navigation risks changing a setting.
+
+### 4A. Clean-water storage and pressure
+
+The supplied AquaBox Classic document describes a clean/potable-water storage and pressure-boosting system, not the domestic-hot-water cylinder.
+
+If an AquaBox is installed, capture:
+
+- The whole tank and pump arrangement in context.
+- Tank model and capacity label.
+- ESPA pump label.
+- Controller and pressure gauge without touching controls.
+- Visible pipework and valves from outside only.
+- The base/platform and available pump-removal clearance.
+- Any water-system schematic or commissioning sheet.
+
+Do not adjust pressure, force a pump cycle, isolate valves or remove covers.
 
 ### 5. Ventilation
 
