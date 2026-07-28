@@ -27,7 +27,7 @@ Sam's 27 July voice stress-test established a second hypothesis, the **Home Perf
 
 The reviewed Irish policy and post-occupancy evidence strengthens this second hypothesis without selecting it as the winner. BER is an asset rating based on standardised assumptions, while measured household outcomes can diverge because of comfort preferences, settings, commissioning, equipment, weather, occupancy and model limitations. OpenHouse should therefore diagnose an evidence hierarchy rather than grade or blame the resident. See [[briefs/openhouse-a-rated-homeowner-primary-integration-2026-07-28]].
 
-Either paid decision product starts the persistent Home Record. OpenHouse offers ongoing membership only when the record contains enough recurring value to justify it.
+The initial DTC experience should be free-first and no-card: OpenHouse must demonstrate a credible home-specific result before asking an Irish homeowner to pay. A paid decision product remains a later option, but the membership conversion is earned through the value of maintaining the persistent Home Record. See [[briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28]].
 
 DTC and developer handover are not separate companies. They are two ways of creating the same living Home Record:
 
@@ -994,4 +994,3 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
 - [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
 - [[project_state/oh]]
-
