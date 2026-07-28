@@ -33,7 +33,7 @@ The best near-term commercial move is a five-home, paid or payment-committed Hom
 
 ### 1. Ireland is putting serious money into the asset
 
-The National Retrofit Plan targets **500,000 homes upgraded to B2 by 2030** and commits **€8 billion of Exchequer investment to 2030**. Its delivery pillars focus on demand, finance, supply chain, skills, standards and governance. One Stop Shops are intended to remove homeowner hassle through a managed upgrade process.
+The National Retrofit Plan targets **500,000 homes upgraded to B2 by 2030** and **400,000 existing homes fitted with heat pumps**. The original plan allocated **€8 billion of carbon-tax receipts to residential retrofit through 2030**. This is a multiannual policy allocation rather than money already spent, and reporting in 2025 indicated that part of the remaining commitment was under departmental review. Its delivery pillars focus on demand, finance, supply chain, skills, standards and governance. One Stop Shops are intended to remove homeowner hassle through a managed upgrade process.
 
 The programme is already operating at scale. SEAI reported through RTÉ that in 2024 it disbursed **€616 million** in grants and supports, including **€420 million for 54,000 home energy upgrades**. Almost **22,000 upgrades reached B2 or better**. Only **3,609 projects included a heat-pump grant**, which matters because the operational-complexity opportunity will initially be concentrated rather than universal.
 
@@ -42,6 +42,11 @@ The programme is already operating at scale. SEAI reported through RTÉ that in 
 Sources:
 - [Government of Ireland, National Retrofit Plan](https://www.gov.ie/en/department-of-climate-energy-and-the-environment/publications/national-retrofit-plan/)
 - [RTÉ, SEAI pays record €616m in energy upgrade grants in 2024](https://www.rte.ie/news/ireland/2025/0115/1490866-energy-upgrade-grants/)
+
+Ireland is also producing A-rated new homes at scale. CSO reported that by the end of 2025, **99% of dwellings built from 2020 to 2025 had an A rating**, **94% used electricity as their main space-heating fuel**, and **85% contained a heat pump**. This is the clearest near-term cohort for an operating-assistant proposition because modern-home complexity is already mainstream within new supply.
+
+Source:
+- [CSO, Domestic Building Energy Ratings Quarter 4 2025](https://www.cso.ie/en/releasesandpublications/ep/p-dber/domesticbuildingenergyratingsquarter42025/)
 
 ### 2. BER is not operational performance
 
@@ -83,18 +88,24 @@ Source:
 
 ### 6. Smart-meter infrastructure is underused commercially
 
-CRU reported that by October 2023, **17% of smart-meter customers** had activated smart data services through a supplier and **9%** had signed up for a time-of-use tariff. CRU also considered personalised price comparison using uploaded smart-meter data and stated that nothing prevented a price-comparison website or other market participant from offering that functionality, subject to applicable rules.
+Ireland had passed **two million smart-meter installations by 2025**, but activation lagged infrastructure. CRU reported that by October 2023, **17% of smart-meter customers** had activated smart data services through a supplier and **9%** had signed up for a time-of-use tariff. CRU also considered personalised price comparison using uploaded smart-meter data and stated that nothing prevented a price-comparison website or other market participant from offering that functionality, subject to applicable rules.
 
 The figures are dated and should be refreshed before a pitch. They are still a strong policy signal: meter installation alone does not guarantee customer engagement or optimisation.
 
 Source:
 - [CRU, Smart Meter Time of Use Tariffs decision](https://www.cru.ie/publications/27776/)
+- [ESB Networks, Smart Meter Upgrade](https://www.esbnetworks.ie/existing-connections/meters-readings/smart-meter-upgrade)
 
-### 7. Feedback can change consumption, but claims must stay qualified
+### 7. Feedback can change consumption, but a dashboard alone produces modest results
 
-A large natural experiment in Northern Ireland found immediate usage feedback associated with an **11% to 17% decline in electricity consumption**, with some specifications estimating 11% to 20%. The intervention was tied to keypad prepayment meters, so it should not be presented as the expected result for an OpenHouse user. It does show that contextual, timely feedback can affect behaviour more than another static PDF.
+Ireland's 2011 Smart Metering Customer Behaviour Trial covered approximately **5,000 residential customers**. Time-of-use pricing and feedback reduced average electricity use by approximately **2.5%** and peak demand by approximately **8.8%**. Treatments involving an in-home display produced among the strongest reported responses, at approximately **3.2% overall** and **11.3% at peak**.
 
-Source:
+A separate Northern Ireland natural experiment found immediate feedback associated with a larger **11% to 17% decline** in electricity use, but that intervention involved keypad prepayment meters and should not be treated as an expected OpenHouse result.
+
+**Commercial implication:** feedback works, particularly for timing, but the average Irish whole-home reduction was modest. OpenHouse must convert data into diagnosis and one home-specific action, not build another consumption dashboard.
+
+Sources:
+- [CRU, Smart Metering Customer Behaviour Trials Findings Report](https://www.cru.ie/publications/20549/)
 - Gans, Alberini and Longo, [Smart meter devices and the effect of feedback on residential electricity consumption](https://doi.org/10.1016/j.eneco.2012.11.022), *Energy Economics*, 2013
 
 ### 8. Current retrofit service design appears to stop at the final BER

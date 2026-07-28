@@ -25,6 +25,8 @@ The customer uploads a BER or survey, a recent bill and a few guided photos. Ope
 
 Sam's 27 July voice stress-test established a second hypothesis, the **Home Performance Check**: help a heat-pump, solar, EV or modern-home owner understand how the home wants to be run, identify one evidence-backed operational opportunity and establish a performance baseline. Upgrade Ready and Home Performance must be tested against payment commitment before the acquisition product is fixed.
 
+The reviewed Irish policy and post-occupancy evidence strengthens this second hypothesis without selecting it as the winner. BER is an asset rating based on standardised assumptions, while measured household outcomes can diverge because of comfort preferences, settings, commissioning, equipment, weather, occupancy and model limitations. OpenHouse should therefore diagnose an evidence hierarchy rather than grade or blame the resident. See [[briefs/openhouse-a-rated-homeowner-primary-integration-2026-07-28]].
+
 Either paid decision product starts the persistent Home Record. OpenHouse offers ongoing membership only when the record contains enough recurring value to justify it.
 
 DTC and developer handover are not separate companies. They are two ways of creating the same living Home Record:
@@ -48,6 +50,7 @@ A guided spatial and systems capture is now a priority feasibility experiment. O
 A future scoped MCP or equivalent Home Context API can let other assistants use OpenHouse's permissioned home knowledge. This is a long-term distribution architecture, not a current integration claim.
 
 See [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]] and [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]].
+The policy and performance-gap evidence is reviewed in [[briefs/openhouse-a-rated-homeowner-primary-integration-2026-07-28]].
 
 ## The founder-level correction
 
@@ -236,6 +239,8 @@ Deliverable:
 - candidate systems and room context entering the Home Record
 
 This candidate is strongest for heat-pump, solar, EV, battery and recently built homes. It must not promise live monitoring without a real refresh source or attribute consumption change to OpenHouse without sufficient evidence.
+
+The check must separate household preference and schedule from control settings, commissioning or installation, equipment behaviour, weather and tariff context, and model or evidence limitations. Its purpose is to establish a defensible operating baseline and one safe next action, not to label a household inefficient or imply that BER predicts its actual bill.
 
 ### Useful Action Guarantee
 
