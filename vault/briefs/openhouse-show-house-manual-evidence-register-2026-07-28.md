@@ -8,6 +8,8 @@ case_id: openhouse-a1-show-house-2026-07-28
 
 # OpenHouse A1 show-house manual evidence register
 
+Related walkthrough evidence: [[openhouse-show-house-walkthrough-evidence-2026-07-28]]
+
 ## Case-study framing
 
 These documents establish candidate equipment families and manufacturer-defined behaviour. They do not, by themselves, prove the exact installed variants, settings, commissioning state, array size, measured efficiency or energy savings.
@@ -106,6 +108,11 @@ Every OpenHouse answer should distinguish:
 - The electrical installation design, protective-device selection or charger circuit capacity.
 - Any vehicle, account, tariff or charging schedule.
 
+### Walkthrough observation
+
+- The physical charger is not shown in either walkthrough clip.
+- A dedicated consumer-unit circuit labelled `EV CHARGER` is visible. This supports the presence of an EV-charger circuit but does not identify the charger or its configuration.
+
 ### Capture required
 
 - One contextual photograph of the installed charger and cable position.
@@ -149,6 +156,14 @@ Do not enter installer mode, hold buttons, change the maximum current, disable o
 ### Interpretation boundary
 
 The COP, capacity, annual-energy and efficiency-class figures are laboratory or regulatory figures for specific product combinations and test conditions. They are not measurements of this show house and must not be presented as the home's current COP, consumption or savings.
+
+### Walkthrough observation
+
+- A floor-standing Daikin indoor unit is visibly installed in cabinetry beside the utility area.
+- Its blue circular front control/display is illuminated, but no mode, temperature or error text is readable.
+- An Onecta pairing QR is visible and must be redacted from public material.
+- A white expansion vessel, copper/insulated pipework, valves and a gauge-like component are visible above and beside the unit.
+- The exact model/rating plate and outdoor unit are not shown clearly enough to select a range variant.
 
 ### Not established
 
@@ -203,10 +218,17 @@ This document does not describe a domestic-hot-water cylinder. It describes a cl
 
 ### Not established
 
-- Whether an AquaBox is actually installed in the show house.
 - Exact model, capacity or pump variant.
 - Current pressure, controller settings, water source, plumbing role or operating condition.
 - Whether the installation platform and clearances comply.
+
+### Walkthrough observation
+
+- A blue rectangular AquaBox tank is visibly installed in a ground-floor plant/storage cupboard.
+- The top-mounted controller is visibly labelled `AQUABOX SYSTEMS LTD.`.
+- Blue and white pipework connects the tank area to a multi-branch valved manifold.
+- The footage appears to reference an Acuaria 07S pump family, but exact pump and capacity text are not reliable enough to promote to installed facts.
+- A serial label is visible and must be redacted from public material.
 
 ### Capture required
 
@@ -252,6 +274,11 @@ Do not adjust pressure, force a pump cycle, isolate valves, remove covers or dec
 - Generation, self-consumption, export or savings.
 - That the physical modules are the same product described in the supplied sheet.
 
+### Walkthrough observation
+
+- A dedicated consumer-unit circuit labelled `SOLAR PV` is visible.
+- The roof modules, inverter, generation meter and isolators are not shown in the supplied walkthrough clips.
+
 ### Capture required
 
 - Ground-level photographs showing each roof plane and visible array layout. Do not climb onto the roof.
@@ -276,7 +303,7 @@ Do not open the inverter, isolators, consumer unit or meters, touch DC cabling, 
 
 ### Still missing
 
-- Physical walkthrough and room map.
+- Exact floor-plan verification, although the walkthrough now supports a provisional ground-floor and first-floor room map.
 - Exact rating-plate photographs for every installed device.
 - EPH controller and thermostat manual/model.
 - Heat-pump controller user manual and commissioning report.
@@ -312,7 +339,7 @@ Do not open the inverter, isolators, consumer unit or meters, touch DC cabling, 
 
 ## Next case-study gate
 
-The next evidence should be the structured walkthrough plus rating-plate photographs. OpenHouse should then replace each candidate-system record with:
+The structured walkthrough is now ingested. The next evidence should be the targeted rating-plate, control, exterior-plant, inverter, charger and ventilation photographs listed in [[openhouse-show-house-walkthrough-evidence-2026-07-28]]. OpenHouse should then replace each remaining candidate-system record with:
 
 1. installed-model confirmation;
 2. visible state;
