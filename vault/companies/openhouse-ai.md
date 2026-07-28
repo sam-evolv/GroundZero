@@ -15,6 +15,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 4. Hold every scheme portal at feature parity and at the premium bar.
 5. Validate address-to-planning-record discovery inside the bounded DTC concierge check before building a broad public-data platform. Use the official national planning and Tailte building layers for candidate discovery; keep planning-document import homeowner-led until access, copyright and reuse rights are approved. See [[briefs/openhouse-public-home-context-data-strategy-2026-07-28]].
 6. Run a bounded Context Acquisition Lab across varied permissioned homes before broad DTC UI build. Validate public-record yield, walkthrough value, installed-system confirmation, job-specific assistant confidence and homeowner effort. See [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]].
+7. Validate scoped estate, phase and house-type learning plus the My Home energy evidence ladder. Use privacy-safe cohort claims rather than copying household records; begin with HDF and bills, then add approved vendor connections where they change the homeowner's answer. Use the Longview show house for the connection pipeline and an occupied home for outcome validation. See [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]].
 
 ## In flight
 - Production migration stabilisation and backup-table cleanup.
@@ -58,6 +59,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]] - canonical DTC product, context, integration, economics, GTM and validation strategy
 - [[briefs/openhouse-public-home-context-data-strategy-2026-07-28]] - verified Irish planning, building, energy and environmental data sources; address-matching architecture; privacy and document-rights guardrails; 20-home concierge validation
 - [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]] - exhaustive home-context acquisition model, show-house evidence-value audit, claim-level confidence ladder, agentic signup flow and Context Acquisition Lab
+- [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]] - privacy-safe estate and house-type learning, adaptive My Home evidence modes, consumer energy-source model and Longview connection pilot
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]] - reviewed voice-session implications, corrections and dual-wedge test
 - [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]] - category north star and first recurring proof loop
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]] - bounded €79 dual-wedge validation decision
