@@ -13,6 +13,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 2. Validate the DTC acquisition wedge by testing the Upgrade Ready Plan against the Home Performance Check through paid or payment-committed concierge plans before building a broad consumer application. See [[briefs/openhouse-dtc-master-plan-2026-07-27]].
 3. Package one narrow, evidence-backed developer handover pilot using the same living Home Record architecture.
 4. Hold every scheme portal at feature parity and at the premium bar.
+5. Validate address-to-planning-record discovery inside the bounded DTC concierge check before building a broad public-data platform. Use the official national planning and Tailte building layers for candidate discovery; keep planning-document import homeowner-led until access, copyright and reuse rights are approved. See [[briefs/openhouse-public-home-context-data-strategy-2026-07-28]].
 
 ## In flight
 - Production migration stabilisation and backup-table cleanup.
@@ -54,6 +55,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[briefs/openhouse-ireland-funding-routes-2026-06-29]] - Ireland funding and backing routes
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] - UK/US expansion research
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]] - canonical DTC product, context, integration, economics, GTM and validation strategy
+- [[briefs/openhouse-public-home-context-data-strategy-2026-07-28]] - verified Irish planning, building, energy and environmental data sources; address-matching architecture; privacy and document-rights guardrails; 20-home concierge validation
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]] - reviewed voice-session implications, corrections and dual-wedge test
 - [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]] - category north star and first recurring proof loop
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]] - bounded €79 dual-wedge validation decision
@@ -70,6 +72,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 ## Decisions
 - Stack is fixed: React, Next.js, Supabase, Vercel. No framework migrations.
 - Security audited and hardened: ten unauthenticated endpoints remediated, leaked service role key rotated, `withAuth` middleware in place, full RLS lockdown across 35+ tables.
+- Public-data enrichment converges into the same living Home Record. OpenHouse stores source artifacts and claim-level provenance, retrieves relevant evidence on demand, and never silently promotes planning, mapping or area context to confirmed as-built or measured household fact.
 
 ## Key facts
 - GitHub: org `sam-evolv`, repo `sam-evolv/property-assistant`, workspace `apps/unified-portal`
