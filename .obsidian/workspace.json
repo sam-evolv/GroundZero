@@ -179,6 +179,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28.md",
     "vault/decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28.md",
     "vault/briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28.md",
     "vault/decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28.md",
@@ -206,7 +207,6 @@
     "scripts/build_ndrc_deck.py",
     "vault/briefs/2026-07-27-market-intel.md",
     "vault/Daily/2026-07-27.md",
-    "vault/items/oh-marketing-site-conversion-instrumentation.md",
     "repos/OpenHouse-MarketingSite-v3/node_modules/supabase/bin/supabase",
     "repos/OpenHouse-MarketingSite-v3/node_modules/supabase/bin",
     "repos/OpenHouse-MarketingSite-v3/node_modules/next/web-vitals.d.ts",
