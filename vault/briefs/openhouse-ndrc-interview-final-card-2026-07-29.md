@@ -18,6 +18,74 @@ owner: leo
 - Keep the deck open locally and ready to share before joining
 - Do not store or reproduce the private meeting URL in this note
 
+## Panel-specific intelligence
+
+### Dushyant Singh
+
+Verified background:
+
+- NDRC Regional Lead at PorterShed
+- Design entrepreneur with international startup experience
+- MSc in Entrepreneurship from Trinity College Dublin
+- Experience with design thinking, low-code tools, pitching and early-stage product formation
+
+Likely probe:
+
+- Is this a sharply defined workflow or an ordinary portal wrapped in AI?
+- What did Sam learn from actual user behaviour?
+- What is the smallest repeatable product?
+
+Best response emphasis:
+
+- Show the before and after workflow
+- Explain that the Home Record is the product and AI is an interface
+- Demonstrate execution without listing features
+
+### Deirbhile Gorman
+
+Verified background:
+
+- Programme Manager at Dogpatch Labs
+- Previously managed the Founders Talent Accelerator
+- Official NDRC bio emphasises customer discovery, zero-to-one formation and finding complementary founders
+
+Likely probe:
+
+- Who is the economic buyer?
+- What customer discovery occurred outside Longview?
+- Why is the pain urgent?
+- How will Sam mitigate solo-founder risk?
+
+Best response emphasis:
+
+- Developer pays, homeowner uses
+- Affiliated deployment proves operational feasibility, not independent demand
+- Define the first independent paid pilot as the next six-week proof point
+- Acknowledge solo risk without pretending a cofounder is automatically required
+
+### Joe Gorman
+
+Verified background:
+
+- Programme Manager at Dogpatch Labs
+- Startup growth strategist
+- Experience in go-to-market, partnerships, government relations and media
+- Programme Manager of Early-Stage Supports
+
+Likely probe:
+
+- How will OpenHouse acquire developers beyond personal relationships?
+- Who signs and what is the sales cycle?
+- Is onboarding repeatable or consulting-heavy?
+- How does the Irish wedge lead to a larger market?
+
+Best response emphasis:
+
+- Focus on Irish residential developers approaching handover
+- Land one scheme, prove operational value, then expand across the developer's pipeline
+- Present €99 per home as a pricing hypothesis, not validated pricing
+- Keep housing bodies and broader partnerships as later channels
+
 ## The objective
 
 The panel should leave believing three things:
@@ -104,7 +172,19 @@ Best answer:
 
 > Handover is the commercial wedge because it is when the developer still owns the documents, installed-system context and homeowner relationship. The durable asset is the permissioned Home Record created at that point. That record can support aftercare, warranties, maintenance, upgrades and energy decisions throughout ownership. The wedge is narrow; the underlying asset and distribution model are much larger.
 
-### 3. Why are you the person to build this?
+### 3. Can this become a large company at €99 per home?
+
+Best answer:
+
+> The €99 price is an unvalidated entry point for the handover wedge. A one-off fee at that level is not, by itself, the whole venture case. The larger opportunity depends on the Home Record becoming persistent infrastructure, but first I need to prove that an independent developer will pay for the narrow use case.
+
+Do not:
+
+- Answer with a giant top-down housing number
+- Invent future revenue streams
+- Abandon the narrow wedge merely to sound larger
+
+### 4. Why are you the person to build this?
 
 Best answer:
 
