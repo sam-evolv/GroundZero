@@ -39,11 +39,11 @@ The initial commercial wedge is narrow and credible. The long-term opportunity i
 
 ## Best 50-character description
 
-**AI handover and aftercare for homebuilders**
+**Handover and aftercare for homebuilders**
 
-Character count: 42.
+Character count: 39.
 
-This is intentionally plain. It identifies the technology, workflow and buyer. Do not use "operating system for every home" as the first description. That is the eventual category, not the present product explanation.
+This is intentionally plain. It identifies the workflow and buyer. Do not use "operating system for every home" as the first description. That is the eventual category, not the present product explanation.
 
 ## Verified evidence ledger
 
@@ -108,7 +108,7 @@ Verified:
 - The four-scheme Longview deployment is internal operating proof, not an arm's-length external customer.
 - OpenHouse does not yet have a verified external paying developer customer in the records reviewed.
 - Carol Tallon has offered a warm introduction to Bridgewater Developments.
-- Bridgewater is an active prospect, not a customer or agreed pilot.
+- Bridgewater remains a potential prospect; the offered introduction has not yet happened.
 - A major Irish developer previously engaged with the category but did not adopt. Do not name or characterise this as validation unless Sam approves the exact wording.
 
 Sam must confirm before submission:
@@ -240,9 +240,9 @@ Use these principles:
 
 ### 1. Cognitive compression
 
-Give the partner a six-word mental handle:
+Give the partner a five-word mental handle:
 
-> AI handover and aftercare for homebuilders.
+> Handover and aftercare for homebuilders.
 
 ### 2. Concrete contrast
 
@@ -296,7 +296,7 @@ These drafts must be reconciled against the exact live form and its character li
 
 ### Describe what your company does in 50 characters or less
 
-> AI handover and aftercare for homebuilders
+> Handover and aftercare for homebuilders
 
 ### What is your company going to make? Describe your product and what it does or will do.
 
@@ -320,11 +320,11 @@ These drafts must be reconciled against the exact live form and its character li
 
 ### How far along are you?
 
-> The product is live at portal.openhouseai.ie and contains real operating data from four Longview Estates developments. Production currently holds 281 home records. 143 distinct homes have timestamped purchaser handover agreements and 85 homes are linked to homeowner accounts. I built the product largely solo with AI coding agents; the canonical repository has 2,307 commits on main and 182 merged pull requests. This is internal operating proof inside the residential developer where I work, not an independent customer, and OpenHouse has not yet verified external revenue. We have a warm route to Bridgewater Developments. The next milestone is a paid external scheme with agreed handover and aftercare outcomes.
+> The product is live at portal.openhouseai.ie and contains real operating data from four Longview Estates developments. Production currently holds 281 home records. 143 distinct homes have timestamped purchaser handover agreements and 85 homes are linked to homeowner accounts. I built the product largely solo with AI coding agents. This is internal operating proof inside the residential developer where I work, not an independent customer, and OpenHouse has not yet verified external revenue. A senior industry contact has offered to introduce me to Bridgewater Developments; that introduction has not yet happened. The next milestone is a paid external scheme with agreed handover and aftercare outcomes.
 
 ### How will you get users? If there is a chicken-and-egg problem, how will you solve it?
 
-> We sell to residential developers, so one customer provisions OpenHouse for an entire scheme of 50 to 300 homes. I have direct access to the Irish developer market through my property work and currently have a warm introduction to Bridgewater Developments. The first sale is a tightly scoped paid scheme launch: import the developer's existing house-type and handover information, provision the home records, onboard one homeowner cohort and report aftercare gaps. We then expand to additional schemes within the same developer. The UK route is mid-sized homebuilders facing New Homes Quality Code and warranty pressure; the US route is regional builders with established warranty teams. There is no consumer chicken-and-egg problem because the developer owns the initial data and distributes the product at handover.
+> We sell to residential developers, so one customer provisions OpenHouse for an entire scheme of 50 to 300 homes. I have direct access to the Irish developer market through my property work. A senior industry contact has offered to introduce me to Bridgewater Developments; the introduction has not yet happened. The first sale is a tightly scoped paid scheme launch: import the developer's existing house-type and handover information, provision the home records, onboard one homeowner cohort and report aftercare gaps. We then expand to additional schemes within the same developer. The UK route is mid-sized homebuilders facing New Homes Quality Code and warranty pressure; the US route is regional builders with established warranty teams. There is no consumer chicken-and-egg problem because the developer owns the initial data and distributes the product at handover.
 
 ## Additional application fields
 
