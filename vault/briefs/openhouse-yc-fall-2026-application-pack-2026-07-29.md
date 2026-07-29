@@ -113,16 +113,15 @@ Verified:
 
 Sam must confirm before submission:
 
-- Current revenue
-- Any amount paid or allocated by Longview
-- Any grants, investment or founder funding
-- Incorporation status and date
-- Exact legal company name
-- Ownership percentages
+- Whether any grants, loans, SAFEs, family money or other commitments exist beyond Sam's approximately €10,000 of founder funding
+- Exact incorporation date and company number, if the live form asks
 - Any employer IP, non-compete or data-use agreement relevant to OpenHouse
-- The exact month work on OpenHouse began
-- Whether Sam will leave his employment and work exclusively on OpenHouse if accepted
-- Intended company location after YC
+- Whether OpenHouse code was built during paid Longview time or on Longview equipment
+- Whether Longview permission for the current deployment and use of its property or homeowner data is written, verbal or merely implicit
+- Previous YC application status and current NDRC status
+- Cofounder-search position
+- Whether Cara, OpenBook or another idea was genuinely considered for this YC application
+- Whether San Francisco would be the company's intended post-YC base or only the batch location
 
 ## YC cohort research
 
@@ -303,7 +302,7 @@ The independent 100-point rubric scores the current draft at **85/100**:
 - Differentiation and obstacle awareness: 7/8
 - Integrity and factual calibration: 8/8
 
-This is strong enough for a late application once the founder facts are resolved. It is not submit-ready while commitment, legal entity, IP ownership, funding and form-specific factual fields remain unconfirmed. Any misleading answer in those fields would be an automatic failure regardless of the numerical score.
+This is strong enough for a late application once the remaining founder facts are resolved. Commitment, legal entity, ownership, revenue, founder funding and technical contributors are now confirmed. It is not submit-ready while IP and Longview permission, previous-programme status, cofounder intent and form-specific factual fields remain unconfirmed. Any misleading answer in those fields would be an automatic failure regardless of the numerical score.
 
 The largest remaining narrative gap is progress-to-time learning. The final answer should add one verified example of something Sam changed after observing real handover or homeowner use, if such an example can be stated accurately.
 
@@ -351,7 +350,7 @@ The current field structure below comes from a recent open-source YC application
 
 Draft:
 
-> I am the sole founder and am responsible for the product and technical work. I use Claude Code and other AI coding agents extensively to implement the software, then review, test and deploy the work. The production application is a TypeScript and Next.js monorepo with Supabase and Vercel. No human non-founder has written material product code [confirm this final sentence].
+> I am the sole founder and am responsible for the product and technical work. I use Claude Code and other AI coding agents extensively to implement the software, then review, test and deploy the work. The production application is a TypeScript and Next.js monorepo with Supabase and Vercel. No human non-founder has written product code.
 
 Do not describe an AI agent as a cofounder or employee. If any contractor, friend or employee wrote material code, identify them and explain the ownership terms.
 
@@ -375,7 +374,7 @@ Recommended only if true:
 
 Explanation:
 
-> Cork is where I learned the problem and built the first deployment inside a residential developer. After YC I would base OpenHouse in San Francisco to work directly with YC, recruit and enter the US homebuilder market, while continuing to serve Ireland and the UK.
+> I live in Cork, where I learned the problem and built the first deployment inside a residential developer. If accepted, I am fully committed to OpenHouse and open to relocating to San Francisco for YC and to build the US homebuilder market, while continuing to serve Ireland and the UK.
 
 If Sam intends to remain based in Cork, state that plainly and explain how the company will participate fully in the San Francisco batch.
 
@@ -421,7 +420,7 @@ The final sentence should be checked to avoid describing startup work as the sep
 
 ### How long have you worked on this?
 
-> I have worked on OpenHouse part-time alongside my full-time role in residential development since [confirm month and year].
+> I officially started OpenHouse at the end of February 2026 after developing it part-time for more than a year alongside my full-time role in residential development. I have not yet worked on it full-time.
 
 Add any full-time periods only if factually correct.
 
@@ -437,9 +436,7 @@ This cannot be treated as a wording choice. Sam must decide whether it is true.
 
 Current draft:
 
-> €0 external revenue. The live Longview deployment is internal operating proof, not an arm's-length paying customer.
-
-Sam must confirm that no internal payment, allocation or external revenue exists.
+> €0 revenue. The live Longview deployment is internal operating proof, not an arm's-length paying customer.
 
 ### Competitor list for form field
 
@@ -471,18 +468,11 @@ State any NDRC application or programme participation exactly. Applying to NDRC 
 
 ### Legal entity
 
-Current answer: unknown. Sam must provide:
-
-- Legal entity name
-- Country and date of incorporation
-- Company number
-- Shareholders and percentages
-
-If no entity exists, answer no. If one exists for another venture but not OpenHouse, disclose it only where the form asks about any founder entity or overlapping ownership.
+> OpenHouse Ai Limited is an Irish private limited company owned 100% by Sam Donworth. The exact incorporation date and company number should be copied from the CRO record if the live form asks for them.
 
 ### Investment
 
-Current answer: no verified outside investment. Sam must confirm any grants, SAFEs, loans, family money, founder capital or other commitments.
+> No outside investment. Sam has personally funded approximately €10,000 of company costs. Confirm whether any grants, loans, SAFEs, family money or other commitments exist if the form asks broadly about funding.
 
 ### Currently fundraising
 
@@ -506,13 +496,10 @@ Sam must give the literal first source if remembered. Safe draft:
 
 ### Legal and IP
 
-The application must truthfully explain:
+The application must still truthfully explain:
 
-- Whether OpenHouse is incorporated
-- Who owns the code and company
 - Whether code was written during paid employment or using employer equipment
 - Whether Longview has signed permission for data and product use
-- Whether any contractor or non-founder wrote material code
 - How AI-generated and open-source code is safely used
 
 This is a high-priority factual section, not something to smooth over.
@@ -588,7 +575,7 @@ The product and repository demonstrate unusually high building velocity. The str
 
 ### Will Sam actually leave his job?
 
-This needs an unambiguous truthful answer before submission.
+Confirmed: if accepted, Sam will leave his current role, work exclusively on OpenHouse and attend YC in San Francisco. He is fully open to relocating if needed.
 
 ### Is the product secure enough for developer and homeowner data?
 

@@ -18,7 +18,7 @@ Sam Donworth, sole founder.
 
 ### Who writes code or does other technical work? Was any of it done by a non-founder?
 
-> I am the sole founder and am responsible for the product and technical work. I use Claude Code and other AI coding agents extensively to implement the software, then review, test and deploy it. The production product is a TypeScript and Next.js monorepo using Supabase and Vercel. No human non-founder has written material product code. [CONFIRM final sentence]
+> I am the sole founder and am responsible for the product and technical work. I use Claude Code and other AI coding agents extensively to implement the software, then review, test and deploy it. The production product is a TypeScript and Next.js monorepo using Supabase and Vercel. No human non-founder has written product code.
 
 ### Are you looking for a cofounder?
 
@@ -34,7 +34,7 @@ Sam Donworth, sole founder.
 
 OpenHouse
 
-Legal name: `[CONFIRM OR STATE NOT INCORPORATED]`
+Legal name: OpenHouse Ai Limited, an Irish private limited company.
 
 ### Company URL
 
@@ -58,11 +58,11 @@ Verified length: 39 characters.
 
 ### Where do you live now, and where would the company be based after YC?
 
-> Cork, Ireland / San Francisco, United States [CONFIRM]
+> Cork, Ireland / San Francisco, United States
 
 ### Explain the location choice
 
-> Cork is where I learned the problem and built the first deployment inside a residential developer. After YC I would base OpenHouse in San Francisco to work directly with YC, recruit and enter the US homebuilder market, while continuing to serve Ireland and the UK. [CONFIRM]
+> I live in Cork, where I learned the problem and built the first deployment inside a residential developer. If accepted, I am fully committed to OpenHouse and open to relocating to San Francisco for YC and to build the US homebuilder market, while continuing to serve Ireland and the UK.
 
 ### Category
 
@@ -78,7 +78,7 @@ Secondary category: Real Estate and Construction / Proptech
 
 ### How long have you worked on this and how much full-time?
 
-> I started OpenHouse in September 2025 and have worked on it part-time alongside my full-time role in residential development. [CONFIRM month and that there was no full-time period]
+> I officially started OpenHouse at the end of February 2026 after developing it part-time for more than a year alongside my full-time role in residential development. I have not yet worked on it full-time.
 
 ### Tech stack
 
@@ -90,7 +90,7 @@ Secondary category: Real Estate and Construction / Proptech
 
 ### Do you have revenue?
 
-> No. We have €0 external revenue. The Longview deployment is internal operating proof, not an arm's-length paying customer. [CONFIRM no internal payment or other revenue]
+> No. OpenHouse has €0 revenue. The Longview deployment is internal operating proof, not an arm's-length paying customer.
 
 ### Previous YC application
 
@@ -130,23 +130,21 @@ Secondary category: Real Estate and Construction / Proptech
 
 ### Founder commitment
 
-> If accepted, I will leave my current role, work exclusively on OpenHouse and attend the Fall 2026 batch in San Francisco. [CONFIRM]
+> If accepted, I will leave my current role, work exclusively on OpenHouse and attend the Fall 2026 batch in San Francisco. I am fully open to relocating to San Francisco if needed.
 
 ## Equity and legal
 
 ### Have you formed a legal entity?
 
-`[ADD LEGAL ENTITY ANSWER]`
+> Yes. OpenHouse Ai Limited is an Irish private limited company.
 
 ### Equity breakdown
 
-`[ADD OWNERSHIP PERCENTAGES]`
-
-Expected if accurate: Sam Donworth, 100%.
+> Sam Donworth: 100%.
 
 ### Have you taken investment?
 
-> No outside investment. [CONFIRM and disclose grants, loans, SAFEs or other commitments]
+> No outside investment. I have personally funded approximately €10,000 of company costs.
 
 ### Are you currently fundraising?
 

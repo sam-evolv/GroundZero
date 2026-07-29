@@ -86,6 +86,11 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - Broad paid DTC must meet the [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]: a credible home-specific result from minimal compulsory input, with further evidence requested progressively only when its benefit is clear.
 
 ## Key facts
+- Legal entity: OpenHouse Ai Limited, an Irish private limited company owned 100% by Sam Donworth.
+- Sam officially started the company at the end of February 2026 after more than a year of part-time development.
+- Revenue is €0 as of 2026-07-29. Sam has self-funded approximately €10,000 and reports no outside investment.
+- Sam is the sole founder and no human non-founder has written product code. AI coding agents are used extensively under Sam's product and technical responsibility.
+- If accepted by YC, Sam is fully committed to OpenHouse, will leave his current role, work exclusively on the company and is open to relocating to San Francisco if needed.
 - GitHub: org `sam-evolv`, repo `sam-evolv/property-assistant`, workspace `apps/unified-portal`
 - Supabase project: `mddxbilpjukwskeefakz`
 - Vercel project: `prj_okAOLGbRgbTKEvbl1RgD4UsRdZX2`
