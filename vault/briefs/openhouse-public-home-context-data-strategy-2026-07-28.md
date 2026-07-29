@@ -898,3 +898,13 @@ Specifically:
 7. Measure whether the recovered planning record creates the voluntary second upload and changed-decision signal.
 
 If the reveal consistently produces `How did you find that?` and materially improves the Home Record, automate the discovery layer next.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]]
+- [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]
+- [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
+- [[companies/openhouse-ai]]
+- [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]
+- [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]
+

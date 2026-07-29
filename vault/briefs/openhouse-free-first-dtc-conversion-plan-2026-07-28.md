@@ -139,6 +139,12 @@ Measure:
 
 The membership proposition is not validated by trial sign-up alone. It is validated when homeowners return, add evidence voluntarily and say that losing the accumulated record, reminders and decision support would be a real loss.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
+- [[briefs/openhouse-ndrc-pre-accelerator-rehearsal-2026-07-28]]
+
 ## Guardrails
 
 - Never imply that candidate public context is confirmed as-built fact.

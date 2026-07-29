@@ -87,10 +87,17 @@ After this proof, continue the existing sequence with the Longview developer bas
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-market-readiness-audit]]
+- [[briefs/openhouse-a-rated-homeowner-policy-thesis-2026-07-28]]
+- [[briefs/openhouse-a-rated-homeowner-primary-integration-2026-07-28]]
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]]
+- [[briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28]]
+- [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
+- [[briefs/openhouse-show-house-evidence-capture-2026-07-28]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
+- [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]
 - [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
+- [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]
 - [[project_state/oh]]
 

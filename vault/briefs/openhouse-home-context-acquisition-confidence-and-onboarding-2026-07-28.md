@@ -943,3 +943,16 @@ The assistant becomes confident by narrowing the claim to the evidence, not by p
 - [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
 - [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]
+
+- [[imports/campaigns/openhouse-full-context]] — shared signals: openhouse, full
+- [[imports/chatgpt/openhouse-dtc-voice-stress-test-2026-07-27]] — shared signals: openhouse, chatgpt, stress
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]]
+- [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]
+- [[briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28]]
+- [[companies/openhouse-ai]]
+- [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]
+- [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]
+

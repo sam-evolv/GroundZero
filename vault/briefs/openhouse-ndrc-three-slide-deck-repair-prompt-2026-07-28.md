@@ -128,4 +128,5 @@ Make only these targeted repairs. Do not broaden the story or add more content.
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-ndrc-deck-final-visual-repair-prompt-2026-07-28]]
+- [[briefs/openhouse-ndrc-pre-accelerator-three-slide-fable-prompt-2026-07-28]]
 

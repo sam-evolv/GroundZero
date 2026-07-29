@@ -210,6 +210,7 @@ OpenHouse teaches people how to live in better homes, and gives developers the c
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-28]]
+- [[briefs/openhouse-a-rated-homeowner-policy-thesis-2026-07-28]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-energy-investor-deck-draft-v0]]
 - [[briefs/openhouse-energy-investor-deck-outline]]

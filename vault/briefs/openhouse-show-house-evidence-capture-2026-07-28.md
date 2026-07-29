@@ -298,3 +298,8 @@ The first processing pass will create an evidence manifest before producing guid
 - [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
 - [[project_state/oh]]
 - [[companies/openhouse-ai]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
+

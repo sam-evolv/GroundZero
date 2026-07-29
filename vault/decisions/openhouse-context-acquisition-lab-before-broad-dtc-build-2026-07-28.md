@@ -74,3 +74,13 @@ Only repeated, high-value, low-friction acquisition routes should be productised
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
 - [[project_state/oh]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]]
+- [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]
+- [[briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28]]
+- [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
+- [[companies/openhouse-ai]]
+- [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]
+

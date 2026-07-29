@@ -276,6 +276,7 @@ Risk:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
+- [[briefs/wiki-refiner-2026-07-28]]
 - [[companies/openhouse-ai]]
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
 - [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]

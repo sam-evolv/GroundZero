@@ -348,3 +348,9 @@ The structured walkthrough is now ingested. The next evidence should be the targ
 5. unresolved evidence request;
 6. one useful next action;
 7. explicit escalation boundary.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]]
+- [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
+

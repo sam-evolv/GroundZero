@@ -273,3 +273,8 @@ This brief sharpens, rather than replaces:
 - [[project_state/oh]]
 
 No shared canonical note was modified during this task.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-a-rated-homeowner-primary-integration-2026-07-28]]
+

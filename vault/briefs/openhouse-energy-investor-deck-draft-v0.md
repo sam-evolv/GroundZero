@@ -526,5 +526,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-21]]
 - [[briefs/wiki-refiner-2026-07-22]]
 - [[briefs/wiki-refiner-2026-07-23]]
+- [[briefs/wiki-refiner-2026-07-28]]
 - [[context/openhouse-sales-routes]]
 

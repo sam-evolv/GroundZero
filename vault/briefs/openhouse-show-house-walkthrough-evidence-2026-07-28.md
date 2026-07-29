@@ -334,3 +334,10 @@ A further broad walkthrough is unnecessary. The next evidence should be a short 
 ## Safest useful next action
 
 Complete the label-and-controls pass without opening covers or changing settings. Once those stills are ingested, OpenHouse can convert the candidate equipment records into an installed Home Record and answer home-specific operating questions with evidence-linked confidence levels.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]]
+- [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
+- [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]
+

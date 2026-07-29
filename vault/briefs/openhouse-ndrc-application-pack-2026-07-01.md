@@ -159,6 +159,7 @@ Do not submit if:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[briefs/openhouse-ndrc-pre-accelerator-rehearsal-2026-07-28]]
 - [[briefs/openhouse-ndrc-submission-sprint-2026-07-01]]
 - [[companies/openhouse-ai]]
 - [[project_state/oh]]

@@ -234,3 +234,9 @@ Before finishing, inspect the actual presentation rather than only the source ca
 
 Do the simplest thing that makes the existing deck feel significantly more premium. Improve hierarchy, materiality and product framing before adding anything. Build and finish the polished artifact now.
 ```
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-ndrc-deck-final-visual-repair-prompt-2026-07-28]]
+- [[briefs/openhouse-ndrc-slide-2-capability-breadth-prompt-2026-07-28]]
+

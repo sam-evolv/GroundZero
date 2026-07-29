@@ -215,3 +215,9 @@ The full source collection and original Leo artifact remain at:
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[project_state/oh]]
 - [[companies/openhouse-ai]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
+- [[briefs/openhouse-show-house-evidence-capture-2026-07-28]]
+

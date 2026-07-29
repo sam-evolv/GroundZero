@@ -260,6 +260,14 @@ Evidence:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/cara]]
+- [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
+- [[context/founder-execution-os]]
 - [[context/ops-automation-moc]]
+- [[items/cara-founder-voice-dogfood]]
+- [[items/oh-proof-asset-engine]]
+- [[items/ops-project-state-reconciler]]
+- [[project_state/cara]]
+- [[project_state/oh]]
 

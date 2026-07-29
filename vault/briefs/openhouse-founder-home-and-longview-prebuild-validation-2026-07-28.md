@@ -17,6 +17,12 @@ This protocol tests three distinct risks:
 2. whether a new-build home can be pre-provisioned and connected without homeowner labour;
 3. whether the product still works for an older, data-poor home whose owner did not help design OpenHouse.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28]]
+- [[companies/openhouse-ai]]
+
 ## Recommendation
 
 Do not start with a broad consumer application or large connector catalogue.

@@ -125,4 +125,5 @@ Make only these corrections. Do not introduce new decorative elements, extra log
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-ndrc-final-premium-polish-prompt-2026-07-28]]
+- [[briefs/openhouse-ndrc-three-slide-deck-repair-prompt-2026-07-28]]
 

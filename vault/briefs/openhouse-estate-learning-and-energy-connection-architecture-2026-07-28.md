@@ -898,3 +898,10 @@ The supplied evidence does not support treating AquaBox as a cloud energy source
 - [[briefs/openhouse-show-house-walkthrough-evidence-2026-07-28]]
 - [[briefs/openhouse-show-house-manual-evidence-register-2026-07-28]]
 - [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]
+- [[companies/openhouse-ai]]
+- [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]
+

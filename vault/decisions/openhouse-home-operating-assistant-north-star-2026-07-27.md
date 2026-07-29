@@ -60,8 +60,13 @@ This is a future architecture requirement, not a current integration claim.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-a-rated-homeowner-policy-thesis-2026-07-28]]
+- [[briefs/openhouse-a-rated-homeowner-primary-integration-2026-07-28]]
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]]
+- [[briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28]]
+- [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
+- [[briefs/openhouse-show-house-evidence-capture-2026-07-28]]
 - [[companies/openhouse-ai]]
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
 - [[project_state/oh]]

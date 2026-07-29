@@ -386,3 +386,12 @@ The DTC activation model has failed if it repeatedly requires:
 - [[briefs/openhouse-public-home-context-data-strategy-2026-07-28]]
 - [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]
+- [[briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28]]
+- [[companies/openhouse-ai]]
+- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
+- [[project_state/oh]]
+
