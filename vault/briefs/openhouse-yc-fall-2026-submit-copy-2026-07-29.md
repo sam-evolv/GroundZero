@@ -112,7 +112,7 @@ Secondary category: Real Estate and Construction / Proptech
 
 ### How do or will you make money? How much could you make?
 
-> Developers will pay a scheme setup/platform fee plus a per-home provisioning fee. Our current starting hypothesis is €99 per home, with recurring fees for active aftercare, portfolio analytics and later warranty, maintenance and energy workflows. A developer delivering 500 homes per year represents €49,500 in per-home revenue before recurring software. At one million homes provisioned annually, the per-home fee alone is €99 million in annual revenue. We have not yet validated this pricing with an independent paying customer.
+> Developers will pay a scheme setup/platform fee plus a per-home provisioning fee. Our current starting hypothesis is €99 per home, with recurring fees for active aftercare, portfolio analytics and later warranty, maintenance and energy workflows. A developer delivering 500 homes per year represents €49,500 in per-home revenue before setup or recurring software. Reaching approximately €100 million at that price would require about 2,000 such developer customers, or fewer if recurring workflow revenue increases annual contract value. We have not yet validated this pricing with an independent paying customer.
 
 ### How will you get users?
 

@@ -290,6 +290,23 @@ Do not write "OpenHouse will be the operating system for every home" as a naked 
 2. Homeowners and aftercare workflows keep the record alive.
 3. The record becomes the context layer for warranties, maintenance and home performance.
 
+## Provisional YC narrative score
+
+The independent 100-point rubric scores the current draft at **85/100**:
+
+- Immediate comprehension: 15/15
+- Pain and user specificity: 11/12
+- Founder insight and right to win: 14/15
+- Progress, learning and speed: 11/18
+- Wedge and distribution: 11/12
+- Venture-scale path: 8/12
+- Differentiation and obstacle awareness: 7/8
+- Integrity and factual calibration: 8/8
+
+This is strong enough for a late application once the founder facts are resolved. It is not submit-ready while commitment, legal entity, IP ownership, funding and form-specific factual fields remain unconfirmed. Any misleading answer in those fields would be an automatic failure regardless of the numerical score.
+
+The largest remaining narrative gap is progress-to-time learning. The final answer should add one verified example of something Sam changed after observing real handover or homeowner use, if such an example can be stated accurately.
+
 ## Draft core application answers
 
 These drafts must be reconciled against the exact live form and its character limits before submission.
@@ -316,7 +333,7 @@ These drafts must be reconciled against the exact live form and its character li
 
 ### How do or will you make money? How much could you make?
 
-> Residential developers will pay a scheme implementation fee, a per-home provisioning fee and recurring software fees while homes remain in active aftercare. Our current starting hypothesis is €99 per home, with recurring fees for developer workflow and portfolio intelligence. We have not yet validated this price with an external paying customer. A single developer scheme can add 50 to 300 homes without acquiring homeowners individually. At one million homes provisioned annually, the per-home fee alone would be €99 million in annual revenue, before recurring aftercare, warranty and home-performance products. The UK and US are the most relevant expansion markets because new-home quality, warranty and post-completion support already have established budgets and regulatory pressure.
+> Residential developers will pay a scheme implementation fee, a per-home provisioning fee and recurring software fees while homes remain in active aftercare. Our current starting hypothesis is €99 per home, with recurring fees for developer workflow and portfolio intelligence. We have not yet validated this price with an external paying customer. A developer delivering 500 homes per year represents €49,500 in per-home revenue before setup or recurring software. Reaching approximately €100 million at that price would require about 2,000 such developer customers, or fewer if recurring workflow revenue increases annual contract value. The UK and US are the most relevant expansion markets because new-home quality, warranty and post-completion support already have established budgets and regulatory pressure.
 
 ### How far along are you?
 
