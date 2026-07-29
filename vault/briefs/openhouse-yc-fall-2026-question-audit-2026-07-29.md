@@ -140,9 +140,9 @@ Every answer should reinforce one sequence:
 
 ### Incubator, accelerator or pre-accelerator participation
 
-**Current blocker:** The NDRC interview was scheduled for 29 July 2026. Its outcome is not recorded in the verified pack.
+**Confirmed status:** Sam completed the NDRC pre-accelerator interview on 29 July 2026. Their decision is pending. There is no offer, funding, equity request or commitment.
 
-**Action:** Replace the conditional wording with the actual outcome immediately before submission. Do not imply acceptance, funding or commitment without confirmation.
+**Decision:** State only that the interview was completed and the decision is pending. Recheck immediately before submission. Do not imply acceptance, funding or commitment without confirmation.
 
 ### Why did you pick this idea? Do you have domain expertise? How do you know people need it?
 
@@ -275,7 +275,7 @@ Every answer should reinforce one sequence:
 ## Remaining blockers before approval
 
 1. Inspect the authenticated Fall 2026 form and reconcile every exact prompt, conditional field, dropdown and limit.
-2. Confirm the NDRC interview outcome.
+2. Recheck whether NDRC has issued a decision; current verified status is interview completed, decision pending.
 3. Confirm whether to retain the honest “post-batch base undecided” answer or make a firm Cork or San Francisco commitment.
 4. Record and verify the founder video.
 5. Record and verify a safe product demo.

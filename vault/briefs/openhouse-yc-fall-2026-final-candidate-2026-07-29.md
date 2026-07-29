@@ -100,7 +100,7 @@ Secondary category: Real Estate and Construction / Proptech.
 
 ### Have you participated in an incubator, accelerator or pre-accelerator?
 
-> I applied to NDRC's pre-accelerator in Ireland and had an interview scheduled for 29 July 2026. NDRC has not offered funding, requested equity or created any commitment. Confirm the interview outcome before submission.
+> I applied to NDRC's pre-accelerator in Ireland and completed the interview on 29 July 2026. Their decision is pending. NDRC has not offered funding, requested equity or created any commitment.
 
 ## Idea
 
@@ -179,7 +179,7 @@ Target: approximately one minute, one natural take.
 ## Final live-form and asset gate
 
 - Inspect the authenticated Fall 2026 form and match every visible prompt, dropdown and limit.
-- Replace the NDRC wording with the confirmed interview outcome.
+- Confirm the NDRC status remains “interview completed; decision pending” immediately before submission.
 - Add the founder video URL and verify it while logged out.
 - Add a safe product-demo video or logged-out route and verify it while logged out.
 - Confirm revenue is `€0` and outside investment is `€0` in both free-text and numeric fields.

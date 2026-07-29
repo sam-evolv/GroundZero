@@ -179,6 +179,7 @@
   },
   "active": "eb5fc23b93b01bd0",
   "lastOpenFiles": [
+    "repos/property-assistant/apps/unified-portal/scripts/smoke/my-home-sparse-render.smoke.tsx",
     "repos/property-assistant/apps/unified-portal/lib/my-home/presentation.ts",
     "repos/property-assistant/apps/unified-portal/lib/my-home",
     "repos/property-assistant/apps/unified-portal/scripts/smoke/my-home-presentation.smoke.ts",
@@ -199,7 +200,6 @@
     "repos/property-assistant/node_modules/framer-motion/dist/client.d.ts",
     "repos/property-assistant/node_modules/framer-motion/dist/es/value/use-follow-value.mjs",
     "repos/property-assistant/node_modules/framer-motion/dist/es/utils/transform-viewbox-point.mjs",
-    "repos/property-assistant/node_modules/framer-motion/dist/es/utils/transform-rotated-parent.mjs",
     "repos/property-assistant/node_modules/gauge/README.md",
     "repos/property-assistant/node_modules/gauge/CHANGELOG.md",
     "repos/property-assistant/node_modules/has-unicode/README.md",

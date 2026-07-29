@@ -93,6 +93,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - If accepted by YC, Sam is fully committed to OpenHouse, will leave his current role, work exclusively on the company and is open to relocating to San Francisco if needed.
 - Sam is not actively looking for a cofounder but would consider an exceptional person with proven execution, strong alignment and a relevant network.
 - OpenHouse is Sam's first and only company considered for a YC application.
+- Sam completed the NDRC pre-accelerator interview on 29 July 2026; the formal decision is pending, with no offer, funding, equity request or commitment.
 - OpenHouse was built primarily on Sam's personal time using his own equipment, accounts and money. Limited work occurred during Longview hours because it was used in the live workflow, but it was not an assigned Longview duty. Sam reports no employment IP or invention-assignment clause and no third-party promise of OpenHouse IP, equity or future rights.
 - Sam personally controls the code and product assets. They have not yet been formally assigned to OpenHouse Ai Limited; the assignment should be completed before outside investment.
 - Sam initiated the internal Longview deployment within his operating remit as one of three people running the developer. The other principals knew of it and fully backed it. No separate written commercial, DPA, licence or IP agreement exists between Longview and OpenHouse.

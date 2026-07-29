@@ -100,7 +100,7 @@ Secondary category: Real Estate and Construction / Proptech
 
 ### Other accelerator or pre-accelerator participation
 
-> I applied to NDRC's pre-accelerator in Ireland and have an interview on 29 July 2026. NDRC has not offered funding, requested equity or created any commitment.
+> I applied to NDRC's pre-accelerator in Ireland and completed the interview on 29 July 2026. Their decision is pending. NDRC has not offered funding, requested equity or created any commitment.
 
 ## Idea
 
