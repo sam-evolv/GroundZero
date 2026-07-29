@@ -2,148 +2,187 @@
 title: OpenHouse YC showhouse product-demo recording run sheet
 date: 2026-07-29
 company_id: openhouse-ai
-status: ready-for-founder-recording
+status: ready-pending-founder-visual-approval
 ---
 
 # OpenHouse YC showhouse product-demo recording run sheet
 
 ## Decision
 
-Use 8 Longview Park, the Longview showhouse and Sam's preserved homeowner test record.
+Use the private Longview showhouse preview as the primary recording surface:
 
-This is stronger than the sparse synthetic tenant because it is a real, fully populated test home. Repository and production checks confirm that it is intentionally maintained as the showhouse rather than an ordinary purchaser record.
+`https://property-assistant-pvha8e36n-openhouseais-projects.vercel.app`
 
-Do not give YC Sam's normal login or administrator credentials. Use the narrated walkthrough as the primary demo. Add an interactive login only after creating and verifying a restricted YC-specific account.
+Use the permissioned 8 Longview Park showhouse test record behind that preview. Do not display or distribute its authenticated route, token, purchaser identifiers, billing identifiers or reusable credentials.
 
-## Verified showhouse state
+The preview contains the latest My Home implementation. No production code deployment occurred. A production-configured fixture data write was used earlier to attach the evidence-backed showhouse model and must not be described as “production was untouched.”
 
-As checked on 2026-07-29:
+## Why this is the strongest demo
 
-- Address: 8 Longview Park.
-- Display name: Sam Donworth.
-- House type: BS01.
-- Modern Property Assistant interface is reachable.
-- 59 home-scoped documents are visible.
-- Document categories include five floorplans, fifteen handover documents, two warranty documents, three specification documents and five fire-safety documents.
-- The document library includes the Longview home-user guide and Daikin Altherma material.
-- The assistant correctly answers that the home uses a Daikin Altherma air-source heat pump, underfloor heating on the ground floor, radiators upstairs and a Daikin controller.
-- The assistant does not reliably connect that answer to the exact Daikin document title. Do not claim document-level citation retrieval.
-- Three existing homeowner-originated showhouse test issues each have one image and are classified as medium-severity plumbing issues.
-- No structured My Home or energy-system record is currently attached to the showhouse.
+The route now shows one coherent OpenHouse workflow rather than a generic dashboard:
 
-## Product claim discipline
+1. A developer-sourced record exists for an individual home.
+2. The homeowner sees verified systems, historical evidence and missing evidence.
+3. Each system separates what is known, unknown and useful to do next.
+4. The homeowner can open the real document library or ask a property-specific question.
+5. A problem can return to aftercare with the correct home and evidence context.
 
-Show only functionality that works today.
+This directly supports the YC application wedge: handover and aftercare for homebuilders.
 
-Do not present a future My Home or energy dashboard as current unless it is genuinely connected, tested and visible before recording.
+## Verified showhouse and preview state
+
+As checked on 29 July 2026:
+
+- The Longview showhouse test record is fully populated.
+- The latest My Home preview passed authenticated phone and desktop audits.
+- Heating, Solar PV and Water are interactive system controls.
+- The selected-system inspector shows Known, Unknown and Do next.
+- The Documents action opens the real Documents tab.
+- Ask about this system opens the assistant with a property-specific question prefilled but not automatically sent.
+- Historical supplier evidence is structurally separate from simulated model values.
+- Historical supplier bills cover 185 days, 1,703 kWh imported, 385 kWh exported and €653.95 billed.
+- Solar evidence is historical only. No live Solar telemetry is claimed.
+- The document library contains 59 scoped documents, including floorplans, handover documents, warranty documents and specifications.
+- Existing showhouse test issues contain synthetic or controlled issue evidence for aftercare demonstration.
+
+## Claim discipline
 
 Do not claim:
 
-- 281 users, customers or completed handovers
-- an independent Longview customer relationship
-- that the assistant diagnoses defects
-- that every answer is sourced to a named document
-- that the three test issues are homeowner traction
+- 281 users, customers, occupied homes or completed handovers
+- Longview is an independent paying customer
+- live energy metering or live Solar generation
+- supplier integration
+- automated optimisation or diagnosis
+- measured savings
+- the assistant replaces a builder, engineer or surveyor
+- every answer cites an exact document title
+- the showhouse test issues are external homeowner traction
 
-## Recommended final demo
+Do not expose:
 
-Target 60 to 80 seconds. Record the screen with Sam narrating naturally. No music, title sequence or login footage.
+- purchaser names other than the controlled showhouse identity
+- email addresses or phone numbers
+- account, meter, billing, payment, barcode or serial identifiers
+- browser address bars containing authenticated routes or tokens
+- another home's documents or aftercare records
 
-### 0 to 8 seconds: establish the real home
+## Final 70-second demo
 
-Visual:
+Record the screen only. Narrate naturally. Remove loading waits without altering product results. No title sequence, slides or music.
 
-- Open the showhouse record.
-- Show the Longview branding and the Property Assistant.
+### 0 to 8 seconds: establish the home record
 
-Narration:
+**Visual**
 
-> This is OpenHouse running on our Longview showhouse. It is a real test home with the same documents and systems a homeowner receives at handover.
+- Begin on the My Home first screen.
+- Show the Longview identity and Useful now summary briefly.
 
-### 8 to 28 seconds: property-specific answer
+**Narration**
 
-Visual:
+> This is OpenHouse running on our permissioned Longview showhouse test record. The developer has provisioned the information for this specific home instead of handing the buyer a static folder.
 
-- Ask: `What heating system is installed in my home? Answer only from my home record and say if the record does not know.`
-- Cut out the response wait.
-- Hold on the answer long enough to read it.
+### 8 to 25 seconds: show system evidence
 
-Narration:
+**Visual**
 
-> A homeowner can ask a question against the record of this specific home. OpenHouse knows that this house uses a Daikin Altherma air-source heat pump, underfloor heating downstairs, radiators upstairs and a Daikin controller.
+- Scroll to the Home Record navigator.
+- Select Solar PV.
+- Hold on Known, Unknown and Do next.
 
-### 28 to 45 seconds: handover record
+**Narration**
 
-Visual:
+> The homeowner can see what is recorded about each system, what remains unverified and the next useful action. Here the bills prove historical export, while current generation and inverter details remain explicitly unknown.
 
-- Open Docs.
-- Show the 59-document count.
-- Select Handover.
-- Select Floorplans.
-- Do not open a potentially confidential file unless already reviewed.
+### 25 to 36 seconds: open the real document workflow
 
-Narration:
+**Visual**
 
-> The same home has 59 scoped documents, including handover information, floorplans, warranties, specifications, fire-safety material and its home-user guide.
+- Press Documents from the selected system.
+- Show the search and category interface.
+- Briefly show the home-scoped document library without opening a sensitive file.
 
-### 45 to 65 seconds: aftercare proof
+**Narration**
 
-Visual:
+> The same home record connects directly to its handover documents, manuals, warranties, floorplans and specifications.
 
-- Open the developer aftercare view while authenticated as Sam.
-- Select one existing showhouse test issue.
-- Show the attached test image, category and status.
-- Do not show another purchaser's name or issue.
+### 36 to 54 seconds: ask a property-specific question
 
-Narration:
+**Visual**
 
-> After handover, an issue arrives with the correct home, photograph and system context instead of becoming an unstructured email or phone call.
+- Return to My Home.
+- Select Heating.
+- Press Ask about this system.
+- Show the prepared question, send it and cut the response wait.
+- Hold on the grounded answer.
 
-### 65 to 75 seconds: close the loop
+**Question**
 
-Visual:
+`Explain how the heating system in my home works and what I can safely adjust.`
 
-- Return to the showhouse record or developer queue.
+**Narration**
 
-Narration:
+> A homeowner can ask against the record of this exact property. OpenHouse uses the installed-system and handover context rather than giving a generic answer.
 
-> OpenHouse gives homebuilders one place to hand over each home, answer homeowner questions and manage aftercare.
+**Gate**
 
-## Current visual draft
+Do not record this segment until the returned answer has been checked for factual accuracy, safe wording and source behaviour on the exact preview route.
 
-A silent proof cut has been generated and saved durably:
+### 54 to 65 seconds: close the aftercare loop
 
-- `/Users/samdonworth/GroundZero/vault/assets/yc/openhouse-yc-showhouse-demo-visual-cut-2026-07-29.mp4`
-- Duration: 34.44 seconds.
-- Resolution: 1440 by 900.
-- Codec: H.264.
-- SHA-256: `091b4afe626289e0570ccfdcdad59ed2e0fdfc45d362ae3465a47fca31c202c3`.
+**Visual**
 
-It demonstrates the assistant answer and document library. It is not the final narrated submission asset because it does not yet include the developer aftercare view or Sam's voice.
+- Show Get help on the selected system.
+- Then cut to one pre-reviewed showhouse test issue in the developer aftercare view.
+- Show only the controlled image, home context and status.
 
-## Interactive access policy
+**Narration**
 
-If the YC form accepts product credentials, create a separate least-privilege account that:
+> If the homeowner needs help, the question or photograph returns to aftercare with the correct home and system context instead of becoming another unstructured email.
 
-- can see only the showhouse
-- cannot access the developer dashboard or other purchasers
-- cannot alter production records beyond harmless showhouse test actions
-- requires no OTP or email verification
-- contains no reusable administrator or service credentials
+### 65 to 70 seconds: close
 
-Verify the login in a private browser window before submission.
+**Visual**
 
-The product walkthrough must remain understandable even if YC never uses the interactive login.
+- Return to the showhouse Home Record navigator.
 
-## Final QA before upload
+**Narration**
 
-- No email address, phone number or access token is visible.
-- No other purchaser name or address is visible.
-- No browser address bar containing the direct unit token is visible.
-- The assistant answer matches the showhouse record.
-- Loading time has been removed rather than misrepresented.
-- The narration says this is the Longview showhouse and an internal deployment.
-- Audio is clear.
-- Text is readable on a laptop.
-- Video is under the authenticated form's stated duration limit.
-- Uploaded link works in a private browser window.
+> OpenHouse gives homebuilders one system to hand over each home and manage what happens next.
+
+## Recording preparation
+
+- Use a fresh browser profile or prepared recording window.
+- Hide bookmarks, personal tabs, notifications and password-manager UI.
+- Crop the address bar from the recording.
+- Set the viewport so text is readable at normal laptop playback size.
+- Preload My Home, Documents, Assistant and the controlled developer aftercare view.
+- Rehearse every click once without recording.
+- Verify the assistant answer immediately before the final take.
+- Use the current private preview, not an older Vercel host.
+
+## Existing silent proof cut
+
+The earlier silent cut remains at:
+
+`/Users/samdonworth/GroundZero/vault/assets/yc/openhouse-yc-showhouse-demo-visual-cut-2026-07-29.mp4`
+
+It is approximately 34 seconds and does not contain the current My Home actionability pass or narration. It is not the final submission asset.
+
+## Final upload gate
+
+- Target approximately 60 to 75 seconds unless the authenticated form states another limit.
+- No private information is readable at any frame.
+- Every shown interaction works on the exact preview.
+- No unsupported product or traction claim appears in narration.
+- Audio is clear and text is readable.
+- Upload as an unlisted video.
+- Verify the link while logged out.
+- Add the verified URL to [[openhouse-yc-fall-2026-final-candidate-2026-07-29]].
+
+## Connected vault notes
+
+- [[openhouse-yc-fall-2026-final-candidate-2026-07-29]]
+- [[openhouse-yc-fall-2026-question-audit-2026-07-29]]
+- [[openhouse-yc-founder-video-recording-card-2026-07-29]]
+- [[openhouse-yc-fall-2026-interview-evidence-pack-2026-07-29]]

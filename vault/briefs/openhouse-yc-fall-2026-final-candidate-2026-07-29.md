@@ -56,7 +56,7 @@ Do not use an authenticated portal URL that YC cannot open. Prefer the narrated 
 
 ### What is your company going to make? Describe your product and what it does or will do.
 
-> OpenHouse is handover and aftercare software for residential developers. The developer uploads approved information about each home, including its specification, systems, documents, warranties and homeowner guidance. The buyer receives a living record of that specific property, can ask source-backed questions and can report a problem with photos and context. The developer sees missing evidence, repeated questions and aftercare issues tied to the correct home instead of reconstructing context from PDFs, email and staff memory. Handover is the wedge because the developer still has the information and can provision every buyer. The record can later support warranties, maintenance and home-performance services.
+> OpenHouse is handover and aftercare software for residential developers. The developer uploads approved information about each home, including its specification, systems, documents, warranties and homeowner guidance. The buyer receives a living record of that specific property, can ask questions based on the home record and can report a problem with photos and context. The developer sees missing evidence, repeated questions and aftercare issues tied to the correct home instead of reconstructing context from PDFs, email and staff memory. Handover is the wedge because the developer still has the information and can provision every buyer. The record can later support warranties, maintenance and home-performance services.
 
 ### Where do you live now, and where would the company be based after YC?
 
@@ -192,6 +192,8 @@ Target: approximately one minute, one natural take.
 ## Connected vault notes
 
 - [[openhouse-yc-fall-2026-question-audit-2026-07-29]]
+- [[openhouse-yc-founder-video-recording-card-2026-07-29]]
+- [[openhouse-yc-showhouse-product-demo-run-sheet-2026-07-29]]
 - [[openhouse-yc-fall-2026-application-pack-2026-07-29]]
 - [[openhouse-yc-fall-2026-submit-copy-2026-07-29]]
 - [[openhouse-yc-fall-2026-interview-evidence-pack-2026-07-29]]

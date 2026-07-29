@@ -476,7 +476,7 @@ Target: one unedited 60-second video, Sam looking at the camera, no deck or cine
 
 ### Script
 
-> Hi, I'm Sam Donworth, the sole founder of OpenHouse. I'm one of three people running Longview Estates, where we have taken a residential development from greenfield to more than 200 completed homes. Working across handover and aftercare, I saw developers create the richest record a home will ever have, then reduce it to PDFs, emails and repeated support questions. I built OpenHouse to change that. It gives homebuilders one system to hand over homes, answer homeowner questions from property-specific information and manage aftercare. It is live internally across four developments with 281 home records. I built it during evenings and weekends using AI coding agents. If accepted, I will leave my role, work exclusively on OpenHouse and move to San Francisco if needed.
+> Hi, I'm Sam Donworth, the sole founder of OpenHouse. I am one of three people running Longview Estates, where we have taken a residential development from greenfield to more than 200 completed homes. I saw developers create the richest record a home will ever have, then reduce it at handover to PDFs, email and repeated support questions. I built OpenHouse to keep that record alive. It gives homebuilders one system for handover and aftercare, and gives each homeowner answers based on their specific property. It has 281 home records as of 2026-07-29. I built it during evenings and weekends using AI coding agents. If accepted, I will leave my role and work exclusively on OpenHouse.
 
 Speak naturally. Do not memorise every word. The important beats are founder, lived problem, concrete product, verified progress and ambition.
 

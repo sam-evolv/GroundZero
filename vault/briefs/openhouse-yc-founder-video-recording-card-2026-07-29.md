@@ -42,14 +42,14 @@ Keep only these beside the phone:
 - Sam Donworth, sole founder of OpenHouse.
 - One of three people running Longview Estates; more than 200 homes delivered in a 750-plus-home development.
 - Saw developers create the richest information a home will have, then lose it in PDFs, email and staff memory.
-- Built OpenHouse for handover, property-specific homeowner questions and aftercare; live internally across four developments with 281 home records.
+- Built OpenHouse for handover, property-specific homeowner questions and aftercare; live internally across four developments, with the home-record count dated 29 July 2026.
 - Built it myself on evenings and weekends; YC means leaving Longview and working exclusively on OpenHouse.
 
 ## Natural reference version
 
 Do not read this word for word:
 
-> Hi, I'm Sam Donworth, the sole founder of OpenHouse. I'm one of three people running Longview Estates, where we've delivered more than 200 homes in a development planned for over 750. Working across handover and aftercare, I saw developers create the richest record a home will ever have and then reduce it to PDFs, emails and staff memory. I built OpenHouse to fix that. It gives homebuilders one system to hand over homes, answer homeowner questions using property-specific information and manage aftercare. It's live internally across four developments with 281 home records. I built the product myself on evenings and weekends. If accepted, I'll leave Longview and work exclusively on OpenHouse.
+> Hi, I'm Sam Donworth, the sole founder of OpenHouse. I am one of three people running Longview Estates, where we have taken a residential development from greenfield to more than 200 completed homes. I saw developers create the richest record a home will ever have, then reduce it at handover to PDFs, email and repeated support questions. I built OpenHouse to keep that record alive. It gives homebuilders one system for handover and aftercare, and gives each homeowner answers based on their specific property. It has 281 home records as of 2026-07-29. I built it during evenings and weekends using AI coding agents. If accepted, I will leave my role and work exclusively on OpenHouse.
 
 ## Take selection
 
