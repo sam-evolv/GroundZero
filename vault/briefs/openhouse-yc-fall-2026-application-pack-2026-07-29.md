@@ -328,11 +328,59 @@ These drafts must be reconciled against the exact live form and its character li
 
 ## Additional application fields
 
+The current field structure below comes from a recent open-source YC application coach that reproduces 24 modern form questions. It is not an official YC source and must be reconciled against the live form before submission.
+
+### Who writes code or does other technical work? Was any of it done by a non-founder?
+
+Draft:
+
+> I am the sole founder and am responsible for the product and technical work. I use Claude Code and other AI coding agents extensively to implement the software, then review, test and deploy the work. The production application is a TypeScript and Next.js monorepo with Supabase and Vercel. No human non-founder has written material product code [confirm this final sentence].
+
+Do not describe an AI agent as a cofounder or employee. If any contractor, friend or employee wrote material code, identify them and explain the ownership terms.
+
+### Are you looking for a cofounder?
+
+Sam must choose the truthful answer. Recommended structure if accurate:
+
+> Not actively. I can build and operate the current product using AI coding agents. I would only add a cofounder for an exceptional long-term fit, not to fill a generic technical title.
+
 ### Company name
 
 OpenHouse
 
 Confirm whether YC should receive the legal name or trading name in a separate field.
+
+### Company location
+
+Recommended only if true:
+
+> Cork, Ireland / San Francisco, United States
+
+Explanation:
+
+> Cork is where I learned the problem and built the first deployment inside a residential developer. After YC I would base OpenHouse in San Francisco to work directly with YC, recruit and enter the US homebuilder market, while continuing to serve Ireland and the UK.
+
+If Sam intends to remain based in Cork, state that plainly and explain how the company will participate fully in the San Francisco batch.
+
+### Tech stack
+
+> TypeScript, Next.js 14, React, Supabase/Postgres, Vercel, OpenAI, Drizzle ORM, Tailwind and Radix UI. The product is a multi-tenant monorepo with role-based developer and homeowner applications, document-processing and AI-assistant workflows.
+
+Do not list every dependency. The purpose is to demonstrate that the application is real and that the founder knows its architecture.
+
+### Are people using the product?
+
+> Yes. OpenHouse is live inside Longview Estates across four residential developments. The production database contains 281 home records. 143 distinct homes have timestamped purchaser handover agreements and 85 homes are linked to homeowner accounts. This is an internal deployment within the developer where I work, not an independent customer. We do not yet have a clean retention metric and I will not treat provisioned records as equivalent to active users.
+
+### Previous YC application
+
+> This is OpenHouse's first YC application. [Confirm.]
+
+### Incubator, accelerator or pre-accelerator participation
+
+Draft if NDRC has only been applied to:
+
+> I applied to NDRC's accelerator in Ireland. I have not been accepted, committed to participate or received funding from the programme. [Update if status has changed.]
 
 ### Company URL
 
@@ -392,9 +440,52 @@ Primary: B2B
 
 Secondary: Real Estate and Construction / Proptech
 
+### Other ideas considered
+
+Sam must choose the truthful answer. Do not list a second idea that sounds more compelling than OpenHouse. Candidate factual answer:
+
+> I considered a voice-first personal context assistant for long hands-free conversations and a booking/operations product for local service businesses. I chose OpenHouse because I have unique access to the problem, a live product on real homes and a credible developer distribution route. The other ideas are not my YC application and are not the company I would pursue during the batch.
+
+Delete any idea Sam did not genuinely consider applying with.
+
 ### Other accelerators
 
 State any NDRC application or programme participation exactly. Applying to NDRC is not the same as being accepted or funded.
+
+### Legal entity
+
+Current answer: unknown. Sam must provide:
+
+- Legal entity name
+- Country and date of incorporation
+- Company number
+- Shareholders and percentages
+
+If no entity exists, answer no. If one exists for another venture but not OpenHouse, disclose it only where the form asks about any founder entity or overlapping ownership.
+
+### Investment
+
+Current answer: no verified outside investment. Sam must confirm any grants, SAFEs, loans, family money, founder capital or other commitments.
+
+### Currently fundraising
+
+Draft if accurate:
+
+> I am applying to YC and NDRC but am not currently running a broader fundraising process.
+
+If Sam has sent a deck or is actively speaking to investors, describe that process accurately.
+
+### What convinced you to apply to Y Combinator?
+
+> OpenHouse has reached the point where the product is real but the company must prove it can sell repeatedly outside the environment where it was built. YC is unusually strong at helping domain founders narrow a wedge, move faster and enter the US market. I had treated YC as something for other founders until I saw Irish companies with early products get accepted and realised that assumption was simply self-imposed. I am applying because I have lived this problem, built the product and want to find out how far it can go when I work on it without the constraints of a full-time job.
+
+This answer should not frame YC as a status symbol or proof of personal worth.
+
+### How did you hear about Y Combinator?
+
+Sam must give the literal first source if remembered. Safe draft:
+
+> I have followed YC, Paul Graham's essays and YC founder interviews for years. A recent long-form interview with Sam Altman prompted me to stop treating YC as something reserved for other people and apply.
 
 ### Legal and IP
 
