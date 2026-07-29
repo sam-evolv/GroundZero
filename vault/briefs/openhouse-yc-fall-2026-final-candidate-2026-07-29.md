@@ -60,11 +60,11 @@ Do not use an authenticated portal URL that YC cannot open. Prefer the narrated 
 
 ### Where do you live now, and where would the company be based after YC?
 
-> Cork, Ireland / San Francisco, United States
+> Cork, Ireland now. San Francisco for YC; post-batch base undecided.
 
 ### Explain the location choice
 
-> I live in Cork, where I learned the problem and built the first internal deployment. If accepted, I will attend YC in San Francisco, leave my current role and work exclusively on OpenHouse. San Francisco is the best base for building the US homebuilder market while I continue relationships in Ireland and the UK.
+> I live in Cork, where I learned the problem and built the first internal deployment. If accepted, I will relocate to San Francisco for the batch, leave my current role and work exclusively on OpenHouse. I have not made a permanent post-batch location decision; it will depend on where the company establishes its first repeatable customer base.
 
 ### Category
 
@@ -76,7 +76,7 @@ Secondary category: Real Estate and Construction / Proptech.
 
 ### How far along are you?
 
-> I began serious development in October 2025 and built the product during evenings and weekends. OpenHouse is now live internally across four Longview Estates developments. Production contains 281 home records, 143 distinct homes with timestamped purchaser-agreement records and 85 homes linked to homeowner accounts. When homeowners struggled to describe settlement cracks and other snags in text, I added photo input so evidence could arrive against the correct home and be triaged or escalated. Longview is the developer where I work, not an independent paying customer, and revenue is €0. The next milestone is one paid external scheme with agreed handover and aftercare outcomes.
+> I began serious development in October 2025 and built OpenHouse during evenings and weekends. It is live internally at Longview Estates across four developments. As of 29 July 2026, production contains 281 home records, 143 timestamped purchaser-agreement records covering 143 homes and 85 homes linked to homeowner accounts. These are records and account links, not active-user, customer or completed-handover counts. Longview is the developer where I work, not an independent customer, and revenue is €0. The next proof point is one paid external scheme.
 
 ### How long have you worked on this and how much of that has been full-time?
 
@@ -84,11 +84,11 @@ Secondary category: Real Estate and Construction / Proptech.
 
 ### What is your tech stack?
 
-> TypeScript, Next.js, React, Supabase/Postgres, Vercel, OpenAI, Drizzle ORM, Tailwind and Radix UI. It is a multi-tenant monorepo with developer and homeowner applications, document processing and property-specific assistant workflows.
+> TypeScript, Next.js, React, Supabase/Postgres and Vercel, with OpenAI for document and assistant workflows. The product is a multi-tenant application with separate developer and homeowner roles.
 
 ### Are people using your product?
 
-> Yes, operationally, but I do not yet have a clean active-user or retention metric. OpenHouse is live internally across four Longview developments. Production contains 281 home records, 143 distinct homes with timestamped purchaser-agreement records and 85 homes linked to homeowner accounts. These are provisioned records and account links, not 281 users or customers. Longview is my employer, not an independent customer.
+> Yes, inside Longview, but I cannot yet report a defensible active-user or retention metric. Early homeowner use showed that people struggled to describe settlement cracks and other snags in text, which led me to add photo input and property-specific issue handling. As of 29 July 2026, 85 homes are linked to homeowner accounts. That is an account-link count, not 85 active users. Longview is an internal founder-connected deployment, not an independent customer.
 
 ### Do you have revenue?
 
@@ -110,7 +110,7 @@ Secondary category: Real Estate and Construction / Proptech.
 
 ### What's new about what you are making? What substitutes do people use today?
 
-> Developers use PDFs, spreadsheets, shared drives, email and the memory of sales, site and customer-care staff. Handover portals deliver documents, while defect systems manage tickets after the context has already fragmented. OpenHouse creates a persistent record for the individual home at handover and uses the same approved context for homeowner answers, missing-evidence requests and developer aftercare. The new part is not the chat interface. It is keeping the source information and later evidence attached to the correct physical home across both sides of the workflow.
+> Developers use PDFs, spreadsheets, shared drives, email and the memory of sales, site and customer-care staff. Handover portals deliver documents, while defect systems manage tickets after the context has fragmented. OpenHouse organises the workflow around the individual home. Developer-sourced documents, systems and guidance remain attached to that home and provide context for later questions and issue evidence. The new part is not the chat interface. It is preserving home-specific context across handover and aftercare instead of rebuilding it for every interaction.
 
 ### Who are your competitors? What do you understand that they do not?
 
@@ -118,11 +118,11 @@ Secondary category: Real Estate and Construction / Proptech.
 
 ### How do or will you make money? How much could you make?
 
-> Residential developers will pay a scheme setup fee and a per-home provisioning fee. The initial hypothesis is €99 per home, roughly the cost of a printed handover folder, but no independent customer has validated it. At that price, a developer delivering 500 homes per year is worth €49,500 before setup fees. Reaching €100 million in annual revenue at the provisioning price alone would require about one million homes per year. The larger model adds recurring software during active aftercare and later warranty, maintenance and home-performance workflows, but those fees are also unvalidated.
+> Residential developers will pay a scheme setup fee and a per-home provisioning fee. My initial hypothesis is €99 per home, similar to the cost of a printed handover folder, but no independent customer has validated that price. At €99, a developer delivering 500 homes per year represents €49,500 annually before setup fees. Provisioning is the initial wedge. The larger business requires recurring revenue during aftercare, warranties and later home-performance workflows, but I have not validated those fees. The first paid external scheme will test willingness to pay, measurable operational value and the recurring model.
 
 ### How will you get users? Is there a chicken-and-egg problem?
 
-> I will sell a bounded scheme launch to mid-sized residential developers through my existing industry network. The first paid job is to import one scheme's approved information, provision 50 to 300 home records, onboard one buyer cohort and report missing evidence and aftercare patterns. A successful scheme expands to more developments within the same builder. The UK route is mid-sized homebuilders with post-completion quality and warranty obligations; the US route is regional builders with established warranty teams. There is no consumer chicken-and-egg problem because one developer supplies the source information and distributes OpenHouse to every buyer at handover.
+> I will sell one paid scheme launch directly to a mid-sized residential developer through my existing industry network. The launch will import the developer's approved information, provision 50 to 300 home records, onboard one buyer cohort and measure missing evidence, repeated questions and aftercare handling. If it works, I will expand to the developer's other schemes and use that result to sell the same bounded launch to additional builders. There is no consumer chicken-and-egg problem because the developer provisions the homes and distributes OpenHouse to buyers at handover.
 
 ### Other ideas considered applying with
 
@@ -164,7 +164,7 @@ Secondary category: Real Estate and Construction / Proptech.
 
 ### What convinced you to apply to Y Combinator?
 
-> I have proved that I can build and operate the product inside an environment I control. The company now has to prove that an independent developer will pay and that I can move from part-time domain founder to full-time CEO. YC is the best environment I know for compressing that transition, narrowing the sales wedge and building the US route quickly. If accepted, I will leave my role and work exclusively on OpenHouse.
+> I have direct access to the problem and have built a live product inside the real workflow. The next challenge is turning that internal operating proof into repeatable external developer sales, then building the US homebuilder route. YC's pace, founder network and focus on direct customer evidence make it the strongest environment for testing that quickly.
 
 ### How did you hear about Y Combinator?
 
@@ -174,7 +174,7 @@ Secondary category: Real Estate and Construction / Proptech.
 
 Target: approximately one minute, one natural take.
 
-> Hi, I'm Sam Donworth, the sole founder of OpenHouse. I am one of three people running Longview Estates, where we have taken a residential development from greenfield to more than 200 completed homes. I saw developers create the richest record a home will ever have, then reduce it at handover to PDFs, email and repeated support questions. I built OpenHouse to keep that record alive. It gives homebuilders one system for handover and aftercare, and gives each homeowner answers based on their specific property. It has 281 home records as of 2026-07-29. I built it during evenings and weekends using AI coding agents. If accepted, I will leave my role and work exclusively on OpenHouse.
+> Hi, I'm Sam Donworth, the sole founder of OpenHouse. I am one of three people running Longview Estates, where we have taken a residential development from greenfield to more than 200 completed homes. I saw developers create the richest record a home will ever have, then reduce it at handover to PDFs, email and repeated support questions. I built OpenHouse to keep that record alive. It gives homebuilders one system for handover and aftercare, and gives homeowners answers based on their specific property. It is live internally at Longview across four developments. It contains 281 home records as of 2026-07-29. Longview is not an independent customer. I built it during evenings and weekends. If accepted, I will leave my role and work exclusively on OpenHouse.
 
 ## Final live-form and asset gate
 
@@ -186,6 +186,7 @@ Target: approximately one minute, one natural take.
 - Confirm the form does not turn home records, account links or agreement records into users, customers or completed handovers.
 - Confirm Longview is described as internal operating proof.
 - Confirm the founder-to-company IP assignment status remains accurate.
+- Preferably execute the founder-to-company IP assignment and obtain written Longview acknowledgement of no IP ownership before submission. If not completed, consciously accept and preserve the disclosed diligence risk.
 - Sam reads and approves every answer before submission.
 - Preserve the submission confirmation, timestamp and final field contents in Ground Zero.
 

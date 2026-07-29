@@ -49,7 +49,7 @@ Keep only these beside the phone:
 
 Do not read this word for word:
 
-> Hi, I'm Sam Donworth, the sole founder of OpenHouse. I am one of three people running Longview Estates, where we have taken a residential development from greenfield to more than 200 completed homes. I saw developers create the richest record a home will ever have, then reduce it at handover to PDFs, email and repeated support questions. I built OpenHouse to keep that record alive. It gives homebuilders one system for handover and aftercare, and gives each homeowner answers based on their specific property. It has 281 home records as of 2026-07-29. I built it during evenings and weekends using AI coding agents. If accepted, I will leave my role and work exclusively on OpenHouse.
+> Hi, I'm Sam Donworth, the sole founder of OpenHouse. I am one of three people running Longview Estates, where we have taken a residential development from greenfield to more than 200 completed homes. I saw developers create the richest record a home will ever have, then reduce it at handover to PDFs, email and repeated support questions. I built OpenHouse to keep that record alive. It gives homebuilders one system for handover and aftercare, and gives homeowners answers based on their specific property. It is live internally at Longview across four developments. It contains 281 home records as of 2026-07-29. Longview is not an independent customer. I built it during evenings and weekends. If accepted, I will leave my role and work exclusively on OpenHouse.
 
 ## Take selection
 

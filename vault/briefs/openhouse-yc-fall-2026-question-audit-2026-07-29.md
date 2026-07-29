@@ -249,16 +249,40 @@ Every answer should reinforce one sequence:
 - The 50-character description is 39 characters.
 - The founder video contains the required metric phrase exactly once.
 
+## Independent red-team reconciliation
+
+### Accepted and incorporated
+
+- Tightened How far along to stage, scope, evidence boundary, revenue and next proof point.
+- Replaced “Yes, operationally” with a direct internal-use answer and one observed homeowner behaviour.
+- Refocused the pricing answer on the first paid test rather than forcing a speculative €100 million calculation.
+- Removed generic UK and US acquisition language from the first-customer answer.
+- Reframed Why YC around converting internal proof into repeatable external sales.
+- Added the internal Longview context and non-customer disclosure directly to the founder video.
+- Changed post-batch location to undecided until Sam makes a firm decision.
+- Replaced “approved context” with the more precise “developer-sourced” wording.
+
+### Rejected as stale
+
+- The claim that every usable demo route has empty documents or disabled chat was based on older synthetic routes. The current plan uses the permissioned Longview showhouse test record in a narrated video. It has 59 scoped documents, working property-specific assistant context, controlled issue evidence and a verified My Home preview. No interactive portal URL or reusable login will be supplied unless it is separately safe and logged-out accessible.
+
+### Genuine unresolved diligence risk
+
+- The founder-created IP has not been formally assigned to OpenHouse Ai Limited.
+- Longview has not provided a written no-ownership acknowledgement or written permission for the internal deployment and anonymised metrics.
+- The application must preserve the current disclosure. Preferably resolve both items before submission or consciously accept that they may reduce interview or diligence confidence.
+
 ## Remaining blockers before approval
 
 1. Inspect the authenticated Fall 2026 form and reconcile every exact prompt, conditional field, dropdown and limit.
 2. Confirm the NDRC interview outcome.
-3. Confirm San Francisco is the intended post-YC company base rather than attendance-only.
+3. Confirm whether to retain the honest “post-batch base undecided” answer or make a firm Cork or San Francisco commitment.
 4. Record and verify the founder video.
 5. Record and verify a safe product demo.
 6. Add both logged-out URLs.
 7. Sam reads every answer and approves the exact submission copy.
-8. Submit and preserve the confirmation, final fields and timestamp.
+8. Decide whether to execute the founder-to-company IP assignment and obtain Longview's written acknowledgement before submission.
+9. Submit and preserve the confirmation, final fields and timestamp.
 
 ## Connected vault notes
 

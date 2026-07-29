@@ -11,7 +11,7 @@ status: ready-pending-founder-visual-approval
 
 Use the private Longview showhouse preview as the primary recording surface:
 
-`https://property-assistant-pvha8e36n-openhouseais-projects.vercel.app`
+`https://property-assistant-aadesgooq-openhouseais-projects.vercel.app`
 
 Use the permissioned 8 Longview Park showhouse test record behind that preview. Do not display or distribute its authenticated route, token, purchaser identifiers, billing identifiers or reusable credentials.
 
