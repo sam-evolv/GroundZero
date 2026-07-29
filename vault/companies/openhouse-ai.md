@@ -86,11 +86,15 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - Broad paid DTC must meet the [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]: a credible home-specific result from minimal compulsory input, with further evidence requested progressively only when its benefit is clear.
 
 ## Key facts
-- Legal entity: OpenHouse Ai Limited, an Irish private limited company owned 100% by Sam Donworth.
-- Sam officially started the company at the end of February 2026 after more than a year of part-time development.
+- Legal entity: OpenHouse Ai Limited, Irish company number 807744, incorporated 4 February 2026 and owned 100% by Sam Donworth.
+- Serious product development began in October 2025. Sam has built it during evenings and weekends alongside Longview and has never yet worked on it full-time.
 - Revenue is €0 as of 2026-07-29. Sam has self-funded approximately €10,000 and reports no outside investment.
 - Sam is the sole founder and no human non-founder has written product code. AI coding agents are used extensively under Sam's product and technical responsibility.
 - If accepted by YC, Sam is fully committed to OpenHouse, will leave his current role, work exclusively on the company and is open to relocating to San Francisco if needed.
+- Sam is not actively looking for a cofounder but would consider an exceptional person with proven execution, strong alignment and a relevant network.
+- OpenHouse is Sam's first and only company considered for a YC application.
+- OpenHouse was built primarily on Sam's personal time using his own equipment, accounts and money. Limited work occurred during Longview hours because it was used in the live workflow, but it was not an assigned Longview duty. Sam reports no employment IP or invention-assignment clause and no third-party promise of OpenHouse IP, equity or future rights.
+- Sam initiated the internal Longview deployment within his operating remit as one of three people running the developer. The other principals knew of it and fully backed it. No separate written commercial, DPA, licence or IP agreement exists between Longview and OpenHouse.
 - GitHub: org `sam-evolv`, repo `sam-evolv/property-assistant`, workspace `apps/unified-portal`
 - Supabase project: `mddxbilpjukwskeefakz`
 - Vercel project: `prj_okAOLGbRgbTKEvbl1RgD4UsRdZX2`

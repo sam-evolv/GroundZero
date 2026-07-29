@@ -2,13 +2,13 @@
 title: OpenHouse YC Fall 2026 submit copy
 company_id: openhouse-ai
 date: 2026-07-29
-status: awaiting-founder-fact-check
+status: awaiting-ip-confirmation-and-video-assets
 submission_target: 2026-07-29
 ---
 
 # OpenHouse YC Fall 2026 submit copy
 
-Use this file to complete the live form. Replace every `[CONFIRM]` or `[ADD]` item before submission.
+Use this file to complete the live form. Resolve the final IP marker and add the video URLs before submission.
 
 ## Founders
 
@@ -22,7 +22,7 @@ Sam Donworth, sole founder.
 
 ### Are you looking for a cofounder?
 
-> Not actively. I can build and operate the current product using AI coding agents. I would only add a cofounder for an exceptional long-term fit, not to fill a generic technical title. [CONFIRM]
+> I am not actively looking. I would consider an exceptional cofounder with proven execution ability, strong long-term alignment and a relevant network, but I am not delaying the company while searching.
 
 ### Founder video
 
@@ -34,7 +34,7 @@ Sam Donworth, sole founder.
 
 OpenHouse
 
-Legal name: OpenHouse Ai Limited, an Irish private limited company.
+Legal name: OpenHouse Ai Limited, an Irish private limited company incorporated on 4 February 2026. Company number: 807744.
 
 ### Company URL
 
@@ -54,7 +54,7 @@ Verified length: 39 characters.
 
 ### What is your company going to make?
 
-> OpenHouse gives residential developers one system to hand over homes and manage what happens after completion. A developer uploads approved scheme, house-type, unit, system, warranty and homeowner information. Each buyer receives a living digital record of their specific home, can ask source-backed questions, and can report issues with photos and context. Developers see questions, evidence gaps and aftercare issues tied to the correct home instead of scattered across PDFs, email and WhatsApp. We are starting with handover and aftercare because the developer controls the data and distribution. Each deployment creates a verified home record that can later support warranties, maintenance, energy performance and other services throughout the life of the home.
+> OpenHouse gives residential developers one system to hand over homes and manage what happens after completion. A developer uploads approved scheme, house-type, unit, system, warranty and homeowner information. Each buyer receives a living digital record of their specific home, can ask source-backed questions, and can report issues with photos and context. Developers see questions, evidence gaps and aftercare issues tied to the correct home instead of scattered across PDFs, email and WhatsApp. We are starting with handover and aftercare because the developer supplies the source information and distributes the product. Each deployment creates a developer-sourced home record that can later support warranties, maintenance, energy performance and other services throughout the life of the home.
 
 ### Where do you live now, and where would the company be based after YC?
 
@@ -74,11 +74,11 @@ Secondary category: Real Estate and Construction / Proptech
 
 ### How far along are you?
 
-> OpenHouse is live inside Longview Estates across four residential developments. The production database contains 281 home records. 143 distinct homes have timestamped purchaser handover agreements and 85 homes are linked to homeowner accounts. The product includes multi-tenant developer and homeowner applications, home-specific records, document and assistant workflows, issue reporting and operational analytics. This is an internal deployment within the developer where I work, not an independent paying customer. A senior industry contact has offered to introduce me to Bridgewater Developments; that introduction has not yet happened.
+> OpenHouse is live inside Longview Estates across four residential developments. The production database contains 281 home records. 143 distinct homes have timestamped purchaser handover agreements and 85 homes are linked to homeowner accounts. The product includes multi-tenant developer and homeowner applications, home-specific records, document and assistant workflows, issue reporting and operational analytics. After early homeowners tried to describe settlement cracks and other snags in text, I added photo upload and media analysis so issues could arrive with visual evidence and be triaged against the home's context. This is an internal deployment within the developer where I work, not an independent paying customer. A senior industry contact has offered to introduce me to Bridgewater Developments; that introduction has not yet happened.
 
 ### How long have you worked on this and how much full-time?
 
-> I officially started OpenHouse at the end of February 2026 after developing it part-time for more than a year alongside my full-time role in residential development. I have not yet worked on it full-time.
+> I began serious product development in October 2025 and incorporated OpenHouse Ai Limited on 4 February 2026. I have built it during evenings and weekends alongside my full-time role at Longview Estates and have never yet worked on it full-time.
 
 ### Tech stack
 
@@ -94,11 +94,11 @@ Secondary category: Real Estate and Construction / Proptech
 
 ### Previous YC application
 
-> This is OpenHouse's first YC application. [CONFIRM]
+> This is my first YC application.
 
 ### Other accelerator or pre-accelerator participation
 
-> I applied to NDRC's accelerator in Ireland. I have not been accepted, committed to participate or received funding from the programme. [UPDATE OR CONFIRM]
+> I applied to NDRC's pre-accelerator in Ireland and have an interview on 29 July 2026. NDRC has not offered funding, requested equity or created any commitment.
 
 ## Idea
 
@@ -108,11 +108,11 @@ Secondary category: Real Estate and Construction / Proptech
 
 ### Who are your competitors? What do you understand that they do not?
 
-> Competitors include Foundation, Spaciable, Clixifix, Verisk Punchlist Manager, Buildertrend/BuildTopia, HomeBinder and the CRM, shared-drive, PDF and email workflows most developers use today. Handover is usually treated as document delivery, while defects, support and homeownership are treated as separate products. Our bet is that handover is the moment to create a verified digital identity for each home. Questions, documents, issues, warranties and later performance data should update that same record rather than disappear into separate systems. The portal is only an interface. The compounding asset is the home-specific context created through the developer workflow.
+> Competitors include Foundation, Spaciable, Clixifix, Verisk Punchlist Manager, Buildertrend/BuildTopia, HomeBinder and the CRM, shared-drive, PDF and email workflows most developers use today. Handover is usually treated as document delivery, while defects, support and homeownership are treated as separate products. Our bet is that handover is the moment to create a developer-sourced digital identity for each home. Questions, documents, issues, warranties and later performance data should update that same record rather than disappear into separate systems. The portal is only an interface. The compounding asset is the home-specific context created through the developer workflow.
 
 ### How do or will you make money? How much could you make?
 
-> Developers will pay a scheme setup/platform fee plus a per-home provisioning fee. Our current starting hypothesis is €99 per home, with recurring fees for active aftercare, portfolio analytics and later warranty, maintenance and energy workflows. A developer delivering 500 homes per year represents €49,500 in per-home revenue before setup or recurring software. Reaching approximately €100 million at that price would require about 2,000 such developer customers, or fewer if recurring workflow revenue increases annual contract value. We have not yet validated this pricing with an independent paying customer.
+> Developers will pay a scheme setup/platform fee plus a per-home provisioning fee. Our initial hypothesis is €99 per home, approximately what a developer already spends on a printed handover folder for a home worth roughly €500,000. A developer delivering 500 homes per year represents €49,500 before setup or recurring software. Volume pricing and recurring fees for active aftercare, portfolio analytics and later warranty, maintenance and energy workflows will be tested with external customers. Reaching approximately €100 million at the current per-home price would require about 2,000 developers averaging 500 homes per year, or fewer as recurring contract value grows. We have not yet validated this pricing externally.
 
 ### How will you get users?
 
@@ -120,13 +120,13 @@ Secondary category: Real Estate and Construction / Proptech
 
 ### Other ideas considered applying with
 
-> I considered a voice-first personal context assistant for long hands-free conversations and a booking/operations product for local service businesses. I chose OpenHouse because I have unique access to the problem, a live product on real homes and a credible developer distribution route. [CONFIRM OR REPLACE]
+> OpenHouse is the only company I have considered applying to YC with.
 
 ## Founder background
 
 ### Most impressive achievement outside this startup
 
-> I am one of three people responsible for taking Longview Estates from a greenfield site to more than 200 completed homes within a planned 750-plus-home development. I have worked across the operational reality of selling, handing over and supporting those homes.
+> I entered property development without a conventional professional background and became one of three people running Longview Estates. I helped take it from greenfield to more than 200 completed homes within a 750-plus-home development and played a major role in the planning application for another 260 homes, taking the planned pipeline above 1,000. We are delivering roughly 200 homes per year while building the infrastructure of a small town, including schools, retail, care and community facilities.
 
 ### Founder commitment
 
@@ -136,7 +136,7 @@ Secondary category: Real Estate and Construction / Proptech
 
 ### Have you formed a legal entity?
 
-> Yes. OpenHouse Ai Limited is an Irish private limited company.
+> Yes. OpenHouse Ai Limited is an Irish private limited company incorporated on 4 February 2026. Company number: 807744.
 
 ### Equity breakdown
 
@@ -148,11 +148,11 @@ Secondary category: Real Estate and Construction / Proptech
 
 ### Are you currently fundraising?
 
-> I am applying to YC and NDRC but am not currently running a broader fundraising process. [CONFIRM]
+> I am applying to YC and NDRC but am not raising from anyone else.
 
 ### Intellectual property and employer relationship
 
-`[ADD TRUTHFUL EXPLANATION OF CODE OWNERSHIP, EMPLOYER EQUIPMENT/TIME AND LONGVIEW DATA PERMISSION]`
+> I built OpenHouse primarily on my personal time using my own computer, accounts and money. A limited amount of work occurred during Longview hours because the product was being used in Longview's live handover workflow, but building OpenHouse was not an assigned or paid Longview duty. My employment contract contains no IP or invention-assignment clause. I own 100% of OpenHouse Ai Limited and personally control the code, repository, domains, Supabase, Vercel and all other product assets. No one else has been promised IP, equity or future rights. As one of three people running Longview, deploying technology for handover and aftercare falls within my operating remit. I initiated the deployment with the knowledge and full backing of the other Longview principals. There is no separate written commercial, data-processing, licence or IP agreement between Longview and OpenHouse. [CONFIRM WHETHER THE IP HAS BEEN FORMALLY ASSIGNED TO OPENHOUSE AI LIMITED]
 
 ## Curious
 
@@ -162,13 +162,13 @@ Secondary category: Real Estate and Construction / Proptech
 
 ### How did you hear about YC?
 
-> I have followed YC, Paul Graham's essays and YC founder interviews for years. A recent long-form interview with Sam Altman prompted me to stop treating YC as something reserved for other people and apply. [CONFIRM literal source]
+> I first learned about YC years ago through the companies and entrepreneurs it backed, then kept encountering it through founder podcasts, books and interviews.
 
 ## Founder video script
 
 Target: one unedited 60-second video, no deck.
 
-> I'm Sam Donworth, the sole founder of OpenHouse. I work in residential property development in Ireland and I am one of three people responsible for taking a planned 750-plus-home development from greenfield to more than 200 completed homes. I saw that developers create the richest record a home will ever have during construction, but handover reduces it to PDFs, emails and scattered support. I built OpenHouse to keep that record alive. It gives developers one system for handover and aftercare, and gives each homeowner a record of their specific home. It is live across four developments with 281 home records. I built it largely solo using AI agents. Now I want to turn that internal proof into the system homebuilders use across every scheme.
+> Hi, I'm Sam Donworth, the sole founder of OpenHouse. I'm one of three people running Longview Estates, where we have taken a residential development from greenfield to more than 200 completed homes. Working across handover and aftercare, I saw developers create the richest record a home will ever have, then reduce it to PDFs, emails and repeated support questions. I built OpenHouse to change that. It gives homebuilders one system to hand over homes, answer homeowner questions from property-specific information and manage aftercare. It is live internally across four developments with 281 home records. I built it during evenings and weekends using AI coding agents. If accepted, I will leave my role, work exclusively on OpenHouse and move to San Francisco if needed.
 
 ## Product demo script
 
@@ -195,7 +195,8 @@ Target: 90 seconds to 3 minutes. Use a permissioned demo or illustrative tenant 
 
 Do not submit until:
 
-- Every `[CONFIRM]`, `[ADD]` and `[UPDATE]` marker is resolved
+- All factual confirmation markers are resolved
+- Founder and product-demo video URLs are added
 - Founder commitment is unambiguous
 - Legal entity, ownership, investment and IP answers are exact
 - No purchaser personal data appears in the demo

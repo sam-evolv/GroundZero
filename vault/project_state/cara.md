@@ -1,13 +1,15 @@
 ---
 id: cara
 company_id: cara
-headline: New idea Sam has started building: Irish SME callable digital assistant; Phase 0 is one live +353 call.
+headline: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
 valid: true
-updated_at: "2026-07-11T23:15:00+01:00"
+updated_at: "2026-07-29T10:30:00+01:00"
 role: project-state
 ---
 
 # Cara project state
+
+**Founder reassessment, 2026-07-29:** Sam currently expects not to continue Cara because improved ChatGPT voice capabilities may already cover enough of the original need. Treat Cara as deprioritised, not formally abandoned. Do not resume product development or present it as Sam's primary founder bet unless Sam explicitly reactivates it. OpenHouse is the only company he has considered applying to YC with.
 
 Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea he has started building**, not just a speculative brief.
 

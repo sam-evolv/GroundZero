@@ -113,15 +113,7 @@ Verified:
 
 Sam must confirm before submission:
 
-- Whether any grants, loans, SAFEs, family money or other commitments exist beyond Sam's approximately €10,000 of founder funding
-- Exact incorporation date and company number, if the live form asks
-- Any employer IP, non-compete or data-use agreement relevant to OpenHouse
-- Whether OpenHouse code was built during paid Longview time or on Longview equipment
-- Whether Longview permission for the current deployment and use of its property or homeowner data is written, verbal or merely implicit
-- Previous YC application status and current NDRC status
-- Cofounder-search position
-- Whether Cara, OpenBook or another idea was genuinely considered for this YC application
-- Whether San Francisco would be the company's intended post-YC base or only the batch location
+- Whether the code and product assets have been formally assigned to OpenHouse Ai Limited rather than remaining personally owned by Sam
 
 ## YC cohort research
 
@@ -291,20 +283,20 @@ Do not write "OpenHouse will be the operating system for every home" as a naked 
 
 ## Provisional YC narrative score
 
-The independent 100-point rubric scores the current draft at **85/100**:
+The independent 100-point rubric scores the current draft at **88/100**:
 
 - Immediate comprehension: 15/15
 - Pain and user specificity: 11/12
 - Founder insight and right to win: 14/15
-- Progress, learning and speed: 11/18
+- Progress, learning and speed: 14/18
 - Wedge and distribution: 11/12
 - Venture-scale path: 8/12
 - Differentiation and obstacle awareness: 7/8
 - Integrity and factual calibration: 8/8
 
-This is strong enough for a late application once the remaining founder facts are resolved. Commitment, legal entity, ownership, revenue, founder funding and technical contributors are now confirmed. It is not submit-ready while IP and Longview permission, previous-programme status, cofounder intent and form-specific factual fields remain unconfirmed. Any misleading answer in those fields would be an automatic failure regardless of the numerical score.
+This is strong enough for a late application. Commitment, legal entity, ownership, revenue, founder funding, technical contributors, programme history, cofounder position and internal-deployment status are now confirmed. The only remaining legal ambiguity is whether Sam has formally assigned the personally controlled product IP to OpenHouse Ai Limited. Any misleading answer would be an automatic failure regardless of the numerical score.
 
-The largest remaining narrative gap is progress-to-time learning. The final answer should add one verified example of something Sam changed after observing real handover or homeowner use, if such an example can be stated accurately.
+The draft now includes a verified progress-to-learning example: homeowners tried to describe settlement cracks and other snags in text, so Sam added photo upload and media analysis to create clearer issue evidence and context-aware triage.
 
 ## Draft core application answers
 
@@ -332,11 +324,11 @@ These drafts must be reconciled against the exact live form and its character li
 
 ### How do or will you make money? How much could you make?
 
-> Residential developers will pay a scheme implementation fee, a per-home provisioning fee and recurring software fees while homes remain in active aftercare. Our current starting hypothesis is €99 per home, with recurring fees for developer workflow and portfolio intelligence. We have not yet validated this price with an external paying customer. A developer delivering 500 homes per year represents €49,500 in per-home revenue before setup or recurring software. Reaching approximately €100 million at that price would require about 2,000 such developer customers, or fewer if recurring workflow revenue increases annual contract value. The UK and US are the most relevant expansion markets because new-home quality, warranty and post-completion support already have established budgets and regulatory pressure.
+> Residential developers will pay a scheme implementation fee, a per-home provisioning fee and recurring software fees while homes remain in active aftercare. The initial hypothesis is €99 per home, approximately what a developer already spends on a printed handover folder for a home worth roughly €500,000. A developer delivering 500 homes per year represents €49,500 before setup or recurring software. Volume pricing and recurring fees for developer workflow and portfolio intelligence will be tested with external customers. Reaching approximately €100 million at the current per-home price would require about 2,000 developers averaging 500 homes per year, or fewer as recurring contract value grows. The UK and US are the most relevant expansion markets because new-home quality, warranty and post-completion support already have established budgets and regulatory pressure. This pricing has not yet been validated externally.
 
 ### How far along are you?
 
-> The product is live at portal.openhouseai.ie and contains real operating data from four Longview Estates developments. Production currently holds 281 home records. 143 distinct homes have timestamped purchaser handover agreements and 85 homes are linked to homeowner accounts. I built the product largely solo with AI coding agents. This is internal operating proof inside the residential developer where I work, not an independent customer, and OpenHouse has not yet verified external revenue. A senior industry contact has offered to introduce me to Bridgewater Developments; that introduction has not yet happened. The next milestone is a paid external scheme with agreed handover and aftercare outcomes.
+> The product is live at portal.openhouseai.ie and contains real operating data from four Longview Estates developments. Production currently holds 281 home records. 143 distinct homes have timestamped purchaser handover agreements and 85 homes are linked to homeowner accounts. After early homeowners tried to describe settlement cracks and other snags in text, I added photo upload and media analysis so issues could arrive with visual evidence and be triaged against the home's context. I built the product largely solo with AI coding agents. This is internal operating proof inside the residential developer where I work, not an independent customer, and OpenHouse has €0 revenue. A senior industry contact has offered to introduce me to Bridgewater Developments; that introduction has not yet happened. The next milestone is a paid external scheme with agreed handover and aftercare outcomes.
 
 ### How will you get users? If there is a chicken-and-egg problem, how will you solve it?
 
@@ -356,9 +348,7 @@ Do not describe an AI agent as a cofounder or employee. If any contractor, frien
 
 ### Are you looking for a cofounder?
 
-Sam must choose the truthful answer. Recommended structure if accurate:
-
-> Not actively. I can build and operate the current product using AI coding agents. I would only add a cofounder for an exceptional long-term fit, not to fill a generic technical title.
+> I am not actively looking. I would consider an exceptional cofounder with proven execution ability, strong long-term alignment and a relevant network, but I am not delaying the company while searching.
 
 ### Company name
 
@@ -390,13 +380,11 @@ Do not list every dependency. The purpose is to demonstrate that the application
 
 ### Previous YC application
 
-> This is OpenHouse's first YC application. [Confirm.]
+> This is my first YC application.
 
 ### Incubator, accelerator or pre-accelerator participation
 
-Draft if NDRC has only been applied to:
-
-> I applied to NDRC's accelerator in Ireland. I have not been accepted, committed to participate or received funding from the programme. [Update if status has changed.]
+> I applied to NDRC's pre-accelerator in Ireland and have an interview on 29 July 2026. NDRC has not offered funding, requested equity or created any commitment.
 
 ### Company URL
 
@@ -414,23 +402,17 @@ Sam Donworth, sole founder.
 
 Draft:
 
-> I am one of three people responsible for taking Longview Estates from a greenfield site to more than 200 completed homes within a planned 750-plus-home development. I worked across the operational reality of selling, handing over and supporting those homes while teaching myself to build the software that became OpenHouse.
-
-The final sentence should be checked to avoid describing startup work as the separate achievement if YC asks for something other than the startup.
+> I entered property development without a conventional professional background and became one of three people running Longview Estates. I helped take it from greenfield to more than 200 completed homes within a 750-plus-home development and played a major role in the planning application for another 260 homes, taking the planned pipeline above 1,000. We are delivering roughly 200 homes per year while building the infrastructure of a small town, including schools, retail, care and community facilities.
 
 ### How long have you worked on this?
 
-> I officially started OpenHouse at the end of February 2026 after developing it part-time for more than a year alongside my full-time role in residential development. I have not yet worked on it full-time.
+> I began serious product development in October 2025 and incorporated OpenHouse Ai Limited on 4 February 2026. I have built it during evenings and weekends alongside my full-time role at Longview Estates and have never yet worked on it full-time.
 
 Add any full-time periods only if factually correct.
 
 ### Founder commitment
 
-Recommended only if true:
-
 > If accepted, I will leave my current role and work exclusively on OpenHouse. I will attend the Fall 2026 batch in San Francisco.
-
-This cannot be treated as a wording choice. Sam must decide whether it is true.
 
 ### Revenue
 
@@ -456,31 +438,25 @@ Secondary: Real Estate and Construction / Proptech
 
 ### Other ideas considered
 
-Sam must choose the truthful answer. Do not list a second idea that sounds more compelling than OpenHouse. Candidate factual answer:
-
-> I considered a voice-first personal context assistant for long hands-free conversations and a booking/operations product for local service businesses. I chose OpenHouse because I have unique access to the problem, a live product on real homes and a credible developer distribution route. The other ideas are not my YC application and are not the company I would pursue during the batch.
-
-Delete any idea Sam did not genuinely consider applying with.
+> OpenHouse is the only company I have considered applying to YC with.
 
 ### Other accelerators
 
-State any NDRC application or programme participation exactly. Applying to NDRC is not the same as being accepted or funded.
+> I applied to NDRC's pre-accelerator in Ireland and have an interview on 29 July 2026. NDRC has not offered funding, requested equity or created any commitment.
 
 ### Legal entity
 
-> OpenHouse Ai Limited is an Irish private limited company owned 100% by Sam Donworth. The exact incorporation date and company number should be copied from the CRO record if the live form asks for them.
+> OpenHouse Ai Limited is an Irish private limited company incorporated on 4 February 2026, company number 807744, and owned 100% by Sam Donworth.
 
 ### Investment
 
-> No outside investment. Sam has personally funded approximately €10,000 of company costs. Confirm whether any grants, loans, SAFEs, family money or other commitments exist if the form asks broadly about funding.
+> No outside investment, grants, loans, SAFEs or family money. Sam has personally funded approximately €10,000 of company costs.
 
 ### Currently fundraising
 
 Draft if accurate:
 
-> I am applying to YC and NDRC but am not currently running a broader fundraising process.
-
-If Sam has sent a deck or is actively speaking to investors, describe that process accurately.
+> I am applying to YC and NDRC but am not raising from anyone else.
 
 ### What convinced you to apply to Y Combinator?
 
@@ -490,19 +466,11 @@ This answer should not frame YC as a status symbol or proof of personal worth.
 
 ### How did you hear about Y Combinator?
 
-Sam must give the literal first source if remembered. Safe draft:
-
-> I have followed YC, Paul Graham's essays and YC founder interviews for years. A recent long-form interview with Sam Altman prompted me to stop treating YC as something reserved for other people and apply.
+> I first learned about YC years ago through the companies and entrepreneurs it backed, then kept encountering it through founder podcasts, books and interviews.
 
 ### Legal and IP
 
-The application must still truthfully explain:
-
-- Whether code was written during paid employment or using employer equipment
-- Whether Longview has signed permission for data and product use
-- How AI-generated and open-source code is safely used
-
-This is a high-priority factual section, not something to smooth over.
+> Sam built OpenHouse primarily on personal time using his own computer, accounts and money. A limited amount of work occurred during Longview hours because the product was being used in Longview's live handover workflow, but it was not an assigned or paid Longview duty. His employment contract contains no IP or invention-assignment clause. Sam owns 100% of OpenHouse Ai Limited and personally controls the code, repository, domains, Supabase, Vercel and all other product assets. No one else has been promised IP, equity or future rights. As one of three people running Longview, deploying technology for handover and aftercare falls within his operating remit. He initiated the deployment with the knowledge and full backing of the other Longview principals. There is no separate written commercial, DPA, licence or IP agreement between Longview and OpenHouse. Confirm whether the personally controlled IP has been formally assigned to OpenHouse Ai Limited.
 
 ## Founder video
 
@@ -510,7 +478,7 @@ Target: one unedited 60-second video, Sam looking at the camera, no deck or cine
 
 ### Script
 
-> I'm Sam Donworth, the sole founder of OpenHouse. I work in residential property development in Ireland and I am one of three people responsible for taking a planned 750-plus-home development from greenfield to more than 200 completed homes. I saw that developers create the richest record a home will ever have during construction, but handover reduces it to PDFs, emails and scattered support. I built OpenHouse to keep that record alive. It gives developers one system for handover and aftercare, and gives each homeowner a record of the specific home. It is live across four developments with 281 home records. I built it largely solo using AI agents. Now I want to turn that internal proof into the system homebuilders use across every scheme.
+> Hi, I'm Sam Donworth, the sole founder of OpenHouse. I'm one of three people running Longview Estates, where we have taken a residential development from greenfield to more than 200 completed homes. Working across handover and aftercare, I saw developers create the richest record a home will ever have, then reduce it to PDFs, emails and repeated support questions. I built OpenHouse to change that. It gives homebuilders one system to hand over homes, answer homeowner questions from property-specific information and manage aftercare. It is live internally across four developments with 281 home records. I built it during evenings and weekends using AI coding agents. If accepted, I will leave my role, work exclusively on OpenHouse and move to San Francisco if needed.
 
 Speak naturally. Do not memorise every word. The important beats are founder, lived problem, concrete product, verified progress and ambition.
 
