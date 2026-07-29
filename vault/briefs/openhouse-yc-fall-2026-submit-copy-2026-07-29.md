@@ -2,13 +2,13 @@
 title: OpenHouse YC Fall 2026 submit copy
 company_id: openhouse-ai
 date: 2026-07-29
-status: awaiting-ip-confirmation-and-video-assets
+status: awaiting-video-assets
 submission_target: 2026-07-29
 ---
 
 # OpenHouse YC Fall 2026 submit copy
 
-Use this file to complete the live form. Resolve the final IP marker and add the video URLs before submission.
+Use this file to complete the live form. Add the video URLs before submission.
 
 ## Founders
 
@@ -152,7 +152,7 @@ Secondary category: Real Estate and Construction / Proptech
 
 ### Intellectual property and employer relationship
 
-> I built OpenHouse primarily on my personal time using my own computer, accounts and money. A limited amount of work occurred during Longview hours because the product was being used in Longview's live handover workflow, but building OpenHouse was not an assigned or paid Longview duty. My employment contract contains no IP or invention-assignment clause. I own 100% of OpenHouse Ai Limited and personally control the code, repository, domains, Supabase, Vercel and all other product assets. No one else has been promised IP, equity or future rights. As one of three people running Longview, deploying technology for handover and aftercare falls within my operating remit. I initiated the deployment with the knowledge and full backing of the other Longview principals. There is no separate written commercial, data-processing, licence or IP agreement between Longview and OpenHouse. [CONFIRM WHETHER THE IP HAS BEEN FORMALLY ASSIGNED TO OPENHOUSE AI LIMITED]
+> I built OpenHouse primarily on my personal time using my own computer, accounts and money. A limited amount of work occurred during Longview hours because the product was being used in Longview's live handover workflow, but building OpenHouse was not an assigned or paid Longview duty. My employment contract contains no IP or invention-assignment clause. I own 100% of OpenHouse Ai Limited and personally control the code, repository, domains, Supabase, Vercel and all other product assets. No one else has been promised IP, equity or future rights. As one of three people running Longview, deploying technology for handover and aftercare falls within my operating remit. I initiated the deployment with the knowledge and full backing of the other Longview principals. There is no separate written commercial, data-processing, licence or IP agreement between Longview and OpenHouse. I have not yet executed a formal assignment of the personally created IP to OpenHouse Ai Limited and will do so before taking investment.
 
 ## Curious
 

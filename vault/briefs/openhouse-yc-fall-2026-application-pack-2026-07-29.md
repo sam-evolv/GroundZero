@@ -111,9 +111,7 @@ Verified:
 - Bridgewater remains a potential prospect; the offered introduction has not yet happened.
 - A major Irish developer previously engaged with the category but did not adopt. Do not name or characterise this as validation unless Sam approves the exact wording.
 
-Sam must confirm before submission:
-
-- Whether the code and product assets have been formally assigned to OpenHouse Ai Limited rather than remaining personally owned by Sam
+All founder-supplied factual questions are resolved. The founder and product-demo assets remain to be recorded and linked.
 
 ## YC cohort research
 
@@ -294,7 +292,7 @@ The independent 100-point rubric scores the current draft at **88/100**:
 - Differentiation and obstacle awareness: 7/8
 - Integrity and factual calibration: 8/8
 
-This is strong enough for a late application. Commitment, legal entity, ownership, revenue, founder funding, technical contributors, programme history, cofounder position and internal-deployment status are now confirmed. The only remaining legal ambiguity is whether Sam has formally assigned the personally controlled product IP to OpenHouse Ai Limited. Any misleading answer would be an automatic failure regardless of the numerical score.
+This is strong enough for a late application. Commitment, legal entity, ownership, revenue, founder funding, technical contributors, programme history, cofounder position, internal-deployment status and IP position are now confirmed. The personally created IP has not yet been formally assigned to OpenHouse Ai Limited and should be assigned before taking investment. Any misleading answer would be an automatic failure regardless of the numerical score.
 
 The draft now includes a verified progress-to-learning example: homeowners tried to describe settlement cracks and other snags in text, so Sam added photo upload and media analysis to create clearer issue evidence and context-aware triage.
 
@@ -470,7 +468,7 @@ This answer should not frame YC as a status symbol or proof of personal worth.
 
 ### Legal and IP
 
-> Sam built OpenHouse primarily on personal time using his own computer, accounts and money. A limited amount of work occurred during Longview hours because the product was being used in Longview's live handover workflow, but it was not an assigned or paid Longview duty. His employment contract contains no IP or invention-assignment clause. Sam owns 100% of OpenHouse Ai Limited and personally controls the code, repository, domains, Supabase, Vercel and all other product assets. No one else has been promised IP, equity or future rights. As one of three people running Longview, deploying technology for handover and aftercare falls within his operating remit. He initiated the deployment with the knowledge and full backing of the other Longview principals. There is no separate written commercial, DPA, licence or IP agreement between Longview and OpenHouse. Confirm whether the personally controlled IP has been formally assigned to OpenHouse Ai Limited.
+> Sam built OpenHouse primarily on personal time using his own computer, accounts and money. A limited amount of work occurred during Longview hours because the product was being used in Longview's live handover workflow, but it was not an assigned or paid Longview duty. His employment contract contains no IP or invention-assignment clause. Sam owns 100% of OpenHouse Ai Limited and personally controls the code, repository, domains, Supabase, Vercel and all other product assets. No one else has been promised IP, equity or future rights. As one of three people running Longview, deploying technology for handover and aftercare falls within his operating remit. He initiated the deployment with the knowledge and full backing of the other Longview principals. There is no separate written commercial, DPA, licence or IP agreement between Longview and OpenHouse. The personally created IP has not yet been formally assigned to OpenHouse Ai Limited; Sam will complete that assignment before taking investment.
 
 ## Founder video
 
