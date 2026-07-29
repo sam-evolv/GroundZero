@@ -1,0 +1,544 @@
+---
+title: OpenHouse YC Fall 2026 application pack
+company_id: openhouse-ai
+date: 2026-07-29
+status: same-day draft
+submission_target: 2026-07-29
+sources:
+  - live Supabase production query
+  - GitHub canonical repository and API
+  - Vercel production deployment
+  - OpenHouse public website
+  - YC official application, FAQ, How to Apply, Interview Guide and RFS
+  - YC official company directory API, W23 through S26
+---
+
+# OpenHouse YC Fall 2026 application pack
+
+## Decision
+
+Submit the Fall 2026 application today, 29 July 2026.
+
+The on-time deadline was 27 July at 8pm Pacific. YC is still accepting late applications and explicitly says ready companies should apply now. The application should therefore be completed, fact-checked, recorded and submitted today rather than held for additional traction.
+
+## Core positioning decision
+
+Lead with OpenHouse as B2B software for residential developers.
+
+The initial buyer is the developer. The first workflow is home handover and aftercare. The compounding asset is a verified, living record for every home. Homeowner intelligence, warranty, maintenance and energy support are the expansion, not the opening pitch.
+
+## The central story
+
+Developers create the richest record a home will ever have during construction. At handover, that knowledge is reduced to PDFs, emails and scattered support threads.
+
+OpenHouse keeps the record alive.
+
+It turns the developer's approved scheme, house-type, system, document and warranty information into a digital record for each home. Homeowners use that record to understand the property and report issues. Developers use the same record to manage handover, aftercare and repeated gaps across a scheme.
+
+The initial commercial wedge is narrow and credible. The long-term opportunity is large because the record persists after the developer's normal handover relationship ends.
+
+## Best 50-character description
+
+**AI handover and aftercare for homebuilders**
+
+Character count: 42.
+
+This is intentionally plain. It identifies the technology, workflow and buyer. Do not use "operating system for every home" as the first description. That is the eventual category, not the present product explanation.
+
+## Verified evidence ledger
+
+### Product and deployment
+
+- The canonical product repository is `sam-evolv/property-assistant`.
+- The canonical application workspace is `apps/unified-portal`.
+- Production is live at `https://portal.openhouseai.ie`.
+- The Vercel production deployment was checked live on 29 July 2026 and returned `READY`.
+- The current production deployment was created on 28 June 2026.
+- The public marketing site is live at `https://www.openhouseai.ie`.
+- The marketing site clearly marks walkthrough data as illustrative rather than real customer data.
+- The real product contains developer, purchaser, handover, documents, aftercare, issue, communication and AI-assistant workflows.
+
+### Live production data
+
+A read-only query of the production Supabase project on 29 July 2026 verified the following four Longview developments:
+
+- Ardan View: 111 unit records
+- Longview Park: 75 unit records
+- Rathard Park: 52 unit records
+- Rathard Lawn: 43 unit records
+
+Verified four-scheme totals:
+
+- 281 unit or home records
+- 143 distinct units with timestamped purchaser handover agreements
+- 85 units linked to homeowner accounts
+
+Use these three figures in the application.
+
+Do not currently quote the raw message or document totals. The database contains historical tenant-ID mismatches affecting some message and document rows. The unit records have no tenant mismatch, and the 143 purchaser agreements are distinct units with timestamps. The account, unit and agreement figures are therefore the cleanest application-grade proof.
+
+### Build velocity
+
+Checked against `origin/main` on 29 July 2026:
+
+- 2,307 commits on the main branch
+- 2,610 unique commits across all branches
+- 182 merged pull requests
+- 2,016 tracked TypeScript and TSX files
+- 125 tracked test or spec files
+- 13 contributors shown by the local main history
+- GitHub attributes the large majority of named repository contributions to Sam and Claude, consistent with the product being built largely solo with AI coding agents
+
+Do not lead with these figures as traction. They are supporting evidence that a solo, domain founder can build and iterate quickly.
+
+### Founder-market fit
+
+Verified founder facts:
+
+- Sam Donworth is OpenHouse's sole founder and shareholder.
+- Sam is one of three people responsible for taking Longview Estates from greenfield to more than 200 completed homes in a planned 750-plus-home development.
+- Sam works directly in residential property development, including the environment in which handover, buyer communication and aftercare occur.
+- Sam holds a UCC Level 8 Economics degree through Transformational Learning.
+- OpenHouse was built largely solo using AI tooling.
+
+### Commercial status
+
+Verified:
+
+- The four-scheme Longview deployment is internal operating proof, not an arm's-length external customer.
+- OpenHouse does not yet have a verified external paying developer customer in the records reviewed.
+- Carol Tallon has offered a warm introduction to Bridgewater Developments.
+- Bridgewater is an active prospect, not a customer or agreed pilot.
+- A major Irish developer previously engaged with the category but did not adopt. Do not name or characterise this as validation unless Sam approves the exact wording.
+
+Sam must confirm before submission:
+
+- Current revenue
+- Any amount paid or allocated by Longview
+- Any grants, investment or founder funding
+- Incorporation status and date
+- Exact legal company name
+- Ownership percentages
+- Any employer IP, non-compete or data-use agreement relevant to OpenHouse
+- The exact month work on OpenHouse began
+- Whether Sam will leave his employment and work exclusively on OpenHouse if accepted
+- Intended company location after YC
+
+## YC cohort research
+
+### Method
+
+The official YC company directory API was queried across ten batches:
+
+- W23
+- S23
+- W24
+- S24
+- F24
+- W25
+- S25
+- F25
+- W26
+- S26
+
+This produced 1,800 unique company records. Every record was included in the quantitative language and category analysis. Sixty records were identified as construction, real-estate or proptech companies from official industry and tag metadata and reviewed as the closest cohort.
+
+YC does not publish the applications of these 1,800 companies. The directory can show what accepted companies became and how they explain themselves publicly. It cannot prove which sentence or metric caused acceptance. Do not claim causal findings that the source cannot support.
+
+### Quantitative findings
+
+Across 1,800 accepted-company one-liners:
+
+- Median length: 6 words
+- Mean length: 6.4 words
+- Middle 50 percent: 5 to 8 words
+- 49.7 percent contain the word "for", usually to identify the buyer or use case
+- 22.7 percent begin with "AI"
+- Only 7.3 percent use "platform"
+- Only 1.8 percent use "operating system"
+- B2B is the dominant official industry, covering 1,145 of 1,800 records
+- Europe appears in 152 records
+
+The implication is not that using a phrase causes selection. It is that accepted companies explain themselves with a short category, mechanism or buyer statement. OpenHouse should do the same.
+
+### Closest accepted-company patterns
+
+#### Foundation, S23
+
+One-liner: "Shopify for Homebuilders"
+
+Public description: a buyer-experience platform that brings new-home shopping, purchase and ownership online.
+
+Lesson: YC has already funded a B2B homebuilder product that extends into ownership. The category is fundable. OpenHouse must distinguish itself through handover, verified home context and evidence-backed aftercare rather than generic buyer experience.
+
+#### Haven, W23
+
+One-liner: "AI workforce for property management"
+
+Public description starts with one agent for maintenance coordination, including intake, diagnosis, dispatch and follow-up.
+
+Lesson: broad vision, narrow first workflow. OpenHouse should follow this structure without copying its claim. Start with handover and aftercare, then expand.
+
+#### RealPact, S26
+
+One-liner: "AI-native OS for Real Estate Brokerages"
+
+Its description immediately narrows the product to transaction paperwork and then states that it will expand into other brokerage operations.
+
+Lesson: even companies using "OS" explain the concrete initial task first. OpenHouse should not ask the reader to believe the operating-system vision before understanding the handover workflow.
+
+#### IronLedger.ai, S25
+
+One-liner: "AI-enabled Corporate Cards and Invoice Processing for Real Estate"
+
+Its description says it automates property accounting, starting with accounts payable.
+
+Lesson: a specific, expensive workflow gives credibility to a broader system.
+
+#### PermitPortal, F24
+
+One-liner: "AI Operating System for Pre-construction"
+
+Its description identifies the concrete workflows: site finding, entitlements and local development sentiment.
+
+Lesson: lifecycle position plus concrete workflows is more persuasive than a generic property OS.
+
+#### Alloovium, S26
+
+One-liner: "Construction paperwork that finally works for your team"
+
+Its public description emphasises source-cited answers, clause-level checking and human sign-off.
+
+Lesson: trust and provenance are increasingly legible advantages in physical-world AI. OpenHouse's approved-source answers and refusal to guess should be made concrete.
+
+#### Foreman, W26
+
+One-liner: "Keeping contractors on the job site, not behind a desk."
+
+Its public description names the existing mess, including spreadsheets, email, Word documents and photos across phones, before explaining the unified system.
+
+Lesson: familiar operational substitutes make a complex product easy to understand.
+
+### Current YC fit
+
+YC's Fall 2026 Requests for Startups says AI is moving into the physical world and highlights construction, maintenance and real-world operations. It states that software for the physical world has changed little in 20 years and argues that the strongest new systems will record work as it actually happens, creating end-to-end data that frontier models and incumbents do not have.
+
+OpenHouse fits this direction naturally:
+
+- It operates in construction, handover and maintenance-adjacent work.
+- It captures the verified record of a physical asset.
+- It receives homeowner questions and issue evidence after delivery.
+- It can connect the original construction context to what happens in the home over time.
+
+Do not mention the RFS in a pandering way. Make the company describe this reality clearly enough that the fit is self-evident.
+
+## Persuasion architecture
+
+YC explicitly warns against marketing language and psychological manipulation. The application should therefore use no tricks in the conventional sense. The strongest psychological effects come from making the truth unusually easy to understand and hard to dismiss.
+
+Use these principles:
+
+### 1. Cognitive compression
+
+Give the partner a six-word mental handle:
+
+> AI handover and aftercare for homebuilders.
+
+### 2. Concrete contrast
+
+Show before and after:
+
+> Today: PDFs, emails, manuals and scattered support threads.
+>
+> OpenHouse: one verified record for each home, shared across handover and aftercare.
+
+### 3. Founder inevitability
+
+Make Sam's route to the idea feel causal, not decorative:
+
+> He helped deliver more than 200 homes, saw the same information loss repeatedly, and built the product inside that environment.
+
+### 4. Specific proof
+
+Use 281, 143 and 85 instead of "multiple developments" or "real traction".
+
+### 5. Honest asymmetry
+
+State the weakness before the reviewer discovers it:
+
+> The deployment is inside Sam's employer, not an independent paying customer. The next proof is one external paid scheme.
+
+This increases trust and shows that the founder knows the real risk.
+
+### 6. Narrow wedge, compounding expansion
+
+Start with the workflow that can be bought now. Then show why each deployment creates an asset that supports a larger company.
+
+### 7. A memorable insight
+
+The application should teach YC one thing:
+
+> Handover is the only moment when the developer still has the authority, documents and context required to create a verified digital record of the home at low cost.
+
+That record becomes harder and more expensive to reconstruct after completion. This is the specific insight behind the developer-first distribution strategy.
+
+### 8. Earned ambition
+
+Do not write "OpenHouse will be the operating system for every home" as a naked claim. Earn it in three steps:
+
+1. Developers provision the record at handover.
+2. Homeowners and aftercare workflows keep the record alive.
+3. The record becomes the context layer for warranties, maintenance and home performance.
+
+## Draft core application answers
+
+These drafts must be reconciled against the exact live form and its character limits before submission.
+
+### Describe what your company does in 50 characters or less
+
+> AI handover and aftercare for homebuilders
+
+### What is your company going to make? Describe your product and what it does or will do.
+
+> OpenHouse gives residential developers one system to hand over homes and manage what happens after completion. A developer uploads the approved information for a scheme, including house types, installed systems, manuals, warranties and homeowner guidance. OpenHouse turns it into a digital record for each home. The homeowner receives a branded handover, can ask questions based on the specific property and can report an issue with photos or video. The developer sees missing information, repeated questions and aftercare issues across the scheme. We start with handover and aftercare because that is where developers have the richest context and the most immediate customer friction. Over time, the verified record becomes the context layer for warranty, maintenance and home-performance support.
+
+### Why did you pick this idea? Do you have domain expertise? How do you know people need it?
+
+> I am one of three people responsible for taking a residential development from greenfield to more than 200 completed homes within a planned 750-plus-home scheme. I work directly across the environment in which homes are sold, handed over and supported. I repeatedly saw that the developer has the richest information a home will ever have during construction, but the homeowner receives fragmented PDFs, manuals, emails and support contacts. I built OpenHouse inside that operating environment. It now contains 281 real home records across four developments, 143 homes have timestamped purchaser handover agreements and 85 are linked to homeowner accounts. The deployment is within my employer rather than an independent paying customer. The next proof is converting the internal product into one paid external scheme.
+
+### What's new about what you're making? What substitutes do people use today?
+
+> Developers currently assemble handover packs from PDFs, spreadsheets, email, shared drives and the knowledge of individual site, sales and customer-care staff. After completion, homeowner questions, snags and warranty issues move into separate inboxes or defect systems, so the original home context is lost. OpenHouse treats handover as the creation of a persistent digital record for the individual home. The same approved record answers homeowner questions, cites its sources, refuses to guess when information is missing and carries issue evidence back into developer aftercare. The new part is not a chat interface. It is keeping the verified construction and handover context attached to the home so every later workflow starts with the correct property-specific information.
+
+### Who are your competitors? What do you understand that they don't?
+
+> The closest products include Foundation for homebuilder buyer experience, Spaciable for homeowner handover and portals, Clixifix and Verisk Punchlist Manager for defects and warranty, and HomeBinder or Centriq for homeowner records. Developers also use generic CRMs, shared drives, PDFs, email and spreadsheets. Our specific insight is that handover is the cheapest and most reliable point at which to create the permanent digital identity of a home. The developer still has the approved documents, installed-system information and authority to provision it for the buyer. Most tools optimise one side of the lifecycle, such as content delivery, defects or homeowner storage. OpenHouse's bet is that the handover record should remain the shared context for homeowner questions, aftercare evidence, warranties, maintenance and later home-performance intelligence.
+
+### How do or will you make money? How much could you make?
+
+> Residential developers will pay a scheme implementation fee, a per-home provisioning fee and recurring software fees while homes remain in active aftercare. Our current starting hypothesis is €99 per home, with recurring fees for developer workflow and portfolio intelligence. We have not yet validated this price with an external paying customer. A single developer scheme can add 50 to 300 homes without acquiring homeowners individually. At one million homes provisioned annually, the per-home fee alone would be €99 million in annual revenue, before recurring aftercare, warranty and home-performance products. The UK and US are the most relevant expansion markets because new-home quality, warranty and post-completion support already have established budgets and regulatory pressure.
+
+### How far along are you?
+
+> The product is live at portal.openhouseai.ie and contains real operating data from four Longview Estates developments. Production currently holds 281 home records. 143 distinct homes have timestamped purchaser handover agreements and 85 homes are linked to homeowner accounts. I built the product largely solo with AI coding agents; the canonical repository has 2,307 commits on main and 182 merged pull requests. This is internal operating proof inside the residential developer where I work, not an independent customer, and OpenHouse has not yet verified external revenue. We have a warm route to Bridgewater Developments. The next milestone is a paid external scheme with agreed handover and aftercare outcomes.
+
+### How will you get users? If there is a chicken-and-egg problem, how will you solve it?
+
+> We sell to residential developers, so one customer provisions OpenHouse for an entire scheme of 50 to 300 homes. I have direct access to the Irish developer market through my property work and currently have a warm introduction to Bridgewater Developments. The first sale is a tightly scoped paid scheme launch: import the developer's existing house-type and handover information, provision the home records, onboard one homeowner cohort and report aftercare gaps. We then expand to additional schemes within the same developer. The UK route is mid-sized homebuilders facing New Homes Quality Code and warranty pressure; the US route is regional builders with established warranty teams. There is no consumer chicken-and-egg problem because the developer owns the initial data and distributes the product at handover.
+
+## Additional application fields
+
+### Company name
+
+OpenHouse
+
+Confirm whether YC should receive the legal name or trading name in a separate field.
+
+### Company URL
+
+Primary: `https://www.openhouseai.ie`
+
+Demo/product: `https://portal.openhouseai.ie`
+
+A dedicated obscure demo URL or demo account should be prepared if the portal requires authentication.
+
+### Founder
+
+Sam Donworth, sole founder.
+
+### Most impressive achievement outside OpenHouse
+
+Draft:
+
+> I am one of three people responsible for taking Longview Estates from a greenfield site to more than 200 completed homes within a planned 750-plus-home development. I worked across the operational reality of selling, handing over and supporting those homes while teaching myself to build the software that became OpenHouse.
+
+The final sentence should be checked to avoid describing startup work as the separate achievement if YC asks for something other than the startup.
+
+### How long have you worked on this?
+
+> I have worked on OpenHouse part-time alongside my full-time role in residential development since [confirm month and year].
+
+Add any full-time periods only if factually correct.
+
+### Founder commitment
+
+Recommended only if true:
+
+> If accepted, I will leave my current role and work exclusively on OpenHouse. I will attend the Fall 2026 batch in San Francisco.
+
+This cannot be treated as a wording choice. Sam must decide whether it is true.
+
+### Revenue
+
+Current draft:
+
+> €0 external revenue. The live Longview deployment is internal operating proof, not an arm's-length paying customer.
+
+Sam must confirm that no internal payment, allocation or external revenue exists.
+
+### Competitor list for form field
+
+- Foundation
+- Spaciable
+- Clixifix
+- Verisk Punchlist Manager
+- Buildertrend / BuildTopia
+- HomeBinder / Centriq
+- Generic CRM, email, shared-drive and PDF workflows
+
+### Category
+
+Primary: B2B
+
+Secondary: Real Estate and Construction / Proptech
+
+### Other accelerators
+
+State any NDRC application or programme participation exactly. Applying to NDRC is not the same as being accepted or funded.
+
+### Legal and IP
+
+The application must truthfully explain:
+
+- Whether OpenHouse is incorporated
+- Who owns the code and company
+- Whether code was written during paid employment or using employer equipment
+- Whether Longview has signed permission for data and product use
+- Whether any contractor or non-founder wrote material code
+- How AI-generated and open-source code is safely used
+
+This is a high-priority factual section, not something to smooth over.
+
+## Founder video
+
+Target: one unedited 60-second video, Sam looking at the camera, no deck or cinematic production.
+
+### Script
+
+> I'm Sam Donworth, the sole founder of OpenHouse. I work in residential property development in Ireland and I am one of three people responsible for taking a planned 750-plus-home development from greenfield to more than 200 completed homes. I saw that developers create the richest record a home will ever have during construction, but handover reduces it to PDFs, emails and scattered support. I built OpenHouse to keep that record alive. It gives developers one system for handover and aftercare, and gives each homeowner a record of the specific home. It is live across four developments with 281 home records. I built it largely solo using AI agents. Now I want to turn that internal proof into the system homebuilders use across every scheme.
+
+Speak naturally. Do not memorise every word. The important beats are founder, lived problem, concrete product, verified progress and ambition.
+
+## Product demo
+
+Target: 90 seconds to 3 minutes. No slides.
+
+### Shot sequence
+
+1. Developer development overview
+   - "This is one real development inside OpenHouse."
+2. Select an individual unit or home
+   - "The developer provisions the approved record for this specific home."
+3. Show documents and installed-system context
+   - "The record contains the home's handover documents, systems and guidance."
+4. Show homeowner portal
+   - "The homeowner receives this at handover instead of a static pack."
+5. Ask one source-backed question
+   - "The answer uses the correct home and scheme information and shows its source."
+6. Ask a question the record cannot answer
+   - "When the evidence is missing, it refuses to guess and sends the gap back to the developer."
+7. Show issue or aftercare workflow
+   - "Questions and issue evidence become structured aftercare rather than another email thread."
+8. Close on developer view
+   - "Every handover makes the record more useful for the homeowner and the developer."
+
+Use a permissioned demo or illustrative tenant. Do not expose purchaser personal data in the recording.
+
+## Hardest YC objections
+
+### Is this just a homeowner portal?
+
+No. The portal is one interface. The product's value is the verified home record shared across developer handover and aftercare.
+
+### Is Longview actually a customer?
+
+No. It is Sam's employer and the deployment is internal operating proof. The external-commercial question remains open.
+
+### Why has the product not produced an external paid customer?
+
+The honest answer must cover focus, part-time constraints, product breadth and the recent narrowing to a sellable scheme launch. Do not blame developer inertia.
+
+### Why will developers pay?
+
+This is not yet proven externally. The buying hypothesis is reduced handover administration, fewer repeated questions, cleaner aftercare evidence and stronger quality/compliance proof. The first paid pilot must measure these outcomes.
+
+### Why is this venture-scale?
+
+A developer sale provisions tens or hundreds of homes. The record persists beyond handover and becomes the context layer for recurring warranty, maintenance and home-performance workflows. The expansion is attached to an accumulating physical asset, not a one-off portal licence.
+
+### Why does AI matter?
+
+It turns unstructured home documents, photos and conversations into source-backed answers and structured follow-up. Without verified property context, generic AI is unsafe and undifferentiated. OpenHouse's asset is the home-specific record and the workflow that keeps it current.
+
+### Why can incumbents not add this?
+
+They can add chat or isolated features. OpenHouse's bet is that the system must be organised around a persistent home identity created at handover, with context and evidence flowing across the developer and homeowner sides. The answer should still acknowledge that incumbents are serious competitors.
+
+### Is a solo non-technical founder fundable?
+
+The product and repository demonstrate unusually high building velocity. The stronger answer is not "AI replaces a cofounder". It is that Sam combines direct domain access, product judgment and the ability to ship. He should also be candid about where future technical leadership or hiring may be needed.
+
+### Will Sam actually leave his job?
+
+This needs an unambiguous truthful answer before submission.
+
+### Is the product secure enough for developer and homeowner data?
+
+Security has been materially hardened, but the latest market-readiness audit still identified external-pilot gates. The application should not claim enterprise readiness. It should say the product is live internally and is being hardened for an external paid scheme.
+
+## What not to say
+
+Do not lead with:
+
+- "The operating system for every home"
+- "Revolutionising the property industry"
+- "Transforming the way people interact with their homes"
+- "AI-powered end-to-end property lifecycle platform"
+- "No competitors"
+- "Validated by major Irish developers"
+- "Hundreds of active users"
+- "Enterprise ready"
+- "Fully autonomous"
+- Unverified energy savings
+- Illustrative marketing-site dashboard numbers
+
+## Same-day submission sequence
+
+1. Reconcile these drafts against the exact live YC form.
+2. Confirm legal name, incorporation, funding, revenue and ownership.
+3. Make the full-time commitment decision.
+4. Confirm OpenHouse IP and Longview data permission.
+5. Create a safe demo login or obscure demo link.
+6. Record the 60-second founder video.
+7. Record the product demo.
+8. Paste and shorten every answer to the live field limits.
+9. Run a factual review, YC-partner review and hostile review.
+10. Sam reads every answer aloud once.
+11. Submit today.
+12. Save the confirmation and final answers to Ground Zero.
+
+## Primary sources
+
+- YC Apply: https://www.ycombinator.com/apply
+- YC FAQ: https://www.ycombinator.com/faq
+- YC How to Apply: https://www.ycombinator.com/howtoapply
+- YC Interview Guide: https://www.ycombinator.com/interviews
+- YC Fall 2026 Requests for Startups: https://www.ycombinator.com/rfs
+- YC company directory: https://www.ycombinator.com/companies
+- YC company directory API: https://api.ycombinator.com/v0.1/companies
+- Dropbox original application: https://www.ycombinator.com/apply/dropbox
+
+## Working conclusion
+
+The irresistible version of OpenHouse is not a grand claim. It is a sequence of truths:
+
+1. Sam has lived the problem at unusual depth.
+2. He built a substantial product largely alone.
+3. The product is live on 281 real homes.
+4. The first buyer and workflow are clear.
+5. The current weakness, no external paying customer, is understood precisely.
+6. Each developer deployment creates a persistent home record that supports a much larger company.
+
+The application should make YC think:
+
+> This founder knows a real physical-world workflow that most software founders have never seen. He has already built far more than expected while part-time. If he goes full-time and proves one external developer will pay, this could become the data and workflow layer attached to every new home.
