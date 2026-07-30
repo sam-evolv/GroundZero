@@ -67,7 +67,7 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### Please tell us about a time you most successfully hacked some non-computer system to your advantage.
 
-> When I was 15 or 16, our fourth-year Enterprise class asked us to create a mini-business. Most people did bake sales or sold pizza at lunch; I negotiated with a supplier in China, imported Bluetooth trackers already branded Nut Finders for about €7.40 each, and resold them for €20 and later €25. I sold hundreds to buyers ranging from teachers using them for keys, children or dogs, to a sports team giving one to each child on a trip to New York, and a haulage company using them with its trucks. I was doing more than €100 in sales on some school days and qualified for the national stage of a student enterprise competition years before Apple released AirTags.
+> At 15 or 16, I realised our fourth-year Enterprise assignment gave me a ready-made market. Instead of doing a bake sale like most of the class, I negotiated with a supplier in China, imported Bluetooth trackers already branded Nut Finders for €7.40 each, and sold them for €20 and later €25, using teachers and school enterprise events as my initial sales channel while also finding outside buyers including a sports team and a haulage company. I sold hundreds and was doing more than €100 in sales on some school days.
 
 #### Please tell us in one or two sentences about the most impressive thing other than this startup that you have built or achieved.
 
@@ -81,7 +81,7 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### List any competitions or awards you have won, or papers you have published.
 
-> Qualified for the national stage of a student enterprise competition through my Bluetooth-tracker resale business. The business was also recognised on the Enterprise Ireland website. No published papers.
+> Exhibited Nut Finders at the Cork Schools Business Runway Event at Cork Airport. John Motherway of Local Enterprise Office South Cork publicly commended our product and presentation after buying one from us. No published papers.
 
 ### Builder Profile
 
