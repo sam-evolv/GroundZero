@@ -76,6 +76,13 @@ Use this concise description for the Johnson & Johnson MedTech role:
 - GitHub: https://github.com/sam-evolv
 - X: `[ADD ONLY IF SAM WANTS A PUBLIC ACCOUNT REVIEWED]`
 
+**Live-form reconciliation, 2026-07-30:**
+
+- Change the company display name from `OpenHouse Ai` to `OpenHouse AI` if the imported field is editable.
+- Replace the Johnson & Johnson description with the concise version above; the live form still contains the unverified scrap-rate and production-tool claims Sam previously rejected.
+- Leave Personal website and X blank. Remove `https://x.com/username` if it is entered text rather than grey placeholder text.
+- Before submission, classify the €50,000-plus David Howard result as signed, paid, invoiced, confirmed/booked or verbal/in-principle value and adjust `helping secure` if required.
+
 ### Accomplishments
 
 #### Please tell us about a time you most successfully hacked some non-computer system to your advantage.
