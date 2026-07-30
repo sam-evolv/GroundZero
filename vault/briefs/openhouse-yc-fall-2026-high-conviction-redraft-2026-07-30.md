@@ -69,7 +69,7 @@ https://portal.openhouseai.ie
 
 ### What is your company going to make? Please describe your product and what it does or will do.
 
-OpenHouse is building an AI assistant that knows the exact home, not just how homes work in general.
+OpenHouse turns the information a residential developer already holds about each new home into an AI assistant for that exact property.
 
 At handover, the developer turns everything it knows about a property, including its specifications, installed systems, manuals, warranties, finishes, dimensions, energy setup and local services, into a permanent digital record. The homeowner can then ask questions such as “How do I reset my heating?”, “What paint is on this wall?”, “Is this crack covered?” or “What broadband can I get here?” They can upload a photo, preserve the evidence and create an aftercare issue already tied to the correct property.
 
@@ -139,13 +139,13 @@ A developer knows more about a new home than anyone will ever know again. It has
 
 I saw this from inside Longview Estates, where I am one of three people helping deliver a 753-home mixed-use development and work across sales, handover and aftercare. Homeowners were not asking generic questions. They wanted to know how their heating worked, which paint matched their wall, whether a crack was a defect, what a warranty covered or who to contact about their exact home. Staff repeatedly reconstructed answers the developer had once known perfectly.
 
-Handover is the only moment when an accurate home record can be created cheaply and distributed automatically. I built OpenHouse at that moment. The live questions prove people use the exact-home context. The next thing I have to prove is that an independent developer will pay for the system.
+Handover is the only moment when an accurate home record can be created cheaply and distributed automatically. The developer is both the buyer and the distribution channel: one deployment can put OpenHouse into hundreds of homes as the keys are handed over. I built OpenHouse at that moment. The live questions prove people use the exact-home context. The next thing I have to prove is that an independent developer will pay for the system.
 
 ### Who are your competitors? What do you understand about your business that they don’t?
 
 Foundation and Spaciable digitise the homebuilder’s customer experience. Clixifix and Verisk Punchlist Manager focus on defects and warranty. The everyday alternative is still a mixture of portals, PDFs, email, spreadsheets and staff memory.
 
-They organise software around a customer journey or a support workflow. OpenHouse is organised around the identity of the physical home. The record is created while the developer still controls the authoritative information, then stays attached to every question, photo, issue, answer and resolution after handover.
+Most existing products organise software around a customer journey or a support workflow. OpenHouse is organised around the identity of the physical home. The record is created while the developer still controls the authoritative information, then stays attached to every question, photo, issue, answer and resolution after handover.
 
 That changes the economics of the product. The developer is both the buyer and the distribution channel into hundreds of homes. Homeowners get an assistant that becomes more useful as the record grows. Developers get anonymous post-occupancy intelligence they have never had at scale: what people do not understand, what keeps failing and what information or design should change in the next phase.
 
