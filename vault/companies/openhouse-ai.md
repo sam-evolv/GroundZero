@@ -57,6 +57,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[briefs/openhouse-ndrc-application-pack-2026-07-01]] - NDRC application fields, answers, blockers and upload checklist
 - [[briefs/2026-07-30-openhouse-yc-usage-evidence]] - read-only production audit supporting the conservative 259-question / 79-home YC usage metric and developer intelligence loop
 - [[briefs/openhouse-yc-fall-2026-voice-redraft-2026-07-30]] - non-canonical natural-language YC redraft for Sam's review
+- [[briefs/openhouse-yc-fall-2026-first-principles-full-review-2026-07-30]] - complete first-principles YC candidate in authenticated live-form order with unresolved founder gates preserved
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]] - post-Cairn funding / UK-US / DTC strategy reset
 - [[briefs/openhouse-ireland-funding-routes-2026-06-29]] - Ireland funding and backing routes
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] - UK/US expansion research
