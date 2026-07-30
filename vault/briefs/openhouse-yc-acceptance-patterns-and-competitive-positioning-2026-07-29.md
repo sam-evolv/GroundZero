@@ -642,3 +642,13 @@ The application should make YC believe this:
 - [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[items/oh-bridgewater-warm-introduction]]
 - [[briefs/2026-07-24-openhouse-market-readiness-audit]]
+
+- [[imports/campaigns/openhouse-full-context]] — shared signals: openhouse, full
+- [[imports/campaigns/openhouse-innovation-strategy]] — shared signals: innovation, openhouse, strategy
+- [[imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26]] — shared signals: maintaining, obsidian, wiki
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-perfect-yc-application-playbook-2026-07-29]]
+- [[briefs/openhouse-recent-yc-acceptance-range-assessment-2026-07-29]]
+

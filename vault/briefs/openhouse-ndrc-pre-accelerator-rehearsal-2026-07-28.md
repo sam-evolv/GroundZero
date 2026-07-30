@@ -93,3 +93,13 @@ Help turning founder-built proof into a focused, repeatable and investable compa
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28]]
 - [[companies/openhouse-ai]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
+- [[briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28]]
+- [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[briefs/openhouse-ndrc-application-pack-2026-07-01]]
+- [[briefs/openhouse-ndrc-interview-final-card-2026-07-29]]
+- [[companies/openhouse-ai]]
+

@@ -949,10 +949,18 @@ The assistant becomes confident by narrowing the claim to the evidence, not by p
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]]
 - [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]
 - [[briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28]]
+- [[briefs/openhouse-public-home-context-data-strategy-2026-07-28]]
+- [[briefs/openhouse-show-house-evidence-capture-2026-07-28]]
+- [[briefs/openhouse-show-house-manual-evidence-register-2026-07-28]]
+- [[briefs/openhouse-show-house-walkthrough-evidence-2026-07-28]]
+- [[briefs/wiki-refiner-2026-07-29]]
 - [[companies/openhouse-ai]]
 - [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]
+- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
+- [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
 - [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]
 

@@ -904,6 +904,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]]
 - [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]
 - [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
+- [[briefs/wiki-refiner-2026-07-29]]
 - [[companies/openhouse-ai]]
 - [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]
 - [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]

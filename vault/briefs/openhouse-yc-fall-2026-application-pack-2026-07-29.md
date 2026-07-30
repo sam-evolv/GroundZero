@@ -603,3 +603,9 @@ The irresistible version of OpenHouse is not a grand claim. It is a sequence of 
 The application should make YC think:
 
 > This founder knows a real physical-world workflow that most software founders have never seen. He has already built far more than expected while part-time. If he goes full-time and proves one external developer will pay, this could become the data and workflow layer attached to every new home.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-perfect-yc-application-playbook-2026-07-29]]
+- [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
+

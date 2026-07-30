@@ -207,3 +207,9 @@ Do not submit until:
 - The current live YC form has been reconciled against these fields
 - Sam has read every answer aloud once
 
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-perfect-yc-application-playbook-2026-07-29]]
+- [[briefs/openhouse-recent-yc-acceptance-range-assessment-2026-07-29]]
+- [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
+

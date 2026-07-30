@@ -995,6 +995,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-ndrc-pre-accelerator-rehearsal-2026-07-28]]
 - [[briefs/openhouse-show-house-evidence-capture-2026-07-28]]
 - [[briefs/wiki-refiner-2026-07-28]]
+- [[briefs/wiki-refiner-2026-07-29]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[context/openhouse-product-map]]

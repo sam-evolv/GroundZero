@@ -214,6 +214,7 @@ Do the simplest thing that achieves this exceptionally well. If a slide feels we
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
+- [[briefs/openhouse-ndrc-interview-final-card-2026-07-29]]
 - [[briefs/openhouse-ndrc-three-slide-deck-repair-prompt-2026-07-28]]
 - [[companies/openhouse-ai]]
 - [[project_state/oh]]

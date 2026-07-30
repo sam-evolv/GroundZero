@@ -460,3 +460,9 @@ That is stronger than pretending OpenHouse already has product-market fit.
 - [[briefs/openhouse-yc-narrative-rubric-2026-07-29]]
 - [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
 - [[items/oh-bridgewater-warm-introduction]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-pre-revenue-vc-shortlist-2026-07-29]]
+- [[briefs/openhouse-recent-yc-acceptance-range-assessment-2026-07-29]]
+

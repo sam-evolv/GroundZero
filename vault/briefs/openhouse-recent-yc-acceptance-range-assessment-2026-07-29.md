@@ -444,3 +444,8 @@ More product breadth will not materially improve the comparison with recent acce
 - [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
 - [[briefs/openhouse-yc-fall-2026-submit-copy-2026-07-29]]
 - [[items/oh-bridgewater-warm-introduction]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-pre-revenue-vc-shortlist-2026-07-29]]
+

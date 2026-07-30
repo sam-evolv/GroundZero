@@ -20,8 +20,15 @@ This protocol tests three distinct risks:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
+- [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]]
 - [[briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28]]
+- [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
+- [[briefs/openhouse-public-home-context-data-strategy-2026-07-28]]
 - [[companies/openhouse-ai]]
+- [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]
+- [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]
+
 
 ## Recommendation
 

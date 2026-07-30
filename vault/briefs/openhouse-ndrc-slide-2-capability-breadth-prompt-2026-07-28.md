@@ -123,3 +123,8 @@ Before finishing:
 
 Make only this Slide 2 enhancement. Do not redesign the deck or alter the approved narrative.
 ```
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-ndrc-final-premium-polish-prompt-2026-07-28]]
+

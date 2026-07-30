@@ -38,7 +38,7 @@ updated: "2026-07-15"
 
 ## 🟢 Monitoring
 
-- 🔴 [[project_state/cara|cara]]: New idea Sam has started building: Irish SME callable digital assistant; Phase 0 is one live +353 call.
+- 🔴 [[project_state/cara|cara]]: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
 - 🟢 [[project_state/ob|ob]]: Empire Gym's owner dashboard hardening is locally verified; safe publish/handoff is pending, and Stripe billing follows only after the owner journey is proven.
 - 🔴 [[project_state/oh|oh]]: Developer proof owns the commercial lane; one operator-mediated test on Sam's occupied home is the next bounded DTC evidence gate.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
@@ -64,4 +64,4 @@ updated: "2026-07-15"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-07-29 02:15 IST
+- Dashboard: 2026-07-30 02:16 IST

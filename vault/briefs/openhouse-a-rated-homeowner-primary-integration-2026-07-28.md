@@ -218,6 +218,12 @@ The full source collection and original Leo artifact remain at:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-a-rated-homeowner-policy-thesis-2026-07-28]]
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
+- [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-show-house-evidence-capture-2026-07-28]]
+- [[companies/openhouse-ai]]
+- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
+- [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
+- [[project_state/oh]]
 

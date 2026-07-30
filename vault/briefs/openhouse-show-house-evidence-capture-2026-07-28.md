@@ -301,5 +301,11 @@ The first processing pass will create an evidence manifest before producing guid
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-a-rated-homeowner-primary-integration-2026-07-28]]
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
+- [[companies/openhouse-ai]]
+- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
+- [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
+- [[project_state/oh]]
 
