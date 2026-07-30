@@ -53,6 +53,10 @@ The technical-founder answer is Yes because Sam can and does build, test and dep
 
 Use concise factual descriptions rather than the imported LinkedIn marketing copy. Keep all overlapping present roles visible; the separate commitment answer states that Sam will work exclusively on OpenHouse if accepted.
 
+Use this concise description for the Temporis Capital and Longview Estates role:
+
+> I work within Longview Estates and am one of three people responsible for delivering a town-scale mixed-use development. The current scheme includes 753 homes, with a further 260-plus homes in planning, as well as a supermarket, retail units, a nursing home, primary care centre, pharmacy, schools and a crèche. I work across financing, design-team coordination, meetings with potential vendors, sales, handover, aftercare and the day-to-day running of the development.
+
 ### Social Media
 
 - Personal website: leave blank unless Sam has a genuine personal site
@@ -67,7 +71,7 @@ Use concise factual descriptions rather than the imported LinkedIn marketing cop
 
 #### Please tell us in one or two sentences about the most impressive thing other than this startup that you have built or achieved.
 
-> I am one of three people responsible for taking Longview Estates from a greenfield site to more than 200 completed homes within a planned development of more than 750 homes. I have worked across the operational reality of selling, handing over and supporting those homes.
+> I am one of three people responsible for taking Longview Estates from a greenfield site to more than 200 completed homes within a town-scale mixed-use development. The current scheme includes 753 homes, with a further 260-plus homes in planning, as well as a supermarket, retail units, a nursing home, primary care centre, pharmacy, schools and a crèche; I work across financing, design-team coordination, potential vendors and the day-to-day running of the development.
 
 #### Tell us about things you've built before. Include URLs if possible.
 
