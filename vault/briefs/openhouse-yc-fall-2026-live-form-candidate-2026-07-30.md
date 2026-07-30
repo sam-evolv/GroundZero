@@ -43,6 +43,7 @@ The technical-founder answer is Yes because Sam can and does build, test and dep
 - LinkedIn: https://www.linkedin.com/in/sam-donworth9
 - Education: University College Cork, BA Economics, September 2019 to October 2022.
 - Work history imported from LinkedIn and to be retained truthfully:
+  - David Howard Golf, Manager, `[START MONTH/YEAR REQUIRED]` to present
   - OpenHouse Ai, Founder and CEO, December 2025 to present
   - EvolvAi Ireland, Founder, June 2025 to present
   - Temporis Capital, Property Analyst working on Longview Estates, September 2024 to present
@@ -55,7 +56,11 @@ Use concise factual descriptions rather than the imported LinkedIn marketing cop
 
 Use this concise description for the Temporis Capital and Longview Estates role:
 
-> I work within Longview Estates and am one of three people responsible for delivering a town-scale mixed-use development. The current scheme includes 753 homes, with a further 260-plus homes in planning, as well as a supermarket, retail units, a nursing home, primary care centre, pharmacy, schools and a crèche. I work across financing, design-team coordination, meetings with potential vendors, sales, handover, aftercare and the day-to-day running of the development.
+> I work within Longview Estates and am one of three people responsible for delivering a town-scale mixed-use development. The current scheme includes 753 homes, with a further 261 homes in planning, as well as a supermarket, retail units, a nursing home, primary care centre, pharmacy, schools and a crèche. I work across financing, design-team coordination, meetings with potential vendors, sales, handover, aftercare and the day-to-day running of the development.
+
+Use this concise description for the David Howard Golf role:
+
+> Manage commercial partnerships, speaking opportunities and digital presence for amateur golfer David Howard. Built davidhowardgolf.ie and helped secure more than €50,000 in sponsorship and speaking engagements within two weeks of his qualification for the 154th Open Championship.
 
 ### Social Media
 
