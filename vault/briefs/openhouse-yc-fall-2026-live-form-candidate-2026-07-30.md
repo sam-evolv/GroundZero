@@ -67,7 +67,7 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### Please tell us about a time you most successfully hacked some non-computer system to your advantage.
 
-> At 15 or 16, I realised our fourth-year Enterprise assignment gave me a ready-made market. Instead of doing a bake sale like most of the class, I negotiated with a supplier in China, imported Bluetooth trackers already branded Nut Finders for €7.40 each, and sold them for €20 and later €25, using teachers and school enterprise events as my initial sales channel while also finding outside buyers including a sports team and a haulage company. I sold hundreds and was doing more than €100 in sales on some school days.
+`[OPEN: find a genuine system-hack story. Do not force the Nut Finders business into this field.]`
 
 #### Please tell us in one or two sentences about the most impressive thing other than this startup that you have built or achieved.
 
@@ -75,13 +75,13 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### Tell us about things you've built before. Include URLs if possible.
 
-> I have also built OpenBook, a system for creating and operating local-business websites; Cara, a voice-agent prototype; GroundZero, my git-backed agent command centre; and a series of websites and workflow automations for small businesses. My public work is at https://github.com/sam-evolv, including https://github.com/sam-evolv/Cara, https://github.com/sam-evolv/OB-ClientSiteTemplate and https://github.com/sam-evolv/GroundZero.
+> At 15 or 16, I built a resale business around Nut Finder Bluetooth trackers. I negotiated with a supplier in China, imported them for €7.40 each, sold them for €20 and later €25, and sold hundreds to teachers, a sports team and a haulage company. I have since built OpenBook, a system for creating and operating local-business websites; Cara, a voice-agent prototype; GroundZero, my git-backed agent command centre; and websites and workflow automations for small businesses. My public work is at https://github.com/sam-evolv, including https://github.com/sam-evolv/Cara, https://github.com/sam-evolv/OB-ClientSiteTemplate and https://github.com/sam-evolv/GroundZero.
 
 **Review gate:** Keep only projects Sam is comfortable having YC inspect. Do not claim customer use, revenue or production status for these builds without separate evidence.
 
 #### List any competitions or awards you have won, or papers you have published.
 
-> Exhibited Nut Finders at the Cork Schools Business Runway Event at Cork Airport. John Motherway of Local Enterprise Office South Cork publicly commended our product and presentation after buying one from us. No published papers.
+> None.
 
 ### Builder Profile
 
