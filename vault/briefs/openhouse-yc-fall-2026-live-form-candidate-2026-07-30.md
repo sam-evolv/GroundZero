@@ -56,7 +56,7 @@ Use concise factual descriptions rather than the imported LinkedIn marketing cop
 
 Use this concise description for the Temporis Capital and Longview Estates role:
 
-> I work within Longview Estates and am one of three people responsible for delivering a town-scale mixed-use development. The current scheme includes 753 homes, with a further 261 homes in planning, as well as a supermarket, retail units, a nursing home, primary care centre, pharmacy, schools and a crèche. I work across financing, design-team coordination, meetings with potential vendors, sales, handover, aftercare and the day-to-day running of the development.
+> I am one of three people on the team delivering Longview Estates, a 753-home mixed-use development with another 261 homes in planning. I work across financing, design-team coordination, vendor meetings, sales, handover, aftercare and day-to-day operations.
 
 Use this concise description for the David Howard Golf role:
 
@@ -64,7 +64,7 @@ Use this concise description for the David Howard Golf role:
 
 Use this concise description for the OpenHouse AI role:
 
-> Sole founder. I built OpenHouse, a handover and aftercare platform for residential developers. It is live internally across four developments with 281 provisioned home records. I built the product end to end during evenings and weekends using TypeScript, Next.js, Supabase and Vercel.
+> Sole founder. I built OpenHouse, a handover and aftercare platform for residential developers. It is live internally at Longview Estates, the developer where I work, across four Longview developments with 281 provisioned home records. I built the product end to end during evenings and weekends using TypeScript, Next.js, Supabase and Vercel.
 
 Use this concise description for the Johnson & Johnson MedTech role:
 
@@ -87,11 +87,11 @@ Use this concise description for the Johnson & Johnson MedTech role:
 
 #### Please tell us about a time you most successfully hacked some non-computer system to your advantage.
 
-> When the amateur golfer I manage, David Howard, qualified for The Open, I treated the following two weeks as a commercial sprint. I built davidhowardgolf.ie, packaged his story and contacted companies and event organisers while the qualification was still news, helping secure more than €50,000 in sponsorship and speaking engagements.
+> When the amateur golfer I manage, David Howard, qualified for The Open, I used the brief period when his qualification was news to compress a normally slow sponsorship process into a two-week sprint. I built davidhowardgolf.ie, packaged his story and contacted companies and event organisers immediately, helping secure more than €50,000 in sponsorship and speaking engagements.
 
 #### Please tell us in one or two sentences about the most impressive thing other than this startup that you have built or achieved.
 
-> I am one of three people responsible for taking Longview Estates from a greenfield site to more than 200 completed homes within what is effectively a new small town. The wider development includes 753 homes, another 261 in planning, a supermarket, retail, healthcare, schools and a crèche; I work across financing, design, commercial partners, sales, handover and day-to-day delivery.
+> I am one of three people on the Longview Estates delivery team, which has taken the project from a greenfield site to more than 200 completed homes. The wider development includes 753 homes, another 261 in planning, retail, healthcare, schools and a crèche, and I work across financing, design coordination, commercial partners, sales, handover and day-to-day delivery.
 
 #### Tell us about things you've built before. Include URLs if possible.
 
@@ -119,7 +119,7 @@ Sam Donworth
 
 ### Who writes code, or does other technical work on your product? Was any of it done by a non-founder? Please explain.
 
-> I write and review the product code and handle the architecture, testing and deployment. I use AI coding agents extensively, but no contractor, employee or other human non-founder has written production code.
+> I built all of the product and do all technical work myself. I use AI coding agents extensively, but I choose the architecture, review changes, test and deploy the product. No non-founder has written product code.
 
 ### Are you looking for a cofounder?
 
@@ -247,17 +247,19 @@ If a follow-up field appears, use:
 
 ### Why did you pick this idea to work on? Do you have domain expertise in this area? How do you know people need what you're making?
 
-> I am one of three people responsible for taking Longview Estates from greenfield to more than 200 completed homes in a planned 750-plus-home development. I work directly across sales, handover and aftercare. I repeatedly saw the developer create the richest record a home will ever have, then reduce it at handover to disconnected PDFs, email and staff knowledge. Homeowners could not find the right answer, while staff reconstructed context they already had. I built OpenHouse from that problem and deployed it internally at Longview. That deployment proves it can operate across real homes, but it does not yet prove that an independent developer will pay. That is the next test.
+> I am one of three people on the team delivering Longview Estates, where I work directly across sales, handover and aftercare. I repeatedly saw the developer create the richest record a home will ever have, then reduce it at handover to disconnected PDFs, emails and staff knowledge. Homeowners could not find the right answer, while staff reconstructed context they already had. I built OpenHouse inside that workflow. The internal deployment has put the product into a real handover environment and taught me how homeowners ask for help, but it does not yet show that an independent developer will pay. That is the next test.
 
 ### Who are your competitors? What do you understand about your business that they don't?
 
-> Foundation is the closest US competitor, providing buyer apps, documents, messaging and warranty workflows. Spaciable covers handover and aftercare across more than 100,000 homes; Clixifix and Verisk Punchlist Manager focus on defects and warranty. The default alternative remains a CRM plus shared drives, PDFs and email. My insight is that the durable asset is not the portal; it is a developer-sourced record of the physical home. Handover is the lowest-cost point to create it because the developer still has the source information and access to every buyer. OpenHouse uses that record for property-specific answers and keeps later questions, photos, defects and warranties attached to the correct home.
+> Foundation and Spaciable are the closest competitors. Both give homebuilders buyer and homeowner portals with documents, updates, service requests and post-completion support. Clixifix and Verisk Punchlist Manager focus more deeply on defects and warranty. The default competitor is still PDFs, email, spreadsheets and staff memory. OpenHouse is not differentiated by having a portal or issue tracker. It starts with a structured record created from the developer's approved information for each specific home, then uses that same context for homeowner questions and aftercare. My bet is that the home record becomes more valuable as warranty, maintenance and performance history accumulates. That is not yet a moat. The advantage must be earned through developer distribution, integrations and records that become difficult to replace.
 
 **Competitor verification, 2026-07-30:** Foundation remains active in YC's directory and its live site covers buyer apps, documents, messaging and warranty. Spaciable's live site reports more than 100,000 homes digitally delivered. Clixifix and Verisk publicly position around defect, customer-care and warranty workflows.
 
 ### How do or will you make money? How much could you make? Give your best estimate.
 
-> Residential developers will pay an annual platform fee plus a per-home provisioning fee; my initial per-home hypothesis is €99. A developer delivering 500 homes per year represents €49,500 before the platform fee. The one-time fee alone is not the venture-scale business. I believe recurring aftercare, warranty and home-performance workflows can bring average annual contract value above €100,000; 1,000 customers at that level would produce €100 million in annual revenue. The first paid external scheme will test both pricing and which recurring workflow developers will pay for.
+> Residential developers will pay a scheme setup fee and a per-home provisioning fee. My initial, unvalidated hypothesis is €99 per home, so a developer delivering 500 homes per year would represent €49,500 annually before setup fees. At €99 alone, €100 million in annual revenue would require just over one million newly provisioned homes each year, so the one-time fee is only the wedge. I believe OpenHouse can become a €100 million-plus annual revenue business by adding recurring aftercare, warranty, maintenance and home-performance workflows to the record created at handover. The first paid external scheme will test the initial price, operational value and which recurring workflow developers will pay for.
+
+**Pricing verification, 2026-07-30:** Foundation, Spaciable, Clixifix and Verisk do not publish reliable comparable enterprise contract prices. Keep €99 explicitly labelled as Sam's unvalidated hypothesis. Do not insert the reviewer's illustrative €20,000 platform fee or €150 per-home price unless Sam actually adopts those figures.
 
 ### If you had any other ideas you considered applying with, please list them.
 
@@ -295,7 +297,7 @@ If a follow-up field appears, clarify:
 
 ### What convinced you to apply to Y Combinator? Did someone encourage you to apply? Have you been to any YC events?
 
-> OpenHouse has moved beyond a prototype and is operating inside real developments. The next challenge is turning internal use into repeatable sales to independent developers and building a serious route into the US homebuilder market. YC is the strongest environment for making that transition quickly. No one directly encouraged me to apply and I have not attended a YC event.
+> I applied because OpenHouse is live internally and the next test is turning that operating proof into paid external deployments. YC would provide the speed, customer focus and US access needed to make that transition. I had treated YC as something for other founders until I realised that was a limit I had imposed on myself. No one directly encouraged me to apply and I have not attended a YC event.
 
 **Gate:** Confirm the final sentence is factually correct before paste.
 
