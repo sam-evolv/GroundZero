@@ -30,6 +30,7 @@ timezone: Europe/Dublin
 
 ## Business notes
 - OpenHouse AI is the core business.
+- Sam used income from paid websites and workflow-automation projects delivered through EvolvAI to fund the early build of OpenHouse.
 - OpenBook should be run end-to-end as far as possible: design handoff → build → deploy → domain.
 - Sam won Carrigaline Community School's Student of the Year award in his final year.
 - Sam captained school and local rugby teams and won a championship. The exact team, competition and year have not yet been captured.

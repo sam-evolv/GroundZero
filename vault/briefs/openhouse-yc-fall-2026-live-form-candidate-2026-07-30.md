@@ -88,7 +88,7 @@ Use this concise description for the Johnson & Johnson MedTech role:
 
 #### Tell us about things you've built before. Include URLs if possible.
 
-> At 15 or 16, I built an importing and resale business around existing Nut Finder Bluetooth trackers. I negotiated with a supplier in China, imported them for €7.40 each and sold hundreds for €20 to €25 to teachers, a sports team and a haulage company. I later built OpenBook (https://www.openbook.ie), which creates and operates subscription websites for small businesses, plus an MCP that lets ChatGPT users book services directly with businesses on the platform.
+> At 15 or 16, I built an importing and resale business around existing Nut Finder Bluetooth trackers. I negotiated with a supplier in China, imported them for €7.40 each and sold hundreds for €20 to €25 to teachers, a sports team and a haulage company. I later built OpenBook (https://www.openbook.ie), which creates and operates subscription websites for small businesses, plus an MCP that lets ChatGPT users book services directly with businesses on the platform. One live example is SIMply Golf 365 (https://www.simplygolf365.ie). Through EvolvAI, I also built paid websites and workflow automations for small businesses and used the income to fund the early build of OpenHouse.
 
 **Review gate:** Keep only projects Sam is comfortable having YC inspect. Do not claim customer use, revenue or production status for these builds without separate evidence.
 
