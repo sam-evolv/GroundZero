@@ -2,7 +2,7 @@
 title: OpenHouse YC Fall 2026 final candidate
 company_id: openhouse-ai
 date: 2026-07-29
-status: awaiting-live-form-reconciliation-and-assets
+status: superseded-by-live-form-candidate-2026-07-30
 submission_target: 2026-07-29
 sources:
   - openhouse-yc-fall-2026-application-pack-2026-07-29
@@ -12,7 +12,7 @@ sources:
 
 # OpenHouse YC Fall 2026 final candidate
 
-This is the strongest verified application copy currently available. Keep the field order aligned to the authenticated form. Do not submit until every visible prompt and limit has been reconciled, the two video links work in a logged-out browser, and Sam has approved the exact final copy.
+This candidate is retained as drafting history. It is superseded by [[openhouse-yc-fall-2026-live-form-candidate-2026-07-30]], which follows the authenticated form captured on 30 July 2026.
 
 ## Founders
 

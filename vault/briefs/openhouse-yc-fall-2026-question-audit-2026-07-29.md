@@ -2,7 +2,7 @@
 title: OpenHouse YC Fall 2026 question audit
 company_id: openhouse-ai
 date: 2026-07-29
-status: complete-pending-live-form-reconciliation
+status: live-form-reconciled-2026-07-30
 submission_target: 2026-07-29
 ---
 
@@ -10,9 +10,9 @@ submission_target: 2026-07-29
 
 ## Decision
 
-Use [[openhouse-yc-fall-2026-final-candidate-2026-07-29]] as the current copy source. The older application and submit-copy files remain the evidence and drafting history.
+Use [[openhouse-yc-fall-2026-live-form-candidate-2026-07-30]] as the current copy source. The older application, final-candidate and submit-copy files remain evidence and drafting history.
 
-The authenticated Fall 2026 form could not be inspected in this run because the desktop driver had no active application session and YC does not publish the logged-in question set. The locally captured field set is therefore complete enough to draft, but each prompt, dropdown and limit must be reconciled against the visible form before submission.
+Sam captured the authenticated Fall 2026 form on 30 July 2026. The live candidate now follows its visible field order, upload requirements and prompts. Conditional fields revealed by Yes or No selections still require live reconciliation before submission.
 
 ## Narrative spine
 

@@ -175,6 +175,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
 - [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
 - [[briefs/2026-07-30-openhouse-yc-live-application-execution]] - current same-day YC form, founder video, demo and submission sequence
+- [[briefs/openhouse-yc-fall-2026-live-form-candidate-2026-07-30]] - canonical candidate aligned to the authenticated Fall 2026 form
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/sam-90-day-cash-authority-plan-2026-07-13]]
 - [[briefs/solar-installer-workflow-analysis]]
