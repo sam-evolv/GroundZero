@@ -67,7 +67,7 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### Please tell us about a time you most successfully hacked some non-computer system to your advantage.
 
-> At Johnson & Johnson, I worked inside a tightly controlled production process but still found a way to introduce a new physical tool that improved quality and safety. Within my first six months I was commended by senior management for keeping my scrap rate below 3%.
+> In fourth year, our Enterprise class asked us to create a mini-business. Most people did bake sales or sold pizza at lunch; I negotiated with a supplier in China, imported Bluetooth trackers for about €7.40, and sold them around the school as Nut Finders for €20 and later €25. I sold hundreds, was doing more than €100 in sales on some school days, and qualified for the national stage of a student enterprise competition years before Apple released AirTags.
 
 #### Please tell us in one or two sentences about the most impressive thing other than this startup that you have built or achieved.
 
@@ -81,7 +81,7 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### List any competitions or awards you have won, or papers you have published.
 
-> None.
+> Qualified for the national stage of a student enterprise competition with Nut Finders. The business was also recognised on the Enterprise Ireland website. No published papers.
 
 ### Builder Profile
 
