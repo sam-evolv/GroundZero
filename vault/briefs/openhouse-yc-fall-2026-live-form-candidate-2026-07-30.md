@@ -43,8 +43,8 @@ The technical-founder answer is Yes because Sam can and does build, test and dep
 - LinkedIn: https://www.linkedin.com/in/sam-donworth9
 - Education: University College Cork, BA Economics, September 2019 to October 2022.
 - Work history imported from LinkedIn and to be retained truthfully:
-  - David Howard Golf, Manager, `[START MONTH/YEAR REQUIRED]` to present
-  - OpenHouse Ai, Founder and CEO, December 2025 to present
+  - David Howard Golf, Manager, June 2026 to present
+  - OpenHouse AI, Founder and CEO, December 2025 to present
   - EvolvAi Ireland, Founder, June 2025 to present
   - Temporis Capital, Property Analyst working on Longview Estates, September 2024 to present
   - The Madison Avenue Pub and Hotel, Operations Manager, July 2023 to December 2023
@@ -60,7 +60,15 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 Use this concise description for the David Howard Golf role:
 
-> Manage commercial partnerships, speaking opportunities and digital presence for amateur golfer David Howard. Built davidhowardgolf.ie and helped secure more than €50,000 in sponsorship and speaking engagements within two weeks of his qualification for the 154th Open Championship.
+> Manage commercial partnerships, speaking opportunities and digital presence for amateur golfer David Howard. Built davidhowardgolf.ie around his appearance in the 154th Open Championship.
+
+Use this concise description for the OpenHouse AI role:
+
+> Sole founder. I built OpenHouse, a handover and aftercare platform for residential developers. It is live internally across four developments with 281 provisioned home records. I built the product end to end during evenings and weekends using TypeScript, Next.js, Supabase and Vercel.
+
+Use this concise description for the Johnson & Johnson MedTech role:
+
+> Worked day and night shifts producing orthopaedic devices. Operated robotic equipment, maintained production and quality records and volunteered for the Emergency Response Team.
 
 ### Social Media
 
@@ -72,22 +80,22 @@ Use this concise description for the David Howard Golf role:
 
 #### Please tell us about a time you most successfully hacked some non-computer system to your advantage.
 
-> When the amateur golfer I manage, David Howard, qualified for The Open, I realised there was a narrow window before Royal Birkdale when companies and event organisers would pay attention. I built davidhowardgolf.ie, packaged his story and approached them while the news was live, helping secure more than €50,000 in sponsorship and speaking engagements within two weeks.
+> When the amateur golfer I manage, David Howard, qualified for The Open, I treated the following two weeks as a commercial sprint. I built davidhowardgolf.ie, packaged his story and contacted companies and event organisers while the qualification was still news, helping secure more than €50,000 in sponsorship and speaking engagements.
 
 #### Please tell us in one or two sentences about the most impressive thing other than this startup that you have built or achieved.
 
-> I am one of three people responsible for taking Longview Estates from a greenfield site to more than 200 completed homes within what is effectively a new small town. I work across financing, design, commercial partners and day-to-day delivery of its 753 homes, 261 more in planning, supermarket, retail units, nursing home, primary care centre, pharmacy, schools and crèche.
+> I am one of three people responsible for taking Longview Estates from a greenfield site to more than 200 completed homes within what is effectively a new small town. The wider development includes 753 homes, another 261 in planning, a supermarket, retail, healthcare, schools and a crèche; I work across financing, design, commercial partners, sales, handover and day-to-day delivery.
 
 #### Tell us about things you've built before. Include URLs if possible.
 
-> At 15 or 16, I built a resale business around Nut Finder Bluetooth trackers, importing them from China for €7.40 each and selling hundreds at €20 to €25 to teachers, a sports team and a haulage company. I later built OpenBook, a platform through which we create and operate websites for small businesses on a monthly subscription, with an MCP integration that allows ChatGPT users to book services directly with businesses on the platform (https://www.openbook.ie). I also manage golfer David Howard and built https://www.davidhowardgolf.ie around his appearance in The Open at Royal Birkdale.
+> At 15 or 16, I built an importing and resale business around existing Nut Finder Bluetooth trackers. I negotiated with a supplier in China, imported them for €7.40 each and sold hundreds for €20 to €25 to teachers, a sports team and a haulage company. I later built OpenBook (https://www.openbook.ie), which creates and operates subscription websites for small businesses, plus an MCP that lets ChatGPT users book services directly with businesses on the platform.
 
 **Review gate:** Keep only projects Sam is comfortable having YC inspect. Do not claim customer use, revenue or production status for these builds without separate evidence.
 
 #### List any competitions or awards you have won, or papers you have published.
 
 > - Carrigaline Community School Student of the Year in my final year.
-> - Captained school and local rugby teams and won a championship.
+> - Captained school and club rugby teams and won a championship.
 > - My 2022 UCC honours economics dissertation, “An investigation on the relationship between the Cryptocurrency market and the Stock market throughout the COVID-19 global pandemic,” was selected for inclusion in University College Cork's Boole Library.
 
 ### Builder Profile
