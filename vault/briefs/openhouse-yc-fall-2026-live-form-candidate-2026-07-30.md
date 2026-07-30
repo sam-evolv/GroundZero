@@ -81,7 +81,7 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### List any competitions or awards you have won, or papers you have published.
 
-> My 2022 UCC honours economics dissertation, “An investigation on the relationship between the Cryptocurrency market and the Stock market throughout the COVID-19 global pandemic,” was selected for inclusion in University College Cork's Boole Library.
+> Carrigaline Community School Student of the Year in my final year. My 2022 UCC honours economics dissertation, “An investigation on the relationship between the Cryptocurrency market and the Stock market throughout the COVID-19 global pandemic,” was selected for inclusion in University College Cork's Boole Library.
 
 ### Builder Profile
 
