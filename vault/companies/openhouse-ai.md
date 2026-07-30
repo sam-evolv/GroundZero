@@ -174,6 +174,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
 - [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
 - [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
+- [[briefs/2026-07-30-openhouse-yc-live-application-execution]] - current same-day YC form, founder video, demo and submission sequence
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/sam-90-day-cash-authority-plan-2026-07-13]]
 - [[briefs/solar-installer-workflow-analysis]]

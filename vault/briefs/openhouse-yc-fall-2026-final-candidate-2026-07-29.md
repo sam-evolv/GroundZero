@@ -192,6 +192,7 @@ Target: approximately one minute, one natural take.
 
 ## Connected vault notes
 
+- [[2026-07-30-openhouse-yc-live-application-execution]]
 - [[openhouse-yc-fall-2026-question-audit-2026-07-29]]
 - [[openhouse-yc-founder-video-recording-card-2026-07-29]]
 - [[openhouse-yc-showhouse-product-demo-run-sheet-2026-07-29]]
