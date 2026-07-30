@@ -71,11 +71,11 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### Please tell us in one or two sentences about the most impressive thing other than this startup that you have built or achieved.
 
-> I am one of three people responsible for taking Longview Estates from a greenfield site to more than 200 completed homes within a town-scale mixed-use development. The current scheme includes 753 homes, with a further 260-plus homes in planning, as well as a supermarket, retail units, a nursing home, primary care centre, pharmacy, schools and a crèche; I work across financing, design-team coordination, potential vendors and the day-to-day running of the development.
+> I am one of three people responsible for taking Longview Estates from a greenfield site to more than 200 completed homes within what is effectively a new small town. I work across financing, design, commercial partners and day-to-day delivery of its 753 homes, 260-plus more in planning, supermarket, retail units, nursing home, primary care centre, pharmacy, schools and crèche.
 
 #### Tell us about things you've built before. Include URLs if possible.
 
-> At 15 or 16, I built a resale business around Nut Finder Bluetooth trackers. I negotiated with a supplier in China, imported them for €7.40 each, sold them for €20 and later €25, and sold hundreds to teachers, a sports team and a haulage company. We exhibited at the Cork Schools Business Runway Event at Cork Airport, where John Motherway of Local Enterprise Office South Cork bought one and publicly commended the product and our presentation. I have since built OpenBook, a system for creating and operating local-business websites; Cara, a voice-agent prototype; GroundZero, my git-backed agent command centre; and websites and workflow automations for small businesses. My public work is at https://github.com/sam-evolv, including https://github.com/sam-evolv/Cara, https://github.com/sam-evolv/OB-ClientSiteTemplate and https://github.com/sam-evolv/GroundZero.
+> At 15 or 16, I built a resale business around Nut Finder Bluetooth trackers, importing them from China for €7.40 each and selling hundreds at €20 to €25 to teachers, a sports team and a haulage company. Since then, I have built OpenBook, a system for researching local businesses and generating and operating working websites (https://www.openbook.ie), plus bespoke websites, AI assistants, booking systems and workflow automations for small businesses through EvolvAI.
 
 **Review gate:** Keep only projects Sam is comfortable having YC inspect. Do not claim customer use, revenue or production status for these builds without separate evidence.
 
