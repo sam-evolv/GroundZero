@@ -31,6 +31,7 @@ timezone: Europe/Dublin
 ## Business notes
 - OpenHouse AI is the core business.
 - OpenBook should be run end-to-end as far as possible: design handoff → build → deploy → domain.
+- Sam's 2022 UCC Department of Economics honours dissertation was titled "An investigation on the relationship between the Cryptocurrency market and the Stock market throughout the COVID-19 global pandemic." It used OLS regression and parameter-stability tests across five international stock markets and two cryptocurrencies. The supplied PDF does not establish that it was formally published or won an award.
 - At age 15 or 16, in fourth year at Carrigaline Secondary School, Sam built a resale business around Bluetooth trackers that were already branded Nut Finders. He negotiated with a supplier in China, imported them for about €7.40 each, sold them for €20 and later €25, made more than €100 in sales on some school days and sold hundreds of units. Buyers ranged from teachers using them for keys, children or dogs, to a sports team giving one to each child on a trip to New York, and a haulage company using them with its trucks. He also exhibited Nut Finders at the Cork Schools Business Runway Event at Cork Airport, where John Motherway of Local Enterprise Office South Cork bought one and publicly commended the product and team.
 
 ## Connected vault notes
