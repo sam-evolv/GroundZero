@@ -14,6 +14,68 @@ This is the canonical working candidate in the exact order of the authenticated 
 
 Do not submit until Sam's founder profile is complete, the founder and product videos are uploaded, all factual gates are resolved and Sam has approved the exact answers.
 
+## Founder Profile
+
+### Basics
+
+- Name: Sam Donworth
+- Email: sam@openhouseai.ie
+- Date of birth: `[SAM ENTERS PRIVATELY]`
+- Phone number: `[SAM ENTERS PRIVATELY]`
+- Phone country: Ireland, +353, not United States, +1
+- Gender: `[SAM SELECTS]`
+- Current city: Cork, Ireland
+
+Do not store Sam's date of birth or phone number in Ground Zero.
+
+### Role and Responsibilities
+
+- Title: CEO
+- Equity: 100%
+- Technical founder: Yes
+- Currently in school: No
+- Commit exclusively for the next year if accepted: Yes
+
+The technical-founder answer is Yes because Sam can and does build, test and deploy the product without outside human assistance. Extensive use of AI coding tools does not change that answer.
+
+### Background
+
+- LinkedIn: https://www.linkedin.com/in/sam-donworth9
+- Education: University College Cork, Level 8 Economics degree completed through Transformational Learning. `[EXACT DEGREE TITLE AND DATES REQUIRED FROM LINKEDIN OR SAM]`
+- Work history: Longview Estates Limited. `[EXACT TITLE AND DATES REQUIRED FROM LINKEDIN OR SAM]`
+
+Use YC's LinkedIn import first, then check every imported title and date rather than manually reconstructing them.
+
+### Social Media
+
+- Personal website: leave blank unless Sam has a genuine personal site
+- GitHub: https://github.com/sam-evolv
+- X: `[ADD ONLY IF SAM WANTS A PUBLIC ACCOUNT REVIEWED]`
+
+### Accomplishments
+
+#### Please tell us about a time you most successfully hacked some non-computer system to your advantage.
+
+`[FOUNDER STORY REQUIRED: recover the exact unconventional route Sam used to enter property development or complete the UCC Transformational Learning degree. Do not invent the mechanism.]`
+
+#### Please tell us in one or two sentences about the most impressive thing other than this startup that you have built or achieved.
+
+> I am one of three people responsible for taking Longview Estates from a greenfield site to more than 200 completed homes within a planned development of more than 750 homes. I have worked across the operational reality of selling, handing over and supporting those homes.
+
+#### Tell us about things you've built before. Include URLs if possible.
+
+> My main software build is OpenHouse, which is covered in this application. Before that, my most substantial building work was physical: helping take Longview Estates from greenfield to more than 200 completed homes. My public code is at https://github.com/sam-evolv.
+
+**Review gate:** Add another genuine prior software or physical build only if Sam can describe what he personally built and provide a truthful link.
+
+#### List any competitions or awards you have won, or papers you have published.
+
+`[SAM CONFIRMS: list verified awards or enter None]`
+
+### Builder Profile
+
+Paxel is optional. Do not let setup delay the written application, founder video or demo. Use it only if an existing coding history can produce a credible report quickly and without exposing private code or credentials.
+
 ## Founders
 
 ### Founder
