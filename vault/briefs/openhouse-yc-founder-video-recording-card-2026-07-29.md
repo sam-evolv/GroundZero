@@ -64,8 +64,7 @@ Choose the take that is:
 
 ## Upload check
 
-- Upload to YouTube as Unlisted.
-- Do not use Private.
-- Open the link in a private browser window.
-- Confirm it plays without login.
-- Paste the verified URL into the YC form and submit-copy file.
+- Export a video file no larger than 100 MB.
+- Upload the file directly to the authenticated YC founder-video field.
+- Confirm the uploaded file finishes processing and plays correctly in the application.
+- Do not substitute an unlisted YouTube link; the authenticated Fall 2026 form requests a direct upload.

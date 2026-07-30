@@ -115,15 +115,19 @@ Paxel is optional. Do not let setup delay the written application, founder video
 
 Sam Donworth
 
-**Current form state:** Profile incomplete. Complete the separate founder profile before submission and refresh the application if it remains flagged.
+**Current form state:** Profile complete. Paxel is connected but no builder report exists; a report is not required to apply.
 
 ### Who writes code, or does other technical work on your product? Was any of it done by a non-founder? Please explain.
 
-> I am the sole human builder and am responsible for the product and technical work. I use AI coding agents extensively, but I set the architecture, review changes, test and deploy the product. No human non-founder has written product code.
+> I write and review the product code and handle the architecture, testing and deployment. I use AI coding agents extensively, but no contractor, employee or other human non-founder has written production code.
 
 ### Are you looking for a cofounder?
 
-> No. I am not actively looking and am not delaying the company while searching. I would consider an exceptional person with proven execution, strong long-term alignment and a relevant network.
+Select: **No**
+
+If a text field appears:
+
+> No. I am building OpenHouse as a solo founder and am not looking for a cofounder.
 
 ## Founder Video
 
@@ -133,6 +137,10 @@ Sam Donworth
 
 Use [[briefs/openhouse-yc-founder-video-recording-card-2026-07-29]]. The uploaded file replaces the older assumption that an unlisted URL would be required.
 
+Natural reference version, not to be read word for word:
+
+> Hi, I'm Sam Donworth, the sole founder of OpenHouse. I am one of three people running Longview Estates, where we have delivered more than 200 homes. I kept seeing the same problem: developers create the richest record a home will ever have, then hand it over as PDFs and lose the context across emails and staff knowledge. I built OpenHouse to give each home a living record that supports handover, answers homeowner questions and carries issue evidence back into aftercare. It is live internally across four Longview developments with 281 provisioned home records. I built the product myself during evenings and weekends. If accepted, I will stop all other work and work exclusively on OpenHouse.
+
 ## Company
 
 ### Company name
@@ -141,7 +149,7 @@ OpenHouse
 
 ### Describe what your company does in 50 characters or less.
 
-> Handover and aftercare for homebuilders
+> Handover and aftercare software for homebuilders
 
 ### Company URL, if any
 
@@ -167,7 +175,7 @@ Do not paste normal production credentials or any credentials connected to perso
 
 ### What is your company going to make? Please describe your product and what it does or will do.
 
-> OpenHouse gives residential developers one system to hand over homes and manage aftercare. The developer provisions the approved information for each home, including its specification, installed systems, documents and warranties. The homeowner receives that record at handover, can ask questions based on the specific property and can report an issue with photos and context. The developer sees missing information, repeated questions and aftercare issues tied to the correct home instead of reconstructing context from PDFs, email and staff memory. Each deployment creates a home record that can later support warranties, maintenance and home performance.
+> OpenHouse is handover and aftercare software for residential developers. The developer creates a digital record for each home from its specifications, installed systems, documents and warranties. At handover, the buyer receives that record and can ask property-specific questions or report issues with photos. The developer manages questions and defects against the correct home instead of reconstructing context from PDFs, email and staff memory. Over time, the same record can support warranties, maintenance and home performance.
 
 ### Where do you live now, and where would the company be based after YC?
 
@@ -187,11 +195,11 @@ If Sam intends to attend the batch but retain Cork as the company base:
 
 **San Francisco post-batch version:**
 
-> I live in Cork, where I learned the problem and built the first internal deployment. If accepted, I will relocate to San Francisco, leave my current role and work exclusively on OpenHouse. The US is the largest serious expansion market for the company, while my Irish developer experience gives me a practical base for proving the first workflow.
+> I live in Cork, where I learned the problem and built the first internal deployment. If accepted, I will relocate to San Francisco, stop all other work and work exclusively on OpenHouse. The US is the largest serious expansion market for the company, while my Irish developer experience gives me a practical base for proving the first workflow.
 
 **Cork post-batch version:**
 
-> I live in Cork, where I learned the problem and built the first internal deployment. If accepted, I will relocate to San Francisco for the batch, leave my current role and work exclusively on OpenHouse. I would initially keep the company based in Cork while using YC to build a serious US customer route, then revisit the permanent base when customer evidence makes the right location clear.
+> I live in Cork, where I learned the problem and built the first internal deployment. If accepted, I will relocate to San Francisco for the batch, stop all other work and work exclusively on OpenHouse. I would initially keep the company based in Cork while using YC to build a serious US customer route, then revisit the permanent base when customer evidence makes the right location clear.
 
 Choose one truthful version before paste. Do not submit an undecided placeholder.
 
@@ -199,15 +207,15 @@ Choose one truthful version before paste. Do not submit an undecided placeholder
 
 ### How far along are you?
 
-> I began serious development in October 2025 and built OpenHouse during evenings and weekends. It is live internally at Longview Estates across four developments. As of 29 July 2026, production contains 281 home records, 143 homes with timestamped purchaser-agreement records and 85 homes linked to homeowner accounts. Early use showed that homeowners struggled to describe settlement cracks and other snags in text, so I added photo input and property-specific issue handling. Longview is the developer where I work, not an independent customer, and revenue is €0. The next proof is one paid external scheme.
+> OpenHouse is live internally within Longview Estates across four residential developments. As of 29 July 2026, production contains 281 provisioned home records, 143 timestamped purchaser-agreement records and 85 homes linked to homeowner accounts. When early homeowners struggled to describe settlement cracks and other snags in text, I added photo input and property-specific issue handling. Longview is the developer where I work, not an independent customer, and OpenHouse has €0 revenue. The next proof is a paid external scheme.
 
 ### How long have each of you been working on this? How much of that has been full-time? Please explain.
 
-> I began serious product development in October 2025 and incorporated OpenHouse Ai Limited on 4 February 2026. I have built it during evenings and weekends alongside my full-time role at Longview Estates. I have never worked on OpenHouse full-time. If accepted, I will leave my role and work exclusively on the company.
+> I began serious product development in October 2025 and have built OpenHouse during evenings and weekends alongside my full-time role at Longview Estates. I have not yet worked on OpenHouse full-time. If accepted, I will stop all other employment and paid side work and work exclusively on OpenHouse.
 
 ### What tech stack are you using, or planning to use, to build this product? Include AI models and AI coding tools you use.
 
-> TypeScript, Next.js, React, Supabase/Postgres and Vercel. OpenHouse uses OpenAI models for document and assistant workflows. I use Claude Code and Hermes Agent as coding tools, with automated tests and manual review before deployment. The product is a multi-tenant application with separate developer and homeowner roles.
+> TypeScript, Next.js 14, React, Supabase/Postgres and Vercel. OpenAI GPT-4o and GPT-4.1 models power document extraction, classification and property-specific assistant workflows. I use Claude Code and Hermes Agent as coding tools, with automated tests and manual review before deployment.
 
 ### Are people using your product?
 
@@ -231,23 +239,25 @@ If a follow-up field appears, use:
 
 ### If you have already participated or committed to participate in an incubator, accelerator or pre-accelerator program, please tell us about it.
 
-> I applied to NDRC's pre-accelerator in Ireland and completed the interview on 29 July 2026. Their decision is pending. NDRC has not offered funding, requested equity or created any commitment.
+> No.
 
-**Gate:** Recheck the NDRC status immediately before submission.
+**Reason:** A pending application and interview are not participation or a commitment. Recheck the NDRC status immediately before submission; disclose it if Sam accepts a place or makes a commitment.
 
 ## Idea
 
 ### Why did you pick this idea to work on? Do you have domain expertise in this area? How do you know people need what you're making?
 
-> I am one of three people responsible for taking Longview Estates from greenfield to more than 200 completed homes in a planned 750-plus-home development. I work directly across sales, handover and aftercare. I repeatedly saw the developer create the richest record a home will ever have, then reduce it at handover to disconnected PDFs, emails and staff knowledge. Homeowners could not find the right answer, while staff reconstructed context they already had. I built OpenHouse inside that workflow. The internal deployment proves the product can operate across real homes and taught me how homeowners actually ask for help. It does not yet prove that an independent developer will pay, which is the next test.
+> I am one of three people responsible for taking Longview Estates from greenfield to more than 200 completed homes in a planned 750-plus-home development. I work directly across sales, handover and aftercare. I repeatedly saw the developer create the richest record a home will ever have, then reduce it at handover to disconnected PDFs, email and staff knowledge. Homeowners could not find the right answer, while staff reconstructed context they already had. I built OpenHouse from that problem and deployed it internally at Longview. That deployment proves it can operate across real homes, but it does not yet prove that an independent developer will pay. That is the next test.
 
 ### Who are your competitors? What do you understand about your business that they don't?
 
-> Competitors include Foundation and Spaciable for homebuilder buyer experience and handover, Clixifix and Verisk Punchlist Manager for defects and warranty, HomeBinder and Centriq for homeowner records, plus PDFs, shared drives, email and staff memory. Most alternatives optimise document delivery, defect management or homeowner storage separately. My insight is that handover is the lowest-cost moment to create the permanent record of a home because the developer still has the approved documents, installed-system information and distribution relationship with the buyer. OpenHouse keeps that home-specific context attached to later questions, issue evidence and aftercare. The software can be copied; the advantage must be earned through developer distribution and a record that becomes more useful over time.
+> Foundation is the closest US competitor, providing buyer apps, documents, messaging and warranty workflows. Spaciable covers handover and aftercare across more than 100,000 homes; Clixifix and Verisk Punchlist Manager focus on defects and warranty. The default alternative remains a CRM plus shared drives, PDFs and email. My insight is that the durable asset is not the portal; it is a developer-sourced record of the physical home. Handover is the lowest-cost point to create it because the developer still has the source information and access to every buyer. OpenHouse uses that record for property-specific answers and keeps later questions, photos, defects and warranties attached to the correct home.
+
+**Competitor verification, 2026-07-30:** Foundation remains active in YC's directory and its live site covers buyer apps, documents, messaging and warranty. Spaciable's live site reports more than 100,000 homes digitally delivered. Clixifix and Verisk publicly position around defect, customer-care and warranty workflows.
 
 ### How do or will you make money? How much could you make? Give your best estimate.
 
-> Residential developers will pay a scheme setup fee and a per-home provisioning fee. My initial hypothesis is €99 per home, but no independent customer has validated that price. At €99, a developer delivering 500 homes per year represents €49,500 annually before setup fees. Provisioning is the initial wedge. To reach €100 million in annual revenue, OpenHouse must expand contract value through recurring aftercare, warranty, maintenance and home-performance workflows rather than rely only on a small one-time fee. The first paid external scheme will test willingness to pay, measurable operational value and the recurring model.
+> Residential developers will pay an annual platform fee plus a per-home provisioning fee; my initial per-home hypothesis is €99. A developer delivering 500 homes per year represents €49,500 before the platform fee. The one-time fee alone is not the venture-scale business. I believe recurring aftercare, warranty and home-performance workflows can bring average annual contract value above €100,000; 1,000 customers at that level would produce €100 million in annual revenue. The first paid external scheme will test both pricing and which recurring workflow developers will pay for.
 
 ### If you had any other ideas you considered applying with, please list them.
 
@@ -285,13 +295,13 @@ If a follow-up field appears, clarify:
 
 ### What convinced you to apply to Y Combinator? Did someone encourage you to apply? Have you been to any YC events?
 
-> I had treated YC as something for other founders until I realised that was a limit I had imposed on myself. OpenHouse is now live, but I need to turn internal operating proof into repeatable external sales and build a serious US route. YC is the strongest environment for making that transition quickly. No one directly encouraged me to apply and I have not attended a YC event.
+> OpenHouse has moved beyond a prototype and is operating inside real developments. The next challenge is turning internal use into repeatable sales to independent developers and building a serious route into the US homebuilder market. YC is the strongest environment for making that transition quickly. No one directly encouraged me to apply and I have not attended a YC event.
 
 **Gate:** Confirm the final sentence is factually correct before paste.
 
 ### How did you hear about Y Combinator?
 
-> I first learned about YC through the companies and founders it backed, then kept encountering its advice through founder podcasts, books and interviews.
+> I first heard about YC through the companies and founders it backed, then through founder podcasts, books and interviews.
 
 ## Batch Preference
 
@@ -301,15 +311,25 @@ Select: **Fall 2026**
 
 ## Required assets and blockers
 
-- Complete Sam's separate founder profile.
-- Upload one-minute founder video, maximum 100 MB.
-- Upload product demo, maximum three minutes and 100 MB.
-- Decide the post-batch company base.
-- Decide whether safe reviewer credentials can be supplied.
-- Recheck NDRC status.
-- Recheck every conditional field revealed by Yes or No selections.
-- Confirm the Curious answer's statement about encouragement and YC events.
-- Resolve all placeholders and complete a final founder read before submission.
+- Replace the live Johnson & Johnson description with the verified concise version and clear any optional social placeholders.
+- Name the rugby championship, team and year or omit that award; `won a championship` is too vague to add much signal.
+- Keep the Boole Library statement only if the dissertation was selectively chosen rather than automatically deposited.
+- Keep `used the income to fund the early build of OpenHouse` only if EvolvAI income directly paid OpenHouse development costs rather than merely supporting Sam generally.
+- Classify the €50,000-plus David Howard result as signed, paid, invoiced, confirmed/booked or verbal/in-principle value.
+- Decide whether the post-batch company base is San Francisco or Cork. Attending YC in San Francisco is a separate commitment.
+- Create and test a synthetic YC reviewer account before supplying `portal.openhouseai.ie`; otherwise leave the product-login field blank and rely on the direct-upload demo. Never provide access to real purchaser data.
+- Record and directly upload the one-minute founder video, maximum 100 MB.
+- Record and directly upload the product demo, maximum three minutes and 100 MB.
+- Confirm that `No` remains accurate for the cofounder, previous YC application, accelerator participation and current fundraising questions.
+- Certify actual product use by at least one Longview staff member or homeowner. Linked accounts alone do not justify selecting `Yes`.
+- Certify that YC acceptance means stopping Longview, David Howard Golf, EvolvAI, OpenBook work and every other paid commitment for the stated exclusive OpenHouse commitment.
+- Recheck NDRC status immediately before submission; disclose it only if a place has been accepted or another commitment now exists.
+- Confirm that no person directly encouraged the YC application and that Sam has attended no YC event.
+- Confirm the legal entity name, company number, incorporation date, 100% ownership, approximately €10,000 founder-paid costs, and zero grants, loans, SAFEs, family money or outside investment.
+- Complete a founder-to-company IP assignment before taking outside investment. This is a legal-readiness gate, not a claim to add to the application unless YC asks.
+- Recheck every conditional field revealed by the Yes or No selections against the authenticated form.
+- Test the marketing site, product link and both uploaded videos from a logged-out browser before submission. The current public homepage title renders `OpenHouse Ai`; correct it to `OpenHouse AI` if this can be done without delaying the application.
+- Remove every placeholder and complete one final founder read of the exact saved form.
 
 ## Connected vault notes
 

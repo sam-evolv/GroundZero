@@ -176,9 +176,10 @@ It is approximately 34 seconds and does not contain the current My Home actionab
 - Every shown interaction works on the exact preview.
 - No unsupported product or traction claim appears in narration.
 - Audio is clear and text is readable.
-- Upload as an unlisted video.
-- Verify the link while logged out.
-- Add the verified URL to [[openhouse-yc-fall-2026-final-candidate-2026-07-29]].
+- Export a video file no larger than 100 MB.
+- Upload the file directly to the authenticated YC product-demo field.
+- Confirm the uploaded file finishes processing and plays correctly in the application.
+- Record the verified upload status in [[openhouse-yc-fall-2026-live-form-candidate-2026-07-30]].
 
 ## Connected vault notes
 
