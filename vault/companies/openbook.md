@@ -6,7 +6,7 @@ sector: Bookings
 role: portfolio-company
 ---
 
-OpenBook is an all-in-one online presence for service businesses: a booking page, customer app icon, bespoke website, payments and reminders, and direct bookability through ChatGPT and Claude. Priority by volume and distribution.
+OpenBook is a platform for creating and operating websites for small businesses on a monthly subscription. Its MCP integration allows ChatGPT users to book services directly with businesses on the OpenBook platform. Priority by volume and distribution.
 
 ## Key facts
 - First customer: SIMply Golf 365

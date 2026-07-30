@@ -75,7 +75,7 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### Tell us about things you've built before. Include URLs if possible.
 
-> At 15 or 16, I built a resale business around Nut Finder Bluetooth trackers, importing them from China for €7.40 each and selling hundreds at €20 to €25 to teachers, a sports team and a haulage company. I later built OpenBook, an all-in-one platform that gives small service businesses a booking system, customer app icon, bespoke website, payments and direct bookability through ChatGPT and Claude (https://www.openbook.ie). Through EvolvAI, I have also built bespoke websites, AI assistants and workflow automations for small businesses.
+> At 15 or 16, I built a resale business around Nut Finder Bluetooth trackers, importing them from China for €7.40 each and selling hundreds at €20 to €25 to teachers, a sports team and a haulage company. I later built OpenBook, a platform through which we create and operate websites for small businesses on a monthly subscription, with an MCP integration that allows ChatGPT users to book services directly with businesses on the platform (https://www.openbook.ie). Through EvolvAI, I have also built bespoke websites, AI assistants and workflow automations for small businesses.
 
 **Review gate:** Keep only projects Sam is comfortable having YC inspect. Do not claim customer use, revenue or production status for these builds without separate evidence.
 
