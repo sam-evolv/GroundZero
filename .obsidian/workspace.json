@@ -179,6 +179,7 @@
   },
   "active": "eb5fc23b93b01bd0",
   "lastOpenFiles": [
+    "vault/assets/yc/openhouse-yc-real-product-demo-2026-07-30.mp4",
     "vault/assets/yc/openhouse-yc-product-demo-2026-07-30.mp4",
     "vault/briefs/openhouse-yc-portal-release-readiness-audit-2026-07-30.md",
     "vault/briefs/openhouse-yc-fall-2026-high-conviction-redraft-2026-07-30.md",
@@ -207,7 +208,6 @@
     "repos/property-assistant/node_modules/framer-motion/dist/projection.d.ts",
     "repos/property-assistant/node_modules/framer-motion/dist/index.d.ts",
     "repos/property-assistant/node_modules/framer-motion/dist/client.d.ts",
-    "repos/property-assistant/node_modules/framer-motion/dist/es/value/use-follow-value.mjs",
     "repos/property-assistant/node_modules/gauge/README.md",
     "repos/property-assistant/node_modules/gauge/CHANGELOG.md",
     "repos/property-assistant/node_modules/has-unicode/README.md",
