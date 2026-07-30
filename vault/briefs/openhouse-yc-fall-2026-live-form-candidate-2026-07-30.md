@@ -67,7 +67,7 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### Please tell us about a time you most successfully hacked some non-computer system to your advantage.
 
-`[FOUNDER STORY REQUIRED: recover the exact unconventional route Sam used to enter property development or complete the UCC Transformational Learning degree. Do not invent the mechanism.]`
+> At Johnson & Johnson, I worked inside a tightly controlled production process but still found a way to introduce a new physical tool that improved quality and safety. Within my first six months I was commended by senior management for keeping my scrap rate below 3%.
 
 #### Please tell us in one or two sentences about the most impressive thing other than this startup that you have built or achieved.
 
@@ -75,13 +75,13 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### Tell us about things you've built before. Include URLs if possible.
 
-> Before and alongside OpenHouse, I built Cara, a voice-agent prototype; OpenBook, a system for creating and operating local-business websites; GroundZero, my git-backed agent command centre; and a series of websites and workflow automations for small businesses. My public work is at https://github.com/sam-evolv, including https://github.com/sam-evolv/Cara, https://github.com/sam-evolv/OB-ClientSiteTemplate and https://github.com/sam-evolv/GroundZero.
+> I have also built OpenBook, a system for creating and operating local-business websites; Cara, a voice-agent prototype; GroundZero, my git-backed agent command centre; and a series of websites and workflow automations for small businesses. My public work is at https://github.com/sam-evolv, including https://github.com/sam-evolv/Cara, https://github.com/sam-evolv/OB-ClientSiteTemplate and https://github.com/sam-evolv/GroundZero.
 
 **Review gate:** Keep only projects Sam is comfortable having YC inspect. Do not claim customer use, revenue or production status for these builds without separate evidence.
 
 #### List any competitions or awards you have won, or papers you have published.
 
-`[SAM CONFIRMS: list verified awards or enter None]`
+> None.
 
 ### Builder Profile
 
