@@ -55,6 +55,8 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[briefs/openhouse-ndrc-accelerator-pitch]] - NDRC pitch
 - [[briefs/openhouse-ndrc-submission-sprint-2026-07-01]] - active NDRC submission sprint and deck QA plan
 - [[briefs/openhouse-ndrc-application-pack-2026-07-01]] - NDRC application fields, answers, blockers and upload checklist
+- [[briefs/2026-07-30-openhouse-yc-usage-evidence]] - read-only production audit supporting the conservative 259-question / 79-home YC usage metric and developer intelligence loop
+- [[briefs/openhouse-yc-fall-2026-voice-redraft-2026-07-30]] - non-canonical natural-language YC redraft for Sam's review
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]] - post-Cairn funding / UK-US / DTC strategy reset
 - [[briefs/openhouse-ireland-funding-routes-2026-06-29]] - Ireland funding and backing routes
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] - UK/US expansion research
@@ -102,6 +104,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - Supabase project: `mddxbilpjukwskeefakz`
 - Vercel project: `prj_okAOLGbRgbTKEvbl1RgD4UsRdZX2`
 - Schemes with live data: Longview Park, Ardan View, Rathard Lawn, Rathard Park
+- As of 29 July 2026, after excluding one identifiable internal QA home, the production assistant had answered 259 property-specific questions across 79 home contexts in those four Longview developments. Of these, 245 were not built-in suggested prompts. See [[briefs/2026-07-30-openhouse-yc-usage-evidence]].
 - Design: gold `#D4AF37`, near-black `#080808` / `#111827`, Inter + Source Serif 4
 - Secrets live in the runtime environment only, never in the repo
 
