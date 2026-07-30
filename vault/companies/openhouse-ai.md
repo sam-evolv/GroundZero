@@ -59,6 +59,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[briefs/openhouse-yc-fall-2026-voice-redraft-2026-07-30]] - non-canonical natural-language YC redraft for Sam's review
 - [[briefs/openhouse-yc-fall-2026-first-principles-full-review-2026-07-30]] - complete first-principles YC candidate in authenticated live-form order with unresolved founder gates preserved
 - [[briefs/openhouse-yc-fall-2026-high-conviction-redraft-2026-07-30]] - high-conviction YC rewrite centred on the exact-home intelligence layer and developer learning loop
+- [[briefs/openhouse-yc-portal-release-readiness-audit-2026-07-30]] - end-to-end YC reviewer-access, My Home and main-publication audit; current verdict is blocked-do-not-publish
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]] - post-Cairn funding / UK-US / DTC strategy reset
 - [[briefs/openhouse-ireland-funding-routes-2026-06-29]] - Ireland funding and backing routes
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] - UK/US expansion research
