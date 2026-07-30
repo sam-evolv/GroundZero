@@ -41,10 +41,17 @@ The technical-founder answer is Yes because Sam can and does build, test and dep
 ### Background
 
 - LinkedIn: https://www.linkedin.com/in/sam-donworth9
-- Education: University College Cork, Level 8 Economics degree completed through Transformational Learning. `[EXACT DEGREE TITLE AND DATES REQUIRED FROM LINKEDIN OR SAM]`
-- Work history: Longview Estates Limited. `[EXACT TITLE AND DATES REQUIRED FROM LINKEDIN OR SAM]`
+- Education: University College Cork, BA Economics, September 2019 to October 2022.
+- Work history imported from LinkedIn and to be retained truthfully:
+  - OpenHouse Ai, Founder and CEO, December 2025 to present
+  - EvolvAi Ireland, Founder, June 2025 to present
+  - Temporis Capital, Property Analyst working on Longview Estates, September 2024 to present
+  - The Madison Avenue Pub and Hotel, Operations Manager, July 2023 to December 2023
+  - Johnson & Johnson MedTech, Production Associate, October 2022 to June 2023
+  - The Overdraught Restaurant and Pub, Bar Manager, August 2018 to May 2022
+  - Donworth & Co, Part-Time Operations Coordinator, May 2018 to January 2022
 
-Use YC's LinkedIn import first, then check every imported title and date rather than manually reconstructing them.
+Use concise factual descriptions rather than the imported LinkedIn marketing copy. Keep all overlapping present roles visible; the separate commitment answer states that Sam will work exclusively on OpenHouse if accepted.
 
 ### Social Media
 
@@ -64,9 +71,9 @@ Use YC's LinkedIn import first, then check every imported title and date rather 
 
 #### Tell us about things you've built before. Include URLs if possible.
 
-> My main software build is OpenHouse, which is covered in this application. Before that, my most substantial building work was physical: helping take Longview Estates from greenfield to more than 200 completed homes. My public code is at https://github.com/sam-evolv.
+> Before and alongside OpenHouse, I built Cara, a voice-agent prototype; OpenBook, a system for creating and operating local-business websites; GroundZero, my git-backed agent command centre; and a series of websites and workflow automations for small businesses. My public work is at https://github.com/sam-evolv, including https://github.com/sam-evolv/Cara, https://github.com/sam-evolv/OB-ClientSiteTemplate and https://github.com/sam-evolv/GroundZero.
 
-**Review gate:** Add another genuine prior software or physical build only if Sam can describe what he personally built and provide a truthful link.
+**Review gate:** Keep only projects Sam is comfortable having YC inspect. Do not claim customer use, revenue or production status for these builds without separate evidence.
 
 #### List any competitions or awards you have won, or papers you have published.
 
