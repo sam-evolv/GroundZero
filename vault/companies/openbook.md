@@ -6,7 +6,7 @@ sector: Bookings
 role: portfolio-company
 ---
 
-Real appointments at Irish service businesses. SMB booking platform. Priority by volume and distribution. Founder-led growth model.
+OpenBook is an all-in-one online presence for service businesses: a booking page, customer app icon, bespoke website, payments and reminders, and direct bookability through ChatGPT and Claude. Priority by volume and distribution.
 
 ## Key facts
 - First customer: SIMply Golf 365
