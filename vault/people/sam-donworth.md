@@ -31,7 +31,7 @@ timezone: Europe/Dublin
 ## Business notes
 - OpenHouse AI is the core business.
 - OpenBook should be run end-to-end as far as possible: design handoff → build → deploy → domain.
-- At age 15 or 16, in fourth year at school, Sam created Nut Finders for an Enterprise class. He negotiated with a supplier in China, imported Bluetooth trackers for about €7.40, sold them for €20 and later €25, made more than €100 in sales on some school days and sold hundreds of units. Buyers ranged from teachers using them for keys, children or dogs, to a sports team giving one to each child on a trip to New York, and a haulage company using them with its trucks. The business reached the national stage of a student enterprise competition and was recognised on the Enterprise Ireland website, years before Apple released AirTags.
+- At age 15 or 16, in fourth year at school, Sam built a resale business around Bluetooth trackers that were already branded Nut Finders. He negotiated with a supplier in China, imported them for about €7.40 each, sold them for €20 and later €25, made more than €100 in sales on some school days and sold hundreds of units. Buyers ranged from teachers using them for keys, children or dogs, to a sports team giving one to each child on a trip to New York, and a haulage company using them with its trucks. The business reached the national stage of a student enterprise competition and was recognised on the Enterprise Ireland website, years before Apple released AirTags.
 
 ## Connected vault notes
 

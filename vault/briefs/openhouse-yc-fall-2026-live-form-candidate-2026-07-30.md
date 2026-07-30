@@ -67,7 +67,7 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### Please tell us about a time you most successfully hacked some non-computer system to your advantage.
 
-> When I was 15 or 16, our fourth-year Enterprise class asked us to create a mini-business. Most people did bake sales or sold pizza at lunch; I negotiated with a supplier in China, imported Bluetooth trackers for about €7.40, and sold them as Nut Finders for €20 and later €25. I sold hundreds to buyers ranging from teachers using them for keys, children or dogs, to a sports team giving one to each child on a trip to New York, and a haulage company using them with its trucks. I was doing more than €100 in sales on some school days and qualified for the national stage of a student enterprise competition years before Apple released AirTags.
+> When I was 15 or 16, our fourth-year Enterprise class asked us to create a mini-business. Most people did bake sales or sold pizza at lunch; I negotiated with a supplier in China, imported Bluetooth trackers already branded Nut Finders for about €7.40 each, and resold them for €20 and later €25. I sold hundreds to buyers ranging from teachers using them for keys, children or dogs, to a sports team giving one to each child on a trip to New York, and a haulage company using them with its trucks. I was doing more than €100 in sales on some school days and qualified for the national stage of a student enterprise competition years before Apple released AirTags.
 
 #### Please tell us in one or two sentences about the most impressive thing other than this startup that you have built or achieved.
 
@@ -81,7 +81,7 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### List any competitions or awards you have won, or papers you have published.
 
-> Qualified for the national stage of a student enterprise competition with Nut Finders. The business was also recognised on the Enterprise Ireland website. No published papers.
+> Qualified for the national stage of a student enterprise competition through my Bluetooth-tracker resale business. The business was also recognised on the Enterprise Ireland website. No published papers.
 
 ### Builder Profile
 
