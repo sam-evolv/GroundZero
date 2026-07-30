@@ -71,7 +71,7 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 
 #### Please tell us in one or two sentences about the most impressive thing other than this startup that you have built or achieved.
 
-> I am one of three people responsible for taking Longview Estates from a greenfield site to more than 200 completed homes within what is effectively a new small town. I work across financing, design, commercial partners and day-to-day delivery of its 753 homes, 260-plus more in planning, supermarket, retail units, nursing home, primary care centre, pharmacy, schools and crèche.
+> I am one of three people responsible for taking Longview Estates from a greenfield site to more than 200 completed homes within what is effectively a new small town. I work across financing, design, commercial partners and day-to-day delivery of its 753 homes, 261 more in planning, supermarket, retail units, nursing home, primary care centre, pharmacy, schools and crèche.
 
 #### Tell us about things you've built before. Include URLs if possible.
 
@@ -82,7 +82,7 @@ Use this concise description for the Temporis Capital and Longview Estates role:
 #### List any competitions or awards you have won, or papers you have published.
 
 > - Carrigaline Community School Student of the Year in my final year.
-> - Captained school and local rugby teams and won multiple championships.
+> - Captained school and local rugby teams and won a championship.
 > - My 2022 UCC honours economics dissertation, “An investigation on the relationship between the Cryptocurrency market and the Stock market throughout the COVID-19 global pandemic,” was selected for inclusion in University College Cork's Boole Library.
 
 ### Builder Profile
