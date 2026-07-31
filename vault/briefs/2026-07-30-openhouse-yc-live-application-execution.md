@@ -169,3 +169,9 @@ Do not spend the morning polishing the video or widening the product. The authen
 - [[briefs/openhouse-perfect-yc-application-playbook-2026-07-29]]
 - [[briefs/openhouse-yc-founder-video-recording-card-2026-07-29]]
 - [[briefs/openhouse-yc-showhouse-product-demo-run-sheet-2026-07-29]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-yc-fall-2026-live-form-candidate-2026-07-30]]
+- [[companies/openhouse-ai]]
+

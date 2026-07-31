@@ -291,6 +291,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-27]]
 - [[briefs/wiki-refiner-2026-07-28]]
 - [[briefs/wiki-refiner-2026-07-29]]
+- [[briefs/wiki-refiner-2026-07-30]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-product-map]]
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]

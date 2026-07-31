@@ -449,3 +449,13 @@ In parallel, pursue the independent paid developer deployment. That proof will i
 - [[briefs/openhouse-recent-yc-acceptance-range-assessment-2026-07-29]]
 - [[briefs/openhouse-perfect-yc-application-playbook-2026-07-29]]
 - [[items/oh-bridgewater-warm-introduction]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[briefs/openhouse-perfect-yc-application-playbook-2026-07-29]]
+- [[briefs/openhouse-recent-yc-acceptance-range-assessment-2026-07-29]]
+- [[companies/openhouse-ai]]
+- [[items/oh-bridgewater-warm-introduction]]
+- [[project_state/oh]]
+

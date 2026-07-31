@@ -996,6 +996,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-show-house-evidence-capture-2026-07-28]]
 - [[briefs/wiki-refiner-2026-07-28]]
 - [[briefs/wiki-refiner-2026-07-29]]
+- [[briefs/wiki-refiner-2026-07-30]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[context/openhouse-product-map]]

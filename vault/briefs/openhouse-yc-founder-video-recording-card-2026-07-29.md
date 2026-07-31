@@ -68,3 +68,9 @@ Choose the take that is:
 - Upload the file directly to the authenticated YC founder-video field.
 - Confirm the uploaded file finishes processing and plays correctly in the application.
 - Do not substitute an unlisted YouTube link; the authenticated Fall 2026 form requests a direct upload.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-30-openhouse-yc-live-application-execution]]
+- [[briefs/openhouse-yc-fall-2026-live-form-candidate-2026-07-30]]
+

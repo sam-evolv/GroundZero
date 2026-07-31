@@ -958,6 +958,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-show-house-manual-evidence-register-2026-07-28]]
 - [[briefs/openhouse-show-house-walkthrough-evidence-2026-07-28]]
 - [[briefs/wiki-refiner-2026-07-29]]
+- [[briefs/wiki-refiner-2026-07-30]]
 - [[companies/openhouse-ai]]
 - [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]

@@ -649,6 +649,15 @@ The application should make YC believe this:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openhouse-market-readiness-audit]]
+- [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[briefs/openhouse-perfect-yc-application-playbook-2026-07-29]]
 - [[briefs/openhouse-recent-yc-acceptance-range-assessment-2026-07-29]]
+- [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]]
+- [[briefs/openhouse-yc-fall-2026-submit-copy-2026-07-29]]
+- [[briefs/openhouse-yc-narrative-rubric-2026-07-29]]
+- [[briefs/wiki-refiner-2026-07-30]]
+- [[companies/openhouse-ai]]
+- [[items/oh-bridgewater-warm-introduction]]
+- [[project_state/oh]]
 

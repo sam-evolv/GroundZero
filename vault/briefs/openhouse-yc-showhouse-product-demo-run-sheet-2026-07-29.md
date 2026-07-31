@@ -187,3 +187,9 @@ It is approximately 34 seconds and does not contain the current My Home actionab
 - [[openhouse-yc-fall-2026-question-audit-2026-07-29]]
 - [[openhouse-yc-founder-video-recording-card-2026-07-29]]
 - [[openhouse-yc-fall-2026-interview-evidence-pack-2026-07-29]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-30-openhouse-yc-live-application-execution]]
+- [[briefs/openhouse-yc-fall-2026-live-form-candidate-2026-07-30]]
+

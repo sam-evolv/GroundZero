@@ -289,3 +289,8 @@ Do not use the production portal URL in the YC application yet. Keep the current
 - [[openhouse-yc-fall-2026-high-conviction-redraft-2026-07-30]]
 - [[2026-07-30-openhouse-yc-live-application-execution]]
 - [[companies/openhouse-ai]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+

@@ -219,3 +219,8 @@ Select: Fall 2026
 - [[briefs/openhouse-yc-fall-2026-voice-redraft-2026-07-30]]
 - [[briefs/2026-07-30-openhouse-yc-usage-evidence]]
 - [[companies/openhouse-ai]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+

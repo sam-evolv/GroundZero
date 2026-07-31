@@ -447,5 +447,11 @@ More product breadth will not materially improve the comparison with recent acce
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-perfect-yc-application-playbook-2026-07-29]]
 - [[briefs/openhouse-pre-revenue-vc-shortlist-2026-07-29]]
+- [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
+- [[briefs/openhouse-yc-fall-2026-submit-copy-2026-07-29]]
+- [[companies/openhouse-ai]]
+- [[items/oh-bridgewater-warm-introduction]]
+- [[project_state/oh]]
 
