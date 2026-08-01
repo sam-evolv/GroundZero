@@ -2,23 +2,26 @@
 title: OpenHouse Care password and exact-installation authority hardening
 company_id: openhouse-ai
 date: 2026-08-01
-status: migration-pass-deployed-and-controlled-identity-gates-pending
-source: verified staged source, local production build, local runtime probes and independent exact-diff review
+status: exact-artifact-pass-deployed-and-controlled-identity-gates-pending
+source: verified staged source, production schema aggregate, local production build, local runtime probes and independent exact-artifact review
 ---
 
 # OpenHouse Care password and exact-installation authority hardening
 
 ## Current verdict
 
-The exact staged Care code candidate received an independent **PASS** with no concrete code release blocker.
+The final 37-file Care candidate received an independent **PASS** with no concrete code release blocker. It includes the server-authorized multi-home picker and removal of the adjacent legacy demo/admin entry path discovered after the earlier 36-file review.
 
 - Canonical artifact command: `git diff --cached --no-ext-diff`
-- Canonical staged diff SHA-256: `de71c377f12c306d8bcb21da215620f8762b305c52e764d3ddd139b11f3ce271`
-- Scope: 36 staged files, zero unstaged entries
-- Independent review: `deleg_99c1ac54`, PASS
+- Superseded reviewed diff: 36 files at `de71c377f12c306d8bcb21da215620f8762b305c52e764d3ddd139b11f3ce271`, independent PASS from `deleg_99c1ac54`
+- Reviewed staged and committed patch SHA-256: `1592f8635b9796bc63fcd9f65e7cf86eabe443befa0576cea5c436d0db9c09ce`
+- Reviewed scope: 37 files, with zero unstaged entries at review and a clean application worktree after commit
+- Current independent review: `deleg_2bcb28bc`, PASS
+- Local checkpoint commit: `6293d61a5d33cae20f80f73126e9f6f1cfa73af6`
+- Committed patch SHA-256: `1592f8635b9796bc63fcd9f65e7cf86eabe443befa0576cea5c436d0db9c09ce`, byte-identical to the reviewed staged patch
 - Migration 077 SHA-256: `32c76592082716231dfa9d2958779b9a1ece1dd785a68d7e0f1726f6cc14b3de`
 
-This is a code-review and migration pass, not release authorization. Sam explicitly approved migration 077 on 1 August 2026. The exact checksum above was verified, the live preconditions passed, and the complete file was applied once through `psql` with `ON_ERROR_STOP`; its transaction committed successfully. The limiter passed through the local production build against the live production database, but must still be repeated on the eventual deployed serverless candidate. Controlled-account production runtime gates also remain mandatory. Nothing was committed, pushed, merged or deployed. The certified YC reviewer deployment and credentials were unchanged.
+This is not release authorization. Sam explicitly approved migration 077 on 1 August 2026. The exact migration checksum was verified, the live preconditions passed, and the complete file was applied once through `psql` with `ON_ERROR_STOP`; its transaction committed successfully. The limiter passed through the local production build against the live production database, but must still be repeated on the eventual deployed serverless candidate. Controlled-account production runtime gates also remain mandatory. The reviewed patch was committed locally only; nothing was pushed, merged or deployed. The certified YC reviewer deployment and credentials were unchanged.
 
 ## Product decision
 
@@ -35,6 +38,8 @@ Authentication and installation authority are separate:
 ## Exact-installation authority
 
 Every protected homeowner surface requires continuing server-side authority for the exact requested installation.
+
+Live aggregate inspection, without exposing customer identifiers, found 18 unique active Care emails and one email linked to two active installations. Login therefore now denies zero matches, redirects one match directly and sends multiple matches to `/care`. That page verifies `auth.getUser()`, retrieves only live installations whose normalized server-managed customer email exactly equals the verified auth email, redirects a single result directly and renders an installation picker only for multiple verified results. Choosing a home does not grant authority; the exact destination is independently authorized again.
 
 Homeowner authority requires:
 
@@ -61,6 +66,8 @@ Unsafe unfinished surfaces are fail-closed:
 - The public SE Systems third-party upload page renders a not-found shell.
 - Third-party upload-init, upload-complete and demo job lookup return `404`.
 - No unauthenticated signed upload URL, runtime bucket creation or service-role upload mutation remains.
+- Legacy `/care/select` renders not found and no longer exposes a hard-coded installation identifier.
+- `/login/care` no longer contains the hidden `next`-activated admin login, fallback-installation query or arbitrary internal continuation branch; it is homeowner-only.
 
 ## Truthful-data boundary
 
@@ -97,6 +104,11 @@ After the final reviewer fixes:
 - Atomic limiter transaction probe: counts advanced exactly from 1 through 11; attempt 10 remained allowed; attempt 11 was blocked; positive retry interval; transaction rolled back with no retained probe row
 - Actual login route probe using one synthetic nonexistent email and eleven varying documentation-range IPs: attempts 1–10 returned generic `401`; attempt 11 returned `429` with `Retry-After: 901`
 - All twelve synthetic limiter keys from the route probe were deleted; read-back confirmed zero remained
+- Multi-home RED/GREEN regression: prior exactly-one login behavior failed the test; zero/one/multiple behavior now passes
+- Hidden admin/demo RED/GREEN regressions: the old `/login/care?next=...` admin branch and hard-coded `/care/select` identifier failed the tests; both are structurally removed and the focused smokes pass
+- Current 37-file artifact after these fixes: four Care smokes, TypeScript, production build, diff checks and zero-hit secret scan all pass
+- Anonymous `/care` runtime probe contains only the login redirect marker, no picker copy and no UUID-shaped Care path
+- `/care/select` runtime probe renders a not-found shell with no legacy selector copy or hard-coded installation ID
 
 Existing build warnings remain for `unpdf` direct `import.meta` access and a caught dynamic-server-usage diagnostic; the production build completed successfully.
 
