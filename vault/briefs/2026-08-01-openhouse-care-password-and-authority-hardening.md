@@ -2,26 +2,26 @@
 title: OpenHouse Care password and exact-installation authority hardening
 company_id: openhouse-ai
 date: 2026-08-01
-status: exact-artifact-pass-deployed-and-controlled-identity-gates-pending
-source: verified staged source, production schema aggregate, local production build, local runtime probes and independent exact-artifact review
+status: controlled-local-pass-final-review-and-deployed-gates-pending
+source: verified committed source, production schema aggregate, controlled local production-build probes and independent review
 ---
 
 # OpenHouse Care password and exact-installation authority hardening
 
 ## Current verdict
 
-The final 37-file Care candidate received an independent **PASS** with no concrete code release blocker. It includes the server-authorized multi-home picker and removal of the adjacent legacy demo/admin entry path discovered after the earlier 36-file review.
+The prior 37-file Care candidate received independent PASS, but the first explicitly authorized controlled active-account probe found a real production-schema mismatch in the content API. That route was corrected against the inspected live schema and all controlled local checks now pass. The amended exact commit is undergoing a final independent review before the authorized isolated preview deployment.
 
 - Canonical artifact command: `git diff --cached --no-ext-diff`
 - Superseded reviewed diff: 36 files at `de71c377f12c306d8bcb21da215620f8762b305c52e764d3ddd139b11f3ce271`, independent PASS from `deleg_99c1ac54`
-- Reviewed staged and committed patch SHA-256: `1592f8635b9796bc63fcd9f65e7cf86eabe443befa0576cea5c436d0db9c09ce`
-- Reviewed scope: 37 files, with zero unstaged entries at review and a clean application worktree after commit
-- Current independent review: `deleg_2bcb28bc`, PASS
-- Local checkpoint commit: `6293d61a5d33cae20f80f73126e9f6f1cfa73af6`
-- Committed patch SHA-256: `1592f8635b9796bc63fcd9f65e7cf86eabe443befa0576cea5c436d0db9c09ce`, byte-identical to the reviewed staged patch
+- Superseded reviewed patch: `1592f8635b9796bc63fcd9f65e7cf86eabe443befa0576cea5c436d0db9c09ce`, 37 files, PASS from `deleg_2bcb28bc`
+- Current amended commit: `3ad9cea6177a47dcde6fe2326cc3703e6419c405`
+- Current 37-file commit patch SHA-256: `db97f58f4d7d46365b8c29f3d528b76552ce29cd9979fd675ccba99ae376f23e`
+- Current worktree: clean
+- Current independent review: `deleg_912c9eab`, pending
 - Migration 077 SHA-256: `32c76592082716231dfa9d2958779b9a1ece1dd785a68d7e0f1726f6cc14b3de`
 
-This is not release authorization. Sam explicitly approved migration 077 on 1 August 2026. The exact migration checksum was verified, the live preconditions passed, and the complete file was applied once through `psql` with `ON_ERROR_STOP`; its transaction committed successfully. The limiter passed through the local production build against the live production database, but must still be repeated on the eventual deployed serverless candidate. Controlled-account production runtime gates also remain mandatory. The reviewed patch was committed locally only; nothing was pushed, merged or deployed. The certified YC reviewer deployment and credentials were unchanged.
+Sam explicitly approved both a dedicated controlled Care test relationship and an isolated immutable preview with no alias movement. A separate plus-addressed auth identity and one clearly synthetic active installation were created under the single internal OpenHouse tenant; postconditions confirmed the exact relationship and no customer record was modified. Credentials remain outside the vault in a temporary mode-600 file. The local production build now passes password login, session persistence, exact-home page and API reads, foreign-installation denial, logout and post-logout denial. Migration 077 remains applied and verified. The preview has not yet been deployed because final amended-commit review is pending. Nothing was pushed, merged or aliased; the certified YC reviewer deployment and credentials remain unchanged.
 
 ## Product decision
 
@@ -109,6 +109,12 @@ After the final reviewer fixes:
 - Current 37-file artifact after these fixes: four Care smokes, TypeScript, production build, diff checks and zero-hit secret scan all pass
 - Anonymous `/care` runtime probe contains only the login redirect marker, no picker copy and no UUID-shaped Care path
 - `/care/select` runtime probe renders a not-found shell with no legacy selector copy or hard-coded installation ID
+- Controlled active relationship: dedicated auth identity, synthetic active installation and normalized exact-email relationship postconditions passed; no customer identity or installation was changed
+- Initial controlled local matrix exposed HTTP 500 from `/api/care/content` because source selected nonexistent `installer_content.content_url`, `thumbnail_url`, `is_featured` and `display_order`
+- Live schema inspection confirmed real columns `file_url`, `category`, `view_count` and `created_at`; the route now selects those fields and maps real `file_url` to the existing response `content_url`
+- Corrected controlled local matrix: password login, cookie, authorized page, manifest, telemetry, content, conversations and service records passed; foreign page rendered not found; all foreign API reads returned `404`; logout passed; post-logout manifest returned `401`
+- Synthetic controlled-email and loopback limiter buckets were removed with zero known keys remaining
+- Amended commit verification: four smokes, TypeScript, Next 15.5.22 build, diff check and zero-hit secret scan pass; worktree clean
 
 Existing build warnings remain for `unpdf` direct `import.meta` access and a caught dynamic-server-usage diagnostic; the production build completed successfully.
 
