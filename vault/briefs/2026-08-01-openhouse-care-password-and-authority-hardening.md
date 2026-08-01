@@ -15,10 +15,10 @@ The prior 37-file Care candidate received independent PASS, but the first explic
 - Canonical artifact command: `git diff --cached --no-ext-diff`
 - Superseded reviewed diff: 36 files at `de71c377f12c306d8bcb21da215620f8762b305c52e764d3ddd139b11f3ce271`, independent PASS from `deleg_99c1ac54`
 - Superseded reviewed patch: `1592f8635b9796bc63fcd9f65e7cf86eabe443befa0576cea5c436d0db9c09ce`, 37 files, PASS from `deleg_2bcb28bc`
-- Current amended commit: `26141f0fca0b9ef53ab68d3c9371cf02cc87efb7`
-- Current 37-file commit patch SHA-256: `6c350bd3a0c7ac3cb1ea30181e35c0c8dd8d3138a96cb7665797767cd8bfcbcb`
+- Current amended commit: `61010e2aef0fe45291f61e75226a93caf31dd137`
+- Current 38-file commit patch SHA-256: `fd3d59281b6ee85efd2809f6921f4d6e8d6c40023395af1be725e04938ec854b`
 - Current worktree: clean
-- Current independent review: `deleg_58c3d291`, pending; `deleg_912c9eab` was invalidated by the subsequent unknown-system truthfulness fix
+- Current independent review: `deleg_6606139d`, pending; earlier reviews were invalidated by subsequent truthfulness and redirect fixes
 - Migration 077 SHA-256: `32c76592082716231dfa9d2958779b9a1ece1dd785a68d7e0f1726f6cc14b3de`
 
 Sam explicitly approved both a dedicated controlled Care test relationship and an isolated immutable preview with no alias movement. A separate plus-addressed auth identity and one clearly synthetic active installation were created under the single internal OpenHouse tenant; postconditions confirmed the exact relationship and no customer record was modified. Credentials remain outside the vault in a temporary mode-600 file. The local production build now passes password login, session persistence, exact-home page and API reads, foreign-installation denial, logout and post-logout denial. Migration 077 remains applied and verified. The preview has not yet been deployed because final amended-commit review is pending. Nothing was pushed, merged or aliased; the certified YC reviewer deployment and credentials remain unchanged.
@@ -115,9 +115,10 @@ After the final reviewer fixes:
 - Corrected controlled local matrix: password login, cookie, authorized page, manifest, telemetry, content, conversations and service records passed; foreign page rendered not found; all foreign API reads returned `404`; logout passed; post-logout manifest returned `401`
 - Controlled operational matrix: authorized assistant, pending service request and empty alert dismissal passed; corresponding foreign-installation requests returned `404`
 - Unknown and unsupported system types no longer fall through to Solar PV in status tools, assistant prompts, service drafts or troubleshooting knowledge; only recorded or explicitly named equipment families select a family-specific branch
+- Authenticated middleware login redirects now pass through the shared literal/encoded-backslash-safe internal-path validator; the crafted decoded-backslash exploit remained on-origin while a valid Care continuation redirected correctly
 - Synthetic conversation, messages and pending service request were deleted after proof; zero marked records remained
 - Synthetic controlled-email and loopback limiter buckets were removed with zero known keys remaining
-- Definitive amended commit verification: four smokes, TypeScript, Next 15.5.22 build, diff check and zero-hit secret scan pass; worktree clean
+- Current 38-file amended commit verification: four smokes, TypeScript, Next 15.5.22 build, authenticated redirect regression, diff check and zero-hit secret scan pass; worktree clean
 
 Existing build warnings remain for `unpdf` direct `import.meta` access and a caught dynamic-server-usage diagnostic; the production build completed successfully.
 
