@@ -2,7 +2,7 @@
 title: OpenHouse Care password and exact-installation authority hardening
 company_id: openhouse-ai
 date: 2026-08-01
-status: code-review-pass-runtime-gates-pending
+status: migration-pass-deployed-and-controlled-identity-gates-pending
 source: verified staged source, local production build, local runtime probes and independent exact-diff review
 ---
 
@@ -18,7 +18,7 @@ The exact staged Care code candidate received an independent **PASS** with no co
 - Independent review: `deleg_99c1ac54`, PASS
 - Migration 077 SHA-256: `32c76592082716231dfa9d2958779b9a1ece1dd785a68d7e0f1726f6cc14b3de`
 
-This is a code-review pass, not release authorization. The database migration and controlled production runtime gates below remain mandatory. Nothing was committed, pushed, merged, deployed or applied to production. The certified YC reviewer deployment and credentials were unchanged.
+This is a code-review and migration pass, not release authorization. Sam explicitly approved migration 077 on 1 August 2026. The exact checksum above was verified, the live preconditions passed, and the complete file was applied once through `psql` with `ON_ERROR_STOP`; its transaction committed successfully. The limiter passed through the local production build against the live production database, but must still be repeated on the eventual deployed serverless candidate. Controlled-account production runtime gates also remain mandatory. Nothing was committed, pushed, merged or deployed. The certified YC reviewer deployment and credentials were unchanged.
 
 ## Product decision
 
@@ -90,25 +90,31 @@ After the final reviewer fixes:
 - Legacy Care access endpoint: `404`
 - Anonymous protected Care APIs: denied
 - Before migration 077, password login fails closed with HTTP `503` and `Retry-After`
+- Migration 077 live preconditions: owner `postgres`, BYPASSRLS true, untrusted schema-create false, target table absent
+- Migration application: `BEGIN` through `COMMIT` succeeded for the exact approved checksum
+- Live postconditions: table owned by `postgres`; RLS enabled and forced; reset-time index present; expected five columns present; `PUBLIC`, `anon`, `authenticated` and `service_role` have no table privileges
+- Actual application connection: `SUPABASE_DB_URL`, role `postgres`, BYPASSRLS true, insert/update rights confirmed
+- Atomic limiter transaction probe: counts advanced exactly from 1 through 11; attempt 10 remained allowed; attempt 11 was blocked; positive retry interval; transaction rolled back with no retained probe row
+- Actual login route probe using one synthetic nonexistent email and eleven varying documentation-range IPs: attempts 1–10 returned generic `401`; attempt 11 returned `429` with `Retry-After: 901`
+- All twelve synthetic limiter keys from the route probe were deleted; read-back confirmed zero remained
 
 Existing build warnings remain for `unpdf` direct `import.meta` access and a caught dynamic-server-usage diagnostic; the production build completed successfully.
 
 ## Mandatory deployment gates
 
-1. Review and explicitly approve application of the exact migration 077 checksum above.
-2. Apply migration 077 transactionally and verify its postconditions.
-3. Prove the deployed application database role can execute the limiter's atomic upsert.
-4. Verify shared threshold enforcement, HTTP `429` and `Retry-After` in the deployed serverless environment.
-5. Use a controlled active Care identity to prove password login and durable session/cookie behavior.
-6. Prove exact-installation success and foreign-installation denial across pages and all protected APIs.
-7. Prove logout and copied-URL denial.
-8. Prove recovery delivery, callback, password update, replay/expiry behavior and successful subsequent login.
+Migration 077 and the local production-build application-role limiter proof are complete. The remaining gates are:
+
+1. Deploy an immutable candidate only with explicit authorization, then repeat the distributed threshold proof through that serverless deployment and confirm `429` plus `Retry-After`.
+2. Use a controlled active Care identity to prove password login and durable session/cookie behavior.
+3. Prove exact-installation success and foreign-installation denial across pages and all protected APIs.
+4. Prove logout and copied-URL denial.
+5. Prove recovery delivery, callback, password update, replay/expiry behavior and successful subsequent login.
 
 Sam's controlled auth identity currently has no active Care installation. One other active customer identity match exists but is not controlled and was not accessed. These gates cannot be replaced by source smokes, anonymous probes or aggregate account inventory.
 
 ## Release rule
 
-Do not deploy Care, apply migration 077, move aliases, alter credentials, push or merge this work without explicit authorization. The code candidate has passed independent review, but production release remains blocked on the mandatory deployment gates.
+Do not deploy Care, create or alter controlled identities/installations, move aliases, alter credentials, push or merge this work without explicit authorization. The code candidate and migration have passed, and the limiter passed locally against the live database, but release remains blocked on deployed-serverless and controlled-identity gates.
 
 ## Connected vault notes
 
