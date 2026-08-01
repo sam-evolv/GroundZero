@@ -96,6 +96,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-openbook-reset]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
+- [[briefs/chatgpt-voice-founder-os-2026-07-31]]
 - [[briefs/daily-agentic-value-radar-2026-07-15]]
 - [[briefs/daily-agentic-value-radar-2026-07-16]]
 - [[briefs/daily-agentic-value-radar-2026-07-17]]

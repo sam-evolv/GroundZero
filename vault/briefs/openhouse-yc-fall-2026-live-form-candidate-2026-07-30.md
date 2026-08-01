@@ -344,9 +344,14 @@ Select: **Fall 2026**
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-30-openhouse-yc-live-application-execution]]
 - [[briefs/2026-07-30-openhouse-yc-usage-evidence]]
+- [[briefs/openhouse-yc-fall-2026-final-candidate-2026-07-29]]
 - [[briefs/openhouse-yc-fall-2026-first-principles-full-review-2026-07-30]]
 - [[briefs/openhouse-yc-fall-2026-high-conviction-redraft-2026-07-30]]
+- [[briefs/openhouse-yc-fall-2026-question-audit-2026-07-29]]
 - [[briefs/openhouse-yc-fall-2026-voice-redraft-2026-07-30]]
+- [[briefs/openhouse-yc-founder-video-recording-card-2026-07-29]]
+- [[briefs/openhouse-yc-showhouse-product-demo-run-sheet-2026-07-29]]
 - [[companies/openhouse-ai]]
 

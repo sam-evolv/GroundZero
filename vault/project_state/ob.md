@@ -34,6 +34,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-openbook-reset]]
 - [[briefs/2026-07-27-market-intel]]
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
+- [[briefs/chatgpt-voice-founder-os-2026-07-31]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/daily-portfolio-brief-2026-07-12]]
 - [[briefs/daily-portfolio-brief-2026-07-14]]

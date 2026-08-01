@@ -90,6 +90,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-28]]
 - [[briefs/wiki-refiner-2026-07-29]]
 - [[briefs/wiki-refiner-2026-07-30]]
+- [[briefs/wiki-refiner-2026-07-31]]
 - [[context/agentic-value-creation-mission]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]

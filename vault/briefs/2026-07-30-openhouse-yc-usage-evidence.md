@@ -113,6 +113,7 @@ The evidence does not yet support saying:
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-yc-fall-2026-first-principles-full-review-2026-07-30]]
 - [[briefs/openhouse-yc-fall-2026-high-conviction-redraft-2026-07-30]]
+- [[briefs/openhouse-yc-fall-2026-live-form-candidate-2026-07-30]]
 - [[briefs/openhouse-yc-fall-2026-voice-redraft-2026-07-30]]
 - [[companies/openhouse-ai]]
 

@@ -48,6 +48,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
+- [[briefs/chatgpt-voice-founder-os-2026-07-31]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/planet-satellite-opportunity]]
 - [[context/agentic-value-creation-mission]]

@@ -60,6 +60,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-22-six-month-agent-co-pilot-challenge]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
+- [[briefs/chatgpt-voice-founder-os-2026-07-31]]
 - [[briefs/sam-90-day-cash-authority-plan-2026-07-13]]
 - [[briefs/solar-installer-workflow-analysis]]
 - [[companies/cara]]

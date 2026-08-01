@@ -657,6 +657,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-yc-fall-2026-submit-copy-2026-07-29]]
 - [[briefs/openhouse-yc-narrative-rubric-2026-07-29]]
 - [[briefs/wiki-refiner-2026-07-30]]
+- [[briefs/wiki-refiner-2026-07-31]]
 - [[companies/openhouse-ai]]
 - [[items/oh-bridgewater-warm-introduction]]
 - [[project_state/oh]]

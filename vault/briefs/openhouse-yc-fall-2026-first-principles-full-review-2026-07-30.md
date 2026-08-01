@@ -215,6 +215,9 @@ Select: Fall 2026
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-30-openhouse-yc-usage-evidence]]
 - [[briefs/openhouse-yc-fall-2026-high-conviction-redraft-2026-07-30]]
+- [[briefs/openhouse-yc-fall-2026-live-form-candidate-2026-07-30]]
+- [[briefs/openhouse-yc-fall-2026-voice-redraft-2026-07-30]]
 - [[companies/openhouse-ai]]
 
