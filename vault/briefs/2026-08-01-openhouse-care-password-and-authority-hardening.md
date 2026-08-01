@@ -2,26 +2,28 @@
 title: OpenHouse Care password and exact-installation authority hardening
 company_id: openhouse-ai
 date: 2026-08-01
-status: controlled-local-pass-final-review-and-deployed-gates-pending
-source: verified committed source, production schema aggregate, controlled local production-build probes and independent review
+status: exact-pass-protected-preview-gates-pass-recovery-pending
+source: verified committed source, exact independent review, production schema aggregate, controlled local and protected-preview runtime probes
 ---
 
 # OpenHouse Care password and exact-installation authority hardening
 
 ## Current verdict
 
-The prior 37-file Care candidate received independent PASS, but the first explicitly authorized controlled active-account probe found a real production-schema mismatch in the content API. That route was corrected against the inspected live schema and all controlled local checks now pass. The amended exact commit is undergoing a final independent review before the authorized isolated preview deployment.
+The final 44-file Care artifact passed exact independent review and the authorized immutable preview gates. Password authentication, exact-installation authorization, deployed protected APIs, two-turn conversation continuity, shared distributed throttling, hydrated mobile-browser navigation, logout and copied-URL denial all pass against the immutable preview. Password-recovery email lifecycle proof remains pending because no controlled mailbox is configured. The preview remains SSO-protected and no production or certified-reviewer alias was moved.
 
-- Canonical artifact command: `git diff --cached --no-ext-diff`
+- Canonical committed-artifact command: `git show --format= --no-ext-diff HEAD`
 - Superseded reviewed diff: 36 files at `de71c377f12c306d8bcb21da215620f8762b305c52e764d3ddd139b11f3ce271`, independent PASS from `deleg_99c1ac54`
 - Superseded reviewed patch: `1592f8635b9796bc63fcd9f65e7cf86eabe443befa0576cea5c436d0db9c09ce`, 37 files, PASS from `deleg_2bcb28bc`
 - Current amended commit: `7ef348815eda44dfa12009f84fa24d00d501ff6f`
 - Current 44-file commit patch SHA-256: `d28d85b2dda942bbd92a02e14fce4dbbb1a444d519dd0da7ec4f8f65f975d8d8`
 - Current worktree: clean
-- Current independent review: `deleg_891e961d`, pending; earlier reviews were invalidated by subsequent availability, continuity, truthfulness, persistence, navigation and redirect fixes
+- Current independent review: `deleg_891e961d`, exact PASS; earlier reviews were invalidated by subsequent availability, continuity, truthfulness, persistence, navigation and redirect fixes
 - Migration 077 SHA-256: `32c76592082716231dfa9d2958779b9a1ece1dd785a68d7e0f1726f6cc14b3de`
+- Immutable Care preview deployment: `dpl_hCxwgBHcXbtqtmxHnsZs5HA86CiJ`, target `preview`, status `Ready`
+- Immutable Care preview URL: `https://openhouse-yc-review-6132ywg4n-openhouseais-projects.vercel.app`
 
-Sam explicitly approved both a dedicated controlled Care test relationship and an isolated immutable preview with no alias movement. A separate plus-addressed auth identity and one clearly synthetic active installation were created under the single internal OpenHouse tenant; postconditions confirmed the exact relationship and no customer record was modified. Credentials remain outside the vault in a temporary mode-600 file. The local production build now passes password login, session persistence, exact-home page and API reads, foreign-installation denial, logout and post-logout denial. Migration 077 remains applied and verified. The preview has not yet been deployed because final amended-commit review is pending. Nothing was pushed, merged or aliased; the certified YC reviewer deployment and credentials remain unchanged.
+Sam explicitly approved both a dedicated controlled Care test relationship and an isolated immutable preview with no certified-alias movement. A separate plus-addressed auth identity and one clearly synthetic active installation were created under the single internal OpenHouse tenant; postconditions confirmed the exact relationship and no customer record was modified. Credentials remain outside the vault in a temporary mode-600 file. Migration 077 remains applied and verified. The exact PASS commit was deployed to a protected immutable preview with `NEXT_PUBLIC_YC_REVIEWER_PREVIEW=false` only for that deployment so the existing YC reviewer project's containment flag did not block Care. Vercel SSO remained enabled throughout. The temporary automation-bypass secret used by `vercel curl` and Playwright was revoked after proof, with zero bypass entries confirmed. Nothing was pushed, merged or promoted; `openhouse-yc-showhouse.vercel.app` still resolves to certified deployment `dpl_8G4UazFJPjBukkyAPjyTTQ1xN8Rz`, and its credentials remain unchanged.
 
 ## Product decision
 
@@ -130,24 +132,33 @@ After the final reviewer fixes:
 - Synthetic conversation, messages and pending service request were deleted after proof; zero marked records remained
 - Synthetic controlled-email and loopback limiter buckets were removed with zero known keys remaining
 - Current 44-file amended commit verification: four smokes, TypeScript, Next 15.5.22 build, availability/continuity/truthfulness/persistence regressions, controlled two-turn runtime proof and cleanup, diff check and zero-hit secret scan pass; worktree clean
+- Exact independent review `deleg_891e961d`: PASS for commit `7ef348815eda44dfa12009f84fa24d00d501ff6f`, exactly 44 files and patch SHA-256 `d28d85b2dda942bbd92a02e14fce4dbbb1a444d519dd0da7ec4f8f65f975d8d8`
+- Protected immutable preview authenticated matrix: 29/29 checks passed across password login, authorized page, manifest, telemetry, content, conversations, service records, chat, pending service request, alert dismissal, foreign-installation denial, two-turn SSE continuity, exact ordered history, foreign-history denial, logout and post-logout denial
+- Deployed shared limiter proof: ten concurrent invalid-password attempts produced ten generic `401` responses and shared database count 10; attempt 11 produced `429` with positive `Retry-After` and shared count 11; all eleven requests had distinct Vercel request IDs
+- Hydrated mobile Chrome proof: 12/12 checks passed for login document, hydrated fields, password login, exactly one system-family UI branch, controlled solar presentation, telemetry unavailable rather than zero, Profile and Assistant navigation, verified-empty history UI, logout, copied-URL denial and zero uncaught page errors
+- Preview cleanup: six controlled messages, two conversations and one service request were deleted after the API matrix; final read-back found zero marked conversations, service requests or active alerts
+- Limiter cleanup: exact controlled subject and preview IP keys were deleted after each deployed/browser proof; final read-back found zero known or recent controlled keys
+- Protection cleanup: CLI-generated 32-character automation bypass was revoked; project inspection confirmed zero automation-bypass entries and SSO protection still enabled
+- Alias cleanup: Vercel automatically created a rolling project preview alias during deployment; it was explicitly removed after proof, and the live alias registry no longer lists it. The immutable hash URL remains Ready.
+- Deployment cleanup: the redundant reviewer-contained preview and failed package-scope deployment created during this run were removed; only validated Care preview `dpl_hCxwgBHcXbtqtmxHnsZs5HA86CiJ` remains from the run.
+- Certified YC reviewer isolation: `openhouse-yc-showhouse.vercel.app` still resolves to `dpl_8G4UazFJPjBukkyAPjyTTQ1xN8Rz`; no production deployment or stable alias movement occurred
 
 Existing build warnings remain for `unpdf` direct `import.meta` access and a caught dynamic-server-usage diagnostic; the production build completed successfully.
 
 ## Mandatory deployment gates
 
-Migration 077 and the local production-build application-role limiter proof are complete. The remaining gates are:
+Migration 077, exact review, protected-preview authentication, exact-installation isolation, serverless distributed throttling, conversation continuity, hydrated browser navigation, logout, copied-URL denial and cleanup are complete. The remaining gates are:
 
-1. Deploy an immutable candidate only with explicit authorization, then repeat the distributed threshold proof through that serverless deployment and confirm `429` plus `Retry-After`.
-2. Use a controlled active Care identity to prove password login and durable session/cookie behavior.
-3. Prove exact-installation success and foreign-installation denial across pages and all protected APIs.
-4. Prove logout and copied-URL denial.
-5. Prove recovery delivery, callback, password update, replay/expiry behavior and successful subsequent login.
+1. Prove password-recovery delivery, callback exchange, password update, expiry/replay denial and successful subsequent login through a controlled mailbox.
+2. If multi-home picker behavior is required for the first release, add a second controlled synthetic relationship and prove the deployed picker without accessing the observed real multi-home customer identity.
+3. Prove the exact-tenant installer fallback in the deployed environment if installer login is included in the release scope.
+4. Define operational handling for customer email changes, installation reassignment, authority revocation and stale relationships before broad customer rollout.
 
-Sam's controlled auth identity currently has no active Care installation. One other active customer identity match exists but is not controlled and was not accessed. These gates cannot be replaced by source smokes, anonymous probes or aggregate account inventory.
+The controlled identity has one synthetic active installation. Production aggregate inspection proved that legitimate multi-home relationships exist, but no real customer identity was accessed. Source and structural tests cover zero/one/many behavior; a deployed controlled multi-home picker proof remains a separate optional release gate.
 
 ## Release rule
 
-Do not deploy Care, create or alter controlled identities/installations, move aliases, alter credentials, push or merge this work without explicit authorization. The code candidate and migration have passed, and the limiter passed locally against the live database, but release remains blocked on deployed-serverless and controlled-identity gates.
+Do not promote this preview, move aliases, alter credentials, push, merge, create another controlled relationship or release broadly without explicit authorization. The exact code, migration, deployed serverless boundary and current one-home controlled identity pass. Production promotion remains blocked on the recovery lifecycle and on any additional release-scope gates Sam chooses to require, including controlled multi-home and installer-fallback proofs.
 
 ## Connected vault notes
 
