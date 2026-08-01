@@ -15,10 +15,10 @@ The prior 37-file Care candidate received independent PASS, but the first explic
 - Canonical artifact command: `git diff --cached --no-ext-diff`
 - Superseded reviewed diff: 36 files at `de71c377f12c306d8bcb21da215620f8762b305c52e764d3ddd139b11f3ce271`, independent PASS from `deleg_99c1ac54`
 - Superseded reviewed patch: `1592f8635b9796bc63fcd9f65e7cf86eabe443befa0576cea5c436d0db9c09ce`, 37 files, PASS from `deleg_2bcb28bc`
-- Current amended commit: `0e9a4cb45a3ee70a6c33077a6794439a9726083c`
-- Current 42-file commit patch SHA-256: `68dc9b87e55d89d75377f355eecd62be5a1c84ad0659becef21dae844cedc843`
+- Current amended commit: `474562be3d5b722b5258f21207b1ec79f349fc56`
+- Current 43-file commit patch SHA-256: `562666a9f53e7a568c5d5464cac44cc7a131d79a6e1449145a3e8ab51ae4a6cb`
 - Current worktree: clean
-- Current independent review: `deleg_b95e2b94`, pending; earlier reviews were invalidated by subsequent truthfulness, navigation and redirect fixes
+- Current independent review: `deleg_c053bba2`, pending; earlier reviews were invalidated by subsequent truthfulness, persistence, navigation and redirect fixes
 - Migration 077 SHA-256: `32c76592082716231dfa9d2958779b9a1ece1dd785a68d7e0f1726f6cc14b3de`
 
 Sam explicitly approved both a dedicated controlled Care test relationship and an isolated immutable preview with no alias movement. A separate plus-addressed auth identity and one clearly synthetic active installation were created under the single internal OpenHouse tenant; postconditions confirmed the exact relationship and no customer record was modified. Credentials remain outside the vault in a temporary mode-600 file. The local production build now passes password login, session persistence, exact-home page and API reads, foreign-installation denial, logout and post-logout denial. Migration 077 remains applied and verified. The preview has not yet been deployed because final amended-commit review is pending. Nothing was pushed, merged or aliased; the certified YC reviewer deployment and credentials remain unchanged.
@@ -120,10 +120,12 @@ After the final reviewer fixes:
 - Care tab state now has one owner in the provider, so unknown-state and heat-pump navigation controls change the visible page rather than updating an unused state copy
 - Nullable heat-pump temperature, target, cost, COP, CO2 and grant values remain unavailable instead of becoming zero/default 21; CO2 extrapolation, fabricated grant timeline and dead upload control were removed
 - Profile's fabricated pending-document catalogue was replaced with a truthful no-verified-documents state
+- Service-history, conversation-list, conversation-ownership and chat persistence errors now return or stream explicit unavailable failures instead of becoming verified-empty history or silently lost messages
+- Streamed chat persists the assistant response before emitting completion; conversation creation, user/assistant inserts, history reads and conversation updates all check database errors
 - Authenticated middleware login redirects now pass through the shared literal/encoded-backslash-safe internal-path validator; the crafted decoded-backslash exploit remained on-origin while a valid Care continuation redirected correctly
 - Synthetic conversation, messages and pending service request were deleted after proof; zero marked records remained
 - Synthetic controlled-email and loopback limiter buckets were removed with zero known keys remaining
-- Current 42-file amended commit verification: four smokes, TypeScript, Next 15.5.22 build, classifier/navigation/nullable-metric regressions, diff check and zero-hit secret scan pass; worktree clean
+- Current 43-file amended commit verification: four smokes, TypeScript, Next 15.5.22 build, classifier/navigation/nullable-metric/persistence regressions, controlled operational rerun and cleanup, diff check and zero-hit secret scan pass; worktree clean
 
 Existing build warnings remain for `unpdf` direct `import.meta` access and a caught dynamic-server-usage diagnostic; the production build completed successfully.
 
