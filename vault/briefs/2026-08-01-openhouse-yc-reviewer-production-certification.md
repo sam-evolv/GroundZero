@@ -99,7 +99,7 @@ The stable portal passed:
 
 ## Remaining non-blocking product work
 
-- Prove Care magic-link continuity using a real authorized Care account, without weakening anonymous installation access.
+- Continue Care password and exact-installation authority hardening in [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]]. Routine magic-link login has been superseded by the password decision; real authorized-account and recovery-lifecycle proof remain pending.
 - Replace or formally accept dependency risk for `xlsx`, which has no registry fix.
 - Plan a compatibility-tested AI SDK upgrade for the transitive `undici` advisory; do not force an unsafe package override.
 - Package the remediation as clean reviewable repository changes before merge. Do not push, deploy or merge without the normal approval path.
