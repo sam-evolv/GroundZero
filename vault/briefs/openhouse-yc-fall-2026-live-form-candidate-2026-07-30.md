@@ -12,7 +12,9 @@ source: authenticated YC Fall 2026 form captured by Sam on 2026-07-30
 
 This is the canonical working candidate in the exact order of the authenticated Fall 2026 form captured on 30 July 2026. It supersedes older copy-paste candidates but does not erase them as evidence history.
 
-Do not submit until Sam's founder profile is complete, the founder and product videos are uploaded, all factual gates are resolved and Sam has approved the exact answers.
+**Submission and reviewer status, 2026-08-01:** The Fall 2026 application is submitted and in review. The dedicated authentic reviewer portal, strict Assistant grounding and post-migration direct data-plane evidence are recorded in [[briefs/2026-08-01-openhouse-yc-reviewer-production-certification]].
+
+**Historical pre-submission gate, now satisfied:** Sam's founder profile, founder/product videos, factual gates and exact answers required approval before submission.
 
 ## Founder Profile
 

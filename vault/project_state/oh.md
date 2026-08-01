@@ -3,11 +3,13 @@ id: oh
 company_id: openhouse-ai
 headline: Developer proof owns the commercial lane; one operator-mediated test on Sam's occupied home is the next bounded DTC evidence gate.
 valid: true
-updated_at: "2026-07-28T22:18:10+01:00"
+updated_at: "2026-08-01T09:05:08+01:00"
 role: project-state
 ---
 
 ## Current direction: 2026-07-28
+
+**YC reviewer production checkpoint, 2026-08-01:** The Fall 2026 application is submitted and in review. The authentic sanitized 8 Longview Park reviewer portal is live at its stable URL with exact-home `reviewer_full` authority, direct REST/RPC/storage/GraphQL probes pass after migration 076, browser and grant-lifecycle suites pass, and the Assistant returns the verified AquaBox warranty date as 7 November 2026. Existing reviewer credentials remain unchanged. Final evidence and residual non-blocking work are in [[briefs/2026-08-01-openhouse-yc-reviewer-production-certification]].
 
 **YC and NDRC status, 2026-07-29:** OpenHouse is Sam's first YC application and the only company he has considered applying with. He is fully committed to going full-time and is open to relocating to San Francisco if accepted. Sam completed the NDRC pre-accelerator interview on 29 July 2026 and reports that it went really well; the formal decision is pending. NDRC has not offered funding, requested equity or created a commitment. OpenHouse has €0 revenue, no outside investment and approximately €10,000 of founder funding.
 
