@@ -203,7 +203,8 @@ For any consequential action, require a clear approval screen: action, audience,
 - `decisions/`: immutable pre-outcome decision journals plus outcome appendices.
 - `items/`: only triaged work with decision link, metric, next action, and review date.
 - `context/founder-execution-os.md`: this durable operating protocol.
-- `briefs/chatgpt-voice-founder-os-2026-07-31.md`: the recommended voice thinking surface (ChatGPT Voice). Use it for live decision sparring, product review, and drafting; it complements the Telegram voice capture pipeline above. Keep Ground Zero as the durable record and Hermes as the execution layer. Feature availability is plan/region-gated — verify each control in-app before depending on it.
+- [[briefs/chatgpt-voice-founder-os-2026-07-31]]: the recommended voice thinking surface (ChatGPT Voice). Use it for live decision sparring, product review, and drafting; it complements the Telegram voice capture pipeline above. Keep Ground Zero as the durable record and Hermes as the execution layer. Feature availability is plan/region-gated — verify each control in-app before depending on it.
+- [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]: the 14 July revenue/proof-loop plan, retained as an evidence-linked historical operating plan rather than a current Cara activation instruction.
 - Dashboard additions: `assumptions due`, `decisions due`, `no-customer-touchpoint >14d`, `repeated bottleneck`, `WIP violations`, and `one recommended neglected-leverage action`.
 
 ## Minimum viable rollout, four weeks

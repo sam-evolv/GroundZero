@@ -62,6 +62,7 @@ Review on 5 August 2026. Continue, simplify, or stop based on observable outcome
 ## Connected vault notes
 
 - [[briefs/2026-07-22-six-month-agent-co-pilot-challenge]] — full protocol and scorecard
+- [[private/agent-co-pilot/2026-07-22-initial-voice-journal]] — private source briefing that records Sam's original context and stated boundaries
 - [[decisions/ai-founder-coach-operating-agreement-2026-07-14]] — standing agreement
 - [[context/founder-execution-os]] — evidence and WIP framework
 - [[briefs/2026-07-21-escape-velocity-income-engine]] — cash route constraints

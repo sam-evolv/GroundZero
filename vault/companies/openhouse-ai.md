@@ -55,6 +55,9 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - [[briefs/openhouse-ndrc-accelerator-pitch]] - NDRC pitch
 - [[briefs/openhouse-ndrc-submission-sprint-2026-07-01]] - active NDRC submission sprint and deck QA plan
 - [[briefs/openhouse-ndrc-application-pack-2026-07-01]] - NDRC application fields, answers, blockers and upload checklist
+- [[briefs/openhouse-ndrc-interview-final-card-2026-07-29]] - final NDRC interview script, panel preparation and factual claim guardrails
+- [[briefs/openhouse-ndrc-slide-2-capability-breadth-prompt-2026-07-28]] - bounded Slide 2 enhancement prompt, preserving the approved NDRC narrative
+- [[briefs/openhouse-pre-revenue-vc-shortlist-2026-07-29]] - assessed pre-revenue investor shortlist and fit objections
 - [[briefs/2026-07-30-openhouse-yc-usage-evidence]] - read-only production audit supporting the conservative 259-question / 79-home YC usage metric and developer intelligence loop
 - [[briefs/openhouse-yc-fall-2026-voice-redraft-2026-07-30]] - non-canonical natural-language YC redraft for Sam's review
 - [[briefs/openhouse-yc-fall-2026-first-principles-full-review-2026-07-30]] - complete first-principles YC candidate in authenticated live-form order with unresolved founder gates preserved

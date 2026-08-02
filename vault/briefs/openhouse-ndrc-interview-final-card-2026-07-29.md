@@ -18,6 +18,10 @@ owner: leo
 - Keep the deck open locally and ready to share before joining
 - Do not store or reproduce the private meeting URL in this note
 
+## Private preparation source
+
+- [[private/agent-co-pilot/openhouse-ndrc-office-hours-brief-2026-07-22]] — earlier private preparation, retained for its problem framing and connection objectives; this final card supersedes it for interview delivery.
+
 ## Panel-specific intelligence
 
 ### Dushyant Singh

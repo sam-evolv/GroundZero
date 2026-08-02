@@ -52,6 +52,9 @@ This is the first note to load when a model needs cross-business context.
 - [[context/openhouse-sales-routes]] — sales routes for OpenHouse
 - [[briefs/daily-portfolio-brief-2026-07-19]] — current daily portfolio review
 - [[briefs/daily-portfolio-brief-2026-07-18]] — prior daily portfolio review
+- [[briefs/daily-portfolio-brief-2026-07-14]] — historical portfolio snapshot before the 24 July focus reset
+- [[briefs/daily-portfolio-brief-2026-07-12]] — earlier portfolio baseline and recorded blockers
+- [[briefs/2026-06-30]] — June cross-company operating baseline
 - [[briefs/daily-agentic-value-radar-2026-07-21]] — current agentic capability and leverage review
 - [[briefs/daily-agentic-value-radar-2026-07-20]] — prior agentic capability and leverage review
 - [[briefs/wiki-refiner-2026-07-28]] — latest vault refinement and graph-health report
