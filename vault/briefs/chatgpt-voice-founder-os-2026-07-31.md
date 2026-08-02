@@ -305,3 +305,14 @@ Pass criteria:
 - [[companies/openbook]]
 - [[project_state/oh]]
 - [[project_state/ob]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
+- [[context/founder-execution-os]]
+- [[context/index]]
+- [[people/sam-donworth]]
+- [[project_state/ob]]
+- [[project_state/oh]]
+

@@ -610,4 +610,5 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
 - [[briefs/wiki-refiner-2026-07-30]]
 - [[briefs/wiki-refiner-2026-07-31]]
+- [[briefs/wiki-refiner-2026-08-01]]
 

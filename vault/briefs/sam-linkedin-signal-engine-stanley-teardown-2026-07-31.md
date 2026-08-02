@@ -510,3 +510,8 @@ Verification limits
 
 Recommendation
 Integrate into canonical context with the edits above. Authorise the two-week manual MVP only, contingent on Sam (a) requesting the LinkedIn export, (b) supplying the voice corpus, and (c) accepting the confidentiality guard. Do not build the dedicated signal profile, SQLite store, or cron cadence until the manual loop clears the success gate.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/wiki-refiner-2026-08-01]]
+

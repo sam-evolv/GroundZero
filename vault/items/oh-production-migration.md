@@ -54,6 +54,7 @@ Not market-driven, but operationally urgent. A production data cleanup is the ki
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-28]]
 - [[briefs/2026-06-30]]
+- [[briefs/2026-08-01-openhouse-yc-reviewer-production-certification]]
 - [[briefs/daily-portfolio-brief-2026-07-16]]
 - [[briefs/daily-portfolio-brief-2026-07-17]]
 - [[briefs/daily-portfolio-brief-2026-07-18]]

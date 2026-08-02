@@ -110,3 +110,10 @@ The stable portal passed:
 - [[project_state/oh]] — current OpenHouse project state
 - [[companies/openhouse-ai]] — company context
 - [[items/oh-production-migration]] — production migration workstream
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]]
+- [[briefs/openhouse-yc-fall-2026-live-form-candidate-2026-07-30]]
+- [[project_state/oh]]
+

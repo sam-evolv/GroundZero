@@ -167,3 +167,11 @@ Do not promote this preview, move aliases, alter credentials, push, merge, creat
 - [[companies/openhouse-ai]] — company context
 - [[goals/oh-aftercare-os]] — aftercare operating-system vision
 - [[items/oh-rls-audit]] — authorization and direct data-plane workstream
+
+- [[imports/cara-conversation-summary-2026-07-12]] — shared signals: conversation, summary, 2026
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-01-openhouse-yc-reviewer-production-certification]]
+- [[project_state/oh]]
+
