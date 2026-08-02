@@ -6,7 +6,7 @@ size: S
 status: proposed
 impact: 85
 created_at: "2026-07-27"
-updated_at: "2026-07-27"
+updated_at: "2026-08-02"
 role: item
 ---
 
@@ -19,8 +19,8 @@ PR #205 (opened 22 July, currently the only recent delivery movement on sam-evol
 2. The class of bug (validator overwriting good answers, NULL unit specs falling back to wrong type-level data) will recur as schemes are added. A cheap recurring audit catches it before a homeowner or a prospect does.
 
 ## What
-- Merge and deploy PR #205 first; it is reviewed-scoped, recent, and directly fixes live customer-facing data. It also unblocks trusting the answer log again.
-- Then run a monthly 30-minute audit: sample 30 stored homeowner Q&A pairs, score correct / partially correct / wrong / replaced-by-guard, and log the percentage in the vault.
+- Fix and independently re-audit PR #205 before merge. The 02 August review reproduced the answer replacement failure and found unsafe public backup-table migrations. See [[briefs/2026-08-02-pr-205-merge-readiness-audit]].
+- After a fresh independent PASS, merge and deploy the corrected PR, then run a monthly 30-minute audit: sample 30 stored homeowner Q&A pairs, score correct / partially correct / wrong / replaced-by-guard, and log the percentage in the vault.
 - Feed the audited accuracy number into [[items/oh-proof-asset-engine]] as the headline metric. An audited accuracy figure is a differentiator no competitor pitch will have.
 - Add a one-line check to the audit: any unit with NULL bedrooms/bathrooms/floor_area gets flagged (the unit 38/25/50 failure mode).
 
