@@ -1,7 +1,7 @@
 ---
 title: Unconventional agent-income research
 checked_at: "2026-08-03T15:05:00+01:00"
-status: research-complete-pending-independent-challenge
+status: research-complete-independent-reviewed
 owner: Sam Donworth
 privacy: private
 ---
@@ -14,9 +14,9 @@ Can Sam use Hermes-style agents or AI to produce meaningful, globally transactab
 
 ## Candid answer
 
-Yes, but not through an effortless autonomous-money loop. The public evidence strongly rejects that framing. The clearest low-cash route is to place a narrowly useful machine capability inside a marketplace where buyers already pay per result, rather than build another standalone SaaS and then search for distribution.
+Yes, but not through an effortless autonomous-money loop. The public evidence strongly rejects that framing. Credible low-cash routes place a narrow machine capability inside a platform that already supplies payment rails, users, questions or prize money.
 
-The strongest bounded experiment found is an **Apify Store replacement Actor**: identify an existing paid automation with proven usage but poor reliability, build a materially better drop-in alternative, and charge per successful result. The first candidate is Google Trends data and alerts.
+Independent challenge changed the original conclusion. A generic Google Trends Apify replacement is already crowded. The stronger bounded experiments are a **metered specialist bot on Poe**, where Ireland is explicitly eligible and creators can charge per message, and a **forecasting bot in funded Metaculus competitions**, where the platform supplies questions, scoring, sponsored model/search credits and prize pools.
 
 This is a test, not an income claim.
 
@@ -51,11 +51,31 @@ One indexed answer from a technology executive said they saw only a few profitab
 
 The transferable pattern is not the quoted income. It is **metering a narrow completed task that has obvious buyer value**.
 
-## Ranked models
+## Ranked models after independent challenge
 
-### 1. Marketplace replacement Actor
+### 1. Metered specialist bot inside Poe
 
-**Verdict:** Best first experiment.
+**Verdict:** Cheapest first demand test, but organic earnings remain unproven.
+
+Poe's official creator programme explicitly includes Ireland. Creators can set a USD price per message, payouts use Stripe, the payout threshold is $10, and payments are normally made 30–45 days after month-end. This allows a narrow transformation or decision tool to earn per completed interaction without a standalone site, sales call or subscription stack.
+
+The bot must do one measurable thing rather than act as a generic assistant. Candidate outputs include a document contradiction check, evidence-backed claim ledger, structured application audit or specialist calculation. Poe's own guidance tells creators to market their bots, so its discovery surface is not guaranteed distribution.
+
+**Test:** one prompt bot or minimal server bot, at most $20 in hosting and API spend. Stop after 14 days if it attracts fewer than 10 unrelated users or 100 non-self messages. If paid messages would not cover inference costs at 500 messages, stop rather than adding features.
+
+### 2. Forecasting-agent prize pools
+
+**Verdict:** Most unconventional and best capability fit, but high-variance competition income rather than salary.
+
+Metaculus's 2026 FutureEval programme advertises three seasonal $50,000 bot tournaments and $1,000 bi-weekly MiniBench tournaments. The current Summer tournament accepts entrants during its run, supplies a template bot and offers sponsored LLM and search credits. Metaculus reports that a prior top bot took approximately 15–40 hours to build and won $9,500; that is a historical platform example, not expected earnings.
+
+This removes customer acquisition: the platform supplies the questions, scoring and prize pool. It fits Sam's economics, research, evidence and agent-orchestration strengths. Cash is rank-dependent, winner verification is required, and geography-specific prize eligibility still needs confirmation before entry.
+
+**Test:** fork the template privately and run the testing area or two MiniBench cycles using sponsored credits where available. Cap incremental inference spend at $50. Stop after roughly 60 resolved forecasts unless the bot beats its declared baseline and approaches the top 20%.
+
+### 3. Marketplace replacement Actor
+
+**Verdict:** Stretch only; benchmark before writing code.
 
 Do not invent a product category. Find a paid marketplace tool with existing users, visible dissatisfaction or failures, and a task that can be rebuilt legally and reliably.
 
@@ -63,7 +83,7 @@ Apify Store officially supports paid web-scraping, automation and AI-agent Actor
 
 Payouts are not frictionless. The publisher must provide billing details, complete KYC and supply tax documentation when requested. The documented minimum payout is $20 through PayPal or Wise and $100 through other methods; sub-threshold balances roll forward. Irish payout eligibility was not explicitly confirmed in the public documentation and must be checked before publication.
 
-#### First candidate: Google Trends Reliability Actor
+#### Rejected immediate build: Google Trends Reliability Actor
 
 Official public Actor data checked on 3 August 2026:
 
@@ -75,7 +95,7 @@ Official public Actor data checked on 3 August 2026:
 - Rating: **3.1166/5** from 31 reviews
 - Current free-tier event price: **$0.003 per result**
 
-This is actual evidence of platform demand and visible dissatisfaction. It is not evidence that a new entrant will receive traffic or profit.
+This is actual evidence of platform demand and visible dissatisfaction. Independent review found that the gap is already being filled: competing Actors reported 98.69% to 100% successful runs, while a near-identical "Fast & Reliable" entrant had only six monthly users. Apify run status does not prove output correctness, but it eliminates reliability as an uncontested wedge. Alert variants showed almost no validated demand.
 
 #### Wedge
 
@@ -93,16 +113,15 @@ The product is a callable result, not a dashboard or website.
 
 #### Cheapest falsification test
 
-1. Build a local Actor-compatible spike without publishing it.
-2. Run 100 test cases across countries, categories, timeframes and comparison queries.
-3. Compare output completeness and failure rate with the incumbent on the same cases.
-4. Stop if success is below 98%, source access is legally or technically unsuitable, or reliable maintenance requires expensive proxies.
-5. If it passes, use only the included Apify free credits for Store validation.
-6. Do not buy promotion, proxies, courses or a paid Apify plan before the first external run.
+1. Spend $0 and no more than four hours benchmarking the three strongest existing alternatives on the same 30 cases.
+2. Score schema correctness, empty or partial outputs, cross-run consistency, latency and effective cost rather than Apify's `SUCCEEDED` status.
+3. Kill the opportunity if any existing Actor achieves at least 95% schema-correct cases, 98% run completion, acceptable consistency and a price below a plausible entrant price.
+4. Build a one-day private prototype only if the benchmark exposes a reproducible failure class that switching providers cannot solve.
+5. If published later, require five unrelated users and two repeat users within 14 days without advertising or outbound, otherwise kill it.
 
 Apify permits competing Actors but forbids copying another publisher's code or listing. It also requires ongoing maintenance, can pause remuneration for a faulty Actor, and requires urgent reported issues to be addressed within three business days. The spike must therefore test not only whether the Actor can run, but whether it can be maintained alongside full-time work.
 
-### 2. Agent-callable evidence receipts
+### 4. Agent-callable evidence receipts
 
 **Verdict:** Strong skill fit, weaker demand proof.
 
@@ -116,7 +135,7 @@ Publish a pay-per-event Actor that accepts a public URL and claim, then returns:
 
 This aligns with Sam's demonstrated evidence and release auditing. Apify's agentic-payment mechanism means other agents could discover and pay for the capability. However, current willingness to pay for this exact result is not proven. Build only after the marketplace experiment establishes that Sam can ship and operate an Actor.
 
-### 3. Raw-data utility with paid intelligence add-on
+### 5. Raw-data utility with paid intelligence add-on
 
 **Verdict:** Plausible if attached to proven raw-data demand.
 
@@ -128,7 +147,7 @@ Apify shows strong demand for raw utilities rather than speculative “insight�
 
 The smart version is therefore not “AI app-review consultant.” It is a dependable raw actor with an optional paid event for summarization, pain-point clustering, sponsor signals or evidence extraction. Raw output remains the primary paid event.
 
-### 4. Success-fee recovery agent
+### 6. Success-fee recovery agent
 
 **Verdict:** Economically clever, not the first build.
 
@@ -136,7 +155,7 @@ An agent prepares consumer evidence packs for a narrow recoverable claim such as
 
 This ties price to cash returned rather than hours. It also introduces legal-positioning, privacy, document-security, trust, regulated-claims and customer-support burdens. It requires a proven acquisition channel and should not be started during the OpenHouse proof week.
 
-### 5. Distressed digital-asset operator
+### 7. Distressed digital-asset operator
 
 **Verdict:** Watchlist only.
 
@@ -159,7 +178,13 @@ The Apify Store data itself shows why the last item is weak: many recent “inte
 
 ## Recommended decision
 
-Run one **no-spend technical falsification spike** for the Google Trends Reliability Actor after the current OpenHouse proof-week priorities. Do not create a company, brand, landing page, content strategy or paid plan. If the agent cannot materially beat the incumbent's reliability with compliant, maintainable access, kill it immediately and move to the next marketplace gap.
+After the current OpenHouse proof-week priorities:
+
+1. Design one narrow Poe bot whose output is measurable and repeatedly useful. Do not publish it until Sam approves the exact function, name, price and privacy posture.
+2. Privately run the Metaculus template in its testing environment or MiniBench. Do not enter a prize competition until Irish eligibility and winner-verification requirements are confirmed.
+3. Do not build the Google Trends Actor. Run the four-hour competitor benchmark only if the first two tests fail or Sam specifically prefers marketplace infrastructure.
+
+Do not create a company, brand, landing page, content strategy or paid plan for any test.
 
 ## Sources
 
@@ -176,6 +201,12 @@ Run one **no-spend technical falsification spike** for the Google Trends Reliabi
 - [Reddit: monetizing built agents](https://www.reddit.com/r/AI_Agents/comments/1jjt4vu/who_here_has_created_an_agent_that_makes_them/)
 - [Reddit: confusion about agentic automation income](https://www.reddit.com/r/AI_Agents/comments/1q2e8ht/im_very_confused_are_people_actually_making_money/)
 - [Hacker News Algolia API](https://hn.algolia.com/api)
+- [Poe Creator Monetization FAQ](https://help.poe.com/hc/en-us/articles/21921312368020-Poe-Creator-Monetization-FAQs)
+- [Poe creator documentation](https://creator.poe.com/docs/resources/creator-monetization)
+- [Metaculus Summer 2026 FutureEval tournament](https://www.metaculus.com/tournament/summer-futureeval-2026/)
+- [Metaculus bot resources](https://www.metaculus.com/notebooks/38928/ai-benchmark-resources/)
+- [Telegram Bot Payments for digital goods](https://core.telegram.org/bots/payments-stars)
+- [Discord app monetization](https://docs.discord.com/developers/platform/app-monetization)
 
 ## Connected notes
 
