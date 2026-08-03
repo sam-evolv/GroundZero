@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import fnmatch
 import json
 import re
 from dataclasses import dataclass
@@ -22,6 +23,7 @@ class ExperimentConfig:
     container_image: str
     objective: str
     allowed_globs: tuple[str, ...]
+    protected_globs: tuple[str, ...]
     evaluator: tuple[str, ...]
     guards: tuple[tuple[str, ...], ...]
     max_iterations: int
@@ -39,6 +41,7 @@ class ExperimentConfig:
             raise ValueError("configuration must be readable JSON") from exc
         required = {
             "workspace", "model", "ollama_url", "container_image", "objective", "allowed_globs",
+            "protected_globs",
             "evaluator", "guards", "max_iterations", "max_minutes",
             "command_timeout_seconds", "min_delta", "max_files", "max_edit_bytes",
         }
@@ -61,7 +64,61 @@ class ExperimentConfig:
         allowed = raw["allowed_globs"]
         if not isinstance(allowed, list) or not allowed or not all(isinstance(v, str) and v for v in allowed):
             raise ValueError("allowed_globs must be non-empty text patterns")
+        protected = raw["protected_globs"]
+        if (
+            not isinstance(protected, list)
+            or not protected
+            or not all(isinstance(value, str) and value for value in protected)
+        ):
+            raise ValueError("protected_globs must be non-empty text patterns")
 
+        workspace = Path(raw["workspace"]).expanduser().resolve()
+        required_protected = {
+            Path(".verified-autoresearch-sandbox"),
+            Path(".git/config"),
+        }
+        try:
+            required_protected.add(path.resolve().relative_to(workspace))
+        except ValueError:
+            pass
+        command_values = [raw["evaluator"], *raw["guards"]]
+        for command in command_values:
+            if isinstance(command, list):
+                for value in command:
+                    if not isinstance(value, str):
+                        continue
+                    candidate = (workspace / value).resolve()
+                    if candidate.is_file():
+                        try:
+                            required_protected.add(candidate.relative_to(workspace))
+                        except ValueError:
+                            pass
+        missing_protection = sorted(
+            candidate.as_posix()
+            for candidate in required_protected
+            if not any(
+                fnmatch.fnmatch(candidate.as_posix(), pattern)
+                for pattern in protected
+            )
+        )
+        if missing_protection:
+            raise ValueError(
+                "protected_globs must cover controller files: "
+                + ", ".join(missing_protection)
+            )
+        protected_candidates = set(required_protected)
+        if workspace.is_dir():
+            protected_candidates.update(
+                item.relative_to(workspace)
+                for item in workspace.rglob("*")
+                if item.is_file()
+            )
+        for candidate in protected_candidates:
+            relative = candidate.as_posix()
+            is_allowed = any(fnmatch.fnmatch(relative, pattern) for pattern in allowed)
+            is_protected = any(fnmatch.fnmatch(relative, pattern) for pattern in protected)
+            if is_allowed and is_protected:
+                raise ValueError(f"allowed_globs overlap protected path: {relative}")
         for name in ("model", "objective"):
             if not isinstance(raw[name], str) or not raw[name].strip():
                 raise ValueError(f"{name} must be non-empty text")
@@ -72,12 +129,13 @@ class ExperimentConfig:
             raise ValueError("min_delta must be non-negative")
 
         return cls(
-            workspace=Path(raw["workspace"]).expanduser().resolve(),
+            workspace=workspace,
             model=raw["model"].strip(),
             ollama_url=raw["ollama_url"].rstrip("/"),
             container_image=image,
             objective=raw["objective"].strip(),
             allowed_globs=tuple(allowed),
+            protected_globs=tuple(protected),
             evaluator=_argv(raw["evaluator"], "evaluator"),
             guards=guards,
             max_iterations=raw["max_iterations"],

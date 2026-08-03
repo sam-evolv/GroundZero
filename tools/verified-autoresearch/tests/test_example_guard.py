@@ -1,3 +1,4 @@
+import ast
 import shutil
 import subprocess
 import sys
@@ -26,3 +27,18 @@ def test_example_guard_rejects_executable_code_outside_literal_weights(tmp_path:
 
     assert result.returncode != 0
     assert "forged" not in result.stdout
+
+
+def test_example_evaluator_never_imports_or_executes_candidate_code() -> None:
+    tree = ast.parse((EXAMPLE / "evaluate.py").read_text(encoding="utf-8"))
+    assert not any(
+        isinstance(node, ast.ImportFrom) and node.module and node.module.startswith("src")
+        for node in ast.walk(tree)
+    )
+    forbidden_calls = {"eval", "exec", "compile", "__import__"}
+    assert not any(
+        isinstance(node, ast.Call)
+        and isinstance(node.func, ast.Name)
+        and node.func.id in forbidden_calls
+        for node in ast.walk(tree)
+    )

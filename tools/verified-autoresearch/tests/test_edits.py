@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 import pytest
@@ -44,6 +45,23 @@ def test_rejects_parent_symlink_escape(tmp_path: Path) -> None:
     (tmp_path / "src").symlink_to(outside_dir, target_is_directory=True)
 
     with pytest.raises(ValueError, match="escapes"):
+        apply_edits(
+            root=tmp_path,
+            edits=[Edit(path="src/score.py", old="VALUE = 1", new="VALUE = 2")],
+            allowed_globs=("src/*.py",),
+        )
+
+    assert outside.read_text(encoding="utf-8") == "VALUE = 1\n"
+
+
+def test_rejects_hard_link_before_writing_external_inode(tmp_path: Path) -> None:
+    outside = tmp_path.parent / "external-score.py"
+    outside.write_text("VALUE = 1\n", encoding="utf-8")
+    target = tmp_path / "src" / "score.py"
+    target.parent.mkdir()
+    os.link(outside, target)
+
+    with pytest.raises(ValueError, match="hard link"):
         apply_edits(
             root=tmp_path,
             edits=[Edit(path="src/score.py", old="VALUE = 1", new="VALUE = 2")],

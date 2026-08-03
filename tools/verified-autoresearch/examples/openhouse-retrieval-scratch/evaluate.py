@@ -1,7 +1,15 @@
-from src.retrieval import score
+import ast
+from pathlib import Path
 
-# Synthetic, offline and non-production. Each case contains candidate scope/relevance
-# pairs and the expected winner. The model never receives this file in its prompt.
+# Synthetic, offline and non-production. The guard runs before this evaluator and
+# proves that the candidate contains only the fixed score function plus literal
+# SCOPE_WEIGHTS. This evaluator parses those literals and never imports or executes
+# candidate-controlled Python.
+tree = ast.parse(Path('src/retrieval.py').read_text(encoding='utf-8'))
+assignment = tree.body[1]
+assert isinstance(assignment, ast.Assign)
+weights = ast.literal_eval(assignment.value)
+
 CASES = [
     ([('house_type', 0.91), ('development', 0.78)], 'house_type'),
     ([('house_type', 0.83), ('development', 0.72)], 'house_type'),
@@ -10,6 +18,11 @@ CASES = [
     ([('development', 0.81), ('global', 0.99)], 'development'),
     ([('house_type', 0.75), ('global', 1.00)], 'house_type'),
 ]
+
+
+def score(scope: str, lexical_relevance: float) -> float:
+    return weights[scope] * lexical_relevance
+
 
 correct = 0
 for candidates, expected in CASES:

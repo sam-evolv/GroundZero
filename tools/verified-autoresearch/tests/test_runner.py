@@ -1,11 +1,13 @@
 import json
 import subprocess
 import sys
+from dataclasses import replace
 from pathlib import Path
 from typing import Sequence
 
 import pytest
 
+import verified_autoresearch.runner as runner_module
 from verified_autoresearch.config import ExperimentConfig
 from verified_autoresearch.edits import Edit
 from verified_autoresearch.proposal import Proposal
@@ -52,6 +54,9 @@ def make_sandbox(tmp_path: Path) -> tuple[Path, ExperimentConfig]:
         workspace=root.resolve(), model="fake", ollama_url="http://127.0.0.1:11434",
         container_image="python@sha256:" + "a" * 64,
         objective="increase score", allowed_globs=("src/*.py",),
+        protected_globs=(
+            "evaluate.py", "guard.py", ".verified-autoresearch-sandbox", ".git/**",
+        ),
         evaluator=(sys.executable, "evaluate.py"), guards=((sys.executable, "guard.py"),),
         max_iterations=2, max_minutes=5, command_timeout_seconds=10, min_delta=0.1,
         max_files=1, max_edit_bytes=1000,
@@ -138,6 +143,20 @@ def test_rejects_repository_clean_filter_without_executing_it(tmp_path: Path) ->
     assert git(root, "status", "--porcelain") == ""
 
 
+def test_rejects_git_filter_on_non_allowlisted_tracked_file(tmp_path: Path) -> None:
+    root, config = make_sandbox(tmp_path)
+    sentinel = tmp_path / "non-allowlisted-filter-ran"
+    (root / ".gitattributes").write_text("evaluate.py filter=evil\n", encoding="utf-8")
+    git(root, "add", ".gitattributes")
+    git(root, "commit", "-m", "configure protected-file attributes")
+    git(root, "config", "filter.evil.clean", f"touch '{sentinel}' && cat")
+
+    with pytest.raises(RuntimeError, match="Git filter"):
+        run_iteration(config, FakeModel(2), iteration=1, executor=TestExecutor(root))
+
+    assert not sentinel.exists()
+
+
 def test_rejects_workspace_change_while_model_is_proposing(tmp_path: Path) -> None:
     root, config = make_sandbox(tmp_path)
     before = git(root, "rev-parse", "HEAD")
@@ -157,3 +176,39 @@ def test_rejects_workspace_change_while_model_is_proposing(tmp_path: Path) -> No
 
     assert git(root, "rev-parse", "HEAD") == before
     assert "concurrent change" in (root / "src" / "score.py").read_text(encoding="utf-8")
+
+
+def test_rejects_untracked_ignored_file_from_model_context(tmp_path: Path) -> None:
+    root, config = make_sandbox(tmp_path)
+    (root / ".gitignore").write_text("private/\n", encoding="utf-8")
+    git(root, "add", ".gitignore")
+    git(root, "commit", "-m", "ignore private files")
+    private = root / "private" / "credential.txt"
+    private.parent.mkdir()
+    private.write_text("must-not-reach-model\n", encoding="utf-8")
+    config = replace(config, allowed_globs=("private/*.txt",))
+
+    class MustNotRunModel:
+        def propose(self, context: str, timeout_seconds: int) -> Proposal:
+            raise AssertionError("untracked context reached model")
+
+    with pytest.raises(RuntimeError, match="tracked regular"):
+        run_iteration(config, MustNotRunModel(), iteration=1, executor=TestExecutor(root))
+
+
+def test_rolls_back_accepted_commit_when_ledger_append_fails(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    root, config = make_sandbox(tmp_path)
+    before = git(root, "rev-parse", "HEAD")
+
+    def fail_ledger(*args: object, **kwargs: object) -> None:
+        raise RuntimeError("simulated ledger failure")
+
+    monkeypatch.setattr(runner_module, "_append_ledger", fail_ledger)
+
+    with pytest.raises(RuntimeError, match="ledger failure"):
+        run_iteration(config, FakeModel(2), iteration=1, executor=TestExecutor(root))
+
+    assert git(root, "rev-parse", "HEAD") == before
+    assert git(root, "status", "--porcelain") == ""

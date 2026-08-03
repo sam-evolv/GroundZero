@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import fcntl
+import fnmatch
 import hashlib
 import json
 import os
+import stat
 import subprocess
 import time
 from dataclasses import asdict, dataclass
@@ -56,7 +58,39 @@ def _reject_active_git_filters(root: Path, paths: tuple[Path, ...]) -> None:
             raise RuntimeError(f"active Git filter is forbidden for {path.as_posix()}")
 
 
-def _context(config: ExperimentConfig, baseline: float) -> str:
+def _validated_allowed_paths(config: ExperimentConfig) -> tuple[Path, ...]:
+    tracked = {
+        Path(value)
+        for value in _git(config.workspace, "ls-files", "-z").split("\0")
+        if value
+    }
+    tracked_paths = tuple(sorted(tracked))
+    _reject_active_git_filters(config.workspace, tracked_paths)
+    matched = tuple(sorted(
+        path for path in tracked_paths
+        if any(fnmatch.fnmatch(path.as_posix(), pattern) for pattern in config.allowed_globs)
+    ))
+    if not matched:
+        raise RuntimeError("allowlist matched no tracked regular files")
+    for relative in matched:
+        target = config.workspace / relative
+        info = os.lstat(target)
+        if not stat.S_ISREG(info.st_mode) or info.st_nlink != 1:
+            raise RuntimeError("allowlist must contain only tracked regular non-hard-linked files")
+        resolved = target.resolve()
+        try:
+            resolved.relative_to(config.workspace)
+        except ValueError as exc:
+            raise RuntimeError("allowlisted source escapes workspace") from exc
+        parent = target.parent
+        while parent != config.workspace:
+            if parent.is_symlink():
+                raise RuntimeError("allowlisted source has a symlinked parent")
+            parent = parent.parent
+    return matched
+
+
+def _context(config: ExperimentConfig, baseline: float, paths: tuple[Path, ...]) -> str:
     parts = [
         f"OBJECTIVE:\n{config.objective}",
         f"CURRENT_BASELINE_METRIC: {baseline}",
@@ -64,19 +98,39 @@ def _context(config: ExperimentConfig, baseline: float) -> str:
         "FILES:",
     ]
     total = 0
-    for pattern in config.allowed_globs:
-        for path in sorted(config.workspace.glob(pattern)):
-            if path.is_symlink() or not path.is_file():
-                continue
-            relative = path.relative_to(config.workspace).as_posix()
-            content = path.read_text(encoding="utf-8")
-            block = f"\n--- {relative} ---\n{content}"
-            total += len(block.encode("utf-8"))
-            if total > 60_000:
-                raise RuntimeError("allowed source context exceeds 60KB; narrow the allowlist")
-            parts.append(block)
-    if len(parts) == 4:
-        raise RuntimeError("allowlist matched no readable files")
+    for relative_path in paths:
+        directory_fd = os.open(
+            config.workspace,
+            os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW,
+        )
+        try:
+            for component in relative_path.parts[:-1]:
+                next_fd = os.open(
+                    component,
+                    os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW,
+                    dir_fd=directory_fd,
+                )
+                os.close(directory_fd)
+                directory_fd = next_fd
+            descriptor = os.open(
+                relative_path.name,
+                os.O_RDONLY | os.O_NOFOLLOW,
+                dir_fd=directory_fd,
+            )
+            try:
+                info = os.fstat(descriptor)
+                if not stat.S_ISREG(info.st_mode) or info.st_nlink != 1:
+                    raise RuntimeError("allowlisted source changed during context read")
+                content = os.read(descriptor, 60_001).decode("utf-8")
+            finally:
+                os.close(descriptor)
+        finally:
+            os.close(directory_fd)
+        block = f"\n--- {relative_path.as_posix()} ---\n{content}"
+        total += len(block.encode("utf-8"))
+        if total > 60_000:
+            raise RuntimeError("allowed source context exceeds 60KB; narrow the allowlist")
+        parts.append(block)
     return "\n".join(parts)
 
 
@@ -90,14 +144,33 @@ def _proposal_hash(proposal: Proposal) -> str:
 
 def _append_ledger(config: ExperimentConfig, result: IterationResult) -> None:
     state_dir = config.workspace.parent / f".{config.workspace.name}.autoresearch-state"
-    state_dir.mkdir(mode=0o700, parents=True, exist_ok=True)
+    if state_dir.exists() or state_dir.is_symlink():
+        state_info = os.lstat(state_dir)
+        if (
+            stat.S_ISLNK(state_info.st_mode)
+            or not stat.S_ISDIR(state_info.st_mode)
+            or state_info.st_uid != os.getuid()
+            or stat.S_IMODE(state_info.st_mode) != 0o700
+        ):
+            raise RuntimeError("autoresearch state directory is unsafe")
+    else:
+        state_dir.mkdir(mode=0o700)
     ledger = state_dir / "ledger.jsonl"
-    with open(
+    descriptor = os.open(
         ledger,
-        "a+",
-        encoding="utf-8",
-        opener=lambda path, flags: os.open(path, flags, 0o600),
-    ) as handle:
+        os.O_RDWR | os.O_APPEND | os.O_CREAT | os.O_NOFOLLOW,
+        0o600,
+    )
+    ledger_info = os.fstat(descriptor)
+    if (
+        not stat.S_ISREG(ledger_info.st_mode)
+        or ledger_info.st_nlink != 1
+        or ledger_info.st_uid != os.getuid()
+        or stat.S_IMODE(ledger_info.st_mode) != 0o600
+    ):
+        os.close(descriptor)
+        raise RuntimeError("autoresearch ledger path is unsafe")
+    with os.fdopen(descriptor, "a+", encoding="utf-8") as handle:
         fcntl.flock(handle.fileno(), fcntl.LOCK_EX)
         handle.seek(0)
         previous = "0" * 64
@@ -147,12 +220,7 @@ def run_iteration(
     seen_proposals: Optional[Set[str]] = None,
     executor: Optional[Executor] = None,
 ) -> IterationResult:
-    allowlisted_paths = tuple(
-        path.relative_to(config.workspace)
-        for pattern in config.allowed_globs
-        for path in sorted(config.workspace.glob(pattern))
-        if path.is_file() and not path.is_symlink()
-    )
+    allowlisted_paths = _validated_allowed_paths(config)
     _reject_active_git_filters(config.workspace, allowlisted_paths)
     state = verify_sandbox(config.workspace)
     if executor is None:
@@ -161,7 +229,8 @@ def run_iteration(
         config.evaluator, executor, config.command_timeout_seconds
     ).metric
     proposal = model.propose(
-        _context(config, baseline), timeout_seconds=config.command_timeout_seconds
+        _context(config, baseline, allowlisted_paths),
+        timeout_seconds=config.command_timeout_seconds,
     )
     post_proposal_state = verify_sandbox(config.workspace)
     if post_proposal_state.head != state.head:
@@ -241,7 +310,12 @@ def run_iteration(
         timestamp=datetime.now(timezone.utc).isoformat(),
         reproduction_metric=reproduction,
     )
-    _append_ledger(config, result)
+    try:
+        _append_ledger(config, result)
+    except Exception:
+        if status == "accepted":
+            hard_reset(config.workspace, state.head)
+        raise
     return result
 
 

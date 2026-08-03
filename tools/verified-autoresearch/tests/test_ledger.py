@@ -1,4 +1,5 @@
 import json
+import os
 from dataclasses import replace
 
 import pytest
@@ -37,3 +38,30 @@ def test_ledger_is_hash_chained_and_rejects_tampering(tmp_path) -> None:
     ledger.write_text("\n".join(json.dumps(row) for row in records) + "\n", encoding="utf-8")
     with pytest.raises(RuntimeError, match="integrity"):
         _append_ledger(config, replace(result(1), iteration=3))
+
+
+def test_ledger_rejects_symlinked_state_directory_without_writing(tmp_path) -> None:
+    root, config = make_sandbox(tmp_path)
+    outside = tmp_path / "outside"
+    outside.mkdir()
+    state_dir = root.parent / f".{root.name}.autoresearch-state"
+    state_dir.symlink_to(outside, target_is_directory=True)
+
+    with pytest.raises(RuntimeError, match="state directory"):
+        _append_ledger(config, result(1))
+
+    assert not (outside / "ledger.jsonl").exists()
+
+
+def test_ledger_rejects_hard_link_without_writing_external_inode(tmp_path) -> None:
+    root, config = make_sandbox(tmp_path)
+    outside = tmp_path / "external-ledger"
+    outside.write_text("", encoding="utf-8")
+    state_dir = root.parent / f".{root.name}.autoresearch-state"
+    state_dir.mkdir(mode=0o700)
+    os.link(outside, state_dir / "ledger.jsonl")
+
+    with pytest.raises(RuntimeError, match="ledger"):
+        _append_ledger(config, result(1))
+
+    assert outside.read_text(encoding="utf-8") == ""

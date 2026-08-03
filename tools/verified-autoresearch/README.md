@@ -96,6 +96,10 @@ Create a JSON file outside the model-edit allowlist:
   "container_image": "python@sha256:<exact-64-character-image-digest>",
   "objective": "Improve held-out retrieval score without changing protected behavior.",
   "allowed_globs": ["src/retrieval.py"],
+  "protected_globs": [
+    "evaluate.py", "guard.py", "fixtures/**", "experiment.json",
+    ".verified-autoresearch-sandbox", ".git/**"
+  ],
   "evaluator": ["python3", "evaluate.py"],
   "guards": [["python3", "guard.py"], ["python3", "-m", "pytest", "-q"]],
   "max_iterations": 10,
@@ -129,7 +133,7 @@ Results are written to:
 <workspace-parent>/.<workspace-name>.autoresearch-state/ledger.jsonl
 ```
 
-Every accepted experiment becomes a local commit on the `autoresearch/*` branch after a second identical evaluation. Rejected and failed experiments are reset to the previous accepted commit. The ledger is hash-chained to detect modification; it is evidence, not a substitute for independent review.
+Every accepted experiment becomes a local commit on the `autoresearch/*` branch after a second identical evaluation. Rejected and failed experiments are reset to the previous accepted commit. A failed ledger append also rolls an accepted commit back. The ledger directory and file must be controller-owned, mode `0700`/`0600`, regular and non-linked; opens use `O_NOFOLLOW`. The ledger is hash-chained to detect accidental modification, but it is not authenticated evidence and remains no substitute for independent review.
 
 ## OpenHouse adoption gate
 

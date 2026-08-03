@@ -17,7 +17,7 @@ The model cannot modify:
 - Git remotes or hooks through this API;
 - deployment, migration or release configuration unless a human incorrectly allowlists it.
 
-The operator must keep those paths outside `allowed_globs`.
+The configuration requires explicit `protected_globs` and rejects existing paths matched by both the editable and protected sets. The protected set must cover the sandbox marker and Git control paths. Evaluator, guard, configuration, fixture and label paths must all be listed explicitly.
 
 ## Supply chain
 
@@ -52,7 +52,7 @@ This is containment, not proof of correctness. The complete tracked snapshot is 
 - Exact replacement validation cannot prove semantic safety.
 - The candidate can inspect visible evaluator logic and game a weak benchmark.
 - A trusted evaluator image or command can be compromised; pin and audit its exact digest.
-- Parent-directory or Git hooks configured by the operator can have side effects.
+- Active Git filters on any tracked path are rejected before status, diff, reset or staging, and commits disable hooks and signing. The controller invokes an absolute Git path with a scrubbed environment.
 - Continuous inference can create memory pressure and thermal throttling.
 - Accepted local commits are candidates, not release approvals.
 

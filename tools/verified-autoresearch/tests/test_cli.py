@@ -12,6 +12,7 @@ def test_verify_command_checks_sandbox_and_baseline(tmp_path: Path, capsys) -> N
         "workspace": str(root), "model": config.model, "ollama_url": config.ollama_url,
         "container_image": config.container_image,
         "objective": config.objective, "allowed_globs": list(config.allowed_globs),
+        "protected_globs": list(config.protected_globs),
         "evaluator": list(config.evaluator), "guards": [list(v) for v in config.guards],
         "max_iterations": config.max_iterations, "max_minutes": config.max_minutes,
         "command_timeout_seconds": config.command_timeout_seconds,
