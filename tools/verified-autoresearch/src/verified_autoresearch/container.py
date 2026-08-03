@@ -172,7 +172,7 @@ class ContainerExecutor:
                     sys.executable,
                     "-m",
                     "verified_autoresearch.watchdog",
-                    str(timeout_seconds + 2),
+                    str(timeout_seconds),
                     str(self.docker_path),
                     name,
                 ],

@@ -12,18 +12,35 @@ def main(argv: Optional[list[str]] = None) -> int:
     if len(values) != 3:
         return 2
     try:
-        delay = float(values[0])
+        runtime_limit = float(values[0])
     except ValueError:
         return 2
     docker_path = Path(values[1])
     container_name = values[2]
     if (
-        not 0 < delay <= 602
+        not 0 < runtime_limit <= 600
         or not docker_path.is_file()
         or not container_name.startswith("verified-autoresearch-")
     ):
         return 2
-    time.sleep(delay)
+    environment = {"PATH": "/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin"}
+    inspect_command = [str(docker_path), "inspect", container_name]
+    for _ in range(300):
+        inspected = subprocess.run(
+            inspect_command,
+            stdin=subprocess.DEVNULL,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            check=False,
+            timeout=10,
+            env=environment,
+        )
+        if inspected.returncode == 0:
+            break
+        time.sleep(0.1)
+    else:
+        return 0
+    time.sleep(runtime_limit + 2)
     command = [str(docker_path), "kill", container_name]
     for _ in range(60):
         completed = subprocess.run(
@@ -33,7 +50,7 @@ def main(argv: Optional[list[str]] = None) -> int:
             stderr=subprocess.DEVNULL,
             check=False,
             timeout=10,
-            env={"PATH": "/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin"},
+            env=environment,
         )
         if completed.returncode == 0:
             return 0
