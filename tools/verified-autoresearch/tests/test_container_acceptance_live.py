@@ -1,4 +1,8 @@
 import os
+import signal
+import subprocess
+import sys
+import time
 from pathlib import Path
 
 import pytest
@@ -122,6 +126,55 @@ print('PID_LIMIT_OK')
 def test_live_wall_time_limit_is_enforced() -> None:
     with pytest.raises(ContainerFailure, match="timed out"):
         executor().run(("python3", "-c", "import time; time.sleep(10)"), timeout_seconds=1)
+
+
+def test_live_sigkill_watchdog_removes_orphaned_container() -> None:
+    assert IMAGE and WORKSPACE
+
+    def names() -> set[str]:
+        output = subprocess.run(
+            ["/opt/homebrew/bin/docker", "ps", "--format", "{{.Names}}"],
+            check=True,
+            capture_output=True,
+            text=True,
+        ).stdout
+        return {
+            name
+            for name in output.splitlines()
+            if name.startswith("verified-autoresearch-")
+        }
+
+    before = names()
+    script = """
+import sys
+from pathlib import Path
+from verified_autoresearch.container import ContainerExecutor
+ContainerExecutor(Path(sys.argv[1]), sys.argv[2]).run(
+    ('python3', '-c', 'import time; time.sleep(30)'), timeout_seconds=2
+)
+"""
+    controller = subprocess.Popen(
+        [sys.executable, "-c", script, WORKSPACE, IMAGE],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+    deadline = time.monotonic() + 10
+    created: set[str] = set()
+    while time.monotonic() < deadline:
+        created = names() - before
+        if created:
+            break
+        if controller.poll() is not None:
+            pytest.fail("controller exited before creating a test container")
+        time.sleep(0.1)
+    assert created
+    os.kill(controller.pid, signal.SIGKILL)
+    controller.wait(timeout=10)
+
+    deadline = time.monotonic() + 10
+    while time.monotonic() < deadline and created & names():
+        time.sleep(0.1)
+    assert not (created & names())
 
 
 def test_live_output_limit_is_enforced() -> None:

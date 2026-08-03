@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import shutil
 import subprocess
+import sys
 import tempfile
 import time
 import uuid
@@ -166,6 +167,22 @@ class ContainerExecutor:
             stdout_path = temporary_path / "stdout"
             stderr_path = temporary_path / "stderr"
             argv = self.build_argv(snapshot, name, command)
+            watchdog = subprocess.Popen(
+                [
+                    sys.executable,
+                    "-m",
+                    "verified_autoresearch.watchdog",
+                    str(timeout_seconds + 2),
+                    str(self.docker_path),
+                    name,
+                ],
+                stdin=subprocess.DEVNULL,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+                env={"PATH": "/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin"},
+                start_new_session=True,
+                close_fds=True,
+            )
             with stdout_path.open("wb") as stdout_handle, stderr_path.open("wb") as stderr_handle:
                 try:
                     process = subprocess.Popen(
@@ -176,6 +193,8 @@ class ContainerExecutor:
                         env={"PATH": "/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin"},
                     )
                 except OSError as exc:
+                    watchdog.terminate()
+                    watchdog.wait(timeout=10)
                     raise ContainerFailure(f"container could not start: {exc}") from exc
                 deadline = time.monotonic() + timeout_seconds
                 try:
@@ -198,7 +217,11 @@ class ContainerExecutor:
                         process.wait(timeout=10)
                     except subprocess.TimeoutExpired:
                         pass
+                    watchdog.terminate()
+                    watchdog.wait(timeout=10)
                     raise
+                watchdog.terminate()
+                watchdog.wait(timeout=10)
                 returncode = process.returncode
             stdout = self._read_bounded(stdout_path, self.max_output_bytes)
             stderr = self._read_bounded(stderr_path, self.max_output_bytes)
