@@ -181,6 +181,7 @@
   },
   "active": "eb5fc23b93b01bd0",
   "lastOpenFiles": [
+    "vault/briefs/2026-08-04-openhouse-product-truth-night-audit.md",
     "tools/verified-autoresearch/tests/test_watchdog.py",
     "tools/verified-autoresearch/src/verified_autoresearch/watchdog.py",
     "tools/verified-autoresearch/tests/test_state.py",
@@ -194,7 +195,6 @@
     "tools/verified-autoresearch/SECURITY.md",
     "tools/verified-autoresearch/README.md",
     "tools/verified-autoresearch/examples/openhouse-retrieval-scratch/guard.py",
-    "tools/verified-autoresearch/examples/openhouse-retrieval-scratch/evaluate.py",
     "vault/briefs/2026-08-03-local-model-m4-air-recommendation.md",
     "vault/briefs/2026-08-03-autonomous-eur100-experiment-charter.md",
     "vault/briefs/2026-08-03-unconventional-agent-income-research.md",
