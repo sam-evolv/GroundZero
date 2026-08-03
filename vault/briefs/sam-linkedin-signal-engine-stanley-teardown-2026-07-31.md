@@ -514,4 +514,5 @@ Integrate into canonical context with the edits above. Authorise the two-week ma
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-01]]
+- [[briefs/wiki-refiner-2026-08-02]]
 

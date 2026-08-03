@@ -45,6 +45,7 @@ date: "2026-07-12"
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/cara-founder-voice-build-sprint-2026-07-12]]
+- [[context/index]]
 - [[items/cara-founder-voice-dogfood]]
 - [[items/cara-phase0-m1-live-call]]
 - [[project_state/cara]]

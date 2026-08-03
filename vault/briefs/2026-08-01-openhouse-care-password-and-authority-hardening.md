@@ -173,5 +173,9 @@ Do not promote this preview, move aliases, alter credentials, push, merge, creat
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-01-openhouse-yc-reviewer-production-certification]]
+- [[briefs/wiki-refiner-2026-08-02]]
+- [[companies/openhouse-ai]]
+- [[goals/oh-aftercare-os]]
+- [[items/oh-rls-audit]]
 - [[project_state/oh]]
 

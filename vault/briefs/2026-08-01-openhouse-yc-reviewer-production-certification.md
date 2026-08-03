@@ -115,5 +115,7 @@ The stable portal passed:
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]]
 - [[briefs/openhouse-yc-fall-2026-live-form-candidate-2026-07-30]]
+- [[companies/openhouse-ai]]
+- [[items/oh-production-migration]]
 - [[project_state/oh]]
 

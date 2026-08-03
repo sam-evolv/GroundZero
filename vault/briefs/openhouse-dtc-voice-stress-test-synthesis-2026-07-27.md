@@ -281,6 +281,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-30]]
 - [[briefs/wiki-refiner-2026-07-31]]
 - [[briefs/wiki-refiner-2026-08-01]]
+- [[briefs/wiki-refiner-2026-08-02]]
 - [[companies/openhouse-ai]]
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
 - [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
