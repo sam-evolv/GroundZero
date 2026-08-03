@@ -51,6 +51,10 @@ This activates only if a current stranger-transactable acquisition channel survi
 
 The same screen found Remote's EMEA Product Manager role as the strongest credible full-time switch, Typeform's Ireland-remote Senior Product Manager role as a stretch, and MongoDB's Cork/Dublin hybrid executive-operations role as lower priority. TELUS's USD $20/hour Economics and Market Logic listing is a strong subject match but remains unverified for Irish eligibility.
 
+## Unconventional marketplace pivot
+
+Sam rejected the low-paid platform and job-switch routes as insufficiently compelling. [[briefs/2026-08-03-unconventional-agent-income-research]] now records the stronger hypothesis: publish a narrow pay-per-result machine capability into an existing automation marketplace rather than sell hours or build another standalone SaaS. The first bounded candidate is a more reliable Google Trends Apify Actor, selected from current official marketplace demand, failure and rating data. It remains a no-spend falsification test, not an income claim.
+
 1. Produce one anonymised sample page from existing permitted material.
 2. Publish one fixed offer at an introductory price of **€250 for the first three audits**. This price tests purchase, not long-term economics.
 3. Apply only to current buyer-posted briefs or platforms that explicitly accept Irish evening/async contractors.
@@ -77,6 +81,7 @@ The faster financial route may still be a materially better full-time role. The 
 - [[context/agentic-value-creation-mission]]
 - [[people/sam-donworth]]
 - [[briefs/2026-08-03-live-agentic-income-and-job-screen]]
+- [[briefs/2026-08-03-unconventional-agent-income-research]]
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
