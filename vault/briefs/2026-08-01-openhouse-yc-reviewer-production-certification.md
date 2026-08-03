@@ -114,6 +114,7 @@ The stable portal passed:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]]
+- [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[briefs/openhouse-yc-fall-2026-live-form-candidate-2026-07-30]]
 - [[companies/openhouse-ai]]
 - [[items/oh-production-migration]]

@@ -36,6 +36,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/oh-developer-outreach-proposal-pack]] | Warm-intro discovery-to-proposal pack (Bridgewater test case) | S | proposed |
 | [[items/oh-answer-quality-audit-loop]] | Merge PR #205, then monthly homeowner answer-accuracy audit feeding proof assets | S | proposed 🔥 |
 | [[items/oh-marketing-site-conversion-instrumentation]] | Ship site v3 with CTA, UTM analytics, and booking link so outreach is measurable | S | proposed |
+| [[items/oh-sean-gallagher-reconnection]] | Reopen Sean's earlier invitation with a bounded request for property-market perspective | S | ready-to-send 🔥 |
 
 ## OpenBook
 
@@ -65,6 +66,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 | Item | Summary | Size | Status |
 |---|---|---|---|
 | [[items/consultancy-cork-property-outreach]] | Contact first 10 Cork property prospects | S | building 🔥 |
+| [[items/agentic-income-evidence-sprint]] | Test one asynchronous evidence and release audit through stranger-transactable demand | S | proposed-test |
 
 ## Operations
 

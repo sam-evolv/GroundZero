@@ -2,7 +2,7 @@
 title: Wiki Refiner 2026-08-03
 kind: wiki_refiner_brief
 date: "2026-08-03"
-ran_at: "2026-08-03T02:15:15+01:00"
+ran_at: "2026-08-03T14:07:12+01:00"
 ---
 
 # Wiki Refiner 2026-08-03
@@ -24,7 +24,7 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
   - Related: [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]], [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]], [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
 - `imports/claude/openhouse-company-memory.md` -> `companies/openhouse-ai.md`
   - Summary: Last updated: 27 June 2026. Maintained by Sam. The council reads this in full at the start of every run and treats it as current reality. Keep it short and current; prune anythi... A premium proptech SaaS platform for property developers: homeowner handover, aftercare, and sales pipeline management. Live homeowner and agent portals at portal.openhouseai.ie... 1. Stabilise the production database migration. Real Longview Estates data is now live across the four schemes; the backup tables are still waiting for one clean week before drop. 2. Triage the current open issues in sam-evolv/property-assistant: #195 raw markdown bold rendering, #194 tsconfig ignoreDeprecations mismatch, #130 chat-route refactor, #128 nu...
-  - Related: [[companies/openhouse-ai]], [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]], [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[project_state/oh]]
+  - Related: [[companies/openhouse-ai]], [[project_state/oh]], [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]], [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - `imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26.md` -> `briefs/openhouse-dtc-master-plan-2026-07-27.md`
   - Summary: Source tweet: https://x.com/gippp69/status/2070482723014078865?s=20 > THE OBSIDIAN GRAPH IS NOT A PRETTY NOTE MAP, IT IS A SELF-MAINTAINING AI WIKI THAT CAN TURN 120 SAVED SOURCES INTO 700 LINKED PAGES WHILE YOU ONLY KEEP ADDING NEW MATERIAL > > 00:11 the graph opens and the trick becomes obvious: every dot is a saved idea, every cluster is a topic, and every line is context the AI no longer has to rebuild from scratc...
   - Related: [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[briefs/sam-linkedin-signal-engine-stanley-teardown-2026-07-31]], [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]], [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]]
@@ -46,7 +46,7 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]] (240)
 - [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]] (222)
 - [[companies/openhouse-ai]] (243)
-- [[project_state/oh]] (150)
+- [[project_state/oh]] (162)
 - [[briefs/wiki-refiner-2026-08-01]] (66)
 - [[briefs/wiki-refiner-2026-06-26]] (16)
 - [[briefs/wiki-refiner-2026-06-27]] (16)

@@ -331,6 +331,7 @@ Keep answers between 20 and 40 seconds unless the panel asks for depth.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
 - [[briefs/openhouse-ndrc-application-pack-2026-07-01]]
 - [[briefs/openhouse-ndrc-pre-accelerator-rehearsal-2026-07-28]]
 - [[briefs/openhouse-ndrc-pre-accelerator-three-slide-fable-prompt-2026-07-28]]

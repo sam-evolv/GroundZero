@@ -2,10 +2,12 @@
 id: oh-bridgewater-warm-introduction
 company_id: openhouse-ai
 title: Convert Carol Tallon’s Bridgewater Developments warm introduction
-state: active
+state: ready-to-send
 priority: high
 source: Sam voice journal, 2026-07-22
 verified: pending external prospect research
+external_action: not-sent
+updated_at: "2026-08-03"
 ---
 
 # Convert Carol Tallon’s Bridgewater Developments warm introduction
@@ -32,7 +34,7 @@ The right sequence is:
 
 > Hi Carol, thanks for thinking of OpenHouse. Yes, absolutely, I would really appreciate an introduction to Bridgewater. We are focused on helping developers create a much clearer homeowner handover and aftercare experience, with the evidence and home context kept in one place rather than lost across documents, emails and support threads. I would love to learn how Bridgewater currently approaches that side of the customer journey and see whether there could be a useful fit. Thanks again, Sam
 
-**Status:** draft only. Do not send without Sam’s approval.
+**Status:** ready for Sam to send on Tuesday 4 August 2026. Held on Monday because it is an Irish bank holiday. No agent send is authorised.
 
 ## Verified prospect research · 22 July 2026
 
@@ -60,12 +62,13 @@ A scheduled discovery conversation with the appropriate Bridgewater decision-mak
 
 The supporting evidence pack is ready in [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]], with a designed PDF at `artifacts/openhouse-proof-pack/OpenHouse_Longview_Developer_Proof_Pack_2026-08-03.pdf`. It gives Sam a conservative Longview evidence set, exact-home trust proof, six discovery questions and a measured one-scheme pilot shape without claiming answer accuracy, workload reduction or customer endorsement.
 
-The remaining external dependency is the introduction itself. The Carol reply remains draft-only and must not be sent by an agent without Sam's explicit send instruction.
+The remaining external dependency is the introduction itself. The Carol reply is ready for Sam to send after the bank holiday and must not be sent by an agent without Sam's explicit send instruction.
 
 ## Connected vault notes
 
 - [[companies/openhouse-ai]] — parent company and live product facts
 - [[project_state/oh]] — current operating status
+- [[briefs/2026-08-03-bank-holiday-founder-reset]] — current seven-day execution plan
 - [[briefs/2026-07-22-reset-and-bridgewater-opportunity]] — source reflection and operating decision context
 - [[context/openhouse-sales-routes]] — sales/channel strategy
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]] — channel-leverage strategy after Cairn
@@ -74,7 +77,10 @@ The remaining external dependency is the introduction itself. The Carol reply re
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-22-reset-and-bridgewater-opportunity]]
 - [[briefs/2026-07-24-openhouse-openbook-reset]]
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
+- [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[briefs/openhouse-perfect-yc-application-playbook-2026-07-29]]
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
 - [[briefs/openhouse-pre-revenue-vc-shortlist-2026-07-29]]

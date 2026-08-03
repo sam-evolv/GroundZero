@@ -141,8 +141,10 @@ Continue only if the scheme shows a defensible improvement in handover consisten
 - GitHub PR #205: https://github.com/sam-evolv/property-assistant/pull/205
 
 ## Notes that link here
-
-- [[items/oh-proof-asset-engine]]
-- [[items/oh-developer-outreach-proposal-pack]]
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
+- [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]
 - [[items/oh-bridgewater-warm-introduction]]
+- [[items/oh-developer-outreach-proposal-pack]]
+- [[items/oh-proof-asset-engine]]
 - [[project_state/oh]]

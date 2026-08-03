@@ -33,6 +33,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-openbook-reset]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
+- [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]
 - [[items/ob-client-self-edit-portal-billing]]
 - [[items/ob-prepared-leadgen-loop]]
 - [[items/oh-developer-outreach-proposal-pack]]

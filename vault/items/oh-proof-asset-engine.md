@@ -67,8 +67,10 @@ Timely. Investor and developer outreach is live now and Bridgewater is a warm, h
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-27-market-intel]]
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
 - [[briefs/hermes-community-use-cases-2026-07-28]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
+- [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[companies/openhouse-ai]]
 - [[context/dashboard]]
 - [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
@@ -77,6 +79,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/oh-bridgewater-warm-introduction]]
 - [[items/oh-developer-outreach-proposal-pack]]
 - [[items/oh-marketing-site-conversion-instrumentation]]
+- [[items/oh-sean-gallagher-reconnection]]
 - [[project_state/oh]]
 
 

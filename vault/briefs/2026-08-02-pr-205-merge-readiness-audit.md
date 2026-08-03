@@ -87,5 +87,7 @@ Correct the five blockers on the PR branch, run the same focused probes plus ful
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[items/oh-answer-quality-audit-loop]]
+- [[project_state/oh]]
 

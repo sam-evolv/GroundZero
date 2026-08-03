@@ -46,3 +46,10 @@ The workflow is therefore not active or required. Vercel production-branch and a
 - [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]
 - [[goals/oh-v2-launch]]
 - [[project_state/oh]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-current-live-boundary-and-v2-handoff]]
+- [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]
+- [[goals/oh-v2-launch]]
+- [[project_state/oh]]

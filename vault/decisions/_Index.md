@@ -46,7 +46,8 @@ Every decision is stored in `decisions/` as a permanent note. This log orders th
 
 | Date | Decision | Consequences | Status |
 |---|---|---|---|
-| 2026-06-19 | [[decisions/ground-zero-canonical]] — vault is canonical | Hermes, Claude, Gemini all source from vault | Active |
+| 2026-08-03 | [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]] - Keep the day job through the January bonus unless an exit gate is met | Preserve runway; reconsider only for funded accelerator acceptance, verified commercial runway, a materially better formal offer, or a genuine health/integrity gate | Active |
+| 2026-06-19 | [[decisions/ground-zero-canonical]] — vault is canonical | Hermes, Claude, Gemini all source from vault; no re-deriving from chat | Active |
 | 2026-07-14 | [[decisions/ai-founder-coach-operating-agreement-2026-07-14]] — Hermes acts as candid AI founder coach | Voice context compounds into grounded challenge, decision support and execution focus | Active |
 | 2026-07-22 | [[decisions/2026-07-22-six-month-agent-co-pilot-protocol]] — private-by-default six-month proof experiment | Extends the founder OS across health, capacity, job, cash clarity, and one commercial proof loop; review after 14 days | Active |
 

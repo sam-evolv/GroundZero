@@ -65,6 +65,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/oh-v2-launch]]
 - [[items/oh-pricing-experiment]]
 - [[items/oh-proof-asset-engine]]
+- [[items/oh-sean-gallagher-reconnection]]
 - [[items/oh-uk-aftercare-design-partner-sprint]]
 - [[items/ops-meeting-followup-assembler]]
 - [[people/sam-donworth]]

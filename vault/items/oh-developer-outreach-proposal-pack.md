@@ -56,6 +56,7 @@ Timely. The Bridgewater introduction is being prepared now, so the pack is most 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-27-market-intel]]
+- [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-sales-routes]]
 - [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]

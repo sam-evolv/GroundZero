@@ -23,6 +23,8 @@ role: project-state
 
 **YC and NDRC status, 2026-07-29:** OpenHouse is Sam's first YC application and the only company he has considered applying with. He is fully committed to going full-time and is open to relocating to San Francisco if accepted. Sam completed the NDRC pre-accelerator interview on 29 July 2026 and reports that it went really well; the formal decision is pending. NDRC has not offered funding, requested equity or created a commitment. OpenHouse has €0 revenue, no outside investment and approximately €10,000 of founder funding.
 
+**Commercial focus, 2026-08-03:** The site and verified Longview developer proof pack are ready. The next move is external proof, not another speculative feature: after the Irish bank holiday, Sam will send Carol Tallon the ready Bridgewater-introduction acceptance and send Sean Gallagher a separate reconnection message that accurately states Sean contacted Sam before OpenHouse existed. No broad developer cold-outreach wave starts until those two warm routes receive a clean response window. See [[briefs/2026-08-03-bank-holiday-founder-reset]], [[items/oh-bridgewater-warm-introduction]] and [[items/oh-sean-gallagher-reconnection]].
+
 OpenHouse is closing its external-pilot safety gates while opening a bounded DTC validation track. Developer commercial proof owns the week: package only verifiable Longview evidence and progress the Bridgewater warm route. DTC remains a capped manual research lane. Its sequence is now coherent: a free, no-card ten-minute reveal tests recognition and usefulness; a real €79 payment or refundable commitment is required before deeper concierge fulfilment; twenty paid or payment-committed plans still gate broad consumer productisation. The three-home truth test validates activation mechanics and evidence quality, not demand. Developer handover and DTC remain two routes into one living Home Record. This direction does not authorise production deployment, migration application, paid acquisition, vendor contracting, payment handling or device control.
 
 **Founder Alpha checkpoint, 2026-07-27:** A private local tracer bullet now proves one synthetic capture → understand → notice → act → remember loop. It accepts only the bundled fictitious heat-pump artifact, creates provenance-bearing candidate facts, requires confirmation of all material evidence, generates one deterministic Money/Comfort/Risk notice, requires explicit advisory approval, records a bounded outcome receipt and restores only invariant-valid local state. The implementation is default-off and development-only; production page/API probes return 404, no Supabase, database, storage, OCR, LLM, notification, connector or device-control path was added, and the final fail-closed review passed. Local code checkpoint: `a210268c` on `feat/dtc-founder-alpha`; nothing was pushed or deployed. This proves product-loop mechanics only, not OCR, production memory, live monitoring, identity, measured savings or demand.
@@ -100,6 +102,9 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]]
 - [[briefs/2026-08-01-openhouse-yc-reviewer-production-certification]]
 - [[briefs/2026-08-02-pr-205-merge-readiness-audit]]
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-03-current-live-boundary-and-v2-handoff]]
+- [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
 - [[briefs/chatgpt-voice-founder-os-2026-07-31]]
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
@@ -123,6 +128,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]]
 - [[briefs/openhouse-ireland-funding-routes-2026-06-29]]
+- [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
 - [[briefs/openhouse-ndrc-application-pack-2026-07-01]]
 - [[briefs/openhouse-ndrc-interview-final-card-2026-07-29]]
@@ -135,6 +141,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-show-house-evidence-capture-2026-07-28]]
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
 - [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
+- [[briefs/substack-draft-2026-08-03-the-waiting-room]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
 - [[briefs/wiki-refiner-2026-06-28]]
@@ -159,6 +166,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
 - [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
 - [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
+- [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]
 - [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]
 - [[goals/oh-activation]]
 - [[goals/oh-aftercare-os]]
@@ -173,6 +181,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/oh-dtc-home-savings-scan-concierge]]
 - [[items/oh-guardrails-eval]]
 - [[items/oh-handover-readiness-scan]]
+- [[items/oh-live-portal-boundary-activation]]
 - [[items/oh-marketing-site-conversion-instrumentation]]
 - [[items/oh-onboarding-cut]]
 - [[items/oh-onboarding-packet-automation]]
@@ -181,6 +190,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/oh-proof-asset-engine]]
 - [[items/oh-rls-audit]]
 - [[items/oh-scheme-launch-scorecard]]
+- [[items/oh-sean-gallagher-reconnection]]
 - [[items/oh-sprint5-close]]
 - [[items/oh-uk-aftercare-design-partner-sprint]]
 - [[items/oh-warranty-evidence-pack]]

@@ -137,5 +137,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/llm-wiki-pattern]]
 - [[context/model-pack]]
 - [[context/solo-founder-era]]
+- [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]
 - [[decisions/ai-founder-coach-operating-agreement-2026-07-14]]
+- [[items/agentic-income-evidence-sprint]]
 

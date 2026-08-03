@@ -46,12 +46,15 @@ V2 is the platform. Every other goal — activation, aftercare OS, funder pitch 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
+- [[briefs/2026-08-03-current-live-boundary-and-v2-handoff]]
 - [[companies/openhouse-ai]]
 - [[context/ground-zero-structure]]
 - [[context/model-pack]]
+- [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]
 - [[goals/oh-activation]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-funder-pitch]]
+- [[items/oh-live-portal-boundary-activation]]
 - [[items/oh-pricing-experiment]]
 - [[items/oh-production-migration]]
 - [[items/oh-rls-audit]]

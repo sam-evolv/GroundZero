@@ -34,13 +34,13 @@ updated: "2026-07-15"
 | [[items/ops-pr-issue-ageing-escalator|Auto-escalate stale PRs and issues]] | 90 | S | 🔥 |
 | [[items/ob-no-show-deposit-workflow|Automate OpenBook deposits and no-show prevention]] | 88 | M | 🔥 |
 | [[items/ob-no-show-deposits|Add refundable deposits to kill no-shows]] | 88 | L | 🔥 |
-| [[items/oh-proof-asset-engine|Turn the live Longview deployment into reusable proof assets]] | 88 | S | 🔥 |
+| [[items/ops-daily-report-pack|Assemble daily reporting packs for each company]] | 88 | M | 🔥 |
 
 ## 🟢 Monitoring
 
 - 🔴 [[project_state/cara|cara]]: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
 - 🟢 [[project_state/ob|ob]]: Empire Gym's owner dashboard hardening is locally verified; safe publish/handoff is pending, and Stripe billing follows only after the owner journey is proven.
-- 🔴 [[project_state/oh|oh]]: Developer proof owns the commercial lane; one operator-mediated test on Sam's occupied home is the next bounded DTC evidence gate.
+- 🔴 [[project_state/oh|oh]]: The isolated My Home truth boundary independently passed; current-live enforcement still requires an approved GitHub ruleset and Vercel isolation proof.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -49,7 +49,7 @@ updated: "2026-07-15"
 | Company | WIP | Proposed | Goal | Status |
 |---|---|---|---|---|
 | Cara | 2 | 0 | — | 🟡 |
-| OpenHouse AI | 1 | 16 | Lift new-agent activation to 60% | 🟡 |
+| OpenHouse AI | 1 | 14 | Lift new-agent activation to 60% | 🟡 |
 | OpenBook | 2 | 6 | Reach 500 live venues in Dublin | 🟡 |
 | Evolv Renewables | 0 | 4 | Sign three commercial rooftop deals | 🟢 |
 
@@ -64,4 +64,4 @@ updated: "2026-07-15"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-08-03 02:15 IST
+- Dashboard: 2026-08-03 14:07 IST

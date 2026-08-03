@@ -58,3 +58,10 @@ If accepted, ask for the exact programme timetable, attendance requirement, reco
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]
 - [[briefs/openhouse-ndrc-interview-final-card-2026-07-29]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/substack-draft-2026-08-03-the-waiting-room]]
+- [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]
+- [[project_state/oh]]

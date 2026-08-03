@@ -20,6 +20,7 @@ This protocol tests three distinct risks:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]]
 - [[briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28]]

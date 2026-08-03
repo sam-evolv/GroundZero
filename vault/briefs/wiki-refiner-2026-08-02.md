@@ -63,6 +63,31 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]]
+- [[briefs/cara-starter-product-spec]]
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
+- [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]]
+- [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
+- [[briefs/openhouse-public-home-context-data-strategy-2026-07-28]]
+- [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
+- [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
+- [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]]
+- [[briefs/openhouse-yc-narrative-rubric-2026-07-29]]
+- [[briefs/sam-linkedin-signal-engine-stanley-teardown-2026-07-31]]
+- [[briefs/wiki-refiner-2026-06-26]]
+- [[briefs/wiki-refiner-2026-06-27]]
+- [[briefs/wiki-refiner-2026-06-28]]
+- [[briefs/wiki-refiner-2026-06-29]]
+- [[briefs/wiki-refiner-2026-06-30]]
+- [[briefs/wiki-refiner-2026-08-01]]
+- [[companies/cara]]
+- [[companies/openhouse-ai]]
+- [[project_state/cara]]
+- [[project_state/oh]]
+
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.
 - Do not delete source material after filing it.
