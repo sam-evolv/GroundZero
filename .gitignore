@@ -37,6 +37,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local disposable autoresearch workspaces and controller ledgers
+/.autoresearch-sandboxes/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

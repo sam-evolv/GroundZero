@@ -13,6 +13,9 @@ class ContainerFailure(RuntimeError):
     pass
 
 
+_CONTAINER_TMPFS = "/tmp:rw,noexec,nosuid,nodev,size=64m,mode=1777"  # nosec B108
+
+
 def _git(root: Path, *args: str) -> bytes:
     completed = subprocess.run(
         ["/usr/bin/git", *args],
@@ -84,9 +87,14 @@ class ContainerExecutor:
             str(self.docker_path),
             "run",
             "--rm",
+            "--pull",
+            "never",
+            "--init",
             "--name",
             container_name,
             "--network",
+            "none",
+            "--ipc",
             "none",
             "--read-only",
             "--cap-drop",
@@ -99,6 +107,8 @@ class ContainerExecutor:
             "64",
             "--memory",
             "2g",
+            "--memory-swap",
+            "2g",
             "--cpus",
             "2",
             "--ulimit",
@@ -106,7 +116,7 @@ class ContainerExecutor:
             "--ulimit",
             "fsize=10485760:10485760",
             "--tmpfs",
-            "/tmp:rw,noexec,nosuid,nodev,size=64m,mode=1777",
+            _CONTAINER_TMPFS,
             "--mount",
             mount,
             "--workdir",

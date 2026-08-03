@@ -36,14 +36,24 @@ class IterationResult:
     commit: Optional[str]
     error: Optional[str]
     timestamp: str
+    reproduction_metric: Optional[float] = None
 
 
 def _git(root: Path, *args: str) -> str:
     result = subprocess.run(
-        ["git", *args], cwd=root, text=True, capture_output=True, check=True,
+        ["/usr/bin/git", *args], cwd=root, text=True, capture_output=True, check=True,
         stdin=subprocess.DEVNULL,
+        env={"PATH": "/usr/bin:/bin:/usr/sbin:/sbin"},
     )
     return result.stdout.strip()
+
+
+def _reject_active_git_filters(root: Path, paths: tuple[Path, ...]) -> None:
+    for path in paths:
+        output = _git(root, "check-attr", "filter", "--", path.as_posix())
+        value = output.rsplit(": ", 1)[-1]
+        if value not in {"unspecified", "unset"}:
+            raise RuntimeError(f"active Git filter is forbidden for {path.as_posix()}")
 
 
 def _context(config: ExperimentConfig, baseline: float) -> str:
@@ -137,6 +147,13 @@ def run_iteration(
     seen_proposals: Optional[Set[str]] = None,
     executor: Optional[Executor] = None,
 ) -> IterationResult:
+    allowlisted_paths = tuple(
+        path.relative_to(config.workspace)
+        for pattern in config.allowed_globs
+        for path in sorted(config.workspace.glob(pattern))
+        if path.is_file() and not path.is_symlink()
+    )
+    _reject_active_git_filters(config.workspace, allowlisted_paths)
     state = verify_sandbox(config.workspace)
     if executor is None:
         executor = ContainerExecutor(config.workspace, config.container_image)
@@ -146,6 +163,9 @@ def run_iteration(
     proposal = model.propose(
         _context(config, baseline), timeout_seconds=config.command_timeout_seconds
     )
+    post_proposal_state = verify_sandbox(config.workspace)
+    if post_proposal_state.head != state.head:
+        raise RuntimeError("workspace HEAD changed while model was proposing")
     digest = _proposal_hash(proposal)
     if seen_proposals is not None and digest in seen_proposals:
         raise RuntimeError("model repeated an earlier proposal")
@@ -154,6 +174,7 @@ def run_iteration(
 
     changed: tuple[Path, ...] = ()
     candidate: Optional[float] = None
+    reproduction: Optional[float] = None
     commit: Optional[str] = None
     status = "failed"
     error: Optional[str] = None
@@ -178,14 +199,16 @@ def run_iteration(
         if candidate >= baseline + config.min_delta:
             for guard in config.guards:
                 run_guard(guard, executor, config.command_timeout_seconds)
-            reproduced = run_evaluator(
+            reproduction = run_evaluator(
                 config.evaluator, executor, config.command_timeout_seconds
             ).metric
-            if abs(reproduced - candidate) > 1e-12:
+            if abs(reproduction - candidate) > 1e-12:
                 raise RuntimeError("candidate improvement did not reproduce exactly")
+            _reject_active_git_filters(config.workspace, changed)
             _git(config.workspace, "add", "--", *(path.as_posix() for path in changed))
             _git(
-                config.workspace, "-c", "core.hooksPath=/dev/null", "commit", "-m",
+                config.workspace, "-c", "core.hooksPath=/dev/null",
+                "-c", "commit.gpgSign=false", "commit", "-m",
                 f"autoresearch: accept iteration {iteration}: {proposal.hypothesis[:72]}",
             )
             commit = _git(config.workspace, "rev-parse", "HEAD")
@@ -216,6 +239,7 @@ def run_iteration(
         commit=commit,
         error=error,
         timestamp=datetime.now(timezone.utc).isoformat(),
+        reproduction_metric=reproduction,
     )
     _append_ledger(config, result)
     return result

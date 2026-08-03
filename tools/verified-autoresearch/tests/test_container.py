@@ -34,6 +34,9 @@ def test_container_argv_is_fail_closed(tmp_path: Path) -> None:
     argv = executor.build_argv(Path("/private/tmp/snapshot"), "test-container", ("python3", "script.py"))
 
     assert argv[:3] == ["/opt/homebrew/bin/docker", "run", "--rm"]
+    assert ["--pull", "never"] == argv[argv.index("--pull"):argv.index("--pull") + 2]
+    assert "--init" in argv
+    assert ["--ipc", "none"] == argv[argv.index("--ipc"):argv.index("--ipc") + 2]
     assert ["--network", "none"] == argv[argv.index("--network"):argv.index("--network") + 2]
     assert ["--read-only", "--cap-drop", "ALL"] == argv[
         argv.index("--read-only"):argv.index("--read-only") + 3
@@ -42,6 +45,9 @@ def test_container_argv_is_fail_closed(tmp_path: Path) -> None:
     assert ["--user", "65534:65534"] == argv[argv.index("--user"):argv.index("--user") + 2]
     assert ["--pids-limit", "64"] == argv[argv.index("--pids-limit"):argv.index("--pids-limit") + 2]
     assert ["--memory", "2g"] == argv[argv.index("--memory"):argv.index("--memory") + 2]
+    assert ["--memory-swap", "2g"] == argv[
+        argv.index("--memory-swap"):argv.index("--memory-swap") + 2
+    ]
     assert ["--cpus", "2"] == argv[argv.index("--cpus"):argv.index("--cpus") + 2]
     assert "type=bind,src=/private/tmp/snapshot,dst=/workspace,readonly" in argv
     assert argv[-3:] == [IMAGE, "python3", "script.py"]

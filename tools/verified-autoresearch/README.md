@@ -44,7 +44,24 @@ colima start verified-autoresearch --cpus 2 --memory 2 --disk 15 \
   --mount /Users/samdonworth/GroundZero:w --ssh-agent=false --activate
 ```
 
-The runner has no host-execution fallback. If Docker/Colima or the exact pinned image is unavailable, verification fails closed.
+The runner has no host-execution fallback and uses `--pull=never`. If Docker/Colima or the exact pinned image is unavailable locally, verification fails closed rather than fetching a mutable dependency during a campaign.
+
+The synthetic pilot was accepted against:
+
+```text
+python@sha256:57cd7c3a7a273101a6485ba99423ee568157882804b1124b4dd04266317710de
+```
+
+Run the real containment acceptance matrix explicitly:
+
+```bash
+export AUTORESEARCH_CANARY_SECRET='must-not-cross'
+export AUTORESEARCH_LIVE_IMAGE='python@sha256:57cd7c3a7a273101a6485ba99423ee568157882804b1124b4dd04266317710de'
+export AUTORESEARCH_LIVE_WORKSPACE='/absolute/synthetic/sandbox/path'
+python -m pytest tests/test_container_acceptance_live.py -q
+```
+
+This probes non-root identity, host-home and Docker-socket absence, environment scrubbing, read-only mounts/root, cgroup CPU/RAM/swap/PID limits, disabled networking, no-exec temporary storage, PID exhaustion, wall time, output size and file-size limits.
 
 ## Prepare an isolated worktree
 

@@ -4,6 +4,8 @@ import sys
 from pathlib import Path
 from typing import Sequence
 
+import pytest
+
 from verified_autoresearch.config import ExperimentConfig
 from verified_autoresearch.edits import Edit
 from verified_autoresearch.proposal import Proposal
@@ -76,6 +78,7 @@ def test_accepts_improvement_and_commits(tmp_path: Path) -> None:
     assert result.status == "accepted"
     assert result.baseline_metric == 1
     assert result.candidate_metric == 2
+    assert result.reproduction_metric == 2
     assert git(root, "rev-parse", "HEAD") != before
     assert (root / "src" / "score.py").read_text() == "VALUE = 2\n"
 
@@ -118,3 +121,39 @@ def test_accepted_commit_does_not_execute_repository_hook(tmp_path: Path) -> Non
 
     assert result.status == "accepted"
     assert not sentinel.exists()
+
+
+def test_rejects_repository_clean_filter_without_executing_it(tmp_path: Path) -> None:
+    root, config = make_sandbox(tmp_path)
+    sentinel = tmp_path / "filter-ran"
+    (root / ".gitattributes").write_text("src/*.py filter=evil\n", encoding="utf-8")
+    git(root, "add", ".gitattributes")
+    git(root, "commit", "-m", "configure attributes")
+    git(root, "config", "filter.evil.clean", f"touch '{sentinel}' && cat")
+
+    with pytest.raises(RuntimeError, match="Git filter"):
+        run_iteration(config, FakeModel(2), iteration=1, executor=TestExecutor(root))
+
+    assert not sentinel.exists()
+    assert git(root, "status", "--porcelain") == ""
+
+
+def test_rejects_workspace_change_while_model_is_proposing(tmp_path: Path) -> None:
+    root, config = make_sandbox(tmp_path)
+    before = git(root, "rev-parse", "HEAD")
+
+    class RacingModel:
+        def propose(self, context: str, timeout_seconds: int) -> Proposal:
+            (root / "src" / "score.py").write_text(
+                "VALUE = 1\n# concurrent change\n", encoding="utf-8"
+            )
+            return Proposal(
+                hypothesis="race the controller",
+                edits=(Edit(path="src/score.py", old="VALUE = 1", new="VALUE = 2"),),
+            )
+
+    with pytest.raises(RuntimeError, match="clean"):
+        run_iteration(config, RacingModel(), iteration=1, executor=TestExecutor(root))
+
+    assert git(root, "rev-parse", "HEAD") == before
+    assert "concurrent change" in (root / "src" / "score.py").read_text(encoding="utf-8")

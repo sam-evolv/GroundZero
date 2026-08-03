@@ -1,12 +1,25 @@
 ---
 title: Best local model for Sam's M4 MacBook Air
 checked_at: "2026-08-03"
-status: researched-not-installed
+status: installed-and-synthetic-pilot-passed
 owner: Sam Donworth
 privacy: private
 ---
 
 # Best local model for Sam's M4 MacBook Air
+
+## Verified completion, 2026-08-03
+
+- Ornith 1.0 9B Q5_K_M is installed locally as `ornith-local:q5`, bound through Ollama only on `127.0.0.1:11434`, with 8K context and immediate unload after structured proposal generation.
+- The exact GGUF is 6,467,969,472 bytes with SHA-256 `d1b36095636c096b04ea09e798a7a378956f2fa9099340bd54add1954aaf149c`.
+- Short measured generation was approximately 12.8 to 13.0 tokens per second. The model occupies about 6.1 GB when loaded and uses the GPU. No short-run thermal warning appeared.
+- The dedicated Colima evaluator uses the digest-pinned image `python@sha256:57cd7c3a7a273101a6485ba99423ee568157882804b1124b4dd04266317710de`.
+- A real seven-probe containment matrix passed for non-root identity, no inherited canary secret, no host home or Docker socket, read-only mounts and root, no network, CPU/RAM/swap/PID cgroups, no-exec temporary storage, PID exhaustion, wall-time, output and file-size limits.
+- The first synthetic OpenHouse retrieval campaign improved its held-out metric from `0.666667` to `1.000000`, reproduced the result in a fresh disposable container and committed only the allowlisted weight change. Two later non-improving proposals reverted automatically to the accepted commit.
+- The evaluator guard now parses the editable Python artefact as AST without importing it, rejecting executable metric-forgery additions outside the literal weight dictionary.
+- This is mechanics evidence only. No production OpenHouse code, customer data, credentials, push, merge, migration or deployment was involved.
+
+See [[project_state/oh]] and [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]].
 
 ## Hardware verified
 
@@ -15,7 +28,7 @@ privacy: private
 - 16 GB unified memory
 - 84 GiB filesystem space currently available
 - macOS 26.2
-- Ollama 0.20.2 installed; no local models currently installed
+- Ollama 0.32.5 installed; verified local model `ornith-local:q5` available
 - MLX, MLX-LM, llama.cpp Python bindings, Transformers and PyTorch are not installed
 - Current memory pressure reported 54% free, with approximately 2.1 GiB swap already used
 - No thermal or performance warning recorded
@@ -31,7 +44,7 @@ The fanless Air and 16 GB unified memory make a quality 8B–9B quantized model 
 - Hugging Face: `deepreinforce-ai/Ornith-1.0-9B-GGUF`
 - Exact weight file: `ornith-1.0-9b-Q5_K_M.gguf`
 - Weight size: 6,467,969,472 bytes, approximately 6.47 GB decimal
-- License: MIT
+- Repository metadata and README state MIT, but the linked licence file returned 404 and no licence or notice file was found. Private evaluation is reasonable; redistribution or commercial embedding requires clarification.
 - Hugging Face usage at check: approximately 4.8 million downloads and 602 likes
 - Designed for agentic coding, tool use and OpenAI-compatible serving
 - The publisher documents direct integration with Hermes, Ollama and llama.cpp
@@ -55,7 +68,7 @@ ollama create ornith-local -f Modelfile
 ollama run ornith-local
 ```
 
-No model was downloaded during this research.
+The verified Q5_K_M model was subsequently downloaded and imported as recorded in the completion checkpoint above.
 
 ## Alternatives
 

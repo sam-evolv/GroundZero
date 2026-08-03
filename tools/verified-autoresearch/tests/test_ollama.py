@@ -49,6 +49,7 @@ def test_requests_strict_json_without_tools() -> None:
     assert "tools" not in Handler.received
     assert Handler.received["format"]["type"] == "object"
     assert Handler.received["think"] is False
+    assert Handler.received["keep_alive"] == 0
 
 
 def test_client_rejects_non_loopback_endpoint() -> None:

@@ -181,6 +181,8 @@
   },
   "active": "eb5fc23b93b01bd0",
   "lastOpenFiles": [
+    "tools/verified-autoresearch/tests/test_example_guard.py",
+    "tools/verified-autoresearch/tests/test_container_acceptance_live.py",
     "tools/verified-autoresearch/tests/test_ledger.py",
     "tools/verified-autoresearch/src/verified_autoresearch/container.py",
     "tools/verified-autoresearch/tests/test_container.py",
@@ -193,8 +195,6 @@
     "tools/verified-autoresearch/examples/openhouse-retrieval-scratch/src",
     "tools/verified-autoresearch/examples/openhouse-retrieval-scratch",
     "tools/verified-autoresearch/examples",
-    "tools/verified-autoresearch/src/verified_autoresearch/cli.py",
-    "tools/verified-autoresearch/tests/test_cli.py",
     "vault/briefs/2026-08-03-local-model-m4-air-recommendation.md",
     "vault/briefs/2026-08-03-autonomous-eur100-experiment-charter.md",
     "vault/briefs/2026-08-03-unconventional-agent-income-research.md",
