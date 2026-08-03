@@ -45,6 +45,12 @@ These are internal credentials. Any public sample must remove private company, h
 
 This activates only if a current stranger-transactable acquisition channel survives the live opportunity screen.
 
+## Live screen checkpoint, 3 August 2026
+
+[[briefs/2026-08-03-live-agentic-income-and-job-screen]] found one verified Ireland-eligible, evening-compatible side-income route: Outlier's freelance English writing and AI-output review listing, paying up to USD $15 per core project hour. It is worth a bounded application but is a modest, availability-dependent cash bridge rather than the high-value outcome model this sprint is intended to test.
+
+The same screen found Remote's EMEA Product Manager role as the strongest credible full-time switch, Typeform's Ireland-remote Senior Product Manager role as a stretch, and MongoDB's Cork/Dublin hybrid executive-operations role as lower priority. TELUS's USD $20/hour Economics and Market Logic listing is a strong subject match but remains unverified for Irish eligibility.
+
 1. Produce one anonymised sample page from existing permitted material.
 2. Publish one fixed offer at an introductory price of **€250 for the first three audits**. This price tests purchase, not long-term economics.
 3. Apply only to current buyer-posted briefs or platforms that explicitly accept Irish evening/async contractors.
@@ -70,6 +76,7 @@ The faster financial route may still be a materially better full-time role. The 
 - [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]
 - [[context/agentic-value-creation-mission]]
 - [[people/sam-donworth]]
+- [[briefs/2026-08-03-live-agentic-income-and-job-screen]]
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_

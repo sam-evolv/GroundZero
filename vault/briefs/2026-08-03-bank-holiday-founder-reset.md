@@ -88,6 +88,7 @@ That is a proof week, not a motivation week.
 - [[items/oh-proof-asset-engine]]
 - [[items/agentic-income-evidence-sprint]]
 - [[briefs/substack-draft-2026-08-03-the-waiting-room]]
+- [[briefs/2026-08-03-live-agentic-income-and-job-screen]]
 - [[people/sam-donworth]]
 
 ## Notes that link here
