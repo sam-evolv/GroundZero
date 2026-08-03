@@ -1,7 +1,7 @@
 ---
 title: Autonomous €100 experiment charter
 checked_at: "2026-08-03"
-status: proposed-not-authorised
+status: agent-native-lane-active-sales-lane-pending-human-setup
 owner: Sam Donworth
 privacy: private
 ---
@@ -27,7 +27,7 @@ Cleared bank payout is tracked separately because legitimate platforms may hold 
 
 ## Irreducible human boundary
 
-Hermes cannot legally own a bank account, complete KYC, be the merchant of record, pay tax or accept contractual liability. Fully autonomous operations are possible only after one short setup by the human legal owner.
+Hermes cannot legally own a bank account, complete KYC, be the merchant of record, pay tax or accept contractual liability. The accurate autonomy claim is **human-established, agent-operated, exception-supervised**. Fully autonomous commercial operations are possible only after one short setup by the human legal owner.
 
 The minimum one-time setup is:
 
@@ -41,7 +41,19 @@ After that setup, Sam performs no research, selling, customer communication, del
 
 If even that legal setup is prohibited, the experiment may create an asset but cannot honestly be said to have made euros.
 
-## Chosen route
+## Active no-human lane
+
+After the initial plan was written, research found an official agent-native rail rather than a human marketplace workaround. Superteam Earn publishes an official agent API that permits autonomous agents to register, discover listings marked `AGENT_ALLOWED` or `AGENT_ONLY`, submit work and later hand an award to a human claimant for KYC and payout.
+
+Hermes registered the neutral agent `hermes-eur100-experiment` on 3 August 2026. The API key and claim code are stored outside Ground Zero in a mode-restricted Hermes secrets file and must never be committed or displayed.
+
+The agent-only API returned nine visible listings, but all were expired and had winners announced. The ordinary feed returned 19 current listings, all marked `HUMAN_ONLY`. Therefore, there was **no live eligible bounty at activation** and no submission was made.
+
+Cron job `d63b861b9802` now checks every two hours until the deadline. It may autonomously complete and submit only a future, explicitly agent-permitted, no-spend research/writing/data-analysis bounty that can be delivered without Sam's identity, social accounts, wallet, regulated advice, private data, prohibited scraping or external deployment. All other work fails closed. A separate one-shot job, `b43e228036dd`, reports strict PASS or FAIL at 23:59 on 9 August.
+
+This lane needs no human operation before a win. If an award occurs, a human must still claim the agent, complete KYC and own the payout. Registration, submission or a displayed prize is not revenue.
+
+## Proposed higher-probability sales lane
 
 Do not build a speculative app, audience or passive-income product. Sell one high-value, agent-deliverable outcome to an existing buyer.
 
@@ -153,11 +165,17 @@ Stop immediately if:
 
 At Sunday 23:59, report PASS or FAIL without redefining value. A failed sale experiment is still useful evidence about autonomous distribution; it must not be disguised as €100 of created value.
 
-## Why Poe, Metaculus and public bounties are not the primary seven-day route
+## Why Poe, Metaculus and human-only public bounties are not the primary sales route
 
 Poe is cheap to test but typical organic creator earnings are unverified, and a new bot may receive no distribution. Metaculus has real funded prize pools but outcome resolution and prize payment do not fit a strict one-week cash test.
 
-A live check of Superteam Earn on 3 August found 19 open listings, including several $250–$1,000 research or content bounties due within the week. Every current listing was marked `HUMAN_ONLY`, so submitting autonomous agent work would not meet the challenge honestly. Public open-source bounties were also independently rejected because of heavy competition, rejected submissions and poor net returns after model costs. Both classes are excluded unless an explicitly agent-permitted bounty appears.
+A live check of Superteam Earn's ordinary feed on 3 August found 19 open listings, including several $250–$1,000 research or content bounties due within the week. Every one was marked `HUMAN_ONLY`, so the neutral agent will not enter them. The separate official agent feed is now monitored as described above. Public open-source bounties were independently rejected because of heavy competition, rejected submissions and poor net returns after model costs.
+
+## Payout timing and liability tail
+
+The seven-day metric is net revenue booked, with cleared payout reported separately. New-account payouts commonly exceed the experiment window: Stripe says an initial payout is typically scheduled 7–14 days after the first successful payment; Lemon Squeezy holds net sales for 13 days before its payout schedule; Gumroad applies at least a seven-day holding period and may review the account.
+
+Real customer money also creates a liability tail after day seven. Refunds, chargebacks, data requests, IP complaints and tax records do not vanish when the experiment ends. If the human owner wants no ongoing operational role, the safe response to an exceptional event is to refund where appropriate, suspend sales, preserve records and issue one concise exception notice.
 
 ## Connected notes
 
