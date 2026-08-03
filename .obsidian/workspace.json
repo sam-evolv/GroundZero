@@ -181,6 +181,8 @@
   },
   "active": "eb5fc23b93b01bd0",
   "lastOpenFiles": [
+    "vault/briefs/2026-08-03-current-live-boundary-and-v2-handoff.md",
+    "vault/items/oh-live-portal-boundary-activation.md",
     "repos/property-assistant/apps/unified-portal/lib/my-home/home-energy-handler.ts",
     "vault/decisions/openhouse-live-portal-my-home-isolation-2026-08-03.md",
     "artifacts/openhouse-proof-pack/verify_proof_pack.py",
@@ -208,7 +210,6 @@
     "vault/assets/yc/openhouse-product-pulse-bed-preview.mp3",
     "vault/assets/yc/openhouse-yc-product-demo-expanded-product-music-2026-07-31.mp4",
     "vault/assets/yc/openhouse-yc-product-demo-expanded-with-music-2026-07-30.mp4",
-    "vault/assets/yc/openhouse-yc-product-demo-expanded-corrected-aspect-2026-07-30.mp4",
     "vault/briefs/wiki-refiner-2026-07-31.md",
     "vault/briefs/openhouse-yc-portal-release-readiness-audit-2026-07-30.md",
     "vault/briefs/openhouse-yc-fall-2026-high-conviction-redraft-2026-07-30.md",
@@ -225,7 +226,6 @@
     "artifacts/openhouse-ndrc-deck/repair-work/slide3_picture7_Image 0.png",
     "artifacts/openhouse-ndrc-deck/repair-work/slide2_picture35_Image 1.png",
     "artifacts/openhouse-ndrc-deck/repair-work/slide2_picture32_Image 0.png",
-    "vault/briefs/openhouse-ndrc-interview-final-card-2026-07-29.md",
-    "repos/property-assistant/node_modules/gauge/README.md"
+    "vault/briefs/openhouse-ndrc-interview-final-card-2026-07-29.md"
   ]
 }
