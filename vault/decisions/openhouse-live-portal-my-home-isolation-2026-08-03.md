@@ -51,6 +51,36 @@ My Home can reach shared production code only after a server-controlled capabili
 
 A client-side feature flag alone is not sufficient authority. The server must fail closed.
 
+## V2 truth-boundary checkpoint · 3 August 2026
+
+Local V2 commit `ffb00731` records the independently reviewed My Home evidence boundary. It remains unpushed on `claude/new-session-0jdf52` and is not part of the current-live line.
+
+Verified behavior:
+
+- canonical token-bound home identity outranks and cannot be filled by fixtures;
+- the home-energy endpoint fails closed without a validated token unit and does not create the service client before authorization;
+- PostgREST reads are forced to `cache: no-store`;
+- supplier bills require positive, meaningful historical evidence and reject ordinary grammatical negations, contractions and simulated provenance;
+- historical bills, simulations and live telemetry remain visibly distinct;
+- operational failures remain errors rather than being presented as an empty home record;
+- the focused My Home smoke suite, non-incremental typecheck, production build and independent adversarial review passed.
+
+The next safe V2 slice is the server capability boundary already required above: default deny, preview-only enablement, exact token-bound home allowlist, and shared denial at navigation, route, API and data-access layers. It must not use a public client flag, migration or production environment change as its first implementation.
+
+## Current-live guard checkpoint · 3 August 2026
+
+Local commit `0ae16083` records the independently reviewed structural current-live boundary. The trusted `pull_request_target` workflow executes the base branch's policy and treats the pull-request head only as inert Git diff data. It freezes frontend, library, configuration, environment, package, deployment, workflow, mobile-wrapper and release-audit surfaces; retains both sides of renames; and prevents a pull request from modifying the policy used to approve itself.
+
+Verification passed:
+
+- checker tests: 9/9;
+- exact PR #205 head `5d56e3bb`: accepted with 19 files;
+- exact V2 head `08f64fa4`: rejected with 39 violations;
+- syntax and cached diff checks;
+- independent adversarial code review.
+
+This is a local code checkpoint, not enforcement. GitHub has no rulesets and `main` is unprotected; the workflow is absent from the trusted base; Vercel production isolation is unverified. Activation remains approval-gated in [[items/oh-live-portal-boundary-activation]].
+
 ## Merge gate
 
 Every PR proposed for `main` must be checked for:
@@ -76,5 +106,7 @@ If any appear, the PR is not a current-live fix and must remain on the V2 line u
 - [[project_state/oh]]
 - [[goals/oh-v2-launch]]
 - [[items/oh-answer-quality-audit-loop]]
+- [[items/oh-live-portal-boundary-activation]]
+- [[briefs/2026-08-03-current-live-boundary-and-v2-handoff]]
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]

@@ -18,6 +18,7 @@ Real Longview Estates data is live across four schemes. Backup tables are waitin
 
 - [[items/oh-production-migration]] — stabilize migration + drop backup tables (S, 95)
 - [[items/oh-rls-audit]] — launch-critical RLS policy audit (S, building)
+- [[items/oh-live-portal-boundary-activation]] — approval-gated required merge check and V2 deployment isolation
 
 ## Release boundary · 3 August 2026
 
