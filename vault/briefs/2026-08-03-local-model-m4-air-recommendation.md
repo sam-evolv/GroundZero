@@ -141,6 +141,72 @@ This is the lowest-risk operational model for local document pipelines and struc
    - generate source-grounded descriptions;
    - use when privacy outweighs the extra latency.
 
+## Is it worth using for continuous OpenHouse improvement?
+
+### Verdict
+
+**Yes as a constrained experiment engine and cheap private worker. No as an unsupervised agent that edits the whole product forever.**
+
+The likely reference is Andrej Karpathy's [`autoresearch`](https://github.com/karpathy/autoresearch). It is not a model mysteriously rewriting its own intelligence. An agent edits one allowed file, runs a fixed five-minute experiment against one immutable metric, keeps an improvement or reverts it, logs the result, and repeats. Karpathy's original requires an NVIDIA GPU; [`autoresearch-mlx`](https://github.com/trevin-creator/autoresearch-mlx) ports the training experiment to Apple Silicon. Its published loop takes roughly six to seven minutes per experiment and warns that single-run gains can be noise, so replicated evaluation matters.
+
+That design works because the editable surface, time budget and metric are exceptionally narrow. Applying the slogan to all of OpenHouse would create metric gaming, code churn and security regressions. The valuable transferable pattern is **propose → modify → verify → keep/revert → log**, not “let an agent improve everything forever.”
+
+### What it would improve
+
+A local model would not improve Opus's underlying weights or reasoning. It could improve the surrounding workflow by:
+
+- making hundreds of cheap private first-pass hypotheses;
+- running bounded code/test/retrieval experiments without cloud-token pressure;
+- preserving failed experiments so Opus does not repeat them;
+- producing a nightly evidence summary for Opus;
+- promoting only the few candidates that beat an immutable evaluation;
+- keeping proprietary OpenHouse context on-device.
+
+The best architecture is hybrid: Opus defines the objective, constraints and review standard; the local model performs repetitive search; deterministic tests and held-out evidence score it; Opus independently reviews only the survivors.
+
+### Best first OpenHouse loop
+
+Start with **offline retrieval and answer-grounding optimisation**, not the UI or whole repository.
+
+- Work only in an isolated V2 worktree.
+- Freeze current-live/My Home boundaries and production aliases.
+- Permit changes only to an explicit retrieval/reranking/prompt allowlist.
+- Make tenant guards, auth, migrations, fixtures, source documents and evaluator immutable.
+- Build a held-out set from verified property questions, expected facts and expected source passages. Existing question counts are useful raw material but are not yet a certified answer-quality benchmark.
+- Score retrieval recall, exact factual correctness, citation correctness, unsupported-claim rate, latency and cost separately.
+- Run fixed-budget experiments; revert losers automatically.
+- Replicate marginal wins to distinguish improvement from noise.
+- Require typecheck, focused regression tests, build, boundary guard and independent cloud review before any candidate is considered.
+- Never allow the loop to push, deploy, migrate, change Vercel, touch production data or certify itself.
+
+A second useful loop could generate adversarial tenant/auth and routing test cases, but the local model must not be the sole judge of whether the security behavior is correct.
+
+### Mac operating reality
+
+The Mac is currently on AC power and configured not to system-sleep on AC, so multi-hour background processes are technically possible. However:
+
+- the M4 Air is fanless and sustained inference can thermally throttle;
+- 16 GB unified memory is shared by Ollama, Next.js builds, browsers and the OS;
+- the Mac already reports approximately 2.1 GiB of swap used;
+- loading a 9B Q5 model while running a full Next build can create memory pressure;
+- long agent context is not durable memory; git commits, an experiment ledger and immutable evaluations must carry state across iterations.
+
+For an overnight controller, use Ornith Q4_K_M or Q5_K_M at 4K–8K context and run expensive builds/evaluations sequentially. Unload Ollama between phases when necessary. Prefer bounded six-to-eight-hour campaigns with explicit checkpoints over a literal permanent loop. A dedicated Mac mini or remote worker is better if this becomes a 24/7 service.
+
+Hermes cron is suited to short checks, not the core multi-hour experiment process. A durable background process, isolated Kanban worker or separate Hermes instance should own the campaign, heartbeat periodically, record every experiment and stop on repeated failures, thermal/memory pressure, disk limits or lack of measurable progress.
+
+### Decision gate
+
+Installing a local model is worth doing if the first pilot is treated as infrastructure validation:
+
+1. Download Ornith Q4_K_M or Q5_K_M.
+2. Benchmark generation speed, memory pressure and thermals on this Mac.
+3. Give it one read-only OpenHouse repository task and compare its output with Opus.
+4. Run a five-to-ten-iteration offline retrieval experiment with immutable tests.
+5. Continue only if it produces at least one independently verified improvement without destabilising the Mac or increasing review burden.
+
+If it mainly creates plausible-looking patches that Opus must repair, stop. The objective is not more autonomous activity; it is more verified progress per euro and per hour of Sam's attention.
+
 ## Boundaries
 
 A 9B local model will not match the current frontier cloud model on difficult strategy, long-horizon autonomy or high-stakes release judgment. Do not use it as the sole authority for:
