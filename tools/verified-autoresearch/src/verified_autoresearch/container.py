@@ -178,21 +178,27 @@ class ContainerExecutor:
                 except OSError as exc:
                     raise ContainerFailure(f"container could not start: {exc}") from exc
                 deadline = time.monotonic() + timeout_seconds
-                while process.poll() is None:
-                    if time.monotonic() >= deadline:
+                try:
+                    while process.poll() is None:
+                        if time.monotonic() >= deadline:
+                            raise ContainerFailure(
+                                f"container command timed out after {timeout_seconds}s"
+                            )
+                        if (
+                            stdout_path.stat().st_size + stderr_path.stat().st_size
+                            > self.max_output_bytes
+                        ):
+                            raise ContainerFailure("container output exceeded limit")
+                        time.sleep(0.05)
+                except BaseException:
+                    if process.poll() is None:
                         process.kill()
-                        self._kill(name)
-                        raise ContainerFailure(
-                            f"container command timed out after {timeout_seconds}s"
-                        )
-                    if (
-                        stdout_path.stat().st_size + stderr_path.stat().st_size
-                        > self.max_output_bytes
-                    ):
-                        process.kill()
-                        self._kill(name)
-                        raise ContainerFailure("container output exceeded limit")
-                    time.sleep(0.05)
+                    self._kill(name)
+                    try:
+                        process.wait(timeout=10)
+                    except subprocess.TimeoutExpired:
+                        pass
+                    raise
                 returncode = process.returncode
             stdout = self._read_bounded(stdout_path, self.max_output_bytes)
             stderr = self._read_bounded(stderr_path, self.max_output_bytes)

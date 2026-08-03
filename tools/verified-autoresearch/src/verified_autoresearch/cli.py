@@ -11,8 +11,9 @@ from .config import ExperimentConfig
 from .container import ContainerExecutor
 from .evaluator import Executor, run_evaluator, run_guard
 from .ollama import OllamaClient
-from .runner import run_campaign
+from .runner import _validated_allowed_paths, run_campaign
 from .sandbox import verify_sandbox
+from .state import workspace_state
 
 
 def _parser() -> argparse.ArgumentParser:
@@ -31,14 +32,17 @@ def main(
 ) -> int:
     args = _parser().parse_args(argv)
     config = ExperimentConfig.load(args.config)
-    state = verify_sandbox(config.workspace)
     if executor is None:
         executor = ContainerExecutor(config.workspace, config.container_image)
-    baseline = run_evaluator(
-        config.evaluator, executor, config.command_timeout_seconds
-    ).metric
-    for guard in config.guards:
-        run_guard(guard, executor, config.command_timeout_seconds)
+    with workspace_state(config) as store:
+        _validated_allowed_paths(config)
+        store.recover()
+        state = verify_sandbox(config.workspace)
+        baseline = run_evaluator(
+            config.evaluator, executor, config.command_timeout_seconds
+        ).metric
+        for guard in config.guards:
+            run_guard(guard, executor, config.command_timeout_seconds)
 
     if args.command == "verify":
         print(json.dumps({

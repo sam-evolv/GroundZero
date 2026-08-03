@@ -212,3 +212,33 @@ def test_rolls_back_accepted_commit_when_ledger_append_fails(
 
     assert git(root, "rev-parse", "HEAD") == before
     assert git(root, "status", "--porcelain") == ""
+
+
+def test_rejects_control_plane_change_between_evaluation_snapshots(tmp_path: Path) -> None:
+    root, config = make_sandbox(tmp_path)
+
+    class MutatingExecutor(TestExecutor):
+        def __init__(self, cwd: Path) -> None:
+            super().__init__(cwd)
+            self.calls = 0
+
+        def run(
+            self, command: Sequence[str], timeout_seconds: int
+        ) -> subprocess.CompletedProcess[str]:
+            completed = super().run(command, timeout_seconds)
+            self.calls += 1
+            if self.calls == 2:
+                (root / "evaluate.py").write_text(
+                    (root / "evaluate.py").read_text(encoding="utf-8")
+                    + "# concurrent mutation\n",
+                    encoding="utf-8",
+                )
+            return completed
+
+    result = run_iteration(
+        config, FakeModel(2), iteration=1, executor=MutatingExecutor(root)
+    )
+
+    assert result.status == "failed"
+    assert "immutable evaluation" in (result.error or "")
+    assert git(root, "status", "--porcelain") == ""

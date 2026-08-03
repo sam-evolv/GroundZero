@@ -87,3 +87,18 @@ def test_requires_evaluator_and_guard_files_to_be_protected(tmp_path: Path) -> N
 
     with pytest.raises(ValueError, match="must cover"):
         ExperimentConfig.load(path)
+
+
+def test_rejects_non_finite_metric_delta_and_excessive_limits(tmp_path: Path) -> None:
+    raw = valid_config(tmp_path)
+    raw["min_delta"] = float("nan")
+    path = tmp_path / "experiment.json"
+    path.write_text(json.dumps(raw), encoding="utf-8")
+    with pytest.raises(ValueError, match="finite"):
+        ExperimentConfig.load(path)
+
+    raw = valid_config(tmp_path)
+    raw["max_iterations"] = 1001
+    path.write_text(json.dumps(raw), encoding="utf-8")
+    with pytest.raises(ValueError, match="safe cap"):
+        ExperimentConfig.load(path)

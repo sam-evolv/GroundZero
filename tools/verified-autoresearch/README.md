@@ -23,7 +23,8 @@ The runner requires all of the following before it will edit anything:
 - automatic hard reset for rejected or failed experiments;
 - maximum iterations, wall-clock budget, command timeouts and a three-attempt no-progress stop;
 - a networkless, non-root, read-only container with dropped capabilities and CPU, RAM, PID, file and output limits for every guard/evaluator command;
-- a controller-owned, fsynced, hash-chained JSONL ledger outside the workspace;
+- a controller-owned, atomically replaced, fsynced, hash-chained JSONL ledger outside the workspace;
+- an exclusive per-workspace campaign lock, tracked-file fingerprints around every candidate evaluation, and a durable pending-transaction journal with crash recovery;
 - an exact reproduction run before any candidate is committed.
 
 It does not push, deploy, migrate, create files, modify evaluator commands or execute model-generated commands.
@@ -133,7 +134,7 @@ Results are written to:
 <workspace-parent>/.<workspace-name>.autoresearch-state/ledger.jsonl
 ```
 
-Every accepted experiment becomes a local commit on the `autoresearch/*` branch after a second identical evaluation. Rejected and failed experiments are reset to the previous accepted commit. A failed ledger append also rolls an accepted commit back. The ledger directory and file must be controller-owned, mode `0700`/`0600`, regular and non-linked; opens use `O_NOFOLLOW`. The ledger is hash-chained to detect accidental modification, but it is not authenticated evidence and remains no substitute for independent review.
+Every accepted experiment becomes a local commit on the `autoresearch/*` branch after a second identical evaluation. Rejected and failed experiments are reset to the previous accepted commit. Only one controller can hold the workspace campaign lock. A mode-`0600`, fsynced `pending.json` transaction is written before edits begin and updated after commit; on the next invocation, recovery either preserves a commit already matched by the durable ledger or hard-resets to the prior HEAD. Ledger updates use a temporary controller-owned file, file and directory fsync, and descriptor-relative atomic replacement. The state directory must be controller-owned mode `0700`; state files must be regular, non-linked and mode `0600`, and opens use `O_NOFOLLOW`. The ledger is hash-chained to detect accidental modification, but it is not authenticated evidence and remains no substitute for external audit.
 
 ## OpenHouse adoption gate
 

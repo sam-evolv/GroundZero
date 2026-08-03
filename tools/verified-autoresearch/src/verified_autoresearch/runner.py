@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import fcntl
 import fnmatch
 import hashlib
 import json
@@ -19,6 +18,7 @@ from .edits import apply_edits
 from .evaluator import CommandFailure, Executor, run_evaluator, run_guard
 from .proposal import Proposal
 from .sandbox import hard_reset, verify_sandbox
+from .state import StateStore, workspace_state
 
 
 class ProposalModel(Protocol):
@@ -142,74 +142,75 @@ def _proposal_hash(proposal: Proposal) -> str:
     return hashlib.sha256(body).hexdigest()
 
 
-def _append_ledger(config: ExperimentConfig, result: IterationResult) -> None:
-    state_dir = config.workspace.parent / f".{config.workspace.name}.autoresearch-state"
-    if state_dir.exists() or state_dir.is_symlink():
-        state_info = os.lstat(state_dir)
-        if (
-            stat.S_ISLNK(state_info.st_mode)
-            or not stat.S_ISDIR(state_info.st_mode)
-            or state_info.st_uid != os.getuid()
-            or stat.S_IMODE(state_info.st_mode) != 0o700
-        ):
-            raise RuntimeError("autoresearch state directory is unsafe")
-    else:
-        state_dir.mkdir(mode=0o700)
-    ledger = state_dir / "ledger.jsonl"
-    descriptor = os.open(
-        ledger,
-        os.O_RDWR | os.O_APPEND | os.O_CREAT | os.O_NOFOLLOW,
-        0o600,
-    )
-    ledger_info = os.fstat(descriptor)
-    if (
-        not stat.S_ISREG(ledger_info.st_mode)
-        or ledger_info.st_nlink != 1
-        or ledger_info.st_uid != os.getuid()
-        or stat.S_IMODE(ledger_info.st_mode) != 0o600
-    ):
-        os.close(descriptor)
-        raise RuntimeError("autoresearch ledger path is unsafe")
-    with os.fdopen(descriptor, "a+", encoding="utf-8") as handle:
-        fcntl.flock(handle.fileno(), fcntl.LOCK_EX)
-        handle.seek(0)
-        previous = "0" * 64
-        sequence = 0
-        for line in handle:
+def _tracked_fingerprint(root: Path) -> str:
+    entries = _git(root, "ls-files", "-z", "--stage").split("\0")
+    digest = hashlib.sha256()
+    total = 0
+    for entry in entries:
+        if not entry:
+            continue
+        try:
+            metadata, raw_path = entry.split("\t", 1)
+            mode = metadata.split(" ", 1)[0]
+            relative = Path(raw_path)
+        except ValueError as exc:
+            raise RuntimeError("Git index contains an invalid path") from exc
+        if mode not in {"100644", "100755"}:
+            raise RuntimeError(f"tracked path is not a regular file: {relative}")
+        directory_fd = os.open(root, os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW)
+        try:
+            for component in relative.parts[:-1]:
+                next_fd = os.open(
+                    component,
+                    os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW,
+                    dir_fd=directory_fd,
+                )
+                os.close(directory_fd)
+                directory_fd = next_fd
+            descriptor = os.open(
+                relative.name,
+                os.O_RDONLY | os.O_NOFOLLOW,
+                dir_fd=directory_fd,
+            )
             try:
-                record = json.loads(line)
-                payload = {
-                    "sequence": record["sequence"],
-                    "previous_record_sha256": record["previous_record_sha256"],
-                    "result": record["result"],
-                }
-                expected = hashlib.sha256(
-                    json.dumps(payload, sort_keys=True, separators=(",", ":")).encode("utf-8")
-                ).hexdigest()
-                if (
-                    set(record) != {*payload, "record_sha256"}
-                    or record["sequence"] != sequence + 1
-                    or record["previous_record_sha256"] != previous
-                    or record["record_sha256"] != expected
-                ):
-                    raise RuntimeError("ledger integrity check failed")
-            except (json.JSONDecodeError, KeyError, TypeError) as exc:
-                raise RuntimeError("ledger integrity check failed") from exc
-            sequence = record["sequence"]
-            previous = record["record_sha256"]
-        payload = {
-            "sequence": sequence + 1,
-            "previous_record_sha256": previous,
-            "result": asdict(result),
-        }
-        digest = hashlib.sha256(
-            json.dumps(payload, sort_keys=True, separators=(",", ":")).encode("utf-8")
-        ).hexdigest()
-        record = {**payload, "record_sha256": digest}
-        handle.seek(0, os.SEEK_END)
-        handle.write(json.dumps(record, sort_keys=True, separators=(",", ":")) + "\n")
-        handle.flush()
-        os.fsync(handle.fileno())
+                info = os.fstat(descriptor)
+                if not stat.S_ISREG(info.st_mode) or info.st_nlink != 1:
+                    raise RuntimeError(f"tracked path changed or is linked: {relative}")
+                chunks = []
+                while True:
+                    chunk = os.read(descriptor, 65_536)
+                    if not chunk:
+                        break
+                    total += len(chunk)
+                    if total > 50_000_000:
+                        raise RuntimeError("tracked workspace exceeds fingerprint size limit")
+                    chunks.append(chunk)
+            finally:
+                os.close(descriptor)
+        finally:
+            os.close(directory_fd)
+        digest.update(mode.encode("ascii") + b"\0")
+        digest.update(relative.as_posix().encode("utf-8") + b"\0")
+        digest.update(b"".join(chunks))
+        digest.update(b"\0")
+    return digest.hexdigest()
+
+
+def _assert_fingerprint(root: Path, expected: str) -> None:
+    if _tracked_fingerprint(root) != expected:
+        raise RuntimeError("tracked workspace changed during immutable evaluation")
+
+
+def _append_ledger(
+    config: ExperimentConfig,
+    result: IterationResult,
+    store: Optional[StateStore] = None,
+) -> None:
+    if store is not None:
+        store.append_result(asdict(result))
+        return
+    with workspace_state(config) as acquired:
+        acquired.append_result(asdict(result))
 
 
 def run_iteration(
@@ -219,7 +220,20 @@ def run_iteration(
     iteration: int,
     seen_proposals: Optional[Set[str]] = None,
     executor: Optional[Executor] = None,
+    _store: Optional[StateStore] = None,
 ) -> IterationResult:
+    if _store is None:
+        with workspace_state(config) as store:
+            _validated_allowed_paths(config)
+            store.recover()
+            return run_iteration(
+                config,
+                model,
+                iteration=iteration,
+                seen_proposals=seen_proposals,
+                executor=executor,
+                _store=store,
+            )
     allowlisted_paths = _validated_allowed_paths(config)
     _reject_active_git_filters(config.workspace, allowlisted_paths)
     state = verify_sandbox(config.workspace)
@@ -240,6 +254,7 @@ def run_iteration(
         raise RuntimeError("model repeated an earlier proposal")
     if seen_proposals is not None:
         seen_proposals.add(digest)
+    _store.begin(state.head, iteration, digest)
 
     changed: tuple[Path, ...] = ()
     candidate: Optional[float] = None
@@ -260,20 +275,30 @@ def run_iteration(
         )
         if tuple(sorted(actual)) != tuple(sorted(changed)):
             raise RuntimeError("git diff does not exactly match validated edits")
+        candidate_fingerprint = _tracked_fingerprint(config.workspace)
         for guard in config.guards:
+            _assert_fingerprint(config.workspace, candidate_fingerprint)
             run_guard(guard, executor, config.command_timeout_seconds)
+            _assert_fingerprint(config.workspace, candidate_fingerprint)
+        _assert_fingerprint(config.workspace, candidate_fingerprint)
         candidate = run_evaluator(
             config.evaluator, executor, config.command_timeout_seconds
         ).metric
+        _assert_fingerprint(config.workspace, candidate_fingerprint)
         if candidate >= baseline + config.min_delta:
             for guard in config.guards:
+                _assert_fingerprint(config.workspace, candidate_fingerprint)
                 run_guard(guard, executor, config.command_timeout_seconds)
+                _assert_fingerprint(config.workspace, candidate_fingerprint)
+            _assert_fingerprint(config.workspace, candidate_fingerprint)
             reproduction = run_evaluator(
                 config.evaluator, executor, config.command_timeout_seconds
             ).metric
+            _assert_fingerprint(config.workspace, candidate_fingerprint)
             if abs(reproduction - candidate) > 1e-12:
                 raise RuntimeError("candidate improvement did not reproduce exactly")
             _reject_active_git_filters(config.workspace, changed)
+            _assert_fingerprint(config.workspace, candidate_fingerprint)
             _git(config.workspace, "add", "--", *(path.as_posix() for path in changed))
             _git(
                 config.workspace, "-c", "core.hooksPath=/dev/null",
@@ -281,6 +306,8 @@ def run_iteration(
                 f"autoresearch: accept iteration {iteration}: {proposal.hypothesis[:72]}",
             )
             commit = _git(config.workspace, "rev-parse", "HEAD")
+            _assert_fingerprint(config.workspace, candidate_fingerprint)
+            _store.set_commit(commit)
             status = "accepted"
         else:
             status = "rejected"
@@ -311,10 +338,12 @@ def run_iteration(
         reproduction_metric=reproduction,
     )
     try:
-        _append_ledger(config, result)
+        _append_ledger(config, result, _store)
+        _store.finish()
     except Exception:
         if status == "accepted":
             hard_reset(config.workspace, state.head)
+        _store.finish()
         raise
     return result
 
@@ -325,25 +354,25 @@ def run_campaign(
     *,
     executor: Optional[Executor] = None,
 ) -> list[IterationResult]:
-    started = time.monotonic()
-    seen: Set[str] = set()
-    results: list[IterationResult] = []
-    no_progress = 0
-    for iteration in range(1, config.max_iterations + 1):
-        if time.monotonic() - started >= config.max_minutes * 60:
-            break
-        try:
+    with workspace_state(config) as store:
+        _validated_allowed_paths(config)
+        store.recover()
+        started = time.monotonic()
+        seen: Set[str] = set()
+        results: list[IterationResult] = []
+        no_progress = 0
+        for iteration in range(1, config.max_iterations + 1):
+            if time.monotonic() - started >= config.max_minutes * 60:
+                break
             result = run_iteration(
                 config, model, iteration=iteration, seen_proposals=seen,
-                executor=executor,
+                executor=executor, _store=store,
             )
-        except RuntimeError:
-            break
-        results.append(result)
-        if result.status == "accepted":
-            no_progress = 0
-        else:
-            no_progress += 1
-        if no_progress >= 3:
-            break
-    return results
+            results.append(result)
+            if result.status == "accepted":
+                no_progress = 0
+            else:
+                no_progress += 1
+            if no_progress >= 3:
+                break
+        return results

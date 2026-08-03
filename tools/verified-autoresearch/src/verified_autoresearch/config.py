@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import fnmatch
 import json
+import math
 import re
 from dataclasses import dataclass
 from pathlib import Path
@@ -125,8 +126,22 @@ class ExperimentConfig:
         for name in ("max_iterations", "max_minutes", "command_timeout_seconds", "max_files", "max_edit_bytes"):
             if not isinstance(raw[name], int) or raw[name] <= 0:
                 raise ValueError(f"{name} must be a positive integer")
-        if not isinstance(raw["min_delta"], (int, float)) or raw["min_delta"] < 0:
-            raise ValueError("min_delta must be non-negative")
+        safe_caps = {
+            "max_iterations": 100,
+            "max_minutes": 1440,
+            "command_timeout_seconds": 600,
+            "max_files": 100,
+            "max_edit_bytes": 1_000_000,
+        }
+        for name, cap in safe_caps.items():
+            if raw[name] > cap:
+                raise ValueError(f"{name} exceeds safe cap")
+        if (
+            not isinstance(raw["min_delta"], (int, float))
+            or not math.isfinite(raw["min_delta"])
+            or raw["min_delta"] < 0
+        ):
+            raise ValueError("min_delta must be finite and non-negative")
 
         return cls(
             workspace=workspace,
