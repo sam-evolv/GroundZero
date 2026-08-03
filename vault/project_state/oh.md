@@ -1,13 +1,15 @@
 ---
 id: oh
 company_id: openhouse-ai
-headline: Developer proof owns the commercial lane; one operator-mediated test on Sam's occupied home is the next bounded DTC evidence gate.
+headline: PR 205 is exact-SHA CI green and the verified Longview developer proof pack is ready; the Bridgewater introduction is the next external commercial action.
 valid: true
-updated_at: "2026-08-01T17:29:18+01:00"
+updated_at: "2026-08-03T08:54:20+01:00"
 role: project-state
 ---
 
 ## Current direction: 2026-07-28
+
+**PR 205 and developer-proof checkpoint, 2026-08-03:** Exact independently reviewed commit `5d56e3bbf73de57a40231ef8236b68b46dd107d3` was pushed to existing PR #205. GitHub now reports the PR mergeable and `CLEAN`; Unified Portal Quality, PWA and Capacitor audit, Mobile release readiness, Vercel and Vercel Preview Comments all passed against that exact head. Nothing was merged, promoted to production or applied to Supabase. Migration 073 remains a separate production operation requiring explicit approval. A truthful six-page Longview developer proof pack is complete at [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]] and `artifacts/openhouse-proof-pack/OpenHouse_Longview_Developer_Proof_Pack_2026-08-03.pdf`. It uses the conservative 259-question, 79-home-context evidence set and excludes unsupported accuracy, workload, retention, payment and customer-endorsement claims. The next external commercial action remains accepting and progressing Carol Tallon's Bridgewater introduction.
 
 **YC reviewer production checkpoint, 2026-08-01:** The Fall 2026 application is submitted and in review. The authentic sanitized 8 Longview Park reviewer portal is live at its stable URL with exact-home `reviewer_full` authority, direct REST/RPC/storage/GraphQL probes pass after migration 076, browser and grant-lifecycle suites pass, and the Assistant returns the verified AquaBox warranty date as 7 November 2026. Existing reviewer credentials remain unchanged. Final evidence and residual non-blocking work are in [[briefs/2026-08-01-openhouse-yc-reviewer-production-certification]].
 

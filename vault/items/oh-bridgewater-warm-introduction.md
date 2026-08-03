@@ -56,6 +56,12 @@ See [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]].
 
 A scheduled discovery conversation with the appropriate Bridgewater decision-maker, after Carol’s warm introduction, with a sharp public landing page and a tailored discovery brief ready.
 
+## Readiness checkpoint · 3 August 2026
+
+The supporting evidence pack is ready in [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]], with a designed PDF at `artifacts/openhouse-proof-pack/OpenHouse_Longview_Developer_Proof_Pack_2026-08-03.pdf`. It gives Sam a conservative Longview evidence set, exact-home trust proof, six discovery questions and a measured one-scheme pilot shape without claiming answer accuracy, workload reduction or customer endorsement.
+
+The remaining external dependency is the introduction itself. The Carol reply remains draft-only and must not be sent by an agent without Sam's explicit send instruction.
+
 ## Connected vault notes
 
 - [[companies/openhouse-ai]] — parent company and live product facts

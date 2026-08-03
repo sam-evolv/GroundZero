@@ -7,16 +7,22 @@ rationale: Warm developer introductions (Bridgewater, five schemes) arrive faste
 council_note: Incubation pass 2026-07-25 · Effort S
 effort: S
 impact: 82
-state: proposed
+state: active
 is_one_thing: false
 source: incubation-run 2026-07-25
 run_date: "2026-07-25"
 created_at: "2026-07-25T03:05:00Z"
-updated_at: "2026-07-25T03:05:00Z"
+updated_at: "2026-08-03T08:54:20+01:00"
 ---
 
 ## What this is
 A reusable template that converts a warm developer introduction into a tailored discovery-plus-proposal artefact quickly. A short discovery checklist to run the first call, then a one-page proposal shell that plugs in the developer's scheme count, timeline, and the OpenHouse proof assets. Content leverage, not a build.
+
+## Delivery checkpoint · 3 August 2026
+
+The reusable proof and discovery foundation is now available in [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]. It includes the approved Longview metrics, trust evidence, controlled claim boundary, six-question discovery sequence and one-scheme pilot measures. The designed PDF is stored at `artifacts/openhouse-proof-pack/OpenHouse_Longview_Developer_Proof_Pack_2026-08-03.pdf`.
+
+The proposal shell should not be finalised before a live developer discovery call. After the Bridgewater conversation, tailor one page to the workflow, friction, scheme and decision path Bridgewater actually describes.
 
 ## Opportunity size
 Direct and near-term. Bridgewater is verified as a high-fit, five-scheme Cork prospect and is the live test case. If warm intros keep arriving through Carol Tallon and other channels, the bottleneck shifts from lead generation to conversion speed and consistency. A repeatable pack removes per-deal rework and makes each conversation land more professionally, which is exactly what an early developer sale needs.

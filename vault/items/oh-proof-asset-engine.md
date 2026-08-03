@@ -7,16 +7,27 @@ rationale: The current cycle is investor and developer outreach, but the only li
 council_note: Incubation pass 2026-07-25 · Effort S
 effort: S
 impact: 88
-state: proposed
+state: active
 is_one_thing: false
 source: incubation-run 2026-07-25
 run_date: "2026-07-25"
 created_at: "2026-07-25T03:00:00Z"
-updated_at: "2026-07-25T03:00:00Z"
+updated_at: "2026-08-03T08:54:20+01:00"
 ---
 
 ## What this is
 A small, fixed set of reusable proof assets built once from the live Longview Estates deployment, then reused across every investor conversation, developer pitch, funding form, and award application. Not a build project. A content and evidence packaging slice.
+
+## Delivery checkpoint · 3 August 2026
+
+The first verified sendable pack is complete:
+
+- Canonical evidence brief: [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
+- Designed PDF: `artifacts/openhouse-proof-pack/OpenHouse_Longview_Developer_Proof_Pack_2026-08-03.pdf`
+- Six pages covering conservative Longview usage, homeowner topics, the operating loop, exact-home trust evidence, a measured one-scheme pilot, and controlled claim boundaries.
+- The pack deliberately excludes answer-accuracy, workload-reduction, retention, paying-customer and independent-customer-validation claims.
+
+The remaining asset gap is permissioned evidence. No homeowner or developer quote should be added until the exact wording and external-use permission are logged. The existing Longview evidence is framed as verified production usage, not a named customer endorsement.
 
 Target asset set (deliberately minimal):
 - One metrics snapshot one-pager: live schemes, homeowner accounts, handover/aftercare activity, response-time and resolution figures that are actually true today.
