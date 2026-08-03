@@ -48,6 +48,7 @@ def test_requests_strict_json_without_tools() -> None:
     assert Handler.received["model"] == "ornith-test"
     assert "tools" not in Handler.received
     assert Handler.received["format"]["type"] == "object"
+    assert Handler.received["think"] is False
 
 
 def test_client_rejects_non_loopback_endpoint() -> None:

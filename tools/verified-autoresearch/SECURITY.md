@@ -4,7 +4,7 @@
 
 Treat the local model as untrusted input. Model weights may contain hidden behaviors, training-data artifacts or intentionally triggered outputs. A successful checksum proves artifact identity, not benign behavior.
 
-The runner therefore does not expose tools to the model. It accepts only strict JSON containing an explanatory hypothesis and exact text replacements. It validates paths, symlinks, allowlist membership, payload size, secret-like material and Git diff scope before trusted evaluators run.
+The runner therefore does not expose tools to the model. It accepts only strict JSON containing an explanatory hypothesis and exact text replacements. It validates paths, symlinks, hard links, allowlist membership, payload size, secret-like material and Git diff scope before evaluators run in a Linux container.
 
 ## Protected control plane
 
@@ -41,14 +41,17 @@ Hugging Face metadata declares MIT licensing, but the repository's linked `LICEN
 
 Ollama must remain bound to `127.0.0.1`. Do not expose port 11434 to LAN or internet. This workflow was verified with Ollama 0.32.5 and structured JSON output.
 
-The evaluator process receives a scrubbed environment containing only PATH, a disposable HOME, CI/colour flags and locale. This reduces accidental credential exposure but is not a complete macOS network or filesystem sandbox. Evaluator and guard commands are trusted operator code. For stronger isolation, run the sandbox in a credential-free VM/container with outbound networking disabled.
+Evaluator and guard commands never run under the normal macOS user. The controller copies only tracked regular files into a disposable snapshot and mounts that snapshot read-only inside a Colima Linux VM/Docker container. The container has no network, runs as UID/GID 65534, has a read-only root filesystem, no additional capabilities, `no-new-privileges`, no Docker socket, a disposable no-exec `/tmp`, and CPU, RAM, PID, open-file, file-size, output and wall-time limits. The model process remains outside the container and is unloaded after each proposal.
+
+This is containment, not proof of correctness. The complete tracked snapshot is readable inside the candidate container, so a candidate can inspect visible evaluator code and fixtures. A real hidden holdout must be supplied by a separate trusted driver that sends cases to the candidate without mounting expected answers into the candidate namespace. The included synthetic pilot proves containment and keep/revert mechanics only.
 
 ## Residual risks
 
 - A model can propose subtly vulnerable code that passes incomplete tests.
 - A weak or gameable metric can reward harmful changes.
 - Exact replacement validation cannot prove semantic safety.
-- A trusted evaluator command can itself access the filesystem or network.
+- The candidate can inspect visible evaluator logic and game a weak benchmark.
+- A trusted evaluator image or command can be compromised; pin and audit its exact digest.
 - Parent-directory or Git hooks configured by the operator can have side effects.
 - Continuous inference can create memory pressure and thermal throttling.
 - Accepted local commits are candidates, not release approvals.

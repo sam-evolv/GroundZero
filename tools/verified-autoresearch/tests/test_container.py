@@ -6,7 +6,6 @@ import pytest
 
 from verified_autoresearch.container import ContainerExecutor, snapshot_tracked
 
-
 IMAGE = "python@sha256:" + "a" * 64
 
 
