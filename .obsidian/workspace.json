@@ -181,6 +181,7 @@
   },
   "active": "eb5fc23b93b01bd0",
   "lastOpenFiles": [
+    "repos/property-assistant/apps/unified-portal/lib/my-home/home-energy-handler.ts",
     "vault/decisions/openhouse-live-portal-my-home-isolation-2026-08-03.md",
     "artifacts/openhouse-proof-pack/verify_proof_pack.py",
     "artifacts/openhouse-proof-pack/render_pdf.py",
@@ -225,7 +226,6 @@
     "artifacts/openhouse-ndrc-deck/repair-work/slide2_picture35_Image 1.png",
     "artifacts/openhouse-ndrc-deck/repair-work/slide2_picture32_Image 0.png",
     "vault/briefs/openhouse-ndrc-interview-final-card-2026-07-29.md",
-    "repos/property-assistant/node_modules/gauge/README.md",
-    "repos/property-assistant/node_modules/gauge/CHANGELOG.md"
+    "repos/property-assistant/node_modules/gauge/README.md"
   ]
 }
