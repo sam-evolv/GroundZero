@@ -30,16 +30,19 @@ def main(argv: Optional[list[str]] = None) -> int:
         remaining = registration_deadline - time.monotonic()
         if remaining <= 0:
             return 0
-        inspected = subprocess.run(
-            inspect_command,
-            stdin=subprocess.DEVNULL,
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
-            check=False,
-            timeout=min(2, remaining),
-            env=environment,
-        )
-        if inspected.returncode == 0:
+        try:
+            inspected = subprocess.run(
+                inspect_command,
+                stdin=subprocess.DEVNULL,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+                check=False,
+                timeout=min(2, remaining),
+                env=environment,
+            )
+        except subprocess.TimeoutExpired:
+            inspected = None
+        if inspected is not None and inspected.returncode == 0:
             break
         time.sleep(min(0.1, max(0, registration_deadline - time.monotonic())))
     time.sleep(runtime_limit + 2)
@@ -49,16 +52,19 @@ def main(argv: Optional[list[str]] = None) -> int:
         remaining = cleanup_deadline - time.monotonic()
         if remaining <= 0:
             return 1
-        completed = subprocess.run(
-            command,
-            stdin=subprocess.DEVNULL,
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
-            check=False,
-            timeout=min(2, remaining),
-            env=environment,
-        )
-        if completed.returncode == 0:
+        try:
+            completed = subprocess.run(
+                command,
+                stdin=subprocess.DEVNULL,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+                check=False,
+                timeout=min(2, remaining),
+                env=environment,
+            )
+        except subprocess.TimeoutExpired:
+            completed = None
+        if completed is not None and completed.returncode == 0:
             return 0
         time.sleep(min(0.5, max(0, cleanup_deadline - time.monotonic())))
 
