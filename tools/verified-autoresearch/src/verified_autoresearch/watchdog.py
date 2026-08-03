@@ -25,37 +25,42 @@ def main(argv: Optional[list[str]] = None) -> int:
         return 2
     environment = {"PATH": "/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin"}
     inspect_command = [str(docker_path), "inspect", container_name]
-    for _ in range(300):
+    registration_deadline = time.monotonic() + 30
+    while True:
+        remaining = registration_deadline - time.monotonic()
+        if remaining <= 0:
+            return 0
         inspected = subprocess.run(
             inspect_command,
             stdin=subprocess.DEVNULL,
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
             check=False,
-            timeout=10,
+            timeout=min(2, remaining),
             env=environment,
         )
         if inspected.returncode == 0:
             break
-        time.sleep(0.1)
-    else:
-        return 0
+        time.sleep(min(0.1, max(0, registration_deadline - time.monotonic())))
     time.sleep(runtime_limit + 2)
     command = [str(docker_path), "kill", container_name]
-    for _ in range(60):
+    cleanup_deadline = time.monotonic() + 30
+    while True:
+        remaining = cleanup_deadline - time.monotonic()
+        if remaining <= 0:
+            return 1
         completed = subprocess.run(
             command,
             stdin=subprocess.DEVNULL,
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
             check=False,
-            timeout=10,
+            timeout=min(2, remaining),
             env=environment,
         )
         if completed.returncode == 0:
             return 0
-        time.sleep(0.5)
-    return 1
+        time.sleep(min(0.5, max(0, cleanup_deadline - time.monotonic())))
 
 
 if __name__ == "__main__":
