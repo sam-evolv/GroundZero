@@ -153,16 +153,16 @@ That design works because the editable surface, time budget and metric are excep
 
 ### What it would improve
 
-A local model would not improve Opus's underlying weights or reasoning. It could improve the surrounding workflow by:
+A local model would not improve GPT-5.6's underlying weights or reasoning. It could improve the surrounding workflow by:
 
 - making hundreds of cheap private first-pass hypotheses;
 - running bounded code/test/retrieval experiments without cloud-token pressure;
-- preserving failed experiments so Opus does not repeat them;
-- producing a nightly evidence summary for Opus;
+- preserving failed experiments so GPT-5.6 does not repeat them;
+- producing a nightly evidence summary for GPT-5.6;
 - promoting only the few candidates that beat an immutable evaluation;
 - keeping proprietary OpenHouse context on-device.
 
-The best architecture is hybrid: Opus defines the objective, constraints and review standard; the local model performs repetitive search; deterministic tests and held-out evidence score it; Opus independently reviews only the survivors.
+The best architecture is hybrid: GPT-5.6 defines the objective, constraints and review standard; the local model performs repetitive search; deterministic tests and held-out evidence score it; GPT-5.6 independently reviews only the survivors.
 
 ### Best first OpenHouse loop
 
@@ -201,11 +201,11 @@ Installing a local model is worth doing if the first pilot is treated as infrast
 
 1. Download Ornith Q4_K_M or Q5_K_M.
 2. Benchmark generation speed, memory pressure and thermals on this Mac.
-3. Give it one read-only OpenHouse repository task and compare its output with Opus.
+3. Give it one read-only OpenHouse repository task and compare its output with GPT-5.6.
 4. Run a five-to-ten-iteration offline retrieval experiment with immutable tests.
 5. Continue only if it produces at least one independently verified improvement without destabilising the Mac or increasing review burden.
 
-If it mainly creates plausible-looking patches that Opus must repair, stop. The objective is not more autonomous activity; it is more verified progress per euro and per hour of Sam's attention.
+If it mainly creates plausible-looking patches that GPT-5.6 must repair, stop. The objective is not more autonomous activity; it is more verified progress per euro and per hour of Sam's attention.
 
 ## Boundaries
 

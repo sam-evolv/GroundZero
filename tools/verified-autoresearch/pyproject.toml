@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "verified-autoresearch"
+version = "0.1.0"
+description = "Fail-closed local autoresearch loop for isolated software experiments"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+verified-autoresearch = "verified_autoresearch.cli:main"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/verified_autoresearch"]
