@@ -19,6 +19,10 @@ Real Longview Estates data is live across four schemes. Backup tables are waitin
 - [[items/oh-production-migration]] — stabilize migration + drop backup tables (S, 95)
 - [[items/oh-rls-audit]] — launch-critical RLS policy audit (S, building)
 
+## Release boundary · 3 August 2026
+
+Database V2 progression does not authorise the new homeowner **My Home** surface on current live portals. Under [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]], live fixes remain based on `origin/main` while My Home stays on the isolated V2 branch and preview. A future rollout requires a server-controlled, default-off capability gate and exact-home readiness proof; a client-side flag alone is insufficient.
+
 ## Grounding
 
 - [[companies/openhouse-ai]] — stack facts, live schemes, known gaps
