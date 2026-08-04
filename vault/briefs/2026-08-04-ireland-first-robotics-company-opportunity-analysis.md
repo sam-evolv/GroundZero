@@ -42,7 +42,17 @@ SEAI reports:
 - 66.8% of that generation came from utility-scale solar farms.
 - Estimated utility-scale generation of about 1.1 TWh in 2025.
 
-However, a 2025 peer-reviewed European soiling study identifies Ireland, Norway and Sweden among the lowest-loss countries. Its original model produced median Irish losses below 0.5%. A modified rain-cleaning assumption produced higher figures, but the paper still makes clear that rainfall and site conditions dominate the economics.
+The newer Solar Ireland 2026 industry report, using ESB Networks connection data, says total connected capacity reached 2.7 GW by May 2026:
+
+- 1.59 GW utility-scale.
+- 819 MW microgeneration.
+- 177 MW non-exporting autoproduction.
+- 88 MW minigeneration.
+- 58 MW small-scale generation.
+
+That growth strengthens the future customer base. It does not establish a cleaning requirement or override site-level soiling economics.
+
+A 2025 peer-reviewed European soiling study identifies Ireland, Norway and Sweden among the lowest-loss countries. Its original model produced median Irish losses below 0.5%. A modified rain-cleaning assumption produced higher figures, but the paper still makes clear that rainfall and site conditions dominate the economics.
 
 Using 2024 utility generation of approximately 0.728 TWh:
 
@@ -171,25 +181,25 @@ Stop or change asset class if:
 
 ## Ranked alternatives
 
-### 2. Robotic confined-space inspection and mapping
+### 2. Private sewer and stormwater inspection records
+
+**Product:** A tracked CCTV crawler or push-camera service for private drainage, stormwater systems, industrial estates and new-development handover, linked to a structured defect and evidence record rather than an unindexed video file.
+
+**Why it fits:** This is the fastest service-first route. Sam understands property and handover workflows, private buyers avoid public procurement, and rented or distributor-supported equipment can produce paid work before a fleet purchase. It can expand into recurring condition monitoring, drain mapping, change detection, cleaning coordination and later no-man-entry industrial assets.
+
+**Why it is not the main long-term thesis:** Drain CCTV contractors already exist. The defensible layer is structured asset history, repeatable evidence and workflow integration, not the crawler or the word "AI". Ireland-only upside is smaller, and generic call-out drain work would create an unattractive service business.
+
+**Pilot gate:** One private development phase, industrial estate or property portfolio. Price per survey, asset or metre before attempting monthly RaaS. Kill if existing survey outputs already meet the buyer's needs or the buyer will not pay for a repeatable evidence record.
+
+### 3. Robotic confined-space inspection and mapping
 
 **Product:** Human-operated crawler or collision-tolerant indoor drone inspection of tanks, utility voids, ducts and other inaccessible assets, followed by an annotated 3D or video condition report.
 
 **Why it fits:** The same pharma access, safety argument and reporting layer. Flyability's Elios 3 shows that collision-tolerant indoor inspection, LiDAR mapping, thermal imaging and 3D reporting already exist.
 
-**Why it is second:** Inspection usually has lower cleaning liability and can be easier to pilot, but premium inspection hardware can be expensive and customers may already use specialist NDT or drone contractors. The founders should initially partner or rent rather than buy.
+**Why it is third:** Inspection usually has lower cleaning liability and can be easier to pilot, but premium hardware can be expensive and customers may already use specialist NDT or drone contractors. The founders should initially partner or rent rather than buy.
 
 **Pilot gate:** One non-GMP asset at €3,000 to €7,500. Kill if the job does not avoid an entry, scaffold, shutdown or specialist mobilisation worth at least twice the pilot price.
-
-### 3. Robotic drainage acceptance records for new developments
-
-**Product:** A tracked CCTV crawler service for foul and storm drainage before phase handover, linked to a structured defect and evidence record rather than an unindexed video file.
-
-**Why it fits:** Sam has direct access to residential-development workflows and understands handover evidence. It can produce revenue sooner than a pharma deployment and gives the brothers experience with field robots, insurance, reporting and service operations.
-
-**Why it is not the main thesis:** Drain CCTV contractors already exist. The differentiator would be structured handover evidence and developer workflow integration, not the robot itself. Ireland-only upside is smaller.
-
-**Pilot gate:** One development phase. Kill if existing survey outputs already meet the developer's needs or the buyer will not pay a premium for structured evidence.
 
 ### 4. Autonomous floor cleaning for non-GMP industrial areas
 
@@ -274,6 +284,16 @@ At 24 jobs per year and €7,500 per job:
 
 This is deliberately illustrative. A real quotation must include freight, duties, attachments, hoses, pumps, disposal, training, certification, insurance, travel, maintenance and backup equipment.
 
+### RaaS financing gates
+
+Do not finance expensive robots from uncommitted monthly subscriptions.
+
+- Begin with paid deployments, day rates or per-asset pricing.
+- Require a credible hardware payback inside 24 to 30 months.
+- Target at least 50% gross margin and never proceed below 40% contribution margin after field service, call-outs and failure reserve.
+- Match customer contract length to the financing exposure or ensure the robot can be redeployed.
+- A €30,000 landed robot with €6,000 annual service, software and failure reserve requires roughly €1,900 monthly revenue over 24 months merely to recover those direct costs. Sales labour, travel, tax and profit remain above that figure.
+
 ## The actual long-term company
 
 The durable thesis is:
@@ -315,12 +335,16 @@ But the order must be:
 
 ### Better first events
 
+- **IFAT, Munich:** the most relevant category event if the wedge remains sewer, drainage, tank or environmental infrastructure. Verify the next organiser dates before booking.
+- **Interclean, Amsterdam:** useful only if commercial cleaning becomes the chosen category.
 - **PPMA Show, Birmingham, 22 to 24 September 2026:** processing, packaging, robotics, vision and automation. Best near-term learning event for food, pharma-support and factory automation.
 - **COMPAMED, Düsseldorf, 16 to 19 November 2026:** useful only if the chosen wedge becomes MedTech or validated manufacturing equipment.
 - **automatica, Munich, 22 to 25 June 2027:** strongest broad robotics, machine vision and service-robotics event after customer discovery.
 - **automatica Shanghai, 8 to 10 March 2027:** a more relevant China trip than a generic consumer or general trade fair, but only with a pre-booked supplier agenda and technical specification.
 
 Do not attend the Canton Fair merely because it is in China. A focused industrial robotics exhibition and supplier-factory visits are more useful.
+
+Before any China trip, require 15 buyer interviews, one paid pilot or three written pilot expressions, a quantified baseline, a written robot specification, three remote vendor demonstrations, three landed-cost quotations, a CE and Irish service plan, and a credible 24 to 30 month hardware payback.
 
 ## Regulation and founder safeguards
 
@@ -417,8 +441,14 @@ Useful current supports include:
 
 - Enterprise Ireland Innovation Voucher: €10,000 of expert time with an eligible knowledge provider. A limited company with a CRO number is required, and the voucher cannot be used for ordinary market research, software purchases, sales activity or statutory compliance.
 - New Frontiers Phase 1: part-time market testing. Phase 2 is full-time for six months and includes a €15,000 tax-free stipend for eligible participants.
+- Local Enterprise Office supports: feasibility, priming and business-expansion grants are non-equity but discretionary and eligibility varies. A manufacturing or internationally traded service thesis is stronger than a purely local contractor business. Apply before committing expenditure.
 - Enterprise Ireland HPSU Feasibility Study Grant: up to 70% of eligible spend or €30,000 for suitable Enterprise Ireland HPSU clients.
 - Enterprise Ireland Pre-Seed Start Fund: €50,000 or €100,000 through a convertible loan note for companies with an MVP, customer validation and international scale potential.
+- Disruptive Technologies Innovation Fund: competitive collaborative grant funding for later proprietary R&D, not an idea-stage founder grant or fleet-purchase scheme.
+- R&D Corporation Tax Credit: Revenue currently states a 30% credit for qualifying accounting periods from 1 January 2024. Buying, integrating or reselling an off-the-shelf robot does not automatically qualify as scientific or technological R&D.
+- NDRC: its current rolling application describes €100,000 through an uncapped SAFE. This is investment, not a grant, and is premature before a scalable software or fleet thesis has customer evidence.
+
+Useful capability nodes include Irish Manufacturing Research for automation test work, MTU Rubicon and Nimbus in Cork, Tyndall for sensing and embedded systems, CeADAR for applied AI and AMTCE for industrial-automation training.
 
 The right near-term funding is a customer deposit plus an OEM demonstration agreement. Apply for public funding only after the chosen job and technical question are specific.
 
@@ -440,6 +470,7 @@ If that session confirms weak access to relevant buyers, switch the first test t
 ## Evidence and sources
 
 - [SEAI, Energy in Ireland 2025](https://www.seai.ie/sites/default/files/publications/Energy%20in%20Ireland%202025%20v1.0%20complete.pdf)
+- [Solar Ireland, Scale of Solar 2026](https://solarireland.ie/sites/default/files/2026-06/ScaleOfSolarReport2026_1.pdf)
 - [Photovoltaic soiling loss in Europe, Renewable Energy 239](https://elib.dlr.de/210457/1/Published_Paper_Photovoltaic%20soiling%20loss%20in%20Europe_Geographical%20distribution%20and%20cleaning%20recommendations.pdf)
 - [IDA Ireland, BioPharma](https://www.idaireland.com/explore-your-sector/business-sectors/biopharma)
 - [IDA Ireland, MedTech](https://www.idaireland.com/explore-your-sector/business-sectors/medtech)
@@ -457,6 +488,18 @@ If that session confirms weak access to relevant buyers, switch the first test t
 - [Enterprise Ireland New Frontiers](https://www.enterprise-ireland.com/en/supports/new-frontiers)
 - [Enterprise Ireland HPSU Feasibility Study Grant](https://www.enterprise-ireland.com/en/supports/hpsu-feasibility-study-grant)
 - [Enterprise Ireland Pre-Seed Start Fund](https://www.enterprise-ireland.com/en/supports/pre-seed-start-fund)
+- [Local Enterprise Offices](https://www.localenterprise.ie/)
+- [Disruptive Technologies Innovation Fund](https://enterprise.gov.ie/en/what-we-do/innovation-research-development/disruptive-technologies-innovation-fund/)
+- [Revenue, R&D Corporation Tax Credit](https://www.revenue.ie/en/companies-and-charities/reliefs-and-exemptions/research-and-development-rd-tax-credit/index.aspx)
+- [NDRC rolling application](https://accelerator.ndrc.ie/apply)
+- [Irish Manufacturing Research](https://www.irishmanufacturingresearch.ie/)
+- [MTU Rubicon Centre](https://www.mtu.ie/rubicon/)
+- [Nimbus Research Centre](https://nimbusresearchcentre.com/)
+- [Tyndall National Institute](https://www.tyndall.ie/)
+- [CeADAR](https://ceadar.ie/)
+- [AMTCE](https://amtce.ie/)
+- [IFAT Munich](https://ifat.de/en/)
+- [Interclean Amsterdam](https://www.intercleanshow.com/amsterdam)
 - [PPMA Show 2026](https://www.ppmashow.co.uk/)
 - [COMPAMED 2026](https://www.compamed-tradefair.com/)
 - [automatica Munich 2027](https://automatica-munich.com/en/trade-fair/)
