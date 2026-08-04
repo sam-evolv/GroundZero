@@ -1,12 +1,14 @@
 ---
 title: Bridgewater Developments · OpenHouse discovery brief
 date: 2026-07-22
-status: draft-for-warm-introduction
+status: superseded-by-meeting-preparation
 company_id: openhouse-ai
 source: public Bridgewater sources, verified 2026-07-22
 ---
 
 # Bridgewater Developments · OpenHouse discovery brief
+
+> Superseded for the active meeting by [[briefs/2026-08-04-bridgewater-meeting-preparation]]. This note remains as the pre-introduction research snapshot.
 
 ## Objective
 
@@ -65,11 +67,11 @@ Send a tailored one-page recap within 24 hours of the meeting. It should name th
 
 ## Connected vault notes
 
-- [[items/oh-bridgewater-warm-introduction]] — active lead and Carol reply
-- [[companies/openhouse-ai]] — product and deployment context
-- [[project_state/oh]] — live product status
-- [[briefs/2026-07-22-reset-and-bridgewater-opportunity]] — source founder reflection
-- [[context/openhouse-sales-routes]] — broader sales strategy
+- [[items/oh-bridgewater-warm-introduction]]: active lead and Carol reply
+- [[companies/openhouse-ai]]: product and deployment context
+- [[project_state/oh]]: live product status
+- [[briefs/2026-07-22-reset-and-bridgewater-opportunity]]: source founder reflection
+- [[context/openhouse-sales-routes]]: broader sales strategy
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_

@@ -2,12 +2,12 @@
 id: oh-bridgewater-warm-introduction
 company_id: openhouse-ai
 title: Convert Carol Tallon’s Bridgewater Developments warm introduction
-state: ready-to-send
+state: meeting-preparation
 priority: high
 source: Sam voice journal, 2026-07-22
-verified: pending external prospect research
-external_action: not-sent
-updated_at: "2026-08-03"
+verified: current public prospect research and introduction screenshot
+external_action: introduction-sent
+updated_at: "2026-08-04"
 ---
 
 # Convert Carol Tallon’s Bridgewater Developments warm introduction
@@ -30,11 +30,11 @@ The right sequence is:
 4. Make the first conversation about Bridgewater’s handover, aftercare, homeowner evidence, and buyer-experience friction, not a generic product demo.
 5. Send a tailored follow-up only after the discovery conversation.
 
-## Ready-to-send reply to Carol
+## Introduction status
 
-> Hi Carol, thanks for thinking of OpenHouse. Yes, absolutely, I would really appreciate an introduction to Bridgewater. We are focused on helping developers create a much clearer homeowner handover and aftercare experience, with the evidence and home context kept in one place rather than lost across documents, emails and support threads. I would love to learn how Bridgewater currently approaches that side of the customer journey and see whether there could be a useful fit. Thanks again, Sam
+Carol introduced Sam and David at `david@bridgewaterconstruction.ie` on 4 August 2026. She said she had spoken to both about each other and had shared her recent OpenHouse interview with David the previous week. Sam sent a short reply proposing a call or meeting to explore Bridgewater's homeowner handover and aftercare.
 
-**Status:** ready for Sam to send on Tuesday 4 August 2026. Held on Monday because it is an Irish bank holiday. No agent send is authorised.
+The introduction and Sam's reply are complete. Meeting date, duration, format and attendees have not yet been captured. The active preparation brief is [[briefs/2026-08-04-bridgewater-meeting-preparation]], with a concise in-meeting version at [[briefs/2026-08-04-bridgewater-meeting-card]].
 
 ## Verified prospect research · 22 July 2026
 
@@ -44,7 +44,7 @@ The right sequence is:
 - It publicly describes an end-to-end model across development, planning, design, construction, sales/marketing, property/building management, customer service, and post-build property management.
 - Its live developments page lists five currently marketed schemes: Waterfall Avenue and Waterfall Heights in Bishopstown; The Orchard in Rochestown/Douglas; Glenwood in Strawhall, Fermoy; and Ocean Drive in Ballycotton.
 - The official sitemap shows the developments index updated 16 March 2026 and Waterfall Avenue updated 16 March 2026. This is current enough to use as a research base.
-- No named director/MD was safely verified. The warm introduction should ask for the person responsible for residential delivery, customer care, or sales/marketing.
+- Public reporting identifies Bridgewater director David Walsh, also referred to as Dave Walsh. The generic `david@bridgewaterconstruction.ie` address is consistent with that identity, but Carol's introduction did not state a surname or title, so confirm rather than assume.
 
 **OpenHouse angle:** one branded homeowner record per plot across schemes: completion pack, BER/warranty/O&M evidence, photographic handover record, snag/aftercare workflow, and one resident-facing source of truth. Position it as a way to standardise high-quality handover and post-completion communication without adding site or sales-team admin.
 
@@ -56,22 +56,22 @@ See [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]].
 
 ## Success condition
 
-A scheduled discovery conversation with the appropriate Bridgewater decision-maker, after Carol’s warm introduction, with a sharp public landing page and a tailored discovery brief ready.
+A discovery conversation that establishes Bridgewater's actual handover and aftercare workflow and ends with a concrete next step: an operational stakeholder session, a one-scheme workflow map, a priced pilot proposal, or a clear no-fit decision.
 
 ## Readiness checkpoint · 3 August 2026
 
 The supporting evidence pack is ready in [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]], with a designed PDF at `artifacts/openhouse-proof-pack/OpenHouse_Longview_Developer_Proof_Pack_2026-08-03.pdf`. It gives Sam a conservative Longview evidence set, exact-home trust proof, six discovery questions and a measured one-scheme pilot shape without claiming answer accuracy, workload reduction or customer endorsement.
 
-The remaining external dependency is the introduction itself. The Carol reply is ready for Sam to send after the bank holiday and must not be sent by an agent without Sam's explicit send instruction.
+The introduction has been completed. The remaining external dependency is scheduling and confirming the meeting details. The tailored meeting preparation is in [[briefs/2026-08-04-bridgewater-meeting-preparation]].
 
 ## Connected vault notes
 
-- [[companies/openhouse-ai]] — parent company and live product facts
-- [[project_state/oh]] — current operating status
-- [[briefs/2026-08-03-bank-holiday-founder-reset]] — current seven-day execution plan
-- [[briefs/2026-07-22-reset-and-bridgewater-opportunity]] — source reflection and operating decision context
-- [[context/openhouse-sales-routes]] — sales/channel strategy
-- [[briefs/openhouse-post-cairn-strategy-2026-06-29]] — channel-leverage strategy after Cairn
+- [[companies/openhouse-ai]]: parent company and live product facts
+- [[project_state/oh]]: current operating status
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]: current seven-day execution plan
+- [[briefs/2026-07-22-reset-and-bridgewater-opportunity]]: source reflection and operating decision context
+- [[context/openhouse-sales-routes]]: sales/channel strategy
+- [[briefs/openhouse-post-cairn-strategy-2026-06-29]]: channel-leverage strategy after Cairn
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
