@@ -12,27 +12,68 @@ scope: market research only; no company formation, purchase, travel, outreach or
 
 ## Executive decision
 
-The strongest **company thesis** is to become an Ireland-first deployment and compliance layer for robots performing physical work in regulated facilities, with pharma as the first discovery market.
+The strongest **company thesis** remains an Ireland-first deployment, evidence and compliance layer for robots performing physical work in regulated and uptime-critical facilities.
 
-The highest-upside cleanroom opportunities are now clear enough to test directly: robotic UV-C decontamination, environmental-monitoring sampling and audit-ready deployment records. However, cleanroom robotics is not yet the highest-probability *first paid deployment*. It combines a strong buyer base and founder access with the heaviest validation, contamination-control and procurement burden in the shortlist.
+The additional strategy paper changes the best first validation wedge. Before buying or integrating a robot, test:
 
-On the evidence available before customer interviews, the best initial deployable service remains one narrow GMP-adjacent job:
+> **Digital utility and plant-room rounds for pharma, medtech, food and critical facilities: structured RGB, thermal and acoustic evidence; gauge and indicator capture; human-reviewed exceptions; and an auditable route record.**
 
-> **No-drain robotic sediment cleaning and evidence capture for non-product-contact industrial water tanks, cooling-tower basins and process-water reservoirs.**
+Start with a customer technician, founder or contractor carrying the sensors through one existing non-GMP route. The first product is the route specification, evidence record and exception workflow. A robot is added only after customers pay for the information and the route geometry is proven.
 
-For the first 30 days, test this in parallel with a tightly bounded pharma cleanroom discovery lane. If a pharma Quality or Validation sponsor will fund a repeatable pilot around an established OEM platform, that cleanroom workflow should overtake tank cleaning. Otherwise, the founders should begin with the lower-friction industrial service and earn the right to move inward toward GMP-critical environments.
+This now ranks above tank cleaning as the **first hypothesis to validate** because it:
 
-The first deployment in either lane should use an established OEM robot, be supervised by humans and produce a simple evidence pack. The founders should not design custom hardware or a speculative compliance dashboard until customers have paid for repeated deployments and a specific missing capability has become obvious.
+- combines the brother's plant knowledge with Sam's software, product and evidence-workflow strengths;
+- can be tested without owning hardware, importing machinery or entering a cleanroom;
+- creates recurring route, asset and outcome data rather than isolated job footage;
+- can expand into AMRs, quadrupeds, fixed sensors, cleaning and bounded intervention;
+- is less operationally heavy for two part-time founders than transporting pumps, hoses and tank-cleaning equipment.
 
-This wedge best matches the team:
+It is not yet the strongest proven business. Global vendors already automate thermal, visual, acoustic and gauge inspections. Korial, formerly Energy Robotics, explicitly sells hardware-agnostic robot, drone and sensor orchestration and cites more than 100 deployments. ANYbotics already provides thermal anomaly, gauge, valve, gas and acoustic inspection. The founders therefore cannot win with generic gauge OCR, a dashboard or the name “RoundsOS.” The opening must be a specific Irish route, buyer, evidence requirement and deployment service that incumbents or contractors do not already satisfy economically.
 
-- Sam can own buyer discovery, commercial packaging, AI-assisted reporting, evidence systems and eventual fleet operations.
-- His brother can evaluate physical feasibility, translate plant constraints and open legitimate conversations across the Irish pharma and industrial network.
-- Cork is close to a dense pharma, food and industrial cluster.
-- The job can be piloted as a bounded scheduled service before either founder leaves employment.
-- The same customer relationships can later support inspection crawlers, autonomous rounds, material movement and eventually general-purpose robots.
+The immediate commercial object should be a **paid digital-rounds assessment**, not a software build:
 
-This is not yet a no-brainer business. It becomes one only if buyers confirm the current cleaning cost, downtime and safety burden and then pay for a controlled pilot.
+- one existing non-GMP utility or plant-room route;
+- 10 to 20 observable checkpoints;
+- no valves, panels or process controls operated;
+- raw evidence retained and every exception approved by a human;
+- baseline time, missed checks, review burden and useful anomalies measured;
+- a robot decision only after the customer accepts the evidence and economics.
+
+No-entry water-asset cleaning remains the best physical-service fallback. Grade C/D UV-C decontamination remains the strongest cleanroom candidate. Private drainage records remain the fastest property-network fallback. None should trigger hardware purchase before a paid route is specified.
+
+## What the autonomous-rounds thesis changes
+
+### What is supported
+
+- CSO found robot use in 20% of large Irish enterprises, 8% of medium enterprises and 2% of small enterprises in 2022. Precision and safety were more common adoption reasons than labour cost or recruitment difficulty. This supports an evidence-and-reliability sale, not a simplistic labour-replacement pitch.
+- CSO reported average hourly total labour cost of €38.92 in Q1 2026. This is a national average, not the cost of a pharma technician, and cannot by itself establish route ROI.
+- Ireland's concentration of pharma, medtech, food and data-centre operations gives a useful reference market. CSO reported data centres at 23% of metered electricity consumption in 2025, which demonstrates critical-facility density but not an inspection TAM.
+- The proposed sequence is technically sensible: manual structured capture, supervised mobility, then autonomous routes and fleet operations.
+- Existing vendors validate the category. They also raise the differentiation bar sharply.
+
+### What is overstated or still unknown
+
+- The supplied €20 million to €60 million Irish inspection TAM and €1.5 billion to €4 billion European TAM are analyst planning ranges, not observed spend. They must not be used in a pitch as verified market facts.
+- An eight-to-twelve-week paid MVP is plausible only for a manual evidence workflow. It is not a safe promise for an accepted autonomous industrial deployment.
+- Thirty interviews and 10 to 12 site walks in the first fortnight are unrealistic for two part-time founders and may conflict with site-access hours.
+- Manual rounds often involve smell, touch, context, intervention or statutory human responsibility. Only objectively observable checkpoints are initially suitable.
+- A false negative can create maintenance liability. The product must support human decisions, not claim to replace inspection responsibility.
+- A contractor channel can accelerate access, but contractors may resist a tool that appears to displace their labour or own their customer data.
+- Pharma access remains subject to employer, confidentiality, IP and procurement restrictions. Pfizer must not be assumed as the first customer.
+
+### Revised promotion gate
+
+Continue with digital rounds only if discovery produces:
+
+- the same observable route family at three sites;
+- a named reliability, utilities, maintenance or FM budget owner;
+- a quantified current route cost or meaningful coverage, safety or evidence failure;
+- a site willing to permit structured manual capture before robotics;
+- one paid assessment or pilot before a bespoke application is built;
+- a credible path to at least three times customer value relative to annual contract cost;
+- no requirement for ATEX, cleanroom entry, process control or unsupervised maintenance decisions in the first deployment.
+
+If this gate fails, move to the no-entry water-asset, cleanroom UV-C or private drainage lane with the strongest paid evidence.
 
 ## What the pharma cleanroom thesis changes
 
@@ -69,9 +110,9 @@ The second candidate is robotic environmental-monitoring sampling. It has higher
 
 A third candidate is autonomous visual, thermal and gauge inspection in GMP-adjacent plant rooms, warehouses and utility corridors. It has lower contamination risk than entering production cleanrooms and could bridge from the initial industrial-service wedge into recurring facility rounds.
 
-### Cleanroom promotion gate
+### Cleanroom expansion gate
 
-Promote a cleanroom workflow above no-entry water-asset cleaning only if discovery produces all of the following:
+Promote a cleanroom workflow into the lead physical-robot deployment only if discovery produces all of the following:
 
 - the same repeated SOP or job at three sites;
 - a named Quality or Validation sponsor;
@@ -126,7 +167,7 @@ The intelligent version of the idea is a **soiling diagnosis and targeted recove
 
 Kill the Irish solar thesis if three representative sites show less than 1.5% sustained, economically recoverable loss or refuse a paid measurement exercise.
 
-## Why the recommended industrial wedge is stronger
+## Why no-entry water assets remain a strong fallback
 
 IDA Ireland currently describes:
 
@@ -150,11 +191,9 @@ Established hardware also exists. WEDA Robotics currently markets the YT-600 for
 
 That does not prove it suits an Irish pharmaceutical asset. It proves that the founders can test the business without first solving locomotion, pumping and remote control from scratch.
 
-## Specific first product
+## Best physical-service fallback
 
-### Working name
-
-**No-Entry Water Asset Clean**
+### No-Entry Water Asset Clean
 
 ### Buyer
 
@@ -230,9 +269,11 @@ Stop or change asset class if:
 - the founders would need 24/7 emergency support while both remain employed;
 - the first three feasible customers each need fundamentally different hardware.
 
-## Ranked alternatives
+## Remaining ranked alternatives
 
-### 2. Private sewer and stormwater inspection records
+The no-entry water-asset service above ranks second after digital rounds. The Grade C/D cleanroom UV-C qualification service ranks third if a Quality-backed buyer confirms a service gap.
+
+### 4. Private sewer and stormwater inspection records
 
 **Product:** A tracked CCTV crawler or push-camera service for private drainage, stormwater systems, industrial estates and new-development handover, linked to a structured defect and evidence record rather than an unindexed video file.
 
@@ -242,7 +283,7 @@ Stop or change asset class if:
 
 **Pilot gate:** One private development phase, industrial estate or property portfolio. Price per survey, asset or metre before attempting monthly RaaS. Kill if existing survey outputs already meet the buyer's needs or the buyer will not pay for a repeatable evidence record.
 
-### 3. Robotic confined-space inspection and mapping
+### 5. Robotic confined-space inspection and mapping
 
 **Product:** Human-operated crawler or collision-tolerant indoor drone inspection of tanks, utility voids, ducts and other inaccessible assets, followed by an annotated 3D or video condition report.
 
@@ -252,7 +293,7 @@ Stop or change asset class if:
 
 **Pilot gate:** One non-GMP asset at €3,000 to €7,500. Kill if the job does not avoid an entry, scaffold, shutdown or specialist mobilisation worth at least twice the pilot price.
 
-### 4. Autonomous floor cleaning for non-GMP industrial areas
+### 6. Autonomous floor cleaning for non-GMP industrial areas
 
 **Product:** A managed autonomous scrubber for large warehouses, corridors and production-support areas, charged monthly with uptime and cleaning reports.
 
@@ -262,7 +303,7 @@ Stop or change asset class if:
 
 **Pilot gate:** Only target sites with at least 4,000 square metres of repeatedly cleaned open floor and at least four genuinely replaceable labour hours per operating night. Do not count labour that must remain for edges, spills, hygiene checks or supervision.
 
-### 5. Automated cleaning-validation swabbing
+### 7. Automated cleaning-validation swabbing
 
 **Product:** Deploy and validate an established robotic swabbing system for difficult-to-reach pharmaceutical or food vessels.
 
@@ -299,6 +340,16 @@ Strong safety and downtime value, but specialist equipment, offshore/onshore acc
 Do not build a humanoid. The capital, safety, control and reliability requirements are completely mismatched to the starting constraints. Let well-capitalised manufacturers solve the general-purpose hardware problem.
 
 ## Irish market and financial boundary
+
+The supplied strategy document's €20 million to €60 million Irish annual TAM for regulated inspection rounds is not bottom-up evidence. At an assumed €150,000 per mature multi-route site, it would require roughly 134 to 400 paying Irish sites. The upper end is difficult to reconcile with a founder-accessible Irish beachhead unless the category includes many sectors, routes and hardware pass-through.
+
+A more useful digital-rounds scenario envelope is:
+
+- Proof stage: five sites at an assumed €30,000 annual software and service value equals €150,000.
+- Irish productisation stage: 25 sites at an assumed €75,000 equals €1.875 million.
+- Broad multi-route stage: 75 sites at an assumed €150,000 equals €11.25 million.
+
+These are assumptions, not forecasts. Contract value must be derived from the route's current all-in cost, risk, evidence value and useful anomaly rate. Hardware pass-through should be kept separate.
 
 IDA's count of more than 90 pharmaceutical companies and more than 300 medtech companies establishes buyer concentration, not the number of compatible rooms or annual contract value. The supplied paper's “few hundred plants” and €10 million-plus forecasts should therefore not be treated as measured TAM.
 
@@ -443,56 +494,57 @@ Sam should apply the same separation to Longview. A Longview pilot would need ex
 
 ## 90-day validation plan
 
-### Days 1 to 14: define the competing jobs
+### Days 1 to 14: prove the route problem
 
-- Brother confirms exact engineering discipline, permitted outside activity and network reach.
-- Build one list of legitimate contacts outside direct employer procurement: Engineering, Utilities, EHS and industrial cleaning for the water-asset lane; Quality, Validation, Contamination Control and Environmental Monitoring for the cleanroom lane.
-- Conduct at least 15 problem interviews in total, with at least six qualified interviews in each lane.
-- Do not pitch a robot. Ask about the last completed tank-cleaning, room-decontamination or environmental-monitoring cycle.
-- For water assets, collect non-confidential facts on asset type, access, sediment, frequency, crew, permits, downtime, water loss, disposal, cost and approval owner.
-- For cleanrooms, collect non-confidential facts on room grade, current method, cycle frequency, labour, release delay, deviations, evidence retained, validation owner, procurement path and whether automation has already been assessed.
-- Speak with at least three incumbent contractors or integrators. They may be partners, competitors or proof that the gap is already closed.
+- Brother confirms exact engineering discipline, permitted outside activity, IP boundaries and legitimate network reach.
+- Conduct 15 interviews focused on recurring non-GMP plant or utility rounds. Prioritise maintenance, reliability, utilities and FM leaders plus engineering or FM contractors serving multiple sites.
+- Ask about the last completed round: checkpoints, frequency, duration, personnel, evidence, missed checks, useful findings, interventions and budget owner.
+- Identify which checks are objectively observable by RGB, thermal or acoustic capture and which still require smell, touch, context, manipulation or statutory human responsibility.
+- Seek the same route family at three sites. Do not pitch a robot or a generic platform.
+- Keep water-asset cleaning and cleanroom UV-C as named pivots, not simultaneous build programmes.
 
-### Days 15 to 30: establish technical and commercial fit
+### Days 15 to 30: produce customer truth, not software
 
-- Compare only three candidate workflows: no-drain water-asset cleaning, Grade C/D or controlled-area UV-C decontamination, and robotic environmental-monitoring support.
-- Obtain anonymised specifications from at least two design partners in the leading lane.
-- For water assets, get feasibility and commercial proposals from WEDA and at least two alternatives.
-- For cleanrooms, establish the complete Irish offer already available from Loop Robots, UVD Robots through Mason Technology and any incumbent cleanroom integrator. Determine whether the opening is managed service, qualification support, software, local field service or none of these.
-- Ask Project Marvin or its published partners about the present status of robotic environmental monitoring before assuming the 2020 research gap remains open.
-- Confirm demonstration-unit access, Irish service coverage, validation responsibility, insurance and conformity obligations without purchasing hardware.
-- Choose one lane using the documented promotion and kill criteria, not founder excitement.
+- Conduct three to five approved site walks, not the supplied document's unrealistic 10 to 12 in two weeks.
+- Choose one non-GMP route with flat or simple access, 10 to 20 checkpoints, no ATEX classification and no interaction with process controls.
+- With the site's permission, have its technician, contractor or one founder execute a structured manual capture using existing or borrowed RGB, thermal and acoustic tools.
+- Produce one manual evidence pack showing timestamp, checkpoint, raw evidence, reading, reviewer decision and exception.
+- Compare time, coverage, review effort and useful findings with the current log or CMMS workflow.
+- Ask for a paid assessment or eight-to-twelve-week concierge pilot. Do not build a bespoke application first.
 
-### Days 31 to 60: sell before building
+### Days 31 to 60: run the paid concierge workflow
 
-- Offer one paid, bounded feasibility or demonstration engagement in the winning lane.
-- Price from avoided cost, downtime, safety or compliance value, not equipment hours.
-- Require a deposit that covers OEM mobilisation, qualification work and other irrecoverable costs.
-- Sign a scope covering exclusions, site responsibilities, evidence, acceptance criteria, validation ownership and data ownership.
-- Produce the first evidence pack manually. Do not build an AI dashboard or promise autonomous operation.
+- Execute the route repeatedly with a human carrying the sensors.
+- Retain raw evidence and require human approval for every exception.
+- Measure checkpoint completion, capture failures, review minutes, false alerts, useful anomalies and whether staff time can actually be redeployed.
+- Export a customer-approved PDF or CSV and integrate with existing systems manually before writing an API.
+- Define the robot specification only from route geometry, payload, network, docking, safety and recovery requirements observed on site.
 
-### Days 61 to 90: execute and decide
+### Days 61 to 90: decide whether robotics adds value
 
-- Execute one controlled pilot with OEM, distributor or experienced contractor support.
-- Record setup time, operation coverage, interruptions, labour, validation or safety activity, customer outcome and total cost.
-- Obtain written acceptance from the relevant operational and Quality or EHS owner.
-- Ask for a paid repeat booking, annual service schedule or recurring contract.
-- Continue only if the exact workflow passes its promotion criteria and supports a repeatable UK/EU expansion case.
+- Continue only if the exact route passes the revised promotion gate and the customer will pay for recurrence.
+- If autonomous mobility has a clear incremental return, arrange an OEM-supported demonstration using a CE-marked platform. Do not purchase or materially modify hardware.
+- Require at least 95% checkpoint capture during the supervised demonstration and a safe recovery method.
+- Ask for a paid production conversion or repeat contract.
+- If buyers value the evidence workflow but not the robot, continue as a software-assisted service rather than forcing robotics.
+- If the rounds thesis fails commercially, move to the strongest evidenced pivot: no-entry water assets, controlled-area UV-C or private drainage records.
 
 ## Interview questions
 
-1. Tell me about the last time this asset was cleaned or inspected.
-2. What triggered the work and who owned it?
-3. Did the asset have to be drained, isolated or shut down?
-4. How many people and contractors were involved?
-5. Which permits, rescue arrangements or validation steps were required?
-6. What did the complete job cost, including downtime, water, disposal and internal labour?
-7. How often is it repeated?
-8. What evidence is retained afterward?
-9. What tends to delay or cancel the work?
-10. What would have to be true for a remotely operated method to be approved?
-11. Who can approve a paid trial and what procurement threshold applies?
-12. Would a safe method that materially reduces entry or downtime be budgeted as maintenance, EHS or capital expenditure?
+1. Walk me through the last completed plant or utility round.
+2. Which assets and observable states were checked?
+3. How often is the route performed, how long does it take and who performs it?
+4. Which checks require sight, thermal measurement, sound, smell, touch or intervention?
+5. What evidence is retained and who reviews it?
+6. What happens when a checkpoint is missed, illegible or abnormal?
+7. What useful fault or exception did the route last identify?
+8. Which anomalies were false alarms or required operator context?
+9. What is the complete annual cost of this route, including review and contractor time?
+10. Could any skilled time be redeployed if capture were automated, or must staff remain for other tasks?
+11. Are any areas classified, ATEX, access-controlled or connected to validated process decisions?
+12. Who owns the budget and could approve a paid manual evidence assessment?
+13. What output would Reliability, Engineering, EHS or Quality actually accept?
+14. What would make automated capture unsafe or worthless here?
 
 Do not ask for trade secrets, validated recipes, plant layouts or other confidential material.
 
@@ -524,14 +576,20 @@ It is a two-hour founder session that produces:
 - the brother's precise engineering and site-domain contribution;
 - employer/IP boundaries for both founders;
 - a list of 15 legitimate discovery contacts;
-- agreement to compare only no-entry water-asset cleaning, Grade C/D or controlled-area UV-C decontamination, and robotic environmental-monitoring support during the first 30 days;
+- agreement to test one route family first: recurring non-GMP plant or utility rounds;
+- named pivots of no-entry water assets, controlled-area UV-C and private drainage records if the day-30 commercial gate fails;
 - a maximum personal validation budget;
 - a 90-day kill date.
 
-If cleanroom discovery meets the documented promotion gate, pursue that workflow with an established OEM and Quality sponsor. If it does not, begin with no-entry water assets. If industrial access is also weak, switch the first test to structured robotic drainage acceptance through Sam's property network. Do not compensate by building hardware or speculative software without customers.
+If at least three sites share the route and one buyer funds an assessment, continue with manual evidence capture before introducing mobility. If no one pays for the evidence workflow, do not build RoundsOS or buy a robot. Move once to the strongest named pivot, then stop if that also lacks paid demand.
 
 ## Evidence and sources
 
+- [CSO, Use of Robots, Information Society Statistics 2022](https://www.cso.ie/en/releasesandpublications/ep/p-isse/informationsocietystatistics-enterprises2022/useofrobots/)
+- [CSO, Earnings and Labour Costs Q1 2026](https://www.cso.ie/en/releasesandpublications/ep/p-elcq/earningsandlabourcostsq42025finalq12026preliminaryestimates/)
+- [CSO, Data Centres Metered Electricity Consumption 2025](https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2025/keyfindings/)
+- [ANYbotics, automated industrial inspection](https://www.anybotics.com/robotics/automate-inspection/)
+- [Korial, formerly Energy Robotics](https://www.korial.com/)
 - [SEAI, Energy in Ireland 2025](https://www.seai.ie/sites/default/files/publications/Energy%20in%20Ireland%202025%20v1.0%20complete.pdf)
 - [Solar Ireland, Scale of Solar 2026](https://solarireland.ie/sites/default/files/2026-06/ScaleOfSolarReport2026_1.pdf)
 - [Photovoltaic soiling loss in Europe, Renewable Energy 239](https://elib.dlr.de/210457/1/Published_Paper_Photovoltaic%20soiling%20loss%20in%20Europe_Geographical%20distribution%20and%20cleaning%20recommendations.pdf)
