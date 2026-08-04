@@ -1,0 +1,178 @@
+---
+title: OpenHouse qualified Irish developer outreach queue
+company_id: openhouse-ai
+date: 2026-08-04
+status: research-complete-outreach-not-authorised
+source: official developer and scheme websites, plus existing Ground Zero network evidence
+scope: research only; no contact made
+---
+
+# OpenHouse qualified Irish developer outreach queue
+
+## Decision
+
+Do not run a generic developer blast. Work in two lanes:
+
+1. Exhaust the warm and direct-network routes cleanly.
+2. Prepare a five-company cold pilot queue chosen for one-scheme trialability.
+
+The offer is one measured scheme-launch workflow: validated unit and document input, secure purchaser onboarding, a living Home Record, grounded homeowner support, controlled aftercare escalation and a weekly evidence scorecard.
+
+Do not lead with a portal replacement, autonomous AI, energy optimisation or the full long-term platform.
+
+## Lane 1: warm and direct-network routes
+
+### 1. Bridgewater Developments
+
+- Route: Carol Tallon's offered introduction.
+- Status: ready for Sam to accept.
+- Target role: residential delivery, customer care, handover or sales operations owner.
+- Why first: qualified Cork introduction with five publicly marketed schemes and no cold-start trust problem.
+- Source note: [[items/oh-bridgewater-warm-introduction]].
+
+### 2. Evara
+
+- Current portfolio: https://evara.ie/our-developments/
+- Buyer journey: https://evara.ie/our-home-buyers-guide/
+- Route: Sam's existing LinkedIn network.
+- Target role: Head of Customer Experience, Customer Care or Residential Operations.
+- Fit: multi-community delivery and an existing structured buyer journey that OpenHouse could extend into occupied-home support.
+
+### 3. Glenveagh
+
+- Current schemes: https://glenveagh.ie/developments
+- Buyer journey: https://glenveagh.ie/homebuyer-hub
+- Route: Sam's existing LinkedIn network.
+- Target role: Customer Experience, Customer Care or Handover leadership, not the CEO as the first ask.
+- Fit: large owner-occupier volume and an established digital homebuyer journey. Contract value is high, but the likely procurement cycle is longer.
+
+### 4. Cairn Homes
+
+- Current schemes: https://www.cairnhomes.com/new-homes/
+- Customer care: https://www.cairnhomes.com/customer-care/
+- Route: Sam's existing Cairn contacts.
+- Target role: Customer Experience, Customer Care or Digital/Product owner.
+- Fit: largest eventual contract potential and strong strategic relevance. This is not the fastest first pilot unless an internal champion exists.
+- Freshness note: the pages returned bot-protection responses to automated verification on 4 August. Use a normal browser before relying on exact current page content.
+
+### 5. Sean Gallagher reconnection
+
+- Route: separate relationship-led reconnection. Sean contacted Sam before OpenHouse existed.
+- Goal: market guidance and the right developer/operator introduction, not an immediate software pitch or funding request.
+- Source note: [[items/oh-sean-gallagher-reconnection]].
+
+## Lane 2: ranked cold pilot queue
+
+### 1. Richmond Homes
+
+- Current scheme: https://www.richmondhomes.ie/developments/mariners-way
+- Buyer journey: https://www.richmondhomes.ie/your-home
+- Company route: https://www.richmondhomes.ie/contact
+- Target role: Managing Director, Residential Director or Customer Care owner.
+- Fit: customer-focused positioning, direct company access and a visible gap between purchase guidance and occupied-home support. A single Mariners Way release is a clean pilot boundary.
+
+### 2. McGarrell Reilly
+
+- Current homes: https://www.mcgarrellreilly.ie/residential/homes
+- Contact: https://www.mcgarrellreilly.ie/contact-us
+- Target role: Head of Residential Sales and Customer Care.
+- Fit: privately owned, active across several schemes and large enough for repeatability without listed-builder procurement overhead.
+
+### 3. Lioncor
+
+- Current developments: https://www.lioncor.ie/developments
+- Customer service: https://www.lioncor.ie/customer-service
+- Contact: https://www.lioncor.ie/contact
+- Target role: Customer Service or Residential Delivery lead.
+- Fit: an explicit customer-service operation and substantial Dublin schemes make the aftercare workflow concrete.
+
+### 4. O'Flynn Group
+
+- Current new homes: https://www.oflynngroup.com/new-homes
+- Contact: https://www.oflynngroup.com/contact
+- Target role: Residential Director, Sales Director or Customer Care owner.
+- Fit: Cork access, a long residential track record and the option to bound a trial to one release. Stakeholder ownership needs to be established early.
+
+### 5. Park Developments
+
+- New-home portfolio: https://parkdevelopments.ie/residential/new-homes/
+- Team and contact: https://parkdevelopments.ie/team-contact/
+- Target role: Residential Sales and Customer Care Director.
+- Fit: large live communities create strong scheme-level handover and aftercare learning. Approval is likely more formal than Richmond or McGarrell Reilly.
+
+## Prepared second wave
+
+### D/RES
+
+- Portfolio: https://dres.ie/projects/
+- Customer care: https://dres.ie/customercare/
+- Target role: Head of Customer Care.
+- Fit: explicit customer-care operations and repeatable schemes.
+- Qualification question: determine whether the live opportunity is owner-occupier handover, institutional/BTR operations, or both before pitching.
+
+### Alanna Homes
+
+- Company and Drumnigh Manor: https://alannahomes.ie/
+- Target role: Managing Director or Customer Care owner.
+- Fit: focused operator and a clean release-level trial boundary.
+- Freshness note: the site returned bot protection during automated verification. Confirm current scheme state in a normal browser before outreach.
+
+### Durkan
+
+- Corporate route: https://www.durkan.ie/
+- Target role: Residential Director or Customer Care owner.
+- Fit: meaningful phase volume with a plausible pre-handover pilot.
+- Freshness note: the Sea Gardens scheme domain supplied in research did not resolve on 4 August. Re-verify the active scheme and sales route first.
+
+### Cosgrave Property Group
+
+- Current scheme evidence: https://www.woodbrook.ie/
+- Corporate route: https://www.cosgrave.ie/
+- Target role: Residential Sales, Customer Care or Development Director.
+- Fit: a substantial live community with a clean release-level scope, but likely a more formal approval process.
+
+### Marlet Property Group
+
+- Portfolio: https://marlet.ie/portfolio/
+- Resident platform: https://www.dubliv.ie/
+- Target role: Residential Operations or Customer Experience owner.
+- Fit: clear understanding of post-completion resident experience.
+- Risk: DUBLIV may be an existing platform boundary or competitive substitute. Qualify before positioning OpenHouse as another portal.
+
+## Do not prioritise yet
+
+- Ardstone: attractive sustainability and scale, but customer ownership may pass to an operator or housing partner.
+- Twinlite: mixed-use and tenure complexity; the supplied Cherry Lane site returned a 522 during fresh verification.
+- Castlethorn: the supplied Somerton scheme domain did not resolve during fresh verification.
+- GEM Construction: the supplied Miller's Glen scheme domain did not resolve; the commercial owner of purchaser aftercare is also unclear.
+
+These are research leads, not evidence that the companies lack internal handover or aftercare systems. A public gap means only that no sufficiently explicit workflow was verified publicly.
+
+## Outreach sequence
+
+1. Carol/Bridgewater acceptance.
+2. Sean reconnection.
+3. One direct-network message each to the strongest relevant Evara and Glenveagh contacts.
+4. Wait for clean responses before moving into cold outreach.
+5. If the warm lane does not produce a conversation, open with Richmond, McGarrell Reilly and Lioncor, one at a time.
+
+No deck in the first message. The first conversation is about their existing handover and aftercare process, repeated homeowner questions, evidence gaps and what happens after completion.
+
+## Success condition
+
+Within 30 days:
+
+- two developer discovery conversations;
+- one written one-scheme proposal;
+- one paid pilot, written commitment, or explicit rejection that materially changes the offer.
+
+## Connected vault notes
+
+- [[companies/openhouse-ai]]
+- [[project_state/oh]]
+- [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
+- [[items/oh-bridgewater-warm-introduction]]
+- [[items/oh-sean-gallagher-reconnection]]
+- [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
+- [[context/openhouse-sales-routes]]

@@ -92,3 +92,5 @@ Parts of the voice transcription were unclear, including the exact weekend locat
 - [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[briefs/2026-08-04-openhouse-dtc-upgrade-ready-plan-validation]]
+- [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]]
+- [[briefs/2026-08-04-openhouse-care-installer-paid-validation]]
