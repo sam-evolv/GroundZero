@@ -25,7 +25,8 @@ One install generating, one in survey. Compliance reporting eats a few hours a w
 - [[briefs/solar-installer-software-wedge]] - software-layer context
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]] - consultancy quick-revenue strategy
 - [[briefs/planet-satellite-opportunity]] - satellite monitoring
-- [[briefs/2026-08-04-renewables-operations-intelligence-business]] - owner-side solar operations, maintenance and analytics strategy
+- [[briefs/2026-08-04-renewables-operations-intelligence-business]] - detailed owner-side solar operations, maintenance and analytics research
+- [[briefs/2026-08-04-renewable-operations-business-proposition]] - succinct commercial proposition and technology-led USP
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
