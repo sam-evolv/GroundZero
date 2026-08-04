@@ -14,6 +14,13 @@ OpenBook is a platform for creating and operating websites for small businesses 
 - No-shows are the top churn driver (18% of bookings)
 - Supply growth is healthy
 
+## Design system
+
+- [[context/openhouse-openbook-design-system]] is canonical for future design work.
+- Business dashboard: dark, dense, operator-grade Linear/Stripe/Vercel direction.
+- Consumer experience: native-feeling iOS liquid glass with per-business colour used only where the design system permits it.
+- Product name is OpenBook, not OpenBook AI.
+
 ## Connected notes
 
 - [[project_state/ob]] — live status

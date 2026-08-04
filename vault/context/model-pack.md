@@ -61,6 +61,7 @@ Use this note when a model needs quick, high-signal context.
 - Do not store secrets in the vault.
 - Preserve history rather than overwriting decisions.
 - Keep raw external imports in `imports/` and curate the useful parts into the canonical notes.
+- Load [[context/openhouse-openbook-design-system]] before any OpenHouse or OpenBook design work.
 
 ## How to get the most leverage
 - Treat the vault as the system of record, not just a note dump.
@@ -71,6 +72,7 @@ Use this note when a model needs quick, high-signal context.
 
 ## Best entry points for models
 - For broad context, start here.
+- For OpenHouse or OpenBook interface, website, presentation, prototype or visual-asset work, read [[context/openhouse-openbook-design-system]] and its linked source package before designing.
 - For a company-specific task, open that company note and current project state.
 - For live execution, use the relevant item note.
 - For structure and filing, read [[context/ground-zero-structure]] and [[context/capture-workflow]].

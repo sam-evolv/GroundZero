@@ -1,0 +1,20 @@
+<!doctype html>
+<!-- @dsCard group="Components" name="Components · Glass nav" subtitle="Frosted glass · nav & tab bars only" viewport="700x160" --><html><head><meta charset="utf-8"><link rel="stylesheet" href="../colors_and_type.css"><style>
+  html,body{margin:0;background:#fff;padding:28px;font-family:var(--font-sans);color:#111827;}
+  .label{font:500 11px var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--text-3);margin-bottom:18px;}
+  .row{display:flex;gap:18px;align-items:center;}
+  .nav{display:flex;align-items:center;gap:8px;padding:8px;border-radius:14px;background:rgba(255,255,255,.72);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.6);box-shadow:0 8px 32px rgba(0,0,0,.08);}
+  .nav .item{padding:8px 14px;border-radius:10px;font:500 13px var(--font-sans);color:#6b7280;}
+  .nav .item.on{background:#111827;color:#fff;}
+  .nav-dark{background:rgba(17,20,27,.85);border:1px solid rgba(255,255,255,.08);}
+  .nav-dark .item{color:#9ca8bc;}
+  .nav-dark .item.on{background:rgba(212,175,55,.12);color:#D4AF37;}
+  .bg1{background:linear-gradient(135deg,#fef3c7 0%,#fed7aa 100%);padding:18px;border-radius:14px;flex:1;}
+  .bg2{background:linear-gradient(135deg,#1f2937 0%,#0b0c0f 100%);padding:18px;border-radius:14px;flex:1;}
+</style></head><body>
+<div class="label">Glass + blur · nav / tab bars only · never on data tables</div>
+<div class="row">
+  <div class="bg1"><div class="nav"><span class="item on">Dashboard</span><span class="item">Units</span><span class="item">Pipeline</span></div></div>
+  <div class="bg2"><div class="nav nav-dark"><span class="item on">Home</span><span class="item">Bookings</span><span class="item">Ask AI</span></div></div>
+</div>
+</body></html>

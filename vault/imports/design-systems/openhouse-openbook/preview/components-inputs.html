@@ -1,0 +1,23 @@
+<!doctype html>
+<!-- @dsCard group="Components" name="Components · Inputs" subtitle="Default · focus · error · checkbox" viewport="700x360" --><html><head><meta charset="utf-8"><link rel="stylesheet" href="../colors_and_type.css"><style>
+  html,body{margin:0;background:#fff;padding:28px;font-family:var(--font-sans);color:#111827;}
+  .label{font:500 11px var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--text-3);margin-bottom:18px;}
+  .stack{display:flex;flex-direction:column;gap:14px;max-width:520px;}
+  .field label{font:500 13px var(--font-sans);color:#374151;display:block;margin-bottom:6px;}
+  .input{width:100%;padding:10px 14px;font:400 15px var(--font-sans);border:1px solid #e5e7eb;border-radius:10px;background:#fff;color:#111827;box-sizing:border-box;}
+  .input:hover{border-color:#d1d5db;}
+  .input.focus{border-color:#D4AF37;box-shadow:0 0 0 3px rgba(212,175,55,.2);outline:none;}
+  .input.error{border-color:#ef4444;box-shadow:0 0 0 3px rgba(239,68,68,.15);}
+  .err{font:500 12px var(--font-sans);color:#991b1b;margin-top:6px;}
+  .row{display:flex;gap:10px;align-items:center;}
+  .chk{width:18px;height:18px;border-radius:5px;border:1.5px solid #d1d5db;display:inline-flex;align-items:center;justify-content:center;background:#fff;}
+  .chk.on{background:#D4AF37;border-color:#B8934C;color:#fff;font-size:12px;}
+</style></head><body>
+<div class="label">Inputs · default · focus · error · checkbox</div>
+<div class="stack">
+  <div class="field"><label>Development name</label><input class="input" placeholder="Riverside Gardens"></div>
+  <div class="field"><label>Slug</label><input class="input focus" value="riverside-gardens"></div>
+  <div class="field"><label>Email</label><input class="input error" value="sam@evol"><div class="err">Enter a valid email address.</div></div>
+  <div class="row"><span class="chk on">✓</span><span style="font-size:14px;color:#374151">Send purchaser welcome email</span></div>
+</div>
+</body></html>

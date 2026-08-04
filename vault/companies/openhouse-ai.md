@@ -112,7 +112,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - Vercel project: `prj_okAOLGbRgbTKEvbl1RgD4UsRdZX2`
 - Schemes with live data: Longview Park, Ardan View, Rathard Lawn, Rathard Park
 - As of 29 July 2026, after excluding one identifiable internal QA home, the production assistant had answered 259 property-specific questions across 79 home contexts in those four Longview developments. Of these, 245 were not built-in suggested prompts. See [[briefs/2026-07-30-openhouse-yc-usage-evidence]].
-- Design: gold `#D4AF37`, near-black `#080808` / `#111827`, Inter + Source Serif 4
+- Design: [[context/openhouse-openbook-design-system]] is canonical. Gold `#D4AF37`, near-black `#080808` / `#111827`, Inter + Source Serif 4, JetBrains Mono for numerics, Lucide icons and exact tokens from the stored source package.
 - Secrets live in the runtime environment only, never in the repo
 
 ## Working preferences

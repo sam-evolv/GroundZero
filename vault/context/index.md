@@ -43,6 +43,7 @@ This is the first note to load when a model needs cross-business context.
 - [[items/_Index|items/_Index.md]] — active idea queue (item MOC)
 
 ## Cross-cutting themes
+- [[context/openhouse-openbook-design-system]] — canonical shared design system, tokens, assets and surface-specific UI kits
 - [[context/automation-ideas]] — Ground Zero automation ideas
 - [[context/founder-execution-os]] — human-led AI operating system for capture, decisions, triage, and neglected leverage
 - [[context/agentic-value-creation-mission]] — mission and agency ladder for AI-native value creation
