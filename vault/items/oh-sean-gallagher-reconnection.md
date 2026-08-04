@@ -62,4 +62,8 @@ external_action: not-sent
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[companies/openhouse-ai]]
+- [[goals/oh-funder-pitch]]
+- [[items/oh-proof-asset-engine]]
 - [[project_state/oh]]
+

@@ -62,6 +62,13 @@ If accepted, ask for the exact programme timetable, attendance requirement, reco
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-03-local-model-m4-air-recommendation]]
+- [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]
+- [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
+- [[briefs/openhouse-ndrc-interview-final-card-2026-07-29]]
 - [[briefs/substack-draft-2026-08-03-the-waiting-room]]
+- [[companies/openhouse-ai]]
 - [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]
+- [[items/oh-bridgewater-warm-introduction]]
 - [[project_state/oh]]
+

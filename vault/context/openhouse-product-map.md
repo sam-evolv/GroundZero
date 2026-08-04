@@ -94,6 +94,7 @@ If a person asks what OpenHouse does, say:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-market-readiness-audit]]
+- [[briefs/2026-08-04-openhouse-product-truth-night-audit]]
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-energy-intelligence-sketch]]

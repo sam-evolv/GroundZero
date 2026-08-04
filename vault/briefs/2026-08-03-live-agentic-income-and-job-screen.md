@@ -70,6 +70,13 @@ TELUS's official job API showed an active remote freelancer listing at USD $20 p
 
 However, the public record did not expose an accepted-country list or otherwise prove that an Irish resident can join this exact project. It is therefore a watchlist lead, not a verified recommendation. Official page: https://www.telusinternational.ai/cmp/contributor/jobs/available/128436
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-03-unconventional-agent-income-research]]
+- [[items/agentic-income-evidence-sprint]]
+
 ## Recommendation
 
 1. Apply to the Outlier listing as the only verified side-income route. Cap setup and assessment effort; do not mistake platform registration for income.

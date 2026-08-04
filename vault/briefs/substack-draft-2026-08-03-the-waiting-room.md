@@ -52,3 +52,7 @@ Do not publish without Sam's explicit approval. Before publication, decide wheth
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
+- [[people/sam-donworth]]
+- [[project_state/oh]]
+

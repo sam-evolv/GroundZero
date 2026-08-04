@@ -142,9 +142,15 @@ Continue only if the scheme shows a defensible improvement in handover consisten
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-30-openhouse-yc-usage-evidence]]
+- [[briefs/2026-08-01-openhouse-yc-reviewer-production-certification]]
+- [[briefs/2026-08-02-pr-205-merge-readiness-audit]]
 - [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
+- [[briefs/2026-08-04-openhouse-product-truth-night-audit]]
+- [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
 - [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]
 - [[items/oh-bridgewater-warm-introduction]]
 - [[items/oh-developer-outreach-proposal-pack]]
 - [[items/oh-proof-asset-engine]]
 - [[project_state/oh]]
+

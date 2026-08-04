@@ -72,7 +72,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[companies/openhouse-ai]]
-- [[context/dashboard]]
 - [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
 - [[goals/oh-funder-pitch]]
 - [[items/oh-answer-quality-audit-loop]]

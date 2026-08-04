@@ -77,5 +77,9 @@ Build a server-controlled My Home capability boundary on the isolated V2 line:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-openhouse-product-truth-night-audit]]
 - [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]
+- [[goals/oh-v2-launch]]
+- [[items/oh-live-portal-boundary-activation]]
 - [[project_state/oh]]
+

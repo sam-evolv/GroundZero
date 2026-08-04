@@ -114,6 +114,11 @@ If any appear, the PR is not a current-live fix and must remain on the V2 line u
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-current-live-boundary-and-v2-handoff]]
+- [[briefs/2026-08-04-openhouse-product-truth-night-audit]]
+- [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
+- [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
 - [[goals/oh-v2-launch]]
+- [[items/oh-answer-quality-audit-loop]]
 - [[items/oh-live-portal-boundary-activation]]
 - [[project_state/oh]]
+

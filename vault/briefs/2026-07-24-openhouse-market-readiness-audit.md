@@ -282,6 +282,7 @@ They do, however, prove a P0 release-control requirement: quarantine/remove the 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-27-market-intel]]
+- [[briefs/2026-08-04-openhouse-product-truth-night-audit]]
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]

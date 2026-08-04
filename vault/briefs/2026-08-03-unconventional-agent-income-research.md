@@ -216,3 +216,10 @@ Do not create a company, brand, landing page, content strategy or paid plan for 
 - [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]
 - [[context/agentic-value-creation-mission]]
 - [[people/sam-donworth]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-autonomous-eur100-experiment-charter]]
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[items/agentic-income-evidence-sprint]]
+

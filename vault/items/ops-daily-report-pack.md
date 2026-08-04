@@ -59,6 +59,7 @@ Do not promote as a standalone project. Merge its useful per-company sections in
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]
 - [[briefs/wiki-refiner-2026-06-26]]
+- [[context/dashboard]]
 - [[context/ops-automation-moc]]
 - [[items/ops-daily-sync-digest]]
 - [[items/ops-pr-issue-ageing-escalator]]

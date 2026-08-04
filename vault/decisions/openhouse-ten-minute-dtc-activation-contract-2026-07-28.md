@@ -389,6 +389,7 @@ The DTC activation model has failed if it repeatedly requires:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-openhouse-product-truth-night-audit]]
 - [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]]
 - [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]
 - [[briefs/openhouse-free-first-dtc-conversion-plan-2026-07-28]]

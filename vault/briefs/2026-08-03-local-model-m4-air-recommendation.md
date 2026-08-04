@@ -35,6 +35,11 @@ See [[project_state/oh]] and [[briefs/2026-08-03-openhouse-accelerator-waiting-p
 
 The fanless Air and 16 GB unified memory make a quality 8B–9B quantized model the comfortable class. A 12B Q4 model fits, but leaves less headroom for browsers, Hermes, IDEs and long contexts. Models above roughly 14B total weights require aggressive quantization or swapping and are not the default recommendation.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[project_state/oh]]
+
 ## Recommendation
 
 ### Best comfortable all-round local agent
