@@ -162,13 +162,38 @@ Each opportunity will be evaluated using the same evidence chain.
 ## Preliminary evidence already verified
 
 - Leixlip Tool Hire lists commercial robotic mowers suitable for hotels, campuses and sports facilities. Public prices observed include approximately €5,500 for a Segway Navimow Terranox CM120M1, €7,000 for a CM240M1, €6,290 for a Husqvarna 535 AWD EPOS and €8,995 for a Husqvarna 580 EPOS. The page advertises eight commercial models. These are hardware prices, not all-in deployed costs.
-- Rentabot.ie advertises an Irish robot-rental model with flexible terms and support across cleaning, windows, mowing, delivery, security and other categories. Its directory is quote-only. The displayed catalogue does not prove that every listed machine is physically held in Ireland or actively rented.
-- Glanaco, Cleaning Robotics Ireland and other suppliers advertise commercial floor-cleaning robots in Ireland. Competition and installed-customer evidence must be checked before selecting that category.
+- Glanaco Cleaning Robots says it has more than 50 nationwide deployments and 15 years of commercial-cleaning experience. Its published range includes Gausium Phantas, Beetle, Scrubber 50 and other machines. Its site claims an average 2,500 staff hours and €29,000 of labour cost saved per unit per year. Those are supplier claims and require customer-side verification.
+- Cleaning Robotics Ireland has an address in Claregalway and publishes named deployments at SuperValu and Centra stores. Its own case studies state that SuperValu Sligo or Ballymote had spent €500 per week on part-time cleaning, and that a West Cork Centra had spent €7,000 per year on a contract sweeper plus €20,000 on staff overtime for mopping. It claims first-year and sub-16-month payback respectively. The pages do not disclose purchase price or independently audited savings.
+- Cleaning Robotics Ireland currently advertises PUDU, SPARKOZ and ZACO cleaning machines plus PUDU delivery and material-movement robots. This makes general retail floor cleaning a validated but already competitive Irish category rather than an empty opening.
+- Rentabot.ie advertises an Irish robot-rental model with flexible terms and support across cleaning, windows, mowing, delivery, security and other categories. Its directory is quote-only. The displayed catalogue does not prove that every listed machine is physically held in Ireland or actively rented. The homepage counter renders as zero in static extraction, no legal company identity was found on the inspected pages, and the linked terms page returned 404. It should be treated as an unverified competitor until actual inventory, quotes and references are confirmed.
 - Sports Line Services Ireland advertises the RM21 combined robotic mower and line marker. Irish robotic line-marking services and equipment suppliers already exist.
-- Solar Clean Robotics Ireland sells SolarCleano machines and related cleaning systems and advertises operator training, repairs and commercial solar-cleaning services. Several other Irish providers advertise robotic solar cleaning.
+- Solar Clean Robotics Ireland sells SolarCleano machines and related cleaning systems and advertises operator training, repairs and commercial solar-cleaning services. Several other Irish providers advertise robotic solar cleaning. Public product pages did not show a purchase price for the inspected SolarCleano M1 Mini or F1, so these remain RFQ-only until quoted.
+- SEAI reported 753.32 MW of grid-scale solar and 570.08 MW of rooftop capacity at the end of 2024, with 1.09 TWh of total solar generation in 2024 and 66.8% from utility-scale sites. Solar Ireland later reported 2.7 GW of connected capacity by May 2026 using ESB Networks data. This establishes a fast-growing asset base, not a cleaning budget.
+- Using 2024 utility generation of approximately 0.728 TWh, a 0.5% recoverable soiling case represents about 3,641 MWh. At an illustrative €50 to €100 per MWh, the entire national annual energy value is only approximately €182,000 to €364,000 before cleaning cost. A 3% case is approximately €1.09 million to €2.18 million. These are boundary scenarios, not measured Irish soiling losses. They show why customer-level soiling and recovery evidence is essential before buying a dedicated robot.
 - A current Irish greenkeeper salary estimate found through SalaryExpert is approximately €37,992, while a golf-course groundskeeper estimate is approximately €30,334. These are secondary salary estimates and do not equal the full grounds operation cost.
 - Irish commercial-cleaning providers publicly advertise rates from approximately €49 per hour or €0.14 to €0.29 per square foot, but scope, location and frequency vary. These provider claims require triangulation and cannot be applied directly to robotic floor-cleaning savings.
 - UCD and other public bodies procure grounds and sports-pitch maintenance through formal frameworks. This establishes real institutional spend but also indicates slower procurement and incumbent contractor relationships.
+
+### Preliminary mower price boundary
+
+A transparent scenario shows the price level a managed mower service may require. It is not a supplier quote or demand forecast.
+
+Assume:
+
+- €5,500 to €8,995 for the mower.
+- €1,299 for an EPOS reference station where required.
+- €1,000 for installation, subject to an actual site quote.
+- €1,200 initial failure and accessory reserve.
+- €1,800 per year for assumed insurance, connectivity, scheduled service and site visits.
+- Direct deployment cost recovered over 24 to 36 months.
+
+Under those assumptions:
+
+- A €5,500 machine requires roughly €750 to €875 per month to recover direct costs over 24 months while retaining 30% to 40% contribution after those direct costs.
+- A €8,995 machine requires roughly €958 to €1,118 per month on the same basis.
+- Extending direct-cost recovery to 36 months reduces the indicated range to roughly €571 to €828 per month.
+
+These figures exclude VAT, finance interest, corporation tax, customer acquisition, unscheduled callouts and founder salaries. They show the customer threshold: the machine is unlikely to make sense where the narrow mowing task costs only a few thousand euro a year. The strongest sites are those spending approximately €10,000 or more annually on the mowing work the robot can genuinely absorb, or those avoiding a new hire or contractor increase.
 
 ## Interpretation rule
 
