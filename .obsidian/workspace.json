@@ -181,6 +181,10 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/private/learning-library/spotify_capture.py",
+    "vault/items/ops-graph-engineering-pilot.md",
+    "vault/briefs/2026-08-04-graph-engineering-research-and-implementation.md",
+    "vault/private/learning-library/test_spotify_capture.py",
     "vault/private/learning-library/source-registry.md",
     "vault/private/learning-library/concepts/_Index.md",
     "vault/private/learning-library/concepts",
@@ -199,7 +203,6 @@
     "vault/imports/design-systems/openhouse-openbook/ui_kits/openbook-consumer/README.md",
     "vault/imports/design-systems/openhouse-openbook/ui_kits/openbook-consumer/index.html",
     "vault/imports/design-systems/openhouse-openbook/ui_kits/openbook-consumer/Business.jsx",
-    "vault/imports/design-systems/openhouse-openbook/ui_kits/openbook-consumer/App.jsx",
     "vault/imports/design-systems/openhouse-openbook/ui_kits/openbook-business/README.md",
     "vault/imports/design-systems/openhouse-openbook/uploads/openhouse-logo.png",
     "vault/imports/design-systems/openhouse-openbook/uploads/Transparent OH Logo.png",
@@ -223,9 +226,6 @@
     "vault/briefs/2026-08-04-ireland-low-barrier-commercial-robotics-opportunity-study.md",
     "vault/briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis.md",
     "vault/health/2026-08-04-back-and-biceps-session.md",
-    "vault/briefs/2026-08-04-openhouse-care-installer-paid-validation.md",
-    "vault/briefs/2026-08-04-openhouse-qualified-developer-outreach-queue.md",
-    "vault/briefs/2026-08-04-openhouse-dtc-upgrade-ready-plan-validation.md",
-    "vault/briefs/2026-08-04-tuesday-founder-regroup.md"
+    "vault/briefs/2026-08-04-openhouse-care-installer-paid-validation.md"
   ]
 }
