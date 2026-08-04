@@ -9,6 +9,13 @@ role: project-state
 
 One install generating, one in survey. Compliance reporting eats a few hours a week. Checked 2026-07-01. No new live-system changes were checked for Renewables in this sync.
 
+## Current strategic direction
+
+- Primary validation wedge: owner-side solar operations and assurance for Irish and UK portfolios, covering read-only data integration, performance/export reconciliation, fault and work-order evidence, contractor oversight, and investor reporting.
+- Cleaning, vegetation, robotic mowing, thermal drones and satellite monitoring are evidence-triggered modules, not the initial standalone company.
+- Full O&M, 24/7 control, HV work and wind-turbine maintenance are outside the part-time pilot.
+- Next gate: one paid 60–90 day operational baseline with a warm portfolio owner, after conflict and IP review.
+
 ## Connected vault notes
 
 - [[companies/evolv-renewables]] - parent company
@@ -18,6 +25,7 @@ One install generating, one in survey. Compliance reporting eats a few hours a w
 - [[briefs/solar-installer-software-wedge]] - software-layer context
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]] - consultancy quick-revenue strategy
 - [[briefs/planet-satellite-opportunity]] - satellite monitoring
+- [[briefs/2026-08-04-renewables-operations-intelligence-business]] - owner-side solar operations, maintenance and analytics strategy
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
