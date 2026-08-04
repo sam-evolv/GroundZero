@@ -179,8 +179,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "eb5fc23b93b01bd0",
+  "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "repos/property-assistant/node_modules/@babel/helper-optimise-call-expression/README.md",
+    "node_modules/next/dist/docs/01-app/02-guides/production-checklist.md",
+    "vault/briefs/2026-08-04-business-post-ai-leadership-awards-application.md",
     "vault/context/openhouse-openbook-design-system.md",
     "vault/imports/design-systems/openhouse-openbook/ui_kits/openhouse/index.html",
     "vault/imports/design-systems/openhouse-openbook/ui_kits/openhouse/UnitProfile.jsx",
@@ -223,9 +226,6 @@
     "vault/briefs/2026-08-04-tuesday-founder-regroup.md",
     "vault/briefs/2026-08-04-openhouse-founder-morning-action-brief.md",
     "vault/briefs/wiki-refiner-2026-08-04.md",
-    "vault/briefs/2026-08-04-openhouse-product-truth-night-audit.md",
-    "tools/verified-autoresearch/examples/openhouse-retrieval-scratch/README.md",
-    "tools/verified-autoresearch/SECURITY.md",
-    "tools/verified-autoresearch/README.md"
+    "vault/briefs/2026-08-04-openhouse-product-truth-night-audit.md"
   ]
 }
