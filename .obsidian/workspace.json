@@ -181,6 +181,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/private/learning-library/spotify-playback-state.json.lock",
     "vault/private/learning-library/spotify_capture.py",
     "vault/items/ops-graph-engineering-pilot.md",
     "vault/briefs/2026-08-04-graph-engineering-research-and-implementation.md",
@@ -202,7 +203,6 @@
     "vault/imports/design-systems/openhouse-openbook/ui_kits/openhouse/App.jsx",
     "vault/imports/design-systems/openhouse-openbook/ui_kits/openbook-consumer/README.md",
     "vault/imports/design-systems/openhouse-openbook/ui_kits/openbook-consumer/index.html",
-    "vault/imports/design-systems/openhouse-openbook/ui_kits/openbook-consumer/Business.jsx",
     "vault/imports/design-systems/openhouse-openbook/ui_kits/openbook-business/README.md",
     "vault/imports/design-systems/openhouse-openbook/uploads/openhouse-logo.png",
     "vault/imports/design-systems/openhouse-openbook/uploads/Transparent OH Logo.png",
