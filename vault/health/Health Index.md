@@ -11,6 +11,7 @@ Private health and fitness tracking for Sam.
 - [[2026-07-22-daily-log]]
 - [[2026-07-28-daily-log]]
 - [[2026-07-31-upper-body-session]]
+- [[2026-08-04-back-and-biceps-session]]
 - [[photos/2026-07-21-baseline]]
 - [[photos/2026-07-21-breakfast]]
 
