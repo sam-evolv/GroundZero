@@ -26,6 +26,9 @@ These items automate that sweep so Sam's time goes into the right work, not the 
 - [[items/ops-project-state-reconciler]] — keep project_state/company memory aligned with live signals
 - [[items/ops-index-maintenance-bot]] — auto-maintain items/_Index.md and daily log entries
 
+### Graph orchestration
+- [[items/ops-graph-engineering-pilot]]: prove a bounded research, synthesis, review and approval graph on three internal tasks
+
 ### Triage & escalation
 - [[items/ops-pr-issue-ageing-escalator]] — stale PR/issue escalation, P1
 - [[items/oh-warranty-triage-router]] — OH-specific issue triage (AI classification + draft reply)
@@ -53,6 +56,7 @@ Every ops item writes back to:
 ## Grounding notes
 
 These explain *why* the automation matters, not just what it does:
+- [[briefs/2026-08-04-graph-engineering-research-and-implementation]]: execution-graph research and implementation playbook
 - [[briefs/daily-ai-brief-2026-07-14]] — current evidence for durable background-job contracts and provider-neutral orchestration
 - [[briefs/hermes-community-use-cases-2026-07-28]] — review of 262 community stories; event-driven, approval-gated adaptations for OpenHouse, Cara, and Ground Zero
 - [[context/automation-ideas]] — general automation principles
@@ -81,6 +85,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/llm-wiki-pattern]]
 - [[context/review-workflow]]
 - [[items/oh-warranty-triage-router]]
+- [[items/ops-graph-engineering-pilot]]
 - [[items/ops-capture-inbox-refinery]]
 - [[items/ops-daily-report-pack]]
 - [[items/ops-daily-sync-digest]]
