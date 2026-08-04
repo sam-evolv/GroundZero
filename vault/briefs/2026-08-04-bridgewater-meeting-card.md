@@ -59,6 +59,20 @@ Do not call the 79 contexts unique homeowners, active users or customers. Do not
 
 > I would not suggest trying to roll this across Bridgewater immediately. The sensible next step would be to take one upcoming phase, map the exact handover and aftercare workflow with the person who owns it, and agree what we would need to prove before either of us commits to anything larger.
 
+## If David wants to start immediately
+
+> Great. I do not need your full system or every historical document to get started. Give me one scheme, one operational contact, a clean unit list and the approved handover documents. I will prepare the first test home for you to validate before any homeowners are invited.
+
+Ask for:
+
+- one candidate scheme;
+- one Bridgewater operational owner;
+- one clean unit list;
+- one approved document folder;
+- a date for the first-home review.
+
+Use [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]]. Do not promise an instant live rollout or request real homeowner data in the meeting.
+
 ## Pricing if asked
 
 > The current working model is a setup fee plus a per-home fee, with roughly €99 per home as the initial hypothesis. I would want to understand the exact scheme, data and aftercare scope before putting a firm pilot price in front of you.

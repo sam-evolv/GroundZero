@@ -62,12 +62,14 @@ A discovery conversation that establishes Bridgewater's actual handover and afte
 
 The supporting evidence pack is ready in [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]], with a designed PDF at `artifacts/openhouse-proof-pack/OpenHouse_Longview_Developer_Proof_Pack_2026-08-03.pdf`. It gives Sam a conservative Longview evidence set, exact-home trust proof, six discovery questions and a measured one-scheme pilot shape without claiming answer accuracy, workload reduction or customer endorsement.
 
-The introduction has been completed. The remaining external dependency is scheduling and confirming the meeting details. The tailored meeting preparation is in [[briefs/2026-08-04-bridgewater-meeting-preparation]].
+The introduction has been completed. The remaining external dependency is scheduling and confirming the meeting details. The tailored meeting preparation is in [[briefs/2026-08-04-bridgewater-meeting-preparation]]. A concierge rapid-start path is documented in [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]] and tracked in [[items/oh-bridgewater-rapid-onboarding]].
 
 ## Connected vault notes
 
 - [[companies/openhouse-ai]]: parent company and live product facts
 - [[project_state/oh]]: current operating status
+- [[items/oh-bridgewater-rapid-onboarding]]: first-home onboarding certification
+- [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]]: minimum intake and controlled launch path
 - [[briefs/2026-08-03-bank-holiday-founder-reset]]: current seven-day execution plan
 - [[briefs/2026-07-22-reset-and-bridgewater-opportunity]]: source reflection and operating decision context
 - [[context/openhouse-sales-routes]]: sales/channel strategy
