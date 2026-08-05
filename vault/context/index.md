@@ -57,6 +57,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/daily-portfolio-brief-2026-07-12]] — earlier portfolio baseline and recorded blockers
 - [[briefs/2026-06-30]] — June cross-company operating baseline
 - [[briefs/2026-08-04-graph-engineering-research-and-implementation]]: current graph-engineering evidence, implementation pattern and bounded Hermes pilot
+- [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]: evidence-backed overnight synthesis covering the private personal-intelligence system and OpenHouse readiness for Bridgewater
 - [[briefs/daily-agentic-value-radar-2026-07-21]] — current agentic capability and leverage review
 - [[briefs/daily-agentic-value-radar-2026-07-20]] — prior agentic capability and leverage review
 - [[briefs/wiki-refiner-2026-07-28]] — latest vault refinement and graph-health report

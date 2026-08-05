@@ -61,7 +61,7 @@ The V2 rollout is still on track for end of month. Real Longview Estates data re
 ## Next actions
 - Keep monitoring the production migration until the backup tables can be dropped after a clean week.
 - Triage any open issues that affect the portal experience.
-- Prepare the Bridgewater discovery meeting around its current homeowner handover and aftercare workflow. Aim for an operational stakeholder session, one-scheme workflow map or bounded paid pilot proposal. Certify the concierge first-home path before quoting a turnaround. See [[briefs/2026-08-04-bridgewater-meeting-preparation]], [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]], [[items/oh-bridgewater-warm-introduction]] and [[items/oh-bridgewater-rapid-onboarding]].
+- Prepare the Bridgewater discovery meeting around its current homeowner handover and aftercare workflow. Aim for an operational stakeholder session, one-scheme workflow map or bounded paid pilot proposal. Certify the concierge first-home path before quoting a turnaround. See [[briefs/2026-08-04-bridgewater-meeting-preparation]], [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]], [[items/oh-bridgewater-warm-introduction]], [[items/oh-bridgewater-rapid-onboarding]] and [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]].
 - Run the accelerator waiting period as a 30-day commercial-proof sprint: two developer discovery conversations, one written one-scheme pilot proposal and one paid pilot, signed letter of intent or decision-changing rejection. See [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]].
 
 ## Risks
