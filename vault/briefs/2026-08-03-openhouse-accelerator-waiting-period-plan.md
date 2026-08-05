@@ -23,6 +23,8 @@ Current verified commercial position:
 
 ## Decision
 
+**Founder confirmation, 2026-08-05:** Sam has explicitly chosen revenue-first founder sales over further speculative building. The current execution brief is [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]].
+
 The next 30 days are a commercial-proof sprint, not another broad product-build cycle.
 
 Primary target:

@@ -44,6 +44,7 @@ Review only when a gate changes or once monthly. Do not relitigate resignation e
 
 ## Connected notes
 
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]
 - [[briefs/2026-08-03-bank-holiday-founder-reset]]
 - [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
 - [[context/agentic-value-creation-mission]]
