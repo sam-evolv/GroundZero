@@ -65,17 +65,15 @@ Sam
 ```text
 Hi Sean,
 
-I hope you are keeping well. We connected on LinkedIn a number of months ago and you kindly asked me to email you. I did at the time, but I know how easily things get lost when you are busy, so I thought I would come back to you properly.
+I hope you are keeping well. We connected a while back and you kindly asked me to send you an email. I did at the time, but we never got the chance to speak, so I thought I would try you here.
 
-Since then, I have been building OpenHouse in the evenings and at weekends alongside my full-time work at Longview Estates. OpenHouse gives each home a digital handover and assistant built around the documents, systems and energy setup of that exact property, so homeowners can get clear answers after completion and developers can see the recurring issues coming through aftercare.
+Since then, I have been building something called OpenHouse in the evenings and at weekends alongside my work in property development. It started from a problem I see in our own developments: once people get the keys to their home, the information about the house, its systems and what they need to do is usually spread everywhere. OpenHouse gives each homeowner one place to understand their own home and get help, while giving the developer a much clearer view of the issues people are actually running into after handover.
 
-It is now live across more than 150 homes on the 750-home Cork City scheme that I help run as one of three people at Longview. I genuinely believe in the business and think it could become something very meaningful, but I am finding it very difficult to get it in front of the right people in property development. I really want to give it a proper chance.
+It is now rolled out across more than 150 homes in the 750-home Cork City development I help run at Longview, and the response from homeowners has been really positive. I genuinely believe there is a proper business in it and I would love to take it to the next level, but I am finding it very hard to get in front of the right developers.
 
-Given your experience of getting businesses off the ground as well as property development, I would really value any honest advice you would have on the best way to approach that.
+Given your experience in property and in getting businesses off the ground, I would absolutely love the opportunity to buy you a coffee, show you what I have been working on and get your honest advice on where you think I should go from here. Even a short call would be hugely appreciated.
 
-If you had time for a short call, or if I could buy you a coffee sometime, I would really appreciate it. I know you are busy, but any time or advice you could spare would mean a lot.
-
-Thanks a million for reading,
+Thanks a million,
 Sam
 ```
 
