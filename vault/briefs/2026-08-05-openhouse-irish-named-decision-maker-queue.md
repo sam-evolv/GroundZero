@@ -20,9 +20,13 @@ company_id: openhouse-ai
 ```text
 Hi Ian,
 
-I have been looking at how Evara supports purchasers through completion, particularly around Parklane. OpenHouse turns the approved information for each completed home into a permanent exact-home record, grounded homeowner support and a controlled route into aftercare.
+I hope you are keeping well. I wanted to introduce myself properly rather than send you a generic product note out of the blue.
 
-I am looking for one paid, tightly bounded phase pilot rather than a company-wide rollout. Would you be open to a short conversation about whether Parklane or another upcoming release could be suitable?
+I work in residential development in Ireland, and I have been building OpenHouse alongside that. It gives each completed home one clear, permanent record for its documents, systems, warranties and history, so homeowners are better supported after completion and developer teams can see where handover information is falling short.
+
+I noticed the care Evara puts into the purchaser journey around Parklane, which is why I thought it might be relevant to you. There may be nothing in it for Evara right now, but I would genuinely value your view on whether a small phase-level pilot could be useful for a future release.
+
+If you were open to it, would you have 20 minutes for a coffee or call whenever suits? No problem at all if the timing is not right.
 
 Sam
 ```
@@ -36,9 +40,13 @@ Sam
 ```text
 Hi Michael,
 
-Evara already provides buyers with a structured journey through purchase and completion. OpenHouse extends that into the occupied-home period by giving every purchaser a verified record of their exact home, grounded answers from approved information and a structured aftercare route.
+I hope you are keeping well. I wanted to introduce myself properly rather than send a generic sales message.
 
-I am proposing one paid phase-level pilot with measurable handover and support outcomes. Would you be open to a brief discussion, or point me to the person who owns that workflow operationally?
+I work in residential development in Ireland, and I have been building OpenHouse alongside that. It gives each completed home one clear record for its documents, systems, warranties and history, helping homeowners get grounded answers after completion while giving the developer a clearer picture of repeated questions and handover gaps.
+
+Evara's buyer journey is one of the reasons I thought it might be relevant to get in touch. I am not looking to propose a company-wide system change. If there were a genuine fit, it would be one small, measured pilot on a future phase.
+
+I would appreciate your view on whether that is something Evara would ever consider, and if so who would be the right person to speak with. If the timing is not right, I completely understand.
 
 Sam
 ```
@@ -52,11 +60,11 @@ Sam
 ```text
 Hi Sean,
 
-You reached out to me a few months ago and kindly suggested that we connect. I followed up by email at the time, but I know how easily things get buried.
+I hope you are keeping well. You got in touch a few months ago and kindly suggested that we connect. I followed up by email at the time, but I know how easily messages get buried.
 
-Since then, I have built OpenHouse, software that gives each completed home a property-specific record for its documents, systems, warranties and history. It helps developers improve handover, homeowner support and aftercare. It is now live internally across four developments, and I am at the point of bringing it to developers beyond that first rollout.
+Since then, I have built OpenHouse, software that gives each completed home a property-specific record for its documents, systems, warranties and history. It is live internally across four developments and is designed to help developers improve handover, homeowner support and aftercare.
 
-Given your experience across property and technology, I would really value 20 minutes of your honest perspective on the right route to market. If you think there is one developer or operator who would be useful to speak with, I would be grateful for the right introduction.
+I am now starting to take it beyond that initial rollout and, given your experience across property and technology, I would really value your honest view on the right route into the market. If you were open to a coffee or a short call sometime over the next few weeks, I would be very glad to catch up. If it is not a good time, no worries at all.
 
 Sam
 ```
@@ -69,13 +77,13 @@ Sam
 ```text
 Hi Gavin,
 
-I am now at the point where OpenHouse needs one external paid scheme pilot rather than more product development.
+I hope you are keeping well. I wanted to get in touch properly as OpenHouse has reached the point where I need to test it with one external developer rather than keep building in isolation.
 
-It gives each completed home one usable record for its documents, systems, warranties and history. Homeowners get grounded answers from the approved information, while the developer sees repeated questions and evidence gaps across a scheme.
+I work in residential development, and OpenHouse gives each completed home one clear record for its documents, systems, warranties and history. It helps homeowners get proper answers after completion, while giving the developer a clearer view of repeated questions and handover gaps. We have used it internally across four developments and captured 259 property-specific homeowner questions across 79 home contexts.
 
-We have used it internally across four developments and captured 259 property-specific homeowner questions across 79 home contexts.
+I know any introduction from you reflects on you, so I am not looking for a broad round of intros or vague advice. If there is one developer principal, Development Director or customer-care owner you think would be genuinely open to a 20 to 25-minute conversation about a small paid pilot on an active owner-occupier scheme, I would really appreciate an introduction.
 
-I am not looking for broad advice or a generic introduction. Could you introduce me to one developer principal, Development Director or customer-care owner who has an active owner-occupier scheme and might be open to a 25-minute workflow conversation? I will keep the ask tightly bounded to one paid pilot phase.
+No pressure at all if nobody comes to mind or the timing is not right.
 
 Sam
 ```
