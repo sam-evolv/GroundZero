@@ -57,6 +57,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/daily-portfolio-brief-2026-07-12]] — earlier portfolio baseline and recorded blockers
 - [[briefs/2026-06-30]] — June cross-company operating baseline
 - [[briefs/2026-08-04-graph-engineering-research-and-implementation]]: current graph-engineering evidence, implementation pattern and bounded Hermes pilot
+- [[briefs/2026-08-05-phosphen-karpathy-llm-use-source-audit]] — source audit of the shared X post, Karpathy video and linked graph-engineering guide
 - [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]: evidence-backed overnight synthesis covering the private personal-intelligence system and OpenHouse readiness for Bridgewater
 - [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]] — corrected founder-sales reset, concentrated Irish-market constraints and parallel Ireland/UK/US revenue push
 - [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]] — active offer, outbound cadence, message library, qualification rules and scorecard
