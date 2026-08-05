@@ -29,6 +29,9 @@ The product should let a person make ordinary requests such as reviewing what is
 4. Use explicit per-connector consent, least-privilege scopes, confirmation gates, activity/audit history, export/delete controls and clear recovery paths.
 5. Treat security and privacy as product architecture from day one. Consumer data protection is not a lower bar than business data protection; the practical difference is enterprise procurement rather than the underlying duty of care.
 
+## Relationship to Cara
+This may be the broader product truth inside Cara rather than an unrelated new idea: a person should be able to speak, text, browse and receive completed work from one persistent digital assistant. Cara’s earlier Irish-SME phone-number wedge remains distinct, and Cara is currently deprioritised; this does not reactivate that build. The managed-agent opportunity should be evaluated as a broader, consumer/prosumer-first reframe that could later use voice and messaging as natural surfaces.
+
 ## Product experience hypothesis
 The core packaging insight is to avoid selling “agents”, model providers or autonomous workflows. The user should feel they have a calm, capable digital operator that can see the work in front of them, propose the next move, do bounded tasks and always show what happened.
 
@@ -45,4 +48,6 @@ A compelling experience is likely not a chat box alone. It should combine a simp
 - [[context/solo-founder-era]] — generic chatbot avoidance and vertical-agent thesis
 - [[context/agentic-value-creation-mission]] — approval boundaries and capability-adoption gate
 - [[context/business-opportunities-moc]] — opportunity map
+- [[companies/cara]] — earlier voice-first digital-assistant wedge and possible future surface
+- [[project_state/cara]] — current deprioritised state; no implicit reactivation
 - [[companies/openbook]] — relevant SME workflow experience
