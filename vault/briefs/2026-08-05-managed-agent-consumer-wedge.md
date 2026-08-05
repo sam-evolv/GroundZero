@@ -89,6 +89,8 @@ Use optional familiar channels where they are commercially/technically viable, b
 
 Media, voice and specialist capabilities should be a controlled internal supply chain. Route heavyweight video/image/music work through explicit premium work packs; exploit permissively licensed open-source models, local execution and reusable skills where they meet quality/security requirements; and audit commercial licences, hosting cost, latency and safety before treating a GitHub model as production infrastructure. The user sees a simple outcome such as “make a video” or “talk to me”, never a provider catalogue.
 
+The first product milestone is not a broad platform. Prove three signature moments for a tightly recruited cohort: retrieve an authorised file from a paired computer while mobile, understand and progress a live browser/document/spreadsheet task, and create/deliver a finished artifact into the conversation. Measure time to first useful outcome, weekly return, completed outcomes, trust failures and whether users would be genuinely upset to lose the assistant.
+
 ## Signature “holy shit” moments
 The core validation target is not a generic feature checklist. It is a set of memorable, word-of-mouth moments where a person discovers that their digital assistant can bridge their physical computer, current context and mobile life.
 
