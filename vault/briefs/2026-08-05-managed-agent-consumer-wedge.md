@@ -29,6 +29,19 @@ The product should let a person make ordinary requests such as reviewing what is
 4. Use explicit per-connector consent, least-privilege scopes, confirmation gates, activity/audit history, export/delete controls and clear recovery paths.
 5. Treat security and privacy as product architecture from day one. Consumer data protection is not a lower bar than business data protection; the practical difference is enterprise procurement rather than the underlying duty of care.
 
+## Compute and financial model hypothesis
+Do not pool or resell customers’ unused ChatGPT or Claude consumer subscriptions. Those plans are not a transferable compute bank and at least Anthropic’s current consumer terms expressly prohibit using its service to develop a competing product or resell the service. Use commercial API contracts and treat consumer subscriptions as unrelated.
+
+The legitimate equivalent is a pooled managed-service model: buy API capacity centrally, route tasks intelligently and price a plan around expected cohort usage rather than exposing tokens. On 5 August 2026, DeepSeek’s official V4 Flash page listed $0.14 per 1M cache-miss input tokens, $0.0028 per 1M cache-hit input tokens and $0.28 per 1M output tokens; it also warned that a future peak/off-peak price policy may change rates. Illustrative monthly text-only workloads at those rates were about $0.10 light, $0.43 active and $1.29 heavy. These are not total cost of service: browser execution, file/video rendering, storage, messaging, support, safety controls and payments remain material.
+
+Recommended commercial shape:
+- Subscription pays for a persistent assistant, paired-device relay, memory, basic compute and a sensible-use allowance.
+- Product language measures useful work, such as completed tasks or premium work packs, rather than raw tokens.
+- Expensive artifact generation, long-running work and high-cost model calls use a clear visible allowance or purchasable work pack before execution.
+- Route routine classification, drafting and background work to inexpensive models; reserve premium models for tasks where quality demonstrably matters.
+- Keep retrieval, file indexing and eligible execution on the paired device where possible. This improves privacy and lowers cloud cost.
+- Use provider redundancy and version-pinned routing. DeepSeek economics are an advantage, not a dependency.
+
 ## Signature “holy shit” moments
 The core validation target is not a generic feature checklist. It is a set of memorable, word-of-mouth moments where a person discovers that their digital assistant can bridge their physical computer, current context and mobile life.
 
