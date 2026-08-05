@@ -1,7 +1,8 @@
 ---
 title: Personal assistant prototype start gate
-status: proposed
+status: ready-to-bootstrap
 created: 2026-08-05
+verified: 2026-08-05
 source: Sam discussion and reviewed research
 related:
   - briefs/2026-08-05-managed-agent-consumer-wedge
