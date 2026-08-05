@@ -78,6 +78,8 @@ The service will pay for cloud storage, but the core Ground Zero record is small
 
 Product storage tiers should distinguish a small included Context Core, explicitly synced/generated artifacts with a clear allowance, and optional larger paid vault storage. Connected desktop folders and third-party drives remain references or on-demand sources unless the user actively elects to copy them into the vault.
 
+The early operational cost target is realistic if product scope is disciplined. Excluding founder/team salaries, paid acquisition and unbounded premium media work, a lean 50-user alpha can plausibly run around $125–$650/month and 1,000 active routine-work users around $2,000–$5,500/month, based on a small fixed platform base plus roughly $0.50–$5 per alpha user and $1–$3 per scaled routine user. These are planning ranges, not vendor quotes: they must be replaced by live telemetry before final pricing. Video/music/image generation, SMS/telephony and premium-model work are separate cost centres and require explicit allowances or paid work packs.
+
 ## Signature “holy shit” moments
 The core validation target is not a generic feature checklist. It is a set of memorable, word-of-mouth moments where a person discovers that their digital assistant can bridge their physical computer, current context and mobile life.
 
