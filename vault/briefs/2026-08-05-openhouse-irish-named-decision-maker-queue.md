@@ -61,12 +61,15 @@ Sam
 ```text
 Hi Sean,
 
-I hope you are keeping well. You got in touch a few months ago and kindly suggested that we connect. I followed up by email at the time, but I know how easily messages get buried.
+I hope you are keeping well. We connected on LinkedIn a number of months ago and you kindly asked me to email you. I did at the time, but I know how easily things get lost when you are busy, so I thought I would come back to you properly.
 
-Since then, I have built OpenHouse, software that gives each completed home a property-specific record for its documents, systems, warranties and history. It is live internally across four developments and is designed to help developers improve handover, homeowner support and aftercare.
+Since then, I have been building OpenHouse. I am one of the people running Longview Estates, where it is now live across more than 150 homes in our 250-home Cork City scheme. It gives each home a digital handover and assistant with the documents, systems and energy context specific to that property. It helps homeowners get proper answers after completion, while giving the developer a clearer view of recurring issues and aftercare.
 
-I am now starting to take it beyond that initial rollout and, given your experience across property and technology, I would really value your honest view on the right route into the market. If you were open to a coffee or a short call sometime over the next few weeks, I would be very glad to catch up. If it is not a good time, no worries at all.
+I genuinely believe there is something important in it, but I am finding it very difficult to get in front of the right people in property development, even though the product is working. Given your experience of both building businesses and property development, I would be hugely grateful for any honest advice on how you think I should approach it.
 
+If you had time for a short call, or if I could buy you a coffee sometime, I would really appreciate it. I am not looking to sell you anything, I would just value the perspective of someone who has been much further down the road. No worries at all if the timing does not suit.
+
+Thanks a million for reading,
 Sam
 ```
 
