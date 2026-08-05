@@ -66,6 +66,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]] — four grounded Irish relationship and decision routes with send-ready copy
 - [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]] — copy-ready one-scheme commercial proposal
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — consumer-first managed-agent opportunity, MIT/upstream constraints and validation approach
+- [[briefs/2026-08-05-personal-assistant-research-charter]] — master evidence-led research prompt, research graph, source ledger and parallel deep-dive programme for the device-native personal assistant
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] - technical feasibility, trust architecture, economics, six-week alpha and success gates
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] - Irish mainstream-user research, three-minute magic, product design, trust and acquisition system
 - [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]] — YC 2026 Requests for Startups map, source caveats and founder-fit interpretation
