@@ -77,14 +77,17 @@ Sam
 ```text
 Hi Gavin,
 
-I hope you are keeping well. I wanted to get in touch properly as OpenHouse has reached the point where I need to test it with one external developer rather than keep building in isolation.
+I hope you are keeping well and keeping busy. It has been a while since we spoke.
 
-I work in residential development, and OpenHouse gives each completed home one clear record for its documents, systems, warranties and history. It helps homeowners get proper answers after completion, while giving the developer a clearer view of repeated questions and handover gaps. We have used it internally across four developments and captured 259 property-specific homeowner questions across 79 home contexts.
+I wanted to get in touch as I could really do with a bit of your advice, if you have the time.
 
-I know any introduction from you reflects on you, so I am not looking for a broad round of intros or vague advice. If there is one developer principal, Development Director or customer-care owner you think would be genuinely open to a 20 to 25-minute conversation about a small paid pilot on an active owner-occupier scheme, I would really appreciate an introduction.
+Over the last few months I have been building OpenHouse and trying to get it in front of developers. It is now live across more than 150 Longview homes and is working really well, but I have found it much harder than I expected to get meetings with other developers through emails, calls and LinkedIn.
 
-No pressure at all if nobody comes to mind or the timing is not right.
+I really believe in it and want to give it a proper go, but I am a bit stuck on the best route into the right people. Given your experience and the people you know in the sector, I would really value your thoughts on the best way to approach it, or any help you think you could give.
 
+If you had time for a coffee or quick call sometime, I would really appreciate it. No pressure at all if the timing does not suit.
+
+Thanks a million,
 Sam
 ```
 
