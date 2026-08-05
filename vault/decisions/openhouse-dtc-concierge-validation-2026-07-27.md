@@ -27,7 +27,7 @@ The three-home truth test validates activation mechanics, evidence quality and f
 
 This resolves the apparent free-first versus paid-first contradiction. Free-first governs the first ten-minute reveal. Paid-first still governs deeper concierge fulfilment and the commercial productisation gate.
 
-Developer commercial proof remains the primary weekly lane. Longview evidence packaging and the Bridgewater warm route must not be delayed by this bounded DTC research lane.
+Developer commercial proof remains the primary weekly lane. The current route is the corrected founder-sales reset across remaining credible Irish prospects and parallel UK/US outreach. The bounded DTC research lane must not delay that work. See [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]].
 
 ## Why
 

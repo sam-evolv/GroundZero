@@ -3,12 +3,14 @@ id: openhouse-founder-morning-action-brief-2026-08-04
 title: OpenHouse founder morning action brief (2026-08-04)
 date: 2026-08-04
 type: brief
-status: draft-for-sam
+status: superseded-by-2026-08-05-founder-correction
 scope: read-only synthesis, no app-code edits, no push/deploy/migrate
 critic: ornith-local:q5 (local, loopback-only, unloaded after use)
 ---
 
 # OpenHouse founder morning action brief (2026-08-04)
+
+> **Superseded on 5 August 2026.** Sam confirmed that Bridgewater said no and corrected the Irish market and January funding assumptions. Use [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]] as the active commercial brief. The remaining content below is preserved as historical evidence only.
 
 Bounded synthesis from the night audit, project state and company notes. Two named upstream briefs were absent this run, so only available evidence was used. See Evidence/proof gaps for the exact list.
 
@@ -22,7 +24,7 @@ Bounded synthesis from the night audit, project state and company notes. Two nam
 
 ## The one outcome that matters next
 
-Convert the Bridgewater warm route into one booked discovery call, backed by the ready proof pack, and make any pilot demo conditional on the public-bucket security fix landing first. External proof is the goal, but the demo cannot show real resident data until the bucket is private and pre-provisioned.
+The original Bridgewater action is superseded by Sam's 5 August confirmation that Bridgewater said no. Reuse the ready proof pack and any safe pilot material across the remaining Ireland/UK/US developer routes. External proof remains the goal, and no demo should show real resident data until the relevant security gates pass.
 
 ## Three ranked actions for Sam
 

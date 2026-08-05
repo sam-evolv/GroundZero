@@ -42,6 +42,10 @@ Leave earlier only if one of these becomes real and independently verified:
 
 Review only when a gate changes or once monthly. Do not relitigate resignation every difficult morning.
 
+## Founder-confirmed January gate, 2026-08-05
+
+Sam has confirmed that €100,000 in the relevant High Potential Start-Up funding plus an expected €10,000 January bonus, €110,000 in total, makes leaving the job in January commercially viable in his personal financial judgement. Treat this as the controlling founder-certified gate unless the figures change or Sam asks for a fresh runway analysis.
+
 ## Connected notes
 
 - [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]

@@ -2,7 +2,7 @@
 title: OpenHouse qualified Irish developer outreach queue
 company_id: openhouse-ai
 date: 2026-08-04
-status: research-complete-outreach-not-authorised
+status: corrected-founder-market-input
 source: official developer and scheme websites, plus existing Ground Zero network evidence
 scope: research only; no contact made
 ---
@@ -24,10 +24,10 @@ Do not lead with a portal replacement, autonomous AI, energy optimisation or the
 
 ### 1. Bridgewater Developments
 
-- Route: Carol Tallon's offered introduction.
-- Status: ready for Sam to accept.
-- Target role: residential delivery, customer care, handover or sales operations owner.
-- Why first: qualified Cork introduction with five publicly marketed schemes and no cold-start trust problem.
+- Route: Carol Tallon's introduction.
+- Status: closed-no, confirmed by Sam on 5 August 2026.
+- Historical fit: qualified Cork introduction with five publicly marketed schemes.
+- Rule: do not count this as active pipeline unless Bridgewater reopens the conversation.
 - Source note: [[items/oh-bridgewater-warm-introduction]].
 
 ### 2. Evara
@@ -42,18 +42,18 @@ Do not lead with a portal replacement, autonomous AI, energy optimisation or the
 
 - Current schemes: https://glenveagh.ie/developments
 - Buyer journey: https://glenveagh.ie/homebuyer-hub
-- Route: Sam's existing LinkedIn network.
-- Target role: Customer Experience, Customer Care or Handover leadership, not the CEO as the first ask.
-- Fit: large owner-occupier volume and an established digital homebuyer journey. Contract value is high, but the likely procurement cycle is longer.
+- Route status: Sam has tried multiple people without securing a meeting.
+- Target role if a genuinely new route emerges: Customer Experience, Customer Care or Handover leadership.
+- Fit: large owner-occupier volume and an established digital homebuyer journey.
+- Decision: do not keep recycling the same contacts. Reopen only through a materially different introduction or decision-maker route.
 
 ### 4. Cairn Homes
 
 - Current schemes: https://www.cairnhomes.com/new-homes/
 - Customer care: https://www.cairnhomes.com/customer-care/
-- Route: Sam's existing Cairn contacts.
-- Target role: Customer Experience, Customer Care or Digital/Product owner.
-- Fit: largest eventual contract potential and strong strategic relevance. This is not the fastest first pilot unless an internal champion exists.
-- Freshness note: the pages returned bot-protection responses to automated verification on 4 August. Use a normal browser before relying on exact current page content.
+- Status: closed-no from the current OpenHouse route.
+- Market significance: one of Ireland's largest developers and therefore a material loss from the immediately accessible market.
+- Rule: preserve the relationship history but do not count Cairn as active pipeline without a new internal sponsor.
 
 ### 5. Sean Gallagher reconnection
 
@@ -88,10 +88,9 @@ Do not lead with a portal replacement, autonomous AI, energy optimisation or the
 
 ### 4. O'Flynn Group
 
-- Current new homes: https://www.oflynngroup.com/new-homes
-- Contact: https://www.oflynngroup.com/contact
-- Target role: Residential Director, Sales Director or Customer Care owner.
-- Fit: Cork access, a long residential track record and the option to bound a trial to one release. Stakeholder ownership needs to be established early.
+- Status: remove from the active queue.
+- Reason: direct competitive dynamics with Longview and Sam's first-hand judgement that this is not a credible buyer relationship.
+- Rule: do not spend outreach time on this route unless the relationship changes materially.
 
 ### 5. Park Developments
 
@@ -150,13 +149,12 @@ These are research leads, not evidence that the companies lack internal handover
 
 ## Outreach sequence
 
-1. Carol/Bridgewater acceptance.
-2. Sean reconnection.
-3. One direct-network message each to the strongest relevant Evara and Glenveagh contacts.
-4. Wait for clean responses before moving into cold outreach.
-5. If the warm lane does not produce a conversation, open with Richmond, McGarrell Reilly and Lioncor, one at a time.
+1. Continue only the remaining credible Irish routes with real access or a plausible decision-maker.
+2. Make specific direct-network asks to Gavin, Sean Gallagher and other relevant contacts.
+3. Open UK and US prospecting in parallel around the same narrow handover and aftercare proposition.
+4. Use sufficient volume to create conversations, while tracking replies, meetings, proposals and rejection reasons.
 
-No deck in the first message. The first conversation is about their existing handover and aftercare process, repeated homeowner questions, evidence gaps and what happens after completion.
+No deck in the first message. The first conversation is about the developer's existing handover and aftercare process, repeated homeowner questions, evidence gaps and what happens after completion.
 
 ## Success condition
 

@@ -58,7 +58,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-06-30]] — June cross-company operating baseline
 - [[briefs/2026-08-04-graph-engineering-research-and-implementation]]: current graph-engineering evidence, implementation pattern and bounded Hermes pilot
 - [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]: evidence-backed overnight synthesis covering the private personal-intelligence system and OpenHouse readiness for Bridgewater
-- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]] — revenue-first founder-sales reset, Bridgewater priority and bounded Irish/UK outreach sequence
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]] — corrected founder-sales reset, concentrated Irish-market constraints and parallel Ireland/UK/US revenue push
 - [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]] — YC 2026 Requests for Startups map, source caveats and founder-fit interpretation
 - [[briefs/daily-agentic-value-radar-2026-07-21]] — current agentic capability and leverage review
 - [[briefs/daily-agentic-value-radar-2026-07-20]] — prior agentic capability and leverage review

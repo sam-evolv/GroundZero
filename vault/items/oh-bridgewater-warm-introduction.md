@@ -2,15 +2,19 @@
 id: oh-bridgewater-warm-introduction
 company_id: openhouse-ai
 title: Convert Carol Tallon’s Bridgewater Developments warm introduction
-state: meeting-preparation
-priority: high
-source: Sam voice journal, 2026-07-22
-verified: current public prospect research and introduction screenshot
-external_action: introduction-sent
-updated_at: "2026-08-04"
+state: closed-no
+priority: historical
+source: Sam voice journal, 2026-07-22; founder correction, 2026-08-05
+verified: current public prospect research, introduction screenshot and Sam's direct outcome confirmation
+external_action: route-closed
+updated_at: "2026-08-05"
 ---
 
 # Convert Carol Tallon’s Bridgewater Developments warm introduction
+
+## Outcome update, 5 August 2026
+
+Sam directly confirmed that Bridgewater said no. Treat this route as closed unless Bridgewater reopens it. Preserve the introduction and meeting preparation as relationship and sales-learning history, not as an active pipeline opportunity.
 
 ## Opportunity
 
