@@ -22,6 +22,17 @@ The product should let a person make ordinary requests such as reviewing what is
 - The appropriate upstream strategy is a pinned fork or adapter layer: track upstream releases, test each update in staging, then merge/cherry-pick deliberately. Do not auto-deploy every upstream update into customer environments.
 - Current Hermes Desktop includes a browser/preview reader; it lets the agent read rendered visible content in the active preview. It is an enabling capability, not a product moat.
 
+## Productisation decision
+The initial product goal is now explicit: take the capable existing Hermes runtime, the richer Ground Zero-style context model and high-quality routed models, then package them as a managed non-technical personal assistant. The company is not attempting to invent a new foundation model or replace every underlying component. Its job is to make the existing capability understandable, safe, paired with the user’s devices and genuinely usable by people who would never install Hermes, configure a provider, create a bot or manage an agent stack.
+
+This creates three deliberately separate layers:
+
+1. **Execution engine:** version-pinned Hermes plus carefully selected open-source/commercial models and specialist tools.
+2. **Personal operating layer:** consumer Personal Ground Zero, permissions, task state, approval/receipt history, device identity and invisible quality/cost routing.
+3. **Human product layer:** mobile-first interface, AirPods-style desktop pairing, plain language, guided discovery, rich progress, artefact delivery, support and recovery.
+
+The product should preserve and exploit Hermes’s breadth internally but reveal it progressively through a small number of legible outcomes. Do not reproduce Hermes’s setup experience, expose its technical concepts, deeply fork its core or promise unrestricted autonomy. The initial value is a well-packaged, approval-first operating assistant that lets a non-technical person benefit from the same underlying capability Sam has already experienced.
+
 ## Product architecture hypothesis
 1. Maintain a version-pinned Hermes core with minimal modification.
 2. Build a separate backend/control plane for accounts, subscriptions, workflow packs, permissions, audit logs and model routing.
