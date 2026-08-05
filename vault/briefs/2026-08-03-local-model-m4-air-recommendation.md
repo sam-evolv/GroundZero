@@ -38,7 +38,12 @@ The fanless Air and 16 GB unified memory make a quality 8B–9B quantized model 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-autonomous-eur100-experiment-charter]]
+- [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
+- [[context/agentic-value-creation-mission]]
+- [[people/sam-donworth]]
 - [[project_state/oh]]
+
 
 ## Recommendation
 

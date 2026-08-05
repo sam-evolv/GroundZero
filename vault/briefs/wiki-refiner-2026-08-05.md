@@ -1,21 +1,24 @@
 ---
-title: Wiki Refiner 2026-08-03
+title: Wiki Refiner 2026-08-05
 kind: wiki_refiner_brief
-date: "2026-08-03"
-ran_at: "2026-08-03T14:07:12+01:00"
+date: "2026-08-05"
+ran_at: "2026-08-05T02:15:42+01:00"
 ---
 
-# Wiki Refiner 2026-08-03
+# Wiki Refiner 2026-08-05
 
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
+
+## Auto-backlinks written
+- `SKILL.md` → `context/openhouse-openbook-design-system.md` (score 132)
 
 ## Sources reviewed
 - `imports/campaigns/openhouse-full-context.md` -> `companies/openhouse-ai.md`
   - Summary: A single place that holds the whole picture: what OpenHouse is, why it exists, what is built and proven today, what is coming, the market and regulatory ground it stands on, and... --- OpenHouse is an AI layer that sits over a new home and the development it belongs to. For the homeowner it is a brain in every house, trained on that home's own documents and sy... ---
-  - Related: [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]], [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]], [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
+  - Related: [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]], [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]], [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
 - `imports/campaigns/openhouse-innovation-strategy.md` -> `project_state/oh.md`
   - Summary: This is a forward-looking companion to [[openhouse-full-context]]. It identifies what's undersold, what's missing, and the highest-impact moves to make the strategy airtight. --- The "home contacting the homeowner" idea is buried in section 12 of the main doc. It deserves to be a first-class product pillar with its own name and framing. **Why it's the moat:**
-  - Related: [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]], [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]], [[briefs/openhouse-yc-narrative-rubric-2026-07-29]]
+  - Related: [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]], [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]], [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
 - `imports/cara-conversation-summary-2026-07-12.md` -> `project_state/cara.md`
   - Summary: Source received from Sam on 2026-07-12. Canonical cached source: `/Users/samdonworth/.hermes/cache/documents/doc_3a4bed503f5b_cara-conversation-summary.md` This import is intentionally provenance-only. Curated facts live in: - [[companies/cara]]
   - Related: [[project_state/cara]], [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]], [[briefs/cara-starter-product-spec]]
@@ -25,6 +28,9 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - `imports/claude/openhouse-company-memory.md` -> `companies/openhouse-ai.md`
   - Summary: Last updated: 27 June 2026. Maintained by Sam. The council reads this in full at the start of every run and treats it as current reality. Keep it short and current; prune anythi... A premium proptech SaaS platform for property developers: homeowner handover, aftercare, and sales pipeline management. Live homeowner and agent portals at portal.openhouseai.ie... 1. Stabilise the production database migration. Real Longview Estates data is now live across the four schemes; the backup tables are still waiting for one clean week before drop. 2. Triage the current open issues in sam-evolv/property-assistant: #195 raw markdown bold rendering, #194 tsconfig ignoreDeprecations mismatch, #130 chat-route refactor, #128 nu...
   - Related: [[companies/openhouse-ai]], [[project_state/oh]], [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]], [[briefs/openhouse-dtc-master-plan-2026-07-27]]
+- `imports/design-systems/openhouse-openbook/SKILL.md` -> `companies/openhouse-ai.md`
+  - Summary: Read the README.md file within this skill, and explore the other available files. Two products share one DNA: - **OpenHouse AI** — property-tech for residential developers. Light surfaces, warm gold accents, premium polish. - **OpenBook** — AI-first booking platform. Two surfaces: **Business dashboard** (Linear/Stripe/Vercel dark aesthetic, dense, keyboard-first) and **Consumer app** (iOS 26 liquid...
+  - Related: [[context/openhouse-openbook-design-system]], [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]], [[companies/openhouse-ai]], [[briefs/openhouse-fable-remarkable-site-prompt]]
 - `imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26.md` -> `briefs/openhouse-dtc-master-plan-2026-07-27.md`
   - Summary: Source tweet: https://x.com/gippp69/status/2070482723014078865?s=20 > THE OBSIDIAN GRAPH IS NOT A PRETTY NOTE MAP, IT IS A SELF-MAINTAINING AI WIKI THAT CAN TURN 120 SAVED SOURCES INTO 700 LINKED PAGES WHILE YOU ONLY KEEP ADDING NEW MATERIAL > > 00:11 the graph opens and the trick becomes obvious: every dot is a saved idea, every cluster is a topic, and every line is context the AI no longer has to rebuild from scratc...
   - Related: [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[briefs/sam-linkedin-signal-engine-stanley-teardown-2026-07-31]], [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]], [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]]
@@ -35,18 +41,21 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 ## Strongest connected notes
 - [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]] (457)
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]] (447)
+- [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]] (426)
 - [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]] (388)
 - [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]] (382)
 - [[briefs/sam-linkedin-signal-engine-stanley-teardown-2026-07-31]] (372)
-- [[briefs/openhouse-yc-narrative-rubric-2026-07-29]] (369)
-- [[briefs/openhouse-public-home-context-data-strategy-2026-07-28]] (181)
+- [[briefs/openhouse-yc-narrative-rubric-2026-07-29]] (200)
 - [[project_state/cara]] (46)
 - [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]] (40)
 - [[briefs/cara-starter-product-spec]] (38)
+- [[briefs/openhouse-public-home-context-data-strategy-2026-07-28]] (38)
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]] (240)
 - [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]] (222)
-- [[companies/openhouse-ai]] (243)
-- [[project_state/oh]] (162)
+- [[companies/openhouse-ai]] (245)
+- [[project_state/oh]] (168)
+- [[context/openhouse-openbook-design-system]] (132)
+- [[briefs/openhouse-fable-remarkable-site-prompt]] (77)
 - [[briefs/wiki-refiner-2026-08-01]] (66)
 - [[briefs/wiki-refiner-2026-06-26]] (16)
 - [[briefs/wiki-refiner-2026-06-27]] (16)
@@ -59,31 +68,6 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - Keep the raw source in `imports/` so provenance stays intact.
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
-
-
-## Notes that link here
-_Auto-generated: updated by wiki-refiner_
-- [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]]
-- [[briefs/cara-starter-product-spec]]
-- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
-- [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]]
-- [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
-- [[briefs/openhouse-public-home-context-data-strategy-2026-07-28]]
-- [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
-- [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
-- [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]]
-- [[briefs/openhouse-yc-narrative-rubric-2026-07-29]]
-- [[briefs/sam-linkedin-signal-engine-stanley-teardown-2026-07-31]]
-- [[briefs/wiki-refiner-2026-06-26]]
-- [[briefs/wiki-refiner-2026-06-27]]
-- [[briefs/wiki-refiner-2026-06-28]]
-- [[briefs/wiki-refiner-2026-06-29]]
-- [[briefs/wiki-refiner-2026-06-30]]
-- [[briefs/wiki-refiner-2026-08-01]]
-- [[companies/cara]]
-- [[companies/openhouse-ai]]
-- [[project_state/cara]]
-- [[project_state/oh]]
 
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.

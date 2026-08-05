@@ -176,6 +176,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-openhouse-product-truth-night-audit]]
 - [[briefs/wiki-refiner-2026-08-02]]
 - [[briefs/wiki-refiner-2026-08-03]]
+- [[briefs/wiki-refiner-2026-08-04]]
 - [[companies/openhouse-ai]]
 - [[goals/oh-aftercare-os]]
 - [[items/oh-rls-audit]]

@@ -661,6 +661,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-01]]
 - [[briefs/wiki-refiner-2026-08-02]]
 - [[briefs/wiki-refiner-2026-08-03]]
+- [[briefs/wiki-refiner-2026-08-04]]
 - [[companies/openhouse-ai]]
 - [[items/oh-bridgewater-warm-introduction]]
 - [[project_state/oh]]

@@ -221,5 +221,9 @@ Do not create a company, brand, landing page, content strategy or paid plan for 
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-autonomous-eur100-experiment-charter]]
 - [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-03-live-agentic-income-and-job-screen]]
+- [[context/agentic-value-creation-mission]]
+- [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]
 - [[items/agentic-income-evidence-sprint]]
+- [[people/sam-donworth]]
 

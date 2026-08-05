@@ -75,7 +75,10 @@ However, the public record did not expose an accepted-country list or otherwise 
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-bank-holiday-founder-reset]]
 - [[briefs/2026-08-03-unconventional-agent-income-research]]
+- [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]
 - [[items/agentic-income-evidence-sprint]]
+- [[people/sam-donworth]]
+
 
 ## Recommendation
 

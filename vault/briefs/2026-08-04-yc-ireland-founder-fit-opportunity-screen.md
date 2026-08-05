@@ -131,7 +131,12 @@ Ireland is not empty:
 
 The defensible wedge is therefore not “digital handover.” It is the homeowner-to-developer operating loop and the verified closure of post-handover obligations.
 
-### Recommendation
+#
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+
+## Recommendation
 
 Treat the YC findings as validation and product inspiration for OpenHouse. Do not form a second company around the same workflow.
 

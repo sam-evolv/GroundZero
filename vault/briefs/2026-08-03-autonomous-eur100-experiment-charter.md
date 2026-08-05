@@ -187,5 +187,10 @@ Real customer money also creates a liability tail after day seven. Refunds, char
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
 - [[briefs/2026-08-03-local-model-m4-air-recommendation]]
+- [[briefs/2026-08-03-unconventional-agent-income-research]]
+- [[context/agentic-value-creation-mission]]
+- [[items/agentic-income-evidence-sprint]]
+- [[people/sam-donworth]]
 

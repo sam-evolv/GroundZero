@@ -73,3 +73,9 @@ scope
 - [[companies/openhouse-ai]]
 - [[project_state/oh]]
 - [[items/_Index]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-graph-engineering-research-and-implementation]]
+- [[context/ops-automation-moc]]
+

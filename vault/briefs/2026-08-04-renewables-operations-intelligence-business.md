@@ -481,6 +481,11 @@ Stop or materially narrow the idea if:
 - the first five prospects want only low-frequency cleaning;
 - the opportunity conflicts with Sam’s employment, confidentiality or IP obligations.
 
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[project_state/renew]]
+
 ## Recommendation
 
 **Pursue validation, not build-out.**

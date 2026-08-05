@@ -143,6 +143,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/learn-targets]]
 - [[context/llm-wiki-pattern]]
 - [[context/model-pack]]
+- [[context/openhouse-openbook-design-system]]
 - [[context/openhouse-product-map]]
 - [[context/openhouse-sales-routes]]
 - [[context/ops-automation-moc]]

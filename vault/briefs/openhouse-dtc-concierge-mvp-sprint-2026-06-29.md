@@ -579,6 +579,7 @@ Investor line:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-openhouse-dtc-upgrade-ready-plan-validation]]
 - [[briefs/openhouse-dtc-acquisition-hooks-research-2026-06-29]]
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-dtc-energy-savings-guarantee-research-2026-06-29]]

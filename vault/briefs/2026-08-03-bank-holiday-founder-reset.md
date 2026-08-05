@@ -98,6 +98,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-live-agentic-income-and-job-screen]]
 - [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
 - [[briefs/2026-08-03-unconventional-agent-income-research]]
+- [[briefs/2026-08-04-tuesday-founder-regroup]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
 - [[briefs/substack-draft-2026-08-03-the-waiting-room]]
 - [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]

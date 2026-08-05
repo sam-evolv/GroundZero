@@ -63,6 +63,9 @@ If accepted, ask for the exact programme timetable, attendance requirement, reco
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-bank-holiday-founder-reset]]
 - [[briefs/2026-08-03-local-model-m4-air-recommendation]]
+- [[briefs/2026-08-04-openhouse-founder-morning-action-brief]]
+- [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]]
+- [[briefs/2026-08-04-tuesday-founder-regroup]]
 - [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[briefs/openhouse-ndrc-interview-final-card-2026-07-29]]

@@ -94,3 +94,10 @@ Parts of the voice transcription were unclear, including the exact weekend locat
 - [[briefs/2026-08-04-openhouse-dtc-upgrade-ready-plan-validation]]
 - [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]]
 - [[briefs/2026-08-04-openhouse-care-installer-paid-validation]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-openhouse-care-installer-paid-validation]]
+- [[briefs/2026-08-04-openhouse-dtc-upgrade-ready-plan-validation]]
+- [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]]
+

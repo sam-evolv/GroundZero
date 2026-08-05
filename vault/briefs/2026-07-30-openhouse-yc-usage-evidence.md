@@ -111,6 +111,8 @@ The evidence does not yet support saying:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-business-post-ai-leadership-awards-application]]
+- [[briefs/2026-08-04-openhouse-founder-morning-action-brief]]
 - [[briefs/2026-08-04-openhouse-product-truth-night-audit]]
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[briefs/openhouse-yc-fall-2026-first-principles-full-review-2026-07-30]]

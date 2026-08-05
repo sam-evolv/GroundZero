@@ -107,6 +107,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/index]]
 - [[context/learn-targets]]
 - [[context/llm-wiki-pattern]]
+- [[context/openhouse-openbook-design-system]]
 - [[context/review-workflow]]
 - [[context/scaling-playbook]]
 - [[context/solo-founder-era]]

@@ -123,6 +123,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-autonomous-eur100-experiment-charter]]
 - [[briefs/2026-08-03-local-model-m4-air-recommendation]]
 - [[briefs/2026-08-03-unconventional-agent-income-research]]
+- [[briefs/2026-08-04-graph-engineering-research-and-implementation]]
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/daily-agentic-value-radar-2026-07-15]]
 - [[briefs/daily-agentic-value-radar-2026-07-16]]
@@ -143,4 +144,5 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]
 - [[decisions/ai-founder-coach-operating-agreement-2026-07-14]]
 - [[items/agentic-income-evidence-sprint]]
+- [[items/ops-graph-engineering-pilot]]
 

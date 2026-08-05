@@ -138,3 +138,13 @@ For every future OpenHouse or OpenBook design job:
 - [[project_state/ob]]
 - [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
 - [[briefs/openhouse-fable-creative-direction-prompt]]
+
+- [[imports/design-systems/openhouse-openbook/SKILL]] — shared signals: openhouse, openbook, design
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
+- [[context/index]]
+- [[context/model-pack]]
+

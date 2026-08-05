@@ -53,11 +53,13 @@ Very timely. Best-in-class SaaS onboarding is increasingly AI-assisted and short
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
 - [[briefs/2026-07-24-openhouse-market-readiness-audit]]
+- [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]]
 - [[companies/openhouse-ai]]
 - [[context/dashboard]]
 - [[context/openhouse-product-map]]
 - [[goals/oh-activation]]
 - [[goals/oh-aftercare-os]]
+- [[items/oh-bridgewater-rapid-onboarding]]
 - [[items/oh-handover-readiness-scan]]
 - [[items/oh-onboarding-packet-automation]]
 - [[items/oh-scheme-launch-scorecard]]

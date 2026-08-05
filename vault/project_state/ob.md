@@ -48,6 +48,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/ground-zero-structure]]
 - [[context/index]]
 - [[context/model-pack]]
+- [[context/openhouse-openbook-design-system]]
 - [[context/ops-automation-moc]]
 - [[context/review-workflow]]
 - [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]

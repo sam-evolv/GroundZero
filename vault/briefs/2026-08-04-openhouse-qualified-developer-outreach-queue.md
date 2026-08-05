@@ -176,3 +176,10 @@ Within 30 days:
 - [[items/oh-sean-gallagher-reconnection]]
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[context/openhouse-sales-routes]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-openhouse-care-installer-paid-validation]]
+- [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[project_state/oh]]
+

@@ -59,3 +59,9 @@ Run one end-to-end dry run in an isolated preview or approved non-production env
 - [[goals/oh-aftercare-os]]: product direction.
 - [[companies/openhouse-ai]]: company context.
 - [[project_state/oh]]: live operating state.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[items/oh-bridgewater-warm-introduction]]
+- [[project_state/oh]]
+

@@ -411,3 +411,13 @@ Send a short recap within 24 hours. It should contain:
 - [[items/oh-bridgewater-warm-introduction]]
 - [[companies/openhouse-ai]]
 - [[project_state/oh]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-bridgewater-meeting-card]]
+- [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]]
+- [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
+- [[items/oh-bridgewater-rapid-onboarding]]
+- [[items/oh-bridgewater-warm-introduction]]
+- [[project_state/oh]]
+

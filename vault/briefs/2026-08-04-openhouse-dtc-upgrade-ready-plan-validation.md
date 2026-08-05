@@ -152,3 +152,9 @@ Even then, an annual manual pilot precedes subscription infrastructure. Twelve-m
 - [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]
 - [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]
 - [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[project_state/oh]]
+

@@ -70,7 +70,21 @@ The repo carries a large V2 assistant surface gated by runtime feature flags tha
 - **Avoid:** letting My Home V2 or Agent-portal breadth hitchhike into the first developer pilot; asserting production flag/feature state without a scoped Vercel check; treating the static-DDL "injection" hypothesis as a real vulnerability (rejected on inspection).
 
 ## Notes that link here
-_Auto-generated section is managed by wiki-refiner; this audit does not modify existing notes._
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openhouse-market-readiness-audit]]
+- [[briefs/2026-07-30-openhouse-yc-usage-evidence]]
+- [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]]
+- [[briefs/2026-08-03-current-live-boundary-and-v2-handoff]]
+- [[briefs/2026-08-04-bridgewater-meeting-preparation]]
+- [[briefs/2026-08-04-business-post-ai-leadership-awards-application]]
+- [[briefs/2026-08-04-openhouse-founder-morning-action-brief]]
+- [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
+- [[companies/openhouse-ai]]
+- [[context/openhouse-product-map]]
+- [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]
+- [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]
+- [[project_state/oh]]
+
 
 ## Connected vault notes
 - [[companies/openhouse-ai]] — parent company facts and priorities

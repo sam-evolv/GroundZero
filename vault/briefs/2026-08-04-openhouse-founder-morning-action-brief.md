@@ -92,3 +92,9 @@ The critic argued the public-bucket fix (Gap 2) is the pre-pilot gate, not a pre
 - [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]: DTC activation contract
 - [[briefs/2026-07-24-openhouse-market-readiness-audit]]: P0 readiness gaps
 - [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]: 30-day commercial-proof sprint
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-openhouse-care-installer-paid-validation]]
+- [[briefs/2026-08-04-tuesday-founder-regroup]]
+

@@ -59,6 +59,7 @@ The product opportunity is not more UI. It is a property-linked AI layer that ca
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]]
+- [[briefs/2026-08-04-openhouse-care-installer-paid-validation]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[companies/openhouse-ai]]
 - [[context/consulting-wedges]]
@@ -68,6 +69,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/oh-guardrails-active]]
 - [[goals/oh-room-inference]]
 - [[goals/oh-v2-launch]]
+- [[items/oh-bridgewater-rapid-onboarding]]
 - [[items/oh-guardrails-eval]]
 - [[items/oh-handover-readiness-scan]]
 - [[items/oh-onboarding-cut]]

@@ -282,3 +282,12 @@ Before a real cohort:
 - [[items/oh-onboarding-cut]]: broader self-service redesign.
 - [[companies/openhouse-ai]]: product and company context.
 - [[project_state/oh]]: live operating state.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-bridgewater-meeting-card]]
+- [[briefs/2026-08-04-business-post-ai-leadership-awards-application]]
+- [[items/oh-bridgewater-rapid-onboarding]]
+- [[items/oh-bridgewater-warm-introduction]]
+- [[project_state/oh]]
+

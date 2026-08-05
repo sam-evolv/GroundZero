@@ -53,6 +53,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/oh-funder-pitch]]
 - [[goals/oh-room-inference]]
 - [[goals/oh-v2-launch]]
+- [[items/oh-bridgewater-rapid-onboarding]]
 - [[items/oh-handover-readiness-scan]]
 - [[items/oh-onboarding-cut]]
 - [[items/oh-onboarding-packet-automation]]

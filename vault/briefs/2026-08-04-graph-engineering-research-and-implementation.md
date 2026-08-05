@@ -213,7 +213,14 @@ A node that accepts the whole state and returns unstructured prose is not engine
 
 ## Framework choice
 
-### Recommendation: use Hermes Kanban and small scripts first
+#
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+- [[context/ops-automation-moc]]
+- [[items/ops-graph-engineering-pilot]]
+
+## Recommendation: use Hermes Kanban and small scripts first
 
 This fits the existing operating system, preserves Sam’s approval boundaries and avoids adding a second orchestrator. Prove the graph on three real internal runs before introducing a runtime library.
 

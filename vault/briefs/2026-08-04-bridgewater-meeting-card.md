@@ -102,3 +102,10 @@ Do not leave without the next owner, scheme and date.
 ## Full brief
 
 See [[briefs/2026-08-04-bridgewater-meeting-preparation]].
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-bridgewater-meeting-preparation]]
+- [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]]
+- [[items/oh-bridgewater-warm-introduction]]
+
