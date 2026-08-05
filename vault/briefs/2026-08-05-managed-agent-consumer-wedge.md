@@ -29,6 +29,17 @@ The product should let a person make ordinary requests such as reviewing what is
 4. Use explicit per-connector consent, least-privilege scopes, confirmation gates, activity/audit history, export/delete controls and clear recovery paths.
 5. Treat security and privacy as product architecture from day one. Consumer data protection is not a lower bar than business data protection; the practical difference is enterprise procurement rather than the underlying duty of care.
 
+## Signature “holy shit” moments
+The core validation target is not a generic feature checklist. It is a set of memorable, word-of-mouth moments where a person discovers that their digital assistant can bridge their physical computer, current context and mobile life.
+
+- **Your computer on the move:** while away from their desk, a person texts their assistant for a document on their paired computer. The assistant finds the authorised file, resolves ambiguity only if needed, and delivers it back into the same conversation.
+- **One request to finished asset:** a person asks for a video, presentation, research pack or other deliverable. The assistant navigates the relevant product or web context, produces the work, and returns the completed artifact through the channel where the request started.
+- **Look at this and take the next step:** a person gives the assistant a live browser page, email, document or spreadsheet. It understands the specific situation, prepares the useful next action and visibly holds consequential actions for approval.
+
+The OpenHouse YC video creation and Telegram delivery is a founder-observed proof of the second moment: the value is not an impressive tool call but a real finished artifact arriving where the user already is.
+
+Achieving the first moment requires a deliberately designed paired-device relay, explicit folder authorisation, searchable local context, encrypted transport, visible activity history and offline/permission failure handling. These are product requirements, not a reason to dilute the promise.
+
 ## Relationship to Cara
 This may be the broader product truth inside Cara rather than an unrelated new idea: a person should be able to speak, text, browse and receive completed work from one persistent digital assistant. Cara’s earlier Irish-SME phone-number wedge remains distinct, and Cara is currently deprioritised; this does not reactivate that build. The managed-agent opportunity should be evaluated as a broader, consumer/prosumer-first reframe that could later use voice and messaging as natural surfaces.
 
