@@ -42,6 +42,13 @@ Recommended commercial shape:
 - Keep retrieval, file indexing and eligible execution on the paired device where possible. This improves privacy and lowers cloud cost.
 - Use provider redundancy and version-pinned routing. DeepSeek economics are an advantage, not a dependency.
 
+## Invisible model routing principle
+Users should not be asked to choose or understand models. The platform owns model selection as an internal quality-and-cost decision, while its public interface speaks only in outcomes, timing and approval.
+
+A routing layer should assess more than prompt length: freshness needs, task complexity, ambiguity, required tool use, consequence of error, privacy constraints, requested artifact quality and expected cost. It should then decompose substantial work and route individual steps rather than sending an entire request to one expensive model. A low-cost model can classify, retrieve, outline and prepare a first pass; a premium model is reserved for the parts where deeper reasoning, polished creative output or high-stakes quality genuinely matter. A cheap evaluator or explicit quality gate should escalate a weak first pass automatically rather than making the user select a model.
+
+The interface should never expose provider names as a task choice. It may appropriately say “I found a quick answer”, “I’m preparing this”, “this needs a little longer” or ask permission before a premium work-pack task. Provider/data disclosures belong in transparent account and privacy settings, not in the normal interaction flow.
+
 ## Signature “holy shit” moments
 The core validation target is not a generic feature checklist. It is a set of memorable, word-of-mouth moments where a person discovers that their digital assistant can bridge their physical computer, current context and mobile life.
 
