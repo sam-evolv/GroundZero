@@ -60,6 +60,8 @@ The memory architecture should separate:
 
 The user experience must make the system trustworthy: “I remember you said this yesterday” should be traceable to a source; corrections should update the current belief and preserve history where needed; “forget this” should actually remove it; personal, work and shared spaces must remain deliberately separated. The assistant’s standard should be: never re-ask for information it already has, but never state uncertain or stale memory as fact.
 
+The underlying model memory must be closer to Ground Zero than a generic chat-memory feature. Hermes provides relevant primitives: built-in cross-session `MEMORY.md`/`USER.md`, searchable session history, reusable skills, profiles and pluggable external memory providers. The consumer product should build a coherent personal-context layer above those primitives rather than merely exposing a model’s memory summary.
+
 A simple inspectable “Your context” surface can show what it knows, why it knows it, what is due to expire and what it is currently using. The main interface stays conversational. The underlying Ground Zero becomes both the long-term usefulness moat and an efficiency mechanism: strong retrieval and compact context reduce repeated explanations and avoid sending an entire life history to a model on every turn.
 
 ## Signature “holy shit” moments
