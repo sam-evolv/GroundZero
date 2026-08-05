@@ -64,6 +64,16 @@ The underlying model memory must be closer to Ground Zero than a generic chat-me
 
 A simple inspectable “Your context” surface can show what it knows, why it knows it, what is due to expire and what it is currently using. The main interface stays conversational. The underlying Ground Zero becomes both the long-term usefulness moat and an efficiency mechanism: strong retrieval and compact context reduce repeated explanations and avoid sending an entire life history to a model on every turn.
 
+## Data-placement principle: hybrid, user-owned and explicit
+The product should not force a false choice between a device-only assistant and a cloud-only one. The default architecture is hybrid:
+
+- **Paired devices keep local authority:** a desktop companion holds the authorised folder map, local file index and access to local applications. Raw files remain where the user put them unless they explicitly choose to sync or share one. This enables the “send me the document from my computer” moment without bulk-uploading a hard drive.
+- **An encrypted cloud continuity layer holds the personal Ground Zero record:** durable facts, project/task state, memory provenance pointers, approvals, audit history and explicitly synced artifacts can remain available when a desktop is asleep. It provides cross-device continuity, backup and messaging delivery.
+- **The agent receives only a task-relevant slice:** no request should transmit a user’s entire history or file estate to a model provider. Retrieval selects the minimum relevant context; sensitive source material can remain local or require an explicit handoff.
+- **Execution is routed by data location:** a remote request for a local document is dispatched to the paired machine; cloud-native tasks run in cloud; an unavailable device produces a clear status rather than a false claim.
+
+Strict end-to-end encryption has a real trade-off: a cloud agent cannot read data that only a sleeping user device can decrypt. Do not make an unqualified E2EE promise before deciding which offline/background capabilities remain possible. The product should instead expose clear controls, such as local-only material, cloud-assisted personal context and explicitly shared workspaces, with export/delete and per-connector revocation. Business/shared spaces should be separate tenants and permission domains, never an accidental extension of a personal memory.
+
 ## Signature “holy shit” moments
 The core validation target is not a generic feature checklist. It is a set of memorable, word-of-mouth moments where a person discovers that their digital assistant can bridge their physical computer, current context and mobile life.
 
