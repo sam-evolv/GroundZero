@@ -49,6 +49,19 @@ A routing layer should assess more than prompt length: freshness needs, task com
 
 The interface should never expose provider names as a task choice. It may appropriately say “I found a quick answer”, “I’m preparing this”, “this needs a little longer” or ask permission before a premium work-pack task. Provider/data disclosures belong in transparent account and privacy settings, not in the normal interaction flow.
 
+## Personal Ground Zero principle
+A consumer assistant needs a user-owned Ground Zero: an invisible but inspectable personal operating memory that prevents repetitive questioning without pretending every past message is permanent truth. The product is not an Obsidian vault exposed to ordinary people; it is a reliable contextual layer that quietly remembers what matters, retrieves it at the right moment and lets the person see, correct or delete it.
+
+The memory architecture should separate:
+- **Raw provenance:** original messages, uploaded files, emails, browser artifacts and task outputs, retained only under the user’s chosen policy.
+- **Durable context:** preferences, people, projects, recurring workflows, decisions and stable facts, each with source, confidence and last-confirmed time.
+- **Live state:** active tasks, commitments, current documents and temporary logistics that should expire or be reviewed rather than become permanent memory.
+- **Retrieval capsules:** compact, task-relevant memory injected just in time, rather than loading an entire personal history into every request.
+
+The user experience must make the system trustworthy: “I remember you said this yesterday” should be traceable to a source; corrections should update the current belief and preserve history where needed; “forget this” should actually remove it; personal, work and shared spaces must remain deliberately separated. The assistant’s standard should be: never re-ask for information it already has, but never state uncertain or stale memory as fact.
+
+A simple inspectable “Your context” surface can show what it knows, why it knows it, what is due to expire and what it is currently using. The main interface stays conversational. The underlying Ground Zero becomes both the long-term usefulness moat and an efficiency mechanism: strong retrieval and compact context reduce repeated explanations and avoid sending an entire life history to a model on every turn.
+
 ## Signature “holy shit” moments
 The core validation target is not a generic feature checklist. It is a set of memorable, word-of-mouth moments where a person discovers that their digital assistant can bridge their physical computer, current context and mobile life.
 
