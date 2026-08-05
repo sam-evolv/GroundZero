@@ -68,6 +68,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — consumer-first managed-agent opportunity, MIT/upstream constraints and validation approach
 - [[briefs/2026-08-05-personal-assistant-research-charter]] — master evidence-led research prompt, research graph, source ledger and parallel deep-dive programme for the device-native personal assistant
 - [[briefs/2026-08-05-personal-assistant-research-first-return-audit]] — review of first external research return, accepted insights and claims requiring verification
+- [[briefs/2026-08-05-personal-assistant-research-claude]] — Claude workstream 1 on platform/channel/pairing, source-led and retained pending synthesis
 - [[briefs/2026-08-05-personal-assistant-research-gemini]] — partial Gemini executive-verdict extract, retained with explicit source and validation boundaries
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] - technical feasibility, trust architecture, economics, six-week alpha and success gates
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] - Irish mainstream-user research, three-minute magic, product design, trust and acquisition system
