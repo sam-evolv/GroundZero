@@ -3,10 +3,10 @@ id: oh-uk-aftercare-design-partner-sprint
 title: Validate the UK new-build aftercare wedge with five design partners
 company_id: openhouse-ai
 domain: growth
-state: proposed
+state: active-commercial-validation
 effort: S
 impact: 84
-priority: P2
+priority: P0
 is_one_thing: true
 source: ground-zero-incubation 2026-07-22
 created_at: "2026-07-22"
@@ -28,7 +28,7 @@ Source: [UK Government, Housing supply: net additional dwellings, England: 2024 
 
 1. Define one workflow around post-completion complaints: structured intake, photo and document evidence, response chronology, owner, deadline and exportable case pack.
 2. Prepare a non-product sample using anonymised OpenHouse-style evidence and the New Homes Quality Code structure.
-3. Secure five conversations through warm channel, accelerator, investor or industry introductions. Do not default to broad cold outreach.
+3. Secure five conversations through targeted direct outreach, warm channels, accelerators, investors or industry introductions. Cold outreach is valid when the buyer, active scheme and opening hook are specifically researched.
 4. Interview at least two housebuilders or housing associations and two warranty, aftercare or resident-experience operators.
 5. Ask for a paid diagnostic, a data-backed pilot commitment or an introduction to the budget owner.
 6. Record current handling time, complaint volume, evidence gaps, escalation cost, incumbent tools, procurement constraints and willingness to pay.
@@ -45,7 +45,7 @@ Reuse the existing OpenHouse issue and evidence model rather than create a separ
 - Clixifix, Spaciable and incumbent CRM or defect tools may already satisfy the buyer's minimum need.
 - UK procurement and data-processing requirements can make a small pilot slow even when pain is real.
 - An Ombudsman-ready claim could overstate legal or procedural completeness. Position the output as evidence support unless independently reviewed.
-- Warm introductions may not be available. The current decision rejects local daytime cold outreach as a default cash route, so this item must remain incubated until a compatible channel appears.
+- Targeted direct outreach may still be ignored. Use a real operating owner, one active-scheme hook and a precise 25-minute workflow ask rather than waiting indefinitely for a warm route.
 - OpenHouse production migration and the six-week WIP limit take precedence.
 
 ## Effort
@@ -66,7 +66,7 @@ Sources checked 22 July 2026:
 
 Promote to a bounded commercial validation project only if:
 
-- a compatible warm or channel-led route produces five qualified conversations;
+- targeted direct or channel-led outreach produces five qualified conversations;
 - at least three buyers confirm the same costly evidence or complaint-handling failure;
 - one buyer offers payment, data access or a signed pilot commitment;
 - the workflow can be piloted without a separate UK codebase;
@@ -90,7 +90,7 @@ _Auto-generated: updated by wiki-refiner_
 
 ## Recommendation
 
-Mature enough as a project specification, but not for immediate activation. Keep it as the prepared UK proof loop. Activate only when the current cash-authority cycle permits it and a warm channel or inbound design partner exists.
+Activated on 5 August 2026 as the primary non-Irish commercial validation lane. Research and outreach preparation may proceed immediately. Do not build UK-specific product features until interviews or a paid commitment identify a requirement.
 
 ## Connected vault notes
 
