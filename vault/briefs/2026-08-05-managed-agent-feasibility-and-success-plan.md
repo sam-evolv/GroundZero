@@ -24,6 +24,10 @@ The wrong product is:
 
 A thin wrapper would be easy to copy and would inherit Hermes's complexity, security posture and support burden without creating a defensible customer experience. A successful product needs its own opinionated permission model, task experience, workflow library, local companion, quality routing, audit trail and support operation.
 
+## Founder direction update: mobile-first product bar
+
+The original narrow alpha recommendation remains correct, but the customer-facing entry point has now been clarified: iOS and Android apps are required as the primary consumer experience, not an afterthought after a messaging proof. The alpha may constrain desktop support to macOS, but it must use a simple mobile app flow with app-native conversation, sharing, progress and push rather than exposing Telegram, bots or technical messaging setup. Full Windows/Linux companion parity remains deferred until the macOS/mobile cross-device loop demonstrates retained paid use.
+
 ## Strategic recommendation
 
 Run a six-week concierge alpha for 15 to 25 invited macOS prosumers before building a broad platform.
@@ -387,8 +391,7 @@ These thresholds are proposed decision gates, not external benchmarks.
 - dozens of connectors;
 - autonomous email or purchasing;
 - enterprise administration;
-- mobile app before messaging proves the mobile control loop;
-- Windows and Linux parity before the macOS alpha retains users;
+- Windows and Linux desktop-companion parity before the macOS alpha retains users;
 - voice until text and cross-device task state are reliable.
 
 ## Founder fit and conflict with current priorities
