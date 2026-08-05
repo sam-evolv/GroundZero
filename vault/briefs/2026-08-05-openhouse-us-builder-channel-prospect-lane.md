@@ -10,7 +10,24 @@ company_id: openhouse-ai
 
 ## Use
 
-The US lane is discovery, not a product-localisation project. Builders rank above channels because one paid builder pilot is the goal. Adjacent technology companies are partnership hypotheses and may be competitors.
+The US lane is discovery, not a product-localisation project. Builders rank above channels when access is equal because one paid builder pilot is the goal. A credible channel can rank higher when it offers direct introductions to multiple suitable regional builders. Adjacent technology companies are partnership hypotheses and may be competitors.
+
+## Commercial priority order
+
+1. Garman Homes.
+2. Housing Innovation Alliance.
+3. Schell Brothers.
+4. Builder Partnerships.
+5. New Tradition Homes.
+6. Estridge Homes.
+7. Thrive Home Builders.
+8. Builder Innovator and AE Ventures.
+9. Veridian Homes.
+10. NoviHome.
+11. Tilson Homes.
+12. Moderne Ventures Passport.
+
+This ordering reflects decision-maker visibility, strength of the existing aftercare workflow and the probability of reaching a suitable builder. It is not a claim that every channel is a buyer.
 
 ## Builder targets
 
@@ -30,7 +47,7 @@ The US lane is discovery, not a product-localisation project. Builders rank abov
 
 - Geography: Colorado regional builder.
 - Why now: Thrive publicly emphasises efficient, healthy homes, making homeowner understanding of systems and operation strategically important.
-- Target role: Warranty, Customer Experience, Quality or Operations leader.
+- Verified senior sponsor: Gene Myers, founder, Chairman and Chief Sustainability Officer. No named customer-service executive was verified.
 - Pilot angle: exact-home systems and warranty record for one community, including guidance grounded in the home's own equipment and documents.
 - Likely objection: current orientations and energy-efficiency materials already educate buyers.
 - Opening hook: “Thrive sells the performance of the home, but that value depends on the homeowner understanding the systems after closing. OpenHouse would test that exact gap on one community.”
@@ -42,7 +59,7 @@ The US lane is discovery, not a product-localisation project. Builders rank abov
 
 - Geography: regional builder with communities in Delaware and surrounding markets.
 - Why now: Schell publishes a home-specific guide at orientation, a continuing homeowner journey and a warranty-service team.
-- Target role: Warranty Service or Customer Experience leader.
+- Verified operating owners: Dan Matta, Director of Quality Assurance and Customer Care; Dustin Berlinger, Chief Operations Officer; Lance Manlove, Director of Innovation.
 - Pilot angle: convert the home-specific guide into a living record, then measure what homeowners still ask and what requires human warranty intervention.
 - Likely objection: Schell's guide and current warranty service already solve the need.
 - Opening hook: “You already give each customer a home-specific guide. OpenHouse would make it usable as a living exact-home record and show your warranty team what customers still cannot resolve from it.”
@@ -66,7 +83,7 @@ The US lane is discovery, not a product-localisation project. Builders rank abov
 
 - Geography: Texas build-on-your-land homebuilder.
 - Why now: each home and site has high information variability, which strengthens the exact-home record problem.
-- Verified operating owner: Christy Reyes, VP of Customer Care, via her public LinkedIn profile.
+- Public-profile lead requiring a same-day recheck before contact: Christy Reyes, listed on LinkedIn as VP of Customer Care. Tilson's official pages did not expose a current named warranty leader during verification.
 - Pilot angle: a controlled cohort of recent completions, home-specific documents and systems, with unsupported matters routed into the current process.
 - Opening hook: “Your build-on-your-land model makes the generic home binder especially weak because every site and specification differs. OpenHouse is designed around the exact home rather than the standard plan.”
 - Sources:
@@ -78,7 +95,7 @@ The US lane is discovery, not a product-localisation project. Builders rank abov
 
 - Geography: Pacific Northwest regional builder.
 - Why now: current communities and an owned homeowner relationship provide a bounded discovery route.
-- Target role: Warranty, Customer Experience or Operations leader.
+- Verified operating owner: Kelly Helmes, Vice President. His official biography covers field operations, warranty, purchasing, marketing and design. Chris Helmes, President, is the founder-level sponsor.
 - Pilot angle: one community, one validated home and a 20-to-50-home record and guidance cohort.
 - Opening hook: “I want to understand what happens between orientation, homeowner questions and warranty intake in one current community, and whether the exact-home record removes a measurable information gap.”
 - Sources:
@@ -89,7 +106,7 @@ The US lane is discovery, not a product-localisation project. Builders rank abov
 
 - Geography: Indianapolis regional builder.
 - Why now: regional scale and active communities create a realistic founder-to-operator pilot path.
-- Target role: Homeowner Experience, Warranty or Operations leader.
+- Verified operating owner: Madeline McHugh, Sales and Customer Experience Manager. Clint Mitchell, Owner and CEO, and Rob McGraw, Owner and COO, are senior sponsors.
 - Pilot angle: one community and a small controlled cohort alongside existing warranty operations.
 - Opening hook: “Estridge is large enough to have repeated homeowner and warranty patterns, but still regional enough for one operating owner to test a controlled community pilot.”
 - Sources:
@@ -109,21 +126,28 @@ The US lane is discovery, not a product-localisation project. Builders rank abov
 
 ### 9. Housing Innovation Alliance
 
-- Why it fits: builder and innovation network with partner directories and an operator community.
-- Ask: identify regional builders actively improving homeowner handoff, warranty or post-close experience.
+- Verified owner: Dennis Steigerwalt, President.
+- Verified reach: the Alliance states that its network includes more than 4,000 people from more than 2,000 companies across builders, developers, technology providers, consultants and manufacturers.
+- Why it fits: customer experience, digital transformation, quality and risk management are explicit themes, with a direct builder network.
+- Ask: one or two regional-builder introductions for a defined post-close workflow pilot. Do not imply that the Alliance endorses OpenHouse.
+- Risk: introductions may require membership, sponsorship or existing US traction.
 - Sources:
-  - https://housinginnovationalliance.com/
-  - https://housinginnovationalliance.com/connect/
+  - https://housinginnovationalliance.com/dig-in/network-directories/alliance-team/
+  - https://housinginnovationalliance.com/network/about/
+  - https://housinginnovationalliance.com/dig-in/network-directories/member-companies-directory/
+  - https://housinginnovationalliance.com/network/join/join/
 
-### 10. Avid Ratings
+### 10. Builder Partnerships
 
-- Classification: adjacent incumbent and possible partnership route, not a normal sales target.
-- Why it fits: homebuilder customer-experience, warranty and home-management products provide direct builder distribution.
-- Risk: substantial product overlap may make Avid a competitor rather than a partner.
-- Ask: explore whether OpenHouse's deeper exact-home record and grounded-answer layer fills a missing component. Do not disclose sensitive product details without a clear partnership rationale.
+- Verified owners: Terry Nickels, Chief Operations Officer; Brian Wildermuth, Senior Vice President of Sales and Marketing.
+- Why it fits: Builder Partnerships focuses on private mid-tier homebuilders and explicitly offers service providers personal introductions, hosted webinars, events and targeted marketing.
+- Ask: determine the cost and evidence threshold for the service-provider route, then request introductions only if the economics are justified.
+- Risk: access is likely paid and may require proof that OpenHouse can reliably support US builders. Do not spend without Sam's approval.
 - Sources:
-  - https://www.avidratings.com/
-  - https://www.avidratings.com/contact-us
+  - https://builderpartnerships.com/about-us.php
+  - https://builderpartnerships.com/builders.php
+  - https://builderpartnerships.com/service-providers.php
+  - https://builderpartnerships.com/contact-us.php
 
 ### 11. NoviHome
 
@@ -135,19 +159,20 @@ The US lane is discovery, not a product-localisation project. Builders rank abov
   - https://www.novihome.com/
   - https://www.novihome.com/contact
 
-### 12. MetaProp
+### 12. Moderne Ventures Passport
 
-- Classification: proptech network and accelerator channel.
-- Why it fits: potential introductions, US market learning and later funding support.
-- Risk: not a substitute for a buyer conversation, and OpenHouse may be too early or insufficiently US-proven for a programme.
-- Ask: one relevant builder or post-close technology introduction around a defined pilot, not a generic investment pitch.
+- Verified owner: Nicole Weldon, Director of Partnerships and Passport. Constance Freedman is founder and Managing Partner.
+- Why it fits: Passport is designed to create customer introductions, pilots, pipeline and revenue through a substantial real-estate executive network.
+- Risk: published selection criteria reference companies with roughly $1 million to $100 million-plus in revenue, so OpenHouse is probably too early for standard admission today.
+- Ask: a targeted builder introduction or advice on the milestone required for Passport, not a generic investment pitch.
 - Sources:
-  - https://www.metaprop.com/
-  - https://www.metaprop.com/contact
+  - https://www.moderneventures.com/team
+  - https://www.moderneventures.com/passport
+  - https://www.moderneventures.com/contact
 
 ## First batch
 
-Prepare personalised messages for Garman, Thrive, Schell, Veridian and Tilson. Prepare a separate introduction request for Builder Innovator and Housing Innovation Alliance. No outreach is authorised until Sam approves the recipients and copy.
+Prepare personalised messages for Garman, Housing Innovation Alliance, Schell Brothers, Builder Partnerships, New Tradition Homes, Estridge Homes and Thrive Home Builders. Keep the Tilson draft as a second-wave message until the public-profile contact is rechecked. No outreach is authorised until Sam approves the recipients and copy.
 
 ## Connected vault notes
 

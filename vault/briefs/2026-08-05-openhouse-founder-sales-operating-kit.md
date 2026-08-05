@@ -2,7 +2,7 @@
 title: OpenHouse founder-sales operating kit
 purpose: Convert the Ireland, UK and US prospect lanes into conversations, proposals and one paid external pilot
 source: Sam founder-sales reset, existing OpenHouse proof and pricing hypotheses
-status: active-draft-awaiting-target-research
+status: active-ready-for-founder-approval
 company_id: openhouse-ai
 date: 2026-08-05
 tags:
@@ -109,6 +109,18 @@ The system must create enough conversations to learn without requiring Sam to sp
 - keep the buyer and offer specific even as volume rises.
 
 The first 80 qualified contacts form the initial evidence set. Do not change the product after five ignored messages.
+
+### Directional funnel model
+
+Use this to diagnose the system, not as a forecast or guarantee:
+
+- 100 target accounts over eight weeks;
+- 60 meaningfully reached;
+- nine positive replies at a 15% positive reply rate;
+- five qualified conversations at roughly a 60% reply-to-call rate;
+- one paid pilot at a 20% qualified-call close rate.
+
+Each account still needs one primary contact, one secondary route where possible, one active or recently completed development, one specific reason to speak now and a plausible path to a pilot decision. Volume does not excuse generic targeting.
 
 ## Message library
 
@@ -301,9 +313,9 @@ Agents may research, draft, personalise, rank, update the pipeline and prepare p
 
 ## Connected vault notes
 
-- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]] — founder commercial decision
-- [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]] — corrected Irish queue
-- [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] — UK and US wedge research
-- [[items/oh-uk-aftercare-design-partner-sprint]] — UK proof loop
-- [[project_state/oh]] — current OpenHouse state
-- [[context/openhouse-sales-routes]] — sales wedges and channels
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]] - founder commercial decision
+- [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]] - corrected Irish queue
+- [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] - UK and US wedge research
+- [[items/oh-uk-aftercare-design-partner-sprint]] - UK proof loop
+- [[project_state/oh]] - current OpenHouse state
+- [[context/openhouse-sales-routes]] - sales wedges and channels

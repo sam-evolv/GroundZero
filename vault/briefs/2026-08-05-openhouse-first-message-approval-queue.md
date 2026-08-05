@@ -136,22 +136,127 @@ Sam Donworth
 OpenHouse
 ```
 
-## 7. Housing Innovation Alliance
+## 7. Dennis Steigerwalt, Housing Innovation Alliance
 
-**Route:** https://housinginnovationalliance.com/connect/
+**Route:** https://housinginnovationalliance.com/network/join/join/
 
-**Subject:** Regional builder introduction for exact-home handoff pilot
+**Subject:** Regional builder introduction for an exact-home handoff pilot
 
 ```text
-Hi,
+Hi Dennis,
 
 I help run a residential developer in Ireland and built OpenHouse from working directly across home handover and aftercare.
 
-OpenHouse creates one exact-home record for documents, systems, warranties and history. The homeowner gets practical guidance grounded in their home, while the builder gets visibility into repeated questions, missing information and post-close support demand.
+OpenHouse gives each completed home one exact record for documents, systems, warranties and history. Homeowners get practical guidance grounded in their home, while the builder sees recurring questions, missing evidence and post-close support demand.
 
-I am looking for one US regional builder to test a defined paid pilot on a single community or phase. I am not asking the Alliance to endorse the product. I would value an introduction to one operator currently working on homeowner handoff, warranty or post-close experience.
+The Alliance's work across customer experience, digital transformation, quality and risk is why I am reaching out. I am looking for one or two regional builders willing to assess a tightly measured paid pilot on a single community or phase.
 
-Who would be the right person to speak with?
+I am not asking the Alliance to endorse OpenHouse. Would you be open to a short conversation or point me toward an operator currently improving homeowner handoff or warranty workflows?
+
+Sam Donworth
+OpenHouse
+```
+
+## 8. Dan Matta, Schell Brothers
+
+**Route:** https://schellbrothers.com/contact/
+
+**Subject:** Extending Schell's home-specific guide after settlement
+
+```text
+Hi Dan,
+
+I help run a residential developer in Ireland and built OpenHouse from the handover and aftercare workflow itself.
+
+I saw that Schell already gives each customer a comprehensive guide specific to their home and continues support through the warranty team after settlement. OpenHouse would turn that handover asset into a living exact-home record, let homeowners ask questions against approved evidence, and show your team where the guide or build record still leaves gaps.
+
+I am looking for one US builder to test a paid pilot on a single community, using the product that already exists rather than starting a technology project.
+
+Could I get 25 minutes to understand Schell's current orientation and warranty workflow?
+
+Sam Donworth
+OpenHouse
+```
+
+## 9. Terry Nickels, Builder Partnerships
+
+**Route:** https://builderpartnerships.com/contact-us.php
+
+**Subject:** Defined post-close pilot for a private builder
+
+```text
+Hi Terry,
+
+I am one of three people running a residential developer in Ireland and the founder of OpenHouse.
+
+OpenHouse gives each completed home one usable record for its documents, systems, warranties and history. It also shows the builder what homeowners ask, what the approved evidence answers and where information is missing.
+
+Builder Partnerships' focus on private mid-tier builders and direct service-provider introductions looks unusually relevant. I am looking for one builder to run a paid pilot on a single community or phase, not a broad advertising campaign.
+
+Could you tell me whether this fits the service-provider route and what evidence or programme cost would be required before introductions are possible?
+
+Sam Donworth
+OpenHouse
+```
+
+## 10. Kelly Helmes, New Tradition Homes
+
+**Route:** https://www.newtraditionhomes.com/contact-us
+
+**Subject:** New Tradition's homeowner guide and warranty workflow
+
+```text
+Hi Kelly,
+
+I help run a residential developer in Ireland and built OpenHouse from working directly across delivery, handover and homeowner support.
+
+New Tradition already gives buyers a homeowner guide, two-year workmanship cover and a defined service-request process. OpenHouse would connect that guidance to the exact systems, selections, documents and warranties in each home, then show the warranty team what customers still cannot find or understand.
+
+Your background across field operations, warranty, purchasing and customer-facing functions is why I am reaching out directly.
+
+Would you be open to a 25-minute conversation about testing one paid community pilot alongside the current process?
+
+Sam Donworth
+OpenHouse
+```
+
+## 11. Madeline McHugh, Estridge Homes
+
+**Route:** https://www.estridgehomes.com/contact/
+
+**Subject:** Connecting Estridge's sales and HomeLife journeys
+
+```text
+Hi Madeline,
+
+I help run a residential developer in Ireland and built OpenHouse from the handover and aftercare workflow.
+
+OpenHouse gives each homeowner one exact record of their documents, systems, warranties and history. Homeowners can ask questions against that evidence, while the builder sees recurring questions and where information is missing.
+
+Your role spanning Sales and Customer Experience makes Estridge especially relevant. The useful test is whether the exact-home record can preserve what was promised and explained before closing, then support the HomeLife warranty relationship afterwards.
+
+Could I get 25 minutes to understand the current journey and whether one neighbourhood would justify a measured paid pilot?
+
+Sam Donworth
+OpenHouse
+```
+
+## 12. Gene Myers, Thrive Home Builders
+
+**Routes:** `Discover@thrivehomebuilders.com` and https://thrivehomebuilders.com/contact-us/
+
+**Subject:** Making Thrive's high-performance homes legible after move-in
+
+```text
+Hi Gene,
+
+I help run a residential developer in Ireland and built OpenHouse from the handover and homeowner-support workflow.
+
+OpenHouse gives each completed home one exact record for documents, systems, warranties and history. Homeowners get guidance grounded in their own equipment and approved information, while the builder sees recurring questions and evidence gaps.
+
+Thrive's healthy and energy-efficient homes make that record particularly valuable. The performance promise depends on residents understanding ventilation, indoor-air-quality features, energy systems and maintenance after move-in.
+
+I am looking for one US builder to test a paid pilot on a single community or house type. Would you be open to a short conversation, or point me to the person who owns customer service and warranty operations?
 
 Sam Donworth
 OpenHouse
@@ -163,20 +268,23 @@ OpenHouse
 2. Les Trott.
 3. Harriet McVeigh.
 4. Richard Keebler.
-5. Christy Reyes.
-6. John Galante.
-7. Housing Innovation Alliance.
+5. Dennis Steigerwalt.
+6. Dan Matta.
+7. Terry Nickels.
+8. Kelly Helmes.
+9. Madeline McHugh.
+10. Gene Myers.
 
-The order prioritises verified operating owners before broad contact forms and channels.
+John Galante remains a useful second-wave channel. The Christy Reyes and Tilson message stays parked until her current role is rechecked against a live source.
 
 ## Approval choices
 
 Sam can approve:
 
-- all seven as written;
-- named messages only;
+- all ten first-wave messages;
+- named builder messages only;
 - UK first;
-- US first;
+- US builders first;
 - individual edits.
 
 Approval is not assumed from the existence of this note.

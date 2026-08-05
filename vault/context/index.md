@@ -62,7 +62,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]] — active offer, outbound cadence, message library, qualification rules and scorecard
 - [[briefs/2026-08-05-openhouse-uk-aftercare-prospect-lane]] — 12 ranked UK builders with evidence, buyer roles and personalised hooks
 - [[briefs/2026-08-05-openhouse-us-builder-channel-prospect-lane]] — seven US regional builders and five introduction or partnership channels
-- [[briefs/2026-08-05-openhouse-first-message-approval-queue]] — seven copy-ready first contacts awaiting Sam's approval
+- [[briefs/2026-08-05-openhouse-first-message-approval-queue]] — ten first-wave messages plus two second-wave drafts awaiting Sam's approval
 - [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]] — copy-ready one-scheme commercial proposal
 - [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]] — YC 2026 Requests for Startups map, source caveats and founder-fit interpretation
 - [[briefs/daily-agentic-value-radar-2026-07-21]] — current agentic capability and leverage review
