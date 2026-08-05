@@ -74,6 +74,10 @@ The product should not force a false choice between a device-only assistant and 
 
 Strict end-to-end encryption has a real trade-off: a cloud agent cannot read data that only a sleeping user device can decrypt. Do not make an unqualified E2EE promise before deciding which offline/background capabilities remain possible. The product should instead expose clear controls, such as local-only material, cloud-assisted personal context and explicitly shared workspaces, with export/delete and per-connector revocation. Business/shared spaces should be separate tenants and permission domains, never an accidental extension of a personal memory.
 
+The service will pay for cloud storage, but the core Ground Zero record is small and should be included inside subscription pricing. As of 5 August 2026, Cloudflare R2 lists Standard storage at $0.015 per GB-month, with 10 GB-month free and no egress charge; illustrative storage alone is $0.15 for 10 GB, $0.30 for 20 GB and $1.50 for 100 GB per month. Rates can change and object/API operations, databases, messaging, backup, monitoring and support remain separate costs. This makes storage a manageable included cost for context and selected artifacts, not a reason to upload every raw file by default.
+
+Product storage tiers should distinguish a small included Context Core, explicitly synced/generated artifacts with a clear allowance, and optional larger paid vault storage. Connected desktop folders and third-party drives remain references or on-demand sources unless the user actively elects to copy them into the vault.
+
 ## Signature “holy shit” moments
 The core validation target is not a generic feature checklist. It is a set of memorable, word-of-mouth moments where a person discovers that their digital assistant can bridge their physical computer, current context and mobile life.
 
