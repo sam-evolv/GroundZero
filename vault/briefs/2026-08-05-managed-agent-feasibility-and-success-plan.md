@@ -475,6 +475,7 @@ A fresh external competitor and consumer-demand scan was not completed because t
 
 ## Connected vault notes
 
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] - mass-market positioning, first three-minute magic, product language, design system and acquisition path
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] - original thesis and latest founder inputs
 - [[briefs/hermes-community-use-cases-2026-07-28]] - observed community usage patterns
 - [[context/agentic-value-creation-mission]] - autonomy and value-creation rules
