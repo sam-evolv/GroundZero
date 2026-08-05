@@ -1,7 +1,8 @@
 ---
 title: OpenHouse Irish named decision-maker queue
 purpose: Exact grounded Irish contacts and copy-ready founder messages for the first paid pilot
-status: awaiting-founder-approval-no-outreach-sent
+status: active-awaiting-response
+external_action: sent-to-gavin-fitzgerald-via-linkedin-2026-08-05
 date: 2026-08-05
 company_id: openhouse-ai
 ---
@@ -90,6 +91,8 @@ If you had time for a coffee or quick call sometime, I would really appreciate i
 Thanks a million,
 Sam
 ```
+
+**Send record:** Sam sent a relationship-led LinkedIn message to Gavin on 5 August 2026. It asks for guidance on reaching the right developer decision-makers and a quick call. No introduction was demanded.
 
 ## Accounts without a verified current named decision-maker
 
