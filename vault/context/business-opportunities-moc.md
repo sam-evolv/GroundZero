@@ -35,6 +35,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[context/consulting-wedges]] — developer / renewables / solicitors consultancy offers
 
 ### Cross-cutting AI patterns
+- [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]] — YC 2026 RFS synthesis, source caveats and Sam-specific founder-fit readout
 - [[briefs/2026-07-21-escape-velocity-income-engine]] — discreet capital and option engine for evenings/weekends
 - [[briefs/ai-money-patterns-2026-06]] — what public discussion keeps converging on for AI monetization
 - [[briefs/10-non-common-ai-money-ideas]] — non-generic AI business patterns

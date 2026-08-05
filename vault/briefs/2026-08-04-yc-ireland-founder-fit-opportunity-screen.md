@@ -464,6 +464,7 @@ Otherwise, stop and return focus to OpenHouse.
 
 ## Source notes and limitations
 
+- Related source radar: [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]], a creator-produced synthesis of YC’s 2026 Requests for Startups with the infographic’s wording and source caveats preserved.
 - YC team size, activity and company descriptions come from YC’s directory and company pages as displayed on 4 August 2026. They are not audited.
 - Company capability and traction statements are vendor claims unless an official independent source is cited.
 - “No visible Irish presence found” is not proof that a company cannot or does not sell into Ireland.
