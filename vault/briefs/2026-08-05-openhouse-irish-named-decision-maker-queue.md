@@ -54,9 +54,13 @@ Sam
 
 ### Sean Gallagher, property and technology market contact
 
-- Ground truth: Sean suggested connecting before OpenHouse existed. He does not already know the product.
-- Objective: perspective and one relevant developer or operator introduction, not an investment request or product pitch.
-- Send rule: this is a relationship reconnection, not an Evara-style pilot message.
+- Sean reached out unsolicited on LinkedIn a number of months ago and suggested that Sam email him.
+- Sam emailed him at the time and did not receive a reply. Treat it as a busy, lapsed connection, not a rejection and not an existing OpenHouse relationship.
+- Sean does not know OpenHouse. The first message must introduce it plainly, without pretending he has already followed the business.
+- The purpose is founder advice and a coffee or short call from someone with experience getting businesses off the ground and in property development. Do not lead with a product sale, funding request or demand for an introduction.
+- Tone: warm, deferential and human. Sam is asking for help because he believes in the business but is finding direct developer outreach difficult. Do not make the message sound like a polished outbound sequence or imply that Sam has the route to market figured out.
+- Relevant OpenHouse proof: Sam has been building it in evenings and weekends alongside full-time work at Longview Estates. It is live across more than 150 homes on the 750-home Cork City scheme that Sam helps run as one of three people at Longview.
+- Do not imply that Sean already knew OpenHouse or that the original contact concerned the company.
 
 ```text
 Hi Sean,
