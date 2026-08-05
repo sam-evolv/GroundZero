@@ -89,6 +89,7 @@ A compelling experience is likely not a chat box alone. It should combine a simp
 - Only build business-specific controls when repeated prosumer demand and usage establish the right workflow.
 
 ## Connected vault notes
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] - full feasibility judgement, architecture, economics, alpha gates and execution plan
 - [[context/solo-founder-era]] — generic chatbot avoidance and vertical-agent thesis
 - [[context/agentic-value-creation-mission]] — approval boundaries and capability-adoption gate
 - [[context/business-opportunities-moc]] — opportunity map

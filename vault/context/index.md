@@ -66,6 +66,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]] — four grounded Irish relationship and decision routes with send-ready copy
 - [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]] — copy-ready one-scheme commercial proposal
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — consumer-first managed-agent opportunity, MIT/upstream constraints and validation approach
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] - technical feasibility, trust architecture, economics, six-week alpha and success gates
 - [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]] — YC 2026 Requests for Startups map, source caveats and founder-fit interpretation
 - [[briefs/daily-agentic-value-radar-2026-07-21]] — current agentic capability and leverage review
 - [[briefs/daily-agentic-value-radar-2026-07-20]] — prior agentic capability and leverage review
