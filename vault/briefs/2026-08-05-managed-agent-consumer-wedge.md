@@ -80,6 +80,15 @@ Product storage tiers should distinguish a small included Context Core, explicit
 
 The early operational cost target is realistic if product scope is disciplined. Excluding founder/team salaries, paid acquisition and unbounded premium media work, a lean 50-user alpha can plausibly run around $125–$650/month and 1,000 active routine-work users around $2,000–$5,500/month, based on a small fixed platform base plus roughly $0.50–$5 per alpha user and $1–$3 per scaled routine user. These are planning ranges, not vendor quotes: they must be replaced by live telemetry before final pricing. Video/music/image generation, SMS/telephony and premium-model work are separate cost centres and require explicit allowances or paid work packs.
 
+## Messaging and capability-packaging principle
+The product promise is “message your agent” with a one-minute, phone-number-authenticated onboarding flow, not “configure a bot.” Users choose a familiar surface and are immediately talking to the same persistent assistant; a unified identity, consent and conversation record sits behind every channel.
+
+The initial default should be a beautiful native mobile app with a text-like conversation, push notifications and a share sheet. It delivers the familiar messaging feeling without a telecom bill or a bot-setup failure path. iMessage is a desirable later surface but must not become a false launch promise: Hermes’ existing route requires a Mac-hosted BlueBubbles bridge, which is not acceptable consumer onboarding. Apple’s official Messages for Business product supports customers messaging a business in Messages, but it is a business-channel programme rather than a generic API that lets a third party turn any verified personal phone number into a programmable iMessage agent. Evaluate the official route and Apple approval requirements separately; do not build the consumer proposition on an unsupported iMessage workaround.
+
+Use optional familiar channels where they are commercially/technically viable, but never make a user install Telegram, create a bot or understand an integration. “Text your agent” must be a product action, not a setup project.
+
+Media, voice and specialist capabilities should be a controlled internal supply chain. Route heavyweight video/image/music work through explicit premium work packs; exploit permissively licensed open-source models, local execution and reusable skills where they meet quality/security requirements; and audit commercial licences, hosting cost, latency and safety before treating a GitHub model as production infrastructure. The user sees a simple outcome such as “make a video” or “talk to me”, never a provider catalogue.
+
 ## Signature “holy shit” moments
 The core validation target is not a generic feature checklist. It is a set of memorable, word-of-mouth moments where a person discovers that their digital assistant can bridge their physical computer, current context and mobile life.
 
