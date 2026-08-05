@@ -91,6 +91,17 @@ Media, voice and specialist capabilities should be a controlled internal supply 
 
 The first product milestone is not a broad platform. Prove three signature moments for a tightly recruited cohort: retrieve an authorised file from a paired computer while mobile, understand and progress a live browser/document/spreadsheet task, and create/deliver a finished artifact into the conversation. Measure time to first useful outcome, weekly return, completed outcomes, trust failures and whether users would be genuinely upset to lose the assistant.
 
+## Device-native design standard
+The design benchmark is Apple-level calmness: non-technical, opinionated, device-native and immediately understandable. The product must never feel like a generic chatbot with integrations bolted on. Its central mental model is an assistant that works naturally across the user’s devices.
+
+Pairing should feel like AirPods: start in the iOS/Android app, sign in with a familiar identity method, tap “Add your computer”, scan a QR code or open a short secure link on the desktop, approve the named device and choose what to share. Account transfer, identity verification and permission choices must be seamless; no server URLs, bot tokens, hostnames, terminal commands or technical troubleshooting language.
+
+The mobile apps are the primary consumer entry point. They must make desktop installation conspicuous at the exact moment a user wants “your computer on the move”, and preserve a single continuous conversation and context after pairing. Use native share actions and device surfaces wherever possible.
+
+Long-running work needs interactive, confidence-building progress rather than a spinner or silence. Use rich push notifications and platform-native task surfaces such as iOS Live Activities/Android ongoing notifications where appropriate: a clear human-language state, meaningful milestones, a progress indicator when knowable, and direct actions such as approve, view result, pause or cancel. Notifications should represent outcomes or decisions, not noisy internal agent thoughts.
+
+Public language must remain human: “Your computer is ready”, “I’m finding the document”, “Waiting for your approval”, “Finished and sent”, and “Your laptop is offline”. Avoid agent, model, tool, API, connector, gateway, token and sync-server language in normal product flow.
+
 ## Signature “holy shit” moments
 The core validation target is not a generic feature checklist. It is a set of memorable, word-of-mouth moments where a person discovers that their digital assistant can bridge their physical computer, current context and mobile life.
 
