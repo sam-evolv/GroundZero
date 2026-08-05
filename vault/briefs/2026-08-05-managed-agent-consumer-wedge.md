@@ -29,6 +29,11 @@ The product should let a person make ordinary requests such as reviewing what is
 4. Use explicit per-connector consent, least-privilege scopes, confirmation gates, activity/audit history, export/delete controls and clear recovery paths.
 5. Treat security and privacy as product architecture from day one. Consumer data protection is not a lower bar than business data protection; the practical difference is enterprise procurement rather than the underlying duty of care.
 
+## Product experience hypothesis
+The core packaging insight is to avoid selling “agents”, model providers or autonomous workflows. The user should feel they have a calm, capable digital operator that can see the work in front of them, propose the next move, do bounded tasks and always show what happened.
+
+A compelling experience is likely not a chat box alone. It should combine a simple ask box with a visible operating surface: what the assistant is working on, the evidence it used, actions awaiting approval, completed work, and a small number of obvious modes such as “help me think”, “prepare this”, “do this with approval” and “keep an eye on this”. Agentic capability is then experienced as reliable momentum rather than marketed as technical autonomy.
+
 ## Validation before building a platform
 - Recruit 20–50 invited prosumer users.
 - Deliver three narrow, repeatable, approval-first workflows.
