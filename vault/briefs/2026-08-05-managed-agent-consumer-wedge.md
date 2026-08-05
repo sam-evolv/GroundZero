@@ -22,8 +22,11 @@ The product should let a person make ordinary requests such as reviewing what is
 - The appropriate upstream strategy is a pinned fork or adapter layer: track upstream releases, test each update in staging, then merge/cherry-pick deliberately. Do not auto-deploy every upstream update into customer environments.
 - Current Hermes Desktop includes a browser/preview reader; it lets the agent read rendered visible content in the active preview. It is an enabling capability, not a product moat.
 
-## Productisation decision
-The initial product goal is now explicit: take the capable existing Hermes runtime, the richer Ground Zero-style context model and high-quality routed models, then package them as a managed non-technical personal assistant. The company is not attempting to invent a new foundation model or replace every underlying component. Its job is to make the existing capability understandable, safe, paired with the user’s devices and genuinely usable by people who would never install Hermes, configure a provider, create a bot or manage an agent stack.
+## Source-control boundary
+
+The project has two distinct codebases:
+
+1. `sam-evolv/hermes-agent`: the public, upstream-tracking Hermes runtime fork. Keep it close to Nous Research's upstream; carry only small, isol...[truncated]The initial product goal is now explicit: take the capable existing Hermes runtime, the richer Ground Zero-style context model and high-quality routed models, then package them as a managed non-technical personal assistant. The company is not attempting to invent a new foundation model or replace every underlying component. Its job is to make the existing capability understandable, safe, paired with the user’s devices and genuinely usable by people who would never install Hermes, configure a provider, create a bot or manage an agent stack.
 
 This creates three deliberately separate layers:
 
