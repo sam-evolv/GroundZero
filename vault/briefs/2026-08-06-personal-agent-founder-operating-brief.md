@@ -27,6 +27,12 @@ A subscription personal assistant that:
 
 Do not replace Hermes with a narrower engine merely because that path is easier to constrain or demonstrate. The first usable product must preserve the breadth Sam already finds valuable. Simplification happens above and around the runtime.
 
+## Delegation-first product promise
+
+The user-facing promise is not intelligence. It is reliable delegation and time returned. IrelandGPT should feel like a personal operating system: the person asks for an outcome, grants access only when needed, approves consequential actions and receives a finished result or clear receipt.
+
+Design against Apple, Superhuman, Linear and Notion rather than ChatGPT. Hide models, routing, connectors and agent specialisation. Shape first use around completing one hated administrative job within minutes. See [[briefs/2026-08-06-irelandgpt-delegation-product-charter]].
+
 ## Build sequence
 
 1. **Clone the working experience:** get the Hermes-backed wrapper usable through web and desktop with real sessions, streaming, tools, approvals, artifacts and memory.
@@ -69,7 +75,10 @@ Sam can open the preview without a terminal, start or resume a real Hermes conve
 ## Connected vault notes
 
 - [[imports/2026-08-06-personal-agent-founder-voice-notes]] — source
+- [[imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06]] — product strategy source
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — build-order decision
+- [[decisions/2026-08-06-personal-agent-delegation-first-promise]] — product-promise decision
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — product design charter
 - [[companies/personal-agent]] — venture record
 - [[project_state/personal-agent]] — live build state
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — current work

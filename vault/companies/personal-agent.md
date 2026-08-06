@@ -20,15 +20,18 @@ Sam has experienced the value directly through Hermes plus Ground Zero. The vent
 ## Product
 
 - Hermes runtime beneath a consumer shell
+- delegation-first personal operating system, not another AI chatbot
+- product promise is completed outcomes and time returned, not visible intelligence or technical capability
 - persistent conversation, sessions, memory and approvals
 - web and desktop first
 - installable phone home-screen experience
 - native iOS and Android after the interaction model stabilises
-- inspectable personal context inspired by Ground Zero
+- inspectable, confidence-aware personal context inspired by Ground Zero
 - invisible model routing after real usage is measured
-- optional device and file capabilities as parts of the assistant
+- just-in-time connectors and optional device or file capabilities as parts of the assistant
 - durable handoffs rather than disposable chat turns, with Doing, Done receipts and an inspectable You surface
 - bounded browser use for everyday outcomes, separated from payment, sending, booking and account-change approvals
+- first-use design centred on completing one hated administrative job within minutes
 
 ## Distribution
 
@@ -51,7 +54,9 @@ These are testable hypotheses, not final public pricing.
 ## Connected vault notes
 
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — current founder brief
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — delegation-first product and design charter
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — build order
+- [[decisions/2026-08-06-personal-agent-delegation-first-promise]] — user-facing product promise
 - [[project_state/personal-agent]] — live state
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — active item
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — strategic foundation

@@ -37,6 +37,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 ### Cross-cutting AI patterns
 - [[companies/personal-agent]] — active subscription personal-agent venture, working repository IrelandGPT and final name undecided
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — current founder thesis, runtime-first sequence, dogfood and proof distribution loop
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — delegation-first consumer promise and hated-admin wedge filter
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] - consumer-first managed-agent product thesis
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] - feasibility, architecture, economics and bounded alpha plan
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] - mainstream Ireland experience, first-magic loop and gateway-platform path

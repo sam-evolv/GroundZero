@@ -70,9 +70,11 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]] — copy-ready one-scheme commercial proposal
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — consumer-first managed-agent opportunity, MIT/upstream constraints and validation approach
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — canonical founder thesis, build sequence, dogfood loop and agent-built distribution story
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — delegation-first promise, first-use contract, just-in-time connectors, context model, pricing hypotheses and design consequences
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: Hark product study, evidence boundary and adopted handoff roadmap
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]] — Andrew Amann and David Sacks source capture on open models, proprietary harnesses and enterprise AI sovereignty
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — superseding decision: preserve Hermes breadth first, simplify from founder dogfood
+- [[decisions/2026-08-06-personal-agent-delegation-first-promise]] — design and position IrelandGPT around completed delegation and time returned
 - [[briefs/2026-08-05-personal-assistant-research-charter]] — master evidence-led research prompt, research graph, source ledger and parallel deep-dive programme for the device-native personal assistant
 - [[briefs/2026-08-05-personal-assistant-research-first-return-audit]] — review of first external research return, accepted insights and claims requiring verification
 - [[briefs/2026-08-05-personal-assistant-research-claude]] — Claude workstream 1 on platform/channel/pairing, source-led and retained pending synthesis
@@ -89,7 +91,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/planet-satellite-opportunity]] — satellite imagery cross-domain bridge
 
 ## Current picture
-- The personal-agent venture is now an active runtime-first build in `/Users/samdonworth/Projects/IrelandGPT`; see [[briefs/2026-08-06-personal-agent-founder-operating-brief]], [[companies/personal-agent]] and [[project_state/personal-agent]]. Hermes remains the engine, and simplification follows founder dogfood.
+- The personal-agent venture is now an active runtime-first build in `/Users/samdonworth/Projects/IrelandGPT`; see [[briefs/2026-08-06-personal-agent-founder-operating-brief]], [[briefs/2026-08-06-irelandgpt-delegation-product-charter]], [[companies/personal-agent]] and [[project_state/personal-agent]]. Hermes remains the engine. The consumer promise is delegation and time returned, with hated jobs, just-in-time connectors, Doing, Done and You shaping the experience.
 - OpenHouse AI is the main focus. The marketing site is nearly complete, followed by investor/developer outreach and funding/award applications. See [[briefs/2026-07-24-openhouse-openbook-reset]].
 - Cara is a new started-building venture: Irish SME callable digital assistant; Phase 0 target is one excellent +353 live call before app/dashboard work.
 - OpenBook's immediate commercial unblock is a light client-edit portal followed by €79/month Stripe billing; lead-gen automation is a constrained follow-on pilot.
