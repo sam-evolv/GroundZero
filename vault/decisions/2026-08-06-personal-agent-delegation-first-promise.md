@@ -26,9 +26,14 @@ Ordinary users care whether the job was completed, not which model, provider, co
 - Sending, booking, buying, deleting, account changes and sensitive sharing remain explicitly approval-gated.
 - Personal context is inspectable, confidence-aware, correctable and revocable.
 - Irish administrative jobs will be researched and ranked before the product claims a broad consumer wedge.
-- Pricing near €5, €15 and a professional tier remains a hypothesis until usage, cost and support evidence exists.
+- Bounded guest use, €9.99, €19.99 and higher-usage tiers remain hypotheses until conversion, usage, cost and support evidence exists.
 - Household and child features remain future work with explicit private/shared boundaries and separate safety research.
 - Founder marketing uses verified completed work as proof, and Sam approves every outward post.
+- Activation is measured by Time to First Delegation rather than registration alone.
+- Trust progresses by category from suggest, draft and approve through bounded automatic execution.
+- Explore/Inspiration teaches real outcomes without exposing prompts or technical workflows.
+- Time Given Back may be shown only through conservative, inspectable estimates tied to completed work.
+- Initial GTM targets 100 enthusiastic users through founder-led proof before partnership scale.
 
 ## Relationship to the runtime-first decision
 
@@ -37,6 +42,7 @@ This decision complements [[decisions/2026-08-06-personal-agent-runtime-first-se
 ## Connected vault notes
 
 - [[imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06]] — verbatim source
+- [[imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06]] — later source
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — full product interpretation
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — build-order decision
 - [[companies/personal-agent]] — venture context

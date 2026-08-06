@@ -2,12 +2,15 @@
 title: Wiki Refiner 2026-08-06
 kind: wiki_refiner_brief
 date: "2026-08-06"
-ran_at: "2026-08-06T19:58:47+01:00"
+ran_at: "2026-08-06T20:41:03+01:00"
 ---
 
 # Wiki Refiner 2026-08-06
 
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
+
+## Auto-backlinks written
+- `ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06.md` → `briefs/openhouse-dtc-master-plan-2026-07-27.md` (score 312)
 
 ## Sources reviewed
 - `imports/2026-08-06-personal-agent-founder-voice-notes.md` -> `briefs/2026-08-05-personal-assistant-research-codex.md`
@@ -22,9 +25,12 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - `imports/cara-conversation-summary-2026-07-12.md` -> `briefs/2026-08-05-personal-assistant-research-codex.md`
   - Summary: Source received from Sam on 2026-07-12. Canonical cached source: `/Users/samdonworth/.hermes/cache/documents/doc_3a4bed503f5b_cara-conversation-summary.md` This import is intentionally provenance-only. Curated facts live in: - [[companies/cara]]
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/cara]], [[briefs/2026-08-05-managed-agent-consumer-wedge]], [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
+- `imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06.md` -> `project_state/ob.md`
+  - Summary: Sam supplied this ChatGPT strategy output on 6 August 2026. This is a structured capture of the supplied content rather than a claim that ChatGPT's factual assertions are verifi... IrelandGPT should not be another chatbot. It should package the capability emerging in agent frameworks such as Hermes into a consumer product ordinary people can understand, tr... > Complex under the hood. Calm on the surface. Users should not need to understand models, tokens, APIs, connectors, prompt engineering or workflows. They should say what they want done and the product should work out the rest.
+  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[briefs/2026-08-06-irelandgpt-delegation-product-charter]], [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]], [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - `imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06.md` -> `project_state/ob.md`
   - Summary: Date: 6 August 2026 --- Ireland GPT is not an AI chatbot. It is a personal operating system that sits between a person and their digital life.
-  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]], [[briefs/2026-08-05-personal-assistant-research-charter]], [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[briefs/2026-08-06-irelandgpt-delegation-product-charter]], [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]], [[briefs/2026-08-05-personal-assistant-research-charter]]
 - `imports/chatgpt/openhouse-dtc-voice-stress-test-2026-07-27.md` -> `project_state/oh.md`
   - Summary: This note preserves the substantive content visible in the shared ChatGPT conversation supplied by Sam on 27 July 2026. The share page exposed audio-transcription objects inside the visible conversation. This is a transcript synthesis, not a verified recording-level transcript. Short acknowledgem... Sam wanted to push OpenHouse into a DTC product people would genuinely pay for and asked whether a walkthrough video could let the product understand: - the layout
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]], [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]]
@@ -53,11 +59,12 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - [[briefs/2026-08-05-personal-assistant-research-claude]] (399)
 - [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]] (200)
 - [[project_state/cara]] (46)
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] (338)
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]] (240)
 - [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]] (222)
 - [[briefs/openhouse-yc-narrative-rubric-2026-07-29]] (222)
 - [[companies/openhouse-ai]] (245)
-- [[project_state/oh]] (172)
+- [[project_state/oh]] (174)
 - [[briefs/sam-linkedin-signal-engine-stanley-teardown-2026-07-31]] (137)
 - [[context/openhouse-openbook-design-system]] (134)
 - [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]] (108)

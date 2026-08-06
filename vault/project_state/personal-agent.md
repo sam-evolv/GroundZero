@@ -21,6 +21,7 @@ role: project-state
 - Sam clarified that the next phase must reproduce every useful Hermes Agent and Desktop outcome before further consumer simplification.
 - The commercial follow-up is captured separately: bounded guest use before signup, frictionless conversion, a living user-owned Profile, optional context conversation and evidence-led €9.99/€19.99/premium/family tier hypotheses.
 - Primary-source review verified DeepSeek V4 Flash and GPT-5.6 Luna, established an Irish adoption/payment baseline and confirmed that automatic parent monitoring is not a safe launch feature. Public tier prices remain hypotheses pending measured workload and conversion evidence.
+- The later ChatGPT strategy session is reconciled into the charter: “Complex under the hood. Calm on the surface,” a suggest-to-autonomy trust ladder, Time to First Delegation under five minutes, evidence-backed Time Given Back, outcome-based Explore, founder-led first-100 GTM and one identity across web, phone, voice and supported messaging.
 - Final product name remains open.
 
 ## Active objective
@@ -57,6 +58,7 @@ Reach full useful Hermes Desktop outcome parity in the branded responsive wrappe
 - [[items/personal-agent-hermes-desktop-parity]] — active parity ledger
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]] — commercial and onboarding direction
 - [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]] — verified market, pricing and child-safety evidence
+- [[imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06]] — later product, pricing and GTM source
 - [[items/personal-agent-unit-economics-and-onboarding]] — evidence and unit-economics work
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — sequencing decision
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — active work

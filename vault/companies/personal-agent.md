@@ -66,6 +66,7 @@ These are testable hypotheses, not final public pricing. Model names, workload c
 - [[items/personal-agent-hermes-desktop-parity]] — active parity ledger
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]] — onboarding, context and pricing hypotheses
 - [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]] — primary-source market and economics ledger
+- [[imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06]] — later delegation, activation and GTM source
 - [[items/personal-agent-unit-economics-and-onboarding]] — validation workstream
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — delegation-first product and design charter
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — build order

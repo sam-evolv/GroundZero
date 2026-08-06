@@ -13,6 +13,26 @@ IrelandGPT is not another AI chatbot. It is a consumer personal operating system
 
 The company sells time and relief from unwanted responsibility, not models, agents, tokens or intelligence. The north-star language is “I asked it” or “my assistant sorted it.”
 
+> Complex under the hood. Calm on the surface.
+
+> Hand it over. It gets handled.
+
+The long-term category is a personal execution layer between a person and their digital world. The aspirational north star is to give people back an hour of their life every day.
+
+## Delegation compound and trust ladder
+
+The product compounds through memory, action, judgment and eventually bounded initiative. The leading trust question is how much responsibility a person feels comfortable handing over.
+
+Progress trust deliberately:
+
+1. Suggest.
+2. Draft.
+3. Prepare and request one-tap approval.
+4. Execute automatically in a narrow trusted category.
+5. Act autonomously within explicit, inspectable boundaries.
+
+Every release should let the user delegate one more thing without increasing interface complexity.
+
 ## Design benchmark
 
 Benchmark the product against Apple, Superhuman, Linear and Notion rather than ChatGPT or Claude. The experience must feel obvious, calm and premium while hiding technical machinery.
@@ -44,7 +64,7 @@ Candidate Irish jobs to research and validate include:
 - expense reporting;
 - producing a presentation or video from one request.
 
-These are hypotheses until direct Irish-user research confirms frequency, pain, feasibility, risk and willingness to pay. IrelandGPT should initially become excellent at a small set of hated jobs rather than claim universal coverage.
+These are hypotheses until direct Irish-user research confirms frequency, pain, feasibility, risk and willingness to pay. Full Hermes parity remains the internal baseline; launch claims and first-100-user proof should concentrate on a small set of hated jobs that pass reliably rather than claim universal reliability.
 
 ## Interaction model
 
@@ -59,6 +79,12 @@ Conversation remains the front door, but the core unit is a durable handoff rath
 - **Remember:** the assistant offers to retain a useful preference or playbook with provenance and an inspectable correction path.
 
 Do not lead with an integrations directory. Capabilities come first and technology appears only when required.
+
+## Capability discovery
+
+An agent's capability is hidden behind an input box, so ordinary users are constrained by imagination. Add an Explore or Inspiration surface showing real outcomes rather than a prompt library. “Try this” should turn an example directly into a prepared delegation.
+
+Discovery also occurs after success: suggest one adjacent job only when the completed task and available context make it genuinely relevant.
 
 ## Main product surfaces
 
@@ -84,6 +110,8 @@ The moat is an earned, user-controlled permission and context layer, not a model
 
 Context must carry source, confidence and recency. Users can inspect, correct, move or forget it. Permissions are earned progressively, scoped narrowly and revocable. Switching cost should come from accumulated usefulness and trust, not lock-in or opacity.
 
+Onboarding is a 90-day conversation, not a 10-minute form. Build context progressively from what the user freely says, what repeated use earns and what authorised services contribute. Optional personalisation questions must each justify their friction.
+
 ## Invisible routing
 
 Route each subtask to the cheapest option that can reliably meet the quality, freshness, privacy and consequence requirements. Users experience the result, not the supply chain.
@@ -92,9 +120,11 @@ Routing must be evidence-led. Do not freeze provider economics or public plan pr
 
 ## Pricing hypotheses
 
-Test a low-friction entry plan near €5, a broader tier near €15 and a higher professional tier. Treat these as hypotheses, not committed prices.
+Test bounded guest use before signup, an accessible entry plan near €9.99, a broader everyday-assistant tier near €19.99 and a higher-usage premium tier. Treat these as hypotheses, not committed prices.
 
-The entry tier should make occasional use feel rational. Premium media, expensive models and long-running work may require higher plans or visible work allowances. Measure completed outcomes, retained users, support cost and gross margin rather than token consumption.
+The working entry-plan target is approximately €2.50 or less in average direct AI cost per active subscriber, but viability is determined from net revenue after VAT and payments plus all variable service costs. Premium media, expensive models and long-running work may require higher plans or visible work allowances. Measure completed outcomes, retained users, support cost and contribution margin rather than prompt count.
+
+See [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]] and [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]].
 
 ## Distribution proof loop
 
@@ -103,6 +133,33 @@ Run and build the company with the product, then turn verified completed work in
 For each proof asset, preserve the original request, result, elapsed time and human corrections. Demonstrate the finished outcome rather than internal logs. Do not claim full autonomy where Sam’s judgement or approval mattered. Nothing is published without Sam’s explicit approval.
 
 The YC walkthrough video is the reference signature moment: a multi-hour recording and editing job completed through Hermes in roughly 15 minutes, including music and export. Future demonstrations should recreate that emotional outcome for ordinary administrative work.
+
+Initial founder-led invitation:
+
+> Give me one job you hate doing. Let me see if this can do it for you.
+
+Earn the first 100 enthusiastic users through Sam's network, direct outreach, LinkedIn, WhatsApp groups, testers and professional contacts. Reliability governs what is promised externally. Full Hermes capability parity remains the internal baseline.
+
+Build a truthful demonstration library showing the request, completed outcome, elapsed time, human corrections and evidence. The product may draft and produce its own marketing, but Sam approves publication.
+
+Use Time Given Back as an evidence-backed retention and referral frame only when the estimate is transparent and not inflated.
+
+After consumer proof, explore trusted Irish distribution partners such as credit unions, universities, employers, membership organisations and professional associations. The value is borrowed trust, not reach alone.
+
+## Activation and outcome metrics
+
+Primary activation metric: Time to First Delegation, defined as elapsed time from first product entry to the first real task successfully handed over and completed or advanced to an honest approval boundary. Target under five minutes for the chosen first-use jobs.
+
+Track:
+
+- successful delegations per active user;
+- repeat delegation;
+- trust-ladder level by capability category;
+- completed outcomes and failure/recovery;
+- cost per completed outcome;
+- evidenced Time Given Back;
+- renewal after meaningful use;
+- support and human-escalation load.
 
 ## Long-term expansion
 
@@ -124,10 +181,13 @@ A feature earns priority only when it materially removes something people hate d
 6. Keep model routing invisible and defer final economics until measured usage exists.
 7. Instrument time-to-first-completed-outcome, task completion, repeat delegation, approval comprehension, recovery success, trust failures, cost per completed outcome and willingness to pay.
 8. Validate the first Irish admin wedges with real users before expanding scope.
+9. Add outcome-based Explore/Inspiration without turning it into a prompt catalogue.
+10. Keep voice, web, phone and supported messaging channels on one identity, memory and task state.
 
 ## Connected vault notes
 
 - [[imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06]] — verbatim source
+- [[imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06]] — later pricing, GTM and delegation source
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]] — adopted product promise
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — runtime-first founder thesis and build order
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]] — handoff mechanics and trust comparison

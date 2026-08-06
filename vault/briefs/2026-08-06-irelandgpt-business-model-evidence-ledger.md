@@ -225,7 +225,10 @@ Tier decisions must be made from measured routing logs by usage percentile, with
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]]
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
+- [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]]
 - [[companies/personal-agent]]
 - [[context/index]]
 - [[items/personal-agent-unit-economics-and-onboarding]]

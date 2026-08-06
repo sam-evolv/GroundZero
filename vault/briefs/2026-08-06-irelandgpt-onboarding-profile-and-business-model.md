@@ -170,6 +170,7 @@ Model at least median, heavy, power and adversarial usage. A plan is viable only
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]]
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]]
 - [[companies/personal-agent]]

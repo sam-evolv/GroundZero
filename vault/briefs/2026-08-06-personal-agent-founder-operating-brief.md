@@ -66,9 +66,9 @@ The strongest public frame is not “AI built this alone.” It is “I built an
 
 ## Pricing hypothesis
 
-Test an accessible entry plan near €4.99 per month for routine text-based assistance, with a target variable model cost below €1 per active user per month. Premium models, media generation and long-running work remain separate allowances or higher plans.
+Test bounded guest use before signup, an accessible plan near €9.99, a broader everyday-assistant tier near €19.99 and a higher-usage premium tier. The working entry-plan target is approximately €2.50 or less in average direct AI cost per active subscriber, while contribution viability includes VAT, payments, tools, media, infrastructure, support, fraud and refunds.
 
-This price is not yet commercially validated. Support, payments, hosting and tool execution can exceed inference cost. Instrument cost and support before committing publicly.
+These prices are not commercially validated. Instrument cost per completed outcome and willingness to pay before committing publicly. See [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]].
 
 ## Immediate acceptance test
 
@@ -80,6 +80,7 @@ Sam can open the preview without a terminal, start or resume a real Hermes conve
 - [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]] — clarified full-parity direction
 - [[items/personal-agent-hermes-desktop-parity]] — implementation ledger
 - [[imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06]] — product strategy source
+- [[imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06]] — later product, pricing and GTM source
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — build-order decision
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]] — product-promise decision
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — product design charter

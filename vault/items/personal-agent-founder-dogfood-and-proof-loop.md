@@ -29,6 +29,9 @@ Sam uses the Hermes-backed product as his own daily assistant through web, deskt
 - Active work can be left and safely resumed from Hermes-owned run state.
 - No proof asset claims more than the exact task demonstrated.
 - Nothing is posted publicly without Sam's approval.
+- Time to First Delegation is measured for each new-user test and targeted below five minutes for chosen first-use jobs.
+- Time Given Back is estimated conservatively from a stated baseline and never presented as precise telemetry when it is not.
+- Each tested capability is assigned a trust-ladder state: suggest, draft, approve, bounded automatic or autonomous within explicit boundaries.
 
 ## Initial task set
 
@@ -37,6 +40,7 @@ Sam uses the Hermes-backed product as his own daily assistant through web, deskt
 3. Prepare a useful document or artifact.
 4. Perform a bounded local task that requires approval.
 5. Resume a prior conversation from another surface.
+6. Complete one first-use hated job from a guest state through account conversion without losing task context.
 
 ## Proof loop
 
@@ -49,11 +53,14 @@ For each accepted task:
 - turn the strongest verified outcomes into draft demonstration assets;
 - queue the asset for Sam's approval, never auto-publish.
 
+After founder dogfood passes, recruit the first 100 enthusiastic users through the invitation: “Give me one job you hate doing. Let me see if this can do it for you.” Externally promise only the workflows that pass reliably even though full Hermes parity remains the internal baseline.
+
 ## Connected vault notes
 
 - [[companies/personal-agent]] — venture
 - [[project_state/personal-agent]] — current state
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — operating brief
+- [[imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06]] — product, pricing and GTM source
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: adopted handoff interaction contract
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — sequencing
 - [[context/agentic-value-creation-mission]] — autonomy and value standard
