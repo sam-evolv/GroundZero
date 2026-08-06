@@ -53,6 +53,7 @@ These are testable hypotheses, not final public pricing.
 - [[project_state/personal-agent]] — live state
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — active item
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — strategic foundation
+- [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]] — model-agnostic harness and enterprise sovereignty signal
 - [[context/business-opportunities-moc]] — opportunity map
 
 ## Notes that link here

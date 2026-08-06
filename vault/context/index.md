@@ -70,6 +70,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]] — copy-ready one-scheme commercial proposal
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — consumer-first managed-agent opportunity, MIT/upstream constraints and validation approach
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — canonical founder thesis, build sequence, dogfood loop and agent-built distribution story
+- [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]] — Andrew Amann and David Sacks source capture on open models, proprietary harnesses and enterprise AI sovereignty
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — superseding decision: preserve Hermes breadth first, simplify from founder dogfood
 - [[briefs/2026-08-05-personal-assistant-research-charter]] — master evidence-led research prompt, research graph, source ledger and parallel deep-dive programme for the device-native personal assistant
 - [[briefs/2026-08-05-personal-assistant-research-first-return-audit]] — review of first external research return, accepted insights and claims requiring verification
