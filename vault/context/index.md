@@ -74,6 +74,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]] — guest-first onboarding, living Profile, tier hypotheses and evidence gates
 - [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]] — sourced Irish demand, API pricing, payments and family-safety ledger
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — delegation-first promise, first-use contract, just-in-time connectors, context model, pricing hypotheses and design consequences
+- [[briefs/2026-08-06-irelandgpt-runtime-product-candidate-handoff]] — reviewed Hermes lifecycle and Ask, Doing, Done and You local candidate; no deployment
 - [[imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06]] — supplied source for delegation category, activation, trust ladder and first-100 GTM
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: Hark product study, evidence boundary and adopted handoff roadmap
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]] — Andrew Amann and David Sacks source capture on open models, proprietary harnesses and enterprise AI sovereignty

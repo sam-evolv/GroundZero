@@ -13,6 +13,8 @@ role: project-state
 - Hermes API Server is enabled on loopback and listening locally.
 - The repository contains an authenticated responsive browser shell, BFF, relay and Hermes client for sessions, history, runs, SSE progress, approvals, recovery, stop, conversation actions, capabilities, automations and real multimodal photo input.
 - Immutable candidate `2f6e6954a5666102bc4cf012caa54c0fb2e6cc96` passed independent review with 136 Python tests and 13 Node tests. It is not deployed.
+- Final local product candidate `d533206b37e0aecb1d48c4a7cb8e972a0a284743` is paired with Hermes runtime `27f142544b3bbe7ef8fdbd5d6db8b7505614ea13`. The exact pair passed real-process lifecycle verification and independent immutable review. See [[briefs/2026-08-06-irelandgpt-runtime-product-candidate-handoff]].
+- The current local shell now uses Ask, Doing, Done and You. Doing is backed by genuine run, approval and automation state; Done is backed by active and archived conversation resources and does not claim completion receipts.
 - Production remains on the earlier founder-alpha build. The live bytes do not contain the approved local photo and Quiet Margin functionality.
 - The selected-folder connector and SwiftUI simulator app remain in the repository as secondary/reference work.
 - Hark Handoff has been studied against its launch video, technical article, public leaderboard and privacy policy. The adopted direction is a calm handoff desk: durable task identity, Doing, Done receipts, missing-detail states distinct from approvals, an inspectable You surface and bounded isolated browser execution.
@@ -31,6 +33,7 @@ Reach full useful Hermes Desktop outcome parity in the branded responsive wrappe
 ## Current blockers
 
 - Full Desktop parity has not yet been implemented. Current live/adapted surfaces cover conversation core, basic capabilities, automations and local photo support only.
+- Mobile navigation has passing source and behavior tests, but phone pixel verification remains unclaimed pending an approved screenshot run.
 - Generic file and artifact delivery still needs a Hermes-owned opaque registry with ownership, metadata and retrieval boundaries.
 - Memory, agents, background work, voice, connectors, profiles, richer settings and messaging continuity need product adapters.
 - Trusted local filesystem, terminal, project and Git outcomes need an explicit paired-desktop path rather than direct public-browser exposure.
@@ -64,6 +67,7 @@ Reach full useful Hermes Desktop outcome parity in the branded responsive wrappe
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — active work
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: current competitive product translation
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — adopted design charter
+- [[briefs/2026-08-06-irelandgpt-runtime-product-candidate-handoff]] — reviewed local runtime and product candidate
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]] — product promise decision
 - [[imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06]] — verbatim strategy source
 - [[imports/2026-08-06-personal-agent-founder-voice-notes]] — source
