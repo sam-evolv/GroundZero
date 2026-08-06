@@ -19,6 +19,7 @@ kind: moc
 | [[Daily/2026-07-24]] | Incubated the 24 July reset gap: created the two missing OpenBook commercial-unblock ideas and re-parked a stale pricing idea | items/ob-client-self-edit-portal-billing, items/ob-prepared-leadgen-loop, items/oh-pricing-experiment, items/_Index |
 | [[Daily/2026-07-25]] | Identified the missing reusable Longview proof asset and warm-introduction proposal pack | items/oh-proof-asset-engine, items/oh-developer-outreach-proposal-pack |
 | [[Daily/2026-07-27]] | Recorded answer-quality and outreach-instrumentation gaps in the OpenHouse proof route | items/oh-answer-quality-audit-loop, items/oh-marketing-site-conversion-instrumentation |
+| [[Daily/2026-08-06]] | Infrastructure sync: GitHub, Vercel, Supabase checked; configured Documents Obsidian Vault path unreadable | project_state/oh, Daily/2026-08-06 |
 | [[briefs/2026-06-28]] | Daily brief: OpenHouse remains active focus; energy-intelligence investor-deck revision thread is the useful new change | openhouse-energy-intelligence-sketch, openhouse-energy-investor-deck-outline, openhouse-energy-investor-deck-draft-v0, openhouse-investor-brief-energy-agentic-revision-plan |
 
 ## Pattern

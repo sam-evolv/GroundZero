@@ -3,9 +3,11 @@ id: oh
 company_id: openhouse-ai
 headline: The isolated My Home truth boundary independently passed; current-live enforcement still requires an approved GitHub ruleset and Vercel isolation proof.
 valid: true
-updated_at: "2026-08-03T10:30:22+01:00"
+updated_at: "2026-08-06T16:10:00+01:00"
 role: project-state
 ---
+
+**Live check, 2026-08-06 16:10 IST:** No delivery movement. `origin/main` remains `ad327a4b` (2026-06-28); repository last pushed 2026-08-03T07:46:14Z, which was the PR #205 branch push. Twelve PRs are open (#205, #204, #180 draft, #147, #146, #104, #98, #41, #40, #38, #11, #6); #205 is still MERGEABLE and CLEAN at head `5d56e3bb` and unmerged, and #204 is also CLEAN. The same six non-PR issues remain open (#195, #194, #130, #128, #125, #123). The serving Vercel production deployment `property-assistant-jsd3y3r67` is Ready at 6 days old and `https://portal.openhouseai.ie` returned HTTP 200 in 0.56s; a same-day second production entry `property-assistant-clznx4vqo` reports status UNKNOWN and is worth an eyeball. The Supabase CLI is now authenticated and `supabase projects list` succeeds, and Docker is now running, so the previously recorded Docker blocker is cleared; remote anomaly checks still need a linked project ref or explicit `--project-ref`, and `SUPABASE_ACCESS_TOKEN` is unset in the job shell. Separately, `~/Documents/Obsidian Vault` is currently unreadable: directory listing and file reads hang and time out, so the notes named in the sync job could not be read or updated. See [[Daily/2026-08-06]].
 
 ## Current direction: 2026-07-28
 
