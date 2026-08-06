@@ -41,7 +41,7 @@ updated: "2026-07-15"
 - 🔴 [[project_state/cara|cara]]: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
 - 🟢 [[project_state/ob|ob]]: Empire Gym's owner dashboard hardening is locally verified; safe publish/handoff is pending, and Stripe billing follows only after the owner journey is proven.
 - 🔴 [[project_state/oh|oh]]: The isolated My Home truth boundary independently passed; current-live enforcement still requires an approved GitHub ruleset and Vercel isolation proof.
-- 🟡 [[project_state/personal-agent|personal-agent]]: 
+- 🟡 [[project_state/personal-agent|personal-agent]]: Hermes-backed web wrapper is implemented and tested; live browser dogfood and home-screen access are the current gates.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
