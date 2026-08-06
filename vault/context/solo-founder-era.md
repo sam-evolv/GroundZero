@@ -48,6 +48,8 @@ Read this alongside [[context/autonomous-business-launch-loop]] and [[context/sc
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]

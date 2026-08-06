@@ -107,5 +107,6 @@ See [[briefs/2026-08-04-bridgewater-meeting-preparation]].
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-bridgewater-meeting-preparation]]
 - [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]]
+- [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]
 - [[items/oh-bridgewater-warm-introduction]]
 

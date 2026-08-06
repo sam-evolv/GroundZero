@@ -216,9 +216,17 @@ A node that accepts the whole state and returns unstructured prose is not engine
 #
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-phosphen-karpathy-llm-use-source-audit]]
+- [[companies/openbook]]
+- [[companies/openhouse-ai]]
+- [[context/agentic-value-creation-mission]]
+- [[context/founder-execution-os]]
 - [[context/index]]
+- [[context/llm-wiki-pattern]]
 - [[context/ops-automation-moc]]
 - [[items/ops-graph-engineering-pilot]]
+- [[project_state/oh]]
+
 
 ## Recommendation: use Hermes Kanban and small scripts first
 

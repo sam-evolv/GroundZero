@@ -77,6 +77,7 @@ Send a tailored one-page recap within 24 hours of the meeting. It should name th
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-22-reset-and-bridgewater-opportunity]]
 - [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-04-bridgewater-meeting-preparation]]
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-sales-routes]]

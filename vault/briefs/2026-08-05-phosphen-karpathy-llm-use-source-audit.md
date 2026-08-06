@@ -139,3 +139,8 @@ These points reinforce the existing [[briefs/2026-08-04-graph-engineering-resear
 [3] https://x.com/phosphenq/status/2083991226827567419
 [4] https://www.anthropic.com/research/building-effective-agents
 [5] https://www.anthropic.com/engineering/built-multi-agent-research-system
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+

@@ -64,6 +64,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-bank-holiday-founder-reset]]
 - [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]]
 - [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]]
 - [[companies/openhouse-ai]]
 - [[goals/oh-funder-pitch]]
 - [[items/oh-proof-asset-engine]]

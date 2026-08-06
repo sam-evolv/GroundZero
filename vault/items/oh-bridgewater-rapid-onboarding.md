@@ -62,6 +62,14 @@ Run one end-to-end dry run in an isolated preview or approved non-production env
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-bridgewater-meeting-preparation]]
+- [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]]
+- [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]
+- [[companies/openhouse-ai]]
+- [[goals/oh-activation]]
+- [[goals/oh-aftercare-os]]
 - [[items/oh-bridgewater-warm-introduction]]
+- [[items/oh-onboarding-cut]]
+- [[items/oh-onboarding-packet-automation]]
 - [[project_state/oh]]
 

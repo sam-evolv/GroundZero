@@ -377,3 +377,14 @@ Do not turn research volume into a build plan automatically. After collecting re
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] - technical feasibility and staged success gates
 - [[companies/cara]] - earlier voice-first assistant lineage, currently deprioritised
 - [[project_state/cara]] - status guardrail, no implicit reactivation
+
+- [[imports/design-systems/openhouse-openbook/SKILL]] — shared signals: openhouse, openbook, design
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-personal-assistant-research-claude]]
+- [[briefs/2026-08-05-personal-assistant-research-codex]]
+- [[briefs/2026-08-05-personal-assistant-research-first-return-audit]]
+- [[briefs/2026-08-05-personal-assistant-research-gemini]]
+- [[context/index]]
+

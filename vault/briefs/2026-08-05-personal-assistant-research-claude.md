@@ -263,3 +263,8 @@ Vendor product: Anthropic Dispatch and computer use, 23 Mar 2026 (claude.com/blo
 Regulator and standards: CCPC microenterprise EAA guidelines; S.I. 636/2023; EDPB Opinion 28/2024 (edpb.europa.eu); WCAG 2.2 SC 2.5.8 (w3.org); OWASP Top 10 for Agentic Applications 2026.
 Scholarly: International AI Safety Report 2026 (arXiv 2602.21012); post-XAI review (arXiv 2602.24176); trust calibration and delegation survey (arXiv 2605.28255); Wischnewski et al., CHI 2023 trust calibration survey.
 Weak, labelled as such: push notification opt-in benchmarks (pushwoosh.com, vmobify.com); hands-on accounts of Dispatch and Gemini Spark.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+

@@ -488,3 +488,17 @@ A fresh external competitor and consumer-demand scan was not completed because t
 - [[companies/cara]] - possible future voice and messaging surface
 - [[project_state/cara]] - currently deprioritised and not implicitly reactivated
 - [[people/sam-donworth]] - founder constraints and working style
+
+- [[imports/cara-conversation-summary-2026-07-12]] — shared signals: conversation, summary, cara
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+- [[briefs/2026-08-05-personal-assistant-research-charter]]
+- [[briefs/2026-08-05-personal-assistant-research-claude]]
+- [[briefs/2026-08-05-personal-assistant-research-codex]]
+- [[briefs/2026-08-05-personal-assistant-research-first-return-audit]]
+- [[briefs/2026-08-05-personal-assistant-research-gemini]]
+- [[context/business-opportunities-moc]]
+- [[context/index]]
+

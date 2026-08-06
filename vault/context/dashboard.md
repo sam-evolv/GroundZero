@@ -49,7 +49,7 @@ updated: "2026-07-15"
 | Company | WIP | Proposed | Goal | Status |
 |---|---|---|---|---|
 | Cara | 2 | 0 | — | 🟡 |
-| OpenHouse AI | 1 | 14 | Lift new-agent activation to 60% | 🟡 |
+| OpenHouse AI | 1 | 13 | Lift new-agent activation to 60% | 🟡 |
 | OpenBook | 2 | 6 | Reach 500 live venues in Dublin | 🟡 |
 | Evolv Renewables | 0 | 4 | Sign three commercial rooftop deals | 🟢 |
 
@@ -64,4 +64,4 @@ updated: "2026-07-15"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-08-05 02:15 IST
+- Dashboard: 2026-08-06 02:15 IST

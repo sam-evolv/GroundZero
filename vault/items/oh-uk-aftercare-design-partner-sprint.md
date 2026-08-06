@@ -76,6 +76,9 @@ Promote to a bounded commercial validation project only if:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+- [[briefs/2026-08-05-openhouse-uk-aftercare-prospect-lane]]
+- [[briefs/2026-08-05-openhouse-uk-us-market-messaging]]
 - [[briefs/openhouse-post-cairn-strategy-2026-06-29]]
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
 - [[companies/openhouse-ai]]
@@ -87,6 +90,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/oh-warranty-evidence-pack]]
 - [[items/oh-warranty-triage-router]]
 - [[project_state/oh]]
+
 
 ## Recommendation
 

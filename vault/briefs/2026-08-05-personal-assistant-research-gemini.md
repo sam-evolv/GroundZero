@@ -104,3 +104,8 @@ This extract supports, but does not supersede:
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] — feasibility and alpha gates
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] — mainstream Ireland UX research
 - [[context/agentic-value-creation-mission]] — value and autonomy constraints
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+

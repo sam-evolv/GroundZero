@@ -125,3 +125,8 @@ Before promoting the research into design or engineering requirements, require:
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] - current product thesis
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] - architecture and alpha constraints
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] - existing mainstream activation research
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+

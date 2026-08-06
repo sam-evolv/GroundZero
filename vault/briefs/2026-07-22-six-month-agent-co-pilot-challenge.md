@@ -194,6 +194,7 @@ The later case study should show the system, the evidence, the misses, the bound
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-21-escape-velocity-income-engine]]
+- [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]
 - [[companies/cara]]
 - [[companies/openhouse-ai]]
 - [[context/founder-execution-os]]

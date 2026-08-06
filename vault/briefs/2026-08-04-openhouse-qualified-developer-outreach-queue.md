@@ -177,7 +177,16 @@ Within 30 days:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
 - [[briefs/2026-08-04-openhouse-care-installer-paid-validation]]
 - [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+- [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]]
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]
+- [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
+- [[companies/openhouse-ai]]
+- [[context/openhouse-sales-routes]]
+- [[items/oh-bridgewater-warm-introduction]]
+- [[items/oh-sean-gallagher-reconnection]]
 - [[project_state/oh]]
 

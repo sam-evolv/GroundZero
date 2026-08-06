@@ -60,6 +60,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-live-agentic-income-and-job-screen]]
 - [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
 - [[briefs/2026-08-03-unconventional-agent-income-research]]
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]
 - [[context/agentic-value-creation-mission]]
 - [[items/agentic-income-evidence-sprint]]
 - [[people/sam-donworth]]

@@ -63,6 +63,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-live-agentic-income-and-job-screen]]
 - [[briefs/2026-08-03-local-model-m4-air-recommendation]]
 - [[briefs/2026-08-03-unconventional-agent-income-research]]
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/chatgpt-voice-founder-os-2026-07-31]]

@@ -53,6 +53,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openbook-prospect-preview-factory]]
 - [[briefs/2026-07-24-openhouse-openbook-reset]]
 - [[briefs/2026-08-04-graph-engineering-research-and-implementation]]
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]

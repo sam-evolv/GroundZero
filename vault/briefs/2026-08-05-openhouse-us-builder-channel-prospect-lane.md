@@ -180,3 +180,10 @@ Prepare personalised messages for Garman, Housing Innovation Alliance, Schell Br
 - [[briefs/2026-08-05-openhouse-uk-us-market-messaging]]
 - [[items/oh-us-builder-warranty-discovery-sprint]]
 - [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-openhouse-first-message-approval-queue]]
+- [[context/index]]
+- [[project_state/oh]]
+

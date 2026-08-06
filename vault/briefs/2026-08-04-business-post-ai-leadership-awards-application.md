@@ -263,3 +263,13 @@ Do not submit yet. First:
 - [[briefs/openhouse-ndrc-interview-final-card-2026-07-29]]
 - [[briefs/2026-08-04-openhouse-product-truth-night-audit]]
 - [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-30-openhouse-yc-usage-evidence]]
+- [[briefs/2026-08-04-openhouse-product-truth-night-audit]]
+- [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]]
+- [[briefs/openhouse-ndrc-interview-final-card-2026-07-29]]
+- [[companies/openhouse-ai]]
+- [[project_state/oh]]
+

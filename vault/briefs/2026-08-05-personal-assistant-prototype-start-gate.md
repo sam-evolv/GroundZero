@@ -98,3 +98,8 @@ Technology choices remain hypotheses until short spikes verify mobile background
 ## Start rule
 
 Building may begin once the product repository is private and Gate Zero is accepted. The first implementation milestone is the real mobile-to-authorised-Mac-folder retrieval loop, not a landing page, generic chatbot or comprehensive architecture.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+

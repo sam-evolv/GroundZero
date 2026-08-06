@@ -96,6 +96,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/10-non-common-ai-money-ideas]]
 - [[briefs/2026-06-30]]
 - [[briefs/2026-07-21-escape-velocity-income-engine]]
+- [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]]
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/openhouse-energy-assistant-wedge]]

@@ -158,3 +158,17 @@ A compelling experience is likely not a chat box alone. It should combine a simp
 - [[companies/cara]] — earlier voice-first digital-assistant wedge and possible future surface
 - [[project_state/cara]] — current deprioritised state; no implicit reactivation
 - [[companies/openbook]] — relevant SME workflow experience
+
+- [[imports/cara-conversation-summary-2026-07-12]] — shared signals: conversation, summary, cara
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
+- [[briefs/2026-08-05-personal-assistant-research-charter]]
+- [[briefs/2026-08-05-personal-assistant-research-claude]]
+- [[briefs/2026-08-05-personal-assistant-research-codex]]
+- [[briefs/2026-08-05-personal-assistant-research-first-return-audit]]
+- [[briefs/2026-08-05-personal-assistant-research-gemini]]
+- [[context/business-opportunities-moc]]
+- [[context/index]]
+

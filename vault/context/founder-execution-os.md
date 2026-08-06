@@ -242,6 +242,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-21-escape-velocity-income-engine]]
 - [[briefs/2026-07-22-six-month-agent-co-pilot-challenge]]
 - [[briefs/2026-08-04-graph-engineering-research-and-implementation]]
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
+- [[briefs/2026-08-05-phosphen-karpathy-llm-use-source-audit]]
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/chatgpt-voice-founder-os-2026-07-31]]
 - [[briefs/hermes-community-use-cases-2026-07-28]]

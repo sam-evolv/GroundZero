@@ -124,3 +124,8 @@ Do not invent a personal name for these yet.
 - [[items/oh-sean-gallagher-reconnection]]
 - [[briefs/2026-08-05-openhouse-first-message-approval-queue]]
 - [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+

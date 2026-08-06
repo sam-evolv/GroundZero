@@ -149,6 +149,10 @@ If none of five pays €500 after the repeated workflow is established, do not s
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-openhouse-founder-morning-action-brief]]
+- [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]]
 - [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[companies/openhouse-ai]]
+- [[goals/oh-aftercare-os]]
 - [[project_state/oh]]
 

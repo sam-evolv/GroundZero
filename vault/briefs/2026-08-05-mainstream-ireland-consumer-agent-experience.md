@@ -912,3 +912,16 @@ Product sites inspected for positioning and proof mechanisms:
 - Apple HIG pages returned JavaScript shells to direct retrieval; the product recommendations use the current official URLs and previously captured HIG principles, not invented quotations.
 - Product-site observations describe the pages retrieved on 5 August 2026. They do not prove conversion, retention or commercial success.
 - The target-user segments, three-minute thresholds and alpha gates are strategic hypotheses until observed with real users.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
+- [[briefs/2026-08-05-personal-assistant-research-charter]]
+- [[briefs/2026-08-05-personal-assistant-research-claude]]
+- [[briefs/2026-08-05-personal-assistant-research-codex]]
+- [[briefs/2026-08-05-personal-assistant-research-first-return-audit]]
+- [[briefs/2026-08-05-personal-assistant-research-gemini]]
+- [[context/business-opportunities-moc]]
+- [[context/index]]
+

@@ -134,7 +134,9 @@ The defensible wedge is therefore not “digital handover.” It is the homeowne
 #
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]]
 - [[companies/openhouse-ai]]
+
 
 ## Recommendation
 

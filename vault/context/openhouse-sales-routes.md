@@ -105,6 +105,8 @@ Build a target list of 50 developers and 20 partner channels, then test 3 messag
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-openbook-reset]]
 - [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]]
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-dtc-home-agent-plan-2026-06-29]]

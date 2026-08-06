@@ -295,3 +295,10 @@ Approval is not assumed from the existence of this note.
 - [[briefs/2026-08-05-openhouse-us-builder-channel-prospect-lane]]
 - [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
 - [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]]
+- [[context/index]]
+- [[project_state/oh]]
+

@@ -204,7 +204,13 @@ Do not use generic `Approve`, `Confirm` or `Yes` when the verb can name the effe
 
 **[DR]** Do not expose a numeric confidence score unless calibrated for that exact task and shown in user research to improve decisions. Name the ambiguity and the verification route instead.
 
-### Guardrails that preserve usability
+#
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-personal-assistant-research-gemini]]
+- [[briefs/2026-08-05-phosphen-karpathy-llm-use-source-audit]]
+
+## Guardrails that preserve usability
 
 - **[DR]** Put deterministic policy between the model and every tool: scope check, action classification, approval requirement, idempotency key, postcondition check and receipt.
 - **[DR]** Treat pages, emails, documents, OCR and tool output as untrusted data; their text cannot grant authority. Isolate browsing and limit available secrets/actions. [S10–S12]

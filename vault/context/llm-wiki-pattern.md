@@ -83,6 +83,7 @@ A successful pass should show all of these:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-graph-engineering-research-and-implementation]]
+- [[briefs/2026-08-05-phosphen-karpathy-llm-use-source-audit]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
 - [[briefs/wiki-refiner-2026-06-28]]

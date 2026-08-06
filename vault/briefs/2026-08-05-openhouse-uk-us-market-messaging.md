@@ -134,3 +134,9 @@ This proves usage and repeated information demand. It does not prove external wi
 - [[items/oh-uk-aftercare-design-partner-sprint]]
 - [[items/oh-us-builder-warranty-discovery-sprint]]
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-openhouse-uk-aftercare-prospect-lane]]
+- [[briefs/2026-08-05-openhouse-us-builder-channel-prospect-lane]]
+

@@ -700,3 +700,8 @@ The sequence is:
 - National site counts do not equal budget-qualified customers.
 - TAM, service prices and payback ranges in this report are transparent planning scenarios pending real Irish quotes and customer interviews.
 - Three delegated research runs timed out after collecting source material. Their underlying source files and transcripts were inspected and incorporated where verifiable; no missing subagent conclusion was treated as evidence.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]]
+

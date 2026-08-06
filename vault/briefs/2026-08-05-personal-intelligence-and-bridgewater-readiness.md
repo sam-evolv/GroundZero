@@ -140,10 +140,9 @@ The single highest-leverage founder step is to **confirm the Bridgewater meeting
 - [[private/learning-library/source-registry]] — Substack and podcast feed registry
 
 ## Notes that link here
-
 _Auto-generated: updated by wiki-refiner_
+- [[context/index]]
 
----
 
 ## Three priorities for Sam on 5 August (ranked by commercial / proof value)
 

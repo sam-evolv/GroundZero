@@ -67,6 +67,10 @@ Acceptance target from the starter pack:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-14-morning-briefing-golf-cara]]
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
+- [[briefs/2026-08-05-personal-assistant-research-charter]]
+- [[briefs/2026-08-05-personal-assistant-research-codex]]
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/cara-founder-voice-build-sprint-2026-07-12]]
 - [[briefs/cara-realtime-car-voice-acceptance]]
@@ -112,6 +116,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-02]]
 - [[briefs/wiki-refiner-2026-08-03]]
 - [[briefs/wiki-refiner-2026-08-04]]
+- [[briefs/wiki-refiner-2026-08-05]]
 - [[companies/cara]]
 - [[context/dashboard]]
 - [[context/index]]

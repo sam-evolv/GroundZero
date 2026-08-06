@@ -415,8 +415,13 @@ Send a short recap within 24 hours. It should contain:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-bridgewater-meeting-card]]
+- [[briefs/2026-08-04-openhouse-product-truth-night-audit]]
 - [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]]
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]
+- [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
+- [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
+- [[companies/openhouse-ai]]
 - [[items/oh-bridgewater-rapid-onboarding]]
 - [[items/oh-bridgewater-warm-introduction]]
 - [[project_state/oh]]

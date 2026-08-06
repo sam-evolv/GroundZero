@@ -135,6 +135,8 @@ source: delegated web research
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+- [[briefs/2026-08-05-openhouse-uk-us-market-messaging]]
 - [[briefs/openhouse-dtc-core-thesis-2026-06-29]]
 - [[briefs/openhouse-dtc-home-context-research-2026-06-29]]
 - [[briefs/openhouse-energy-assistant-wedge]]
@@ -146,5 +148,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/business-opportunities-moc]]
 - [[context/openhouse-sales-routes]]
 - [[items/oh-uk-aftercare-design-partner-sprint]]
+- [[items/oh-us-builder-warranty-discovery-sprint]]
 - [[project_state/oh]]
 

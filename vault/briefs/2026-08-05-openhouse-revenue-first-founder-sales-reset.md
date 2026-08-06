@@ -134,3 +134,17 @@ A future commercial cofounder or senior hire may be valuable, but only after Sam
 - [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]] — resignation gates
 - [[project_state/oh]] — current OpenHouse state
 - [[context/openhouse-sales-routes]] — broader sales strategy
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
+- [[briefs/2026-08-04-openhouse-founder-morning-action-brief]]
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+- [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]]
+- [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]]
+- [[context/index]]
+- [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]
+- [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]
+- [[items/oh-us-builder-warranty-discovery-sprint]]
+- [[project_state/oh]]
+

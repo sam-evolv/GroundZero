@@ -641,3 +641,8 @@ If at least three sites share the route and one buyer funds an assessment, conti
 - Pricing outside published OEM figures is explicitly illustrative.
 - Suitable asset counts and cleaning frequency are not publicly measured and must be established through discovery.
 - The brother's exact engineering discipline and contractual boundaries remain unknown.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/wiki-refiner-2026-08-05]]
+

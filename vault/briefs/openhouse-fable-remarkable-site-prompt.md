@@ -323,4 +323,5 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-07-27]]
 - [[briefs/wiki-refiner-2026-07-28]]
 - [[briefs/wiki-refiner-2026-07-29]]
+- [[briefs/wiki-refiner-2026-08-05]]
 

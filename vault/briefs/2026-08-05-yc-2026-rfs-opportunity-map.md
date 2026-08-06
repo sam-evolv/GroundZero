@@ -180,3 +180,10 @@ The default answer remains: strengthen OpenHouse, prove one independent buyer, a
 - [[context/agentic-value-creation-mission]] — value and autonomy discipline
 - [[briefs/2026-08-04-ireland-low-barrier-commercial-robotics-opportunity-study]] — robotics managed-service screen
 - [[context/consulting-wedges]] — service-first validation patterns
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-yc-ireland-founder-fit-opportunity-screen]]
+- [[context/business-opportunities-moc]]
+- [[context/index]]
+

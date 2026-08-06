@@ -77,5 +77,10 @@ scope
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-graph-engineering-research-and-implementation]]
+- [[briefs/2026-08-05-phosphen-karpathy-llm-use-source-audit]]
+- [[companies/openhouse-ai]]
+- [[context/agentic-value-creation-mission]]
+- [[context/founder-execution-os]]
 - [[context/ops-automation-moc]]
+- [[project_state/oh]]
 

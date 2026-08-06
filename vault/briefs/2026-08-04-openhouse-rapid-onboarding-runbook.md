@@ -286,8 +286,13 @@ Before a real cohort:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-bridgewater-meeting-card]]
+- [[briefs/2026-08-04-bridgewater-meeting-preparation]]
 - [[briefs/2026-08-04-business-post-ai-leadership-awards-application]]
+- [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]
+- [[companies/openhouse-ai]]
 - [[items/oh-bridgewater-rapid-onboarding]]
 - [[items/oh-bridgewater-warm-introduction]]
+- [[items/oh-onboarding-cut]]
+- [[items/oh-onboarding-packet-automation]]
 - [[project_state/oh]]
 
