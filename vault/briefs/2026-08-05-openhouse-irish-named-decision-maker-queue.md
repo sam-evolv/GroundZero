@@ -127,5 +127,10 @@ Do not invent a personal name for these yet.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]]
+- [[briefs/2026-08-05-openhouse-first-message-approval-queue]]
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]
 - [[context/index]]
+- [[items/oh-sean-gallagher-reconnection]]
 

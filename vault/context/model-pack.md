@@ -11,21 +11,29 @@ Use this note when a model needs quick, high-signal context.
 1. [[context/index]]
 2. [[people/sam-donworth]]
 3. [[companies/openhouse-ai]]
-4. [[companies/cara]]
-5. [[companies/openbook]]
-6. [[companies/evolv-renewables]]
-7. [[project_state/cara]]
-8. [[project_state/oh]]
-9. [[project_state/ob]]
-10. [[project_state/renew]]
+4. [[companies/personal-agent]]
+5. [[companies/cara]]
+6. [[companies/openbook]]
+7. [[companies/evolv-renewables]]
+8. [[project_state/personal-agent]]
+9. [[project_state/cara]]
+10. [[project_state/oh]]
+11. [[project_state/ob]]
+12. [[project_state/renew]]
 
 ## Sam
-- Founder of OpenHouse AI, OpenBook, and Evolv Renewables.
+- Founder of OpenHouse AI, OpenBook, Evolv Renewables and the active personal-agent venture (working product repository IrelandGPT; final name undecided).
 - Wants no-fluff help that saves time, reduces stress, and creates value.
 - Works full-time, so plans should fit evenings and weekends and target near-term cash.
 - Prefers voice replies only in car mode or after sending a voice note.
 
 ## Companies
+### Personal agent venture
+- Active runtime-first build in `/Users/samdonworth/Projects/IrelandGPT`; final name undecided.
+- Hermes is the engine. The first product reproduces Sam's useful working experience through web and desktop, then simplifies from founder dogfood.
+- Distribution thesis: verified work completed with the agent becomes founder-led proof, with every outward post approved by Sam.
+- See [[briefs/2026-08-06-personal-agent-founder-operating-brief]] and [[project_state/personal-agent]].
+
 ### Cara
 - New started-building venture: Irish SME callable digital assistant / phone-number-with-a-brain.
 - Immediate focus: Phase 0 M1 — one excellent +353 live call with transcript and cost logging before app/dashboard work.

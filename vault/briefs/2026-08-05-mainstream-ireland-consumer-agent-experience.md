@@ -922,6 +922,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-personal-assistant-research-codex]]
 - [[briefs/2026-08-05-personal-assistant-research-first-return-audit]]
 - [[briefs/2026-08-05-personal-assistant-research-gemini]]
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]
 

@@ -266,5 +266,9 @@ Weak, labelled as such: push notification opt-in benchmarks (pushwoosh.com, vmob
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
+- [[briefs/2026-08-05-personal-assistant-research-charter]]
 - [[context/index]]
 

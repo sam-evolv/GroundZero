@@ -183,7 +183,11 @@ The default answer remains: strengthen OpenHouse, prove one independent buyer, a
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-ireland-low-barrier-commercial-robotics-opportunity-study]]
 - [[briefs/2026-08-04-yc-ireland-founder-fit-opportunity-screen]]
+- [[companies/openhouse-ai]]
+- [[context/agentic-value-creation-mission]]
 - [[context/business-opportunities-moc]]
+- [[context/consulting-wedges]]
 - [[context/index]]
 

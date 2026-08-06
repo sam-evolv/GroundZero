@@ -16,13 +16,15 @@ This is the first note to load when a model needs cross-business context.
 1. [[context/model-pack]]
 2. [[people/sam-donworth]]
 3. [[companies/openhouse-ai]]
-4. [[companies/cara]]
-5. [[companies/openbook]]
-6. [[companies/evolv-renewables]]
-7. [[project_state/cara]]
-8. [[project_state/oh]]
-9. [[project_state/ob]]
-10. [[project_state/renew]]
+4. [[companies/personal-agent]]
+5. [[companies/cara]]
+6. [[companies/openbook]]
+7. [[companies/evolv-renewables]]
+8. [[project_state/personal-agent]]
+9. [[project_state/cara]]
+10. [[project_state/oh]]
+11. [[project_state/ob]]
+12. [[project_state/renew]]
 
 ## What lives where
 - **people/**: stable personal preferences, working style, and operating rules
@@ -67,6 +69,8 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]] — four grounded Irish relationship and decision routes with send-ready copy
 - [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]] — copy-ready one-scheme commercial proposal
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — consumer-first managed-agent opportunity, MIT/upstream constraints and validation approach
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — canonical founder thesis, build sequence, dogfood loop and agent-built distribution story
+- [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — superseding decision: preserve Hermes breadth first, simplify from founder dogfood
 - [[briefs/2026-08-05-personal-assistant-research-charter]] — master evidence-led research prompt, research graph, source ledger and parallel deep-dive programme for the device-native personal assistant
 - [[briefs/2026-08-05-personal-assistant-research-first-return-audit]] — review of first external research return, accepted insights and claims requiring verification
 - [[briefs/2026-08-05-personal-assistant-research-claude]] — Claude workstream 1 on platform/channel/pairing, source-led and retained pending synthesis
@@ -83,6 +87,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/planet-satellite-opportunity]] — satellite imagery cross-domain bridge
 
 ## Current picture
+- The personal-agent venture is now an active runtime-first build in `/Users/samdonworth/Projects/IrelandGPT`; see [[briefs/2026-08-06-personal-agent-founder-operating-brief]], [[companies/personal-agent]] and [[project_state/personal-agent]]. Hermes remains the engine, and simplification follows founder dogfood.
 - OpenHouse AI is the main focus. The marketing site is nearly complete, followed by investor/developer outreach and funding/award applications. See [[briefs/2026-07-24-openhouse-openbook-reset]].
 - Cara is a new started-building venture: Irish SME callable digital assistant; Phase 0 target is one excellent +353 live call before app/dashboard work.
 - OpenBook's immediate commercial unblock is a light client-edit portal followed by €79/month Stripe billing; lead-gen automation is a constrained follow-on pilot.
@@ -118,6 +123,24 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-14-morning-briefing-golf-cara]]
 - [[briefs/2026-07-24-openhouse-openbook-reset]]
 - [[briefs/2026-08-04-graph-engineering-research-and-implementation]]
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
+- [[briefs/2026-08-05-openhouse-first-message-approval-queue]]
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+- [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]]
+- [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]]
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]
+- [[briefs/2026-08-05-openhouse-uk-aftercare-prospect-lane]]
+- [[briefs/2026-08-05-openhouse-us-builder-channel-prospect-lane]]
+- [[briefs/2026-08-05-personal-assistant-prototype-start-gate]]
+- [[briefs/2026-08-05-personal-assistant-research-charter]]
+- [[briefs/2026-08-05-personal-assistant-research-claude]]
+- [[briefs/2026-08-05-personal-assistant-research-first-return-audit]]
+- [[briefs/2026-08-05-personal-assistant-research-gemini]]
+- [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]
+- [[briefs/2026-08-05-phosphen-karpathy-llm-use-source-audit]]
+- [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
 - [[briefs/chatgpt-voice-founder-os-2026-07-31]]

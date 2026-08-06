@@ -107,5 +107,11 @@ This extract supports, but does not supersede:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
+- [[briefs/2026-08-05-personal-assistant-research-charter]]
+- [[briefs/2026-08-05-personal-assistant-research-codex]]
+- [[context/agentic-value-creation-mission]]
 - [[context/index]]
 

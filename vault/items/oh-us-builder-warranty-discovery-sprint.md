@@ -85,7 +85,10 @@ Promote from discovery into implementation only if:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]
 - [[briefs/2026-08-05-openhouse-uk-us-market-messaging]]
 - [[briefs/2026-08-05-openhouse-us-builder-channel-prospect-lane]]
+- [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
 - [[project_state/oh]]
 

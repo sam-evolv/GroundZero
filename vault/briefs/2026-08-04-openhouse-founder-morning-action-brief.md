@@ -103,6 +103,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-openhouse-care-installer-paid-validation]]
 - [[briefs/2026-08-04-openhouse-product-truth-night-audit]]
 - [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[companies/openhouse-ai]]
 - [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]

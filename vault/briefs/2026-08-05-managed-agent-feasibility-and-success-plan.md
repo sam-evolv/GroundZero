@@ -491,14 +491,24 @@ A fresh external competitor and consumer-demand scan was not completed because t
 
 - [[imports/cara-conversation-summary-2026-07-12]] — shared signals: conversation, summary, cara
 
+- [[imports/2026-08-06-personal-agent-founder-voice-notes]] — shared signals: personal, founder, voice
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]]
 - [[briefs/2026-08-05-personal-assistant-research-charter]]
 - [[briefs/2026-08-05-personal-assistant-research-claude]]
 - [[briefs/2026-08-05-personal-assistant-research-codex]]
 - [[briefs/2026-08-05-personal-assistant-research-first-return-audit]]
 - [[briefs/2026-08-05-personal-assistant-research-gemini]]
+- [[briefs/hermes-community-use-cases-2026-07-28]]
+- [[companies/cara]]
+- [[context/agentic-value-creation-mission]]
 - [[context/business-opportunities-moc]]
+- [[context/founder-execution-os]]
 - [[context/index]]
+- [[context/solo-founder-era]]
+- [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
+- [[people/sam-donworth]]
+- [[project_state/cara]]
 

@@ -163,7 +163,10 @@ Date: ____________________
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-24-openhouse-market-readiness-audit]]
 - [[briefs/2026-08-05-openhouse-first-message-approval-queue]]
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]
 - [[briefs/2026-08-05-openhouse-uk-aftercare-prospect-lane]]
 - [[briefs/2026-08-05-openhouse-uk-us-market-messaging]]
 - [[briefs/2026-08-05-openhouse-us-builder-channel-prospect-lane]]

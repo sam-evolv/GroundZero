@@ -35,6 +35,8 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[context/consulting-wedges]] — developer / renewables / solicitors consultancy offers
 
 ### Cross-cutting AI patterns
+- [[companies/personal-agent]] — active subscription personal-agent venture, working repository IrelandGPT and final name undecided
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — current founder thesis, runtime-first sequence, dogfood and proof distribution loop
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] - consumer-first managed-agent product thesis
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] - feasibility, architecture, economics and bounded alpha plan
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] - mainstream Ireland experience, first-magic loop and gateway-platform path
@@ -70,6 +72,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/10-non-common-ai-money-ideas]]
 - [[briefs/2026-06-30]]
 - [[briefs/2026-07-21-escape-velocity-income-engine]]
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]]
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
 - [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]]
@@ -94,6 +97,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
+- [[companies/personal-agent]]
 - [[context/autonomous-business-launch-loop]]
 - [[context/capture-workflow]]
 - [[context/consulting-wedges]]

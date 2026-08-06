@@ -1,7 +1,8 @@
 ---
 title: Personal assistant prototype start gate
-status: ready-to-bootstrap
+status: superseded-in-part
 created: 2026-08-05
+superseded_by: decisions/2026-08-06-personal-agent-runtime-first-sequence
 verified: 2026-08-05
 source: Sam discussion and reviewed research
 related:
@@ -12,6 +13,8 @@ related:
 ---
 
 # Personal assistant prototype start gate
+
+> **Historical gate:** the safety and evidence requirements remain relevant. The folder-retrieval-first milestone was superseded on 6 August 2026 by [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]. Hermes is now required on the primary path from the first usable wrapper.
 
 ## Decision
 
@@ -102,4 +105,5 @@ Building may begin once the product repository is private and Gate Zero is accep
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[context/index]]
+- [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
 

@@ -298,7 +298,11 @@ Approval is not assumed from the existence of this note.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
 - [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]]
+- [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]]
+- [[briefs/2026-08-05-openhouse-uk-aftercare-prospect-lane]]
+- [[briefs/2026-08-05-openhouse-us-builder-channel-prospect-lane]]
 - [[context/index]]
 - [[project_state/oh]]
 

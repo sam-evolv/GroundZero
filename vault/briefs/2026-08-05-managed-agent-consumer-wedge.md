@@ -161,14 +161,23 @@ A compelling experience is likely not a chat box alone. It should combine a simp
 
 - [[imports/cara-conversation-summary-2026-07-12]] — shared signals: conversation, summary, cara
 
+- [[imports/2026-08-06-personal-agent-founder-voice-notes]] — shared signals: personal, founder, voice
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
 - [[briefs/2026-08-05-personal-assistant-research-charter]]
 - [[briefs/2026-08-05-personal-assistant-research-claude]]
 - [[briefs/2026-08-05-personal-assistant-research-codex]]
 - [[briefs/2026-08-05-personal-assistant-research-first-return-audit]]
 - [[briefs/2026-08-05-personal-assistant-research-gemini]]
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
+- [[companies/cara]]
+- [[companies/openbook]]
+- [[companies/personal-agent]]
+- [[context/agentic-value-creation-mission]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]
+- [[context/solo-founder-era]]
+- [[project_state/cara]]
 

@@ -2,7 +2,7 @@
 title: Wiki Refiner 2026-08-06
 kind: wiki_refiner_brief
 date: "2026-08-06"
-ran_at: "2026-08-06T02:15:57+01:00"
+ran_at: "2026-08-06T07:36:41+01:00"
 ---
 
 # Wiki Refiner 2026-08-06
@@ -10,11 +10,14 @@ ran_at: "2026-08-06T02:15:57+01:00"
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
 
 ## Auto-backlinks written
-- `cara-conversation-summary-2026-07-12.md` → `briefs/2026-08-05-managed-agent-consumer-wedge.md` (score 45)
-- `cara-conversation-summary-2026-07-12.md` → `briefs/2026-08-05-managed-agent-feasibility-and-success-plan.md` (score 41)
-- `SKILL.md` → `briefs/2026-08-05-personal-assistant-research-charter.md` (score 96)
+- `2026-08-06-personal-agent-founder-voice-notes.md` → `briefs/2026-08-05-managed-agent-consumer-wedge.md` (score 205)
+- `2026-08-06-personal-agent-founder-voice-notes.md` → `briefs/openhouse-dtc-master-plan-2026-07-27.md` (score 196)
+- `2026-08-06-personal-agent-founder-voice-notes.md` → `briefs/2026-08-05-managed-agent-feasibility-and-success-plan.md` (score 192)
 
 ## Sources reviewed
+- `imports/2026-08-06-personal-agent-founder-voice-notes.md` -> `briefs/2026-08-05-personal-assistant-research-codex.md`
+  - Summary: > This preserves the substance and sequencing of Sam's two voice notes. Obvious transcription noise has been cleaned, but ambiguous wording is not treated as a precise quote. Th... Sam has always wanted to build a subscription business. The emergence of OpenClaw and Hermes made the opportunity concrete: agents are becoming capable enough to help run a busi... The product thesis comes from Sam's own use of a deeply contextual personal agent and Ground Zero. If an agent has the right context about a person's life, projects, preferences... Most people still do not understand or use agents. Hermes is extremely capable, but even for Sam, who is technical, agent setup has involved command lines, providers, gateways a...
+  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[briefs/2026-08-05-managed-agent-consumer-wedge]], [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
 - `imports/campaigns/openhouse-full-context.md` -> `companies/openhouse-ai.md`
   - Summary: A single place that holds the whole picture: what OpenHouse is, why it exists, what is built and proven today, what is coming, the market and regulatory ground it stands on, and... --- OpenHouse is an AI layer that sits over a new home and the development it belongs to. For the homeowner it is a brain in every house, trained on that home's own documents and sy... ---
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]], [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]]
@@ -41,26 +44,26 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[briefs/wiki-refiner-2026-08-01]], [[briefs/wiki-refiner-2026-06-26]], [[briefs/wiki-refiner-2026-06-27]]
 
 ## Strongest connected notes
-- [[briefs/2026-08-05-personal-assistant-research-codex]] (659)
+- [[briefs/2026-08-05-personal-assistant-research-codex]] (276)
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]] (205)
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]] (196)
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] (192)
+- [[briefs/2026-08-05-personal-assistant-research-charter]] (189)
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] (187)
 - [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]] (457)
-- [[briefs/openhouse-dtc-master-plan-2026-07-27]] (447)
-- [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]] (426)
-- [[briefs/2026-08-05-personal-assistant-research-claude]] (398)
-- [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]] (388)
-- [[briefs/openhouse-yc-narrative-rubric-2026-07-29]] (200)
+- [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]] (427)
+- [[briefs/2026-08-05-personal-assistant-research-claude]] (399)
+- [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]] (200)
 - [[project_state/cara]] (46)
-- [[briefs/2026-08-05-managed-agent-consumer-wedge]] (45)
-- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] (41)
 - [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]] (40)
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]] (240)
 - [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]] (222)
+- [[briefs/openhouse-yc-narrative-rubric-2026-07-29]] (222)
 - [[companies/openhouse-ai]] (245)
 - [[project_state/oh]] (172)
 - [[briefs/sam-linkedin-signal-engine-stanley-teardown-2026-07-31]] (137)
 - [[context/openhouse-openbook-design-system]] (134)
 - [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]] (108)
-- [[briefs/2026-08-05-personal-assistant-research-charter]] (96)
-- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] (85)
 - [[briefs/wiki-refiner-2026-08-01]] (17)
 - [[briefs/wiki-refiner-2026-06-26]] (16)
 - [[briefs/wiki-refiner-2026-06-27]] (16)

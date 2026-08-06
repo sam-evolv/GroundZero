@@ -142,5 +142,11 @@ These points reinforce the existing [[briefs/2026-08-04-graph-engineering-resear
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-graph-engineering-research-and-implementation]]
+- [[briefs/2026-08-05-personal-assistant-research-codex]]
+- [[context/agentic-value-creation-mission]]
+- [[context/founder-execution-os]]
 - [[context/index]]
+- [[context/llm-wiki-pattern]]
+- [[items/ops-graph-engineering-pilot]]
 

@@ -141,7 +141,17 @@ The single highest-leverage founder step is to **confirm the Bridgewater meeting
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-22-six-month-agent-co-pilot-challenge]]
+- [[briefs/2026-08-04-bridgewater-meeting-card]]
+- [[briefs/2026-08-04-bridgewater-meeting-preparation]]
+- [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]]
+- [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
+- [[companies/openhouse-ai]]
 - [[context/index]]
+- [[decisions/2026-07-22-six-month-agent-co-pilot-protocol]]
+- [[items/oh-bridgewater-rapid-onboarding]]
+- [[items/oh-bridgewater-warm-introduction]]
+- [[project_state/oh]]
 
 
 ## Three priorities for Sam on 5 August (ranked by commercial / proof value)

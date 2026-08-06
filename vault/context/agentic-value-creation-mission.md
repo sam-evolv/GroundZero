@@ -150,4 +150,5 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/ai-founder-coach-operating-agreement-2026-07-14]]
 - [[items/agentic-income-evidence-sprint]]
 - [[items/ops-graph-engineering-pilot]]
+- [[items/personal-agent-founder-dogfood-and-proof-loop]]
 

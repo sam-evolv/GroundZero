@@ -8,6 +8,12 @@ updated_at: "2026-07-27"
 
 This index tracks the current active idea queue. Each entry links to its item note.
 
+## Personal agent venture
+
+| Item | Summary | Size | Status |
+|---|---|---|---|
+| [[items/personal-agent-founder-dogfood-and-proof-loop]] | Real Hermes wrapper, founder dogfood, home-screen access and verified proof loop | L | building 🔥 |
+
 ## Cara
 
 | Item | Summary | Size | Status |

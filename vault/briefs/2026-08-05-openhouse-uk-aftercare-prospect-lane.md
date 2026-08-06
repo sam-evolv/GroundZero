@@ -172,6 +172,10 @@ Prepare personalised messages for Stonebond, Weston, Hayfield, Wavensmere and Al
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-openhouse-first-message-approval-queue]]
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+- [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]]
+- [[briefs/2026-08-05-openhouse-uk-us-market-messaging]]
 - [[context/index]]
+- [[items/oh-uk-aftercare-design-partner-sprint]]
 - [[project_state/oh]]
 

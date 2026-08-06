@@ -21,6 +21,12 @@ Every decision is stored in `decisions/` as a permanent note. This log orders th
 | 2026-06-09 | Stack fixed: React, Next.js, Supabase, Vercel | No framework migrations proposed | Active |
 | 2026-06-09 | Security audited and hardened | 10 endpoints remediated, RLS on 35+ tables | Active |
 
+## Personal agent venture
+
+| Date | Decision | Consequences | Status |
+|---|---|---|---|
+| 2026-08-06 | [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] - Preserve Hermes breadth first and simplify from founder dogfood | Web and desktop wrapper precede native apps; folder retrieval becomes secondary; model economics are chosen after usage evidence | Active |
+
 ## Cara
 
 | Date | Decision | Consequences | Status |
@@ -60,6 +66,7 @@ When you make a decision:
 
 ## Connected vault notes
 
+- [[companies/personal-agent]] — active personal-agent venture
 - [[companies/openhouse-ai]] — OH decisions
 - [[companies/openbook]] — OB decisions
 - [[companies/evolv-renewables]] — Renew decisions

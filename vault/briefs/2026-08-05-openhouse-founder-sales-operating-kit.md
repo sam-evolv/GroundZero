@@ -322,13 +322,18 @@ Agents may research, draft, personalise, rank, update the pipeline and prepare p
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]]
 - [[briefs/2026-08-05-openhouse-first-message-approval-queue]]
 - [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]]
 - [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]]
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]
 - [[briefs/2026-08-05-openhouse-uk-aftercare-prospect-lane]]
 - [[briefs/2026-08-05-openhouse-uk-us-market-messaging]]
 - [[briefs/2026-08-05-openhouse-us-builder-channel-prospect-lane]]
+- [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
 - [[context/index]]
+- [[context/openhouse-sales-routes]]
+- [[items/oh-uk-aftercare-design-partner-sprint]]
 - [[items/oh-us-builder-warranty-discovery-sprint]]
 - [[project_state/oh]]
 

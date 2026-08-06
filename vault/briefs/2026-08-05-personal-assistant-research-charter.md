@@ -382,9 +382,14 @@ Do not turn research volume into a build plan automatically. After collecting re
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
 - [[briefs/2026-08-05-personal-assistant-research-claude]]
 - [[briefs/2026-08-05-personal-assistant-research-codex]]
 - [[briefs/2026-08-05-personal-assistant-research-first-return-audit]]
 - [[briefs/2026-08-05-personal-assistant-research-gemini]]
+- [[companies/cara]]
 - [[context/index]]
+- [[project_state/cara]]
 

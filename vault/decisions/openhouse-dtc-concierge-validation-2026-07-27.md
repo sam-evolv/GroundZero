@@ -87,6 +87,7 @@ After this proof, continue the existing sequence with the Longview developer bas
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-market-readiness-audit]]
+- [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]
 - [[briefs/openhouse-a-rated-homeowner-policy-thesis-2026-07-28]]
 - [[briefs/openhouse-a-rated-homeowner-primary-integration-2026-07-28]]
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]

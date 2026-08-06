@@ -207,8 +207,15 @@ Do not use generic `Approve`, `Confirm` or `Yes` when the verb can name the effe
 #
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
+- [[briefs/2026-08-05-personal-assistant-research-charter]]
 - [[briefs/2026-08-05-personal-assistant-research-gemini]]
 - [[briefs/2026-08-05-phosphen-karpathy-llm-use-source-audit]]
+- [[companies/cara]]
+- [[project_state/cara]]
+
 
 ## Guardrails that preserve usability
 
