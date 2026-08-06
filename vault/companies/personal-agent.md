@@ -27,6 +27,8 @@ Sam has experienced the value directly through Hermes plus Ground Zero. The vent
 - inspectable personal context inspired by Ground Zero
 - invisible model routing after real usage is measured
 - optional device and file capabilities as parts of the assistant
+- durable handoffs rather than disposable chat turns, with Doing, Done receipts and an inspectable You surface
+- bounded browser use for everyday outcomes, separated from payment, sending, booking and account-change approvals
 
 ## Distribution
 
@@ -54,6 +56,7 @@ These are testable hypotheses, not final public pricing.
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — active item
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — strategic foundation
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]] — model-agnostic harness and enterprise sovereignty signal
+- [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: Hark study and adopted product mechanics
 - [[context/business-opportunities-moc]] — opportunity map
 
 ## Notes that link here

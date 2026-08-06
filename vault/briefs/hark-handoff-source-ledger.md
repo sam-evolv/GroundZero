@@ -8,15 +8,15 @@ created: 2026-08-06
 
 ## Primary sources
 
-- [Brett Adcock launch post and 4:14 product video](https://x.com/adcock_brett/status/2085018697312383349) — launch framing, spoken demo, task montage and public claims.
-- [Introducing Hark Handoff](https://hark.com/articles/introducing-hark-handoff) — official architecture, benchmark methodology, training approach, costs and task examples.
-- [Hark product site](https://hark.com/) — broader personal-intelligence, multimodal, persistent-memory, hardware and proactive-product thesis.
-- [Hark privacy policy](https://hark.com/privacy-policy) — sandbox, browser operator, connector, retention and data-use disclosures.
+- [Brett Adcock launch post and 4:14 product video](https://x.com/adcock_brett/status/2085018697312383349): launch framing, spoken demo, task montage and public claims.
+- [Introducing Hark Handoff](https://hark.com/articles/introducing-hark-handoff): official architecture, benchmark methodology, training approach, costs and task examples.
+- [Hark product site](https://hark.com/): broader personal-intelligence, multimodal, persistent-memory, hardware and proactive-product thesis.
+- [Hark privacy policy](https://hark.com/privacy-policy): sandbox, browser operator, connector, retention and data-use disclosures.
 
 ## Independent and public benchmark sources
 
-- [Online-Mind2Web human leaderboard CSV](https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard/blob/main/human_Mind2Web-Online%20-%20Leaderboard_data.csv) — lists Hark Handoff at 97.7% average success and attributes the row to Careerflow human data.
-- [Princeton HAL Online Mind2Web](https://hal.cs.princeton.edu/online_mind2web) — benchmark scope, live-site methodology, 300 tasks and 136 websites.
+- [Online-Mind2Web human leaderboard CSV](https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard/blob/main/human_Mind2Web-Online%20-%20Leaderboard_data.csv): lists Hark Handoff at 97.7% average success and attributes the row to Careerflow human data.
+- [Princeton HAL Online Mind2Web](https://hal.cs.princeton.edu/online_mind2web): benchmark scope, live-site methodology, 300 tasks and 136 websites.
 
 ## Claim boundary
 
@@ -31,6 +31,6 @@ The public leaderboard corroborates Hark's score on Online-Mind2Web. It does not
 
 ## Connected vault notes
 
-- [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]] — product conclusions and implementation sequence
-- [[companies/personal-agent]] — venture context
-- [[project_state/personal-agent]] — live build state
+- [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: product conclusions and implementation sequence
+- [[companies/personal-agent]]: venture context
+- [[project_state/personal-agent]]: live build state

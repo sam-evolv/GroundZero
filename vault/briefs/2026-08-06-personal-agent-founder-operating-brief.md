@@ -37,6 +37,12 @@ Do not replace Hermes with a narrower engine merely because that path is easier 
 6. **Native apps:** build iOS and Android once the interaction model has earned stability.
 7. **Model economics last:** choose and route models after measuring real workload, quality and cost. Keep providers invisible to ordinary users.
 
+## Handoff interaction refinement
+
+The Hark study sharpens the product unit without changing the Hermes-first sequence. Conversation remains the natural control surface, but a consequential request becomes a durable handoff with an active state, clarification, approval, recovery and final receipt. See [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]].
+
+The first product surfaces should evolve toward **Doing**, **Done** and **You**. Browser use is added only as a bounded Hermes capability with isolated execution and consequence-specific approvals.
+
 ## Founder-led proof loop
 
 The company should demonstrate itself:
@@ -69,6 +75,7 @@ Sam can open the preview without a terminal, start or resume a real Hermes conve
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — current work
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — prior product thesis
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] — mainstream UX research
+- [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: competitive study and adopted handoff mechanics
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_

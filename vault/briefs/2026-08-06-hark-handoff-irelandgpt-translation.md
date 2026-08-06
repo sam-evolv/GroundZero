@@ -152,10 +152,10 @@ Gate: repeat tasks need materially less setup while the user can see, correct an
 
 ## Connected vault notes
 
-- [[companies/personal-agent]] — venture context
-- [[project_state/personal-agent]] — current build state
-- [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — founder thesis and build sequence
-- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] — mainstream Irish experience and three-minute magic
-- [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — Hermes-first sequencing decision
-- [[hark-handoff-source-ledger]] — exact public sources and claim boundaries
-- [[context/index]] — shared entry point
+- [[companies/personal-agent]]: venture context
+- [[project_state/personal-agent]]: current build state
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]]: founder thesis and build sequence
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]: mainstream Irish experience and three-minute magic
+- [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]: Hermes-first sequencing decision
+- [[hark-handoff-source-ledger]]: exact public sources and claim boundaries
+- [[context/index]]: shared entry point

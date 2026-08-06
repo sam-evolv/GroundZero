@@ -15,6 +15,7 @@ role: project-state
 - The full Python suite passed 102 tests outside the coding sandbox after a history-role boundary fix.
 - Five implementation commits exist locally; no production deployment or push was performed during the runtime-first build.
 - The selected-folder connector and SwiftUI simulator app remain in the repository as secondary/reference work.
+- Hark Handoff has been studied against its launch video, technical article, public leaderboard and privacy policy. The adopted direction is a calm handoff desk: durable task identity, Doing, Done receipts, missing-detail states distinct from approvals, an inspectable You surface and bounded isolated browser execution.
 - The IrelandGPT preview server still needs to be started with the live API key and exercised through a real Hermes conversation before the wrapper is accepted.
 - Final product name remains open.
 
@@ -38,6 +39,8 @@ Make the real Hermes-backed wrapper usable enough for Sam's daily founder dogfoo
 5. Install the web app to the phone home screen and test continued use.
 6. Capture screenshots, latency, failures and friction.
 7. Convert verified outcomes into product and marketing proof assets, without publishing.
+8. Reshape the existing conversation run into a durable task card with a completion receipt before adding broad browser execution.
+9. Implement one appointment-letter-to-calendar contract after Hermes exposes a safe artifact registry.
 
 ## Connected vault notes
 
@@ -45,6 +48,7 @@ Make the real Hermes-backed wrapper usable enough for Sam's daily founder dogfoo
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — founder brief
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — sequencing decision
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — active work
+- [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: current competitive product translation
 - [[imports/2026-08-06-personal-agent-founder-voice-notes]] — source
 
 ## Notes that link here
