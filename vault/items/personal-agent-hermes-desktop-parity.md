@@ -123,6 +123,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]]
 - [[companies/personal-agent]]
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
+- [[items/personal-agent-founder-dogfood-and-proof-loop]]
 - [[items/personal-agent-unit-economics-and-onboarding]]
 - [[project_state/personal-agent]]
 

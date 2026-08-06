@@ -20,7 +20,7 @@ role: project-state
 - The approved Quiet Margin candidate completed a real browser-selected JPEG run through Hermes, but deployment is now held because full Desktop capability parity is the correct product milestone.
 - Sam clarified that the next phase must reproduce every useful Hermes Agent and Desktop outcome before further consumer simplification.
 - The commercial follow-up is captured separately: bounded guest use before signup, frictionless conversion, a living user-owned Profile, optional context conversation and evidence-led €9.99/€19.99/premium/family tier hypotheses.
-- Model availability and cost claims, Irish usage, payment economics and family safety are under primary-source review. No prices or child-monitoring behavior are approved.
+- Primary-source review verified DeepSeek V4 Flash and GPT-5.6 Luna, established an Irish adoption/payment baseline and confirmed that automatic parent monitoring is not a safe launch feature. Public tier prices remain hypotheses pending measured workload and conversion evidence.
 - Final product name remains open.
 
 ## Active objective
@@ -56,6 +56,7 @@ Reach full useful Hermes Desktop outcome parity in the branded responsive wrappe
 - [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]] — current source direction
 - [[items/personal-agent-hermes-desktop-parity]] — active parity ledger
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]] — commercial and onboarding direction
+- [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]] — verified market, pricing and child-safety evidence
 - [[items/personal-agent-unit-economics-and-onboarding]] — evidence and unit-economics work
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — sequencing decision
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — active work
@@ -68,6 +69,7 @@ Reach full useful Hermes Desktop outcome parity in the branded responsive wrappe
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
+- [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]]
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]

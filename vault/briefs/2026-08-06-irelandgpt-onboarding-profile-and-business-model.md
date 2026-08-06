@@ -77,7 +77,12 @@ The desired unit-economics principle remains sound: each incremental paid custom
 
 ## Model-routing hypothesis
 
-The voice note mentioned “DeepSeek V4 Flash” and “GPT 5.6 Luna” as possible low-cost drivers. Their public availability, names, modality and pricing are unverified and must not be used in forecasts yet.
+Primary-source research confirmed that both “DeepSeek V4 Flash” and “GPT-5.6 Luna” are current public API products.
+
+- `deepseek-v4-flash`: $0.14/M uncached input, $0.0028/M cache-hit input and $0.28/M output. DeepSeek warns of a significant near-term price increase, so this route requires a pricing kill switch and must not anchor customer-tier economics.
+- `gpt-5.6-luna`: text and image input, text output, tools and reasoning at $0.20/M input, $0.02/M cached input and $1.20/M output. This is a credible default high-volume route subject to IrelandGPT workload evaluation.
+
+Full point-in-time sources and alternative routing candidates are recorded in [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]].
 
 The cost model should be provider-agnostic and workload based:
 
@@ -134,6 +139,14 @@ The unit-economics model must include:
 
 Model at least median, heavy, power and adversarial usage. A plan is viable only if heavy legitimate users do not destroy the cohort margin or force an unusably low cap.
 
+## Initial external evidence
+
+- CSO found 42% of Irish internet users aged 16+ used generative AI in the previous three months. Among users, 69% reported private use, 50% work use and 28% education use.
+- Among non-users, 54% saw no need, 20% did not know how to use it and 19% cited privacy or safety. This validates a value-first, trust-explicit onboarding strategy.
+- Ireland has strong digital-payment readiness: 85% bought online, 94% used online/mobile banking, 71% paid for video/sport streaming and 56% paid for music streaming.
+- There is still no Irish primary evidence establishing willingness to pay for an AI subscription or validating a €9.99 or €19.99 price.
+- Stripe Ireland lists standard EEA cards at 1.5% + €0.25 and Stripe Billing at 0.7% of volume. At 23% VAT, a €9.99 standard-EEA subscription leaves approximately €7.65 after VAT and these simplified payment fees, before service costs.
+
 ## Product sequence
 
 1. Complete Hermes Desktop capability parity.
@@ -147,6 +160,7 @@ Model at least median, heavy, power and adversarial usage. A plan is viable only
 
 - [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]] — functional baseline
 - [[items/personal-agent-unit-economics-and-onboarding]] — evidence and modelling work
+- [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]] — primary-source findings and current cost inputs
 - [[items/personal-agent-hermes-desktop-parity]] — active parity build
 - [[companies/personal-agent]] — venture context
 - [[project_state/personal-agent]] — live build state
@@ -155,8 +169,13 @@ Model at least median, heavy, power and adversarial usage. A plan is viable only
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]]
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
+- [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]]
 - [[companies/personal-agent]]
 - [[context/index]]
+- [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
+- [[items/personal-agent-hermes-desktop-parity]]
 - [[items/personal-agent-unit-economics-and-onboarding]]
 - [[project_state/personal-agent]]
 

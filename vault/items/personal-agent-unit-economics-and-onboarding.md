@@ -1,6 +1,6 @@
 ---
 title: IrelandGPT unit economics and onboarding validation
-status: proposed
+status: active-research
 created: 2026-08-06
 priority: P0
 size: L
@@ -33,17 +33,18 @@ Produce an evidence-backed onboarding, trial, pricing and cost model showing how
 
 ## Evidence workstreams
 
-1. Model and tool pricing.
-2. Irish consumer usage and willingness to pay.
-3. Guest conversion and signup friction.
-4. Payment, VAT and failure economics.
-5. Context-profile value and trust.
-6. Family privacy, safeguarding and account isolation.
-7. Founder workload telemetry.
+1. Model and tool pricing: initial primary-source ledger complete; price-change monitoring and evaluations remain.
+2. Irish consumer usage: CSO adoption and subscription-readiness baseline complete; IrelandGPT willingness-to-pay evidence remains.
+3. Guest conversion and signup friction: external evidence complete; product experiment remains.
+4. Payment, VAT and failure economics: public Stripe/VAT baseline complete; actual account pricing, refunds and fraud remain.
+5. Context-profile value and trust: product design and user evidence remain.
+6. Family privacy, safeguarding and account isolation: initial legal/product research complete; specialist counsel and impact assessments remain.
+7. Founder workload telemetry: not started.
 
 ## Connected vault notes
 
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]] — source direction and hypotheses
+- [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]] — verified model, market, payment and family-safety evidence
 - [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]] — product baseline
 - [[items/personal-agent-hermes-desktop-parity]] — current build work
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — workload evidence source
@@ -52,7 +53,11 @@ Produce an evidence-backed onboarding, trial, pricing and cost model showing how
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]]
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]]
+- [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]]
 - [[companies/personal-agent]]
+- [[items/personal-agent-founder-dogfood-and-proof-loop]]
+- [[items/personal-agent-hermes-desktop-parity]]
 - [[project_state/personal-agent]]
 
