@@ -20,6 +20,7 @@ Sam has experienced the value directly through Hermes plus Ground Zero. The vent
 ## Product
 
 - Hermes runtime beneath a consumer shell
+- full useful Hermes Agent and Hermes Desktop outcome parity before consumer simplification
 - delegation-first personal operating system, not another AI chatbot
 - product promise is completed outcomes and time returned, not visible intelligence or technical capability
 - persistent conversation, sessions, memory and approvals
@@ -29,6 +30,8 @@ Sam has experienced the value directly through Hermes plus Ground Zero. The vent
 - inspectable, confidence-aware personal context inspired by Ground Zero
 - invisible model routing after real usage is measured
 - just-in-time connectors and optional device or file capabilities as parts of the assistant
+- Irish-English default soul with tasteful contextual Irish phrasing and optional formal, warm, colloquial, concise or reflective personality profiles
+- the same complete capability set adapted responsively for web and phone, with trusted local powers executed by Hermes or a paired desktop companion
 - durable handoffs rather than disposable chat turns, with Doing, Done receipts and an inspectable You surface
 - bounded browser use for everyday outcomes, separated from payment, sending, booking and account-change approvals
 - first-use design centred on completing one hated administrative job within minutes
@@ -54,6 +57,8 @@ These are testable hypotheses, not final public pricing.
 ## Connected vault notes
 
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — current founder brief
+- [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]] — full-parity clarification
+- [[items/personal-agent-hermes-desktop-parity]] — active parity ledger
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — delegation-first product and design charter
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — build order
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]] — user-facing product promise

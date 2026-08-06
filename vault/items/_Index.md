@@ -13,6 +13,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 | Item | Summary | Size | Status |
 |---|---|---|---|
 | [[items/personal-agent-founder-dogfood-and-proof-loop]] | Real Hermes wrapper, founder dogfood, home-screen access and verified proof loop | L | building 🔥 |
+| [[items/personal-agent-hermes-desktop-parity]] | Full useful Hermes Desktop functionality in the branded responsive shell before simplification | XL | building 🔥 |
 
 ## Cara
 

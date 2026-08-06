@@ -26,7 +26,7 @@ Every decision is stored in `decisions/` as a permanent note. This log orders th
 | Date | Decision | Consequences | Status |
 |---|---|---|---|
 | 2026-08-06 | [[decisions/2026-08-06-personal-agent-delegation-first-promise]] - Design and position IrelandGPT around delegation and time returned | First use completes a hated job; models and connectors stay hidden until needed; consequential actions stay approval-gated | Active |
-| 2026-08-06 | [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] - Preserve Hermes breadth first and simplify from founder dogfood | Web and desktop wrapper precede native apps; folder retrieval becomes secondary; model economics are chosen after usage evidence | Active |
+| 2026-08-06 | [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] - Reach full Hermes Desktop outcome parity before simplification | Rebrand the complete working surface first; keep all capability reachable on phone; introduce connectors conversationally; redesign from founder dogfood | Active |
 
 ## Cara
 

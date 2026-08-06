@@ -35,13 +35,15 @@ Design against Apple, Superhuman, Linear and Notion rather than ChatGPT. Hide mo
 
 ## Build sequence
 
-1. **Clone the working experience:** get the Hermes-backed wrapper usable through web and desktop with real sessions, streaming, tools, approvals, artifacts and memory.
+1. **Clone the complete working experience:** reproduce every useful Hermes Agent and Hermes Desktop outcome through the branded web, desktop and responsive phone shell. Do not simplify before parity.
 2. **Founder dogfood:** Sam uses it as his own assistant across real tasks. Record friction and failure honestly.
 3. **Simplify from evidence:** remove technical concepts, improve onboarding and reshape the interface based on observed use.
 4. **Home-screen continuity:** make the web product installable and fast to access on phone before native store builds.
 5. **Personal context:** evolve the Ground Zero concept into an inspectable user context surface without exposing vault mechanics.
 6. **Native apps:** build iOS and Android once the interaction model has earned stability.
 7. **Model economics last:** choose and route models after measuring real workload, quality and cost. Keep providers invisible to ordinary users.
+
+The current Quiet Margin shell is a sufficient visual starting point. The next work is functional breadth, not another design pass. Connector access should be requested conversationally at the moment of need while remaining discoverable in Settings. IrelandGPT should use Irish English and a tasteful, configurable Irish soul without forced slang or caricature.
 
 ## Handoff interaction refinement
 
@@ -75,6 +77,8 @@ Sam can open the preview without a terminal, start or resume a real Hermes conve
 ## Connected vault notes
 
 - [[imports/2026-08-06-personal-agent-founder-voice-notes]] — source
+- [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]] — clarified full-parity direction
+- [[items/personal-agent-hermes-desktop-parity]] — implementation ledger
 - [[imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06]] — product strategy source
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — build-order decision
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]] — product-promise decision

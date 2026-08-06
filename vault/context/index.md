@@ -70,6 +70,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]] — copy-ready one-scheme commercial proposal
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — consumer-first managed-agent opportunity, MIT/upstream constraints and validation approach
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — canonical founder thesis, build sequence, dogfood loop and agent-built distribution story
+- [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]] — clarified requirement: complete Hermes Desktop outcome parity before consumer simplification
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — delegation-first promise, first-use contract, just-in-time connectors, context model, pricing hypotheses and design consequences
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: Hark product study, evidence boundary and adopted handoff roadmap
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]] — Andrew Amann and David Sacks source capture on open models, proprietary harnesses and enterprise AI sovereignty

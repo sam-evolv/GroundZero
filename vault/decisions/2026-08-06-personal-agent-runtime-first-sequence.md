@@ -11,7 +11,9 @@ supersedes:
 
 ## Decision
 
-The personal-agent product will preserve Hermes as the primary runtime and first reproduce Sam's current broadly capable working experience through a simpler web and desktop product shell.
+The personal-agent product will preserve Hermes as the primary runtime and first reproduce the full useful Hermes Agent and Hermes Desktop capability surface through an IrelandGPT-branded web, desktop and responsive phone shell.
+
+This is full outcome parity before simplification. The current Quiet Margin interface is an acceptable visual foundation, but it is not the milestone. Capability cards or representative slices do not count as parity. Every useful Desktop outcome must work through a real Hermes resource or an explicitly paired trusted-desktop path before the product is reorganised for mainstream users.
 
 The earlier prototype gate that made mobile-to-folder retrieval the first implementation milestone is superseded. The folder connector remains useful, but it is one capability of the assistant, not the product architecture or first proof.
 
@@ -22,9 +24,14 @@ Sam already has direct evidence that Hermes plus persistent context is useful. R
 ## Consequences
 
 - Hermes sessions, runs, tools, approvals and memory stay authoritative.
-- The initial web interface and desktop shell may closely follow proven Hermes behaviour.
+- The initial web interface and desktop shell may closely follow proven Hermes behaviour and information architecture.
+- Full parity includes chat controls, live tool activity, files, previews, artifacts, voice, memory, skills, schedules, profiles, messaging, agents, Command Center and settings outcomes.
+- Terminal, filesystem, project and Git outcomes remain available through Hermes or a paired trusted desktop companion rather than unrestricted public-browser endpoints.
 - A mobile home-screen web experience precedes native store submission.
-- The interface will change only after repeated use reveals actual friction.
+- The complete capability set must remain reachable on phone. Responsive adaptation may use sheets, drawers and progressive disclosure rather than shrinking a desktop cockpit.
+- The interface will change only after full functional parity and repeated use reveal actual friction.
+- Connectors remain discoverable in Settings but are introduced conversationally at the point of need.
+- IrelandGPT gets a product-owned Irish soul: Irish English, restrained contextual Irish phrasing and optional personality profiles without caricature.
 - Final model routing, plan design and provider economics are deferred until usage telemetry exists.
 - The working name remains provisional.
 - Marketing will showcase verified completed work produced with the agent, with Sam approving every outward post.
@@ -38,8 +45,10 @@ Sam already has direct evidence that Hermes plus persistent context is useful. R
 
 - [[imports/2026-08-06-personal-agent-founder-voice-notes]] — source
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — interpretation
+- [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]] — clarified full-parity source direction
 - [[companies/personal-agent]] — venture
 - [[project_state/personal-agent]] — implementation state
+- [[items/personal-agent-hermes-desktop-parity]] — active parity ledger
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — execution
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] — retained feasibility evidence
 
