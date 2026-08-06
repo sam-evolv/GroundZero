@@ -23,6 +23,10 @@ Sam uses the Hermes-backed product as his own daily assistant through web, deskt
 - At least five materially different founder tasks complete through the wrapper.
 - Phone home-screen installation is exercised.
 - Every failure and confusing interaction is recorded.
+- A consequential request has durable task identity outside the message scroll.
+- Missing-detail and approval states are visibly different.
+- A completed task returns a receipt covering outcome, sources, changes and available undo.
+- Active work can be left and safely resumed from Hermes-owned run state.
 - No proof asset claims more than the exact task demonstrated.
 - Nothing is posted publicly without Sam's approval.
 
@@ -50,6 +54,7 @@ For each accepted task:
 - [[companies/personal-agent]] — venture
 - [[project_state/personal-agent]] — current state
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — operating brief
+- [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: adopted handoff interaction contract
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — sequencing
 - [[context/agentic-value-creation-mission]] — autonomy and value standard
 
