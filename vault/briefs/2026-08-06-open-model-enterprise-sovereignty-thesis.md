@@ -97,5 +97,13 @@ The strong thesis is directly aligned with [[companies/personal-agent]] and [[co
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
+- [[briefs/2026-08-05-personal-assistant-research-codex]]
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[companies/personal-agent]]
+- [[context/agentic-value-creation-mission]]
 - [[context/index]]
+- [[context/solo-founder-era]]
+- [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
+

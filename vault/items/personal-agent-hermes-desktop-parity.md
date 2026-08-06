@@ -115,3 +115,14 @@ A capability counts as parity only when:
 - [[project_state/personal-agent]] — current implementation state
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — downstream dogfood loop
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — founder operating brief
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]]
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
+- [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]]
+- [[companies/personal-agent]]
+- [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
+- [[items/personal-agent-unit-economics-and-onboarding]]
+- [[project_state/personal-agent]]
+

@@ -19,6 +19,8 @@ role: project-state
 - The 6 August product strategy session is now adopted as the design charter: IrelandGPT is a delegation-first personal operating system, with invisible models, just-in-time connectors, completed hated jobs as the first-use test, and time returned as the value proposition.
 - The approved Quiet Margin candidate completed a real browser-selected JPEG run through Hermes, but deployment is now held because full Desktop capability parity is the correct product milestone.
 - Sam clarified that the next phase must reproduce every useful Hermes Agent and Desktop outcome before further consumer simplification.
+- The commercial follow-up is captured separately: bounded guest use before signup, frictionless conversion, a living user-owned Profile, optional context conversation and evidence-led €9.99/€19.99/premium/family tier hypotheses.
+- Model availability and cost claims, Irish usage, payment economics and family safety are under primary-source review. No prices or child-monitoring behavior are approved.
 - Final product name remains open.
 
 ## Active objective
@@ -45,6 +47,7 @@ Reach full useful Hermes Desktop outcome parity in the branded responsive wrappe
 8. Install the complete web app to the phone home screen and begin founder dogfood.
 9. Capture latency, failures, friction and repeated value before redesigning capability discovery.
 10. Add the Irish soul and selectable personality profiles, then evaluate tone across ordinary, formal, sensitive and high-stakes tasks.
+11. Instrument founder workload cost and complete [[items/personal-agent-unit-economics-and-onboarding]] before setting public prices or allowances.
 
 ## Connected vault notes
 
@@ -52,6 +55,8 @@ Reach full useful Hermes Desktop outcome parity in the branded responsive wrappe
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — founder brief
 - [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]] — current source direction
 - [[items/personal-agent-hermes-desktop-parity]] — active parity ledger
+- [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]] — commercial and onboarding direction
+- [[items/personal-agent-unit-economics-and-onboarding]] — evidence and unit-economics work
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — sequencing decision
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — active work
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: current competitive product translation
@@ -64,7 +69,9 @@ Reach full useful Hermes Desktop outcome parity in the branded responsive wrappe
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
+- [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
+- [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]]
 - [[briefs/hark-handoff-source-ledger]]
 - [[companies/personal-agent]]
 - [[context/dashboard]]
@@ -73,4 +80,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]]
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
 - [[items/personal-agent-founder-dogfood-and-proof-loop]]
+- [[items/personal-agent-hermes-desktop-parity]]
+- [[items/personal-agent-unit-economics-and-onboarding]]
 

@@ -34,3 +34,10 @@ The public leaderboard corroborates Hark's score on Online-Mind2Web. It does not
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: product conclusions and implementation sequence
 - [[companies/personal-agent]]: venture context
 - [[project_state/personal-agent]]: live build state
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
+- [[companies/personal-agent]]
+- [[project_state/personal-agent]]
+

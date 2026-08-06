@@ -42,13 +42,18 @@ Founder-led, proof-based distribution. The agent helps create the product and ve
 
 ## Business model hypotheses
 
-- subscription business
-- accessible entry plan, possibly €4.99 per month
-- entry plan limited to cost-controlled routine work
-- higher tiers or work packs for premium models, media and long-running tasks
-- target model variable cost below €1 per active entry-plan user per month
+- subscription business with bounded real guest use before signup
+- frictionless Apple, Google or email conversion after value is demonstrated
+- inspectable living Profile that improves continuity without artificial data lock-in
+- optional high-yield context conversation through text or dictation
+- accessible plan around €9.99 for ordinary assistance and bounded agent work
+- broader plan around €19.99 with higher usage and selected media capability
+- possible higher-usage premium and family plans
+- provider-agnostic invisible model routing based on workload, quality, consequence and cost
+- each incremental paid customer should cover their own incremental service cost from the beginning
+- child accounts remain private by default; family billing does not imply covert parent monitoring
 
-These are testable hypotheses, not final public pricing.
+These are testable hypotheses, not final public pricing. Model names, workload costs, allowances, trial structure and family safety design require evidence before approval.
 
 ## Current repository
 
@@ -59,6 +64,8 @@ These are testable hypotheses, not final public pricing.
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — current founder brief
 - [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]] — full-parity clarification
 - [[items/personal-agent-hermes-desktop-parity]] — active parity ledger
+- [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]] — onboarding, context and pricing hypotheses
+- [[items/personal-agent-unit-economics-and-onboarding]] — validation workstream
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — delegation-first product and design charter
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — build order
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]] — user-facing product promise
@@ -74,8 +81,10 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]]
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
+- [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]]
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
+- [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]]
 - [[briefs/hark-handoff-source-ledger]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]
@@ -83,5 +92,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]]
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
 - [[items/personal-agent-founder-dogfood-and-proof-loop]]
+- [[items/personal-agent-hermes-desktop-parity]]
+- [[items/personal-agent-unit-economics-and-onboarding]]
 - [[project_state/personal-agent]]
 

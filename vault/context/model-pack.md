@@ -101,6 +101,7 @@ Use this note when a model needs quick, high-signal context.
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-30]]
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[briefs/cara-starter-product-spec]]
 - [[companies/cara]]

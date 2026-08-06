@@ -50,4 +50,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[companies/personal-agent]]
 - [[context/index]]
+- [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
+- [[items/personal-agent-founder-dogfood-and-proof-loop]]
 - [[project_state/personal-agent]]
+

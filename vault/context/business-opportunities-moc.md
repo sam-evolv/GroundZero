@@ -77,6 +77,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]]
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
 - [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]]
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]

@@ -60,11 +60,14 @@ For each accepted task:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[companies/personal-agent]]
 - [[context/agentic-value-creation-mission]]
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]]
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
+- [[items/personal-agent-hermes-desktop-parity]]
+- [[items/personal-agent-unit-economics-and-onboarding]]
 - [[project_state/personal-agent]]
 

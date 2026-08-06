@@ -14,6 +14,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 |---|---|---|---|
 | [[items/personal-agent-founder-dogfood-and-proof-loop]] | Real Hermes wrapper, founder dogfood, home-screen access and verified proof loop | L | building 🔥 |
 | [[items/personal-agent-hermes-desktop-parity]] | Full useful Hermes Desktop functionality in the branded responsive shell before simplification | XL | building 🔥 |
+| [[items/personal-agent-unit-economics-and-onboarding]] | Validate guest use, conversion, living Profile, tier economics and family safety | L | proposed 🔥 |
 
 ## Cara
 

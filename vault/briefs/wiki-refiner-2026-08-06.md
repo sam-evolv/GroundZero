@@ -2,16 +2,12 @@
 title: Wiki Refiner 2026-08-06
 kind: wiki_refiner_brief
 date: "2026-08-06"
-ran_at: "2026-08-06T17:49:43+01:00"
+ran_at: "2026-08-06T19:49:20+01:00"
 ---
 
 # Wiki Refiner 2026-08-06
 
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
-
-## Auto-backlinks written
-- `ireland-gpt-product-strategy-session-2026-08-06.md` → `briefs/2026-08-05-personal-assistant-research-charter.md` (score 258)
-- `ireland-gpt-product-strategy-session-2026-08-06.md` → `briefs/2026-08-05-managed-agent-consumer-wedge.md` (score 253)
 
 ## Sources reviewed
 - `imports/2026-08-06-personal-agent-founder-voice-notes.md` -> `briefs/2026-08-05-personal-assistant-research-codex.md`
@@ -26,7 +22,7 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - `imports/cara-conversation-summary-2026-07-12.md` -> `briefs/2026-08-05-personal-assistant-research-codex.md`
   - Summary: Source received from Sam on 2026-07-12. Canonical cached source: `/Users/samdonworth/.hermes/cache/documents/doc_3a4bed503f5b_cara-conversation-summary.md` This import is intentionally provenance-only. Curated facts live in: - [[companies/cara]]
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/cara]], [[briefs/2026-08-05-managed-agent-consumer-wedge]], [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
-- `imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06.md` -> `briefs/2026-08-06-irelandgpt-delegation-product-charter.md`
+- `imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06.md` -> `project_state/ob.md`
   - Summary: Date: 6 August 2026 --- Ireland GPT is not an AI chatbot. It is a personal operating system that sits between a person and their digital life.
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]], [[briefs/2026-08-05-personal-assistant-research-charter]], [[briefs/2026-08-05-managed-agent-consumer-wedge]]
 - `imports/chatgpt/openhouse-dtc-voice-stress-test-2026-07-27.md` -> `project_state/oh.md`
@@ -57,7 +53,6 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - [[briefs/2026-08-05-personal-assistant-research-claude]] (399)
 - [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]] (200)
 - [[project_state/cara]] (46)
-- [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]] (40)
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]] (240)
 - [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]] (222)
 - [[briefs/openhouse-yc-narrative-rubric-2026-07-29]] (222)

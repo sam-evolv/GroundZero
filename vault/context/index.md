@@ -71,6 +71,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — consumer-first managed-agent opportunity, MIT/upstream constraints and validation approach
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — canonical founder thesis, build sequence, dogfood loop and agent-built distribution story
 - [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]] — clarified requirement: complete Hermes Desktop outcome parity before consumer simplification
+- [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]] — guest-first onboarding, living Profile, tier hypotheses and evidence gates
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — delegation-first promise, first-use contract, just-in-time connectors, context model, pricing hypotheses and design consequences
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: Hark product study, evidence boundary and adopted handoff roadmap
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]] — Andrew Amann and David Sacks source capture on open models, proprietary harnesses and enterprise AI sovereignty
@@ -202,6 +203,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/review-workflow]]
 - [[context/scaling-playbook]]
 - [[context/solo-founder-era]]
+- [[decisions/2026-08-06-personal-agent-delegation-first-promise]]
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
 - [[decisions/ai-founder-coach-operating-agreement-2026-07-14]]
 - [[decisions/cara-telegram-founder-control-plane-2026-07-14]]

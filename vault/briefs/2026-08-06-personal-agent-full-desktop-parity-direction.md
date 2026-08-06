@@ -84,3 +84,15 @@ The business model and onboarding strategy will be supplied in a separate founde
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — founder operating brief
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — later consumer design charter
 - [[imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06]] — linked strategy source
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]]
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
+- [[companies/personal-agent]]
+- [[context/index]]
+- [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
+- [[items/personal-agent-hermes-desktop-parity]]
+- [[items/personal-agent-unit-economics-and-onboarding]]
+- [[project_state/personal-agent]]
+
