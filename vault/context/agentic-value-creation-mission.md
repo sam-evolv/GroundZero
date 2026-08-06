@@ -129,6 +129,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-personal-assistant-research-gemini]]
 - [[briefs/2026-08-05-phosphen-karpathy-llm-use-source-audit]]
 - [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]]
+- [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]]
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/daily-agentic-value-radar-2026-07-15]]
 - [[briefs/daily-agentic-value-radar-2026-07-16]]

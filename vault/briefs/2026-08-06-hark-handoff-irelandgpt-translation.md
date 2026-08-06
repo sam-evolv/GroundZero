@@ -159,3 +159,13 @@ Gate: repeat tasks need materially less setup while the user can see, correct an
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]: Hermes-first sequencing decision
 - [[hark-handoff-source-ledger]]: exact public sources and claim boundaries
 - [[context/index]]: shared entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
+- [[briefs/hark-handoff-source-ledger]]
+- [[companies/personal-agent]]
+- [[context/index]]
+- [[items/personal-agent-founder-dogfood-and-proof-loop]]
+- [[project_state/personal-agent]]

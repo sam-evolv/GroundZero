@@ -213,6 +213,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-personal-assistant-research-charter]]
 - [[briefs/2026-08-05-personal-assistant-research-gemini]]
 - [[briefs/2026-08-05-phosphen-karpathy-llm-use-source-audit]]
+- [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]]
 - [[companies/cara]]
 - [[project_state/cara]]
 

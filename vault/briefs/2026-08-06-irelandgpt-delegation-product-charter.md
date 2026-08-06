@@ -136,3 +136,13 @@ A feature earns priority only when it materially removes something people hate d
 - [[project_state/personal-agent]] — current implementation state
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — active execution loop
 - [[context/index]] — Ground Zero entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
+- [[companies/personal-agent]]
+- [[context/business-opportunities-moc]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[decisions/2026-08-06-personal-agent-delegation-first-promise]]
+- [[project_state/personal-agent]]

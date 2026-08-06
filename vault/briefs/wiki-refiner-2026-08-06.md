@@ -2,7 +2,7 @@
 title: Wiki Refiner 2026-08-06
 kind: wiki_refiner_brief
 date: "2026-08-06"
-ran_at: "2026-08-06T07:36:41+01:00"
+ran_at: "2026-08-06T17:49:43+01:00"
 ---
 
 # Wiki Refiner 2026-08-06
@@ -10,9 +10,8 @@ ran_at: "2026-08-06T07:36:41+01:00"
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
 
 ## Auto-backlinks written
-- `2026-08-06-personal-agent-founder-voice-notes.md` → `briefs/2026-08-05-managed-agent-consumer-wedge.md` (score 205)
-- `2026-08-06-personal-agent-founder-voice-notes.md` → `briefs/openhouse-dtc-master-plan-2026-07-27.md` (score 196)
-- `2026-08-06-personal-agent-founder-voice-notes.md` → `briefs/2026-08-05-managed-agent-feasibility-and-success-plan.md` (score 192)
+- `ireland-gpt-product-strategy-session-2026-08-06.md` → `briefs/2026-08-05-personal-assistant-research-charter.md` (score 258)
+- `ireland-gpt-product-strategy-session-2026-08-06.md` → `briefs/2026-08-05-managed-agent-consumer-wedge.md` (score 253)
 
 ## Sources reviewed
 - `imports/2026-08-06-personal-agent-founder-voice-notes.md` -> `briefs/2026-08-05-personal-assistant-research-codex.md`
@@ -27,6 +26,9 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - `imports/cara-conversation-summary-2026-07-12.md` -> `briefs/2026-08-05-personal-assistant-research-codex.md`
   - Summary: Source received from Sam on 2026-07-12. Canonical cached source: `/Users/samdonworth/.hermes/cache/documents/doc_3a4bed503f5b_cara-conversation-summary.md` This import is intentionally provenance-only. Curated facts live in: - [[companies/cara]]
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/cara]], [[briefs/2026-08-05-managed-agent-consumer-wedge]], [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
+- `imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06.md` -> `briefs/2026-08-06-irelandgpt-delegation-product-charter.md`
+  - Summary: Date: 6 August 2026 --- Ireland GPT is not an AI chatbot. It is a personal operating system that sits between a person and their digital life.
+  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]], [[briefs/2026-08-05-personal-assistant-research-charter]], [[briefs/2026-08-05-managed-agent-consumer-wedge]]
 - `imports/chatgpt/openhouse-dtc-voice-stress-test-2026-07-27.md` -> `project_state/oh.md`
   - Summary: This note preserves the substantive content visible in the shared ChatGPT conversation supplied by Sam on 27 July 2026. The share page exposed audio-transcription objects inside the visible conversation. This is a transcript synthesis, not a verified recording-level transcript. Short acknowledgem... Sam wanted to push OpenHouse into a DTC product people would genuinely pay for and asked whether a walkthrough video could let the product understand: - the layout
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]], [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]]
@@ -46,10 +48,10 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 ## Strongest connected notes
 - [[briefs/2026-08-05-personal-assistant-research-codex]] (276)
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] (205)
-- [[briefs/openhouse-dtc-master-plan-2026-07-27]] (196)
-- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] (192)
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]] (197)
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]] (194)
 - [[briefs/2026-08-05-personal-assistant-research-charter]] (189)
-- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] (187)
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] (188)
 - [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]] (457)
 - [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]] (427)
 - [[briefs/2026-08-05-personal-assistant-research-claude]] (399)

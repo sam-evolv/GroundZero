@@ -380,6 +380,7 @@ Do not turn research volume into a build plan automatically. After collecting re
 
 - [[imports/design-systems/openhouse-openbook/SKILL]] — shared signals: openhouse, openbook, design
 
+- [[imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06]] — shared signals: strategy, product, chatgpt
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]

@@ -45,10 +45,14 @@ Sam already has direct evidence that Hermes plus persistent context is useful. R
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
 - [[briefs/2026-08-05-personal-assistant-prototype-start-gate]]
+- [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
+- [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[companies/personal-agent]]
 - [[context/index]]
+- [[decisions/2026-08-06-personal-agent-delegation-first-promise]]
 - [[items/personal-agent-founder-dogfood-and-proof-loop]]
 - [[project_state/personal-agent]]
 

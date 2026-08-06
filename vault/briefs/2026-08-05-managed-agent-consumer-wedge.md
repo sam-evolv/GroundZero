@@ -162,6 +162,7 @@ A compelling experience is likely not a chat box alone. It should combine a simp
 - [[imports/cara-conversation-summary-2026-07-12]] — shared signals: conversation, summary, cara
 
 - [[imports/2026-08-06-personal-agent-founder-voice-notes]] — shared signals: personal, founder, voice
+- [[imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06]] — shared signals: strategy, product, chatgpt
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
@@ -171,6 +172,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-personal-assistant-research-codex]]
 - [[briefs/2026-08-05-personal-assistant-research-first-return-audit]]
 - [[briefs/2026-08-05-personal-assistant-research-gemini]]
+- [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[companies/cara]]
 - [[companies/openbook]]

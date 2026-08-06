@@ -66,10 +66,16 @@ These are testable hypotheses, not final public pricing.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+- [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
+- [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
+- [[briefs/hark-handoff-source-ledger]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]
 - [[context/model-pack]]
+- [[decisions/2026-08-06-personal-agent-delegation-first-promise]]
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
 - [[items/personal-agent-founder-dogfood-and-proof-loop]]
 - [[project_state/personal-agent]]

@@ -94,3 +94,8 @@ The strong thesis is directly aligned with [[companies/personal-agent]] and [[co
 - [[context/agentic-value-creation-mission]] — durable context, workflows, controls and feedback loops
 - [[context/solo-founder-era]] — broader agentic-commerce thesis
 - [[context/index]] — Ground Zero entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/personal-agent]]
+- [[context/index]]

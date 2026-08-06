@@ -60,10 +60,15 @@ Make the real Hermes-backed wrapper usable enough for Sam's daily founder dogfoo
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
+- [[briefs/hark-handoff-source-ledger]]
 - [[companies/personal-agent]]
+- [[context/dashboard]]
 - [[context/index]]
 - [[context/model-pack]]
+- [[decisions/2026-08-06-personal-agent-delegation-first-promise]]
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
 - [[items/personal-agent-founder-dogfood-and-proof-loop]]
 

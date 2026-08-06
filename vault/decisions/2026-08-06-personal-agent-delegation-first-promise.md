@@ -43,3 +43,11 @@ This decision complements [[decisions/2026-08-06-personal-agent-runtime-first-se
 - [[project_state/personal-agent]] — implementation state
 - [[items/personal-agent-founder-dogfood-and-proof-loop]] — current execution
 - [[decisions/_Index]] — decision log
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
+- [[companies/personal-agent]]
+- [[context/index]]
+- [[project_state/personal-agent]]

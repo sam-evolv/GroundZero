@@ -101,11 +101,13 @@ Use this note when a model needs quick, high-signal context.
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-30]]
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[briefs/cara-starter-product-spec]]
 - [[companies/cara]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
+- [[companies/personal-agent]]
 - [[context/agentic-value-creation-mission]]
 - [[context/automation-ideas]]
 - [[context/autonomous-business-launch-loop]]
@@ -131,5 +133,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[project_state/cara]]
 - [[project_state/ob]]
 - [[project_state/oh]]
+- [[project_state/personal-agent]]
 - [[project_state/renew]]
 
