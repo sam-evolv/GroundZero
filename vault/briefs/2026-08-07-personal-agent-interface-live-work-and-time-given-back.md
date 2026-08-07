@@ -107,4 +107,5 @@ No name is selected until trademark, company, domain, app-store and social check
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — prior charter and enduring delegation thesis
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]] — competitive handoff research
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]] — living Profile and commercial hypotheses
+- [[briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt]] — complete copy-paste ChatGPT consultancy prompt
 - [[context/index]] — Ground Zero entry point
