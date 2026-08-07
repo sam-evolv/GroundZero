@@ -26,6 +26,7 @@ role: project-state
 - The commercial follow-up is captured separately: bounded guest use before signup, frictionless conversion, a living user-owned Profile, optional context conversation and evidence-led €9.99/€19.99/premium/family tier hypotheses.
 - Primary-source review verified DeepSeek V4 Flash and GPT-5.6 Luna, established an Irish adoption/payment baseline and confirmed that automatic parent monitoring is not a safe launch feature. Public tier prices remain hypotheses pending measured workload and conversion evidence.
 - The later ChatGPT strategy session is reconciled into the charter: “Complex under the hood. Calm on the surface,” a suggest-to-autonomy trust ladder, Time to First Delegation under five minutes, evidence-backed Time Given Back, outcome-based Explore, founder-led first-100 GTM and one identity across web, phone, voice and supported messaging.
+- The Vibiz Connector source audit adds a concrete vertical-operator pattern: one delegation should create one authoritative Work object with recognizable milestones, approval gates, outputs and receipts. Aire should adopt the compression and role shift, while rejecting implied revenue proof, broad autonomy claims and unclear confirmation boundaries. See [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]].
 - Final product name remains open.
 
 ## Active objective
@@ -75,6 +76,7 @@ Translate the accepted Aire v3 mobile architecture into a stable Hermes presenta
 - [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]] — current founder direction
 - [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]] — active interface decision
 - [[briefs/2026-08-07-aire-v3-independent-design-audit]] — directly tested design audit
+- [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]] — source-audited vertical operator pattern and immediate product implications
 - [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]] — superseded conversation-only interpretation
 
 ## Notes that link here

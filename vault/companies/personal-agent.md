@@ -86,6 +86,7 @@ These are testable hypotheses, not final public pricing. Model names, workload c
 - [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]] — current founder interface, voice, context and value-measurement direction
 - [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]] — active primary-interface decision
 - [[briefs/2026-08-07-aire-v3-independent-design-audit]] — directly tested mobile design audit
+- [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]] — vertical operator pattern, demo evidence boundary and lessons for Aire
 - [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]] — superseded conversation-only interpretation
 - [[context/business-opportunities-moc]] — opportunity map
 
