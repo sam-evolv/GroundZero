@@ -1,12 +1,15 @@
 ---
 title: Personal agent single-conversation and contextual live-work interface
-status: decided
+status: superseded
 created: 2026-08-07
 source: Sam founder voice note and direct review of rejected interface
 supersedes: Ask, Doing, Done and You as primary product navigation
+superseded_by: 2026-08-07 personal-agent Chat, Work and Profile architecture
 ---
 
 # Personal agent single-conversation and contextual live-work interface
+
+> Superseded later on 2026-08-07 after Sam tested the long-conversation model and accepted Chat plus a separate Work surface. See [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]. The rejection of Doing, Done, You and runtime-oriented navigation remains valid.
 
 ## Decision
 
