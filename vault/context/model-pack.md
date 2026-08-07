@@ -33,9 +33,10 @@ Use this note when a model needs quick, high-signal context.
 - Hermes is the engine. The first product reproduces Sam's useful working experience through web and desktop, then simplifies from founder dogfood.
 - User-facing promise: a delegation-first personal operating system that removes hated work and returns time, not an AI chatbot or visible model wrapper.
 - First-use target: complete one bounded, high-friction job within minutes, requesting connectors only when needed and preserving approval gates for consequential actions.
-- Product structure is evolving toward Ask, Doing, Done and You, with inspectable confidence-aware context and invisible model routing.
+- Primary experience is one continuous assistant conversation. Useful live browser or creation work may open contextually beside chat on desktop and as a focused detail on mobile; runtime jargon and capability inventories stay hidden.
+- Product value is completed delegation and conservatively evidenced Time Given Back. Voice and inspectable personal context are first-class but must remain part of the same identity and task state.
 - Distribution thesis: verified work completed with the agent becomes founder-led proof, with every outward post approved by Sam.
-- See [[briefs/2026-08-06-personal-agent-founder-operating-brief]], [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] and [[project_state/personal-agent]].
+- See [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]], [[briefs/2026-08-06-personal-agent-founder-operating-brief]] and [[project_state/personal-agent]].
 
 ### Cara
 - New started-building venture: Irish SME callable digital assistant / phone-number-with-a-brain.

@@ -7,6 +7,8 @@ source: ChatGPT product strategy session supplied by Sam
 
 # IrelandGPT delegation-first product charter
 
+> **Interface update, 7 August 2026:** the delegation-first promise remains active, but Ask, Doing, Done and You as primary navigation are superseded by [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]]. The current direction is one continuous conversation with contextual live work and progressive disclosure. This note preserves the earlier reasoning rather than silently rewriting it.
+
 ## Product promise
 
 IrelandGPT is not another AI chatbot. It is a consumer personal operating system whose visible promise is delegation: a person asks for an outcome, the assistant takes responsibility for the bounded work, requests access or approval only when needed, and returns a useful result or clear receipt.

@@ -32,7 +32,10 @@ Sam has experienced the value directly through Hermes plus Ground Zero. The vent
 - just-in-time connectors and optional device or file capabilities as parts of the assistant
 - Irish-English default soul with tasteful contextual Irish phrasing and optional formal, warm, colloquial, concise or reflective personality profiles
 - the same complete capability set adapted responsively for web and phone, with trusted local powers executed by Hermes or a paired desktop companion
-- durable handoffs rather than disposable chat turns, with Doing, Done receipts and an inspectable You surface
+- one continuous assistant conversation as the primary experience, with history, settings and personal context behind intentional secondary surfaces
+- contextual desktop live-work panel and mobile work detail for useful browser or creation activity, without exposing runtime internals
+- human-language progress, elapsed work time and conservative evidence-backed Time Given Back
+- first-class voice sharing the same identity, memory, approvals and task state as text
 - bounded browser use for everyday outcomes, separated from payment, sending, booking and account-change approvals
 - first-use design centred on completing one hated administrative job within minutes
 
@@ -76,6 +79,8 @@ These are testable hypotheses, not final public pricing. Model names, workload c
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — strategic foundation
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]] — model-agnostic harness and enterprise sovereignty signal
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: Hark study and adopted product mechanics
+- [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]] — current founder interface, voice, context and value-measurement direction
+- [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]] — superseding primary-interface decision
 - [[context/business-opportunities-moc]] — opportunity map
 
 ## Notes that link here

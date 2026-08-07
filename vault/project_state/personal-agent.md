@@ -1,7 +1,7 @@
 ---
 title: Personal agent project state
 status: building
-updated: 2026-08-06
+updated: 2026-08-07
 role: project-state
 ---
 
@@ -14,10 +14,12 @@ role: project-state
 - The repository contains an authenticated responsive browser shell, BFF, relay and Hermes client for sessions, history, runs, SSE progress, approvals, recovery, stop, conversation actions, capabilities, automations and real multimodal photo input.
 - Immutable candidate `2f6e6954a5666102bc4cf012caa54c0fb2e6cc96` passed independent review with 136 Python tests and 13 Node tests. It is not deployed.
 - Final local product candidate `d533206b37e0aecb1d48c4a7cb8e972a0a284743` is paired with Hermes runtime `27f142544b3bbe7ef8fdbd5d6db8b7505614ea13`. The exact pair passed real-process lifecycle verification and independent immutable review. See [[briefs/2026-08-06-irelandgpt-runtime-product-candidate-handoff]].
-- The current local shell now uses Ask, Doing, Done and You. Doing is backed by genuine run, approval and automation state; Done is backed by active and archived conversation resources and does not claim completion receipts.
+- The prior Ask, Doing, Done and You shell was rejected after founder phone review. Those labels and automation/capability inventories are no longer the intended consumer information architecture.
+- Sam is designing a replacement interface whose primary experience is one continuous assistant conversation. Desktop may reveal a contextual live-work panel; mobile uses a focused work detail or sheet.
+- Local simplification work exists only as an interim integration baseline. It has not been accepted or redeployed and must not be treated as the visual source of truth.
 - Production remains on the earlier founder-alpha build. The live bytes do not contain the approved local photo and Quiet Margin functionality.
 - The selected-folder connector and SwiftUI simulator app remain in the repository as secondary/reference work.
-- Hark Handoff has been studied against its launch video, technical article, public leaderboard and privacy policy. The adopted direction is a calm handoff desk: durable task identity, Doing, Done receipts, missing-detail states distinct from approvals, an inspectable You surface and bounded isolated browser execution.
+- Hark Handoff has been studied against its launch video, technical article, public leaderboard and privacy policy. Its durable handoff and bounded browser-work mechanics remain useful, but Doing, Done and You are superseded as primary navigation.
 - The 6 August product strategy session is now adopted as the design charter: IrelandGPT is a delegation-first personal operating system, with invisible models, just-in-time connectors, completed hated jobs as the first-use test, and time returned as the value proposition.
 - The approved Quiet Margin candidate completed a real browser-selected JPEG run through Hermes, but deployment is now held because full Desktop capability parity is the correct product milestone.
 - Sam clarified that the next phase must reproduce every useful Hermes Agent and Desktop outcome before further consumer simplification.
@@ -28,12 +30,12 @@ role: project-state
 
 ## Active objective
 
-Reach full useful Hermes Desktop outcome parity in the branded responsive wrapper, then begin founder dogfood. Preserve the current visual shell, stop cosmetic refinement, and implement against [[items/personal-agent-hermes-desktop-parity]].
+Research and define the founder-designed single-conversation product, including contextual live work, human-language progress, elapsed time, defensible Time Given Back, first-class voice, inspectable personal context and a global final name. Preserve Hermes outcome breadth behind a stable presentation contract. Resume implementation only after the interface direction is accepted.
 
 ## Current blockers
 
 - Full Desktop parity has not yet been implemented. Current live/adapted surfaces cover conversation core, basic capabilities, automations and local photo support only.
-- Mobile navigation has passing source and behavior tests, but phone pixel verification remains unclaimed pending an approved screenshot run.
+- The previous mobile navigation concept is obsolete. The accepted replacement has not yet been designed or verified.
 - Generic file and artifact delivery still needs a Hermes-owned opaque registry with ownership, metadata and retrieval boundaries.
 - Memory, agents, background work, voice, connectors, profiles, richer settings and messaging continuity need product adapters.
 - Trusted local filesystem, terminal, project and Git outcomes need an explicit paired-desktop path rather than direct public-browser exposure.
@@ -41,17 +43,16 @@ Reach full useful Hermes Desktop outcome parity in the branded responsive wrappe
 
 ## Next verified milestones
 
-1. Freeze the complete Hermes Desktop capability inventory from authoritative documentation and source.
-2. Implement visible tool activity, queue/history, session search and complete conversation controls.
-3. Implement safe files, previews, artifacts and rich result surfaces.
-4. Implement memory, skills, agents, background work, schedules and activity history.
-5. Implement voice, connections, profiles, preferences, messaging continuity and just-in-time conversational access requests.
-6. Implement the paired-desktop path for local files, projects, terminal and Git outcomes.
-7. Verify every parity ledger item on desktop and responsive phone through real Hermes resources.
-8. Install the complete web app to the phone home screen and begin founder dogfood.
-9. Capture latency, failures, friction and repeated value before redesigning capability discovery.
-10. Add the Irish soul and selectable personality profiles, then evaluate tone across ordinary, formal, sensitive and high-stakes tasks.
-11. Instrument founder workload cost and complete [[items/personal-agent-unit-economics-and-onboarding]] before setting public prices or allowances.
+1. Complete the evidence-led interface, progress, psychology, time-saved, voice and naming research.
+2. Accept Sam's mobile-first conversation design and desktop adaptation.
+3. Freeze a small presentation contract that maps authoritative Hermes events into message, working, approval, result and error states without visible runtime jargon.
+4. Implement contextual desktop live work and the mobile work-detail equivalent.
+5. Implement safe files, previews, artifacts and rich results within the conversation.
+6. Implement first-class voice against real iPhone interruption, endpointing, Bluetooth and latency gates.
+7. Implement personal context as inspectable, correctable progressive disclosure rather than a knowledge-management interface.
+8. Verify complete useful Hermes outcome parity through the accepted interface.
+9. Deploy a new immutable founder candidate only after responsive, runtime and independent review pass.
+10. Begin founder dogfood and calibrate the Time Given Back methodology from observed work.
 
 ## Connected vault notes
 
@@ -71,6 +72,8 @@ Reach full useful Hermes Desktop outcome parity in the branded responsive wrappe
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]] — product promise decision
 - [[imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06]] — verbatim strategy source
 - [[imports/2026-08-06-personal-agent-founder-voice-notes]] — source
+- [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]] — current founder direction
+- [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]] — superseding interface decision
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_

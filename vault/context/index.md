@@ -74,12 +74,14 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]] — guest-first onboarding, living Profile, tier hypotheses and evidence gates
 - [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]] — sourced Irish demand, API pricing, payments and family-safety ledger
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] — delegation-first promise, first-use contract, just-in-time connectors, context model, pricing hypotheses and design consequences
+- [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]] — current one-conversation interface, live work, progress, voice, context, naming and Time Given Back direction
 - [[briefs/2026-08-06-irelandgpt-runtime-product-candidate-handoff]] — reviewed Hermes lifecycle and Ask, Doing, Done and You local candidate; no deployment
 - [[imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06]] — supplied source for delegation category, activation, trust ladder and first-100 GTM
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]: Hark product study, evidence boundary and adopted handoff roadmap
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]] — Andrew Amann and David Sacks source capture on open models, proprietary harnesses and enterprise AI sovereignty
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — superseding decision: preserve Hermes breadth first, simplify from founder dogfood
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]] — design and position IrelandGPT around completed delegation and time returned
+- [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]] — supersedes Doing, Done and You as primary navigation with one conversation and contextual live work
 - [[briefs/2026-08-05-personal-assistant-research-charter]] — master evidence-led research prompt, research graph, source ledger and parallel deep-dive programme for the device-native personal assistant
 - [[briefs/2026-08-05-personal-assistant-research-first-return-audit]] — review of first external research return, accepted insights and claims requiring verification
 - [[briefs/2026-08-05-personal-assistant-research-claude]] — Claude workstream 1 on platform/channel/pairing, source-led and retained pending synthesis
@@ -96,7 +98,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/planet-satellite-opportunity]] — satellite imagery cross-domain bridge
 
 ## Current picture
-- The personal-agent venture is now an active runtime-first build in `/Users/samdonworth/Projects/IrelandGPT`; see [[briefs/2026-08-06-personal-agent-founder-operating-brief]], [[briefs/2026-08-06-irelandgpt-delegation-product-charter]], [[companies/personal-agent]] and [[project_state/personal-agent]]. Hermes remains the engine. The consumer promise is delegation and time returned, with hated jobs, just-in-time connectors, Doing, Done and You shaping the experience.
+- The personal-agent venture is now an active runtime-first build in `/Users/samdonworth/Projects/IrelandGPT`; see [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]], [[companies/personal-agent]] and [[project_state/personal-agent]]. Hermes remains the engine. The consumer promise is delegation and time returned through one exceptionally simple conversation, contextual live work, human-language progress, first-class voice and inspectable personal context.
 - OpenHouse AI is the main focus. The marketing site is nearly complete, followed by investor/developer outreach and funding/award applications. See [[briefs/2026-07-24-openhouse-openbook-reset]].
 - Cara is a new started-building venture: Irish SME callable digital assistant; Phase 0 target is one excellent +353 live call before app/dashboard work.
 - OpenBook's immediate commercial unblock is a light client-edit portal followed by €79/month Stripe billing; lead-gen automation is a constrained follow-on pilot.
