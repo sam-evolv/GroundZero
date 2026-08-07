@@ -39,6 +39,10 @@ Sam has experienced the value directly through Hermes plus Ground Zero. The vent
 - bounded browser use for everyday outcomes, separated from payment, sending, booking and account-change approvals
 - first-use design centred on completing one hated administrative job within minutes
 
+## Six-month company mission
+
+Aire will use its own operating system to progressively automate the repeatable work of running Aire. The purpose is both operational and strategic: become excellent at the automation sold to customers, then earn Irish category authority through a falsifiable public proof of an AI-operated company. Customer traction, repeated private rehearsals, auditable intervention records and founder accountability come before any autonomy headline. See [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]], [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]] and [[goals/personal-agent-ai-operated-company-proof]].
+
 ## Distribution
 
 Founder-led, proof-based distribution. The agent helps create the product and verified demonstration assets. Sam tells the story publicly from his own account and may document the journey in long-form writing. Publishing always remains approval-gated.

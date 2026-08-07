@@ -30,7 +30,7 @@ role: project-state
 
 ## Active objective
 
-Translate the accepted Aire v3 mobile architecture into a stable Hermes presentation contract and one verified vertical slice from Chat delegation to Work approval to accepted outcome. Design the desktop adaptation, voice and final name without reinterpreting the accepted mobile visual direction.
+Translate the accepted Aire v3 mobile architecture into a stable Hermes presentation contract and one verified vertical slice from Chat delegation to Work approval to accepted outcome. In parallel, begin the six-month [[goals/personal-agent-ai-operated-company-proof]] mission: use Aire's own operating system to automate repeatable company work, earn customer proof and build an auditable basis for a future Irish public autonomy experiment. Design the desktop adaptation, voice and final name without reinterpreting the accepted mobile visual direction.
 
 ## Current blockers
 

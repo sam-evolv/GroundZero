@@ -49,6 +49,8 @@ This is the first note to load when a model needs cross-business context.
 - [[context/automation-ideas]] — Ground Zero automation ideas
 - [[context/founder-execution-os]] — human-led AI operating system for capture, decisions, triage, and neglected leverage
 - [[context/agentic-value-creation-mission]] — mission and agency ladder for AI-native value creation
+- [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]] — six-month Aire product, company-autonomy and public-proof mission
+- [[goals/personal-agent-ai-operated-company-proof]] — measurable customer, operating-system, rehearsal and distribution gates
 - [[context/llm-wiki-pattern]] — self-maintaining AI wiki (Gipp pattern)
 - [[context/solo-founder-era]] — solo founder + agentic commerce thesis
 - [[decisions/ai-founder-coach-operating-agreement-2026-07-14]] — AI founder coach operating agreement

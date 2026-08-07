@@ -36,6 +36,7 @@ Use this note when a model needs quick, high-signal context.
 - Primary experience is one continuous assistant conversation. Useful live browser or creation work may open contextually beside chat on desktop and as a focused detail on mobile; runtime jargon and capability inventories stay hidden.
 - Product value is completed delegation and conservatively evidenced Time Given Back. Voice and inspectable personal context are first-class but must remain part of the same identity and task state.
 - Distribution thesis: verified work completed with the agent becomes founder-led proof, with every outward post approved by Sam.
+- Six-month mission: make Aire useful to real customers, then progressively operate Aire through its own agentic system and earn a truthful, auditable claim to Irish AI and automation leadership. See [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]] and [[goals/personal-agent-ai-operated-company-proof]].
 - See [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]], [[briefs/2026-08-06-personal-agent-founder-operating-brief]] and [[project_state/personal-agent]].
 
 ### Cara

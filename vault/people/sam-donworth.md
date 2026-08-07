@@ -21,6 +21,7 @@ timezone: Europe/Dublin
 - Wants Hermes to act as a candid cofounder-quality thinking partner: classify ideas plainly, separate evidence from assumptions, challenge distraction and avoidance, and pull only decision-changing threads.
 - Primary outcome is durable financial freedom through meaningful business success and the ability to support his family; near-term decisions should maintain a credible route to replacing day-job income.
 - Values proactive capture of voice-note context into Ground Zero so decision quality compounds across sessions.
+- Six-month founder ambition from August 2026: establish himself as Ireland's leading practical AI and automation founder by building Aire into a real customer product and proving, through auditable operation rather than commentary, that its own company can be run increasingly by the same agentic system.
 - Prefers simple stacks, public distribution early, and compliant automation over headcount-heavy scaling.
 
 ## Model preferences

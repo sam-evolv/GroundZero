@@ -25,6 +25,7 @@ Every decision is stored in `decisions/` as a permanent note. This log orders th
 
 | Date | Decision | Consequences | Status |
 |---|---|---|---|
+| 2026-08-07 | [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]] - Make Aire an evidence-proven AI-operated company | Link customer time-returning automation with progressively automated company operations; require repeated rehearsals and auditable evidence before any public autonomy claim | Active |
 | 2026-08-07 | [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]] - Use Chat, Work and secondary Profile around one persistent work object | Conversation remains the anchor; Work carries approvals, progress and outcomes; the tested Aire v3 mobile artifact becomes the visual baseline | Active |
 | 2026-08-07 | [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]] - Use one assistant conversation with contextual live work | Rejection of Doing, Done, You and runtime navigation remains valid; the conversation-only interpretation was superseded by Chat plus Work | Superseded |
 | 2026-08-06 | [[decisions/2026-08-06-personal-agent-delegation-first-promise]] - Design and position IrelandGPT around delegation and time returned | First use completes a hated job; models and connectors stay hidden until needed; consequential actions stay approval-gated | Active |
