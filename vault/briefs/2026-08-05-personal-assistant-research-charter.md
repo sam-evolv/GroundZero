@@ -390,6 +390,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-personal-assistant-research-codex]]
 - [[briefs/2026-08-05-personal-assistant-research-first-return-audit]]
 - [[briefs/2026-08-05-personal-assistant-research-gemini]]
+- [[briefs/wiki-refiner-2026-08-06]]
 - [[companies/cara]]
 - [[context/index]]
 - [[project_state/cara]]

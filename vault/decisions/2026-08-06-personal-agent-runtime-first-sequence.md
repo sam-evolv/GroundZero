@@ -58,6 +58,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-personal-assistant-prototype-start-gate]]
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]]
+- [[briefs/2026-08-06-irelandgpt-runtime-product-candidate-handoff]]
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]]

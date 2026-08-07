@@ -201,8 +201,12 @@ A feature earns priority only when it materially removes something people hate d
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
+- [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]]
+- [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]]
+- [[briefs/2026-08-06-irelandgpt-runtime-product-candidate-handoff]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]]
+- [[briefs/wiki-refiner-2026-08-06]]
 - [[companies/personal-agent]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]

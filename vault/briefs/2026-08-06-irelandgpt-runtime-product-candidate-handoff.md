@@ -73,3 +73,9 @@ A new local IrelandGPT candidate now combines an authoritative Hermes session-li
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]: sequencing decision
 - [[companies/personal-agent]]: venture context
 - [[context/index]]: Ground Zero entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+- [[project_state/personal-agent]]
+

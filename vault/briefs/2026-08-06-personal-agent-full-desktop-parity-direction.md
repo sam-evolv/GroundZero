@@ -90,6 +90,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]]
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]]
+- [[briefs/2026-08-06-irelandgpt-runtime-product-candidate-handoff]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[companies/personal-agent]]
 - [[context/index]]

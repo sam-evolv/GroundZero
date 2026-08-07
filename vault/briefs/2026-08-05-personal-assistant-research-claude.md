@@ -270,5 +270,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]]
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
 - [[briefs/2026-08-05-personal-assistant-research-charter]]
+- [[briefs/wiki-refiner-2026-08-06]]
 - [[context/index]]
 

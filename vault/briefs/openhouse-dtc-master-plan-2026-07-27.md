@@ -979,6 +979,7 @@ This plan authorises a bounded DTC concierge validation track as the next produc
 - [[imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26]] — shared signals: maintaining, obsidian, 2026
 
 - [[imports/2026-08-06-personal-agent-founder-voice-notes]] — shared signals: personal, founder, voice
+- [[imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06]] — shared signals: delegation, strategy, ireland
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-market-readiness-audit]]
@@ -1004,6 +1005,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-03]]
 - [[briefs/wiki-refiner-2026-08-04]]
 - [[briefs/wiki-refiner-2026-08-05]]
+- [[briefs/wiki-refiner-2026-08-06]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[context/openhouse-product-map]]

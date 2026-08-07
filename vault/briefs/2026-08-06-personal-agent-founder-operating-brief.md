@@ -96,6 +96,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]]
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
+- [[briefs/2026-08-06-irelandgpt-business-model-evidence-ledger]]
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]]
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]]
