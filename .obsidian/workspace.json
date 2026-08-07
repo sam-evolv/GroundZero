@@ -181,6 +181,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/imports/2026-08-07-chatgpt-personal-agent-design-consultancy.md",
     "vault/briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt.md",
     "vault/decisions/2026-08-07-personal-agent-single-conversation-live-work-interface.md",
     "vault/briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back.md",
@@ -206,7 +207,6 @@
     "vault/project_state/personal-agent.md",
     "vault/items/personal-agent-founder-dogfood-and-proof-loop.md",
     "vault/imports/2026-08-06-personal-agent-founder-voice-notes.md",
-    "vault/decisions/2026-08-06-personal-agent-runtime-first-sequence.md",
     "vault/private/learning-library/spotify-playback-state.json",
     "scripts/openhouse_sales_pipeline.py",
     "vault/data/openhouse-founder-sales-pipeline.csv",
