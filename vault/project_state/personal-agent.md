@@ -15,7 +15,7 @@ role: project-state
 - Immutable candidate `2f6e6954a5666102bc4cf012caa54c0fb2e6cc96` passed independent review with 136 Python tests and 13 Node tests. It is not deployed.
 - Final local product candidate `d533206b37e0aecb1d48c4a7cb8e972a0a284743` is paired with Hermes runtime `27f142544b3bbe7ef8fdbd5d6db8b7505614ea13`. The exact pair passed real-process lifecycle verification and independent immutable review. See [[briefs/2026-08-06-irelandgpt-runtime-product-candidate-handoff]].
 - The prior Ask, Doing, Done and You shell was rejected after founder phone review. Those labels and automation/capability inventories are no longer the intended consumer information architecture.
-- Sam is designing a replacement interface whose primary experience is one continuous assistant conversation. Desktop may reveal a contextual live-work panel; mobile uses a focused work detail or sheet.
+- Sam's Aire v3 mobile artifact is now the accepted visual baseline. Chat handles delegation and collaboration, Work handles persistent jobs and outcomes, and Profile is secondary for context and authority. Desktop remains to be adapted with contextual live work.
 - Local simplification work exists only as an interim integration baseline. It has not been accepted or redeployed and must not be treated as the visual source of truth.
 - Production remains on the earlier founder-alpha build. The live bytes do not contain the approved local photo and Quiet Margin functionality.
 - The selected-folder connector and SwiftUI simulator app remain in the repository as secondary/reference work.
@@ -30,12 +30,12 @@ role: project-state
 
 ## Active objective
 
-Research and define the founder-designed single-conversation product, including contextual live work, human-language progress, elapsed time, defensible Time Given Back, first-class voice, inspectable personal context and a global final name. Preserve Hermes outcome breadth behind a stable presentation contract. Resume implementation only after the interface direction is accepted.
+Translate the accepted Aire v3 mobile architecture into a stable Hermes presentation contract and one verified vertical slice from Chat delegation to Work approval to accepted outcome. Design the desktop adaptation, voice and final name without reinterpreting the accepted mobile visual direction.
 
 ## Current blockers
 
 - Full Desktop parity has not yet been implemented. Current live/adapted surfaces cover conversation core, basic capabilities, automations and local photo support only.
-- The previous mobile navigation concept is obsolete. The accepted replacement has not yet been designed or verified.
+- The accepted Aire v3 mobile replacement has been directly rendered and interaction-tested. Desktop adaptation, production data integrity, accessibility and truthful Hermes event mapping remain unresolved.
 - Generic file and artifact delivery still needs a Hermes-owned opaque registry with ownership, metadata and retrieval boundaries.
 - Memory, agents, background work, voice, connectors, profiles, richer settings and messaging continuity need product adapters.
 - Trusted local filesystem, terminal, project and Git outcomes need an explicit paired-desktop path rather than direct public-browser exposure.
@@ -43,10 +43,10 @@ Research and define the founder-designed single-conversation product, including 
 
 ## Next verified milestones
 
-1. Complete the evidence-led interface, progress, psychology, time-saved, voice and naming research.
-2. Accept Sam's mobile-first conversation design and desktop adaptation.
-3. Freeze a small presentation contract that maps authoritative Hermes events into message, working, approval, result and error states without visible runtime jargon.
-4. Implement contextual desktop live work and the mobile work-detail equivalent.
+1. Freeze the tested Aire v3 mobile visual and interaction baseline.
+2. Replace all specific prototype fixtures with a documented demo-data map or verified sources.
+3. Freeze a presentation contract that maps authoritative Hermes events into Chat, Work, approval, result and error states without visible runtime jargon.
+4. Design the desktop adaptation and optional contextual live-work split.
 5. Implement safe files, previews, artifacts and rich results within the conversation.
 6. Implement first-class voice against real iPhone interruption, endpointing, Bluetooth and latency gates.
 7. Implement personal context as inspectable, correctable progressive disclosure rather than a knowledge-management interface.
@@ -73,7 +73,9 @@ Research and define the founder-designed single-conversation product, including 
 - [[imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06]] — verbatim strategy source
 - [[imports/2026-08-06-personal-agent-founder-voice-notes]] — source
 - [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]] — current founder direction
-- [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]] — superseding interface decision
+- [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]] — active interface decision
+- [[briefs/2026-08-07-aire-v3-independent-design-audit]] — directly tested design audit
+- [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]] — superseded conversation-only interpretation
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_

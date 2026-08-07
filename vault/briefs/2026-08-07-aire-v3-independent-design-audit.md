@@ -119,7 +119,11 @@ At 1440 × 1000 the prototype is a centred 393 × 852 phone mock. It does not de
 
 The mobile design should remain authoritative while a desktop adaptation is designed separately.
 
-### 3. The learning deep link is too broad
+### 3. Voice remains a symbol, not a designed experience
+
+The composer includes a microphone control, but this artifact does not define or prove realtime voice. It does not resolve listening and speaking states, latency, interruption, turn detection, transcript correction, background noise, Bluetooth, privacy, voice handoff into Work, or continuity between spoken and written conversation. Voice remains a separate first-class design and engineering workstream.
+
+### 4. The learning deep link is too broad
 
 “Show me the evidence” successfully opens “How Aire works for you,” but it should land on the exact Irish-English proposal with:
 
@@ -131,7 +135,7 @@ The mobile design should remain authoritative while a desktop adaptation is desi
 
 The broader preference ledger should remain available after the specific decision.
 
-### 4. Accessibility is improved but incomplete
+### 5. Accessibility is improved but incomplete
 
 Verified improvements:
 
@@ -150,7 +154,7 @@ Remaining work:
 - Test VoiceOver reading order and labels on a real iPhone.
 - Run automated contrast and accessibility checks against production components rather than the Design Composer runtime.
 
-### 5. Runtime truth contract remains open
+### 6. Runtime truth contract remains open
 
 The design depicts browser work, ongoing jobs, approvals, payment attempts, files, scheduled work, connected services and device state. Implementation must map each state to authoritative Hermes events. It must not simulate:
 
@@ -165,7 +169,7 @@ The design depicts browser work, ongoing jobs, approvals, payment attempts, file
 
 The presentation contract should define which Hermes event creates, updates and closes every visible state.
 
-### 6. Visual prototype limitations
+### 7. Visual prototype limitations
 
 - The prototype loads Google Fonts remotely.
 - A missing favicon generated the only console error observed.
