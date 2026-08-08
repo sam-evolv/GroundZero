@@ -76,6 +76,11 @@ A new local IrelandGPT candidate now combines an authoritative Hermes session-li
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
+- [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]]
+- [[companies/personal-agent]]
 - [[context/index]]
+- [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
+- [[items/personal-agent-hermes-desktop-parity]]
 - [[project_state/personal-agent]]
 

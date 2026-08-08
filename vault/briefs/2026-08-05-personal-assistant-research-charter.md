@@ -381,6 +381,7 @@ Do not turn research volume into a build plan automatically. After collecting re
 - [[imports/design-systems/openhouse-openbook/SKILL]] — shared signals: openhouse, openbook, design
 
 - [[imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06]] — shared signals: strategy, product, chatgpt
+- [[imports/2026-08-07-chatgpt-personal-agent-design-consultancy]] — shared signals: consultancy, personal, chatgpt
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
@@ -391,6 +392,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-personal-assistant-research-first-return-audit]]
 - [[briefs/2026-08-05-personal-assistant-research-gemini]]
 - [[briefs/wiki-refiner-2026-08-06]]
+- [[briefs/wiki-refiner-2026-08-07]]
 - [[companies/cara]]
 - [[context/index]]
 - [[project_state/cara]]

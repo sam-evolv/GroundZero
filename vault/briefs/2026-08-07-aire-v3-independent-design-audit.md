@@ -195,3 +195,10 @@ The presentation contract should define which Hermes event creates, updates and 
 - [[companies/personal-agent]]
 - [[imports/2026-08-07-chatgpt-personal-agent-design-consultancy]]
 - [[context/index]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/personal-agent]]
+- [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]
+- [[project_state/personal-agent]]
+

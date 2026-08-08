@@ -224,6 +224,8 @@ Given the current context, the strongest first bets are likely:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]]
+- [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
@@ -237,6 +239,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/solo-founder-era]]
 - [[goals/ob-retention]]
 - [[goals/oh-funder-pitch]]
+- [[goals/personal-agent-ai-operated-company-proof]]
 - [[people/sam-donworth]]
 
 

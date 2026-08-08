@@ -48,3 +48,13 @@ The delegation-first promise, just-in-time connections, approval gates, complete
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]] — enduring product promise
 - [[decisions/_Index]] — decision log
 - [[context/index]] — Ground Zero entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
+- [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]]
+- [[companies/personal-agent]]
+- [[context/index]]
+- [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]
+- [[project_state/personal-agent]]
+

@@ -646,4 +646,5 @@ If at least three sites share the route and one buyer funds an assessment, conti
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-05]]
 - [[briefs/wiki-refiner-2026-08-06]]
+- [[briefs/wiki-refiner-2026-08-07]]
 

@@ -147,6 +147,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
 - [[briefs/wiki-refiner-2026-08-05]]
 - [[briefs/wiki-refiner-2026-08-06]]
+- [[briefs/wiki-refiner-2026-08-07]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
 - [[context/index]]

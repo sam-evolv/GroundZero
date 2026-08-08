@@ -74,6 +74,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/agentic-value-creation-mission]]
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]]
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
+- [[goals/personal-agent-ai-operated-company-proof]]
 - [[items/personal-agent-hermes-desktop-parity]]
 - [[items/personal-agent-unit-economics-and-onboarding]]
 - [[project_state/personal-agent]]

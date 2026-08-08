@@ -1560,3 +1560,8 @@ Your first response should contain:
    - Requires prototype or user testing
 
 Then stop and wait for my answers before moving into the next consultancy round.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]]
+

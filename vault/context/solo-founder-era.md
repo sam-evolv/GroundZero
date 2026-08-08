@@ -51,6 +51,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]]
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]]
+- [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]]
+- [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
@@ -70,5 +72,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/scaling-playbook]]
 - [[decisions/ai-founder-coach-operating-agreement-2026-07-14]]
 - [[goals/oh-funder-pitch]]
+- [[goals/personal-agent-ai-operated-company-proof]]
 - [[people/sam-donworth]]
 

@@ -67,3 +67,13 @@ Within six months, establish Aire as a real customer product and produce indepen
 - [[context/solo-founder-era]]
 - [[people/sam-donworth]]
 - [[context/index]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]]
+- [[companies/personal-agent]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]]
+- [[project_state/personal-agent]]
+

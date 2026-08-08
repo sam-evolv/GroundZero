@@ -57,6 +57,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[companies/personal-agent]]
 - [[context/index]]
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
+- [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]]
 - [[items/personal-agent-founder-dogfood-and-proof-loop]]
 - [[project_state/personal-agent]]
 

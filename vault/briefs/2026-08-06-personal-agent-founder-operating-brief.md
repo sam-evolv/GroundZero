@@ -101,6 +101,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]]
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]]
 - [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]]
+- [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]]
 - [[companies/personal-agent]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]

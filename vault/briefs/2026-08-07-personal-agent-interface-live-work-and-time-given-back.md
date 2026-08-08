@@ -109,3 +109,15 @@ No name is selected until trademark, company, domain, app-store and social check
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]] — living Profile and commercial hypotheses
 - [[briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt]] — complete copy-paste ChatGPT consultancy prompt
 - [[context/index]] — Ground Zero entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-07-aire-v3-independent-design-audit]]
+- [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]]
+- [[companies/personal-agent]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]
+- [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]]
+- [[project_state/personal-agent]]
+

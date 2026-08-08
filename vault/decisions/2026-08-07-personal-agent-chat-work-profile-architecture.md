@@ -63,3 +63,14 @@ Its warm ivory, petrol teal, Newsreader and Karla system is accepted as the curr
 - [[project_state/personal-agent]]
 - [[decisions/_Index]]
 - [[context/index]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]]
+- [[briefs/2026-08-07-aire-v3-independent-design-audit]]
+- [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]]
+- [[companies/personal-agent]]
+- [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]]
+- [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]]
+- [[project_state/personal-agent]]
+

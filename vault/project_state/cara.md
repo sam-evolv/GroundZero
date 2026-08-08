@@ -118,6 +118,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-04]]
 - [[briefs/wiki-refiner-2026-08-05]]
 - [[briefs/wiki-refiner-2026-08-06]]
+- [[briefs/wiki-refiner-2026-08-07]]
 - [[companies/cara]]
 - [[context/dashboard]]
 - [[context/index]]

@@ -294,3 +294,10 @@ Aire should not compete by claiming broader autonomy sooner. It should win throu
 - [[context/autonomous-business-launch-loop]] - adjacent launch-loop thesis
 - [[context/solo-founder-era]] - solo-founder operating thesis
 - [[context/index]] - Ground Zero entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/personal-agent]]
+- [[context/index]]
+- [[project_state/personal-agent]]
+
