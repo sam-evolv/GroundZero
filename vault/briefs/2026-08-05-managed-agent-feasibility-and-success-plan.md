@@ -505,6 +505,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/hermes-community-use-cases-2026-07-28]]
 - [[briefs/wiki-refiner-2026-08-06]]
 - [[briefs/wiki-refiner-2026-08-07]]
+- [[briefs/wiki-refiner-2026-08-08]]
 - [[companies/cara]]
 - [[context/agentic-value-creation-mission]]
 - [[context/business-opportunities-moc]]

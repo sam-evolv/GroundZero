@@ -64,5 +64,10 @@ By the end of the six-month horizon, Aire should have:
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]]
 - [[companies/personal-agent]]
+- [[context/agentic-value-creation-mission]]
+- [[context/index]]
+- [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]
 - [[goals/personal-agent-ai-operated-company-proof]]
+- [[people/sam-donworth]]
+- [[project_state/personal-agent]]
 

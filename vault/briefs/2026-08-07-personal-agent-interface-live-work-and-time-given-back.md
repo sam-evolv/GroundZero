@@ -112,7 +112,11 @@ No name is selected until trademark, company, domain, app-store and social check
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
+- [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]]
 - [[briefs/2026-08-07-aire-v3-independent-design-audit]]
+- [[briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt]]
 - [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]]
 - [[companies/personal-agent]]
 - [[context/index]]

@@ -176,6 +176,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[briefs/wiki-refiner-2026-08-06]]
 - [[briefs/wiki-refiner-2026-08-07]]
+- [[briefs/wiki-refiner-2026-08-08]]
 - [[companies/cara]]
 - [[companies/openbook]]
 - [[companies/personal-agent]]

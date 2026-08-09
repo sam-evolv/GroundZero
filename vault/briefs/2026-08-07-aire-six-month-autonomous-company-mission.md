@@ -164,10 +164,17 @@ Every meaningful Aire workflow should now be evaluated twice:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
 - [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]]
 - [[companies/personal-agent]]
+- [[context/agentic-value-creation-mission]]
+- [[context/autonomous-business-launch-loop]]
 - [[context/index]]
 - [[context/model-pack]]
+- [[context/solo-founder-era]]
 - [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]]
+- [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]
 - [[goals/personal-agent-ai-operated-company-proof]]
+- [[people/sam-donworth]]
+- [[project_state/personal-agent]]
 

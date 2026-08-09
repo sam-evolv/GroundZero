@@ -297,7 +297,12 @@ Aire should not compete by claiming broader autonomy sooner. It should win throu
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]]
+- [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]]
 - [[companies/personal-agent]]
+- [[context/autonomous-business-launch-loop]]
 - [[context/index]]
+- [[context/solo-founder-era]]
+- [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]
 - [[project_state/personal-agent]]
 
