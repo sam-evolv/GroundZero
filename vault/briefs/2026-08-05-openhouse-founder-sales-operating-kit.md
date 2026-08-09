@@ -314,6 +314,7 @@ Agents may research, draft, personalise, rank, update the pipeline and prepare p
 ## Connected vault notes
 
 - [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]] - founder commercial decision
+- [[briefs/2026-08-05-openhouse-founder-sales-dashboard]] - 5 August pipeline snapshot and contact-ready queue
 - [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]] - corrected Irish queue
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]] - UK and US wedge research
 - [[items/oh-uk-aftercare-design-partner-sprint]] - UK proof loop
