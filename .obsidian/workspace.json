@@ -181,6 +181,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/briefs/2026-08-10-lindy-teammate-source-audit-and-aire-lessons.md",
     "scripts/context_contract.py",
     "tests/test_context_contract.py",
     "tests",
@@ -216,7 +217,6 @@
     "vault/assets/aire-v3-review-2026-08-07/03-payment-detail-mobile.png",
     "vault/assets/aire-v3-review-2026-08-07/02-work-mobile.png",
     "vault/assets/aire-v3-review-2026-08-07/01-chat-mobile.png",
-    "vault/assets/aire-v3-review-2026-08-07",
     "vault/imports/2026-08-07-chatgpt-personal-agent-design-consultancy.md",
     "vault/briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt.md",
     "vault/decisions/2026-08-07-personal-agent-single-conversation-live-work-interface.md",
