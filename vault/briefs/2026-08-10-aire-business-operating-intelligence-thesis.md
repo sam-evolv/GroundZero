@@ -76,6 +76,9 @@ The generic layer is crowded:
 - Glean Assistant searches company knowledge, queries data warehouses and BI tools, produces cited insights and performs cross-system work for employees.
 - Moveworks combines enterprise search, role-aware access and workflow automation across employee systems.
 - Salesforce Agentforce supports employee and customer agents integrated with Salesforce data and workflows.
+- Microsoft Copilot Studio and Power BI combine low-code agents, connectors, human controls and natural-language analytics; Microsoft explicitly warns that weak semantic models can produce generic, inaccurate or misleading output.
+- ServiceNow already spans customer service, employee service, workflow automation, analytics and governed AI agents at enterprise scale.
+- Zendesk combines AI service agents, ticketing, knowledge, actions, workforce management and analytics.
 - ThoughtSpot Spotter positions itself as an enterprise analytics agent over governed business data.
 
 Therefore, "chat with company documents," generic support automation, enterprise search and natural-language analytics are not sufficient differentiation.
@@ -86,6 +89,10 @@ Official product sources checked 2026-08-10:
 - https://www.glean.com/product/assistant
 - https://www.moveworks.com/us/en/platform
 - https://www.salesforce.com/agentforce/
+- https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio
+- https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction
+- https://www.servicenow.com/products/ai-agents.html
+- https://www.zendesk.com/service/ai/ai-agents/
 - https://www.thoughtspot.com/product/spotter
 
 ## Potential differentiation
@@ -117,6 +124,10 @@ The dashboard idea is feasible if implemented as **constrained generative UI**, 
 This can feel intelligently generated while remaining secure, testable and visually coherent.
 
 ## Architecture
+
+Hermes should remain the **bounded execution substrate**, not the enterprise system of record or tenant-policy authority. Aire should remain the human-facing Chat, Work, Profile, progress, approval and receipt shell. A separate Aire Business control plane must enforce tenancy, identity, data policy, workflow definitions, connector scope, budgets, audit and the semantic metrics layer before data or actions reach Hermes.
+
+The current personal Hermes runtime is not, by itself, a sufficient hostile-content, enterprise-tenancy or SaaS authorisation boundary. It should sit behind workflow-scoped credentials, redacted events and deterministic policy enforcement.
 
 ### Shared platform layer
 
@@ -151,12 +162,14 @@ A shared platform does not make unrelated verticals reliable automatically.
 The strongest current interpretation is a product family, not an immediate collapse into one generic brand:
 
 - **Aire Personal** proves the individual assistant, runtime wrapper, memory, work and adaptive interface.
-- **Aire Business** can become the shared platform and enterprise product family.
+- **Aire Business** begins as shared internal infrastructure and can become the enterprise product family only after repeated paid evidence.
 - **OpenHouse** remains the property/developer vertical and first deep business proof, with its premium brand and property-specific data model.
 - **OpenHouse Care** can validate installed-equipment aftercare with CSV/document onboarding before broad integrations.
 - **Renewable Operations Intelligence** can later reuse the entity/evidence/action architecture for portfolio assets.
 
 OpenHouse is therefore potentially the first vertical beachhead and reference implementation of Aire Business, not a redundant project. No merger or rebrand is decided by this note.
+
+The clearest company structure is one product family with two currently distinct ventures: Aire Personal and OpenHouse. Aire Business earns a public identity only after at least two independent paid vertical deployments prove that the shared tenant, evidence, workflow, approval, dashboard and connector primitives materially reduce the cost and time of the second implementation. Until then, it is valuable internal architecture rather than a third public startup.
 
 ## Robotics and physical-world extension
 
@@ -217,6 +230,16 @@ This single deployment would exercise customer, workplace and management Aire wh
 - faster complete intake and resolution;
 - at least one dashboard altered conversationally through constrained components;
 - a second company whose schema fits the same vertical pack with materially less setup effort.
+
+### Indicative delivery reality
+
+These are architecture estimates, not delivery promises:
+
+- A credible single-tenant demonstration with imported records, cited answers, a constrained dashboard and an approval-stopped workflow is plausible in roughly two to four weeks.
+- A reliable design-partner deployment with production identity, tested tenant isolation, one or two live read-only connectors, provenance, governed metrics, approvals, observability and contractual data boundaries is more plausibly eight to sixteen weeks.
+- A repeatable multi-tenant product with onboarding tooling, SSO/SCIM, connector mappings, tenant administration, workflow versioning, audit export and several successful customers in one vertical is likely a six-to-twelve-month product programme.
+
+The fastest serious commercial proof remains OpenHouse's first independent paid scheme because the product, buyer context and source-data model already exist. A second paid asset-heavy deployment, such as owner-side renewable operations or installed-equipment aftercare, is the test that Aire Business is genuinely shared product rather than generic AI infrastructure.
 
 ## Founder-level verdict
 
