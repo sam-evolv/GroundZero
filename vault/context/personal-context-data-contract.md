@@ -120,6 +120,7 @@ Chat may propose or perform a context update in ordinary language. Work records 
 
 Any implementation of this contract must prove:
 
+- JSONL event exports pass `python3 scripts/context_contract.py <ledger.jsonl>`; the validator enforces the envelope, explicit missing values, secret-bearing key rejection and owner-safe supersession
 - exact-owner denial for direct identifiers
 - append-only correction and deterministic reprojection
 - conflict preservation
@@ -151,3 +152,14 @@ Any implementation of this contract must prove:
 - [[project_state/personal-agent]] — current implementation state
 - [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]] — adoption decision and local-model boundary
 - [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]] — current private intelligence evidence
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/personal-agent]]
+- [[context/ground-zero-structure]]
+- [[context/index]]
+- [[context/mirror-review-protocol]]
+- [[context/model-pack]]
+- [[context/review-workflow]]
+- [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]
+- [[project_state/personal-agent]]

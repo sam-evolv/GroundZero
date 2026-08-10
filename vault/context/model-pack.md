@@ -128,6 +128,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/learn-targets]]
 - [[context/llm-wiki-pattern]]
 - [[context/openhouse-openbook-design-system]]
+- [[context/personal-context-data-contract]]
 - [[context/review-workflow]]
 - [[context/scaling-playbook]]
 - [[context/solo-founder-era]]

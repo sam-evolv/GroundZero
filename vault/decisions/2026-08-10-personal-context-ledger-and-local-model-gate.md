@@ -94,3 +94,10 @@ For each job record correctness, unsupported claims, tool-schema compliance, pro
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]] — open-model and provider-agnostic strategy
 - [[context/index]] — canonical Ground Zero entry point
 - [[decisions/_Index]] — durable decision log
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/index]]
+- [[context/mirror-review-protocol]]
+- [[context/personal-context-data-contract]]
+- [[project_state/personal-agent]]

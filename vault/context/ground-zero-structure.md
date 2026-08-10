@@ -100,6 +100,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/index]]
 - [[context/model-pack]]
 - [[context/ops-automation-moc]]
+- [[context/personal-context-data-contract]]
 - [[context/review-workflow]]
 - [[decisions/ground-zero-canonical]]
 - [[goals/ob-retention]]

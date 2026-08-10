@@ -110,3 +110,12 @@ The result must distinguish observations from recommendations and recommendation
 - [[context/agentic-value-creation-mission]] — value and autonomy ladder
 - [[context/index]] — canonical Ground Zero entry point
 - [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]] — adoption decision
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/ground-zero-structure]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[context/personal-context-data-contract]]
+- [[context/review-workflow]]
+- [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]
