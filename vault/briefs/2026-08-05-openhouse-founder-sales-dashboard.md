@@ -49,3 +49,8 @@ Generated: 2026-08-05
 - B | US | New Tradition Homes | Kelly Helmes | https://www.newtraditionhomes.com/contact-us | Cross-functional field operations and warranty owner, two-year workmanship warranty and published homeowner guide
 - C | US | Moderne Ventures Passport | Nicole Weldon | https://www.moderneventures.com/contact | Passport explicitly targets customer introductions, pilots, pipeline and revenue, though OpenHouse may be too early for standard admission
 - C | US | NoviHome | Partnership owner | https://www.novihome.com/contact | Walk-in-to-warranty platform and digital-home-binder adjacency may support a narrow product partnership
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+

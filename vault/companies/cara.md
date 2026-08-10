@@ -103,6 +103,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-06]]
 - [[briefs/wiki-refiner-2026-08-07]]
 - [[briefs/wiki-refiner-2026-08-08]]
+- [[briefs/wiki-refiner-2026-08-09]]
 - [[context/agentic-value-creation-mission]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]
