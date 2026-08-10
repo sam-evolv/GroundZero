@@ -219,6 +219,7 @@ Proceed only if one portfolio owner will pay for the operational baseline and pr
 - [[2026-08-04-renewables-operations-intelligence-business]]
 - [[solar-installer-software-wedge]]
 - [[planet-satellite-opportunity]]
+- [[2026-08-10-aire-business-operating-intelligence-thesis]]
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_

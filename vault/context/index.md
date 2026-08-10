@@ -71,6 +71,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]] — four grounded Irish relationship and decision routes with send-ready copy
 - [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]] — copy-ready one-scheme commercial proposal
 - [[briefs/2026-08-05-managed-agent-consumer-wedge]] — consumer-first managed-agent opportunity, MIT/upstream constraints and validation approach
+- [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]] — configurable customer, workplace and management intelligence platform; OpenHouse vertical fit and physical-evidence expansion
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]] — canonical founder thesis, build sequence, dogfood loop and agent-built distribution story
 - [[briefs/2026-08-06-personal-agent-full-desktop-parity-direction]] — clarified requirement: complete Hermes Desktop outcome parity before consumer simplification
 - [[briefs/2026-08-06-irelandgpt-onboarding-profile-and-business-model]] — guest-first onboarding, living Profile, tier hypotheses and evidence gates
