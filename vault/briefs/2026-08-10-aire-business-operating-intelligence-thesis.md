@@ -257,6 +257,7 @@ The decisive question is not whether an LLM can answer questions over business d
 - [[briefs/2026-08-04-renewable-operations-business-proposition]] — asset evidence and verified-recovery architecture
 - [[context/business-opportunities-moc]] — portfolio opportunity map
 - [[briefs/planet-satellite-opportunity]] — physical evidence acquisition bridge
+- [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]] — founder debrief expanding the physical-evidence layer into asset-centric, time-aware intelligence
 - [[project_state/personal-agent]] — current Aire build state
 - [[project_state/oh]] — current OpenHouse state
 - [[project_state/renew]] — current renewables state

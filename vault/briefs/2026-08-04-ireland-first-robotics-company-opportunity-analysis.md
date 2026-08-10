@@ -10,6 +10,10 @@ scope: market research only; no company formation, purchase, travel, outreach or
 
 # Ireland-first robotics company opportunity analysis
 
+## Connected source update
+
+- [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]] — later founder debrief reframing robotics as one observation layer inside a broader physical-world intelligence platform
+
 ## Executive decision
 
 The strongest **company thesis** remains an Ireland-first deployment, evidence and compliance layer for robots performing physical work in regulated and uptime-critical facilities.
