@@ -181,6 +181,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "scripts/context_contract.py",
     "tests/test_context_contract.py",
     "tests",
     "vault/context/mirror-review-protocol.md",
@@ -224,7 +225,6 @@
     "vault/briefs/2026-08-06-irelandgpt-runtime-product-candidate-handoff.md",
     "vault/imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06.md",
     "vault/briefs/2026-08-06-irelandgpt-business-model-evidence-ledger.md",
-    "vault/private/learning-library/spotify-playback-state.json",
     "vault/imports/design-systems/openhouse-openbook/uploads/openhouse-logo.png",
     "vault/imports/design-systems/openhouse-openbook/uploads/Transparent OH Logo.png"
   ]
