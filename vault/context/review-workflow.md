@@ -43,6 +43,8 @@ Read the current context, then update the live notes before drafting any summary
 - [[project_state/oh]], [[project_state/ob]], [[project_state/renew]] — what this workflow reads
 - [[items/_Index]] — what this workflow checks
 - [[context/capture-workflow]] — input to the review cycle
+- [[context/mirror-review-protocol]] — explicit-approval protocol for bounded historic session analysis
+- [[context/personal-context-data-contract]] — provenance and correction rules for any durable findings
 - [[Daily/_Index]] — daily notes produced by this workflow
 - [[briefs/wiki-refiner-2026-07-17]] — latest automated refiner review
 

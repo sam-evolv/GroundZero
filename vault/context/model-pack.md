@@ -73,6 +73,8 @@ Use this note when a model needs quick, high-signal context.
 - Keep context in the git-backed Ground Zero vault, not scattered across chats.
 - Do not store secrets in the vault.
 - Preserve history rather than overwriting decisions.
+- Apply [[context/personal-context-data-contract]] to durable personal context: append-only events, provenance, correction, explicit missing values, exact ownership and recoverable projections.
+- Run [[context/mirror-review-protocol]] only after explicit source-scope approval; never schedule broad transcript mining automatically.
 - Keep raw external imports in `imports/` and curate the useful parts into the canonical notes.
 - Load [[context/openhouse-openbook-design-system]] before any OpenHouse or OpenBook design work.
 

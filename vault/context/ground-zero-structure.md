@@ -36,7 +36,8 @@ Start at `vault/context/index.md`, then open the relevant domain note before edi
 - `items/` = active work → [[items/_Index]]
 - `decisions/` = why choices were made → [[decisions/ground-zero-canonical]]
 - `briefs/` = dated snapshots → [[briefs/planet-satellite-opportunity]], [[briefs/solar-installer-software-wedge]]
-- `context/` = shared entry points → [[context/index]]
+- `context/` = shared entry points and normative operating contracts → [[context/index]], [[context/personal-context-data-contract]]
+- approval-gated historic review → [[context/mirror-review-protocol]]
 - `capture/` = temporary inbox → [[capture/inbox]]
 ## Connected vault notes
 

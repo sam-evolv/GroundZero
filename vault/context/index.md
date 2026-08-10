@@ -48,6 +48,9 @@ This is the first note to load when a model needs cross-business context.
 - [[context/openhouse-openbook-design-system]] — canonical shared design system, tokens, assets and surface-specific UI kits
 - [[context/automation-ideas]] — Ground Zero automation ideas
 - [[context/founder-execution-os]] — human-led AI operating system for capture, decisions, triage, and neglected leverage
+- [[context/personal-context-data-contract]] — normative provenance, correction, ownership, privacy and recovery rules for Ground Zero and Aire
+- [[context/mirror-review-protocol]] — opt-in, bounded review of historic agent work with evidence and approval gates
+- [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]] — adopted context ledger and hardware-evidenced local-model gate
 - [[context/agentic-value-creation-mission]] — mission and agency ladder for AI-native value creation
 - [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]] — six-month Aire product, company-autonomy and public-proof mission
 - [[goals/personal-agent-ai-operated-company-proof]] — measurable customer, operating-system, rehearsal and distribution gates

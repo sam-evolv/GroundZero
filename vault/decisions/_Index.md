@@ -25,6 +25,7 @@ Every decision is stored in `decisions/` as a permanent note. This log orders th
 
 | Date | Decision | Consequences | Status |
 |---|---|---|---|
+| 2026-08-10 | [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]] - Adopt a provenance-backed context ledger and hardware-evidenced local-model gate | Ground Zero remains canonical; Aire Profile gets explicit provenance, correction and recovery rules; Mirror reviews require approval; Muse Glimmer is deferred on the current 16 GB Mac | Active |
 | 2026-08-07 | [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]] - Make Aire an evidence-proven AI-operated company | Link customer time-returning automation with progressively automated company operations; require repeated rehearsals and auditable evidence before any public autonomy claim | Active |
 | 2026-08-07 | [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]] - Use Chat, Work and secondary Profile around one persistent work object | Conversation remains the anchor; Work carries approvals, progress and outcomes; the tested Aire v3 mobile artifact becomes the visual baseline | Active |
 | 2026-08-07 | [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]] - Use one assistant conversation with contextual live work | Rejection of Doing, Done, You and runtime navigation remains valid; the conversation-only interpretation was superseded by Chat plus Work | Superseded |

@@ -27,8 +27,8 @@ Sam has experienced the value directly through Hermes plus Ground Zero. The vent
 - web and desktop first
 - installable phone home-screen experience
 - native iOS and Android after the interaction model stabilises
-- inspectable, confidence-aware personal context inspired by Ground Zero
-- invisible model routing after real usage is measured
+- inspectable, confidence-aware personal context governed by [[context/personal-context-data-contract]], with provenance, correction, forgetting, explicit missing values and exact owner boundaries
+- invisible model routing after real usage is measured; local models enter only through hardware, privacy, quality, consequence and cost gates
 - just-in-time connectors and optional device or file capabilities as parts of the assistant
 - Irish-English default soul with tasteful contextual Irish phrasing and optional formal, warm, colloquial, concise or reflective personality profiles
 - the same complete capability set adapted responsively for web and phone, with trusted local powers executed by Hermes or a paired desktop companion

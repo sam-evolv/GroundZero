@@ -27,6 +27,8 @@ role: project-state
 - Primary-source review verified DeepSeek V4 Flash and GPT-5.6 Luna, established an Irish adoption/payment baseline and confirmed that automatic parent monitoring is not a safe launch feature. Public tier prices remain hypotheses pending measured workload and conversion evidence.
 - The later ChatGPT strategy session is reconciled into the charter: “Complex under the hood. Calm on the surface,” a suggest-to-autonomy trust ladder, Time to First Delegation under five minutes, evidence-backed Time Given Back, outcome-based Explore, founder-led first-100 GTM and one identity across web, phone, voice and supported messaging.
 - The Vibiz Connector source audit adds a concrete vertical-operator pattern: one delegation should create one authoritative Work object with recognizable milestones, approval gates, outputs and receipts. Aire should adopt the compression and role shift, while rejecting implied revenue proof, broad autonomy claims and unclear confirmation boundaries. See [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]].
+- [[context/personal-context-data-contract]] is now the normative Profile/context boundary. It specifies append-only provenance, correction and supersession, explicit missing-value semantics, exact ownership, retrieval minimisation, authentication separation and backup/restore acceptance.
+- Muse Glimmer 30B is verified as Apache 2.0 and Hermes-compatible by its official model card, but its supported quantized envelope starts at 24 GB. Sam's current 16 GB Mac is below that gate, so no model was downloaded or routed. See [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]].
 - Final product name remains open.
 
 ## Active objective
