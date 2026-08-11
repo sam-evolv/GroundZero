@@ -88,6 +88,8 @@ These are testable hypotheses, not final public pricing. Model names, workload c
 - [[briefs/2026-08-07-aire-v3-independent-design-audit]] — directly tested mobile design audit
 - [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]] — vertical operator pattern, demo evidence boundary and lessons for Aire
 - [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]] — exploratory business platform extension across customer, employee and management intelligence
+- [[briefs/2026-08-11-aire-health-specialist-coach]] — parked premium specialist health, fitness, nutrition and recovery extension
+- [[items/aire-health-specialist-coach]] — parked revisit item
 - [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]] — superseded conversation-only interpretation
 - [[context/business-opportunities-moc]] — opportunity map
 

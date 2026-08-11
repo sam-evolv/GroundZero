@@ -43,6 +43,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]] — Aire Business platform thesis across customer, workplace and management experiences, with OpenHouse as a potential vertical proof
 - [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]] — physical-world intelligence platform thesis: sensor-agnostic observation, living asset memory, evidence-backed analysis and a low-cost existing-site proof
 - [[briefs/2026-08-10-lindy-teammate-source-audit-and-aire-lessons]] — Lindy's current teammate repositioning, first-party roadmap evidence and bounded lessons for Aire Chat, Work, Profile, routines, context and approvals
+- [[briefs/2026-08-11-aire-health-specialist-coach]] — parked premium specialist health, fitness, nutrition and recovery agent for Aire
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] - mainstream Ireland experience, first-magic loop and gateway-platform path
 - [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]] — YC 2026 RFS synthesis, source caveats and Sam-specific founder-fit readout
 - [[briefs/2026-07-21-escape-velocity-income-engine]] — discreet capital and option engine for evenings/weekends
