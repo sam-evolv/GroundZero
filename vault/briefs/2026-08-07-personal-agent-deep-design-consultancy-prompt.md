@@ -1566,4 +1566,5 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]]
 - [[briefs/wiki-refiner-2026-08-08]]
 - [[briefs/wiki-refiner-2026-08-09]]
+- [[briefs/wiki-refiner-2026-08-10]]
 

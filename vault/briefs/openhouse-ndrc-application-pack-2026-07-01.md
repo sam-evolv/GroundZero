@@ -158,6 +158,7 @@ Do not submit if:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-10-openhouse-west-x-west-future-foundry-entry]]
 - [[briefs/openhouse-ndrc-accelerator-pitch]]
 - [[briefs/openhouse-ndrc-interview-final-card-2026-07-29]]
 - [[briefs/openhouse-ndrc-pre-accelerator-rehearsal-2026-07-28]]

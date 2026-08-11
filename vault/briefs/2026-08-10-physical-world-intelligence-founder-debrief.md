@@ -88,3 +88,12 @@ It does not decide that Aire, OpenHouse and a physical-world intelligence ventur
 - [[briefs/planet-satellite-opportunity]] — broad-area observation channel
 - [[companies/openhouse-ai]] — property/developer asset and lifecycle model
 - [[companies/personal-agent]] — Aire runtime and interface
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]]
+- [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
+- [[companies/personal-agent]]
+- [[context/business-opportunities-moc]]
+- [[context/index]]
+

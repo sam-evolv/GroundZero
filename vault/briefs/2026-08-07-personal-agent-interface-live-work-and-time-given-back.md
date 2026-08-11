@@ -118,6 +118,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-07-aire-v3-independent-design-audit]]
 - [[briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt]]
 - [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]]
+- [[briefs/2026-08-10-lindy-teammate-source-audit-and-aire-lessons]]
 - [[companies/personal-agent]]
 - [[context/index]]
 - [[context/model-pack]]

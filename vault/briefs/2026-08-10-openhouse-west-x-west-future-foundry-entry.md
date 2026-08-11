@@ -88,3 +88,8 @@ Sam Donworth
 - OpenHouse has €0 revenue unless a later verified commercial event changes that.
 - Preserve the conservative usage unit: 259 property-specific questions answered across 79 home contexts after excluding the identifiable internal QA home.
 - Do not describe the company as 12 months old or imply that product-development start date equals incorporation date.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/openhouse-ai]]
+

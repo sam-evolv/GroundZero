@@ -155,6 +155,7 @@ Any implementation of this contract must prove:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-10-lindy-teammate-source-audit-and-aire-lessons]]
 - [[companies/personal-agent]]
 - [[context/ground-zero-structure]]
 - [[context/index]]
@@ -163,3 +164,4 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/review-workflow]]
 - [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]
 - [[project_state/personal-agent]]
+

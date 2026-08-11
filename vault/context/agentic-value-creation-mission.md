@@ -146,6 +146,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/founder-execution-os]]
 - [[context/index]]
 - [[context/llm-wiki-pattern]]
+- [[context/mirror-review-protocol]]
 - [[context/model-pack]]
 - [[context/solo-founder-era]]
 - [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]

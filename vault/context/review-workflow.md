@@ -82,6 +82,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/mirror-review-protocol]]
 - [[context/model-pack]]
 - [[context/ops-automation-moc]]
+- [[context/personal-context-data-contract]]
 - [[decisions/ground-zero-canonical]]
 - [[items/ops-capture-inbox-refinery]]
 - [[items/ops-daily-sync-digest]]

@@ -251,3 +251,8 @@ Success evidence:
 - [[context/personal-context-data-contract]] — normative Profile and context boundary
 - [[goals/personal-agent-ai-operated-company-proof]] — six-month customer and company-operations proof gates
 - [[context/business-opportunities-moc]] — opportunity map
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+

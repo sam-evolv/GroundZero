@@ -606,6 +606,7 @@ The application should make YC think:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-10-openhouse-west-x-west-future-foundry-entry]]
 - [[briefs/openhouse-perfect-yc-application-playbook-2026-07-29]]
 - [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
 - [[briefs/wiki-refiner-2026-07-30]]
@@ -619,4 +620,5 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-07]]
 - [[briefs/wiki-refiner-2026-08-08]]
 - [[briefs/wiki-refiner-2026-08-09]]
+- [[briefs/wiki-refiner-2026-08-10]]
 

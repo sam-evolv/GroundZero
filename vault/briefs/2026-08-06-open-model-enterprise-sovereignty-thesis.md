@@ -106,4 +106,5 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/index]]
 - [[context/solo-founder-era]]
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
+- [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]
 

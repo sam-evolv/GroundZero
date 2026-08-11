@@ -252,6 +252,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/capture-workflow]]
 - [[context/index]]
 - [[context/llm-wiki-pattern]]
+- [[context/mirror-review-protocol]]
 - [[context/model-pack]]
 - [[context/review-workflow]]
 - [[decisions/2026-07-22-six-month-agent-co-pilot-protocol]]

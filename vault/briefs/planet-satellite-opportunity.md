@@ -148,6 +148,8 @@ Potential buyers:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
+- [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/openhouse-energy-assistant-wedge]]
 - [[briefs/solar-installer-software-wedge]]

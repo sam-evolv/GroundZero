@@ -127,6 +127,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/index]]
 - [[context/learn-targets]]
 - [[context/llm-wiki-pattern]]
+- [[context/mirror-review-protocol]]
 - [[context/openhouse-openbook-design-system]]
 - [[context/personal-context-data-contract]]
 - [[context/review-workflow]]

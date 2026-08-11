@@ -152,6 +152,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-openhouse-founder-morning-action-brief]]
 - [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]]
 - [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
 - [[companies/openhouse-ai]]
 - [[goals/oh-aftercare-os]]
 - [[project_state/oh]]

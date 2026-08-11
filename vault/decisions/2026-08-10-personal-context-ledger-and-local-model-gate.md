@@ -97,7 +97,9 @@ For each job record correctness, unsupported claims, tool-schema compliance, pro
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/personal-agent]]
 - [[context/index]]
 - [[context/mirror-review-protocol]]
 - [[context/personal-context-data-contract]]
 - [[project_state/personal-agent]]
+

@@ -71,6 +71,7 @@ Within six months, establish Aire as a real customer product and produce indepen
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]]
+- [[briefs/2026-08-10-lindy-teammate-source-audit-and-aire-lessons]]
 - [[companies/personal-agent]]
 - [[context/agentic-value-creation-mission]]
 - [[context/autonomous-business-launch-loop]]

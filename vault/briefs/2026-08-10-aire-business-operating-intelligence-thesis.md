@@ -261,3 +261,14 @@ The decisive question is not whether an LLM can answer questions over business d
 - [[project_state/personal-agent]] — current Aire build state
 - [[project_state/oh]] — current OpenHouse state
 - [[project_state/renew]] — current renewables state
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-10-lindy-teammate-source-audit-and-aire-lessons]]
+- [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]]
+- [[companies/openhouse-ai]]
+- [[companies/personal-agent]]
+- [[context/business-opportunities-moc]]
+- [[context/index]]
+- [[project_state/personal-agent]]
+

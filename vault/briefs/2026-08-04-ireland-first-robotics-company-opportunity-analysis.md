@@ -648,9 +648,11 @@ If at least three sites share the route and one buyer funds an assessment, conti
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]]
 - [[briefs/wiki-refiner-2026-08-05]]
 - [[briefs/wiki-refiner-2026-08-06]]
 - [[briefs/wiki-refiner-2026-08-07]]
 - [[briefs/wiki-refiner-2026-08-08]]
 - [[briefs/wiki-refiner-2026-08-09]]
+- [[briefs/wiki-refiner-2026-08-10]]
 
