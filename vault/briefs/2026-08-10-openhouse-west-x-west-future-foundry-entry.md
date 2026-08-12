@@ -91,5 +91,8 @@ Sam Donworth
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-ndrc-application-pack-2026-07-01]]
+- [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]]
 - [[companies/openhouse-ai]]
+- [[project_state/oh]]
 

@@ -155,7 +155,9 @@ Any implementation of this contract must prove:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]
 - [[briefs/2026-08-10-lindy-teammate-source-audit-and-aire-lessons]]
+- [[briefs/2026-08-11-aire-health-specialist-coach]]
 - [[companies/personal-agent]]
 - [[context/ground-zero-structure]]
 - [[context/index]]
@@ -163,5 +165,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/model-pack]]
 - [[context/review-workflow]]
 - [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]
+- [[items/aire-health-specialist-coach]]
 - [[project_state/personal-agent]]
 

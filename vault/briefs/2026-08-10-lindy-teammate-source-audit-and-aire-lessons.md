@@ -254,5 +254,12 @@ Success evidence:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]]
+- [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]]
+- [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
+- [[companies/personal-agent]]
 - [[context/business-opportunities-moc]]
+- [[context/personal-context-data-contract]]
+- [[goals/personal-agent-ai-operated-company-proof]]
+- [[project_state/personal-agent]]
 

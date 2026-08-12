@@ -92,7 +92,10 @@ It does not decide that Aire, OpenHouse and a physical-world intelligence ventur
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]]
+- [[briefs/2026-08-04-renewable-operations-business-proposition]]
 - [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
+- [[briefs/planet-satellite-opportunity]]
+- [[companies/openhouse-ai]]
 - [[companies/personal-agent]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]

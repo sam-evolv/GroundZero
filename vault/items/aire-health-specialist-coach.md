@@ -29,3 +29,9 @@ Reassess after the core Aire runtime, Chat/Work/Profile contract, auth, context 
 - [[context/personal-context-data-contract]] — privacy and correction contract
 - [[context/business-opportunities-moc]] — opportunity map
 - [[items/_Index]] — item queue
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-11-aire-health-specialist-coach]]
+- [[companies/personal-agent]]
+

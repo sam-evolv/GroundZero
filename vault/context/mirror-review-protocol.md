@@ -113,9 +113,12 @@ The result must distinguish observations from recommendations and recommendation
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[context/agentic-value-creation-mission]]
+- [[context/founder-execution-os]]
 - [[context/ground-zero-structure]]
 - [[context/index]]
 - [[context/model-pack]]
 - [[context/personal-context-data-contract]]
 - [[context/review-workflow]]
 - [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]
+

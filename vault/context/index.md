@@ -173,6 +173,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-07-aire-v3-independent-design-audit]]
 - [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]]
 - [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]]
+- [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
+- [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
 - [[briefs/chatgpt-voice-founder-os-2026-07-31]]

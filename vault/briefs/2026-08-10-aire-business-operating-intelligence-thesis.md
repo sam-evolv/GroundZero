@@ -264,11 +264,16 @@ The decisive question is not whether an LLM can answer questions over business d
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-openhouse-care-installer-paid-validation]]
+- [[briefs/2026-08-04-renewable-operations-business-proposition]]
 - [[briefs/2026-08-10-lindy-teammate-source-audit-and-aire-lessons]]
 - [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]]
+- [[briefs/planet-satellite-opportunity]]
 - [[companies/openhouse-ai]]
 - [[companies/personal-agent]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]
+- [[project_state/oh]]
 - [[project_state/personal-agent]]
+- [[project_state/renew]]
 

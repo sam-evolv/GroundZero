@@ -55,3 +55,10 @@ Most fitness products fragment training, food, recovery, reminders and tracking.
 - [[context/business-opportunities-moc]] — opportunity map
 - [[context/personal-context-data-contract]] — context privacy and correction rules
 - [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]] — wider Aire mission
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/personal-agent]]
+- [[context/business-opportunities-moc]]
+- [[items/aire-health-specialist-coach]]
+
