@@ -97,6 +97,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
 - [[briefs/2026-08-10-lindy-teammate-source-audit-and-aire-lessons]]
 - [[briefs/2026-08-11-aire-health-specialist-coach]]
+- [[briefs/2026-08-12-aire-irish-trust-simplicity-and-sovereignty-thesis]] — Irish trust, control and mainstream-product thesis under validation
 - [[briefs/hark-handoff-source-ledger]]
 - [[companies/personal-agent]]
 - [[context/dashboard]]
