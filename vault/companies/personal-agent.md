@@ -90,6 +90,7 @@ These are testable hypotheses, not final public pricing. Model names, workload c
 - [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]] — exploratory business platform extension across customer, employee and management intelligence
 - [[briefs/2026-08-11-aire-health-specialist-coach]] — parked premium specialist health, fitness, nutrition and recovery extension
 - [[briefs/2026-08-12-aire-irish-trust-simplicity-and-sovereignty-thesis]] — founder thesis on Irish usefulness, truthful data control, mainstream simplicity and distribution beyond X
+- [[briefs/2026-08-12-irish-decision-simulation-opportunity]] — simulation as a future specialist engine behind Aire, with a separate validation burden and no core-roadmap expansion yet
 - [[items/aire-health-specialist-coach]] — parked revisit item
 - [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]] — superseded conversation-only interpretation
 - [[context/business-opportunities-moc]] — opportunity map

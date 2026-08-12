@@ -54,6 +54,7 @@ This is the first note to load when a model needs cross-business context.
 - [[context/agentic-value-creation-mission]] — mission and agency ladder for AI-native value creation
 - [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]] — six-month Aire product, company-autonomy and public-proof mission
 - [[briefs/2026-08-12-aire-irish-trust-simplicity-and-sovereignty-thesis]] — Irish usefulness, honest sovereignty, invisible complexity and distribution thesis
+- [[briefs/2026-08-12-irish-decision-simulation-opportunity]] — fact-checked Light Society and Aaru research, simulation method map and a bounded Irish validation wedge
 - [[goals/personal-agent-ai-operated-company-proof]] — measurable customer, operating-system, rehearsal and distribution gates
 - [[context/llm-wiki-pattern]] — self-maintaining AI wiki (Gipp pattern)
 - [[context/solo-founder-era]] — solo founder + agentic commerce thesis
