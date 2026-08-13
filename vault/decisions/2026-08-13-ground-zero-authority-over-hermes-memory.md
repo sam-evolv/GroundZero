@@ -46,3 +46,11 @@ A request materially dependent on Sam's history, projects, people, decisions or 
 - [[context/personal-context-data-contract]]
 - [[context/review-workflow]]
 - [[project_state/personal-agent]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/ground-zero-structure]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[decisions/ground-zero-canonical]]
+- [[project_state/personal-agent]]

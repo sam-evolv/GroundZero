@@ -37,6 +37,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/claude-vault-integration]]
 - [[context/ground-zero-structure]]
 - [[context/review-workflow]]
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
 - [[goals/oh-funder-pitch]]
 - [[items/ops-project-state-reconciler]]
 - [[people/sam-donworth]]

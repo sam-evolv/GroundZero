@@ -83,3 +83,12 @@ Aire should remain the simple orchestration and explanation layer, not absorb an
 ## Source provenance
 
 Full source supplied by Sam as `synthetic_ireland_full_concept.md` on 12 August 2026. Primary foundations named in the source: CSO Census 2022 SAPS, CSO PxStat/PEA04, Tailte Éireann ED geography, European Commission Eurobarometer, and private repository `sam-evolv/synthetic-ireland`. The original supplied source is retained in the chat/document cache; this note is the durable Ground Zero synthesis.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-12-irish-decision-simulation-opportunity]]
+- [[companies/openhouse-ai]]
+- [[companies/personal-agent]]
+- [[context/business-opportunities-moc]]
+- [[context/index]]
+- [[project_state/personal-agent]]

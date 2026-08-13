@@ -210,7 +210,9 @@ The opportunity is real. The moat is not running thousands of agents. It is Iris
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-12-aire-irish-trust-simplicity-and-sovereignty-thesis]]
 - [[briefs/2026-08-12-synthetic-ireland-full-concept]]
+- [[companies/openhouse-ai]]
 - [[companies/personal-agent]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]

@@ -121,6 +121,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]
 - [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]]
 - [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
 - [[goals/personal-agent-ai-operated-company-proof]]
 - [[items/aire-health-specialist-coach]]
 - [[items/personal-agent-founder-dogfood-and-proof-loop]]

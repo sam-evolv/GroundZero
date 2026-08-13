@@ -77,6 +77,7 @@ Only repeated, high-value, low-friction acquisition routes should be productised
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]]
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-estate-learning-and-energy-connection-architecture-2026-07-28]]
 - [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]

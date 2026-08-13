@@ -111,3 +111,7 @@ Primary and official sources reviewed 13 August 2026:
 - [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]] — correct validation container
 - [[briefs/openhouse-a-rated-homeowner-primary-integration-2026-07-28]] — digital building logbook policy context
 - [[items/oh-handover-readiness-scan]] — nearest existing workflow, not a new active project
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]

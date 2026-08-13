@@ -133,6 +133,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/review-workflow]]
 - [[context/scaling-playbook]]
 - [[context/solo-founder-era]]
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
 - [[decisions/ai-founder-coach-operating-agreement-2026-07-14]]
 - [[goals/ob-retention]]
 - [[goals/oh-activation]]

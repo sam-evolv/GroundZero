@@ -83,6 +83,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/model-pack]]
 - [[context/ops-automation-moc]]
 - [[context/personal-context-data-contract]]
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
 - [[decisions/ground-zero-canonical]]
 - [[items/ops-capture-inbox-refinery]]
 - [[items/ops-daily-sync-digest]]

@@ -137,6 +137,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]
 - [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
 - [[briefs/2026-08-10-openhouse-west-x-west-future-foundry-entry]]
+- [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
 - [[briefs/chatgpt-voice-founder-os-2026-07-31]]
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]

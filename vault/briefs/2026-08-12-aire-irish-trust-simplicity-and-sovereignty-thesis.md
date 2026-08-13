@@ -186,8 +186,12 @@ Do not claim “Irish AI model,” “fully local” or “your data never leave
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
+- [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]]
 - [[briefs/2026-08-12-irish-decision-simulation-opportunity]]
 - [[companies/personal-agent]]
 - [[context/index]]
+- [[context/personal-context-data-contract]]
+- [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]
 - [[project_state/personal-agent]]
 

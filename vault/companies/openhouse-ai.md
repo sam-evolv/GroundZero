@@ -169,6 +169,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]]
 - [[briefs/2026-08-12-irish-decision-simulation-opportunity]]
 - [[briefs/2026-08-12-synthetic-ireland-full-concept]]
+- [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]]
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
 - [[briefs/chatgpt-voice-founder-os-2026-07-31]]

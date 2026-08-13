@@ -166,6 +166,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/model-pack]]
 - [[context/review-workflow]]
 - [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
 - [[items/aire-health-specialist-coach]]
 - [[project_state/personal-agent]]
 

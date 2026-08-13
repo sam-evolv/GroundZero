@@ -218,6 +218,7 @@ The full source collection and original Leo artifact remain at:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]]
 - [[briefs/openhouse-a-rated-homeowner-policy-thesis-2026-07-28]]
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]
 - [[briefs/openhouse-energy-assistant-wedge]]

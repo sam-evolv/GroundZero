@@ -85,7 +85,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-portfolio-brief-2026-07-12]]
 - [[companies/cara]]
 - [[context/business-opportunities-moc]]
-- [[context/dashboard]]
 - [[decisions/cara-founder-dogfood-voice-first]]
 - [[items/cara-founder-voice-dogfood]]
 - [[project_state/cara]]

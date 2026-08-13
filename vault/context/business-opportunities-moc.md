@@ -91,6 +91,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-11-aire-health-specialist-coach]]
 - [[briefs/2026-08-12-irish-decision-simulation-opportunity]]
 - [[briefs/2026-08-12-synthetic-ireland-full-concept]]
+- [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]

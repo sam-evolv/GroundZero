@@ -60,6 +60,7 @@ This is a future architecture requirement, not a current integration claim.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]]
 - [[briefs/openhouse-a-rated-homeowner-policy-thesis-2026-07-28]]
 - [[briefs/openhouse-a-rated-homeowner-primary-integration-2026-07-28]]
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]]

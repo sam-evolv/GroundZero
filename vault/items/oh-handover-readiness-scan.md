@@ -52,6 +52,7 @@ Timely. Buyers increasingly expect software that proves operational readiness, n
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-market-readiness-audit]]
+- [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-product-map]]
 - [[goals/oh-activation]]
