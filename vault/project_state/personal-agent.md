@@ -1,6 +1,6 @@
 ---
 title: Personal agent project state
-headline: Canonical Aire source, local runtime and owner-bound Tailscale route are verified; release remains blocked by binding the exact mobile candidate to that endpoint and physical rendered-screen acceptance.
+headline: The reviewed Aire and Hermes repair is installed and physically verified on Sam’s iPhone; fresh streaming-request and visible Home Screen icon evidence remain open.
 status: building
 updated: 2026-08-13
 role: project-state
@@ -10,7 +10,7 @@ role: project-state
 
 ## Current state
 
-- **Live repository and runtime check, 2026-08-13 13:15 IST:** The canonical mobile source-of-truth worktree is `/Users/samdonworth/Projects/IrelandGPT-aire-production-ready`, branch `aire-production-ready-20260810`, clean at `5ea0f52 fix: bind Aire device builds to native test evidence`. The delivery gate passes and now pins the exact checkout, branch, remote, commit and a fresh real Xcode result bundle. The rejected spoken-reply feature is removed end to end. Canonical Hermes `main` contains the governed context and artifact API repair at `f2c464f69`, runs on loopback port `8642`, and exposes both required capabilities. Canonical Aire runs persistently on port `8766` from the clean mobile source and requires its owner bearer credential; unauthenticated status returns `401`, authenticated readiness returns all checks true, and the removed spoken-reply route returns `404`. The obsolete supervised Hermes `8652` and Aire BFF `8767` jobs are disabled. Their Cloudflare quick tunnel was stopped. The Mac and Sam’s iPhone are enrolled and online under the same private Tailscale tailnet. Persistent Tailscale Serve exposes the BFF only inside that tailnet at `https://sams-macbook-air-aire.tail5e1d2f.ts.net/`; unauthenticated HTTPS readiness returns `401`, owner-authenticated readiness returns `200` with all checks true, and `/api/voice/speak` returns `404`. The clean exact candidate `5ea0f52` was freshly tested and signed through `tools/build_aire_device.py` with that endpoint embedded; bundle `ie.aire.personal.debug`, branded icon metadata and strict signature validation passed. Xcode still reports Sam’s physical iPhone unavailable, so installation, ordinary relaunch, a real request originating from the phone and rendered-screen acceptance remain open. The root repository remains an older web/desktop candidate and is not the mobile source of truth.
+- **Live repository, runtime and physical-device check, 2026-08-13 15:50 IST:** The canonical mobile source-of-truth worktree is clean at `3556088 fix(ios): recover compact itinerary hierarchy`, derived from `5ea0f52` through the separately reviewed `55815cb fix(ios): isolate work refresh failures`. The compact-reply renderer repair was independently approved after regression tests prevented ordinary Markdown lists, fenced code, place names and title-cased prose from being promoted as headings. Canonical Hermes is clean at `bb7914988`, runs on loopback port `8642`, and now provides authenticated retained-run listing with immutable `created_at` plus `run_id` pagination; the corrected candidate and edge coverage were independently approved. The supervised Aire BFF remains on port `8766`: unauthenticated status returns `401`, owner-authenticated status returns `200` ready, `/api/work` returns `200`, and the removed `/api/voice/speak` route returns `404`. Obsolete listeners `8652` and `8767` remain absent. Persistent Tailscale Serve still exposes only the private tailnet route at `https://sams-macbook-air-aire.tail5e1d2f.ts.net/`; no public Funnel or Cloudflare route was enabled. The clean exact `3556088` candidate passed the delivery gate, strict signing verification and the endpoint-bound build path, then installed on Sam’s physical iPhone 14 Pro Max as bundle `ie.aire.personal.debug`. An ordinary relaunch with no endpoint or credential injection succeeded after installation and again after evidence capture, with persisted owner authentication. Direct physical-device screenshots verify the authenticated main surface without the false whole-app connection warning and verify the previously malformed persisted reply with distinct weekday and section headings, preserved numbered lists, deliberate spacing and no text clipping. No Read aloud control is present. Final suites passed with 294 Python tests, 13 Node tests and 147 iOS tests plus 1 opt-in skip. Remaining evidence gaps are a fresh request and streaming response initiated through the revised physical app, and a Home Screen page where the Aire icon is actually visible; the captured Home Screen page did not contain the icon. The physical accessibility audit also retains four contrast and three hit-region findings. The root repository remains an older web/desktop candidate and is not the mobile source of truth.
 - Hermes API Server is enabled on loopback and listening locally.
 - The repository contains an authenticated responsive browser shell, BFF, relay and Hermes client for sessions, history, runs, SSE progress, approvals, recovery, stop, conversation actions, capabilities, automations and real multimodal photo input.
 - Immutable candidate `2f6e6954a5666102bc4cf012caa54c0fb2e6cc96` passed independent review with 136 Python tests and 13 Node tests. It is not deployed.
@@ -51,19 +51,20 @@ Stabilise the current native iPhone founder-dogfood candidate as the trustworthy
 - Memory, agents, background work, voice, connectors, profiles, richer settings and messaging continuity need product adapters.
 - Trusted local filesystem, terminal, project and Git outcomes need an explicit paired-desktop path rather than direct public-browser exposure.
 - Native iPhone founder dogfood is active. Web and desktop parity remain required product outcomes, but the older root-repository candidate must not overwrite the accepted mobile source of truth.
+- The repaired physical app still needs one fresh authenticated request with streaming-response evidence, a Home Screen capture that visibly includes the Aire icon, and follow-up on four contrast plus three hit-region accessibility findings.
 
 ## Next verified milestones
 
-1. Keep clean candidate `5ea0f52` in `IrelandGPT-aire-production-ready` as the mechanically enforced mobile source of truth and prevent older worktrees from overwriting its accepted invariants.
-2. Preserve the freshly tested and signed exact `5ea0f52` candidate bound to `https://sams-macbook-air-aire.tail5e1d2f.ts.net/`; do not replace it with an ephemeral tunnel or LAN address.
-3. Install that exact candidate when Sam’s iPhone becomes available to Xcode, exercise an ordinary Home Screen relaunch with no developer environment and verify authenticated traffic originating from the phone over the tailnet route.
-4. Capture the live rendered iPhone screen and Home Screen icon after that ordinary relaunch.
-5. Verify no Read aloud controls and correct structured typography in both streaming and persisted replies on the physical phone.
-6. Verify Sign in appears only for genuine missing or invalid authentication, while connectivity failure presents recovery.
-7. Keep regression tests for auth persistence, endpoint persistence, production isolation, icon packaging and canonical response rendering.
+1. Keep clean candidate `3556088` in `IrelandGPT-aire-production-ready` as the mechanically enforced mobile source of truth and prevent older worktrees from overwriting its accepted invariants.
+2. Preserve the installed, freshly tested and signed exact `3556088` candidate bound to `https://sams-macbook-air-aire.tail5e1d2f.ts.net/`; do not replace it with an ephemeral tunnel or LAN address.
+3. Initiate one fresh authenticated request through the revised physical app, capture its streaming and completed rendering, and verify the result survives a subsequent ordinary relaunch.
+4. Navigate to the Home Screen page containing Aire and capture direct physical evidence of the installed icon.
+5. Resolve or explicitly accept the remaining physical accessibility audit findings: four contrast issues and three hit-region issues.
+6. Preserve the verified separation between core connection/authentication failures and scoped Work refresh failures.
+7. Keep regression tests for stable retained-run pagination, graceful Work degradation, auth persistence, endpoint persistence, production isolation, icon packaging and canonical response rendering.
 8. Continue safe files, artifacts, voice, background work and complete useful Hermes outcome parity through the accepted Chat, Work and Profile interface.
-9. Release a new immutable founder candidate only after code review, tests, signed build, ordinary relaunch, authenticated runtime traffic and physical rendered-screen acceptance all pass.
-10. Record accepted project changes back into Ground Zero before declaring the work complete.
+9. Release a production candidate only after the remaining fresh-request, icon and accessibility evidence is closed without weakening the reviewed build and runtime provenance.
+10. Keep Ground Zero reconciled whenever accepted source, runtime or physical-device evidence changes.
 
 ## Connected vault notes
 
