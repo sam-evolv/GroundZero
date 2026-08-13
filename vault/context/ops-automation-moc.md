@@ -27,7 +27,7 @@ These items automate that sweep so Sam's time goes into the right work, not the 
 - [[items/ops-index-maintenance-bot]] — auto-maintain items/_Index.md and daily log entries
 
 ### Graph orchestration
-- [[items/ops-graph-engineering-pilot]]: prove a bounded research, synthesis, review and approval graph on three internal tasks
+- [[items/ops-graph-engineering-pilot]] — prove a bounded research, synthesis, review and approval graph on three internal tasks; first material slice is a read-only release evidence receipt assembler grounded in the 13 August OpenHouse and Aire release gaps
 
 ### Triage & escalation
 - [[items/ops-pr-issue-ageing-escalator]] — stale PR/issue escalation, P1

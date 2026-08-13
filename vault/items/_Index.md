@@ -92,6 +92,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/ops-source-to-wiki-ingest]] | Auto-file imports into wiki | P1 | proposed |
 | [[items/ops-pr-issue-ageing-escalator]] | Stale PR/issue escalation | P1 | proposed |
 | [[items/ops-daily-report-pack]] | Daily reporting per company | P1 | proposed |
+| [[items/ops-graph-engineering-pilot]] | Bounded evidence graph; first slice assembles fail-closed release receipts | P1 | proposed |
 | [[items/ops-weekly-status-pack]] | Weekly cross-company brief | P2 | proposed |
 | [[items/ops-index-maintenance-bot]] | Auto-maintain items/_Index.md | P2 | proposed |
 | [[items/ops-capture-inbox-refinery]] | File capture inbox scraps | P2 | building |
