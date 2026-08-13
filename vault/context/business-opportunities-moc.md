@@ -88,6 +88,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-10-lindy-teammate-source-audit-and-aire-lessons]]
 - [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]]
 - [[briefs/2026-08-11-aire-health-specialist-coach]]
+- [[briefs/2026-08-12-irish-decision-simulation-opportunity]]
+- [[briefs/2026-08-12-synthetic-ireland-full-concept]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]

@@ -207,3 +207,12 @@ The opportunity is real. The moat is not running thousands of agents. It is Iris
 - Light Society demonstrates a specific scalable social-dynamics architecture, not a complete national behavioural replica.
 - Aaru performance figures are first-party and partner-published claims pending independent replication.
 - No production change, government outreach, data acquisition or paid service follows from this brief without separate approval.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-12-synthetic-ireland-full-concept]]
+- [[companies/personal-agent]]
+- [[context/business-opportunities-moc]]
+- [[context/index]]
+- [[project_state/personal-agent]]
+

@@ -99,6 +99,7 @@ For each job record correctness, unsupported claims, tool-schema compliance, pro
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]
 - [[briefs/2026-08-06-open-model-enterprise-sovereignty-thesis]]
+- [[briefs/2026-08-12-aire-irish-trust-simplicity-and-sovereignty-thesis]]
 - [[companies/personal-agent]]
 - [[context/index]]
 - [[context/mirror-review-protocol]]

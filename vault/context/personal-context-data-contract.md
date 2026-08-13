@@ -158,6 +158,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]
 - [[briefs/2026-08-10-lindy-teammate-source-audit-and-aire-lessons]]
 - [[briefs/2026-08-11-aire-health-specialist-coach]]
+- [[briefs/2026-08-12-aire-irish-trust-simplicity-and-sovereignty-thesis]]
 - [[companies/personal-agent]]
 - [[context/ground-zero-structure]]
 - [[context/index]]

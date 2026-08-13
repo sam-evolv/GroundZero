@@ -101,6 +101,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
 - [[briefs/2026-08-05-personal-assistant-research-codex]]
 - [[briefs/2026-08-06-personal-agent-founder-operating-brief]]
+- [[briefs/2026-08-12-aire-irish-trust-simplicity-and-sovereignty-thesis]]
 - [[companies/personal-agent]]
 - [[context/agentic-value-creation-mission]]
 - [[context/index]]

@@ -34,4 +34,7 @@ Reassess after the core Aire runtime, Chat/Work/Profile contract, auth, context 
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-11-aire-health-specialist-coach]]
 - [[companies/personal-agent]]
+- [[context/business-opportunities-moc]]
+- [[context/personal-context-data-contract]]
+- [[project_state/personal-agent]]
 

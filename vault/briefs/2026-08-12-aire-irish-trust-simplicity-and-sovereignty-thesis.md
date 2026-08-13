@@ -183,3 +183,11 @@ Do not claim “Irish AI model,” “fully local” or “your data never leave
 - [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]
 - [[context/personal-context-data-contract]]
 - [[context/index]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-12-irish-decision-simulation-opportunity]]
+- [[companies/personal-agent]]
+- [[context/index]]
+- [[project_state/personal-agent]]
+

@@ -97,8 +97,9 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
 - [[briefs/2026-08-10-lindy-teammate-source-audit-and-aire-lessons]]
 - [[briefs/2026-08-11-aire-health-specialist-coach]]
-- [[briefs/2026-08-12-aire-irish-trust-simplicity-and-sovereignty-thesis]] — Irish trust, control and mainstream-product thesis under validation
-- [[briefs/2026-08-12-irish-decision-simulation-opportunity]] — simulation opportunity assessment; Aire remains the potential interface rather than an unvalidated prediction engine
+- [[briefs/2026-08-12-aire-irish-trust-simplicity-and-sovereignty-thesis]]
+- [[briefs/2026-08-12-irish-decision-simulation-opportunity]]
+- [[briefs/2026-08-12-synthetic-ireland-full-concept]]
 - [[briefs/hark-handoff-source-ledger]]
 - [[companies/personal-agent]]
 - [[context/dashboard]]

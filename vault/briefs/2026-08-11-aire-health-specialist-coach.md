@@ -58,7 +58,10 @@ Most fitness products fragment training, food, recovery, reminders and tracking.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]]
 - [[companies/personal-agent]]
 - [[context/business-opportunities-moc]]
+- [[context/personal-context-data-contract]]
 - [[items/aire-health-specialist-coach]]
+- [[project_state/personal-agent]]
 
