@@ -22,12 +22,12 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 ## In flight
 - Production migration stabilisation and backup-table cleanup.
 - Vercel production deployments are healthy. Latest deployment is ready.
-- Carol Tallon has offered a warm introduction to Bridgewater Developments. This is an active lead, being researched and prepared in parallel with marketing-site refinement. See [[items/oh-bridgewater-warm-introduction]].
+- Carol Tallon's Bridgewater introduction is preserved as a completed route, but Sam's 5 August founder correction records that Bridgewater said no. It is not active pipeline without a materially new route. See [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]] and [[items/oh-bridgewater-warm-introduction]].
 - PR #184 and PR #186 are merged and no longer in flight.
 
 ## Live check
-- Checked 2026-08-13 12:01 IST. GitHub `main` remains unprotected at `ad327a4b`, repository rulesets remain empty, and the open queue remains 12 PRs plus 6 non-PR issues. PR #205 remains open, mergeable and clean at `5d56e3bb` with its recorded checks successful.
-- Vercel production `property-assistant-jsd3y3r67` remains Ready, while the duplicate production entry remains UNKNOWN and one older preview remains Error. `https://portal.openhouseai.ie` returned HTTP 200. This proves current availability, not production-data correctness or user-visible acceptance.
+- Checked 2026-08-13 16:07 IST. GitHub `main` advanced directly from `ad327a4b` to verified commit `b1629c34`, a two-file assistant ordered-list and nested-list rendering repair with regression coverage. GitHub associates no pull request with the commit. The queue remains 12 open PRs plus 6 non-PR issues; PR #205 remains open, mergeable and clean at `5d56e3bb`. Repository rulesets remain empty and `main` remains unprotected.
+- Vercel production `property-assistant-mi8xczgvc` built `main` at `b1629c3`, is Ready, and owns the `portal.openhouseai.ie` alias. The portal returned HTTP 200. This proves exact-commit build and serving only. Rendered homeowner acceptance, full type and lint validation, Supabase correctness and production-data integrity remain unverified. The deployment log skipped type and lint validation and reported 19 dependency-audit findings (4 moderate, 13 high and 2 critical), which remain release debt rather than evidence against the two-file repair itself.
 - Supabase data, migration and RLS state were not re-verified because this reconciliation had no approved database-authority path. The related open gaps therefore remain.
 - Superseded historical check from 2026-07-01 follows for provenance.
 - Checked 2026-07-01. GitHub open PRs are #204, #180, #147, #146, #104, #98, #41, #40, #38, #11, and #6.

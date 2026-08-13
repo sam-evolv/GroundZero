@@ -13,7 +13,7 @@ updated: "2026-08-13"
 
 ### OpenHouse AI
   - **Close the tenant data gap before the V2 launch** → [[items/oh-rls-audit]] (🔴 building)
-  - ⚠️ Blocked signal in [[project_state/openhouse-ai|OpenHouse AI]]
+  - ⚠️ Blocked signal in [[project_state/oh|OpenHouse AI]]
 
 ### OpenBook
   - **OpenBook client self-edit portal plus Stripe billing** → [[items/ob-client-self-edit-portal-billing]] (🔴 building)
@@ -35,8 +35,8 @@ updated: "2026-08-13"
 
 - 🔴 [[project_state/cara|cara]]: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
 - 🔴 [[project_state/ob|ob]]: Empire Gym's owner dashboard hardening is locally verified; safe publish/handoff is pending, and Stripe billing follows only after the owner journey is proven.
-- 🔴 [[project_state/oh|oh]]: The isolated My Home truth boundary independently passed; current-live enforcement still requires an approved GitHub ruleset and Vercel isolation proof.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Native iPhone founder dogfood is active; release remains blocked by a dirty mobile source-of-truth worktree, unstable owner-bound connectivity and missing physical rendered-screen acceptance.
+- 🔴 [[project_state/oh|oh]]: Current live `main` advanced directly to `b1629c34` and Vercel is serving it in production; merge enforcement remains absent, and the formatting repair has no rendered homeowner acceptance yet.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Native iPhone founder dogfood is active; the mobile source-of-truth worktree is clean locally at `3556088` but has no upstream, while fresh streaming-request, visible icon and accessibility acceptance remain open.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -60,4 +60,4 @@ updated: "2026-08-13"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-08-13 12:18 IST
+- Dashboard: 2026-08-13 16:07 IST

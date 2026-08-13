@@ -22,6 +22,10 @@ The independently reviewed guard exists only as local commit `0ae16083`. GitHub 
 
 The workflow is therefore not active or required. Vercel production-branch and alias isolation are also not certified. Repository and deployment setting changes require Sam's explicit approval.
 
+## Live enforcement evidence, 13 August 2026
+
+At 15:45 IST, GitHub `main` advanced directly to verified commit `b1629c34` with no associated pull request. Vercel then built that exact commit as production and moved `portal.openhouseai.ie` to the Ready deployment. The commit is a narrow assistant-list formatting repair and contains no My Home paths, but the direct production route confirms that the reviewed guard is still neither required nor enforcing the frozen current-live boundary. No rendered homeowner acceptance was captured for the repair.
+
 ## Approval-gated activation sequence
 
 1. Push only the reviewed guard checkpoint branch.

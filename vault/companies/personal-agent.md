@@ -65,7 +65,7 @@ These are testable hypotheses, not final public pricing. Model names, workload c
 ## Current repositories
 
 - Canonical product repository: `/Users/samdonworth/Projects/IrelandGPT`
-- Current physical-iPhone source-of-truth worktree: `/Users/samdonworth/Projects/IrelandGPT-aire-production-ready`. Its current dirty/uncommitted acceptance boundary is tracked in [[project_state/personal-agent]]; do not describe the working tree as a clean release candidate.
+- Current physical-iPhone source-of-truth worktree: `/Users/samdonworth/Projects/IrelandGPT-aire-production-ready`. Live Git inspection at 16:02 IST on 13 August found it clean at `3556088` on local branch `aire-production-ready-20260810`, with no configured upstream and no remote branch of that name. It is a clean local candidate, not a published release. The remaining physical-device and accessibility acceptance boundary is tracked in [[project_state/personal-agent]].
 
 See [[project_state/personal-agent]] for the reconciled branch, candidate and acceptance state.
 

@@ -31,7 +31,7 @@ Use this note when a model needs quick, high-signal context.
 
 ## Companies
 ### Personal agent venture
-- Active runtime-first build called Aire. The canonical product repository is `/Users/samdonworth/Projects/IrelandGPT`; the current physical-iPhone source-of-truth worktree and its dirty/uncommitted acceptance boundary are tracked in [[project_state/personal-agent]].
+- Active runtime-first build called Aire. The canonical product repository is `/Users/samdonworth/Projects/IrelandGPT`; the current physical-iPhone source-of-truth worktree is clean locally at `3556088` but has no configured upstream. Its remaining physical-device, icon and accessibility acceptance boundary is tracked in [[project_state/personal-agent]].
 - Hermes is the engine. Native iPhone founder dogfood is active, while useful web and desktop outcome parity remain required.
 - User-facing promise: a delegation-first personal operating system that removes hated work and returns time, not an AI chatbot or visible model wrapper.
 - First-use target: complete one bounded, high-friction job within minutes, requesting connectors only when needed and preserving approval gates for consequential actions.
