@@ -1,6 +1,6 @@
 ---
 title: Personal agent project state
-headline: Canonical Aire source and local runtime are clean and mechanically gated; release remains blocked by durable phone-route authorization and physical rendered-screen acceptance.
+headline: Canonical Aire source, local runtime and owner-bound Tailscale route are verified; release remains blocked by binding the exact mobile candidate to that endpoint and physical rendered-screen acceptance.
 status: building
 updated: 2026-08-13
 role: project-state
@@ -10,7 +10,7 @@ role: project-state
 
 ## Current state
 
-- **Live repository and runtime check, 2026-08-13 13:15 IST:** The canonical mobile source-of-truth worktree is `/Users/samdonworth/Projects/IrelandGPT-aire-production-ready`, branch `aire-production-ready-20260810`, clean at `5ea0f52 fix: bind Aire device builds to native test evidence`. The delivery gate passes and now pins the exact checkout, branch, remote, commit and a fresh real Xcode result bundle. The rejected spoken-reply feature is removed end to end. Canonical Hermes `main` contains the governed context and artifact API repair at `f2c464f69`, runs on loopback port `8642`, and exposes both required capabilities. Canonical Aire runs persistently on port `8766` from the clean mobile source and requires its owner bearer credential; unauthenticated status returns `401`, authenticated readiness returns all checks true, and the removed spoken-reply route returns `404`. The obsolete supervised Hermes `8652` and Aire BFF `8767` jobs are disabled. Their Cloudflare quick tunnel was stopped. Tailscale setup has reached the one-time owner authorization gate but is not yet authenticated, so durable remote phone reachability is not yet verified. The root repository remains an older web/desktop candidate and is not the mobile source of truth.
+- **Live repository and runtime check, 2026-08-13 13:15 IST:** The canonical mobile source-of-truth worktree is `/Users/samdonworth/Projects/IrelandGPT-aire-production-ready`, branch `aire-production-ready-20260810`, clean at `5ea0f52 fix: bind Aire device builds to native test evidence`. The delivery gate passes and now pins the exact checkout, branch, remote, commit and a fresh real Xcode result bundle. The rejected spoken-reply feature is removed end to end. Canonical Hermes `main` contains the governed context and artifact API repair at `f2c464f69`, runs on loopback port `8642`, and exposes both required capabilities. Canonical Aire runs persistently on port `8766` from the clean mobile source and requires its owner bearer credential; unauthenticated status returns `401`, authenticated readiness returns all checks true, and the removed spoken-reply route returns `404`. The obsolete supervised Hermes `8652` and Aire BFF `8767` jobs are disabled. Their Cloudflare quick tunnel was stopped. The Mac and Sam’s iPhone are enrolled under the same private Tailscale tailnet. Persistent Tailscale Serve exposes the BFF only inside that tailnet at `https://sams-macbook-air-aire.tail5e1d2f.ts.net/`; unauthenticated HTTPS readiness returns `401`, owner-authenticated readiness returns `200` with all checks true, and `/api/voice/speak` returns `404`. The remaining mobile gate is to bind and install exact candidate `5ea0f52` with that endpoint, ordinarily relaunch it, exercise a real request from the phone and inspect the rendered screen. The root repository remains an older web/desktop candidate and is not the mobile source of truth.
 - Hermes API Server is enabled on loopback and listening locally.
 - The repository contains an authenticated responsive browser shell, BFF, relay and Hermes client for sessions, history, runs, SSE progress, approvals, recovery, stop, conversation actions, capabilities, automations and real multimodal photo input.
 - Immutable candidate `2f6e6954a5666102bc4cf012caa54c0fb2e6cc96` passed independent review with 136 Python tests and 13 Node tests. It is not deployed.
@@ -55,8 +55,8 @@ Stabilise the current native iPhone founder-dogfood candidate as the trustworthy
 ## Next verified milestones
 
 1. Keep clean candidate `5ea0f52` in `IrelandGPT-aire-production-ready` as the mechanically enforced mobile source of truth and prevent older worktrees from overwriting its accepted invariants.
-2. Complete the one-time Tailscale owner authorization, enrol Sam’s iPhone under the same private tailnet, bind Aire to the stable tailnet hostname and verify authenticated reachability over that route.
-3. Exercise an ordinary Home Screen relaunch with no developer environment and verify authenticated traffic from the exact `5ea0f52` build.
+2. Bind exact candidate `5ea0f52` to the verified private endpoint `https://sams-macbook-air-aire.tail5e1d2f.ts.net/` through the supported gated build path; do not use an ephemeral tunnel or LAN address.
+3. Install that exact candidate when Sam’s iPhone becomes available to Xcode, exercise an ordinary Home Screen relaunch with no developer environment and verify authenticated traffic over the tailnet route.
 4. Capture the live rendered iPhone screen and Home Screen icon after that ordinary relaunch.
 5. Verify no Read aloud controls and correct structured typography in both streaming and persisted replies on the physical phone.
 6. Verify Sign in appears only for genuine missing or invalid authentication, while connectivity failure presents recovery.
