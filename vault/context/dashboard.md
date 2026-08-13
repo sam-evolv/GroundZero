@@ -36,7 +36,7 @@ updated: "2026-08-13"
 - 🔴 [[project_state/cara|cara]]: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
 - 🔴 [[project_state/ob|ob]]: Empire Gym's owner dashboard hardening is locally verified; safe publish/handoff is pending, and Stripe billing follows only after the owner journey is proven.
 - 🔴 [[project_state/oh|oh]]: The isolated My Home truth boundary independently passed; current-live enforcement still requires an approved GitHub ruleset and Vercel isolation proof.
-- 🟢 [[project_state/personal-agent|personal-agent]]: Native iPhone founder dogfood is active; the mobile source-of-truth worktree is dirty and stable owner-bound connectivity plus physical rendered-screen acceptance remain open release gates.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Native iPhone founder dogfood is active; release remains blocked by a dirty mobile source-of-truth worktree, unstable owner-bound connectivity and missing physical rendered-screen acceptance.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -60,4 +60,4 @@ updated: "2026-08-13"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-08-13 12:08 IST
+- Dashboard: 2026-08-13 12:10 IST
