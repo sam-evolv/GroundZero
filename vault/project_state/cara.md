@@ -17,7 +17,7 @@ Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea
 
 - Starter documentation remains the source product brief, but the working Hermes implementation now supersedes its missing-code archive.
 - Working repo: `/Users/samdonworth/GroundZero/repos/cara-hermes`, branch `hermes/founder-voice-alpha`.
-- Local commits include the Hermes-backed voice alpha and mobile hands-free browser loop; nothing has been pushed remotely.
+- Local commits include the Hermes-backed voice alpha and mobile hands-free browser loop; those four local Hermes commits (`f2bb0c6`, `28c78b3`, `60d4922`, `196cf3c`) are not on a remote branch. Separately, the live GitHub repository is not empty: `sam-evolv/Cara` has default branch `claude/cara-phase-0-work-oy7blp` at `f46d501`, pushed 12 July 2026, with a broader Phase 0 implementation and recorded 121-test review. The local Hermes branch and remote Phase 0 branch are divergent candidates and have not been reconciled.
 - Dedicated Hermes profile and API brain run locally, with caller-scoped continuity, streamed responses, SQLite transcripts/events, interruption/error capture, and structured post-call artefacts.
 - A temporary HTTPS mobile voice page is reachable from Sam's iPhone and successfully completes the public WebSocket → Hermes → streamed reply loop.
 - **Current limiting layer:** browser speech recognition and browser speech synthesis are suitable only for first contact. They are not sufficient for robust car Bluetooth use, background noise, natural barge-in/talk-over, or controlled branded voice quality.
@@ -35,7 +35,7 @@ Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea
 
 ## Hermes implementation baseline — 12 July 2026
 
-- GitHub `sam-evolv/Cara` was verified empty: no default branch and no Claude branch existed remotely at inspection time.
+- Superseded historical observation: GitHub `sam-evolv/Cara` was empty at the initial 12 July inspection. **Live repository check, 2026-08-13 12:01 IST:** it now has default branch `claude/cara-phase-0-work-oy7blp` at `f46d501`; the local `hermes/founder-voice-alpha` commits are not contained by a remote branch.
 - Local clone: `/Users/samdonworth/GroundZero/repos/cara-hermes`.
 - Separate local branch: `hermes/founder-voice-alpha` (not pushed).
 - Dedicated isolated Hermes profile: `~/.hermes/profiles/cara`, with messaging credentials removed and an authenticated API server on `127.0.0.1:8643`.

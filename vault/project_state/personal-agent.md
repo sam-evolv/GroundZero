@@ -9,7 +9,7 @@ role: project-state
 
 ## Current state
 
-- Canonical product repository remains `/Users/samdonworth/Projects/IrelandGPT`, but the current physical-iPhone candidate is the clean worktree `/Users/samdonworth/Projects/IrelandGPT-aire-production-ready`, branch `aire-production-ready-20260810`, at `1023d99 fix: preserve personal connection and app identity`. The root repository remains an older web/desktop candidate with uncommitted work and is not the mobile source of truth.
+- **Live repository check, 2026-08-13 12:01 IST:** Canonical product repository remains `/Users/samdonworth/Projects/IrelandGPT`, while the mobile source-of-truth worktree remains `/Users/samdonworth/Projects/IrelandGPT-aire-production-ready`, branch `aire-production-ready-20260810`, at `1023d99 fix: preserve personal connection and app identity`. The mobile worktree is no longer clean: six tracked files are modified and `.aire-mobile-source-of-truth.json`, `tests/test_aire_mobile_release_gate.py` and `tools/aire_mobile_release_gate.py` are untracked. Those working changes propose a mobile release gate and additional launcher/runtime safeguards, but they are not a committed immutable candidate and were not independently reviewed, built, installed or rendered-screen accepted in this reconciliation. The root repository remains an older web/desktop candidate with separate uncommitted work and is not the mobile source of truth.
 - Hermes API Server is enabled on loopback and listening locally.
 - The repository contains an authenticated responsive browser shell, BFF, relay and Hermes client for sessions, history, runs, SSE progress, approvals, recovery, stop, conversation actions, capabilities, automations and real multimodal photo input.
 - Immutable candidate `2f6e6954a5666102bc4cf012caa54c0fb2e6cc96` passed independent review with 136 Python tests and 13 Node tests. It is not deployed.
@@ -53,7 +53,7 @@ Stabilise the current native iPhone founder-dogfood candidate as the trustworthy
 
 ## Next verified milestones
 
-1. Keep the clean `IrelandGPT-aire-production-ready` worktree as the current mobile source of truth and prevent older worktrees from overwriting its product invariants.
+1. Keep `IrelandGPT-aire-production-ready` as the current mobile source of truth, preserve its uncommitted work as protected concurrent state, and cut a new immutable candidate only after those changes are reviewed and verified without allowing older worktrees to overwrite its product invariants.
 2. Replace ephemeral guest-network connectivity with a stable owner-bound endpoint or paired-device route.
 3. Exercise an ordinary Home Screen relaunch with no developer environment and verify authenticated traffic.
 4. Capture the live rendered iPhone screen and Home Screen icon after that ordinary relaunch.

@@ -29,7 +29,7 @@ Use this note when a model needs quick, high-signal context.
 
 ## Companies
 ### Personal agent venture
-- Active runtime-first build called Aire. The canonical product repository is `/Users/samdonworth/Projects/IrelandGPT`; the current clean physical-iPhone candidate is tracked in [[project_state/personal-agent]].
+- Active runtime-first build called Aire. The canonical product repository is `/Users/samdonworth/Projects/IrelandGPT`; the current physical-iPhone source-of-truth worktree and its dirty/uncommitted acceptance boundary are tracked in [[project_state/personal-agent]].
 - Hermes is the engine. Native iPhone founder dogfood is active, while useful web and desktop outcome parity remain required.
 - User-facing promise: a delegation-first personal operating system that removes hated work and returns time, not an AI chatbot or visible model wrapper.
 - First-use target: complete one bounded, high-friction job within minutes, requesting connectors only when needed and preserving approval gates for consequential actions.
@@ -40,8 +40,8 @@ Use this note when a model needs quick, high-signal context.
 - See [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]], [[briefs/2026-08-06-personal-agent-founder-operating-brief]] and [[project_state/personal-agent]].
 
 ### Cara
-- New started-building venture: Irish SME callable digital assistant / phone-number-with-a-brain.
-- Immediate focus: Phase 0 M1 — one excellent +353 live call with transcript and cost logging before app/dashboard work.
+- Deprioritised since Sam's 29 July founder reassessment and not to be resumed without explicit reactivation. The retained concept is an Irish SME callable digital assistant / phone-number-with-a-brain.
+- The remote Phase 0 repository exists, but no real +353 call acceptance is recorded. The retained reactivation gate is one excellent live call with transcript and cost logging before app/dashboard work.
 
 ### OpenHouse AI
 - Core business.

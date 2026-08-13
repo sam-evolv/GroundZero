@@ -2,13 +2,15 @@
 id: cara-founder-voice-dogfood
 title: Complete the Cara founder voice dogfood loop
 company_id: cara
-status: building
+status: parked
 size: L
 priority: P0
 created_at: "2026-07-12"
 ---
 
 # Cara founder voice dogfood
+
+> Parked after Sam's 29 July 2026 founder reassessment. Resume only after explicit reactivation; the exit criteria below are retained as the evidence gate.
 
 ## Outcome
 
@@ -65,7 +67,7 @@ Large, but sequenced. The controlled real-call and measurement baseline is a sma
 Timely, but crowded. Real-time voice agents are improving quickly, which makes reliable turn-taking and a workflow-specific outcome more valuable than a generic voice bot. The differentiation must be trusted continuity and recovered business outcomes, not voice novelty.
 
 ### Recommendation
-Do not promote this into a separate commercial project. It is already the active P0 build. Promote the Irish SME recovery pilot only after the founder exit gate is passed and per-call costs, latency and artefact quality are evidenced.
+Do not promote this into a separate commercial project. It remains parked. If explicitly reactivated, promote the Irish SME recovery pilot only after the founder exit gate is passed and per-call costs, latency and artefact quality are evidenced.
 
 ## Guardrail
 

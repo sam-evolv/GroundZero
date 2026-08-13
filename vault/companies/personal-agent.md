@@ -65,7 +65,7 @@ These are testable hypotheses, not final public pricing. Model names, workload c
 ## Current repositories
 
 - Canonical product repository: `/Users/samdonworth/Projects/IrelandGPT`
-- Current clean physical-iPhone candidate: `/Users/samdonworth/Projects/IrelandGPT-aire-production-ready`
+- Current physical-iPhone source-of-truth worktree: `/Users/samdonworth/Projects/IrelandGPT-aire-production-ready`. Its current dirty/uncommitted acceptance boundary is tracked in [[project_state/personal-agent]]; do not describe the working tree as a clean release candidate.
 
 See [[project_state/personal-agent]] for the reconciled branch, candidate and acceptance state.
 

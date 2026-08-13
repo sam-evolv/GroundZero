@@ -4,13 +4,13 @@ name: Cara
 short: Cara
 sector: Voice assistant / Irish SME operations
 role: portfolio-company
-status: started-building
+status: deprioritised
 created_at: "2026-07-11"
 ---
 
 # Cara
 
-Cara is Sam's new Irish SME venture idea now being built: a phone-number-with-a-brain for small businesses. Customers ring it and get a warm always-on digital assistant; owners ring or message it as a PA that books jobs, drafts paperwork with approval, runs phone errands, and remembers the business.
+Cara is Sam's Irish SME phone-number-with-a-brain concept. Sam deprioritised it on 29 July 2026 because improved ChatGPT voice may cover enough of the original need. Do not resume product work or present Cara as an active founder bet without explicit reactivation. The retained concept is a warm always-on digital assistant for customer calls and owner operations.
 
 ## Positioning
 
@@ -27,9 +27,11 @@ Cara is Sam's new Irish SME venture idea now being built: a phone-number-with-a-
 - No mid-conversation memory lapse; memory gauntlet is a hard acceptance path.
 - EU residency and DPAs for call data.
 
-## Current build focus
+## Retained reactivation gate
 
-Phase 0: prove one excellent live +353 call before building app/dashboard/payment surfaces.
+If Sam explicitly reactivates Cara, Phase 0 remains: prove one excellent live +353 call before building app/dashboard/payment surfaces. No real-call acceptance is recorded.
+
+**Live repository check, 2026-08-13 12:01 IST:** GitHub `sam-evolv/Cara` has default branch `claude/cara-phase-0-work-oy7blp` at `f46d501`, while the local Hermes branch contains four separate unpushed commits through `196cf3c`. These are divergent implementation lines and have not been reconciled.
 
 1. M1 — One live call: Twilio + Deepgram + Cartesia + Claude + Supabase transcript.
 2. M2 — Ingestion: business name to structured business profile JSON.

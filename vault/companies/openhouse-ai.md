@@ -26,6 +26,10 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - PR #184 and PR #186 are merged and no longer in flight.
 
 ## Live check
+- Checked 2026-08-13 12:01 IST. GitHub `main` remains unprotected at `ad327a4b`, repository rulesets remain empty, and the open queue remains 12 PRs plus 6 non-PR issues. PR #205 remains open, mergeable and clean at `5d56e3bb` with its recorded checks successful.
+- Vercel production `property-assistant-jsd3y3r67` remains Ready, while the duplicate production entry remains UNKNOWN and one older preview remains Error. `https://portal.openhouseai.ie` returned HTTP 200. This proves current availability, not production-data correctness or user-visible acceptance.
+- Supabase data, migration and RLS state were not re-verified because this reconciliation had no approved database-authority path. The related open gaps therefore remain.
+- Superseded historical check from 2026-07-01 follows for provenance.
 - Checked 2026-07-01. GitHub open PRs are #204, #180, #147, #146, #104, #98, #41, #40, #38, #11, and #6.
 - Open issues are #195, #194, #130, #128, #125, and #123.
 - Vercel production remains healthy. `npx vercel ls` shows the latest deployment for `openhouseais-projects/ground-zero` as Ready.

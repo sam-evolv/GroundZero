@@ -2,13 +2,15 @@
 id: cara-phase0-m1-live-call
 title: Complete Cara Phase 0 M1 — one live +353 call
 company_id: cara
-status: building
+status: parked
 size: M
 priority: P0
 created_at: "2026-07-11"
 ---
 
 # Cara Phase 0 M1 — one live call
+
+> Parked after Sam's 29 July 2026 founder reassessment. No real +353 call, transcript and cost-log acceptance has been recorded. Resume only after explicit reactivation.
 
 ## Outcome
 
@@ -67,7 +69,7 @@ Small to medium for the controlled live-call edge once credentials and a number 
 The European Commission states that AI Act transparency rules take effect in August 2026 and that people should be informed when they are interacting with a machine. Cara's warm disclosure, audit trail and fallback policy are therefore launch requirements, not later polish. Source: [European Commission AI Act overview](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai), checked 18 July 2026.
 
 ### Recommendation
-Keep this as an active sub-milestone, not a separate project. Mark it complete only when a real call, transcript, disclosure and cost record are evidenced. Do not treat completion as permission for external pilots until the founder dogfood exit gate passes.
+Keep this as a retained sub-milestone, not a separate project. Mark it complete only when a real call, transcript, disclosure and cost record are evidenced. Do not treat completion as permission for external pilots until the founder dogfood exit gate passes.
 
 ## Connected vault notes
 

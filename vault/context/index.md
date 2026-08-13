@@ -112,7 +112,7 @@ This is the first note to load when a model needs cross-business context.
 ## Current picture
 - The personal-agent venture is now an active runtime-first build in `/Users/samdonworth/Projects/IrelandGPT`; see [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]], [[companies/personal-agent]] and [[project_state/personal-agent]]. Hermes remains the engine. The consumer promise is delegation and time returned through one exceptionally simple conversation, contextual live work, human-language progress, first-class voice and inspectable personal context.
 - OpenHouse AI is the main focus. The marketing site is nearly complete, followed by investor/developer outreach and funding/award applications. See [[briefs/2026-07-24-openhouse-openbook-reset]].
-- Cara is a new started-building venture: Irish SME callable digital assistant; Phase 0 target is one excellent +353 live call before app/dashboard work.
+- Cara is deprioritised pending explicit reactivation after Sam's 29 July founder reassessment. Its retained reactivation gate is one excellent +353 live call before app/dashboard work; no real-call acceptance is recorded.
 - OpenBook's immediate commercial unblock is a light client-edit portal followed by €79/month Stripe billing; lead-gen automation is a constrained follow-on pilot.
 - Evolv Renewables has live commercial generation, with reporting still too manual.
 - OpenHouse sales routes: [[context/openhouse-sales-routes]]

@@ -9,9 +9,11 @@ role: project-state
 
 OpenBook's immediate commercial path is a minimum client portal for editing text and photos, followed by Stripe subscriptions at €79/month. Existing lead-generation infrastructure may support a constrained automated prospecting pilot, but the old 20-minute-per-demo manual workflow is parked.
 
-On 2026-07-24, the isolated Empire Gym owner-dashboard branch passed 587 tests and a production build. The verified handoff, safety decisions and renderer blocker are in [[briefs/2026-07-24-empire-owner-dashboard-hardening]].
+On 2026-07-24, the isolated Empire Gym owner-dashboard branch passed its recorded tests and a production build. **Live repository check, 2026-08-13 12:01 IST:** the dashboard worktree remains clean at local commit `de26b62` with no upstream. The renderer source worktree still has an unresolved merge conflict in `components/sections/About.tsx` plus two modified files, so publish/handoff remains blocked. `https://www.empiregym.ie` returned HTTP 200, which proves availability only. The verified handoff, safety decisions and renderer blocker are in [[briefs/2026-07-24-empire-owner-dashboard-hardening]].
 
 On 2026-07-24, a separate fact-safe prospect preview factory was implemented locally for the existing dedicated preview host. It has an isolated preview table/bucket migration, tokenised `noindex` route, guarded draft/publish scripts, and a manual Instagram-ready queue. No migration, Vercel environment mutation, deployment, production write or outreach has occurred. See [[briefs/2026-07-24-openbook-prospect-preview-factory]].
+
+**Live GitHub correction, 2026-08-13 12:01 IST:** PR #214 is not a ready realtime-availability change. It was merged on 8 June 2026 and contains a two-file MCP booking-confirmation copy change. OpenBook `main` has since advanced to `c72bf48`. The stale item metadata is corrected in [[items/ob-realtime-availability]].
 
 ## Connected vault notes
 
