@@ -51,6 +51,7 @@ This is the first note to load when a model needs cross-business context.
 - [[context/personal-context-data-contract]] — normative provenance, correction, ownership, privacy and recovery rules for Ground Zero and Aire
 - [[context/mirror-review-protocol]] — opt-in, bounded review of historic agent work with evidence and approval gates
 - [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]] — adopted context ledger and hardware-evidenced local-model gate
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]] — Ground Zero is authoritative; Hermes memory is bootstrap only
 - [[context/agentic-value-creation-mission]] — mission and agency ladder for AI-native value creation
 - [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]] — six-month Aire product, company-autonomy and public-proof mission
 - [[briefs/2026-08-12-aire-irish-trust-simplicity-and-sovereignty-thesis]] — Irish usefulness, honest sovereignty, invisible complexity and distribution thesis

@@ -22,15 +22,15 @@ Use this note when a model needs quick, high-signal context.
 12. [[project_state/renew]]
 
 ## Sam
-- Founder of OpenHouse AI, OpenBook, Evolv Renewables and the active personal-agent venture (working product repository IrelandGPT; final name undecided).
+- Founder of OpenHouse AI, OpenBook, Evolv Renewables and Aire, the active personal-agent venture.
 - Wants no-fluff help that saves time, reduces stress, and creates value.
 - Works full-time, so plans should fit evenings and weekends and target near-term cash.
 - Prefers voice replies only in car mode or after sending a voice note.
 
 ## Companies
 ### Personal agent venture
-- Active runtime-first build in `/Users/samdonworth/Projects/IrelandGPT`; final name undecided.
-- Hermes is the engine. The first product reproduces Sam's useful working experience through web and desktop, then simplifies from founder dogfood.
+- Active runtime-first build called Aire. The canonical product repository is `/Users/samdonworth/Projects/IrelandGPT`; the current clean physical-iPhone candidate is tracked in [[project_state/personal-agent]].
+- Hermes is the engine. Native iPhone founder dogfood is active, while useful web and desktop outcome parity remain required.
 - User-facing promise: a delegation-first personal operating system that removes hated work and returns time, not an AI chatbot or visible model wrapper.
 - First-use target: complete one bounded, high-friction job within minutes, requesting connectors only when needed and preserving approval gates for consequential actions.
 - Primary experience is one continuous assistant conversation. Useful live browser or creation work may open contextually beside chat on desktop and as a focused detail on mobile; runtime jargon and capability inventories stay hidden.
@@ -70,7 +70,7 @@ Use this note when a model needs quick, high-signal context.
 
 ## Current operating rules
 - Use separate specialist agents in separate chats where possible.
-- Keep context in the git-backed Ground Zero vault, not scattered across chats.
+- Keep durable context in the git-backed Ground Zero vault, not scattered across chats or duplicated into Hermes memory. See [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]].
 - Do not store secrets in the vault.
 - Preserve history rather than overwriting decisions.
 - Apply [[context/personal-context-data-contract]] to durable personal context: append-only events, provenance, correction, explicit missing values, exact ownership and recoverable projections.
@@ -79,7 +79,7 @@ Use this note when a model needs quick, high-signal context.
 - Load [[context/openhouse-openbook-design-system]] before any OpenHouse or OpenBook design work.
 
 ## How to get the most leverage
-- Treat the vault as the system of record, not just a note dump.
+- Treat the vault as the system of record, not just a note dump. Hermes memory is a small bootstrap cache, never a competing source of truth.
 - File stable facts once, then reuse them everywhere.
 - Capture decisions so they are not re-litigated.
 - Keep project state current so models can work from live truth.

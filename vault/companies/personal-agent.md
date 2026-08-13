@@ -3,8 +3,8 @@ title: Personal agent venture
 status: active-build
 created: 2026-08-06
 role: portfolio-company
-working_name: IrelandGPT
-final_name: undecided
+working_name: Aire
+final_name: Aire
 ---
 
 # Personal agent venture
@@ -24,9 +24,9 @@ Sam has experienced the value directly through Hermes plus Ground Zero. The vent
 - delegation-first personal operating system, not another AI chatbot
 - product promise is completed outcomes and time returned, not visible intelligence or technical capability
 - persistent conversation, sessions, memory and approvals
-- web and desktop first
-- installable phone home-screen experience
-- native iOS and Android after the interaction model stabilises
+- native iPhone founder dogfood is active, with web and desktop parity still required
+- installable phone Home Screen experience with durable personal authentication, connectivity recovery and branded identity
+- Android follows only after the exercised iOS interaction and security contracts stabilise
 - inspectable, confidence-aware personal context governed by [[context/personal-context-data-contract]], with provenance, correction, forgetting, explicit missing values and exact owner boundaries
 - invisible model routing after real usage is measured; local models enter only through hardware, privacy, quality, consequence and cost gates
 - just-in-time connectors and optional device or file capabilities as parts of the assistant
@@ -62,9 +62,12 @@ Founder-led, proof-based distribution. The agent helps create the product and ve
 
 These are testable hypotheses, not final public pricing. Model names, workload costs, allowances, trial structure and family safety design require evidence before approval.
 
-## Current repository
+## Current repositories
 
-`/Users/samdonworth/Projects/IrelandGPT`
+- Canonical product repository: `/Users/samdonworth/Projects/IrelandGPT`
+- Current clean physical-iPhone candidate: `/Users/samdonworth/Projects/IrelandGPT-aire-production-ready`
+
+See [[project_state/personal-agent]] for the reconciled branch, candidate and acceptance state.
 
 ## Connected vault notes
 

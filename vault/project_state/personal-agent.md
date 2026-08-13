@@ -1,7 +1,7 @@
 ---
 title: Personal agent project state
 status: building
-updated: 2026-08-07
+updated: 2026-08-13
 role: project-state
 ---
 
@@ -9,7 +9,7 @@ role: project-state
 
 ## Current state
 
-- Working repository: `/Users/samdonworth/Projects/IrelandGPT`.
+- Canonical product repository remains `/Users/samdonworth/Projects/IrelandGPT`, but the current physical-iPhone candidate is the clean worktree `/Users/samdonworth/Projects/IrelandGPT-aire-production-ready`, branch `aire-production-ready-20260810`, at `1023d99 fix: preserve personal connection and app identity`. The root repository remains an older web/desktop candidate with uncommitted work and is not the mobile source of truth.
 - Hermes API Server is enabled on loopback and listening locally.
 - The repository contains an authenticated responsive browser shell, BFF, relay and Hermes client for sessions, history, runs, SSE progress, approvals, recovery, stop, conversation actions, capabilities, automations and real multimodal photo input.
 - Immutable candidate `2f6e6954a5666102bc4cf012caa54c0fb2e6cc96` passed independent review with 136 Python tests and 13 Node tests. It is not deployed.
@@ -29,11 +29,17 @@ role: project-state
 - The Vibiz Connector source audit adds a concrete vertical-operator pattern: one delegation should create one authoritative Work object with recognizable milestones, approval gates, outputs and receipts. Aire should adopt the compression and role shift, while rejecting implied revenue proof, broad autonomy claims and unclear confirmation boundaries. See [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]].
 - [[context/personal-context-data-contract]] is now the normative Profile/context boundary. It specifies append-only provenance, correction and supersession, explicit missing-value semantics, exact ownership, retrieval minimisation, authentication separation and backup/restore acceptance.
 - Muse Glimmer 30B is verified as Apache 2.0 and Hermes-compatible by its official model card, but its supported quantized envelope starts at 24 GB. Sam's current 16 GB Mac is below that gate, so no model was downloaded or routed. See [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]].
-- Final product name remains open.
+- Product name is Aire.
+- The iOS presentation contract now requires one canonical structured assistant-response renderer for streaming and persisted replies, with headings, typography, lists, links, quotes, code/status panels and deliberate spacing. Per-message Read aloud controls are prohibited.
+- Personal-device owner authentication and endpoint bootstrap persist across ordinary Home Screen relaunches in the personal debug build. Production must not read or persist the personal owner credential.
+- Authentication failure and backend-connectivity failure are separate product states. A valid owner credential plus an unreachable backend must show connection recovery, not Sign in.
+- The branded Aire app icon is an explicit build invariant for every relevant configuration.
+- Build, tests, installation, launch and authenticated traffic are not physical-screen acceptance. User-visible iPhone changes require rendered-screen evidence before they can be called fixed.
+- Direct phone-to-Mac access can fail on guest Wi-Fi client isolation even when both devices share the SSID. USB or a stable owner-bound relay is required; an ephemeral tunnel is not a durable release endpoint.
 
 ## Active objective
 
-Translate the accepted Aire v3 mobile architecture into a stable Hermes presentation contract and one verified vertical slice from Chat delegation to Work approval to accepted outcome. In parallel, begin the six-month [[goals/personal-agent-ai-operated-company-proof]] mission: use Aire's own operating system to automate repeatable company work, earn customer proof and build an auditable basis for a future Irish public autonomy experiment. Design the desktop adaptation, voice and final name without reinterpreting the accepted mobile visual direction.
+Stabilise the current native iPhone founder-dogfood candidate as the trustworthy personal Skippy surface. Preserve the accepted Chat, Work and Profile architecture while proving ordinary relaunch authentication, durable connectivity, canonical structured replies, branded identity and live rendered-screen behaviour. Continue the six-month [[goals/personal-agent-ai-operated-company-proof]] mission without weakening release evidence or reinterpreting accepted product invariants.
 
 ## Current blockers
 
@@ -42,20 +48,20 @@ Translate the accepted Aire v3 mobile architecture into a stable Hermes presenta
 - Generic file and artifact delivery still needs a Hermes-owned opaque registry with ownership, metadata and retrieval boundaries.
 - Memory, agents, background work, voice, connectors, profiles, richer settings and messaging continuity need product adapters.
 - Trusted local filesystem, terminal, project and Git outcomes need an explicit paired-desktop path rather than direct public-browser exposure.
-- Native mobile development is intentionally sequenced after web and desktop dogfood.
+- Native iPhone founder dogfood is active. Web and desktop parity remain required product outcomes, but the older root-repository candidate must not overwrite the accepted mobile source of truth.
 
 ## Next verified milestones
 
-1. Freeze the tested Aire v3 mobile visual and interaction baseline.
-2. Replace all specific prototype fixtures with a documented demo-data map or verified sources.
-3. Freeze a presentation contract that maps authoritative Hermes events into Chat, Work, approval, result and error states without visible runtime jargon.
-4. Design the desktop adaptation and optional contextual live-work split.
-5. Implement safe files, previews, artifacts and rich results within the conversation.
-6. Implement first-class voice against real iPhone interruption, endpointing, Bluetooth and latency gates.
-7. Implement personal context as inspectable, correctable progressive disclosure rather than a knowledge-management interface.
-8. Verify complete useful Hermes outcome parity through the accepted interface.
-9. Deploy a new immutable founder candidate only after responsive, runtime and independent review pass.
-10. Begin founder dogfood and calibrate the Time Given Back methodology from observed work.
+1. Keep the clean `IrelandGPT-aire-production-ready` worktree as the current mobile source of truth and prevent older worktrees from overwriting its product invariants.
+2. Replace ephemeral guest-network connectivity with a stable owner-bound endpoint or paired-device route.
+3. Exercise an ordinary Home Screen relaunch with no developer environment and verify authenticated traffic.
+4. Capture the live rendered iPhone screen and Home Screen icon after that ordinary relaunch.
+5. Verify no Read aloud controls and correct structured typography in both streaming and persisted replies on the physical phone.
+6. Verify Sign in appears only for genuine missing or invalid authentication, while connectivity failure presents recovery.
+7. Keep regression tests for auth persistence, endpoint persistence, production isolation, icon packaging and canonical response rendering.
+8. Continue safe files, artifacts, voice, background work and complete useful Hermes outcome parity through the accepted Chat, Work and Profile interface.
+9. Release a new immutable founder candidate only after code review, tests, signed build, ordinary relaunch, authenticated runtime traffic and physical rendered-screen acceptance all pass.
+10. Record accepted project changes back into Ground Zero before declaring the work complete.
 
 ## Connected vault notes
 
