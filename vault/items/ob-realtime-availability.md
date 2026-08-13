@@ -12,7 +12,7 @@ is_one_thing: false
 source: morning-brief 2026-06-09
 run_date: "2026-06-09"
 created_at: "2026-06-09T06:30:00Z"
-updated_at: "2026-07-01T00:00:00+01:00"
+updated_at: "2026-08-13T12:01:00+01:00"
 sync_status: "Checked 2026-08-13 12:01 IST. The previously recorded PR #214 was merged on 2026-06-08 and is unrelated to realtime availability; it changed only MCP booking-confirmation copy. No verified implementation PR is currently attached to this item."
 ---
 

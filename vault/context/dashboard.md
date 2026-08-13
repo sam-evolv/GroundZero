@@ -11,17 +11,12 @@ updated: "2026-08-13"
 
 ## 🔴 Active right now
 
-### Cara
-  - **Complete the Cara founder voice dogfood loop** → [[items/cara-founder-voice-dogfood]] (🔴 building)
-  - **Complete Cara Phase 0 M1 — one live +353 call** → [[items/cara-phase0-m1-live-call]] (🔴 building)
-
 ### OpenHouse AI
   - **Close the tenant data gap before the V2 launch** → [[items/oh-rls-audit]] (🔴 building)
   - ⚠️ Blocked signal in [[project_state/openhouse-ai|OpenHouse AI]]
 
 ### OpenBook
   - **OpenBook client self-edit portal plus Stripe billing** → [[items/ob-client-self-edit-portal-billing]] (🔴 building)
-  - **Live availability sync with venue calendars** → [[items/ob-realtime-availability]] (🟡 pr_ready)
 
 ## 🟡 Proposed — ready to activate
 
@@ -39,9 +34,9 @@ updated: "2026-08-13"
 ## 🟢 Monitoring
 
 - 🔴 [[project_state/cara|cara]]: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
-- 🟢 [[project_state/ob|ob]]: Empire Gym's owner dashboard hardening is locally verified; safe publish/handoff is pending, and Stripe billing follows only after the owner journey is proven.
+- 🔴 [[project_state/ob|ob]]: Empire Gym's owner dashboard hardening is locally verified; safe publish/handoff is pending, and Stripe billing follows only after the owner journey is proven.
 - 🔴 [[project_state/oh|oh]]: The isolated My Home truth boundary independently passed; current-live enforcement still requires an approved GitHub ruleset and Vercel isolation proof.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Native iPhone founder dogfood is active. Stable owner-bound connectivity and rendered-screen acceptance remain open release gates.
+- 🟢 [[project_state/personal-agent|personal-agent]]: Native iPhone founder dogfood is active; the mobile source-of-truth worktree is dirty and stable owner-bound connectivity plus physical rendered-screen acceptance remain open release gates.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -49,9 +44,9 @@ updated: "2026-08-13"
 
 | Company | WIP | Proposed | Goal | Status |
 |---|---|---|---|---|
-| Cara | 2 | 0 | — | 🟡 |
+| Cara | 0 | 0 | — | 🟢 |
 | OpenHouse AI | 1 | 13 | Lift new-agent activation to 60% | 🟡 |
-| OpenBook | 2 | 6 | Reach 500 live venues in Dublin | 🟡 |
+| OpenBook | 1 | 7 | Reach 500 live venues in Dublin | 🟡 |
 | Evolv Renewables | 0 | 4 | Sign three commercial rooftop deals | 🟢 |
 
 
@@ -65,4 +60,4 @@ updated: "2026-08-13"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-08-13 02:15 IST
+- Dashboard: 2026-08-13 12:08 IST

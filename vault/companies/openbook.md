@@ -13,6 +13,7 @@ OpenBook is a platform for creating and operating websites for small businesses 
 - 362 live venues in Dublin
 - No-shows are the top churn driver (18% of bookings)
 - Supply growth is healthy
+- GitHub repository: `sam-evolv/OpenBook`; default branch `main` was verified at `c72bf48` on 13 August 2026.
 
 ## Design system
 
@@ -39,7 +40,6 @@ OpenBook is a platform for creating and operating websites for small businesses 
 
 ## Open questions
 - What is the current development status?
-- Is there a GitHub repo?
 - What is the tech stack?
 
 ## Notes that link here

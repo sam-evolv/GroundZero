@@ -1,5 +1,6 @@
 ---
 title: Personal agent project state
+headline: Native iPhone founder dogfood is active; the mobile source-of-truth worktree is dirty and stable owner-bound connectivity plus physical rendered-screen acceptance remain open release gates.
 status: building
 updated: 2026-08-13
 role: project-state

@@ -3,7 +3,7 @@ id: cara
 company_id: cara
 headline: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
 valid: true
-updated_at: "2026-07-29T10:30:00+01:00"
+updated_at: "2026-08-13T12:01:00+01:00"
 role: project-state
 ---
 
@@ -23,15 +23,15 @@ Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea
 - **Current limiting layer:** browser speech recognition and browser speech synthesis are suitable only for first contact. They are not sufficient for robust car Bluetooth use, background noise, natural barge-in/talk-over, or controlled branded voice quality.
 - P0 has therefore tightened from "make one call" to **a repeatedly useful 20-60 minute hands-free car conversation with low latency, natural interruption, noise resilience, full two-sided capture, and daily quality iteration**.
 - Naming still likely moves from Cara to Orla; do not let naming block founder dogfooding.
-- **Strategy decision (13 July):** Cara is Sam’s primary founder bet. The target is eventually self-serve, plug-and-play onboarding; it must first earn that through an excellent founder voice loop and narrow pilot proof. See [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]].
+- **Superseded strategy decision (13 July):** Cara was then Sam’s primary founder bet, targeting eventual self-serve, plug-and-play onboarding after an excellent founder voice loop and narrow pilot proof. Sam's 29 July reassessment above supersedes the active-bet status while preserving the historical rationale. See [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]].
 - **World-class route research (13 July):** Start the quality benchmark with direct native iOS → OpenAI Realtime over WebRTC and a Cara-owned action/memory gateway; keep Gemini and the modular pipeline as challengers. Do not add LiveKit unless telephony, provider routing, group rooms, server-side media or fleet observability creates a concrete need. See [[briefs/cara-world-class-product-route-research-2026-07-13]].
 - **Founder-control decision (14 July):** Add a dedicated private Telegram Cara profile for text, voice notes, memory, tasks and artefacts before spending on telephony. Telegram Bot API does not provide bot voice calls, so it is a complementary daily-use surface rather than a substitute for the realtime/car voice benchmark. See [[decisions/cara-telegram-founder-control-plane-2026-07-14]].
 
-## Active milestone
+## Retained milestones (parked)
 
-[[items/cara-founder-voice-dogfood]] — build a voice experience Sam personally uses for long brainstorming meetings, post-call artefacts, and cross-call continuity.
+[[items/cara-founder-voice-dogfood]] — if explicitly reactivated, build a voice experience Sam personally uses for long brainstorming meetings, post-call artefacts, and cross-call continuity.
 
-[[items/cara-phase0-m1-live-call]] remains the underlying telephony milestone, expanded beyond a two-minute demo into the founder dogfood loop.
+[[items/cara-phase0-m1-live-call]] remains the underlying parked telephony milestone, expanded beyond a two-minute demo into the founder dogfood loop.
 
 ## Hermes implementation baseline — 12 July 2026
 

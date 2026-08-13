@@ -3,7 +3,7 @@ id: ob
 company_id: openbook
 headline: Empire Gym's owner dashboard hardening is locally verified; safe publish/handoff is pending, and Stripe billing follows only after the owner journey is proven.
 valid: true
-updated_at: "2026-07-24T00:00:00+01:00"
+updated_at: "2026-08-13T12:01:00+01:00"
 role: project-state
 ---
 

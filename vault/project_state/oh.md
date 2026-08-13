@@ -3,7 +3,7 @@ id: oh
 company_id: openhouse-ai
 headline: The isolated My Home truth boundary independently passed; current-live enforcement still requires an approved GitHub ruleset and Vercel isolation proof.
 valid: true
-updated_at: "2026-08-06T20:25:00+01:00"
+updated_at: "2026-08-13T12:01:00+01:00"
 role: project-state
 ---
 

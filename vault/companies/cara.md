@@ -42,7 +42,7 @@ If Sam explicitly reactivates Cara, Phase 0 remains: prove one excellent live +3
 ## Connected vault notes
 
 - [[project_state/cara]] — live project state
-- [[items/cara-phase0-m1-live-call]] — immediate build item
+- [[items/cara-phase0-m1-live-call]] — parked reactivation milestone
 - [[briefs/cara-starter-product-spec]] — ingested starter spec
 - [[briefs/cara-success-strategy-2026-07-11]] — recommended wedge, onboarding, build, and 90-day success plan
 - [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]] — primary-founder-bet and self-serve decision

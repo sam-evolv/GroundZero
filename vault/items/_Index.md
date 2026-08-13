@@ -21,8 +21,8 @@ This index tracks the current active idea queue. Each entry links to its item no
 
 | Item | Summary | Size | Status |
 |---|---|---|---|
-| [[items/cara-founder-voice-dogfood]] | Full founder brainstorming calls + memory + post-call artefacts | L | building 🔥 |
-| [[items/cara-phase0-m1-live-call]] | One live +353 call with transcript + cost log | M | building |
+| [[items/cara-founder-voice-dogfood]] | Full founder brainstorming calls + memory + post-call artefacts | L | parked |
+| [[items/cara-phase0-m1-live-call]] | One live +353 call with transcript + cost log | M | parked |
 
 ## OpenHouse AI
 
@@ -56,7 +56,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/ob-no-show-deposits]] | Refundable deposits to kill no-shows | L | proposed |
 | [[items/ob-no-show-deposit-workflow]] | Automate deposit + reminder sequence | M | proposed |
 | [[items/ob-no-show-deposit-proof-sprint]] | Validate deposit policy and economics with five venues | S | proposed 🔥 |
-| [[items/ob-realtime-availability]] | Live venue calendar sync | L | pr_ready |
+| [[items/ob-realtime-availability]] | Live venue calendar sync | L | proposed |
 | [[items/ob-venue-health-radar]] | Venue churn health score | M | proposed |
 | [[items/ob-cancellation-waitlist]] | Auto-fill from waitlist | M | proposed |
 | [[items/ob-loyalty-points]] | Cross-venue loyalty points | L | snoozed |
