@@ -16,11 +16,13 @@ Sam wants one durable place for the important facts, business state, and working
 ## Consequences
 - Keep the vault structured and current.
 - Read from the vault before starting new work.
+- Hermes memory remains a small bootstrap cache and must not duplicate company, project or decision state. See [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]].
 - Write new durable facts back into the correct note type.
 - Preserve history rather than overwriting it.
 
 ## Connected vault notes
 
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]] — authority order and Hermes memory boundary
 - [[context/ground-zero-structure]] — vault structure
 - [[context/capture-workflow]] — how information flows in
 - [[context/review-workflow]] — how it stays fresh

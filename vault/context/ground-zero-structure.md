@@ -46,6 +46,7 @@ Start at `vault/context/index.md`, then open the relevant domain note before edi
 - [[context/capture-workflow]] — how information flows in
 - [[context/review-workflow]] — how it stays fresh
 - [[decisions/ground-zero-canonical]] — vault is canonical
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]] — Hermes memory is bootstrap only; Ground Zero controls durable context
 - [[README]] — pipeline update
 - [[Daily/_Index]] — chronological index of daily run notes
 - [[imports/claude/README.md]] — Claude import inbox
