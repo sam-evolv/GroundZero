@@ -21,6 +21,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 
 ### PropTech & Aftercare
 - [[companies/openhouse-ai]] — OpenHouse: one living Home Record reached through developer handover or direct consumer onboarding
+- [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]] — bounded test of binding EU construction-product passport evidence to exact installed products in the Home Record
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]] — canonical DTC product, context engine, energy-integration, business-model and validation strategy
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]] — €79 Upgrade Ready Plan concierge validation before broad consumer build
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]] — productised AI workflow consulting for near-term cash
