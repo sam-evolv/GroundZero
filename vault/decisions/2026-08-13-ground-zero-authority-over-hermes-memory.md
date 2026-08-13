@@ -52,5 +52,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/ground-zero-structure]]
 - [[context/index]]
 - [[context/model-pack]]
+- [[context/personal-context-data-contract]]
+- [[context/review-workflow]]
 - [[decisions/ground-zero-canonical]]
 - [[project_state/personal-agent]]
+

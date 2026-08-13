@@ -2,7 +2,7 @@
 title: Wiki Refiner 2026-08-13
 kind: wiki_refiner_brief
 date: "2026-08-13"
-ran_at: "2026-08-13T12:17:16+01:00"
+ran_at: "2026-08-13T12:18:25+01:00"
 ---
 
 # Wiki Refiner 2026-08-13
@@ -62,7 +62,7 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] (341)
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]] (240)
 - [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]] (222)
-- [[companies/openhouse-ai]] (247)
+- [[companies/openhouse-ai]] (248)
 - [[project_state/oh]] (174)
 - [[context/openhouse-openbook-design-system]] (134)
 - [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]] (108)

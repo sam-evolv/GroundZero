@@ -104,6 +104,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/ops-automation-moc]]
 - [[context/personal-context-data-contract]]
 - [[context/review-workflow]]
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
 - [[decisions/ground-zero-canonical]]
 - [[goals/ob-retention]]
 - [[goals/oh-activation]]

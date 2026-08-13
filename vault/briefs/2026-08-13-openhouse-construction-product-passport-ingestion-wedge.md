@@ -114,4 +114,11 @@ Primary and official sources reviewed 13 August 2026:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-a-rated-homeowner-primary-integration-2026-07-28]]
+- [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
+- [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]
+- [[decisions/openhouse-home-operating-assistant-north-star-2026-07-27]]
+- [[items/oh-handover-readiness-scan]]
+- [[project_state/oh]]
+
