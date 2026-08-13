@@ -20,11 +20,13 @@ This is the first note to load when a model needs cross-business context.
 5. [[companies/cara]]
 6. [[companies/openbook]]
 7. [[companies/evolv-renewables]]
-8. [[project_state/personal-agent]]
-9. [[project_state/cara]]
-10. [[project_state/oh]]
-11. [[project_state/ob]]
-12. [[project_state/renew]]
+8. [[companies/heres-health]]
+9. [[project_state/personal-agent]]
+10. [[project_state/cara]]
+11. [[project_state/oh]]
+12. [[project_state/ob]]
+13. [[project_state/renew]]
+14. [[project_state/heres-health-app]]
 
 ## What lives where
 - **people/**: stable personal preferences, working style, and operating rules
@@ -108,6 +110,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/wiki-refiner-2026-07-26]] — prior vault refinement report
 - [[briefs/wiki-refiner-2026-07-19]] — prior vault refinement report
 - [[briefs/planet-satellite-opportunity]] — satellite imagery cross-domain bridge
+- [[briefs/2026-08-13-heres-health-digital-platform-phase-one]] — Here’s Health whole-brand app proposal, six-week evidence gate and Square/Shopify scope boundary
 
 ## Current picture
 - The personal-agent venture is now an active runtime-first build in `/Users/samdonworth/Projects/IrelandGPT`; see [[briefs/2026-08-07-personal-agent-interface-live-work-and-time-given-back]], [[companies/personal-agent]] and [[project_state/personal-agent]]. Hermes remains the engine. The consumer promise is delegation and time returned through one exceptionally simple conversation, contextual live work, human-language progress, first-class voice and inspectable personal context.
@@ -115,6 +118,7 @@ This is the first note to load when a model needs cross-business context.
 - Cara is deprioritised pending explicit reactivation after Sam's 29 July founder reassessment. Its retained reactivation gate is one excellent +353 live call before app/dashboard work; no real-call acceptance is recorded.
 - OpenBook's immediate commercial unblock is a light client-edit portal followed by €79/month Stripe billing; lead-gen automation is a constrained follow-on pilot.
 - Evolv Renewables has live commercial generation, with reporting still too manual.
+- Here’s Health is a new client engagement at discovery-pending stage. Sam’s proposed Phase One is a whole-brand app combining Square café ordering and Shopify retail while keeping their baskets and transactions separate; see [[companies/heres-health]], [[project_state/heres-health-app]] and [[items/heres-health-week-one-discovery-and-technical-proof]].
 - OpenHouse sales routes: [[context/openhouse-sales-routes]]
 - OpenHouse product map: [[context/openhouse-product-map]]
 - Claude vault integration: [[context/claude-vault-integration]]

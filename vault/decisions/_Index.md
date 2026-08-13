@@ -6,6 +6,10 @@ kind: moc
 
 # Decision Log
 
+## 13 August 2026
+
+- [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]] — propose Here’s Health Digital Platform, Phase One while keeping Square café transactions and Shopify retail transactions separate; final scope is gated on Week 1 technical and operational proof.
+
 Every decision is stored in `decisions/` as a permanent note. This log orders them chronologically so you can trace the reasoning chain.
 
 ## OpenHouse AI

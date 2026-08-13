@@ -15,11 +15,13 @@ Use this note when a model needs quick, high-signal context.
 5. [[companies/cara]]
 6. [[companies/openbook]]
 7. [[companies/evolv-renewables]]
-8. [[project_state/personal-agent]]
-9. [[project_state/cara]]
-10. [[project_state/oh]]
-11. [[project_state/ob]]
-12. [[project_state/renew]]
+8. [[companies/heres-health]]
+9. [[project_state/personal-agent]]
+10. [[project_state/cara]]
+11. [[project_state/oh]]
+12. [[project_state/ob]]
+13. [[project_state/renew]]
+14. [[project_state/heres-health-app]]
 
 ## Sam
 - Founder of OpenHouse AI, OpenBook, Evolv Renewables and Aire, the active personal-agent venture.
@@ -67,6 +69,13 @@ Use this note when a model needs quick, high-signal context.
 - Commercial rooftop renewables business.
 - One install live, one in survey.
 - Main pain: manual compliance reporting.
+
+### Here’s Health client engagement
+- Discovery-pending mobile app project introduced through Keith Crowley, with Conor as primary client contact.
+- Original request is a Square-connected café click-and-collect app. Sam’s proposed commercial direction is Here’s Health Digital Platform, Phase One, spanning Home, Café, Shopify retail, Rewards and Account.
+- Version-one architecture keeps Square café commerce and Shopify retail commerce operationally separate while presenting one premium brand experience.
+- Six-week production-candidate target is gated on Week 1 proof of Square catalogue/order/fulfilment, Shopify catalogue/basket/checkout, staff hardware workflow and app-account readiness.
+- See [[companies/heres-health]], [[project_state/heres-health-app]], [[items/heres-health-week-one-discovery-and-technical-proof]] and [[briefs/2026-08-13-heres-health-digital-platform-phase-one]].
 
 ## Current operating rules
 - Use separate specialist agents in separate chats where possible.

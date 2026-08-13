@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-07-27"
+updated_at: "2026-08-13"
 ---
 
 # Ideas Index
@@ -16,6 +16,12 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/personal-agent-hermes-desktop-parity]] | Full useful Hermes Desktop functionality in the branded responsive shell before simplification | XL | building 🔥 |
 | [[items/personal-agent-unit-economics-and-onboarding]] | Validate guest use, conversion, living Profile, tier economics and family safety | L | proposed 🔥 |
 | [[items/aire-health-specialist-coach]] | Revisit a premium specialist health, fitness, nutrition and recovery agent | L | parked |
+
+## Here’s Health
+
+| Item | Summary | Size | Status |
+|---|---|---|---|
+| [[items/heres-health-week-one-discovery-and-technical-proof]] | Prove Square, Shopify, café operations and release-account readiness before locking Phase One | M | building 🔥 |
 
 ## Cara
 

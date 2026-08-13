@@ -18,6 +18,9 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 
 ### Booking & Hospitality
 - [[companies/openbook]] — OpenBook's core wedge: restaurant bookings + no-show reduction
+- [[companies/heres-health]] — Cork health-food, café and wellness client engagement
+- [[briefs/2026-08-13-heres-health-digital-platform-phase-one]] — whole-brand mobile platform proposal spanning Square café commerce and Shopify retail with a protected six-week scope gate
+- [[items/heres-health-week-one-discovery-and-technical-proof]] — active evidence gate for Square, Shopify, hardware, operations and release-account readiness
 
 ### PropTech & Aftercare
 - [[companies/openhouse-ai]] — OpenHouse: one living Home Record reached through developer handover or direct consumer onboarding
@@ -72,6 +75,7 @@ Planet.com data is not a single-wedge opportunity. It touches multiple businesse
 - [[companies/openhouse-ai]] ← [[briefs/openhouse-energy-assistant-wedge]]
 - [[companies/evolv-renewables]] ← [[briefs/solar-installer-software-wedge]] ← [[briefs/planet-satellite-opportunity]]
 - [[companies/openbook]] ← [[items/ob-no-show-deposits]] ← [[items/ob-venue-health-radar]]
+- [[companies/heres-health]] ← [[briefs/2026-08-13-heres-health-digital-platform-phase-one]] ← [[items/heres-health-week-one-discovery-and-technical-proof]]
 
 
 ## Notes that link here
