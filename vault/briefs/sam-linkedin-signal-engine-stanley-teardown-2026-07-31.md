@@ -150,7 +150,7 @@ Turn what Sam is already doing, learning and saying into credible LinkedIn conte
 
 ## Audience map
 
-The last known LinkedIn context contains approximately 683 connections. The system should treat that as a relationship graph, not a follower count.
+At the time of this 31 July review, the last known LinkedIn context contained approximately 683 connections. The newer source-backed snapshot now contains 832 connections through 12 August 2026; see [[context/linkedin-network]]. The system should treat it as a relationship graph, not a follower count.
 
 ### Cohort 1: OpenHouse buyers and partners
 

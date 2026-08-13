@@ -23,6 +23,7 @@ timezone: Europe/Dublin
 - Values proactive capture of voice-note context into Ground Zero so decision quality compounds across sessions.
 - Six-month founder ambition from August 2026: establish himself as Ireland's leading practical AI and automation founder by building Aire into a real customer product and proving, through auditable operation rather than commentary, that its own company can be run increasingly by the same agentic system.
 - Prefers simple stacks, public distribution early, and compliant automation over headcount-heavy scaling.
+- His current LinkedIn source snapshot contains 832 connections through 12 August 2026. Treat it as a relationship graph for relevant routes, not a bulk-outreach list; current roles and relationship strength need separate verification.
 
 ## Model preferences
 - General use: gpt-5.4-mini
@@ -48,6 +49,7 @@ timezone: Europe/Dublin
 - [[goals/oh-activation]] — activation goal
 - [[context/index]] — main context entry
 - [[context/model-pack]] — compact model context
+- [[context/linkedin-network]] — canonical strategic view of the LinkedIn relationship graph
 - [[briefs/ai-money-patterns-2026-06]] — pattern lens
 - [[briefs/sam-90-day-cash-authority-plan-2026-07-13]] — proposed runway, cash, equity operating plan
 - OpenBook lead gen should focus on small local Cork businesses.

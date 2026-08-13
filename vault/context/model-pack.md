@@ -28,6 +28,7 @@ Use this note when a model needs quick, high-signal context.
 - Wants no-fluff help that saves time, reduces stress, and creates value.
 - Works full-time, so plans should fit evenings and weekends and target near-term cash.
 - Prefers voice replies only in car mode or after sending a voice note.
+- Current LinkedIn source snapshot contains 832 connections through 12 August 2026. Use [[context/linkedin-network]] as a relationship-routing source, not a mailing list, and verify live roles before relying on them.
 
 ## Companies
 ### Personal agent venture

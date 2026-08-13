@@ -1,0 +1,141 @@
+{
+  "source": "LinkedIn Connections.csv supplied by Sam Donworth",
+  "source_sha256": "181086f0ccafcbca69c615c8859cdb9efe84862eeeda03d14ed77985b1b31c90",
+  "snapshot_latest_connection_date": "2026-08-12",
+  "earliest_connection_date": "2020-11-19",
+  "records": 832,
+  "records_with_profile_url": 676,
+  "records_with_email": 10,
+  "records_with_company": 668,
+  "records_with_position": 819,
+  "connections_last_30_days_of_snapshot": 30,
+  "connections_last_90_days_of_snapshot": 150,
+  "top_companies": [
+    {
+      "company": "Ohme",
+      "connections": 28
+    },
+    {
+      "company": "Temporis Capital",
+      "connections": 15
+    },
+    {
+      "company": "University College Cork",
+      "connections": 11
+    },
+    {
+      "company": "Ardcairn Capital",
+      "connections": 9
+    },
+    {
+      "company": "Cairn",
+      "connections": 7
+    },
+    {
+      "company": "Sherry FitzGerald",
+      "connections": 6
+    },
+    {
+      "company": "PwC Ireland",
+      "connections": 6
+    },
+    {
+      "company": "Musgrave",
+      "connections": 5
+    },
+    {
+      "company": "Evara Ireland",
+      "connections": 5
+    },
+    {
+      "company": "Deloitte",
+      "connections": 5
+    },
+    {
+      "company": "Freelance",
+      "connections": 4
+    },
+    {
+      "company": "PTSB",
+      "connections": 4
+    },
+    {
+      "company": "Self-employed",
+      "connections": 4
+    },
+    {
+      "company": "CField Construction",
+      "connections": 4
+    },
+    {
+      "company": "Apple",
+      "connections": 4
+    },
+    {
+      "company": "Health Service Executive",
+      "connections": 4
+    },
+    {
+      "company": "Eli Lilly and Company",
+      "connections": 4
+    },
+    {
+      "company": "Dornan",
+      "connections": 4
+    },
+    {
+      "company": "SE Systems",
+      "connections": 3
+    },
+    {
+      "company": "Alter Domus",
+      "connections": 3
+    },
+    {
+      "company": "Savills Ireland",
+      "connections": 3
+    },
+    {
+      "company": "Johnson & Johnson Innovative Medicine",
+      "connections": 3
+    },
+    {
+      "company": "Elkstone",
+      "connections": 3
+    },
+    {
+      "company": "Johnson & Perrott Ltd",
+      "connections": 3
+    },
+    {
+      "company": "Hibernia Real Estate Group Ltd",
+      "connections": 3
+    },
+    {
+      "company": "J.P. Morgan Workplace Solutions",
+      "connections": 3
+    },
+    {
+      "company": "Johnson & Johnson MedTech",
+      "connections": 3
+    },
+    {
+      "company": "CrowleysDFK",
+      "connections": 3
+    },
+    {
+      "company": "The Land Development Agency",
+      "connections": 2
+    },
+    {
+      "company": "Fluxx Events",
+      "connections": 2
+    }
+  ],
+  "normalization": {
+    "raw_file_preserved_byte_for_byte": true,
+    "normalized_file_encoding": "UTF-8",
+    "mixed_legacy_and_UTF-8_sequences_repaired": true,
+    "unmappable_bytes_replaced": 2
+  }
+}
