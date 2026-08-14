@@ -2,6 +2,7 @@
 title: IrelandGPT full Hermes Desktop parity
 status: building
 created: 2026-08-06
+updated: 2026-08-14
 priority: P0
 size: XL
 company: personal-agent
@@ -24,6 +25,12 @@ A capability counts as parity only when:
 5. Exact method and route contracts are enforced across client, BFF, relay and public proxy.
 6. No raw prompts, commands, filesystem paths, credentials, provider metadata or unrestricted host controls cross into the consumer browser.
 7. The exact immutable candidate is independently reviewed before deployment.
+
+## Live reconciliation, 14 August 2026
+
+The canonical `/Users/samdonworth/Projects/IrelandGPT` checkout remains on committed base `d533206b37e0aecb1d48c4a7cb8e972a0a284743`, but currently carries an uncommitted five-file tracked diff plus untracked visual artifacts and a Playwright test. Direct source inspection shows that this in-progress candidate removes the separate Doing, Done and You surfaces, automation and capability loading, and rewrites tests to require those outcomes to be absent. Inspected untracked browser captures show a single-conversation `IrelandGPT` shell with conversation history and no visible Work, Profile, Capabilities or Automations navigation.
+
+This does **not** satisfy or supersede the parity contract below. The dirty changes are not an immutable candidate, their screenshots are not commit-bound, their referenced port `8767` is not listening, and there is no build, full-suite, physical-device or accepted live-surface receipt. Preserve the checklist as the governing requirement. Before this root work can be accepted, reconcile it in an isolated worktree with [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] and the active Chat, Work and Profile decision, retain every useful Hermes outcome behind the calm consumer surface, and re-run the real-runtime plus rendered-surface gates. No deployment or source-of-truth promotion is authorised by the current artifacts.
 
 ## Parity ledger
 
