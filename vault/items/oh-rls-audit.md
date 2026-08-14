@@ -12,8 +12,8 @@ is_one_thing: false
 source: morning-brief 2026-06-09
 run_date: "2026-06-09"
 created_at: "2026-06-09T06:30:00Z"
-updated_at: "2026-06-26T16:56:31+01:00"
-sync_status: "Checked 2026-06-26 16:56 IST. OpenHouse repo still has 11 open PRs and 6 open issues. Vercel production latest deployment remains Ready. Supabase remote anomaly check is blocked by missing SUPABASE_ACCESS_TOKEN and a stopped Docker daemon."
+updated_at: "2026-08-14T04:04:00+01:00"
+sync_status: "Checked 2026-08-14 04:04 IST. GitHub main remains at b1629c34 with 12 open PRs and 6 non-PR issues; Vercel production remains Ready. No RLS or production-data probe ran: SUPABASE_ACCESS_TOKEN is unset, and Docker is available but the local supabase_db_property-assistant stack/container is absent."
 ---
 
 ## Opportunity size

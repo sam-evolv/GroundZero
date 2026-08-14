@@ -3,9 +3,11 @@ id: oh
 company_id: openhouse-ai
 headline: Current live main advanced and deployed with an assistant-list formatting repair; merge enforcement remains absent and rendered acceptance remains open.
 valid: true
-updated_at: "2026-08-13T16:07:00+01:00"
+updated_at: "2026-08-14T04:04:00+01:00"
 role: project-state
 ---
+
+**Live check, 2026-08-14 04:04 IST:** No verified delivery movement since the 13 August check. GitHub `main` remains at `b1629c34`; the queue remains twelve open PRs and six non-PR issues; PR #205 remains OPEN, MERGEABLE and CLEAN at exact head `5d56e3bb` with its five recorded checks successful; no pull request is associated with the current `main` commit. Repository rulesets remain empty and `main` remains unprotected. Vercel production deployment `property-assistant-mi8xczgvc` remains Ready and owns the `portal.openhouseai.ie` alias; the portal returned HTTP 200. The local V2 checkout remains at unpushed `ffb00731`, two commits ahead of its remote tracking branch, and the current `main` tree still contains none of the three probed My Home component/API paths. No Supabase data, migration or RLS probe was run: `SUPABASE_ACCESS_TOKEN` is unset, and although the Docker daemon is now available, `supabase status` fails because the local `supabase_db_property-assistant` container/stack does not exist. The database-authority blocker therefore remains, but its exact local cause is an absent project stack rather than an unavailable Docker daemon. No production mutation or rendered homeowner acceptance was attempted.
 
 **Live check, 2026-08-13 16:07 IST:** Material delivery movement occurred after the prior check. GitHub `main` advanced directly from `ad327a4b` to verified commit `b1629c34` at 15:45 IST. The commit changes only `apps/unified-portal/lib/assistant/formatting.ts` and adds `tests/assistant/chat-markdown-lists.test.ts`; its stated scope is ordered-list, nested-list and partial-stream rendering. GitHub associates no pull request with the commit. Twelve PRs and six non-PR issues remain open. PR #205 remains OPEN, MERGEABLE and CLEAN at exact head `5d56e3bb` with its five recorded checks successful. Repository rulesets remain empty and `main` remains unprotected. Vercel production deployment `property-assistant-mi8xczgvc` cloned `main` at `b1629c3`, completed successfully, is Ready, and now owns the `portal.openhouseai.ie` alias; the public portal returned HTTP 200. This proves that the exact GitHub commit built and is being served. It does not prove the repaired formatting on a rendered homeowner surface, full type or lint validation, Supabase correctness or production-data integrity. The Vercel log explicitly skipped type and lint validation and reported 19 dependency-audit findings (4 moderate, 13 high and 2 critical); those findings are recorded as release debt, not attributed to this two-file repair. The live commit contains no My Home paths, but its direct promotion confirms the independently reviewed current-live guard is still not enforced. The local V2 checkout remains at unpushed `ffb00731`, two commits ahead of its remote tracking branch. No Supabase data, migration or RLS probe was run because the required database-authority path remains unavailable in this reconciliation.
 
@@ -66,7 +68,7 @@ The V2 rollout is still on track for end of month. Real Longview Estates data re
 - Production migration is still the top priority.
 - Vercel production deployment was inspected again on 2026-07-01 and the latest deployment is Ready.
 - Guardrails remain in shadow mode and the eval suite still needs expansion before flipping to active.
-- Supabase remote anomaly checks are still blocked because `SUPABASE_ACCESS_TOKEN` is unset and local `supabase status` cannot reach Docker.
+- Supabase remote anomaly checks remain blocked because `SUPABASE_ACCESS_TOKEN` is unset. Docker is available, but local `supabase status` cannot run because the `supabase_db_property-assistant` container/stack is absent.
 
 ## Next actions
 - Keep monitoring the production migration until the backup tables can be dropped after a clean week.
@@ -75,7 +77,7 @@ The V2 rollout is still on track for end of month. Real Longview Estates data re
 - Run the accelerator waiting period as a 30-day commercial-proof sprint: two developer discovery conversations, one written one-scheme pilot proposal and one paid pilot, signed letter of intent or decision-changing rejection. See [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]].
 
 ## Risks
-- Supabase remote anomaly checks are blocked in this environment because no access token is available and local status checks cannot run without Docker.
+- Supabase remote anomaly checks are blocked because no access token is available; the local fallback is also unavailable because the project Supabase stack/container is absent, despite Docker itself being available.
 
 ## Connected vault notes
 
