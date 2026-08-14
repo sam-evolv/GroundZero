@@ -181,6 +181,8 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "worktrees/se-systems-care-video-20260814/apps/unified-portal/lib/care/se-systems-video-demo.ts",
+    "worktrees/se-systems-care-video-20260814/apps/unified-portal/scripts/smoke/se-systems-video-demo.smoke.ts",
     "worktrees/se-systems-care-video-20260814/vercel.json",
     "worktrees/se-systems-care-video-20260814/uv.lock",
     "worktrees/se-systems-care-video-20260814/upload_document.js",
@@ -190,8 +192,6 @@
     "worktrees/se-systems-care-video-20260814/scripts/hardening/reports/status-2026-01-15T11-38-49-421Z.json",
     "worktrees/se-systems-care-video-20260814/scripts/hardening/reports/status-2026-01-15T11-37-49-661Z.json",
     "worktrees/se-systems-care-video-20260814/scripts/hardening/reports/status-2026-01-15T11-33-55-038Z.json",
-    "worktrees/se-systems-care-video-20260814/scripts/backup/reports/verify-2026-01-15T15-10-45-268Z.json",
-    "worktrees/se-systems-care-video-20260814/scripts/hardening/reports/status-2026-01-15T11-32-17-523Z.json",
     "worktrees/se-systems-care-video-20260814/replit.md",
     "worktrees/se-systems-care-video-20260814/property-assistant/apps/unified-portal/public/oh-logo-stacked.png",
     "worktrees/se-systems-care-video-20260814/property-assistant/apps/unified-portal/public/oh-logo-icon.png",
