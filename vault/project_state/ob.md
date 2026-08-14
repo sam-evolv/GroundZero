@@ -1,13 +1,15 @@
 ---
 id: ob
 company_id: openbook
-headline: Empire Gym's owner dashboard hardening is locally verified; safe publish/handoff is pending, and Stripe billing follows only after the owner journey is proven.
+headline: Empire Gym's GymMaster membership integration is locally implemented on an unpublished branch; the live site still serves the July Stripe flow, and safe publication remains pending.
 valid: true
-updated_at: "2026-08-13T12:01:00+01:00"
+updated_at: "2026-08-15T00:09:00+01:00"
 role: project-state
 ---
 
 OpenBook's immediate commercial path is a minimum client portal for editing text and photos, followed by Stripe subscriptions at €79/month. Existing lead-generation infrastructure may support a constrained automated prospecting pilot, but the old 20-minute-per-demo manual workflow is parked.
+
+**Live source reconciliation, 2026-08-15 00:09 IST:** the isolated Empire Gym renderer worktree at `/Users/samdonworth/GroundZero/worktrees/empire-gymmaster-20260814` is clean at local commit `658e67a` on branch `feat/empire-gymmaster-20260814`, with no upstream and no remote ref containing that commit. Direct source inspection verifies an Empire-only GymMaster signup and member-login integration, exact-tenant origin validation, and source changes intended to replace the legacy membership catalogue and Stripe join CTAs. Its targeted suite passed 36/36 tests. `npm run build` exited 0 and compiled/generated the app, but ESLint did not execute because the framework passed removed ESLint options, so lint remains unverified. This work is not deployed or live: Vercel still serves the 2026-07-30 production deployment `ob-client-site-template-acjw0e1w7`, and the live server-rendered HTML contains no GymMaster reference and still routes membership `Join now` actions to Stripe. The separate owner dashboard remains at `de26b62`, and the dirty base-renderer conflict remains unresolved. No push, deployment, database or payment mutation, or outreach occurred during this reconciliation.
 
 On 2026-07-24, the isolated Empire Gym owner-dashboard branch passed its recorded tests and a production build. **Live repository check, 2026-08-13 12:01 IST:** the dashboard worktree remains clean at local commit `de26b62` with no upstream. The renderer source worktree still has an unresolved merge conflict in `components/sections/About.tsx` plus two modified files, so publish/handoff remains blocked. `https://www.empiregym.ie` returned HTTP 200, which proves availability only. The verified handoff, safety decisions and renderer blocker are in [[briefs/2026-07-24-empire-owner-dashboard-hardening]].
 
