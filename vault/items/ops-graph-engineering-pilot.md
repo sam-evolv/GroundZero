@@ -13,7 +13,7 @@ is_one_thing: true
 source: graph engineering research 2026-08-04
 run_date: "2026-08-04"
 created_at: "2026-08-04T22:20:00+01:00"
-updated_at: "2026-08-13T00:00:00+01:00"
+updated_at: "2026-08-14T18:02:55+01:00"
 ---
 
 ## Objective
@@ -109,6 +109,48 @@ It replaces the ad hoc manual assembly of release handoffs and repeated re-readi
 ### Provenance
 
 Derived from the 13 August live evidence in [[project_state/oh]], [[items/oh-live-portal-boundary-activation]] and [[project_state/personal-agent]], plus the auditable-workflow requirement in [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]] and [[goals/personal-agent-ai-operated-company-proof]].
+
+## Material proposal, 14 August 2026 — accepted-requirement drift check
+
+Use the existing graph pilot for one read-only pre-acceptance check rather than opening another automation item.
+
+### Bottleneck
+
+Accepted product requirements are being reconciled against source changes manually and late. On 14 August the live `/Users/samdonworth/Projects/IrelandGPT` root checkout remained at committed base `d533206b`, but carried five modified tracked files with 159 insertions and 1,059 deletions plus untracked proof artifacts. The diff removes automation and capability loading, removes the current separate product surfaces, and changes contract tests to require those outcomes to be absent. Removing the rejected Doing/Done/You labels is directionally valid, but removing their useful outcomes without the adopted Chat, Work and Profile replacement conflicts with [[decisions/2026-08-06-personal-agent-runtime-first-sequence]], [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]] and the live ledger in [[items/personal-agent-hermes-desktop-parity]]. The conflict was found through a manual worktree-versus-vault audit after local code and tests had already drifted together.
+
+### Value category
+
+- **Risk reduction:** catches a locally self-consistent implementation and test rewrite that regresses accepted requirements.
+- **Decision quality:** distinguishes an accepted presentation change from removal of the underlying product outcome.
+- **Time reclaimed:** replaces repeated manual re-reading of decisions, ledgers and large worktree diffs before candidate acceptance.
+
+### Smallest live test
+
+Run one read-only graph against the current dirty IrelandGPT root checkout. Freeze the base commit, tracked diff digest and untracked manifest; load only the three governing notes above; then emit a compact requirement matrix with `PRESERVED`, `REMOVED`, `NOT YET PROVEN` or `CONTRADICTION`, exact source hunks, decision citations and a terminal `PASS`, `HOLD` or `UNKNOWN`. Do not edit the checkout, execute production paths, commit or treat screenshots as acceptance evidence.
+
+### Evidence of success
+
+- The check marks removal of Doing/Done/You labels as non-blocking by itself.
+- It separately flags missing Work/Profile replacement plus removed capability and automation outcomes as `CONTRADICTION` and returns `HOLD`.
+- Every finding binds to the frozen diff and a current, non-superseded requirement; ambiguous or stale requirements become `UNKNOWN`.
+- An independent reviewer reproduces the classification without finding an accepted requirement omitted or a superseded decision enforced.
+- Review time is lower than the manual audit while preserving the exact evidence boundary.
+
+### Downside and failure mode
+
+Product decisions are semantic, may supersede one another and cannot be reduced safely to keyword matching. A stale ledger could create false holds, while a broad LLM comparison could invent requirements. Keep the first test narrow, pin the accepted notes explicitly, fail closed on source or requirement drift, and measure reviewer corrections before reuse.
+
+### Approval boundary
+
+Automation may read immutable Git objects, the protected dirty diff, untracked-file metadata and named Ground Zero notes, then draft a receipt. Sam or an independent reviewer decides whether a contradiction is real and what to change. No automated edit, test rewrite, commit, reset, cleanup, push, merge, deployment, production action or acceptance promotion is authorised.
+
+### What it replaces
+
+It replaces the ad hoc pre-acceptance comparison of candidate source and tests against Ground Zero decisions. It does **not** replace product judgement, code review, test execution, security review, the release evidence receipt assembler above, physical-device verification or rendered-surface acceptance.
+
+### Provenance
+
+Grounded in the 14 August live IrelandGPT status and diff, the reconciled source boundary in [[project_state/personal-agent]], the governing ledger in [[items/personal-agent-hermes-desktop-parity]], and the adopted decisions [[decisions/2026-08-06-personal-agent-runtime-first-sequence]], [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]] and [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]].
 
 ## Connected notes
 
