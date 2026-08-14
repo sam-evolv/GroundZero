@@ -21,6 +21,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[companies/heres-health]] — Cork health-food, café and wellness client engagement
 - [[briefs/2026-08-13-heres-health-digital-platform-phase-one]] — whole-brand mobile platform proposal spanning Square café commerce and Shopify retail with a protected six-week scope gate
 - [[items/heres-health-week-one-discovery-and-technical-proof]] — active evidence gate for Square, Shopify, hardware, operations and release-account readiness
+- [[briefs/2026-08-14-heres-health-food-waste-margin-baseline]] — optional post-launch EPA-aligned café waste and margin baseline; measure first, no forecast or AI build without paid signal
 
 ### PropTech & Aftercare
 - [[companies/openhouse-ai]] — OpenHouse: one living Home Record reached through developer handover or direct consumer onboarding
