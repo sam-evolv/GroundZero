@@ -62,6 +62,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/ground-zero-canonical]]
 - [[items/ops-daily-report-pack]]
 - [[items/ops-daily-sync-digest]]
+- [[items/ops-graph-engineering-pilot]]
 - [[items/ops-weekly-status-pack]]
 - [[project_state/ob]]
 - [[project_state/oh]]

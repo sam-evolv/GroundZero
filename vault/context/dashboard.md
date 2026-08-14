@@ -13,7 +13,7 @@ updated: "2026-08-13"
 
 ### OpenHouse AI
   - **Close the tenant data gap before the V2 launch** → [[items/oh-rls-audit]] (🔴 building)
-  - ⚠️ Blocked signal in [[project_state/oh|OpenHouse AI]]
+  - ⚠️ Blocked signal in [[project_state/openhouse-ai|OpenHouse AI]]
 
 ### OpenBook
   - **OpenBook client self-edit portal plus Stripe billing** → [[items/ob-client-self-edit-portal-billing]] (🔴 building)
@@ -34,9 +34,10 @@ updated: "2026-08-13"
 ## 🟢 Monitoring
 
 - 🔴 [[project_state/cara|cara]]: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
+- 🔴 [[project_state/heres-health-app|heres-health-app]]: Discovery pending for a proposed Here’s Health Digital Platform spanning Square café ordering and Shopify retail.
 - 🔴 [[project_state/ob|ob]]: Empire Gym's owner dashboard hardening is locally verified; safe publish/handoff is pending, and Stripe billing follows only after the owner journey is proven.
-- 🔴 [[project_state/oh|oh]]: Current live `main` advanced directly to `b1629c34` and Vercel is serving it in production; merge enforcement remains absent, and the formatting repair has no rendered homeowner acceptance yet.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Native iPhone founder dogfood is active; source advanced locally to unpublished `36d769f` with durable Work receipts, but `3556088` remains the last physically accepted candidate. The private tailnet route is currently unavailable, and exact-candidate receipt rendering, fresh streaming-request, visible icon and accessibility acceptance remain open.
+- 🔴 [[project_state/oh|oh]]: Current live main advanced and deployed with an assistant-list formatting repair; merge enforcement remains absent and rendered acceptance remains open.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Aire source advanced to `36d769f` with durable work receipts, but `3556088` remains the last physically accepted iPhone candidate and the private tailnet route is currently unavailable.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -60,4 +61,4 @@ updated: "2026-08-13"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-08-13 20:09 IST
+- Dashboard: 2026-08-14 02:15 IST

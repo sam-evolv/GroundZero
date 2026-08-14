@@ -334,6 +334,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-openhouse-us-builder-channel-prospect-lane]]
 - [[briefs/openhouse-uk-us-expansion-research-2026-06-29]]
 - [[context/index]]
+- [[context/linkedin-network]]
 - [[context/openhouse-sales-routes]]
 - [[items/oh-uk-aftercare-design-partner-sprint]]
 - [[items/oh-us-builder-warranty-discovery-sprint]]

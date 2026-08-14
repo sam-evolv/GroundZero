@@ -45,3 +45,8 @@ In version one:
 - [[items/heres-health-week-one-discovery-and-technical-proof]] — evidence gate
 - [[imports/heres-health-app-project-brief-2026-08-13]] — source brief
 - [[decisions/_Index]] — decision log
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-13-heres-health-digital-platform-phase-one]]
+

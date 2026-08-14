@@ -126,6 +126,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[companies/openhouse-ai]]
 - [[context/consulting-wedges]]
 - [[context/index]]
+- [[context/linkedin-network]]
 - [[context/openhouse-product-map]]
 - [[context/solo-founder-era]]
 - [[goals/oh-activation]]

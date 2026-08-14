@@ -80,3 +80,15 @@ Likely deferrable unless discovery proves low-risk:
 - [[people/keith-crowley]] — referral relationship
 - [[context/index]] — canonical context entry point
 - [[items/_Index]] — active item index
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-13-heres-health-digital-platform-phase-one]]
+- [[companies/heres-health]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
+- [[people/conor-heres-health]]
+- [[people/keith-crowley]]
+

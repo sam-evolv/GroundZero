@@ -98,3 +98,11 @@ For any network-led task:
 - [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]] for the active sales method
 - [[context/personal-context-data-contract]] for provenance, correction and privacy rules
 - [[context/index]] for the Ground Zero entry point
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/sam-linkedin-signal-engine-stanley-teardown-2026-07-31]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[people/sam-donworth]]
+

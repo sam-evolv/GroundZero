@@ -144,6 +144,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
 - [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]]
 - [[briefs/2026-08-05-openhouse-paid-pilot-proposal-template]]
+- [[companies/openhouse-ai]]
 - [[context/index]]
 - [[context/openhouse-sales-routes]]
 - [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]

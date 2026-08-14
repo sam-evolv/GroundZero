@@ -56,4 +56,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-current-live-boundary-and-v2-handoff]]
 - [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]
 - [[goals/oh-v2-launch]]
+- [[items/ops-graph-engineering-pilot]]
 - [[project_state/oh]]
+

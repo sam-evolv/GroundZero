@@ -273,6 +273,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-10]]
 - [[briefs/wiki-refiner-2026-08-11]]
 - [[briefs/wiki-refiner-2026-08-12]]
+- [[briefs/wiki-refiner-2026-08-13]]
 - [[context/agentic-value-creation-mission]]
 - [[context/autonomous-business-launch-loop]]
 - [[context/business-opportunities-moc]]

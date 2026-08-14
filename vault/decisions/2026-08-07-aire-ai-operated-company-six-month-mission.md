@@ -68,6 +68,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/index]]
 - [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]
 - [[goals/personal-agent-ai-operated-company-proof]]
+- [[items/ops-graph-engineering-pilot]]
 - [[people/sam-donworth]]
 - [[project_state/personal-agent]]
 

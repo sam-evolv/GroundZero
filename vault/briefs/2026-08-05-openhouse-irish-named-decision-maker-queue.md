@@ -132,5 +132,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
 - [[briefs/2026-08-05-openhouse-revenue-first-founder-sales-reset]]
 - [[context/index]]
+- [[context/linkedin-network]]
 - [[items/oh-sean-gallagher-reconnection]]
 

@@ -206,3 +206,16 @@ Proceed immediately with Week 1 discovery and technical proof when access arrive
 - [[people/keith-crowley]] — referral source
 - [[context/business-opportunities-moc]] — opportunity map
 - [[people/sam-donworth]] — founder and delivery lead
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/heres-health]]
+- [[context/business-opportunities-moc]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
+- [[people/conor-heres-health]]
+- [[people/keith-crowley]]
+- [[project_state/heres-health-app]]
+

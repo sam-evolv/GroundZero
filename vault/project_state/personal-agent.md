@@ -129,6 +129,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
 - [[goals/personal-agent-ai-operated-company-proof]]
 - [[items/aire-health-specialist-coach]]
+- [[items/ops-graph-engineering-pilot]]
 - [[items/personal-agent-founder-dogfood-and-proof-loop]]
 - [[items/personal-agent-hermes-desktop-parity]]
 - [[items/personal-agent-unit-economics-and-onboarding]]

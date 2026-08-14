@@ -79,6 +79,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/model-pack]]
 - [[context/solo-founder-era]]
 - [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]]
+- [[items/ops-graph-engineering-pilot]]
 - [[items/personal-agent-founder-dogfood-and-proof-loop]]
 - [[people/sam-donworth]]
 - [[project_state/personal-agent]]

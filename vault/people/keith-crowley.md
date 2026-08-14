@@ -25,3 +25,12 @@ Valuable professional relationship who previously worked with Sam on DavidHoward
 - [[project_state/heres-health-app]] — active engagement state
 - [[briefs/2026-08-13-heres-health-digital-platform-phase-one]] — engagement brief
 - [[people/sam-donworth]] — existing relationship
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-13-heres-health-digital-platform-phase-one]]
+- [[companies/heres-health]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
+- [[people/conor-heres-health]]
+- [[project_state/heres-health-app]]
+
