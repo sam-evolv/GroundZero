@@ -3,7 +3,7 @@ id: cara
 company_id: cara
 headline: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
 valid: true
-updated_at: "2026-08-13T12:01:00+01:00"
+updated_at: "2026-08-15T16:07:00+01:00"
 role: project-state
 ---
 
@@ -17,9 +17,9 @@ Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea
 
 - Starter documentation remains the source product brief, but the working Hermes implementation now supersedes its missing-code archive.
 - Working repo: `/Users/samdonworth/GroundZero/repos/cara-hermes`, branch `hermes/founder-voice-alpha`.
-- Local commits include the Hermes-backed voice alpha and mobile hands-free browser loop; those four local Hermes commits (`f2bb0c6`, `28c78b3`, `60d4922`, `196cf3c`) are not on a remote branch. Separately, the live GitHub repository is not empty: `sam-evolv/Cara` has default branch `claude/cara-phase-0-work-oy7blp` at `f46d501`, pushed 12 July 2026, with a broader Phase 0 implementation and recorded 121-test review. The local Hermes branch and remote Phase 0 branch are divergent candidates and have not been reconciled.
-- Dedicated Hermes profile and API brain run locally, with caller-scoped continuity, streamed responses, SQLite transcripts/events, interruption/error capture, and structured post-call artefacts.
-- A temporary HTTPS mobile voice page is reachable from Sam's iPhone and successfully completes the public WebSocket → Hermes → streamed reply loop.
+- Parent working branch `hermes/founder-voice-alpha` remains at `196cf3c` with its four local Hermes commits not on any remote branch. Live Git worktree reconciliation on 15 August 2026 also found three clean, no-upstream local branches that the prior canonical summary omitted: `wt/cara-quality-lab` at `73de73a` (seven commits beyond `196cf3c`, 20 changed files), `wt/cara-telegram-founder-dogfood` at `464b1ef` (one commit, three changed files), and `wt/cara-native-ios-readiness` at `03b4d99` (one documentation commit). No remote branch contains any of those three heads. Their commits are dated 13–14 July, before Sam's 29 July reassessment, so this corrects the parked local source inventory; it is not evidence of reactivation, deployment, a live +353 call or user-visible acceptance. The live GitHub repository remains `sam-evolv/Cara` with default branch `claude/cara-phase-0-work-oy7blp` at `f46d501`, pushed 12 July 2026. The local source candidates and remote Phase 0 branch remain unreconciled.
+- The dedicated Hermes profile and API-brain implementation baseline exists with caller-scoped continuity, streamed responses, SQLite transcripts/events, interruption/error capture and structured post-call artefacts. **Live runtime check, 2026-08-15 16:07 IST:** no process was listening on the documented profile API address `127.0.0.1:8643`; direct probes of `/`, `/api/status` and `/health` all failed to connect. The Cara profile API is therefore offline in this check. Process availability is not product acceptance, and no service was started or mutated.
+- A temporary HTTPS mobile voice page previously completed the public WebSocket → Hermes → streamed reply loop from Sam's iPhone. No exact current public URL is recorded in the canonical notes, so its present reachability and phone-surface behaviour were not re-verified in this reconciliation.
 - **Current limiting layer:** browser speech recognition and browser speech synthesis are suitable only for first contact. They are not sufficient for robust car Bluetooth use, background noise, natural barge-in/talk-over, or controlled branded voice quality.
 - P0 has therefore tightened from "make one call" to **a repeatedly useful 20-60 minute hands-free car conversation with low latency, natural interruption, noise resilience, full two-sided capture, and daily quality iteration**.
 - Naming still likely moves from Cara to Orla; do not let naming block founder dogfooding.
@@ -35,7 +35,7 @@ Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea
 
 ## Hermes implementation baseline — 12 July 2026
 
-- Superseded historical observation: GitHub `sam-evolv/Cara` was empty at the initial 12 July inspection. **Live repository check, 2026-08-13 12:01 IST:** it now has default branch `claude/cara-phase-0-work-oy7blp` at `f46d501`; the local `hermes/founder-voice-alpha` commits are not contained by a remote branch.
+- Superseded historical observation: GitHub `sam-evolv/Cara` was empty at the initial 12 July inspection. **Live repository reconciliation, 2026-08-15 16:03 IST:** GitHub still has default branch `claude/cara-phase-0-work-oy7blp` at `f46d501`; the parent local `hermes/founder-voice-alpha` branch remains at `196cf3c`; and three additional clean local worktrees exist at `73de73a`, `464b1ef` and `03b4d99`. None has an upstream or remote containment. The additional commits are dated 13–14 July and do not supersede the 29 July founder reassessment or satisfy the real-call gate.
 - Local clone: `/Users/samdonworth/GroundZero/repos/cara-hermes`.
 - Separate local branch: `hermes/founder-voice-alpha` (not pushed).
 - Dedicated isolated Hermes profile: `~/.hermes/profiles/cara`, with messaging credentials removed and an authenticated API server on `127.0.0.1:8643`.

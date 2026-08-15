@@ -31,7 +31,7 @@ Cara is Sam's Irish SME phone-number-with-a-brain concept. Sam deprioritised it 
 
 If Sam explicitly reactivates Cara, Phase 0 remains: prove one excellent live +353 call before building app/dashboard/payment surfaces. No real-call acceptance is recorded.
 
-**Live repository check, 2026-08-13 12:01 IST:** GitHub `sam-evolv/Cara` has default branch `claude/cara-phase-0-work-oy7blp` at `f46d501`, while the local Hermes branch contains four separate unpushed commits through `196cf3c`. These are divergent implementation lines and have not been reconciled.
+**Live repository reconciliation, 2026-08-15 16:03 IST:** GitHub `sam-evolv/Cara` still has default branch `claude/cara-phase-0-work-oy7blp` at `f46d501`. The parent local `hermes/founder-voice-alpha` branch remains at `196cf3c`, and three additional clean, no-upstream local worktrees omitted from the prior inventory were verified: `wt/cara-quality-lab` at `73de73a` (seven commits beyond the parent branch), `wt/cara-telegram-founder-dogfood` at `464b1ef`, and `wt/cara-native-ios-readiness` at `03b4d99`. No remote branch contains those heads. Their commits are dated 13–14 July, before Sam's 29 July reassessment. They are parked historical source candidates, not proof of reactivation, deployment, a real +353 call or user-visible acceptance.
 
 1. M1 — One live call: Twilio + Deepgram + Cartesia + Claude + Supabase transcript.
 2. M2 — Ingestion: business name to structured business profile JSON.
