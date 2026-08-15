@@ -973,6 +973,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-11]]
 - [[briefs/wiki-refiner-2026-08-12]]
 - [[briefs/wiki-refiner-2026-08-13]]
+- [[briefs/wiki-refiner-2026-08-14]]
 - [[companies/openhouse-ai]]
 - [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]]

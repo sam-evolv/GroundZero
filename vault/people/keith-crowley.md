@@ -32,5 +32,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[companies/heres-health]]
 - [[items/heres-health-week-one-discovery-and-technical-proof]]
 - [[people/conor-heres-health]]
+- [[people/sam-donworth]]
 - [[project_state/heres-health-app]]
 

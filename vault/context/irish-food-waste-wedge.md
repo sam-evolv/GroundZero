@@ -70,6 +70,7 @@ Start with one narrow promise:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/10-non-common-ai-money-ideas]]
+- [[briefs/2026-08-14-heres-health-food-waste-margin-baseline]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[context/business-opportunities-moc]]
 - [[context/consulting-wedges]]

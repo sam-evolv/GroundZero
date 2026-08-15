@@ -101,8 +101,13 @@ For any network-led task:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+- [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]]
 - [[briefs/sam-linkedin-signal-engine-stanley-teardown-2026-07-31]]
+- [[briefs/wiki-refiner-2026-08-14]]
 - [[context/index]]
 - [[context/model-pack]]
+- [[context/openhouse-sales-routes]]
+- [[context/personal-context-data-contract]]
 - [[people/sam-donworth]]
 

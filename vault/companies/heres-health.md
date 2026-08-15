@@ -61,6 +61,7 @@ Established Cork family business with multiple health-food stores, cafés, an on
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-13-heres-health-digital-platform-phase-one]]
+- [[briefs/2026-08-14-heres-health-food-waste-margin-baseline]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]
 - [[context/model-pack]]
@@ -68,5 +69,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/heres-health-week-one-discovery-and-technical-proof]]
 - [[people/conor-heres-health]]
 - [[people/keith-crowley]]
+- [[people/sam-donworth]]
 - [[project_state/heres-health-app]]
 

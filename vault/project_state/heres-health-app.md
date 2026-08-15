@@ -84,7 +84,9 @@ Likely deferrable unless discovery proves low-risk:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-13-heres-health-digital-platform-phase-one]]
+- [[briefs/2026-08-14-heres-health-food-waste-margin-baseline]]
 - [[companies/heres-health]]
+- [[context/dashboard]]
 - [[context/index]]
 - [[context/model-pack]]
 - [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]

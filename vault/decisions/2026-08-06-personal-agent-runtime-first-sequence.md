@@ -65,6 +65,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[companies/personal-agent]]
 - [[context/index]]
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]]
+- [[items/ops-graph-engineering-pilot]]
 - [[items/personal-agent-founder-dogfood-and-proof-loop]]
 - [[items/personal-agent-hermes-desktop-parity]]
 - [[project_state/personal-agent]]

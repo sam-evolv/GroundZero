@@ -74,5 +74,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/index]]
 - [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]]
 - [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]]
+- [[items/ops-graph-engineering-pilot]]
 - [[project_state/personal-agent]]
 

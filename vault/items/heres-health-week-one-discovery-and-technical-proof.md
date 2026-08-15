@@ -88,11 +88,13 @@ The attractive whole-brand app thesis is materially larger than the original caf
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-13-heres-health-digital-platform-phase-one]]
+- [[briefs/2026-08-14-heres-health-food-waste-margin-baseline]]
 - [[companies/heres-health]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]
 - [[context/model-pack]]
 - [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]
 - [[people/conor-heres-health]]
+- [[people/keith-crowley]]
 - [[project_state/heres-health-app]]
 

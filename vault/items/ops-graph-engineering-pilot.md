@@ -170,5 +170,10 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/agentic-value-creation-mission]]
 - [[context/founder-execution-os]]
 - [[context/ops-automation-moc]]
+- [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]]
+- [[goals/personal-agent-ai-operated-company-proof]]
+- [[items/oh-live-portal-boundary-activation]]
+- [[items/ops-project-state-reconciler]]
 - [[project_state/oh]]
+- [[project_state/personal-agent]]
 

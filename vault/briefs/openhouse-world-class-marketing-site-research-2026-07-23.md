@@ -945,6 +945,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-11]]
 - [[briefs/wiki-refiner-2026-08-12]]
 - [[briefs/wiki-refiner-2026-08-13]]
+- [[briefs/wiki-refiner-2026-08-14]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-openbook-design-system]]
 - [[context/openhouse-product-map]]

@@ -116,3 +116,8 @@ Official and primary sources reviewed 14 August 2026:
 - [[items/heres-health-week-one-discovery-and-technical-proof]] — current P0, which this proposal must not delay
 - [[context/irish-food-waste-wedge]] — adjacent Irish food-waste opportunity and cross-domain bridge
 - [[items/_Index]] — active queue; this brief is deliberately not promoted to an item
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+
