@@ -123,6 +123,22 @@ def render_proposed_section() -> str:
     return "\n".join(lines)
 
 
+def monitoring_status(frontmatter: dict[str, str], headline: str) -> str:
+    """Return a signal from current state, never historical note prose."""
+    state = frontmatter.get("status", "").lower()
+    headline_lower = headline.lower()
+    red_states = {"blocked", "building", "discovery-pending", "failed"}
+    red_markers = ("blocked", "failure", "unavailable", "pending", "still need", "remains open")
+    green_states = {"ready", "healthy", "stable", "complete", "completed"}
+    green_markers = ("healthy", "ready", "stable", "complete")
+
+    if state in red_states or any(marker in headline_lower for marker in red_markers):
+        return "🔴"
+    if state in green_states or any(marker in headline_lower for marker in green_markers):
+        return "🟢"
+    return "🟡"
+
+
 def render_monitoring_section() -> str:
     """Read project_state notes for current operational signals."""
     lines = ["## 🟢 Monitoring\n"]
@@ -134,12 +150,7 @@ def render_monitoring_section() -> str:
         headline = fm.get("headline", "")
         rel = ps_file.relative_to(VAULT).with_suffix("").as_posix()
 
-        if "blocked" in text.lower() or "error" in text.lower():
-            status = "🔴"
-        elif "healthy" in text.lower() or "ready" in text.lower():
-            status = "🟢"
-        else:
-            status = "🟡"
+        status = monitoring_status(fm, headline)
 
         lines.append(f"- {status} [[{rel}|{company_id}]]: {headline}")
 

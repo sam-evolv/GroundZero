@@ -37,7 +37,7 @@ updated: "2026-08-15"
 - 🔴 [[project_state/heres-health-app|heres-health-app]]: Discovery pending for a proposed Here’s Health Digital Platform spanning Square café ordering and Shopify retail.
 - 🔴 [[project_state/ob|ob]]: Empire Gym's GymMaster membership integration is locally implemented on an unpublished branch; the live site still serves the July Stripe flow, and safe publication remains pending.
 - 🔴 [[project_state/oh|oh]]: Current live main advanced and deployed with an assistant-list formatting repair; merge enforcement remains absent and rendered acceptance remains open.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Aire source advanced to `36d769f` with durable work receipts, but `3556088` remains the last physically accepted iPhone candidate and the private tailnet route is currently unavailable.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Aire candidate `83e582c` is installed and startup-verified on Sam’s iPhone without the false whole-app connection warning; scoped Profile and Work services still need runtime repair.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -61,4 +61,4 @@ updated: "2026-08-15"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-08-15 02:31 IST
+- Dashboard: 2026-08-15 12:13 IST
