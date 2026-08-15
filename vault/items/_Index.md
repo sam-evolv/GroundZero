@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-08-13"
+updated_at: "2026-08-15"
 ---
 
 # Ideas Index
@@ -88,7 +88,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 | Item | Summary | Priority | Status |
 |---|---|---|---|
 | [[items/ops-daily-sync-digest]] | Daily ops anomaly check | P1 | proposed |
-| [[items/ops-project-state-reconciler]] | Reconcile project_state from live signals | P1 | proposed |
+| [[items/ops-project-state-reconciler]] | Reconcile project_state and unpublished local source custody from live signals | P1 | proposed |
 | [[items/ops-source-to-wiki-ingest]] | Auto-file imports into wiki | P1 | proposed |
 | [[items/ops-pr-issue-ageing-escalator]] | Stale PR/issue escalation | P1 | proposed |
 | [[items/ops-daily-report-pack]] | Daily reporting per company | P1 | proposed |

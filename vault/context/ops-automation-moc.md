@@ -23,7 +23,7 @@ These items automate that sweep so Sam's time goes into the right work, not the 
 ### Daily sync & digest
 - [[items/ops-daily-sync-digest]] — anomaly check + daily digest; the P1 core
 - [[items/ops-daily-report-pack]] — daily reporting packs per company
-- [[items/ops-project-state-reconciler]] — keep project_state/company memory aligned with live signals
+- [[items/ops-project-state-reconciler]] — keep project_state/company memory aligned with live signals; proposed first extension adds a read-only local branch/worktree custody manifest for unpublished heads
 - [[items/ops-index-maintenance-bot]] — auto-maintain items/_Index.md and daily log entries
 
 ### Graph orchestration
