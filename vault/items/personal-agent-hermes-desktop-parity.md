@@ -2,7 +2,7 @@
 title: IrelandGPT full Hermes Desktop parity
 status: building
 created: 2026-08-06
-updated: 2026-08-14
+updated: 2026-08-15
 priority: P0
 size: XL
 company: personal-agent
@@ -31,6 +31,12 @@ A capability counts as parity only when:
 The canonical `/Users/samdonworth/Projects/IrelandGPT` checkout remains on committed base `d533206b37e0aecb1d48c4a7cb8e972a0a284743`, but currently carries an uncommitted five-file tracked diff plus untracked visual artifacts and a Playwright test. Direct source inspection shows that this in-progress candidate removes the separate Doing, Done and You surfaces, automation and capability loading, and rewrites tests to require those outcomes to be absent. Inspected untracked browser captures show a single-conversation `IrelandGPT` shell with conversation history and no visible Work, Profile, Capabilities or Automations navigation.
 
 This does **not** satisfy or supersede the parity contract below. The dirty changes are not an immutable candidate, their screenshots are not commit-bound, their referenced port `8767` is not listening, and there is no build, full-suite, physical-device or accepted live-surface receipt. Preserve the checklist as the governing requirement. Before this root work can be accepted, reconcile it in an isolated worktree with [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] and the active Chat, Work and Profile decision, retain every useful Hermes outcome behind the calm consumer surface, and re-run the real-runtime plus rendered-surface gates. No deployment or source-of-truth promotion is authorised by the current artifacts.
+
+## Live reconciliation, 15 August 2026
+
+Separate clean local compatibility branches now exist at Aire `944a03e` and Hermes `1004f3e`. Their commit ranges add capability-contract negotiation and consumer-safe projections on the Aire side, and restore consumer sessions, retained runs, governed context, artifacts and execution-linked cron outcomes on the Hermes side. Neither head has an upstream or remote containment, and upstream Hermes `main` has already advanced beyond the `f0c222c` base used by this tranche.
+
+No parity checkbox changes from source presence alone. The observed BFF and Hermes processes predate the compatibility commits, so their listeners do not prove those bytes are loaded. No immutable independent review, post-commit full-suite receipt, canonical integration, physical installation or rendered Chat, Work and Profile acceptance was found. The physical source of truth remains `83e582c`, and the existing Profile, Work, receipt, fresh-request, icon and accessibility gaps remain open. Full provenance is in [[project_state/personal-agent]].
 
 ## Parity ledger
 
