@@ -12,7 +12,7 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-08-15T17:30:00+01:00"
+updated_at: "2026-08-16T18:02:00+01:00"
 ---
 
 ## What the automation does
@@ -95,6 +95,58 @@ It replaces ad hoc local-branch and worktree discovery during project-state audi
 ### Provenance
 
 Derived from the 15 August reconciliations in [[project_state/cara]], [[project_state/ob]] and [[project_state/personal-agent]], the live-source authority rule in [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]], and this reconciler's existing requirement to surface contradictions without false success.
+
+## Material proposal, 16 August 2026 — observation ledger and change-only project-state projection
+
+Extend this reconciler with an **append-only observation ledger plus a change-only canonical projection** rather than opening another automation item.
+
+### Bottleneck
+
+The live `Ground Zero — Canonical Project State Reconciler` runs every four hours. On 16 August it wrote five long entries into [[project_state/personal-agent]] at 00:02, 04:01, 08:07, 12:04 and 16:03 IST. Across those entries the accepted Aire candidate, both compatibility heads, unpublished-source boundary, observed BFF and Hermes processes, unauthenticated endpoint results and no-mutation boundary remained unchanged. Upstream Hermes did advance at every checkpoint and the affected subsystems were relevant, so the observations should not be discarded; however, repeating the full state reconstruction in the canonical project note makes the current decision boundary harder to read and spends an agent run on prose that is mostly unchanged. The existing reconciler contract already calls for minimal patches only when notes drift, while the adopted context pattern in [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]] separates append-only events from reproducible current views.
+
+### Value category
+
+- **Decision quality:** keeps [[project_state/personal-agent]] as a compact current projection while preserving every source observation and explicit unknown.
+- **Time and inference reclaimed:** reduces repeated four-hour summarisation and later re-reading of near-duplicate prose.
+- **Risk reduction:** makes a real transition—new accepted candidate, loaded runtime, route degradation, resolved blocker or approval-state change—more visible instead of burying it among routine checkpoints.
+- **Auditability:** retains timestamped raw receipts for the evidence-proven operating model required by [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]].
+
+### Smallest live test
+
+Use the five existing 16 August Aire reconciliation entries as a fixed, read-only fixture. Parse each run into a small observation receipt containing source timestamp, source identity, observed head or runtime identity, result, unavailable checks and evidence classification. Then generate one draft `current projection` outside the canonical note that:
+
+1. preserves the latest upstream head and cumulative divergence;
+2. preserves every active blocker and verification boundary;
+3. collapses unchanged local heads, listener state, authentication results and no-mutation statements;
+4. records all five receipt IDs in the audit trail; and
+5. emits a human-facing alert only if a decision-relevant classification changes.
+
+Replay the fixture a second time to prove idempotence, then add two synthetic events: one upstream-only advance and one newly loaded or accepted Aire candidate. The first should update the ledger and compact upstream checkpoint without duplicating the project-state narrative; the second must change the projection and produce an alert. Do not edit the live cron job or canonical notes during this test.
+
+### Evidence of success
+
+- One draft projection reproduces the authoritative 16:03 state, including upstream `7095e23e`, the unchanged local candidates, stale observed processes, host-side tailnet DNS gap and all open Profile, Work and rendered-device acceptance gaps.
+- All five runs remain recoverable as timestamped receipts with provenance; no blocker, contradiction or unavailable check disappears.
+- Replaying identical input produces a byte-identical projection and no alert.
+- An upstream-only advance updates its bounded checkpoint without repeating unchanged local/runtime prose.
+- A new candidate, loaded runtime, health degradation, resolved blocker or acceptance promotion changes the projection and creates one concise exception.
+- A manual comparison against [[project_state/personal-agent]] finds zero unsupported state changes and materially less text to review.
+
+### Downside and failure mode
+
+Over-aggressive compaction could hide a gradually widening integration risk or convert an unavailable check into apparent stability. Keep the raw receipts append-only, carry forward explicit `UNKNOWN` and blocked checks, show the latest upstream head plus cumulative divergence, and define material transitions conservatively. If the projector cannot prove equivalence with the source receipts, it must leave the canonical note unchanged and surface `UNKNOWN` rather than compacting.
+
+### Approval boundary
+
+Automation may read named live sources and canonical notes, write append-only observation receipts, compute a draft projection and suppress delivery when no decision-relevant classification changed. It may not delete or rewrite historical receipts, change the four-hour schedule, edit the live cron job, alter source authority, fetch from an unapproved remote, integrate code, restart a process, push, deploy, change a route, drive a device or promote acceptance without Sam's approval. Canonical project-state writes should remain reviewable and fail closed on contradiction.
+
+### What it replaces
+
+It replaces repeated long-form appendages and full prose reconstruction for materially unchanged reconciliation fields. It does **not** replace the four-hour evidence checks, the local source-custody manifest above, [[items/ops-daily-sync-digest]], release receipts, direct device verification or human judgement about whether upstream drift requires integration work.
+
+### Provenance
+
+Grounded in the five 16 August observations in [[project_state/personal-agent]], the live four-hour schedule and successful 16:06 run of `Ground Zero — Canonical Project State Reconciler`, this item's existing minimal-patch contract, the event/projection pattern in [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]], the canonical-authority boundary in [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]], and the auditable-workflow requirement in [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]].
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
