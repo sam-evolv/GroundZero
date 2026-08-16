@@ -106,7 +106,7 @@ This is the first note to load when a model needs cross-business context.
 - [[briefs/2026-08-05-yc-2026-rfs-opportunity-map]] — YC 2026 Requests for Startups map, source caveats and founder-fit interpretation
 - [[briefs/daily-agentic-value-radar-2026-07-21]] — current agentic capability and leverage review
 - [[briefs/daily-agentic-value-radar-2026-07-20]] — prior agentic capability and leverage review
-- [[briefs/wiki-refiner-2026-08-09]] — latest automated source-review and graph-health report
+- [[briefs/wiki-refiner-2026-08-16]] — latest automated source-review and graph-health report
 - [[briefs/wiki-refiner-2026-07-28]] — prior vault refinement and graph-health report
 - [[briefs/wiki-refiner-2026-07-26]] — prior vault refinement report
 - [[briefs/wiki-refiner-2026-07-19]] — prior vault refinement report
