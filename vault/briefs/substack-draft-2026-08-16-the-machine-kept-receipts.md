@@ -111,16 +111,16 @@ Review before any publication:
 
 ## Connected vault notes
 
-- [[briefs/substack-draft-2026-08-03-the-waiting-room]] — previous private founder-journal draft
-- [[people/sam-donworth]] — founder profile and operating reality
-- [[briefs/2026-08-03-bank-holiday-founder-reset]] — source for the reported stagnation and job tension
-- [[briefs/2026-08-04-tuesday-founder-regroup]] — physical and mental correction after the bank holiday
-- [[project_state/personal-agent]] — verified Aire implementation and physical-device boundary
-- [[project_state/oh]] — current OpenHouse delivery and commercial state
-- [[items/oh-rls-audit]] — open database-authority and tenant-isolation gate
-- [[project_state/heres-health-app]] — discovery-pending engagement state
-- [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]] — proposed product boundary
-- [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]] — physical world intelligence thesis
-- [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]] — bounded OpenHouse opportunity
-- [[briefs/2026-08-11-aire-health-specialist-coach]] — parked specialist concept
-- [[context/linkedin-network]] — current relationship graph
+- [[briefs/substack-draft-2026-08-03-the-waiting-room]], previous private founder-journal draft
+- [[people/sam-donworth]], founder profile and operating reality
+- [[briefs/2026-08-03-bank-holiday-founder-reset]], source for the reported stagnation and job tension
+- [[briefs/2026-08-04-tuesday-founder-regroup]], physical and mental correction after the bank holiday
+- [[project_state/personal-agent]], verified Aire implementation and physical-device boundary
+- [[project_state/oh]], current OpenHouse delivery and commercial state
+- [[items/oh-rls-audit]], open database-authority and tenant-isolation gate
+- [[project_state/heres-health-app]], discovery-pending engagement state
+- [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]], proposed product boundary
+- [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]], physical world intelligence thesis
+- [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]], bounded OpenHouse opportunity
+- [[briefs/2026-08-11-aire-health-specialist-coach]], parked specialist concept
+- [[context/linkedin-network]], current relationship graph
