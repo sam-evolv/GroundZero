@@ -155,6 +155,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-12]]
 - [[briefs/wiki-refiner-2026-08-13]]
 - [[briefs/wiki-refiner-2026-08-14]]
+- [[briefs/wiki-refiner-2026-08-15]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
 - [[context/index]]

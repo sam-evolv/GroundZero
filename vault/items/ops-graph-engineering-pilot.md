@@ -170,10 +170,13 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/agentic-value-creation-mission]]
 - [[context/founder-execution-os]]
 - [[context/ops-automation-moc]]
+- [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
 - [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]]
+- [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]
 - [[goals/personal-agent-ai-operated-company-proof]]
 - [[items/oh-live-portal-boundary-activation]]
 - [[items/ops-project-state-reconciler]]
+- [[items/personal-agent-hermes-desktop-parity]]
 - [[project_state/oh]]
 - [[project_state/personal-agent]]
 

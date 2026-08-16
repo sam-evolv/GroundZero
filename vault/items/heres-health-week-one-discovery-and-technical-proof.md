@@ -89,6 +89,7 @@ The attractive whole-brand app thesis is materially larger than the original caf
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-13-heres-health-digital-platform-phase-one]]
 - [[briefs/2026-08-14-heres-health-food-waste-margin-baseline]]
+- [[briefs/2026-08-15-heres-health-menu-allergen-evidence-workflow]]
 - [[companies/heres-health]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]

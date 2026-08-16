@@ -94,6 +94,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-12]]
 - [[briefs/wiki-refiner-2026-08-13]]
 - [[briefs/wiki-refiner-2026-08-14]]
+- [[briefs/wiki-refiner-2026-08-15]]
 - [[companies/openhouse-ai]]
 - [[context/automation-ideas]]
 - [[context/autonomous-business-launch-loop]]

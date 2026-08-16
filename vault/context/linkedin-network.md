@@ -105,6 +105,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-openhouse-irish-named-decision-maker-queue]]
 - [[briefs/sam-linkedin-signal-engine-stanley-teardown-2026-07-31]]
 - [[briefs/wiki-refiner-2026-08-14]]
+- [[briefs/wiki-refiner-2026-08-15]]
 - [[context/index]]
 - [[context/model-pack]]
 - [[context/openhouse-sales-routes]]

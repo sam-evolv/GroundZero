@@ -107,3 +107,8 @@ Sources inspected on 15 August 2026. The live menu observation is limited to the
     > "Allergen information must be available before the purchase is concluded which could include supporting material that enables consumers to order a product."
 [3] https://menucal.fsai.ie — FSAI MenuCal
     > "MenuCal, the menu calculator, has been developed to assist Ireland's food service businesses identify and manage allergen information for their menus."
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+

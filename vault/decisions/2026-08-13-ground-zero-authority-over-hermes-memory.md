@@ -55,5 +55,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/personal-context-data-contract]]
 - [[context/review-workflow]]
 - [[decisions/ground-zero-canonical]]
+- [[items/ops-project-state-reconciler]]
 - [[project_state/personal-agent]]
 

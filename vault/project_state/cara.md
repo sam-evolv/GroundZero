@@ -126,6 +126,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-12]]
 - [[briefs/wiki-refiner-2026-08-13]]
 - [[briefs/wiki-refiner-2026-08-14]]
+- [[briefs/wiki-refiner-2026-08-15]]
 - [[companies/cara]]
 - [[context/dashboard]]
 - [[context/index]]
@@ -136,4 +137,5 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/cara-telegram-founder-control-plane-2026-07-14]]
 - [[items/cara-founder-voice-dogfood]]
 - [[items/cara-phase0-m1-live-call]]
+- [[items/ops-project-state-reconciler]]
 

@@ -62,6 +62,7 @@ Established Cork family business with multiple health-food stores, cafés, an on
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-13-heres-health-digital-platform-phase-one]]
 - [[briefs/2026-08-14-heres-health-food-waste-margin-baseline]]
+- [[briefs/2026-08-15-heres-health-menu-allergen-evidence-workflow]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]
 - [[context/model-pack]]
