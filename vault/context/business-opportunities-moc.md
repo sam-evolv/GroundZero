@@ -24,6 +24,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[briefs/2026-08-14-heres-health-food-waste-margin-baseline]] — optional post-launch EPA-aligned café waste and margin baseline; measure first, no forecast or AI build without paid signal
 - [[briefs/2026-08-15-heres-health-menu-allergen-evidence-workflow]] — no-build menu/allergen source-of-truth check before app ordering; only consider recurring assurance if drift and paid value are proven
 - [[briefs/2026-08-16-heres-health-commerce-integrity-support-wedge]] — Week 1 order-state integrity drill; only package managed monitoring and recovery if the operating burden and paid value are proven
+- [[briefs/2026-08-17-heres-health-customer-identity-linking-gate]] — no-production Square/Shopify account-linking and duplicate-control proof; keep rewards and broad customer-data scope off the launch path
 
 ### PropTech & Aftercare
 - [[companies/openhouse-ai]] — OpenHouse: one living Home Record reached through developer handover or direct consumer onboarding
