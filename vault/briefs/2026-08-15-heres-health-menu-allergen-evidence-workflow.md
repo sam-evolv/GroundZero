@@ -110,5 +110,12 @@ Sources inspected on 15 August 2026. The live menu observation is limited to the
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-13-heres-health-digital-platform-phase-one]]
+- [[briefs/2026-08-14-heres-health-food-waste-margin-baseline]]
+- [[briefs/2026-08-16-heres-health-commerce-integrity-support-wedge]]
+- [[companies/heres-health]]
 - [[context/business-opportunities-moc]]
+- [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
+- [[project_state/heres-health-app]]
 

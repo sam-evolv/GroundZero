@@ -75,6 +75,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/sam-90-day-cash-authority-plan-2026-07-13]]
 - [[briefs/solar-installer-workflow-analysis]]
 - [[briefs/substack-draft-2026-08-03-the-waiting-room]]
+- [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
 - [[companies/cara]]
 - [[companies/evolv-renewables]]
 - [[companies/heres-health]]

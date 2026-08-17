@@ -53,6 +53,7 @@ Do not publish without Sam's explicit approval. Before publication, decide wheth
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-03-bank-holiday-founder-reset]]
 - [[briefs/2026-08-03-openhouse-accelerator-waiting-period-plan]]
+- [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
 - [[people/sam-donworth]]
 - [[project_state/oh]]
 

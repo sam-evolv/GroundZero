@@ -129,3 +129,8 @@ Official platform documentation inspected 16 August 2026. No Here’s Health acc
 - [[briefs/2026-08-15-heres-health-menu-allergen-evidence-workflow]] — separate launch-evidence control
 - [[briefs/2026-08-14-heres-health-food-waste-margin-baseline]] — separate post-launch operations wedge
 - [[items/_Index]] — active queue; this proposal is deliberately not promoted to a new item
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+

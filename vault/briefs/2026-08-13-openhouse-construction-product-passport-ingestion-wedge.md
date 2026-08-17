@@ -115,6 +115,7 @@ Primary and official sources reviewed 13 August 2026:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-a-rated-homeowner-primary-integration-2026-07-28]]
+- [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]]

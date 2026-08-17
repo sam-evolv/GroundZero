@@ -101,6 +101,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-tuesday-founder-regroup]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
 - [[briefs/substack-draft-2026-08-03-the-waiting-room]]
+- [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
 - [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]
 - [[items/agentic-income-evidence-sprint]]
 - [[items/oh-bridgewater-warm-introduction]]

@@ -95,6 +95,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-renewable-operations-business-proposition]]
 - [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
 - [[briefs/planet-satellite-opportunity]]
+- [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
 - [[companies/openhouse-ai]]
 - [[companies/personal-agent]]
 - [[context/business-opportunities-moc]]

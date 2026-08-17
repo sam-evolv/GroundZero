@@ -105,6 +105,7 @@ Stabilise the current native iPhone founder-dogfood candidate as the trustworthy
 - [[briefs/2026-08-07-vibiz-connector-source-audit-and-aire-lessons]] — source-audited vertical operator pattern and immediate product implications
 - [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]] — superseded conversation-only interpretation
 
+- [[imports/cara-conversation-summary-2026-07-12]] — shared signals: conversation, summary, 2026
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
@@ -125,7 +126,9 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-12-irish-decision-simulation-opportunity]]
 - [[briefs/2026-08-12-synthetic-ireland-full-concept]]
 - [[briefs/hark-handoff-source-ledger]]
+- [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
 - [[briefs/wiki-refiner-2026-08-15]]
+- [[briefs/wiki-refiner-2026-08-16]]
 - [[companies/personal-agent]]
 - [[context/dashboard]]
 - [[context/index]]

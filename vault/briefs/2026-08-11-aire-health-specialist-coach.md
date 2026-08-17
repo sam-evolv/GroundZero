@@ -59,6 +59,7 @@ Most fitness products fragment training, food, recovery, reminders and tracking.
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]]
+- [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
 - [[companies/personal-agent]]
 - [[context/business-opportunities-moc]]
 - [[context/personal-context-data-contract]]

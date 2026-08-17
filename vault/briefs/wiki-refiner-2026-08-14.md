@@ -116,12 +116,14 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-11]]
 - [[briefs/wiki-refiner-2026-08-13]]
 - [[briefs/wiki-refiner-2026-08-15]]
+- [[briefs/wiki-refiner-2026-08-16]]
 - [[companies/cara]]
 - [[companies/openhouse-ai]]
 - [[context/linkedin-network]]
 - [[context/openhouse-openbook-design-system]]
 - [[project_state/cara]]
 - [[project_state/oh]]
+
 
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.

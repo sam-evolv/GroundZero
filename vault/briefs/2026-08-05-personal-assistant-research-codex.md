@@ -224,6 +224,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-13]]
 - [[briefs/wiki-refiner-2026-08-14]]
 - [[briefs/wiki-refiner-2026-08-15]]
+- [[briefs/wiki-refiner-2026-08-16]]
 - [[companies/cara]]
 - [[project_state/cara]]
 

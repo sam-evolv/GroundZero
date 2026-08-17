@@ -104,6 +104,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-openhouse-founder-morning-action-brief]]
 - [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]]
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
+- [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
 - [[companies/openhouse-ai]]
 - [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]
 - [[items/oh-bridgewater-warm-introduction]]

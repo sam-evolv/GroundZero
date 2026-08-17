@@ -153,13 +153,16 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/hermes-community-use-cases-2026-07-28]]
 - [[context/ops-automation-moc]]
 - [[context/review-workflow]]
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
 - [[decisions/ground-zero-canonical]]
 - [[items/ops-daily-report-pack]]
 - [[items/ops-daily-sync-digest]]
 - [[items/ops-graph-engineering-pilot]]
 - [[items/ops-weekly-status-pack]]
+- [[project_state/cara]]
 - [[project_state/ob]]
 - [[project_state/oh]]
+- [[project_state/personal-agent]]
 - [[project_state/renew]]
 
 
