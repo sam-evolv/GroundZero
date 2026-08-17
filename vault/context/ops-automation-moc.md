@@ -31,6 +31,7 @@ These items automate that sweep so Sam's time goes into the right work, not the 
 
 ### Triage & escalation
 - [[items/ops-pr-issue-ageing-escalator]] — stale PR/issue escalation, P1
+- [[items/ops-aire-hermes-upstream-impact-triage]] — convert pinned upstream Hermes ranges into a deduplicated Aire compatibility-impact queue without integrating code
 - [[items/oh-warranty-triage-router]] — OH-specific issue triage (AI classification + draft reply)
 
 ### Reporting & hygiene
@@ -43,10 +44,14 @@ These items automate that sweep so Sam's time goes into the right work, not the 
 
 ## Cross-cutting reads/writes
 
-Every ops item reads from:
+Portfolio-wide ops items commonly read from:
 - [[project_state/oh]], [[project_state/ob]], [[project_state/renew]]
 - [[companies/openhouse-ai]], [[companies/openbook]], [[companies/evolv-renewables]]
 - [[imports/claude/openhouse-company-memory]]
+
+The Aire upstream-impact triage additionally reads:
+- [[project_state/personal-agent]], [[companies/personal-agent]]
+- [[items/personal-agent-hermes-desktop-parity]] and its governing decisions
 
 Every ops item writes back to:
 - [[items/_Index|items/_Index.md]]

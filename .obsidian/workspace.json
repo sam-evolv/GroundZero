@@ -185,6 +185,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/items/ops-aire-hermes-upstream-impact-triage.md",
     "vault/briefs/2026-08-17-heres-health-customer-identity-linking-gate.md",
     "vault/briefs/wiki-refiner-2026-08-17.md",
     "vault/briefs/substack-draft-2026-08-16-the-machine-kept-receipts.md",
@@ -220,7 +221,6 @@
     "worktrees/empire-gymmaster-20260814/node_modules/eslint-plugin-jsx-a11y/docs/rules/prefer-tag-over-role.md",
     "worktrees/empire-gymmaster-20260814/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-static-element-interactions.md",
     "worktrees/empire-gymmaster-20260814/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-redundant-roles.md",
-    "worktrees/empire-gymmaster-20260814/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-onchange.md",
     "worktrees/empire-gymmaster-20260814/node_modules/@supabase/phoenix/priv/static/phoenix.png",
     "worktrees/empire-gymmaster-20260814/node_modules/@supabase/phoenix/priv/static/phoenix-orange.png",
     "worktrees/empire-gymmaster-20260814/reference/v9-extracted/gallery-2.jpg",

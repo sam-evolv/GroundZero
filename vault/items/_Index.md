@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-08-15"
+updated_at: "2026-08-17"
 ---
 
 # Ideas Index
@@ -89,6 +89,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 |---|---|---|---|
 | [[items/ops-daily-sync-digest]] | Daily ops anomaly check | P1 | proposed |
 | [[items/ops-project-state-reconciler]] | Reconcile project_state and unpublished local source custody from live signals | P1 | proposed |
+| [[items/ops-aire-hermes-upstream-impact-triage]] | Triage pinned upstream Hermes ranges into an Aire compatibility-impact queue | P1 | proposed |
 | [[items/ops-source-to-wiki-ingest]] | Auto-file imports into wiki | P1 | proposed |
 | [[items/ops-pr-issue-ageing-escalator]] | Stale PR/issue escalation | P1 | proposed |
 | [[items/ops-daily-report-pack]] | Daily reporting per company | P1 | proposed |
