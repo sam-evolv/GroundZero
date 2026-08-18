@@ -82,3 +82,8 @@ Grounded in the 16–17 August live reconciliations in [[project_state/personal-
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]] — integration sequence
 - [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]] — accepted product contract
 - [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]] — authority boundary
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/ops-automation-moc]]
+

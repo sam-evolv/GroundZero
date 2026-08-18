@@ -125,3 +125,8 @@ Official platform documentation inspected 17 August 2026. No Here’s Health Sho
 - [[briefs/2026-08-16-heres-health-commerce-integrity-support-wedge]] — adjacent launch-integrity control
 - [[briefs/2026-08-15-heres-health-menu-allergen-evidence-workflow]] — adjacent source-of-truth control
 - [[items/_Index]] — active queue; this proposal is deliberately not promoted to a new item
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+

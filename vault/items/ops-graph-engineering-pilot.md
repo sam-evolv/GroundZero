@@ -175,6 +175,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]
 - [[goals/personal-agent-ai-operated-company-proof]]
 - [[items/oh-live-portal-boundary-activation]]
+- [[items/ops-aire-hermes-upstream-impact-triage]]
 - [[items/ops-project-state-reconciler]]
 - [[items/personal-agent-hermes-desktop-parity]]
 - [[project_state/oh]]

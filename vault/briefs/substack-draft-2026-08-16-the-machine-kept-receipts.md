@@ -124,3 +124,20 @@ Review before any publication:
 - [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]], bounded OpenHouse opportunity
 - [[briefs/2026-08-11-aire-health-specialist-coach]], parked specialist concept
 - [[context/linkedin-network]], current relationship graph
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]]
+- [[briefs/2026-08-11-aire-health-specialist-coach]]
+- [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]]
+- [[briefs/substack-draft-2026-08-03-the-waiting-room]]
+- [[context/linkedin-network]]
+- [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]
+- [[items/oh-rls-audit]]
+- [[people/sam-donworth]]
+- [[project_state/heres-health-app]]
+- [[project_state/oh]]
+- [[project_state/personal-agent]]
+

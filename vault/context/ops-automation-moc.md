@@ -91,6 +91,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/llm-wiki-pattern]]
 - [[context/review-workflow]]
 - [[items/oh-warranty-triage-router]]
+- [[items/ops-aire-hermes-upstream-impact-triage]]
 - [[items/ops-capture-inbox-refinery]]
 - [[items/ops-daily-report-pack]]
 - [[items/ops-daily-sync-digest]]

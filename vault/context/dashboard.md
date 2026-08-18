@@ -27,9 +27,9 @@ updated: "2026-08-15"
 | [[items/ops-daily-sync-digest|Daily ops sync digest and anomaly check]] | 92 | M | 🔥 |
 | [[items/ob-no-show-deposit-proof-sprint|Validate OpenBook no-show deposits with five venues]] | 91 | S | 🔥 |
 | [[items/ops-pr-issue-ageing-escalator|Auto-escalate stale PRs and issues]] | 90 | S | 🔥 |
+| [[items/ops-aire-hermes-upstream-impact-triage|Triage upstream Hermes changes into an Aire compatibility queue]] | 89 | S | 🔥 |
 | [[items/ob-no-show-deposit-workflow|Automate OpenBook deposits and no-show prevention]] | 88 | M | 🔥 |
 | [[items/ob-no-show-deposits|Add refundable deposits to kill no-shows]] | 88 | L | 🔥 |
-| [[items/ops-daily-report-pack|Assemble daily reporting packs for each company]] | 88 | M | 🔥 |
 
 ## 🟢 Monitoring
 
@@ -61,4 +61,4 @@ updated: "2026-08-15"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-08-17 02:15 IST
+- Dashboard: 2026-08-18 02:15 IST
