@@ -13,10 +13,16 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-08-18T16:02:00+01:00"
+updated_at: "2026-08-18T20:05:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 18 August 2026 20:05 IST
+
+Direct GitHub inspection places NousResearch Hermes `main` at `57f1219d`, 17 commits beyond the 16:02 `8911e2e0` checkpoint and 758 commits beyond compatibility base `f0c222c`. Exact changed paths and commits materially isolate relay client-timeout payloads (`aa09c8fe`), normalise sparse OpenAI response objects through the streaming path (`9664e386`), configure the Desktop Capabilities view against the selected profile's own gateway (`d8e23869`), add editable Bot Mode group identity (`4349cbbb`), and extend delegated-CLI refusal coverage (`9c0fcceb`, `57f1219d`). These are material review inputs for Aire's request reliability, Profile-scoped capability authority, Desktop parity and orchestration evidence; they do not establish Aire integration or progress.
+
+The accepted and compatibility heads remain `83e582c`, `944a03e` and `1004f3e`, and the observed long-running processes still predate the compatibility branches. The first live test now uses immutable range `f0c222c..57f1219d`; no queue, integration, reload or acceptance occurred, and all existing Profile, Work, receipt, streaming, icon and accessibility gaps remain open.
 
 ## Reconciliation checkpoint, 18 August 2026 16:02 IST
 
@@ -59,7 +65,7 @@ This is distinct from [[items/ops-project-state-reconciler]]: its observation-le
 
 ### Smallest live test
 
-Run one read-only analysis over the immutable GitHub comparison range `f0c222c..8911e2e0`, using only commit metadata, changed paths and diffs plus these named Ground Zero authorities:
+Run one read-only analysis over the immutable GitHub comparison range `f0c222c..57f1219d`, using only commit metadata, changed paths and diffs plus these named Ground Zero authorities:
 
 - [[project_state/personal-agent]]
 - [[items/personal-agent-hermes-desktop-parity]]
@@ -71,7 +77,7 @@ Group commits by consumer-facing contract rather than chronology, deduplicate me
 
 ### Evidence of success
 
-- The receipt pins base `f0c222c`, head `8911e2e0` and the canonical 741-commit divergence without interpreting the count itself as urgency.
+- The receipt pins base `f0c222c`, head `57f1219d` and the canonical 758-commit divergence without interpreting the count itself as urgency.
 - Every `REQUIRED NOW` or `REVIEW BEFORE INTEGRATION` row binds to at least one immutable upstream commit and changed path, one current Aire blocker or accepted requirement, and one explicit verification gate.
 - The queue preserves `83e582c` as the physically startup-verified source of truth and keeps `944a03e` and `1004f3e` classified as unintegrated and unaccepted.
 - Profile `404`, Work `502`, Work Receipt, fresh streaming, icon and accessibility gaps remain open unless direct evidence closes them.
