@@ -3,7 +3,7 @@ id: cara
 company_id: cara
 headline: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
 valid: true
-updated_at: "2026-08-15T16:07:00+01:00"
+updated_at: "2026-08-18T08:02:00+01:00"
 role: project-state
 ---
 
@@ -14,6 +14,8 @@ role: project-state
 Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea he has started building**, not just a speculative brief.
 
 ## Current state
+
+- **Source-custody correction, 2026-08-18 08:02 IST:** GitHub and all recorded commit heads are unchanged: remote default branch `f46d501`, parent local branch `196cf3c`, and child worktrees `73de73a`, `464b1ef` and `03b4d99`; every child worktree remains clean, has no upstream and has no remote containment. The parent checkout itself is not clean: Git reports the nested `.worktrees/` directory and a zero-byte file named `now` as untracked. This corrects the earlier blanket clean-worktree description without creating product progress, reactivation, deployment or real-call acceptance. Port `8643` remains absent, so the parked profile API is still offline. No file was removed or mutated during reconciliation.
 
 - Starter documentation remains the source product brief, but the working Hermes implementation now supersedes its missing-code archive.
 - Working repo: `/Users/samdonworth/GroundZero/repos/cara-hermes`, branch `hermes/founder-voice-alpha`.
