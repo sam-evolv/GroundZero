@@ -3,9 +3,11 @@ id: oh
 company_id: openhouse-ai
 headline: Current live main advanced and deployed with an assistant-list formatting repair; merge enforcement remains absent and rendered acceptance remains open.
 valid: true
-updated_at: "2026-08-14T04:04:00+01:00"
+updated_at: "2026-08-19T16:02:00+01:00"
 role: project-state
 ---
+
+**Live source-custody reconciliation, 2026-08-19 16:02 IST:** No verified remote delivery movement: GitHub `main` remains `b1629c34`, with twelve open pull requests, six non-PR issues, no repository rulesets and no `main` branch protection; `https://portal.openhouseai.ie` returned HTTP 200, which proves availability only. The local V2 checkout remains at unpushed `ffb00731`, two commits ahead of the current remote-tracking branch `25c09c9c`. A separate, previously unrecorded SE Systems demo worktree at `/Users/samdonworth/GroundZero/worktrees/se-systems-care-video-20260814` is on branch `demo/se-systems-care-video-20260814` at the same `ffb00731` head, has no upstream, and is dirty with seven modified and two untracked paths. This is source-custody drift only: the reconciliation established no immutable commit, review, test/build receipt, deployment, rendered-surface acceptance or production-data change for that worktree. No repository or production mutation was made.
 
 **Live check, 2026-08-14 04:04 IST:** No verified delivery movement since the 13 August check. GitHub `main` remains at `b1629c34`; the queue remains twelve open PRs and six non-PR issues; PR #205 remains OPEN, MERGEABLE and CLEAN at exact head `5d56e3bb` with its five recorded checks successful; no pull request is associated with the current `main` commit. Repository rulesets remain empty and `main` remains unprotected. Vercel production deployment `property-assistant-mi8xczgvc` remains Ready and owns the `portal.openhouseai.ie` alias; the portal returned HTTP 200. The local V2 checkout remains at unpushed `ffb00731`, two commits ahead of its remote tracking branch, and the current `main` tree still contains none of the three probed My Home component/API paths. No Supabase data, migration or RLS probe was run: `SUPABASE_ACCESS_TOKEN` is unset, and although the Docker daemon is now available, `supabase status` fails because the local `supabase_db_property-assistant` container/stack does not exist. The database-authority blocker therefore remains, but its exact local cause is an absent project stack rather than an unavailable Docker daemon. No production mutation or rendered homeowner acceptance was attempted.
 
