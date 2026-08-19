@@ -144,3 +144,8 @@ Official Square documentation inspected 18 August 2026. No Here’s Health Squar
 - [[briefs/2026-08-16-heres-health-commerce-integrity-support-wedge]] — adjacent order-event recovery control, not duplicated here
 - [[briefs/2026-08-17-heres-health-customer-identity-linking-gate]] — adjacent account-linking control
 - [[items/_Index]] — active queue; this proposal is deliberately not promoted to a new item
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+

@@ -83,6 +83,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
+- [[companies/personal-agent]]
 - [[context/automation-ideas]]
 - [[context/capture-workflow]]
 - [[context/dashboard]]
@@ -102,8 +103,10 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-project-state-reconciler]]
 - [[items/ops-source-to-wiki-ingest]]
 - [[items/ops-weekly-status-pack]]
+- [[items/personal-agent-hermes-desktop-parity]]
 - [[project_state/ob]]
 - [[project_state/oh]]
+- [[project_state/personal-agent]]
 - [[project_state/renew]]
 
 
