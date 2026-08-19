@@ -13,10 +13,16 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-08-19T00:03:00+01:00"
+updated_at: "2026-08-19T04:01:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 19 August 2026 04:01 IST
+
+Direct GitHub inspection places NousResearch Hermes `main` at `5dd15872`, 41 commits beyond the 00:03 `a77ee88c` checkpoint and 882 commits beyond compatibility base `f0c222c`. Exact changed paths and commits materially add gateway goal database warming and resume recovery (`246477a8`, `46d8cf0b`, `0cc26777`, `c69b6471`, `51013e9a`, `bdd0a79c`), batch clarification across the tool core, gateway, Desktop, TUI and CLI (`bd8b658a` through `d9f98fe0`), agent-applied Desktop layout presets and non-closable navigation chrome (`34d1aed3`, `4ac938dd`, `74f99af4`), Anthropic structured-output translation and fallback (`f709bd84`, `8f2d61e3`, `3c675019`), Bot Mode file attachments (`97b41f8c`), and MCP CIMD authentication with pinned callback-socket retention (`0b588cb3`, `5dd15872`). These are material review inputs for Aire's durable Work continuity, clarification experience, contextual live-work surface, provider reliability, group artifacts and connector authentication; they do not establish Aire integration or progress.
+
+The accepted and compatibility heads remain `83e582c`, `944a03e` and `1004f3e`; direct GitHub object checks found none of those unpublished heads in their recorded remotes, and the observed long-running processes still predate the compatibility branches. The first live test now uses immutable range `f0c222c..5dd15872`; no queue, integration, reload or acceptance occurred, and all existing Profile, Work, receipt, streaming, icon and accessibility gaps remain open.
 
 ## Reconciliation checkpoint, 19 August 2026 00:03 IST
 
@@ -71,7 +77,7 @@ This is distinct from [[items/ops-project-state-reconciler]]: its observation-le
 
 ### Smallest live test
 
-Run one read-only analysis over the immutable GitHub comparison range `f0c222c..a77ee88c`, using only commit metadata, changed paths and diffs plus these named Ground Zero authorities:
+Run one read-only analysis over the immutable GitHub comparison range `f0c222c..5dd15872`, using only commit metadata, changed paths and diffs plus these named Ground Zero authorities:
 
 - [[project_state/personal-agent]]
 - [[items/personal-agent-hermes-desktop-parity]]
@@ -83,7 +89,7 @@ Group commits by consumer-facing contract rather than chronology, deduplicate me
 
 ### Evidence of success
 
-- The receipt pins base `f0c222c`, head `a77ee88c` and the canonical 841-commit divergence without interpreting the count itself as urgency.
+- The receipt pins base `f0c222c`, head `5dd15872` and the canonical 882-commit divergence without interpreting the count itself as urgency.
 - Every `REQUIRED NOW` or `REVIEW BEFORE INTEGRATION` row binds to at least one immutable upstream commit and changed path, one current Aire blocker or accepted requirement, and one explicit verification gate.
 - The queue preserves `83e582c` as the physically startup-verified source of truth and keeps `944a03e` and `1004f3e` classified as unintegrated and unaccepted.
 - Profile `404`, Work `502`, Work Receipt, fresh streaming, icon and accessibility gaps remain open unless direct evidence closes them.
