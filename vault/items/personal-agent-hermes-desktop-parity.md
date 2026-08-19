@@ -2,7 +2,7 @@
 title: IrelandGPT full Hermes Desktop parity
 status: building
 created: 2026-08-06
-updated: 2026-08-15
+updated: 2026-08-20
 priority: P0
 size: XL
 company: personal-agent
@@ -25,6 +25,12 @@ A capability counts as parity only when:
 5. Exact method and route contracts are enforced across client, BFF, relay and public proxy.
 6. No raw prompts, commands, filesystem paths, credentials, provider metadata or unrestricted host controls cross into the consumer browser.
 7. The exact immutable candidate is independently reviewed before deployment.
+
+## Live reconciliation, 20 August 2026
+
+The accepted Aire candidate and local compatibility heads remain `83e582c`, `944a03e` and `1004f3e`, all unpublished. The installed Hermes checkout has materially advanced to clean upstream commit `fdf6f1d4`, and the supervised gateway process started after that commit at 20:42 IST on 19 August. This corrects the earlier process-age observation below, but it does not load or accept local compatibility branch `1004f3e`: the running installation is a separate upstream checkout and is 17 commits behind current GitHub `main` at `7b25941b`. The new upstream range adds relevant approval, preview-close, gateway-restart, Codex wire-compatibility and multi-connection Bot Mode repairs, but no parity checkbox changes from source or process movement alone.
+
+The Aire BFF still runs from the physical source-of-truth worktree and predates both compatibility branches. Loopback health and unauthenticated boundary probes return the expected `200` and `401` statuses, but no authenticated owner request, immutable integration review, post-change suite, physical installation or rendered Chat, Work and Profile acceptance was captured. The last authenticated Profile `404` and Work `502` evidence therefore remains an open acceptance gap rather than a proven current response or a closed defect.
 
 ## Live reconciliation, 14 August 2026
 
