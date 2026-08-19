@@ -2,7 +2,7 @@
 title: Wiki Refiner 2026-08-19
 kind: wiki_refiner_brief
 date: "2026-08-19"
-ran_at: "2026-08-19T02:15:31+01:00"
+ran_at: "2026-08-19T08:08:41+01:00"
 ---
 
 # Wiki Refiner 2026-08-19
@@ -92,3 +92,8 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - Do not file temporary scraps directly into durable notes without review.
 - Do not delete source material after filing it.
 - Do not let the brief become the only place a fact lives.
+
+## Stale notes (14+ days, <2 inbound links)
+_Consider: link them from a related note, archive them, or update them._
+
+- `briefs/2026-08-04-renewables-operations-intelligence-business.md` — modified 2026-08-05, 1 inbound links

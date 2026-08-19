@@ -147,5 +147,13 @@ Official Square documentation inspected 18 August 2026. No Here’s Health Squar
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-13-heres-health-digital-platform-phase-one]]
+- [[briefs/2026-08-15-heres-health-menu-allergen-evidence-workflow]]
+- [[briefs/2026-08-16-heres-health-commerce-integrity-support-wedge]]
+- [[briefs/2026-08-17-heres-health-customer-identity-linking-gate]]
+- [[companies/heres-health]]
 - [[context/business-opportunities-moc]]
+- [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
+- [[project_state/heres-health-app]]
 
