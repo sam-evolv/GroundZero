@@ -13,10 +13,16 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-08-20T12:07:00+01:00"
+updated_at: "2026-08-20T16:04:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 20 August 2026 16:04 IST
+
+Direct GitHub inspection places NousResearch Hermes `main` at `f43eabee`, 42 commits beyond the 12:07 `a41f6831` checkpoint, 314 commits beyond the installed `fdf6f1d4` checkout and 1,355 commits beyond compatibility base `f0c222c`. The immutable new range materially adds relay and cron continuation/formatting fixes across DM, thread and Slack workspace scopes (`85b89451` through `e0e3ca3`), surfaces Bot Mode group clarifications and command approvals in the room (`c757f99e`, `1179f148`), fixes keyless rescue policy handling (`a1438498`), adds positive process identity and a machine spawn ledger (`95fa8142`), makes unlimited agent turn limits first-class and the default (`50462828` through `c32119b1`), preserves local source edits during Desktop updates (`5dd221d4`) and repairs stale-module gateway restart plus disbanded-group cleanup (`044acf2b`, `2123a016`). These are direct review inputs for Aire's messaging continuity, approval visibility, invisible provider routing, long-running Work, runtime evidence and safe update/recovery; they do not establish Aire integration or progress.
+
+The accepted and compatibility heads remain clean and unpublished at `83e582c`, `944a03e` and `1004f3e`; the older root checkout remains unaccepted dirty drift at `d533206b`. The installed checkout remains clean at `fdf6f1d4`, the gateway still runs from that installation, and the Aire BFF still runs from the physically accepted worktree. Tailscale remains running and self-online with the tailnet-only Serve route mapped to loopback `8766`; internal DNS resolves it while ordinary host DNS and direct host-side HTTPS do not. No authenticated owner probe, source integration, process reload, parity review, physical installation or rendered acceptance occurred, so Profile, Work, receipt, streaming, icon and accessibility gaps remain open. The first live test now uses immutable range `f0c222c..f43eabee`.
 
 ## Reconciliation checkpoint, 20 August 2026 12:07 IST
 

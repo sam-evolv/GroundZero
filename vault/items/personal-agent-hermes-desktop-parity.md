@@ -26,6 +26,12 @@ A capability counts as parity only when:
 6. No raw prompts, commands, filesystem paths, credentials, provider metadata or unrestricted host controls cross into the consumer browser.
 7. The exact immutable candidate is independently reviewed before deployment.
 
+## Live reconciliation, 20 August 2026 16:04 IST
+
+The accepted Aire candidate and local compatibility heads remain clean and unpublished at `83e582c`, `944a03e` and `1004f3e`; the older root checkout remains unaccepted dirty drift at `d533206b`. The installed Hermes checkout remains clean at `fdf6f1d4`, but current GitHub `main` is now `f43eabee`: 42 commits beyond the 12:07 checkpoint, 314 beyond the running installation and 1,355 beyond compatibility base `f0c222c`. The new immutable range contains relevant relay and scheduled-message continuation/formatting repairs, visible group clarifications and approvals, keyless rescue policy handling, positive process identity, unlimited long-run turn configuration, source-preserving Desktop updates and gateway restart recovery. These are parity and regression-review inputs only; no checkbox changes from upstream source movement.
+
+The Aire BFF and Hermes listeners still return the expected unauthenticated boundary statuses. Tailscale remains running and self-online with the tailnet-only Serve route mapped to loopback `8766`; internal DNS resolves it while ordinary host DNS and direct host-side HTTPS do not. No authenticated owner request, immutable integration review, post-change suite, physical installation or rendered Chat, Work and Profile acceptance was captured. The last authenticated Profile `404` and Work `502`, plus Work Receipt, streaming, icon and accessibility gaps, remain open.
+
 ## Live reconciliation, 20 August 2026 04:02 IST
 
 The accepted Aire candidate and local compatibility heads remain clean and unpublished at `83e582c`, `944a03e` and `1004f3e`; the older root checkout remains unaccepted dirty drift at `d533206b`. The installed Hermes checkout remains clean at `fdf6f1d4`, but current GitHub `main` is now `aebab05f`: 96 commits beyond the 00:02 checkpoint, 113 beyond the running installation and 1,154 beyond compatibility base `f0c222c`. The new immutable range contains relevant keyless web-search, strict provider-selection, MCP result-spill, run-budget/stall-recovery and Desktop Bot Chat/profile-activation changes. These are parity and regression-review inputs only; no checkbox changes from upstream source movement.
