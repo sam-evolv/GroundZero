@@ -2,7 +2,7 @@
 title: Ground Zero Dashboard
 purpose: Single view of what needs attention across all businesses
 kind: dashboard
-updated: "2026-08-15"
+updated: "2026-08-21"
 ---
 
 # Ground Zero Dashboard
@@ -37,7 +37,7 @@ updated: "2026-08-15"
 - 🔴 [[project_state/heres-health-app|heres-health-app]]: Discovery pending for a proposed Here’s Health Digital Platform spanning Square café ordering and Shopify retail.
 - 🔴 [[project_state/ob|ob]]: Empire Gym's GymMaster membership integration is locally implemented on an unpublished branch; the live site still serves the July Stripe flow, and safe publication remains pending.
 - 🔴 [[project_state/oh|oh]]: Current live main advanced and deployed with an assistant-list formatting repair; merge enforcement remains absent and rendered acceptance remains open.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Aire candidate `83e582c` remains startup-verified on Sam’s iPhone; the installed Hermes gateway has advanced to upstream `fdf6f1d4`, while authenticated Profile, Work and rendered acceptance remain open.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Aire candidate `83e582c` remains startup-verified; the installed Hermes source advanced to `4a5b6dd` without a gateway restart, while upstream and rendered acceptance gaps remain open.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -61,4 +61,4 @@ updated: "2026-08-15"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-08-20 08:09 IST
+- Dashboard: 2026-08-21 00:03 IST

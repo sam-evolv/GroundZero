@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-08-20T20:03:00+01:00"
+updated_at: "2026-08-21T00:03:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 21 August 2026 00:03 IST
+
+The installed Hermes checkout advanced from the previously recorded `fdf6f1d4` to clean upstream `4a5b6dd`, a 342-commit source movement. The exact three-commit range after the prior `9ef9b2d2` upstream checkpoint adds a shared Desktop identity chip, main-process site-favicon resolution and a connector-agnostic consent card. The supervised gateway remains the process started at 20:42 IST on 19 August and therefore predates this checkout advance; no evidence shows that `4a5b6dd` is loaded or accepted.
+
+Direct GitHub inspection places NousResearch Hermes `main` at `ee000768`, 14 commits beyond the checkout and 1,397 commits beyond compatibility base `f0c222c`. The upstream-only range materially changes Fly socket permissions, scale-to-zero accounting for cron/API work, Bot Mode group recreation and deletion, and group-room reopen/late-reply behaviour. These are review inputs for Aire's Desktop identity, connector consent, durable Work and messaging continuity; they do not establish integration or product progress.
+
+The accepted and compatibility heads remain clean and unpublished at `83e582c`, `944a03e` and `1004f3e`; the older root checkout remains unaccepted dirty drift at `d533206b`. Loopback probes and the tailnet-only Serve configuration remain at their recorded unauthenticated boundaries. No authenticated owner probe, source integration, gateway restart, parity review, physical installation or rendered acceptance occurred, so Profile, Work, receipt, streaming, icon and accessibility gaps remain open. The first live test now uses immutable range `f0c222c..ee000768`.
 
 ## Reconciliation checkpoint, 20 August 2026 20:03 IST
 
