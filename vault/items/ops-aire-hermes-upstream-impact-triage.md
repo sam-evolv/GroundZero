@@ -13,10 +13,16 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-08-20T00:02:00+01:00"
+updated_at: "2026-08-20T04:02:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 20 August 2026 04:02 IST
+
+Direct GitHub inspection places NousResearch Hermes `main` at `aebab05f`, 96 commits beyond the 00:02 `7b25941b` checkpoint, 113 commits beyond the installed `fdf6f1d4` checkout and 1,154 commits beyond compatibility base `f0c222c`. The immutable new range materially adds keyless Exa/Parallel web search for fresh installs (`96c2fd3c`, merged at `aebab05f`), strict stored-provider routing across web, image/video, voice and browser tools (`d7119ea2`, `2dea073a`, `099258ef`, `7f83d380`, `b10c5a80`), 50K MCP result spill with upstream-elision warnings (`09e65779`), wall-clock run budgets and loop/stall recovery (`803397ec`, `449471c3`), and Desktop Bot Chat/profile activation recovery (`3a50a6be`, `6ec4aa8c`, `2367b90b`). These are direct review inputs for Aire's first-use usefulness, invisible provider routing, retained-result evidence, durable Work continuity and Profile/session reliability; they do not establish Aire integration or progress.
+
+The accepted and compatibility heads remain clean and unpublished at `83e582c`, `944a03e` and `1004f3e`; the older root checkout remains unaccepted dirty drift at `d533206b`. The installed Hermes checkout remains clean at `fdf6f1d4`, while loopback Hermes and Aire listeners return the expected unauthenticated health/boundary statuses. No authenticated owner probe, source integration, process reload, parity review, physical installation or rendered acceptance occurred, so Profile, Work, receipt, streaming, icon and accessibility gaps remain open. The first live test now uses immutable range `f0c222c..aebab05f`.
 
 ## Reconciliation checkpoint, 20 August 2026 00:02 IST
 
