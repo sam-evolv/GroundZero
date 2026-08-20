@@ -138,3 +138,8 @@ Official Irish, EU, W3C, Apple and Android sources were inspected on 19 August 2
 - [[briefs/2026-08-15-heres-health-menu-allergen-evidence-workflow]] — adjacent content-truth control
 - [[briefs/2026-08-18-heres-health-live-menu-and-pickup-promise-control]] — adjacent Café transaction control
 - [[items/_Index]] — active queue; this proposal is deliberately not promoted to a new item
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+

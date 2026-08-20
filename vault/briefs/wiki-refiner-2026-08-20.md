@@ -1,17 +1,13 @@
 ---
-title: Wiki Refiner 2026-08-14
+title: Wiki Refiner 2026-08-20
 kind: wiki_refiner_brief
-date: "2026-08-14"
-ran_at: "2026-08-14T02:15:23+01:00"
+date: "2026-08-20"
+ran_at: "2026-08-20T02:15:14+01:00"
 ---
 
-# Wiki Refiner 2026-08-14
+# Wiki Refiner 2026-08-20
 
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
-
-## Auto-backlinks written
-- `heres-health-app-project-brief-2026-08-13.md` → `briefs/openhouse-dtc-master-plan-2026-07-27.md` (score 289)
-- `connections-2026-08-12.md` → `briefs/openhouse-dtc-master-plan-2026-07-27.md` (score 83)
 
 ## Sources reviewed
 - `imports/2026-08-06-personal-agent-founder-voice-notes.md` -> `briefs/2026-08-05-personal-assistant-research-codex.md`
@@ -28,7 +24,7 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]], [[briefs/openhouse-dtc-master-plan-2026-07-27]], [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]]
 - `imports/cara-conversation-summary-2026-07-12.md` -> `briefs/2026-08-05-personal-assistant-research-codex.md`
   - Summary: Source received from Sam on 2026-07-12. Canonical cached source: `/Users/samdonworth/.hermes/cache/documents/doc_3a4bed503f5b_cara-conversation-summary.md` This import is intentionally provenance-only. Curated facts live in: - [[companies/cara]]
-  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/cara]], [[briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt]], [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/personal-agent]], [[project_state/cara]], [[briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt]]
 - `imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06.md` -> `project_state/ob.md`
   - Summary: Sam supplied this ChatGPT strategy output on 6 August 2026. This is a structured capture of the supplied content rather than a claim that ChatGPT's factual assertions are verifi... IrelandGPT should not be another chatbot. It should package the capability emerging in agent frameworks such as Hermes into a consumer product ordinary people can understand, tr... > Complex under the hood. Calm on the surface. Users should not need to understand models, tokens, APIs, connectors, prompt engineering or workflows. They should say what they want done and the product should work out the rest.
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt]], [[briefs/2026-08-06-irelandgpt-delegation-product-charter]], [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
@@ -68,22 +64,23 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - [[briefs/2026-08-05-personal-assistant-research-claude]] (937)
 - [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]] (458)
 - [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]] (429)
-- [[project_state/cara]] (49)
+- [[project_state/personal-agent]] (51)
+- [[project_state/cara]] (50)
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] (341)
 - [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]] (240)
 - [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]] (222)
 - [[companies/openhouse-ai]] (250)
-- [[project_state/oh]] (180)
+- [[project_state/oh]] (181)
 - [[context/openhouse-openbook-design-system]] (134)
 - [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]] (108)
-- [[briefs/2026-08-13-heres-health-digital-platform-phase-one]] (330)
+- [[briefs/2026-08-13-heres-health-digital-platform-phase-one]] (331)
 - [[briefs/sam-linkedin-signal-engine-stanley-teardown-2026-07-31]] (81)
-- [[context/linkedin-network]] (78)
+- [[context/linkedin-network]] (80)
 - [[briefs/wiki-refiner-2026-08-01]] (17)
 - [[briefs/wiki-refiner-2026-08-11]] (17)
 - [[briefs/wiki-refiner-2026-08-13]] (17)
-- [[briefs/wiki-refiner-2026-06-26]] (16)
-- [[briefs/wiki-refiner-2026-06-27]] (16)
+- [[briefs/wiki-refiner-2026-08-14]] (17)
+- [[briefs/wiki-refiner-2026-08-19]] (17)
 
 ## Suggested follow-ups
 - Move durable facts from imports into the relevant company, person, or project note.
@@ -91,50 +88,7 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
 
-
-## Notes that link here
-_Auto-generated: updated by wiki-refiner_
-- [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]]
-- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
-- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
-- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
-- [[briefs/2026-08-05-personal-assistant-research-charter]]
-- [[briefs/2026-08-05-personal-assistant-research-claude]]
-- [[briefs/2026-08-05-personal-assistant-research-codex]]
-- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
-- [[briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt]]
-- [[briefs/2026-08-13-heres-health-digital-platform-phase-one]]
-- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
-- [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]]
-- [[briefs/openhouse-home-context-acquisition-confidence-and-onboarding-2026-07-28]]
-- [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
-- [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]]
-- [[briefs/sam-linkedin-signal-engine-stanley-teardown-2026-07-31]]
-- [[briefs/wiki-refiner-2026-06-26]]
-- [[briefs/wiki-refiner-2026-06-27]]
-- [[briefs/wiki-refiner-2026-08-01]]
-- [[briefs/wiki-refiner-2026-08-11]]
-- [[briefs/wiki-refiner-2026-08-13]]
-- [[briefs/wiki-refiner-2026-08-15]]
-- [[briefs/wiki-refiner-2026-08-16]]
-- [[briefs/wiki-refiner-2026-08-17]]
-- [[briefs/wiki-refiner-2026-08-18]]
-- [[briefs/wiki-refiner-2026-08-19]]
-- [[companies/cara]]
-- [[companies/openhouse-ai]]
-- [[context/linkedin-network]]
-- [[context/openhouse-openbook-design-system]]
-- [[project_state/cara]]
-- [[project_state/oh]]
-
-
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.
 - Do not delete source material after filing it.
 - Do not let the brief become the only place a fact lives.
-
-## Stale notes (14+ days, <2 inbound links)
-_Consider: link them from a related note, archive them, or update them._
-
-- `briefs/openhouse-yc-fall-2026-interview-evidence-pack-2026-07-29.md` — modified 2026-07-29, 1 inbound links
-- `briefs/openhouse-yc-portal-release-readiness-audit-2026-07-30.md` — modified 2026-07-31, 1 inbound links
