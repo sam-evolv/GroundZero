@@ -13,10 +13,16 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-08-20T16:04:00+01:00"
+updated_at: "2026-08-20T20:03:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 20 August 2026 20:03 IST
+
+Direct GitHub inspection places NousResearch Hermes `main` at `9ef9b2d2`, 25 commits beyond the 16:04 `f43eabee` checkpoint, 339 commits beyond the installed `fdf6f1d4` checkout and 1,380 commits beyond compatibility base `f0c222c`. The immutable new range materially repairs Desktop sidebar row alignment and working-progress-arc clipping (`b6d21b37` through `c47f0b45`), bounds and makes the bootstrap installer's pipe drain cancellable with a Rust CI lane (`b94a1613` through `5e32e3ae`), explicitly disables thinking on Anthropic's native Messages wire when requested (`c670464c`), repairs Windows/Desktop update completion and avoids unnecessary editable-package reinstalls (`2b1bff62`, `0723cb6c`), preserves update-holder age across handoffs (`dbc2a9c8` through `59795c40`) and exposes a documented plugin-controlled Desktop theme surface (`2e1e3cc9` through `9ef9b2d2`). These are direct review inputs for Aire's Desktop parity, truthful progress chrome, provider behaviour, safe updates and future branded plugin surface; they do not establish Aire integration or progress.
+
+The accepted and compatibility heads remain clean and unpublished at `83e582c`, `944a03e` and `1004f3e`; the older root checkout remains unaccepted dirty drift at `d533206b`. The installed checkout remains clean at `fdf6f1d4`. Loopback Hermes and Aire listeners return the expected unauthenticated health and boundary statuses. No authenticated owner probe, source integration, process reload, parity review, physical installation or rendered acceptance occurred, so Profile, Work, receipt, streaming, icon and accessibility gaps remain open. The first live test now uses immutable range `f0c222c..9ef9b2d2`.
 
 ## Reconciliation checkpoint, 20 August 2026 16:04 IST
 
