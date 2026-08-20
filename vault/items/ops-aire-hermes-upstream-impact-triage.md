@@ -13,10 +13,16 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-08-20T04:02:00+01:00"
+updated_at: "2026-08-20T08:08:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 20 August 2026 08:08 IST
+
+Direct GitHub inspection places NousResearch Hermes `main` at `dc90b1b3`, 84 commits beyond the 04:02 `aebab05f` checkpoint, 197 commits beyond the installed `fdf6f1d4` checkout and 1,238 commits beyond compatibility base `f0c222c`. The immutable new range materially hardens relay reconnect, deduplication and keepalive semantics (`d2975f42` through `5a17b1f4`), adds relay-native draft streaming and task cards (`3683e700`), authenticates gated Desktop file downloads (`cce04279`), makes compression refusal truthful and adds bounded salvage (`7bf66ec3`, `62016a1b`, `fb96247e`, `0596ccde`), exposes API reasoning effort correctly (`2d59cb43`), scopes remote project discovery to the focused profile (`4dcefed0`, `f9838280`), narrows memory guidance when built-in stores are disabled (`d5cddae1`, `481bc939`, `b38c4031`), exposes computer-use screenshots for chat delivery (`188d4791`), guards mid-turn and uncompressed session overflow when compression is disabled (`db5d5dff`, `4d1fc6ca`, `cef999c5`), and prevents the Desktop composer from widening its surface while extending the narrow-width collapse ladder (`b656b0d3`, `dc90b1b3`). These are direct review inputs for Aire's Work continuity, progress evidence, artifacts, Profile authority, invisible provider routing, long-session reliability, responsive Desktop parity and rendered-evidence workflow; they do not establish Aire integration or progress.
+
+The accepted and compatibility heads remain clean and unpublished at `83e582c`, `944a03e` and `1004f3e`; the older root checkout remains unaccepted dirty drift at `d533206b`. The installed checkout remains clean at `fdf6f1d4`, the gateway still runs from that installation, and the Aire BFF still runs from the physically accepted worktree. No authenticated owner probe, source integration, process reload, parity review, physical installation or rendered acceptance occurred, so Profile, Work, receipt, streaming, icon and accessibility gaps remain open. The first live test now uses immutable range `f0c222c..dc90b1b3`.
 
 ## Reconciliation checkpoint, 20 August 2026 04:02 IST
 
