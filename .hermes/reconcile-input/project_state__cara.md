@@ -1,0 +1,151 @@
+---
+id: cara
+company_id: cara
+headline: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
+valid: true
+updated_at: "2026-08-18T08:02:00+01:00"
+role: project-state
+---
+
+# Cara project state
+
+**Founder reassessment, 2026-07-29:** Sam currently expects not to continue Cara because improved ChatGPT voice capabilities may already cover enough of the original need. Treat Cara as deprioritised, not formally abandoned. Do not resume product development or present it as Sam's primary founder bet unless Sam explicitly reactivates it. OpenHouse is the only company he has considered applying to YC with.
+
+Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea he has started building**, not just a speculative brief.
+
+## Current state
+
+- **Source-custody correction, 2026-08-18 08:02 IST:** GitHub and all recorded commit heads are unchanged: remote default branch `f46d501`, parent local branch `196cf3c`, and child worktrees `73de73a`, `464b1ef` and `03b4d99`; every child worktree remains clean, has no upstream and has no remote containment. The parent checkout itself is not clean: Git reports the nested `.worktrees/` directory and a zero-byte file named `now` as untracked. This corrects the earlier blanket clean-worktree description without creating product progress, reactivation, deployment or real-call acceptance. Port `8643` remains absent, so the parked profile API is still offline. No file was removed or mutated during reconciliation.
+
+- Starter documentation remains the source product brief, but the working Hermes implementation now supersedes its missing-code archive.
+- Working repo: `/Users/samdonworth/GroundZero/repos/cara-hermes`, branch `hermes/founder-voice-alpha`.
+- Parent working branch `hermes/founder-voice-alpha` remains at `196cf3c` with its four local Hermes commits not on any remote branch. Live Git worktree reconciliation on 15 August 2026 also found three clean, no-upstream local branches that the prior canonical summary omitted: `wt/cara-quality-lab` at `73de73a` (seven commits beyond `196cf3c`, 20 changed files), `wt/cara-telegram-founder-dogfood` at `464b1ef` (one commit, three changed files), and `wt/cara-native-ios-readiness` at `03b4d99` (one documentation commit). No remote branch contains any of those three heads. Their commits are dated 13–14 July, before Sam's 29 July reassessment, so this corrects the parked local source inventory; it is not evidence of reactivation, deployment, a live +353 call or user-visible acceptance. The live GitHub repository remains `sam-evolv/Cara` with default branch `claude/cara-phase-0-work-oy7blp` at `f46d501`, pushed 12 July 2026. The local source candidates and remote Phase 0 branch remain unreconciled.
+- The dedicated Hermes profile and API-brain implementation baseline exists with caller-scoped continuity, streamed responses, SQLite transcripts/events, interruption/error capture and structured post-call artefacts. **Live runtime check, 2026-08-15 16:07 IST:** no process was listening on the documented profile API address `127.0.0.1:8643`; direct probes of `/`, `/api/status` and `/health` all failed to connect. The Cara profile API is therefore offline in this check. Process availability is not product acceptance, and no service was started or mutated.
+- A temporary HTTPS mobile voice page previously completed the public WebSocket → Hermes → streamed reply loop from Sam's iPhone. No exact current public URL is recorded in the canonical notes, so its present reachability and phone-surface behaviour were not re-verified in this reconciliation.
+- **Current limiting layer:** browser speech recognition and browser speech synthesis are suitable only for first contact. They are not sufficient for robust car Bluetooth use, background noise, natural barge-in/talk-over, or controlled branded voice quality.
+- P0 has therefore tightened from "make one call" to **a repeatedly useful 20-60 minute hands-free car conversation with low latency, natural interruption, noise resilience, full two-sided capture, and daily quality iteration**.
+- Naming still likely moves from Cara to Orla; do not let naming block founder dogfooding.
+- **Superseded strategy decision (13 July):** Cara was then Sam’s primary founder bet, targeting eventual self-serve, plug-and-play onboarding after an excellent founder voice loop and narrow pilot proof. Sam's 29 July reassessment above supersedes the active-bet status while preserving the historical rationale. See [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]].
+- **World-class route research (13 July):** Start the quality benchmark with direct native iOS → OpenAI Realtime over WebRTC and a Cara-owned action/memory gateway; keep Gemini and the modular pipeline as challengers. Do not add LiveKit unless telephony, provider routing, group rooms, server-side media or fleet observability creates a concrete need. See [[briefs/cara-world-class-product-route-research-2026-07-13]].
+- **Founder-control decision (14 July):** Add a dedicated private Telegram Cara profile for text, voice notes, memory, tasks and artefacts before spending on telephony. Telegram Bot API does not provide bot voice calls, so it is a complementary daily-use surface rather than a substitute for the realtime/car voice benchmark. See [[decisions/cara-telegram-founder-control-plane-2026-07-14]].
+
+## Retained milestones (parked)
+
+[[items/cara-founder-voice-dogfood]] — if explicitly reactivated, build a voice experience Sam personally uses for long brainstorming meetings, post-call artefacts, and cross-call continuity.
+
+[[items/cara-phase0-m1-live-call]] remains the underlying parked telephony milestone, expanded beyond a two-minute demo into the founder dogfood loop.
+
+## Hermes implementation baseline — 12 July 2026
+
+- Superseded historical observation: GitHub `sam-evolv/Cara` was empty at the initial 12 July inspection. **Live repository reconciliation, 2026-08-15 16:03 IST:** GitHub still has default branch `claude/cara-phase-0-work-oy7blp` at `f46d501`; the parent local `hermes/founder-voice-alpha` branch remains at `196cf3c`; and three additional clean local worktrees exist at `73de73a`, `464b1ef` and `03b4d99`. None has an upstream or remote containment. The additional commits are dated 13–14 July and do not supersede the 29 July founder reassessment or satisfy the real-call gate.
+- Local clone: `/Users/samdonworth/GroundZero/repos/cara-hermes`.
+- Separate local branch: `hermes/founder-voice-alpha` (not pushed).
+- Dedicated isolated Hermes profile: `~/.hermes/profiles/cara`, with messaging credentials removed and an authenticated API server on `127.0.0.1:8643`.
+- Implemented Twilio ConversationRelay webhook/WebSocket → caller-scoped Hermes Agent brain → interruptible spoken response.
+- Verified real local end-to-end round trip through the running Cara service and Hermes API.
+- Nine tests pass. Local commit: `f2bb0c6`.
+- A real phone call now requires Twilio account credentials, a +353 number, and a public HTTPS/WSS tunnel; Twilio signature validation must be added before exposing the endpoint beyond controlled alpha use.
+
+Acceptance target from the starter pack:
+
+- Ring the number from a mobile.
+- Talk for ~2 minutes.
+- Assistant gives mandatory disclosure warmly.
+- Conversation feels alive.
+- Transcript lands in Supabase/Postgres.
+- Costs are logged from first call.
+- The call recording becomes the first demo asset.
+
+## Connected vault notes
+
+- [[companies/cara]] — parent project/company note
+- [[briefs/cara-starter-product-spec]] — starter spec summary
+- [[briefs/cara-success-strategy-2026-07-11]] — recommended success strategy
+- [[imports/cara-conversation-summary-2026-07-12]] — full conversation handoff and artifact-verification note
+- [[items/cara-phase0-m1-live-call]] — active item
+- [[context/index]] — shared entry point
+- [[context/model-pack]] — compact portfolio context
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-07-14-morning-briefing-golf-cara]]
+- [[briefs/2026-08-05-managed-agent-consumer-wedge]]
+- [[briefs/2026-08-05-managed-agent-feasibility-and-success-plan]]
+- [[briefs/2026-08-05-personal-assistant-research-charter]]
+- [[briefs/2026-08-05-personal-assistant-research-codex]]
+- [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
+- [[briefs/cara-founder-voice-build-sprint-2026-07-12]]
+- [[briefs/cara-realtime-car-voice-acceptance]]
+- [[briefs/cara-starter-product-spec]]
+- [[briefs/cara-success-strategy-2026-07-11]]
+- [[briefs/cara-world-class-product-route-research-2026-07-13]]
+- [[briefs/daily-agentic-value-radar-2026-07-15]]
+- [[briefs/daily-agentic-value-radar-2026-07-16]]
+- [[briefs/daily-agentic-value-radar-2026-07-17]]
+- [[briefs/daily-agentic-value-radar-2026-07-18]]
+- [[briefs/daily-agentic-value-radar-2026-07-20]]
+- [[briefs/daily-agentic-value-radar-2026-07-21]]
+- [[briefs/daily-ai-brief-2026-07-14]]
+- [[briefs/daily-portfolio-brief-2026-07-12]]
+- [[briefs/daily-portfolio-brief-2026-07-14]]
+- [[briefs/daily-portfolio-brief-2026-07-15]]
+- [[briefs/daily-portfolio-brief-2026-07-16]]
+- [[briefs/daily-portfolio-brief-2026-07-17]]
+- [[briefs/daily-portfolio-brief-2026-07-18]]
+- [[briefs/daily-portfolio-brief-2026-07-19]]
+- [[briefs/hermes-community-use-cases-2026-07-28]]
+- [[briefs/wiki-refiner-2026-07-12]]
+- [[briefs/wiki-refiner-2026-07-13]]
+- [[briefs/wiki-refiner-2026-07-14]]
+- [[briefs/wiki-refiner-2026-07-15]]
+- [[briefs/wiki-refiner-2026-07-16]]
+- [[briefs/wiki-refiner-2026-07-17]]
+- [[briefs/wiki-refiner-2026-07-18]]
+- [[briefs/wiki-refiner-2026-07-19]]
+- [[briefs/wiki-refiner-2026-07-20]]
+- [[briefs/wiki-refiner-2026-07-21]]
+- [[briefs/wiki-refiner-2026-07-22]]
+- [[briefs/wiki-refiner-2026-07-23]]
+- [[briefs/wiki-refiner-2026-07-24]]
+- [[briefs/wiki-refiner-2026-07-25]]
+- [[briefs/wiki-refiner-2026-07-26]]
+- [[briefs/wiki-refiner-2026-07-27]]
+- [[briefs/wiki-refiner-2026-07-28]]
+- [[briefs/wiki-refiner-2026-07-29]]
+- [[briefs/wiki-refiner-2026-07-30]]
+- [[briefs/wiki-refiner-2026-07-31]]
+- [[briefs/wiki-refiner-2026-08-01]]
+- [[briefs/wiki-refiner-2026-08-02]]
+- [[briefs/wiki-refiner-2026-08-03]]
+- [[briefs/wiki-refiner-2026-08-04]]
+- [[briefs/wiki-refiner-2026-08-05]]
+- [[briefs/wiki-refiner-2026-08-06]]
+- [[briefs/wiki-refiner-2026-08-07]]
+- [[briefs/wiki-refiner-2026-08-08]]
+- [[briefs/wiki-refiner-2026-08-09]]
+- [[briefs/wiki-refiner-2026-08-10]]
+- [[briefs/wiki-refiner-2026-08-11]]
+- [[briefs/wiki-refiner-2026-08-12]]
+- [[briefs/wiki-refiner-2026-08-13]]
+- [[briefs/wiki-refiner-2026-08-14]]
+- [[briefs/wiki-refiner-2026-08-15]]
+- [[briefs/wiki-refiner-2026-08-16]]
+- [[briefs/wiki-refiner-2026-08-17]]
+- [[briefs/wiki-refiner-2026-08-18]]
+- [[briefs/wiki-refiner-2026-08-19]]
+- [[briefs/wiki-refiner-2026-08-20]]
+- [[companies/cara]]
+- [[context/dashboard]]
+- [[context/index]]
+- [[context/model-pack]]
+- [[decisions/cara-elevenlabs-webrtc-hermes-custom-llm]]
+- [[decisions/cara-founder-dogfood-voice-first]]
+- [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]]
+- [[decisions/cara-telegram-founder-control-plane-2026-07-14]]
+- [[items/cara-founder-voice-dogfood]]
+- [[items/cara-phase0-m1-live-call]]
+- [[items/ops-project-state-reconciler]]
+
+
+
+---
