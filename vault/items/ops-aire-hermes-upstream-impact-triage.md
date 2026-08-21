@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-08-21T16:03:00+01:00"
+updated_at: "2026-08-21T20:03:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 21 August 2026 20:03 IST
+
+The installed Hermes checkout remains clean at `524b062`. Direct GitHub `main` advanced 32 commits beyond the 16:03 checkpoint `fcbd1076` to `fd3a783a`, placing it 82 commits beyond the installed checkout and 1,545 beyond compatibility base `f0c222c`.
+
+The immutable `fcbd1076..fd3a783a` range repairs merged compaction handoffs and hides internal compaction scaffolding across API and client surfaces (`fdf01114` through `a2a23a8f`), adds an authenticated browser-extension control broker with profile-scoped artifact storage, explicit permission gates and reconnect-safe routing (`5df1d0e1` through `2584b7c4`), repairs Desktop boot-overlay opacity and tab-strip hide/recovery behaviour (`f33b260a`, `3aeb5928` through `f7a5c9e5`), and retries provider-injected parameter `400` failures instead of aborting (`6e536283`). These are review inputs for Aire's durable Work/context continuity, bounded browser delegation, artifact evidence, provider reliability and Desktop parity. They are not integrated into Aire and do not establish runtime or product acceptance.
+
+Hermes health returned `200`, unauthenticated Aire status, context and Work probes returned `401`, and `hermes --version` reports upstream `fd3a783a` while still saying the installation is 50 commits behind. Direct immutable comparison places it 82 commits behind, so the earlier false “Up to date” result remains closed but update-distance reporting is stale again. Accepted and compatibility heads remain clean and unpublished at `83e582c`, `944a03e` and `1004f3e`, while the older root checkout remains unaccepted dirty drift at `d533206b`. Tailscale remains running and self-online with Serve mapped tailnet-only to loopback `8766`; ordinary host DNS and direct HTTPS still fail. No authenticated owner probe, source integration, process reload, physical installation, rendered acceptance, push, deployment or production mutation occurred. The first live test now uses immutable range `f0c222c..fd3a783a`.
 
 ## Reconciliation checkpoint, 21 August 2026 16:03 IST
 
