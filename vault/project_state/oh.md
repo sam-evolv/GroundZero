@@ -1,11 +1,13 @@
 ---
 id: oh
 company_id: openhouse-ai
-headline: Current live main advanced and deployed with an assistant-list formatting repair; merge enforcement remains absent and rendered acceptance remains open.
+headline: Enterprise Ireland funding now depends on paid developer validation; OpenHouse resumes Sunday with that commercial objective.
 valid: true
-updated_at: "2026-08-19T16:02:00+01:00"
+updated_at: "2026-08-21T13:05:37+01:00"
 role: project-state
 ---
+
+**Enterprise Ireland validation gate and focus decision, 2026-08-21:** Sam reports that the Enterprise Ireland meeting went okay and that Enterprise Ireland indicated external commercial validation, specifically a property developer paying for OpenHouse, would enable him to secure funding. This is Sam's report of the meeting, not a written funding commitment or completed offer. Sam decided to pause OpenHouse for the remainder of Friday, focus on Donworth AI Solutions, then resume OpenHouse on Sunday 23 August with paid developer validation and renewed relationship-led outreach as the explicit objective. This decision does not itself authorise outbound messages.
 
 **Live source-custody reconciliation, 2026-08-19 16:02 IST:** No verified remote delivery movement: GitHub `main` remains `b1629c34`, with twelve open pull requests, six non-PR issues, no repository rulesets and no `main` branch protection; `https://portal.openhouseai.ie` returned HTTP 200, which proves availability only. The local V2 checkout remains at unpushed `ffb00731`, two commits ahead of the current remote-tracking branch `25c09c9c`. A separate, previously unrecorded SE Systems demo worktree at `/Users/samdonworth/GroundZero/worktrees/se-systems-care-video-20260814` is on branch `demo/se-systems-care-video-20260814` at the same `ffb00731` head, has no upstream, and is dirty with seven modified and two untracked paths. This is source-custody drift only: the reconciliation established no immutable commit, review, test/build receipt, deployment, rendered-surface acceptance or production-data change for that worktree. No repository or production mutation was made.
 
