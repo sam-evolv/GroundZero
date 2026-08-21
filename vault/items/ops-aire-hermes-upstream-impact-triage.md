@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-08-21T00:03:00+01:00"
+updated_at: "2026-08-21T04:03:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 21 August 2026 04:03 IST
+
+The installed Hermes checkout remains clean at `4a5b6dd`, while its tracked `origin/main` and direct GitHub `main` advanced to `18a15a46`. That is 41 commits beyond the checkout, 27 commits beyond the prior `ee000768` checkpoint and 1,424 commits beyond compatibility base `f0c222c`. The supervised gateway remains the process started at 20:42 IST on 19 August and therefore predates the checkout advance; no evidence shows `4a5b6dd` or the upstream-only range is loaded or accepted.
+
+The immutable `ee000768..18a15a46` range materially adds Desktop/Web React Compiler enablement and Bot Mode mention fixes, gateway/relay approval-prompt ambiguity handling and streamed-final formatting repairs, per-job cron `reasoning_effort`, OpenCode model-routing changes and Windows update self-test hardening. These are review inputs for Aire's Desktop parity, approvals, Work continuity and messaging; they do not establish source integration, runtime acceptance or product progress.
+
+The accepted and compatibility heads remain clean and unpublished at `83e582c`, `944a03e` and `1004f3e`; the older root checkout remains unaccepted dirty drift at `d533206b`. Hermes `/health` returned `200`, unauthenticated Aire status, context and Work probes returned `401`, listeners remain on `8642` and `8766`, and `8767` remains absent. No authenticated owner probe, source integration, gateway restart, parity review, physical installation or rendered acceptance occurred, so Profile, Work, receipt, streaming, icon and accessibility gaps remain open. The first live test now uses immutable range `f0c222c..18a15a46`.
 
 ## Reconciliation checkpoint, 21 August 2026 00:03 IST
 

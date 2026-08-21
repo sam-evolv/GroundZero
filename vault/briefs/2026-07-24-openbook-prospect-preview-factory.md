@@ -27,6 +27,7 @@ Local commits:
 - `674aaf5` — guarded asset-copy, draft-generation and explicit publish scripts
 - `ed4045f` — manual Instagram outreach queue and transparent message formatter
 - `d6df29c` — operator runbook
+- `0d4e25c` — preview-to-claim operating-loop documentation (verified locally on 21 August 2026; documentation-only, unpushed)
 
 The compiler refuses prospects missing a name, public descriptive text, or at least one public HTTPS image. It does not generate prices, hours, testimonials, booking links, founder details, or unsupported claims. Preview media is copied only after review into an isolated `prospect-preview-assets` bucket, recording original URLs and SHA-256 hashes.
 
@@ -44,7 +45,7 @@ Worktree: `/Users/samdonworth/OpenBook-prospect-preview-schema`
 Branch: `feat/prospect-preview-schema`  
 Local commit: `c45ebda`
 
-It adds an isolated `prospect_previews` table with opaque tokens, immutable JSON snapshots, source URLs, copied-asset manifests, expiry, review/sent lifecycle timestamps, status guards and RLS with no public table policies. It declares the separate preview asset bucket. The migration is unrun.
+Committed head `c45ebda` adds an isolated `prospect_previews` table with opaque tokens, immutable JSON snapshots, source URLs, copied-asset manifests, expiry, review/sent lifecycle timestamps, status guards and RLS with no public table policies. **Live custody correction, 21 August 2026:** the separate `prospect-preview-assets` bucket declaration is not in that commit; it exists as a 15-line uncommitted addition in the schema worktree. The migration remains unrun. This preserves the original implementation intent while correcting the earlier overstatement of committed source.
 
 `supabase db lint --local` could not run because no local Postgres/Supabase stack is active on this Mac. No database mutation was attempted.
 
