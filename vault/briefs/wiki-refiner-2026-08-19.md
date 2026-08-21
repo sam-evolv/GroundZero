@@ -112,6 +112,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-11]]
 - [[briefs/wiki-refiner-2026-08-13]]
 - [[briefs/wiki-refiner-2026-08-14]]
+- [[briefs/wiki-refiner-2026-08-20]]
 - [[companies/cara]]
 - [[companies/openhouse-ai]]
 - [[context/linkedin-network]]
@@ -119,6 +120,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[project_state/cara]]
 - [[project_state/oh]]
 - [[project_state/personal-agent]]
+
 
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.

@@ -129,3 +129,8 @@ Official Square and Shopify documentation was inspected on 20 August 2026. No He
 [3] https://shopify.dev/docs/api/admin-graphql/latest/queries/orders — Shopify GraphQL Admin orders query
 [4] https://shopify.dev/docs/api/usage/access-scopes — Shopify API access scopes
 [5] https://shopify.dev/docs/apps/launch/protected-customer-data — Shopify protected customer data requirements
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+
