@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-08-21T08:07:00+01:00"
+updated_at: "2026-08-21T12:07:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 21 August 2026 12:07 IST
+
+The installed Hermes checkout remains clean at `524b062`. Direct GitHub `main` advanced 23 commits beyond the 08:07 checkpoint `8e77d031` to `30ccd01`, placing it 31 commits beyond the installed checkout, 70 beyond `18a15a46` and 1,494 beyond compatibility base `f0c222c`.
+
+The immutable `8e77d031..30ccd01` range adds a keyless OpenCode provider, profile-scoped Desktop WSL routing, idle-renderer CPU relief, background-review cancellation repairs, persistent update receipts and all-gateway macOS restart handling. It also contains a decision-relevant reversal: `fc9cbc87` removed memory from cron jobs, then `ef04d846` explicitly enabled `MEMORY.md`, `USER.md` and the memory tool for cron agents. The final upstream state therefore belongs in `REVIEW BEFORE INTEGRATION` against [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]] and the recurring-automation integrity contract; upstream status alone does not authorise memory to become a competing durable source for Ground Zero jobs.
+
+The supervised gateway remains the process started at 07:22 IST from the installed checkout path. Hermes health returned `200`, unauthenticated Aire status, context and Work probes returned `401`, and no evidence shows the 31 upstream commits are loaded or accepted. `hermes --version` reported upstream `a9ac2c6f` and “Up to date” while Git showed the checkout 30 commits behind that tracked ref and direct GitHub one further commit ahead at `30ccd01`; keep the reporting contradiction open. Accepted and compatibility heads remain clean and unpublished at `83e582c`, `944a03e` and `1004f3e`, while the older root checkout remains unaccepted dirty drift at `d533206b`. Tailscale remains running and self-online with Serve mapped tailnet-only to loopback `8766`; internal DNS resolves the hostname while ordinary host DNS and direct HTTPS do not. No authenticated owner probe, source integration, process reload, physical installation, rendered acceptance, push, deployment or production mutation occurred. The first live test now uses immutable range `f0c222c..30ccd01`.
 
 ## Reconciliation checkpoint, 21 August 2026 08:07 IST
 

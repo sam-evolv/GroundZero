@@ -37,7 +37,7 @@ updated: "2026-08-21"
 - 🔴 [[project_state/heres-health-app|heres-health-app]]: Discovery pending for a proposed Here’s Health Digital Platform spanning Square café ordering and Shopify retail.
 - 🔴 [[project_state/ob|ob]]: Empire Gym's GymMaster membership integration is locally implemented on an unpublished branch; the live site still serves the July Stripe flow, and safe publication remains pending.
 - 🔴 [[project_state/oh|oh]]: Current live main advanced and deployed with an assistant-list formatting repair; merge enforcement remains absent and rendered acceptance remains open.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Aire candidate `83e582c` remains startup-verified; Hermes is installed at `524b062`, upstream is eight commits ahead at `8e77d031`, and authenticated plus rendered acceptance gaps remain open.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Aire candidate `83e582c` remains startup-verified; Hermes stays installed at `524b062`, upstream is 31 commits ahead at `30ccd01`, and authenticated plus rendered acceptance gaps remain open.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -61,4 +61,4 @@ updated: "2026-08-21"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-08-21 08:07 IST
+- Dashboard: 2026-08-21 12:08 IST
