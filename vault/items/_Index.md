@@ -48,7 +48,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/oh-dtc-home-savings-scan-concierge]] | Validate paid DTC Home Savings Scan with 10 concierge customers | S | proposed |
 | [[items/oh-uk-aftercare-design-partner-sprint]] | Validate UK evidence-led aftercare with five design partners | S | proposed |
 | [[items/oh-proof-asset-engine]] | Reusable proof assets from the live Longview deployment | S | proposed 🔥 |
-| [[items/oh-developer-outreach-proposal-pack]] | Warm-intro discovery-to-proposal pack (Bridgewater test case) | S | proposed |
+| [[items/oh-developer-outreach-proposal-pack]] | Approval-gated paid-developer validation queue plus discovery-to-proposal pack | S | active |
 | [[items/oh-answer-quality-audit-loop]] | Merge PR #205, then monthly homeowner answer-accuracy audit feeding proof assets | S | proposed 🔥 |
 | [[items/oh-marketing-site-conversion-instrumentation]] | Ship site v3 with CTA, UTM analytics, and booking link so outreach is measurable | S | proposed |
 | [[items/oh-sean-gallagher-reconnection]] | Reopen Sean's earlier invitation with a bounded request for property-market perspective | S | ready-to-send 🔥 |

@@ -41,6 +41,7 @@ These items automate that sweep so Sam's time goes into the right work, not the 
 
 ### Communication
 - [[items/ops-meeting-followup-assembler]] — post-meeting recap + scheduling
+- [[items/oh-developer-outreach-proposal-pack]] — approval-gated paid-developer validation queue; five-row draft-only test, never automated outreach
 
 ## Cross-cutting reads/writes
 
