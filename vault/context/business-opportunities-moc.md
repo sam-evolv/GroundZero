@@ -28,6 +28,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[briefs/2026-08-18-heres-health-live-menu-and-pickup-promise-control]] — location-aware Square menu, sold-out and pickup-promise drill; prove one-update staff operation before any custom capacity or support automation
 - [[briefs/2026-08-19-heres-health-ecommerce-accessibility-launch-gate]] — Irish ecommerce-accessibility applicability and transaction-path proof; qualify the microenterprise question and test Café/Shop checkout before release assurance
 - [[briefs/2026-08-20-heres-health-side-by-side-owner-performance-brief]] — post-launch, read-only Square/Shopify owner brief; prove decision value manually before any automation or paid pilot
+- [[briefs/2026-08-21-heres-health-shopify-replenishment-reminder-proof]] — post-launch Shopify-only reorder-timing and consent-safe holdout proof; no cross-system identity, AI or launch dependency
 
 ### PropTech & Aftercare
 - [[companies/openhouse-ai]] — OpenHouse: one living Home Record reached through developer handover or direct consumer onboarding
@@ -111,6 +112,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-18-heres-health-live-menu-and-pickup-promise-control]]
 - [[briefs/2026-08-19-heres-health-ecommerce-accessibility-launch-gate]]
 - [[briefs/2026-08-20-heres-health-side-by-side-owner-performance-brief]]
+- [[briefs/2026-08-21-heres-health-shopify-replenishment-reminder-proof]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
