@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-08-21T12:07:00+01:00"
+updated_at: "2026-08-21T16:03:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 21 August 2026 16:03 IST
+
+The installed Hermes checkout remains clean at `524b062`. Direct GitHub `main` advanced 19 commits beyond the 12:07 checkpoint `30ccd01` to release head `fcbd1076`, placing it 50 commits beyond the installed checkout and 1,513 beyond compatibility base `f0c222c`.
+
+The immutable `30ccd01..fcbd1076` range repairs stale Desktop running-state arcs and narrows streaming-status invalidation (`4f64807f` through `76e0ca88`), adds read-only fleet inventory and planning to `hermes update --plan` (`0aecadc1`), repairs Bot Mode room tombstone persistence (`fb7f0602`), expands keyless provider visibility and synchronises the live model catalog (`2a2307e6`, `62472313`), and preserves compression summaries during native pre-checkpoint pruning (`fb27614a`). These are review inputs for Aire's truthful Work/progress surface, Desktop performance, update safety, messaging continuity, invisible provider routing and retained context. They are not integrated into Aire and do not establish runtime or product acceptance.
+
+The supervised gateway remains the process started at 07:22 IST from the installed checkout path. Hermes health returned `200`, unauthenticated Aire status, context and Work probes returned `401`, and no evidence shows the 50 upstream commits are loaded or accepted. Accepted and compatibility heads remain clean and unpublished at `83e582c`, `944a03e` and `1004f3e`, while the older root checkout remains unaccepted dirty drift at `d533206b`. Tailscale remains running and self-online with Serve mapped tailnet-only to loopback `8766`; internal DNS resolves the hostname while ordinary host DNS and direct HTTPS do not. No authenticated owner probe, source integration, process reload, physical installation, rendered acceptance, push, deployment or production mutation occurred. The first live test now uses immutable range `f0c222c..fcbd1076`.
 
 ## Reconciliation checkpoint, 21 August 2026 12:07 IST
 
