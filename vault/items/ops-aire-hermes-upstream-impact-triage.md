@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-08-21T04:03:00+01:00"
+updated_at: "2026-08-21T08:07:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 21 August 2026 08:07 IST
+
+The installed Hermes checkout advanced cleanly from `4a5b6dd` to `524b062`, an 80-commit source movement. That checkout is 39 commits beyond the prior upstream checkpoint `18a15a46` and 1,463 commits beyond compatibility base `f0c222c`. Direct GitHub `main` is `8e77d031`, eight commits beyond the checkout, 47 beyond `18a15a46` and 1,471 beyond `f0c222c`.
+
+The newly installed range materially changes relay-exclusive messaging, memory-store permissions and recovery, OpenCode provider routing, durable Bot Mode room sync, structured update receipts, Telegram rich-final handling, old-session editing and Desktop pinned-session behaviour. The upstream-only eight commits add macOS launchd process discovery/orphan-reaper fixes, Teams meeting-path parsing and prompt-cache idempotency. These are review inputs for Aire's messaging continuity, Profile/context authority, provider routing, Work durability, update evidence and Desktop parity; they are not Aire progress or acceptance.
+
+The current supervised gateway process started at 07:22 IST, three minutes after the current checkout commit; Hermes health returned `200`, and unauthenticated Aire status, context and Work probes returned `401`. This corrects the prior process-age statement but does not prove exact runtime code identity or owner acceptance. `hermes --version` reported v0.20.4 with upstream `8e77d031` and “Up to date” while Git still showed the checkout eight commits behind; keep that reporting contradiction open. The accepted and compatibility heads remain clean and unpublished at `83e582c`, `944a03e` and `1004f3e`, and the older root checkout remains unaccepted dirty drift at `d533206b`. Tailscale still lists the Mac and iPhone, Serve remains tailnet-only to loopback `8766`, and ordinary host-side HTTPS resolution still fails. No authenticated owner probe, source integration, physical installation, rendered acceptance, push, deployment or production mutation occurred. The first live test now uses immutable range `f0c222c..8e77d031`.
 
 ## Reconciliation checkpoint, 21 August 2026 04:03 IST
 
