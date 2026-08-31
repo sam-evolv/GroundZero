@@ -56,6 +56,7 @@ This is the first note to load when a model needs cross-business context.
 - [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]] — adopted context ledger and hardware-evidenced local-model gate
 - [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]] — Ground Zero is authoritative; Hermes memory is bootstrap only
 - [[context/agentic-value-creation-mission]] — mission and agency ladder for AI-native value creation
+- [[decisions/2026-08-31-agent-legible-system-design-standard]] — portfolio-wide standard for agent-intuitive, agent-ergonomic and agent-accretive systems, briefs and handoffs
 - [[briefs/2026-08-07-aire-six-month-autonomous-company-mission]] — six-month Aire product, company-autonomy and public-proof mission
 - [[briefs/2026-08-12-aire-irish-trust-simplicity-and-sovereignty-thesis]] — Irish usefulness, honest sovereignty, invisible complexity and distribution thesis
 - [[briefs/2026-08-12-irish-decision-simulation-opportunity]] — fact-checked Light Society and Aaru research, simulation method map and a bounded Irish validation wedge
