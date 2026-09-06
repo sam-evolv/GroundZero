@@ -10,10 +10,17 @@ effort: M
 impact: 95
 source: Sam-supplied project briefs, 2026-08-13 and 2026-08-29
 created_at: "2026-08-13T00:00:00+01:00"
-updated_at: "2026-09-06T20:29:00+01:00"
+updated_at: "2026-09-07T00:02:00+01:00"
 ---
 
 # Here’s Health Week 1 discovery and technical proof
+
+## Published corrected preview checkpoint — 7 September 2026, 00:02 IST
+
+- Exact local candidate `49f19d44f199ae8598cb2e724f84327dc65557eb` / tree `bd9082cb945a3338326225b21bc119767dbe4d17` / bundle SHA-256 `50004ccaffc88c99b6bd49030f6f7ceccf5fe1b1bd6d5227c78c942fc51f10f5` is independently accepted with conditions. Vera reproduced the repaired motion bind in Chromium and WebKit, toast-free share art, readable detail layout, truthful café/Shop mutation feedback, browser-local usual persistence, 159 resolved image slots and regression tests that fail on rejected `a56fe56…`.
+- The accepted 76-file runtime is live on isolated preview deployment `dpl_GeDQdf2EPTTeDNccui5uggNn7R5F`. Independent hosted review matched 76/76 anonymous files and exercised Chromium/WebKit mobile geometry and journeys. Direct 00:02 readback returned HTTP `200`, accepted root SHA-256 `4e727d0f8e7ba27644551c3858835fbcfb5f8152c823d1f111266fdc1b85aeed`, and Vercel reported the deployment `READY`; the protected original project remained unchanged in the receipts.
+- The current 33.9-second MP4 `69345e5c…` is verified as truthful but is not accepted as the directed launch film and is not ready for Conor. Follow-on film task `t_d3f63524` was still running with no completed or independently reviewed replacement at this checkpoint.
+- Week 1 stays `building`: physical-iPhone and real-unfurl checks, Square/Shopify/Acuity account and transaction proof, staff hardware/fulfilment, app-account ownership, legal/commercial gates, release mode and client approval remain open. No client message was sent.
 
 ## Evening pre-sales proof checkpoint — 6 September 2026, 20:29 IST
 

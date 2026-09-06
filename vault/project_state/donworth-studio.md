@@ -1,14 +1,21 @@
 ---
 id: donworth-studio
 company_id: donworth-ai-solutions
-headline: "The general Astra delivery baseline remains held on included-only routing; Here’s Health has a reviewed imagery baseline live, but its latest nav/personal-usual candidate failed Vera's motion-runtime inspection. Finder replay still awaits Sam and genuine Windows runtime remains untested."
+headline: "The general Astra delivery baseline remains held; Here’s Health corrected candidate `49f19d44` is independently accepted and live on its isolated preview, but physical-phone/unfurl proof and the directed client film remain open. Finder replay still awaits Sam and genuine Windows runtime remains untested."
 valid: true
-updated_at: "2026-09-06T20:29:00+01:00"
+updated_at: "2026-09-07T00:02:00+01:00"
 role: project-state
 status: building
 ---
 
 # Donworth Studio project state
+
+## Here’s Health corrected preview live; film and Desktop gates remain open — 7 September 2026, 00:02 IST
+
+- **Here’s Health's rejected combined candidate was corrected and independently accepted.** Forge completed `49f19d44f199ae8598cb2e724f84327dc65557eb` / bundle SHA-256 `50004ccaffc88c99b6bd49030f6f7ceccf5fe1b1bd6d5227c78c942fc51f10f5`; Vera task `t_6cc818f5` accepted with conditions after independent Chromium/WebKit motion, detail-layout, truthful mutation, usual-persistence, imagery and failed-baseline regression checks.
+- **The exact accepted 76-file runtime is now live on the isolated preview.** Deployment `dpl_GeDQdf2EPTTeDNccui5uggNn7R5F` serves `https://heres-health-preview.vercel.app/`; Vera task `t_45736ee7` independently accepted the hosted bytes and anonymous mobile journeys with conditions. Direct 00:02 readback matched accepted root SHA-256 `4e727d0f8e7ba27644551c3858835fbcfb5f8152c823d1f111266fdc1b85aeed` and Vercel reported the deployment `READY`. The protected original Here’s Health deployment remained unchanged.
+- **The client film remains a real quality gate.** Vera accepted `69345e5c…` only as a truthful walkthrough and explicitly marked it not ready to send at Sam's directed-film standard. Forge task `t_d3f63524` was running a new composition pass at this checkpoint; no replacement artifact or Vera verdict exists yet. Physical iPhone/Safari and real social-unfurl checks also remain open; Sam owns any Conor send.
+- **Other delivery boundaries did not move.** The general Astra/included-only routing baseline remains blocked, Finder replay `t_f638f8a1` remains in triage with no active run, and genuine Windows runtime remains untested. No client contact, paid provider action, install-over, production integration or Desktop acceptance occurred.
 
 ## Here’s Health preview advanced; general delivery and Desktop gates unchanged — 6 September 2026, 20:29 IST
 

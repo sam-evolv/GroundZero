@@ -3,7 +3,7 @@ id: donworth-ai-solutions
 name: Donworth Studio
 role: primary-company
 status: active
-updated: "2026-09-06"
+updated: "2026-09-07"
 ---
 
 # Donworth Studio
@@ -14,6 +14,11 @@ updated: "2026-09-06"
 - Substantial engineering is routed through Forge in isolated worktrees and independently verified by Vera; Sam remains the sole human approval point for push, merge, deployment, spending, production mutation and client communication.
 - Here’s Health is the active pre-sales client engagement currently anchoring delivery proof. Sam corrected the commercial status on 5 September: the owner is not yet fully committed, so current browser-preview work is intended to earn the commission rather than authorize full production delivery. Exact scope, commerce integrations, app-store ownership and release gates remain in discovery.
 - The independently accepted premium marketing site is live at `https://donworthstudio.ie/` and `https://www.donworthstudio.ie/` on exact Vercel deployment `dpl_vn6y2scDJK8N7ZtyFWZQSPPJQ7XN`. Its accepted source now has a verified private GitHub snapshot at root commit `07dba716c7198a725aa0d40cb5292eda9089c0c5` / tree `761b1d67889f5ba1a3716686bee6973158673ca2`, path/blob-identical to accepted live commit `a461aed26c1e8d1f3704f5398e95cbad5cd0b7d5`. The showcase gallery and approval-gated next-client outreach remain separate from product delivery; domain-transfer custody is still open and no outreach was sent during the 5 September reconciliation.
+
+## Current delivery checkpoint — 7 September 2026, 00:02 IST
+
+- Here’s Health pre-sales candidate `49f19d44…` / bundle `50004cca…` is independently accepted with conditions and live on the isolated preview as Ready deployment `dpl_GeDQdf2EPTTeDNccui5uggNn7R5F`; independent hosted verification matched 76/76 files and passed Chromium/WebKit mobile journeys. Physical-phone and real-unfurl proof remain open, and the latest reviewed video is truthful but not ready to send at Sam's directed-film standard. Follow-on film task `t_d3f63524` was running without a completed/reviewed replacement. No Conor contact occurred.
+- The general Astra delivery baseline remains blocked; Finder replay remains in triage and genuine Windows runtime remains untested. The public Donworth domains and exact accepted deployment are unchanged.
 
 ## Internal operating app
 

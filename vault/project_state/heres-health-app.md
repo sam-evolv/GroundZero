@@ -1,14 +1,21 @@
 ---
 id: heres-health-app
 company_id: heres-health
-headline: The public preview serves the independently reviewed 159-slot imagery baseline at `12a7bd5`; local nav fix `14f1162` is accepted with conditions, while Vera found `a56fe56` does not bind its motion runtime and is not releasable as submitted.
+headline: Exact candidate `49f19d44` is independently accepted with conditions and live on isolated preview `dpl_GeDQdf2EPTTeDNccui5uggNn7R5F`; 76/76 hosted files and Chromium/WebKit journeys are verified, while physical-iPhone, real-unfurl and directed-film acceptance remain open.
 valid: true
-updated_at: "2026-09-06T20:29:00+01:00"
+updated_at: "2026-09-07T00:02:00+01:00"
 role: project-state
 status: active-discovery
 ---
 
 # Here’s Health app project state
+
+## Corrected app accepted and published; directed film remains open — 7 September 2026, 00:02 IST
+
+- **The rejected `a56fe56…` lineage was corrected and independently accepted with conditions.** Forge task `t_1446610d` produced local commit `49f19d44f199ae8598cb2e724f84327dc65557eb` / tree `bd9082cb945a3338326225b21bc119767dbe4d17` / bundle SHA-256 `50004ccaffc88c99b6bd49030f6f7ceccf5fe1b1bd6d5227c78c942fc51f10f5`. Vera task `t_6cc818f5` independently reproduced Chromium and WebKit Home-entry and café/drink motion, toast-free share artwork, readable allergen/detail layout, Shop `Added ✓`, the browser-local usual journey, 159 resolved imagery slots and new tests that fail on the rejected snapshot. Retained conditions are the brief Back-overlay completion, a forced-scroll geometry caveat with readable pixels and a stale implementation receipt superseded by Vera's verdict.
+- **Those exact bytes are now live on the isolated public preview.** Forge release task `t_c98ae5c9` published only the accepted 76-file runtime to `https://heres-health-preview.vercel.app/` as deployment `dpl_GeDQdf2EPTTeDNccui5uggNn7R5F`. Vera task `t_45736ee7` independently accepted the hosted preview with conditions after 76/76 anonymous hash matches, public 1200×630 OG JPEG verification and Chromium/WebKit 320/390/430 navigation plus 390-pixel usual, Shop, Sauna, motion and reduced-motion journeys. Direct 7 September 00:02 readback still returned HTTP `200`, root SHA-256 `4e727d0f8e7ba27644551c3858835fbcfb5f8152c823d1f111266fdc1b85aeed`, and Vercel `READY` on that exact deployment. The protected `heres-health-app` deployment remained separate and unchanged in the release/review receipts.
+- **The client film is not yet accepted at Sam's directed quality bar.** Vera task `t_645ee068` accepted recut MP4 SHA-256 `69345e5cdfd0633d45bbedef6411df6bf6f330c892bc92632bf174e78fc3a528` only as a truthful 33.9-second walkthrough, not as the required Shapelayer-level launch film; it was not attached for client handoff and `ready_to_send` is false. At 00:02, follow-on Forge task `t_d3f63524` was running a directed composition pass, with no completed artifact or independent verdict yet.
+- **Boundaries remain explicit.** No physical iPhone/Safari check, real Telegram/WhatsApp unfurl, Square, Shopify or Acuity transaction, account inspection, client contact, app-store action or production integration is proven by this preview. Sam still owns any Conor send.
 
 ## Imagery baseline live; nav and personal-usual candidate remain gated — 6 September 2026, 20:29 IST
 

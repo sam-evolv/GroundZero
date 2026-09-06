@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains at `96e1e3f9`; direct upstream advanced to `6d9c1664`, 298 commits and 479 paths ahead. All three accepted Aire candidates remain clean in their recorded worktrees, but `1004f3e4` is held in a separate Hermes repository rather than the canonical IrelandGPT object store.
+headline: Installed Hermes remains at `96e1e3f9`; direct upstream advanced to `693641aa`, 362 commits and 554 paths ahead. The CLI now names the direct head but reports only 267 behind. Accepted Aire candidates remain unchanged and unintegrated.
 status: building
-updated: 2026-09-06
+updated: 2026-09-07
 role: project-state
 ---
 
 # Personal agent project state
+
+## Live upstream and source-custody reconciliation — 7 September 2026, 00:02 IST
+
+- Installed Hermes remains at `96e1e3f9219e56d16641c447e62adfbb0ea067ec`, with only untracked `.review-worktrees/`. Direct GitHub `main` and the installed checkout's refreshed `origin/main` are now `693641aa8b4359c602283bdbbc14041e03bc47bc`; immutable local Git places that head 362 commits and 554 paths ahead of the installation. The prior `6d9c16645599122d2dbac7ae689b6f73c4cd5fda` checkpoint is an ancestor with 64 newer commits across 104 paths.
+- `hermes --version` now identifies the direct upstream head `693641aa` but still reports only `267 commits behind`, understating the immutable Git distance by 95. The new range touches agent/delegation failure notices and watchdogs, cron claim recovery, gateway shutdown/restart and replay, Desktop sidebar/session hydration and SSH token custody, auth-store preservation, MCP cached health, memory spill handling, compression accounting/anchors and strict-provider tool-result compatibility. Source and commit inspection are compatibility-review inputs only; none proves those behaviors on Aire.
+- Accepted Aire worktrees remain unchanged and unintegrated: `83e582c7a9d17479020c5ef4817aee8be9f79ab7` and `944a03ec7470f1bd4b8812ad89a1adfb45f22b0a` remain clean without upstreams, while separate candidate `1004f3e48896f7aba7acea031278c4a49c9f24b9` remains clean without an upstream in its separately recorded Hermes repository. The older IrelandGPT root remains at `d533206b…` with its prior dirty state. No source integration, authenticated route, rendered Aire surface or physical-device acceptance advanced.
 
 ## Live upstream and source-custody reconciliation — 6 September 2026, 20:16 IST
 

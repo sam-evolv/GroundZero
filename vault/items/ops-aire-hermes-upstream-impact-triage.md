@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-09-06T20:16:00+01:00"
+updated_at: "2026-09-07T00:02:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 7 September 2026 00:02 IST
+
+Installed Hermes remains at `96e1e3f9219e56d16641c447e62adfbb0ea067ec` with only untracked `.review-worktrees/`. Direct GitHub `main` and refreshed local tracking are `693641aa8b4359c602283bdbbc14041e03bc47bc`; immutable Git reports a 362-commit / 554-path installation gap. The prior `6d9c16645599122d2dbac7ae689b6f73c4cd5fda` checkpoint is an ancestor and the new range adds 64 commits across 104 paths. `hermes --version` identifies `693641aa` but reports only 267 behind, understating Git by 95.
+
+Queue this range for bounded compatibility review against Aire's agent/delegation failure truth and idle watchdog, cron one-shot claim recovery, gateway restart/shutdown and replay continuity, Desktop sidebar/session hydration and SSH token custody, auth-store preservation, MCP cached-health visibility, memory spill boundaries, restart-safe compression usage anchors and strict-provider tool-result compatibility. Commit messages and source movement do not prove those behaviors on Aire.
+
+Accepted Aire worktrees remain unchanged and unintegrated. `83e582c7a9d17479020c5ef4817aee8be9f79ab7` and `944a03ec7470f1bd4b8812ad89a1adfb45f22b0a` are clean without upstreams; separate `1004f3e48896f7aba7acea031278c4a49c9f24b9` remains clean without an upstream in `/Users/samdonworth/Projects/hermes-agent-aire-20260815`. No authenticated, rendered or physical-device acceptance changed.
 
 ## Reconciliation checkpoint, 6 September 2026 20:16 IST
 

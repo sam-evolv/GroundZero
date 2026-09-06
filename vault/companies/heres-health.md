@@ -10,6 +10,12 @@ created_at: "2026-08-13"
 
 # Here’s Health
 
+## Verified preview checkpoint — 7 September 2026, 00:02 IST
+
+- Corrected pre-sales candidate `49f19d44f199ae8598cb2e724f84327dc65557eb` / bundle SHA-256 `50004ccaffc88c99b6bd49030f6f7ceccf5fe1b1bd6d5227c78c942fc51f10f5` is independently accepted with conditions and now serves from the isolated `https://heres-health-preview.vercel.app/` deployment `dpl_GeDQdf2EPTTeDNccui5uggNn7R5F`. Vera independently matched all 76 hosted runtime files and exercised anonymous Chromium/WebKit mobile journeys; direct readback at this checkpoint returned HTTP `200` with accepted root SHA-256 `4e727d0f8e7ba27644551c3858835fbcfb5f8152c823d1f111266fdc1b85aeed` and Vercel reported the exact deployment `READY`.
+- This closes the rejected `a56fe56…` motion/share/clipping gate and supersedes the older `12a7bd5` public baseline. It does not close physical-iPhone or real social-unfurl proof. The protected original Here’s Health deployment remains separate.
+- The latest independently reviewed video, SHA-256 `69345e5c…`, is a truthful walkthrough but explicitly **not ready to send** as Sam's directed launch film; follow-on task `t_d3f63524` was still running at 00:02 with no completed or reviewed replacement. No Conor contact, commerce transaction, account access or production integration occurred.
+
 ## Snapshot
 
 Established Cork family business with multiple health-food stores, cafés, an online Shopify store and a sauna/cold-plunge offering. A new café is expected in roughly two months, according to Sam’s 29 August meeting record. Sam was introduced to owner Conor by Keith Crowley.

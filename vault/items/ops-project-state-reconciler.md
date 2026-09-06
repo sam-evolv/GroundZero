@@ -12,8 +12,14 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-09-06T20:29:00+01:00"
+updated_at: "2026-09-07T00:02:00+01:00"
 ---
+
+## Reconciliation checkpoint — 7 September 2026, 00:02 IST
+
+- **Here’s Health materially advanced from rejected local work to a conditionally accepted hosted preview.** Corrected commit `49f19d44f199ae8598cb2e724f84327dc65557eb` / bundle SHA-256 `50004ccaffc88c99b6bd49030f6f7ceccf5fe1b1bd6d5227c78c942fc51f10f5` passed Vera's independent local Chromium/WebKit motion, layout, mutation, usual-persistence, imagery and failed-baseline checks. Exact 76-file runtime is live at `https://heres-health-preview.vercel.app/` on Ready deployment `dpl_GeDQdf2EPTTeDNccui5uggNn7R5F`; Vera independently matched 76/76 anonymous files and passed hosted mobile journeys. Direct readback still returned HTTP `200` and accepted root SHA-256 `4e727d0f…`. Physical iPhone and real social unfurls remain unproven. The current `69345e5c…` video is truthful but not accepted as the directed launch film; follow-on `t_d3f63524` was running with no completed or independently reviewed replacement. No Conor contact occurred.
+- **Hermes upstream materially advanced.** Installed source remains `96e1e3f9…`; direct GitHub and refreshed local tracking are `693641aa…`, 362 commits and 554 paths ahead, with 64 commits / 104 paths added since `6d9c1664…`. `hermes --version` names the direct head but reports only 267 behind, understating immutable Git by 95. Accepted Aire source custody and acceptance state are unchanged; no integration was inferred.
+- **Other directly named live sources did not transition.** Donworth's live domains still return identical accepted 740-byte roots on Ready `dpl_vn6y2scDJK8N7ZtyFWZQSPPJQ7XN`; Finder replay remains in triage. OpenHouse remains at GitHub `0a9d0509…` with 12 open PRs and 6 open non-PR issues, production Ready on `dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si`, HTTP `200`, and named staging HTTP `404`. OpenBook heads remain `c72bf48…` and `a34f257…`; GymMaster remains clean at `658e67a…`, while Empire Gym returned HTTP `200`, six distinct Stripe URLs and no GymMaster marker. Cara heads and local dirty counts remain unchanged. Renew names no inspectable live system. No source push, merge, install, client contact, secret access or additional production mutation was performed by this reconciliation.
 
 ## Reconciliation checkpoint — 6 September 2026, 20:29 IST
 
