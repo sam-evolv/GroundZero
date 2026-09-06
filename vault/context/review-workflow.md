@@ -89,6 +89,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-daily-sync-digest]]
 - [[items/ops-project-state-reconciler]]
 - [[items/ops-source-to-wiki-ingest]]
+- [[items/ops-vault-sync-change-receipt-gate]]
 - [[items/ops-weekly-status-pack]]
 - [[project_state/ob]]
 - [[project_state/oh]]

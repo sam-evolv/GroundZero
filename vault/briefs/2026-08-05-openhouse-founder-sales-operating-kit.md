@@ -336,6 +336,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/index]]
 - [[context/linkedin-network]]
 - [[context/openhouse-sales-routes]]
+- [[items/oh-developer-outreach-proposal-pack]]
 - [[items/oh-uk-aftercare-design-partner-sprint]]
 - [[items/oh-us-builder-warranty-discovery-sprint]]
 - [[project_state/oh]]

@@ -93,3 +93,23 @@ Do not turn this into process theatre. Trivial questions and one-step actions do
 - [[context/solo-founder-era]]
 - [[context/founder-execution-os]]
 - [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-01-ios-physical-device-qa-lab-opportunity]]
+- [[briefs/2026-09-03-donworth-hybrid-privacy-boundary-receipt-benchmark]]
+- [[companies/donworth-ai-solutions]]
+- [[context/agentic-value-creation-mission]]
+- [[context/founder-execution-os]]
+- [[context/index]]
+- [[context/solo-founder-era]]
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
+- [[decisions/2026-08-31-donworth-private-alpha-openrouter-budgets-and-credential-boundary]]
+- [[decisions/2026-09-01-donworth-imessage-first-remote-control-channel]]
+- [[decisions/2026-09-03-hermes-lossless-output-bounding]]
+- [[items/donworth-native-evidence-and-route-evaluation]]
+- [[items/ops-accepted-artifact-custody-gate]]
+- [[items/ops-desktop-ui-approval-readiness-gate]]
+- [[items/ops-graph-engineering-pilot]]
+- [[project_state/donworth-studio]]
+

@@ -163,6 +163,7 @@ A compelling experience is likely not a chat box alone. It should combine a simp
 
 - [[imports/2026-08-06-personal-agent-founder-voice-notes]] — shared signals: personal, founder, voice
 - [[imports/chatgpt/ireland-gpt-product-strategy-session-2026-08-06]] — shared signals: strategy, product, chatgpt
+- [[capture/inbox]] — shared signals: capture
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
@@ -189,6 +190,22 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-18]]
 - [[briefs/wiki-refiner-2026-08-19]]
 - [[briefs/wiki-refiner-2026-08-20]]
+- [[briefs/wiki-refiner-2026-08-21]]
+- [[briefs/wiki-refiner-2026-08-22]]
+- [[briefs/wiki-refiner-2026-08-23]]
+- [[briefs/wiki-refiner-2026-08-24]]
+- [[briefs/wiki-refiner-2026-08-25]]
+- [[briefs/wiki-refiner-2026-08-26]]
+- [[briefs/wiki-refiner-2026-08-27]]
+- [[briefs/wiki-refiner-2026-08-28]]
+- [[briefs/wiki-refiner-2026-08-29]]
+- [[briefs/wiki-refiner-2026-08-30]]
+- [[briefs/wiki-refiner-2026-08-31]]
+- [[briefs/wiki-refiner-2026-09-01]]
+- [[briefs/wiki-refiner-2026-09-02]]
+- [[briefs/wiki-refiner-2026-09-03]]
+- [[briefs/wiki-refiner-2026-09-04]]
+- [[briefs/wiki-refiner-2026-09-05]]
 - [[companies/cara]]
 - [[companies/openbook]]
 - [[companies/personal-agent]]

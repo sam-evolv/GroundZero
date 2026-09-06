@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-08-17"
+updated_at: "2026-09-05"
 ---
 
 # Ideas Index
@@ -17,11 +17,21 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/personal-agent-unit-economics-and-onboarding]] | Validate guest use, conversion, living Profile, tier economics and family safety | L | proposed 🔥 |
 | [[items/aire-health-specialist-coach]] | Revisit a premium specialist health, fitness, nutrition and recovery agent | L | parked |
 
+## Donworth Studio
+
+| Item | Summary | Size | Status |
+|---|---|---|---|
+| [[items/donworth-publishable-and-outreach]] | Publishable studio/showcase sites plus approval-gated next-client outreach | M | building 🔥 |
+| [[items/donworth-native-evidence-and-route-evaluation]] | First-party evidence receipts and bounded model-route evaluation; independent review pending | M | building 🔥 |
+| [[project_state/donworth-studio]] | Accepted local Desktop bundle plus current-upstream, runtime, tester-security and Windows gates | L | building 🔥 |
+
 ## Here’s Health
 
 | Item | Summary | Size | Status |
 |---|---|---|---|
 | [[items/heres-health-week-one-discovery-and-technical-proof]] | Prove Square, Shopify, café operations and release-account readiness before locking Phase One | M | building 🔥 |
+| [[items/heres-health-westron-price-file-diff-proof]] | Review-only supplier price-file diff against Westron before any production integration | S | proposed |
+| [[items/heres-health-planday-brightpay-export-proof]] | Review-only Planday-to-BrightPay export parity proof before any rostering replacement | S | proposed |
 
 ## Cara
 
@@ -89,8 +99,11 @@ This index tracks the current active idea queue. Each entry links to its item no
 |---|---|---|---|
 | [[items/ops-daily-sync-digest]] | Daily ops anomaly check | P1 | proposed |
 | [[items/ops-project-state-reconciler]] | Reconcile project_state and unpublished local source custody from live signals | P1 | proposed |
+| [[items/ops-accepted-artifact-custody-gate]] | Block cleanup when accepted artifact bytes lack durable custody | P1 | proposed |
+| [[items/ops-desktop-ui-approval-readiness-gate]] | Gate native desktop review on driver/TCC health and exact action-scope approval | P1 | proposed |
 | [[items/ops-aire-hermes-upstream-impact-triage]] | Triage pinned upstream Hermes ranges into an Aire compatibility-impact queue | P1 | proposed |
 | [[items/ops-source-to-wiki-ingest]] | Auto-file imports into wiki | P1 | proposed |
+| [[items/ops-vault-sync-change-receipt-gate]] | Gate vault sync with a reviewed change-set receipt | P1 | proposed |
 | [[items/ops-pr-issue-ageing-escalator]] | Stale PR/issue escalation | P1 | proposed |
 | [[items/ops-daily-report-pack]] | Daily reporting per company | P1 | proposed |
 | [[items/ops-graph-engineering-pilot]] | Bounded evidence graph; first slice assembles fail-closed release receipts | P1 | proposed |

@@ -31,6 +31,7 @@ Keep the current experiment focused on OpenHouse. Do not divert into the previou
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-openbook-reset]]
+- [[briefs/2026-09-04-openhouse-ciri-provider-of-record-wedge]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
 - [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]

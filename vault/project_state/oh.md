@@ -3,11 +3,31 @@ id: oh
 company_id: openhouse-ai
 headline: Enterprise Ireland funding now depends on paid developer validation; OpenHouse resumes Sunday with that commercial objective.
 valid: true
-updated_at: "2026-08-21T16:03:00+01:00"
+updated_at: "2026-09-03T04:02:00+01:00"
 role: project-state
 ---
 
+**Live delivery reconciliation, 2026-09-03 04:02 IST:** GitHub `sam-evolv/property-assistant` `main` remains `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`; the queue remains 12 open pull requests and 6 open issues. The production alias still resolves to Ready deployment `dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si` (`property-assistant-3iultu0s5-openhouseais-projects.vercel.app`) and returned HTTP `200`. Current Vercel deployment metadata now exposes framework `nextjs` plus explicit workspace install, build and `apps/unified-portal/.next` output settings, correcting the 1 September inspection's `framework: other` / null-settings gap. It still exposes no immutable `gitSource` SHA, so current production-source binding remains open. The named staging URL still returns `404`; no authenticated route, Supabase row/policy/migration, storage, email or Stripe path was exercised. Keep [[items/oh-rls-audit]] and [[items/oh-production-migration]] blocked on their direct authority and persisted-receipt gates.
+
+**Live delivery reconciliation, 2026-09-02 00:15 IST:** GitHub `sam-evolv/property-assistant` `main` remains `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`; the queue remains 12 open pull requests and 6 open issues. The production alias now resolves to Ready deployment `dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si` (`property-assistant-3iultu0s5-openhouseais-projects.vercel.app`), created 1 September at 11:33 IST—an earlier-created, different deployment than `dpl_G1hTxWoCfJQ1iLsxiTceWD8wE42r` recorded at the 12:08 checkpoint. A fresh public request returned HTTP `200`. The previously recorded staging URL `property-assistant-red.vercel.app` now returns `404 DEPLOYMENT_NOT_FOUND`, so it is not a usable review surface. Vercel inspection did not expose an immutable source SHA for the current production deployment; the browser provider supplied no CDP endpoint; and no authenticated route, Supabase row/policy/migration, storage, email or Stripe path was exercised. Keep [[items/oh-rls-audit]] and [[items/oh-production-migration]] blocked on their existing direct authority and persisted-receipt gates.
+
+**Live source reconciliation, 2026-09-01 12:08 IST:** GitHub `sam-evolv/property-assistant` `main` is now `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`, seven commits beyond the previous `0294afca` checkpoint. The immutable range adds private-document storage-policy/schema migrations, user-facing private-document upload/download and quote-decision fallback work, browser/client tests and quote-decision guardrails. Local tracking `origin/main` and a clean detached worktree match that exact commit; the repository root remains dirty at `23ba52db` with numerous pre-existing entries and is not used as clean proof. Vercel project `property-assistant` reports production status Ready for deployment `dpl_G1hTxWoCfJQ1iLsxiTceWD8wE42r`, created 1 September at 11:43 IST, with source `gitSource.sha` `0a9d0509…` and production aliases including `portal.openhouseai.ie`; a fresh public request returned HTTP 200. This establishes source and deployment custody only. Vercel still reports framework `other` and null root/build/install/output settings, and this run exercised no authenticated page, production data, RLS, storage write/read, email or Stripe flow. Keep [[items/oh-rls-audit]] and [[items/oh-production-migration]] blocked until direct authenticated `auth.uid()` policy probes, migration receipts, persisted-row checks and explicit source/build binding are proven. GitHub still has 12 open pull requests and 6 open issues; backlog counts are not delivery acceptance.
+
 **Enterprise Ireland validation gate and focus decision, 2026-08-21:** Sam reports that the Enterprise Ireland meeting went okay and that Enterprise Ireland indicated external commercial validation, specifically a property developer paying for OpenHouse, would enable him to secure funding. This is Sam's report of the meeting, not a written funding commitment or completed offer. Sam decided to pause OpenHouse for the remainder of Friday, focus on Donworth AI Solutions, then resume OpenHouse on Sunday 23 August with paid developer validation and renewed relationship-led outreach as the explicit objective. This decision does not itself authorise outbound messages.
+
+**Local source-custody reconciliation, 2026-08-29 08:07 IST:** Git worktree inventory now exposes a clean, previously unrecorded local worktree at `/Users/samdonworth/GroundZero/worktrees/openhouse-myhome-status-overlap`, branch `fix/my-home-status-overlap`, exact local commit `a044902d1b69`. It has no upstream, no remote containment and no GitHub commit object. The commit is one local commit above isolated V2 head `ffb00731`; its four-file scope repairs My Home evidence-status overlap and adds a focused layout smoke. This is local source-custody movement only: no test or build was run in this reconciliation, no deployment or preview is cryptographically bound to the commit, and no rendered homeowner or physical-device acceptance exists. The 17:50 IST preview timestamp matches the local commit time but is not treated as provenance. GitHub `main` remains `0294afca`; the queue remains twelve open pull requests and six non-PR issues; PR #205 remains open, mergeable and clean at `5d56e3bb`; rulesets remain empty. Production remains Ready deployment `property-assistant-ewcgajyl6` (`dpl_BTpBGA7Z8A7TrZUsdPhu8rhbMgRL`). Fresh isolated-browser inspection rendered the public login choices “My Home” and “Developer Portal”, but no button or authenticated route was opened. Supabase lists project `mddxbilpjukwskeefakz` as `ACTIVE_HEALTHY`, but the checkout remains unlinked and no data, migration or RLS probe ran. No repository, database, alias or production mutation occurred; the My Home isolation decision and tenant-audit gap remain unchanged.
+
+**Rendered public-surface reconciliation, 2026-08-28 08:02 IST:** The exact public production alias still resolves to Ready deployment `property-assistant-ewcgajyl6` (`dpl_BTpBGA7Z8A7TrZUsdPhu8rhbMgRL`), and direct isolated-browser inspection of `https://portal.openhouseai.ie/login` rendered two public choices: “My Home — Access your new home portal” and “Developer Portal — Project management & analytics”. This closes the browser-provider availability gap for the public login surface only. No button was opened, no credentials or homeowner data were used, and no authenticated homeowner route was exercised; the observation therefore does not establish exposure of the isolated V2 My Home feature, tenant isolation, production source SHA or homeowner acceptance. GitHub `main`, the PR/issue queue, PR #205, rulesets, local V2 and dirty SE Systems demo custody remain unchanged, and no Supabase probe or mutation ran.
+
+**Live source reconciliation, 2026-08-27 20:05 IST:** GitHub `main` remains `0294afca`; the queue remains twelve open pull requests and six non-PR issues; PR #205 remains open, mergeable and clean at exact head `5d56e3bb`; repository rulesets remain empty and `main` remains unprotected. Vercel production remains Ready deployment `property-assistant-ewcgajyl6` (`dpl_BTpBGA7Z8A7TrZUsdPhu8rhbMgRL`) and owns `portal.openhouseai.ie`; the portal returned HTTP `200`. A newer Ready preview, `property-assistant-mnw10m7f4` (`dpl_FyN3hKa786J7yaQVfquynjdex32T`), was created at 17:50 IST. It is preview-only, exposes no live alias or immutable source commit through Vercel inspection, and is not treated as reviewed, accepted or production. Browser-rendered verification again remained unavailable because the browser provider supplied no CDP endpoint. The local V2 and dirty SE Systems demo heads remain `ffb00731`; no Supabase data, migration or RLS probe ran, and no repository, database, alias or production mutation occurred.
+
+**Live source reconciliation, 2026-08-27 16:03 IST:** GitHub `main` advanced one commit from `b1629c34` to `0294afca` on 26 August. The direct commit `fix: harden presentation login surfaces` has no associated pull request and changes seven layout, login and map-presentation files; the immutable file list contains no My Home, home-energy, home-model, migration or RLS path, so it does not close the tenant-isolation audit or change the isolated V2 decision. The queue remains twelve open pull requests and six non-PR issues; PR #205 remains open, mergeable and clean at exact head `5d56e3bb`; repository rulesets remain empty and `main` remains unprotected. Vercel production moved to Ready deployment `property-assistant-ewcgajyl6` (`dpl_BTpBGA7Z8A7TrZUsdPhu8rhbMgRL`), created 26 August 20:46 IST, and it owns `portal.openhouseai.ie`; the portal returned HTTP `200`. Vercel inspection exposed no immutable source commit, so the production deployment is not cryptographically bound here to `0294afca`; browser-rendered verification was unavailable because the browser provider supplied no CDP endpoint and web extraction was unavailable. The local V2 checkout remains at unpushed `ffb00731`; the SE Systems demo worktree remains at the same head with seven modified and two untracked paths. No Supabase data, migration or RLS probe ran, no local source was changed by reconciliation, and no rendered homeowner acceptance is claimed.
+
+**Live source reconciliation, 2026-08-24 12:10 IST:** GitHub `main` remains `b1629c34`, with twelve open pull requests, six non-PR issues, no repository rulesets and no `main` branch protection; PR #205 remains open, mergeable and clean at exact head `5d56e3bb`. Vercel production `property-assistant-mi8xczgvc` remains Ready and owns `portal.openhouseai.ie`; the portal returned HTTP `200`, proving availability only. Two new Ready previews appeared at 09:44 and 10:14 IST (`property-assistant-nvs9cg6fx` and `property-assistant-a6wk4545h`), both under the same Vercel preview alias. Neither is production, and Vercel inspection exposes no immutable source commit, so their source custody, review state and rendered acceptance remain open. The local V2 checkout remains at unpushed `ffb00731`, two commits ahead of its tracking branch with an untracked `.worktrees/` directory; the SE Systems demo worktree remains at the same head with seven modified and two untracked paths and no upstream. No Supabase data, migration or RLS probe ran, so the tenant-isolation audit remains blocked on the previously recorded safe database-query path. No repository, database, alias or production mutation occurred and no rendered homeowner acceptance was attempted.
+
+**Live source reconciliation, 2026-08-23 20:03 IST:** Remote delivery and local source custody remain unchanged: GitHub `main` is still `b1629c34`, with twelve open pull requests, six non-PR issues, no repository rulesets and no `main` branch protection; PR #205 remains open, mergeable and clean at exact head `5d56e3bb`. Vercel production `property-assistant-mi8xczgvc` remains Ready and owns `portal.openhouseai.ie`; the two 21 August previews remain Ready/Error; and the portal returned HTTP `200`, proving availability only. The local V2 checkout remains at unpushed `ffb00731`, two commits ahead of remote branch `25c09c9c`, with an untracked `.worktrees/` directory; the SE Systems demo worktree remains at the same head with seven modified and two untracked paths and no upstream. The job shell now has Supabase management authentication and the CLI lists OpenHouse Database V2 `mddxbilpjukwskeefakz` as `ACTIVE_HEALTHY`, correcting the prior “token unset” blocker. Database authority is still unavailable: the checkout has no linked project ref and local `supabase status` cannot reach the configured Colima Docker socket. No Supabase data, RLS or migration probe ran, so the tenant-isolation audit remains blocked on a safe database-query path. No repository, database, alias or production mutation occurred and no rendered homeowner acceptance was attempted.
+
+**Live source reconciliation, 2026-08-22 04:03 IST:** Remote delivery and named local source custody are unchanged: GitHub `main` remains `b1629c34`, with twelve open pull requests, six non-PR issues, no repository rulesets and no `main` branch protection; PR #205 remains open, mergeable and clean at exact head `5d56e3bb`. Vercel production deployment `property-assistant-mi8xczgvc` remains Ready, the two 21 August previews remain Ready/Error respectively, and `https://portal.openhouseai.ie` returned HTTP `200`, proving availability only. The local V2 checkout remains at unpushed `ffb00731`, two commits ahead of its tracking branch with an untracked `.worktrees/` directory; the SE Systems demo worktree remains at the same head with seven modified and two untracked paths and no upstream. The Supabase CLI is authenticated and lists the OpenHouse V2 project, but the job shell has no `SUPABASE_ACCESS_TOKEN`, this checkout has no linked project ref, and local `supabase status` cannot reach the configured Docker daemon. No Supabase data, RLS or migration probe therefore ran. The active tenant-isolation audit remains blocked on a safe database-authority path; no repository, database, alias or production mutation occurred.
 
 **Live source reconciliation, 2026-08-21 16:03 IST:** GitHub `main` remains `b1629c34`, with twelve open pull requests, six non-PR issues, no repository rulesets and no `main` branch protection. Vercel production deployment `property-assistant-mi8xczgvc` remains Ready and still owns the `portal.openhouseai.ie` alias; the portal returned HTTP `200`, proving availability only. Two newer preview deployments exist from 08:44–08:49 IST: `property-assistant-e0sb9mn6o` is Ready and `property-assistant-3t7ma94w1` is Error. Neither is production or owns the live alias, and Vercel inspection did not expose a source branch or immutable commit, so their source custody, review state and rendered acceptance remain unknown. The local V2 checkout remains at unpushed `ffb00731`, two commits ahead of its tracking branch and with an untracked `.worktrees/` directory; the separate SE Systems demo worktree remains at the same head with seven modified and two untracked paths and no upstream. No Supabase data, RLS or migration probe ran, and no repository, database, alias or production mutation was made.
 
@@ -110,6 +130,7 @@ The V2 rollout is still on track for end of month. Real Longview Estates data re
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]] - Cork property prospect list for consultancy sprint
 - [[imports/claude/openhouse-company-memory]] - shared signals: openhouse, company, claude
 
+- [[imports/linkedin/connections-2026-08-12]] — shared signals: connections, linkedin, 2026
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-25]]
@@ -148,6 +169,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
 - [[briefs/2026-08-10-openhouse-west-x-west-future-foundry-entry]]
 - [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]]
+- [[briefs/2026-09-04-openhouse-ciri-provider-of-record-wedge]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
 - [[briefs/chatgpt-voice-founder-os-2026-07-31]]
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
@@ -186,6 +208,9 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/openhouse-yc-acceptance-patterns-and-competitive-positioning-2026-07-29]]
 - [[briefs/substack-draft-2026-08-03-the-waiting-room]]
 - [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
+- [[briefs/substack-draft-2026-08-23-someone-still-has-to-pay]]
+- [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]
+- [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
 - [[briefs/wiki-refiner-2026-06-28]]
@@ -216,6 +241,22 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-18]]
 - [[briefs/wiki-refiner-2026-08-19]]
 - [[briefs/wiki-refiner-2026-08-20]]
+- [[briefs/wiki-refiner-2026-08-21]]
+- [[briefs/wiki-refiner-2026-08-22]]
+- [[briefs/wiki-refiner-2026-08-23]]
+- [[briefs/wiki-refiner-2026-08-24]]
+- [[briefs/wiki-refiner-2026-08-25]]
+- [[briefs/wiki-refiner-2026-08-26]]
+- [[briefs/wiki-refiner-2026-08-27]]
+- [[briefs/wiki-refiner-2026-08-28]]
+- [[briefs/wiki-refiner-2026-08-29]]
+- [[briefs/wiki-refiner-2026-08-30]]
+- [[briefs/wiki-refiner-2026-08-31]]
+- [[briefs/wiki-refiner-2026-09-01]]
+- [[briefs/wiki-refiner-2026-09-02]]
+- [[briefs/wiki-refiner-2026-09-03]]
+- [[briefs/wiki-refiner-2026-09-04]]
+- [[briefs/wiki-refiner-2026-09-05]]
 - [[companies/openhouse-ai]]
 - [[context/capture-workflow]]
 - [[context/dashboard]]
@@ -263,4 +304,5 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/oh-warranty-triage-router]]
 - [[items/ops-graph-engineering-pilot]]
 - [[items/ops-project-state-reconciler]]
+- [[items/ops-source-to-wiki-ingest]]
 

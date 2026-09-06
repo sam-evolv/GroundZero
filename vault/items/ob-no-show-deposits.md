@@ -55,7 +55,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
 - [[companies/openbook]]
 - [[context/business-opportunities-moc]]
-- [[context/dashboard]]
 - [[goals/ob-retention]]
 - [[goals/ob-supply]]
 - [[items/ob-cancellation-waitlist]]

@@ -73,4 +73,5 @@ Choose the take that is:
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-30-openhouse-yc-live-application-execution]]
 - [[briefs/openhouse-yc-fall-2026-live-form-candidate-2026-07-30]]
+- [[context/product-motion-video-design-standard]]
 

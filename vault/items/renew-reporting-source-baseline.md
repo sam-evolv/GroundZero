@@ -64,6 +64,7 @@ Promote the automation into a project if:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]]
 - [[briefs/daily-portfolio-brief-2026-07-19]]
 - [[briefs/solar-installer-workflow-analysis]]
 - [[companies/evolv-renewables]]
@@ -72,6 +73,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/renew-compliance-reporting-automation]]
 - [[items/renew-grid-automation]]
 - [[project_state/renew]]
+
 
 ## Recommendation
 

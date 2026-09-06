@@ -133,3 +133,18 @@ That is not a heroic ending. It is a useful place to start Sunday.
 ## Backlink context
 
 This draft should be surfaced through the weekly founder-journal chain and the linked project notes when the vault refiner next refreshes reverse backlinks. No other note was modified as part of this private draft.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
+- [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
+- [[items/oh-developer-outreach-proposal-pack]]
+- [[items/oh-rls-audit]]
+- [[people/sam-donworth]]
+- [[project_state/heres-health-app]]
+- [[project_state/oh]]
+- [[project_state/personal-agent]]
+

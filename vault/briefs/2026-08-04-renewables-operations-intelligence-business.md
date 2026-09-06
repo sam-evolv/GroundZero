@@ -484,7 +484,9 @@ Stop or materially narrow the idea if:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]]
 - [[project_state/renew]]
+
 
 ## Recommendation
 

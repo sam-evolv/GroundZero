@@ -133,6 +133,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-11-aire-health-specialist-coach]]
 - [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]]
 - [[briefs/substack-draft-2026-08-03-the-waiting-room]]
+- [[briefs/substack-draft-2026-08-23-someone-still-has-to-pay]]
 - [[context/linkedin-network]]
 - [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]
 - [[items/oh-rls-audit]]

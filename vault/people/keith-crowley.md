@@ -30,6 +30,7 @@ Valuable professional relationship who previously worked with Sam on DavidHoward
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-13-heres-health-digital-platform-phase-one]]
 - [[companies/heres-health]]
+- [[items/donworth-publishable-and-outreach]]
 - [[items/heres-health-week-one-discovery-and-technical-proof]]
 - [[people/conor-heres-health]]
 - [[people/sam-donworth]]

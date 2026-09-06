@@ -225,5 +225,6 @@ Proceed only if one portfolio owner will pay for the operational baseline and pr
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
 - [[briefs/2026-08-10-physical-world-intelligence-founder-debrief]]
+- [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]]
 - [[project_state/renew]]
 

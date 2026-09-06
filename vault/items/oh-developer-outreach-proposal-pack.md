@@ -114,14 +114,21 @@ Grounded in the 21 August paid-developer-validation gate and current 31-row/24-c
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-27-market-intel]]
+- [[briefs/2026-08-05-openhouse-first-message-approval-queue]]
+- [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
+- [[briefs/2026-09-04-openhouse-ciri-provider-of-record-wedge]]
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
+- [[briefs/substack-draft-2026-08-23-someone-still-has-to-pay]]
+- [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]
 - [[companies/openhouse-ai]]
 - [[context/openhouse-sales-routes]]
+- [[context/ops-automation-moc]]
 - [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
 - [[items/oh-answer-quality-audit-loop]]
 - [[items/oh-bridgewater-warm-introduction]]
 - [[items/oh-marketing-site-conversion-instrumentation]]
 - [[items/oh-proof-asset-engine]]
+- [[items/oh-uk-aftercare-design-partner-sprint]]
 - [[project_state/oh]]
 
 

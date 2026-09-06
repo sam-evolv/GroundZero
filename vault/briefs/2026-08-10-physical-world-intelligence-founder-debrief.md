@@ -94,6 +94,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]]
 - [[briefs/2026-08-04-renewable-operations-business-proposition]]
 - [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
+- [[briefs/2026-09-01-runway-solaris-interface-world-model-opportunity]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
 - [[companies/openhouse-ai]]

@@ -35,6 +35,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-renewable-operations-business-proposition]]
 - [[briefs/2026-08-04-renewables-operations-intelligence-business]]
 - [[briefs/2026-08-10-aire-business-operating-intelligence-thesis]]
+- [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/daily-ai-brief-2026-07-14]]
 - [[briefs/daily-portfolio-brief-2026-07-12]]

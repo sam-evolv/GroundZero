@@ -67,6 +67,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-06-personal-agent-delegation-first-promise]]
 - [[items/ops-aire-hermes-upstream-impact-triage]]
 - [[items/ops-graph-engineering-pilot]]
+- [[items/ops-project-state-reconciler]]
 - [[items/personal-agent-founder-dogfood-and-proof-loop]]
 - [[items/personal-agent-hermes-desktop-parity]]
 - [[project_state/personal-agent]]

@@ -256,6 +256,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/model-pack]]
 - [[context/review-workflow]]
 - [[decisions/2026-07-22-six-month-agent-co-pilot-protocol]]
+- [[decisions/2026-08-31-agent-legible-system-design-standard]]
 - [[items/ops-graph-engineering-pilot]]
 - [[people/sam-donworth]]
 

@@ -304,5 +304,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-openhouse-uk-aftercare-prospect-lane]]
 - [[briefs/2026-08-05-openhouse-us-builder-channel-prospect-lane]]
 - [[context/index]]
+- [[items/oh-developer-outreach-proposal-pack]]
 - [[project_state/oh]]
 

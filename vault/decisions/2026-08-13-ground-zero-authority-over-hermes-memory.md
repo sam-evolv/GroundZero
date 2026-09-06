@@ -49,13 +49,19 @@ A request materially dependent on Sam's history, projects, people, decisions or 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-25-heres-health-square-react-native-android-16-payment-rail-proof]]
+- [[companies/personal-agent]]
 - [[context/ground-zero-structure]]
 - [[context/index]]
 - [[context/model-pack]]
 - [[context/personal-context-data-contract]]
 - [[context/review-workflow]]
+- [[decisions/2026-08-31-agent-legible-system-design-standard]]
 - [[decisions/ground-zero-canonical]]
+- [[items/donworth-native-evidence-and-route-evaluation]]
 - [[items/ops-aire-hermes-upstream-impact-triage]]
 - [[items/ops-project-state-reconciler]]
+- [[items/ops-source-to-wiki-ingest]]
+- [[items/ops-vault-sync-change-receipt-gate]]
 - [[project_state/personal-agent]]
 

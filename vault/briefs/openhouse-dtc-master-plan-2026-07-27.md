@@ -982,6 +982,7 @@ This plan authorises a bounded DTC concierge validation track as the next produc
 - [[imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06]] — shared signals: delegation, strategy, ireland
 - [[imports/heres-health-app-project-brief-2026-08-13]] — shared signals: project, health, heres
 - [[imports/linkedin/connections-2026-08-12]] — shared signals: connections, linkedin, 2026
+- [[imports/heres-health-project-master-brief-2026-08-29]] — shared signals: project, health, master
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-market-readiness-audit]]
@@ -1022,6 +1023,22 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-08-18]]
 - [[briefs/wiki-refiner-2026-08-19]]
 - [[briefs/wiki-refiner-2026-08-20]]
+- [[briefs/wiki-refiner-2026-08-21]]
+- [[briefs/wiki-refiner-2026-08-22]]
+- [[briefs/wiki-refiner-2026-08-23]]
+- [[briefs/wiki-refiner-2026-08-24]]
+- [[briefs/wiki-refiner-2026-08-25]]
+- [[briefs/wiki-refiner-2026-08-26]]
+- [[briefs/wiki-refiner-2026-08-27]]
+- [[briefs/wiki-refiner-2026-08-28]]
+- [[briefs/wiki-refiner-2026-08-29]]
+- [[briefs/wiki-refiner-2026-08-30]]
+- [[briefs/wiki-refiner-2026-08-31]]
+- [[briefs/wiki-refiner-2026-09-01]]
+- [[briefs/wiki-refiner-2026-09-02]]
+- [[briefs/wiki-refiner-2026-09-03]]
+- [[briefs/wiki-refiner-2026-09-04]]
+- [[briefs/wiki-refiner-2026-09-05]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[context/openhouse-product-map]]

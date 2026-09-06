@@ -171,3 +171,19 @@ Now I have to make sure I know exactly what we are proceeding with.
 ## Backlink context
 
 This draft continues the private weekly founder-journal chain from [[briefs/substack-draft-2026-08-23-someone-still-has-to-pay]]. Its links create Obsidian backlinks on the source notes above. The vault refiner can add reverse-backlink sections later without changing this draft’s private or unpublished status.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[briefs/substack-draft-2026-08-23-someone-still-has-to-pay]]
+- [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
+- [[items/donworth-publishable-and-outreach]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
+- [[items/oh-developer-outreach-proposal-pack]]
+- [[items/oh-rls-audit]]
+- [[people/sam-donworth]]
+- [[project_state/heres-health-app]]
+- [[project_state/oh]]
+- [[project_state/personal-agent]]
+

@@ -152,6 +152,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-16-heres-health-commerce-integrity-support-wedge]]
 - [[briefs/2026-08-17-heres-health-customer-identity-linking-gate]]
 - [[briefs/2026-08-19-heres-health-ecommerce-accessibility-launch-gate]]
+- [[briefs/2026-08-25-heres-health-square-react-native-android-16-payment-rail-proof]]
+- [[briefs/2026-09-05-heres-health-notification-state-and-consent-receipt-gate]]
 - [[companies/heres-health]]
 - [[context/business-opportunities-moc]]
 - [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]

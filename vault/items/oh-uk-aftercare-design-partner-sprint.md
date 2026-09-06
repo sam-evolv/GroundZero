@@ -85,6 +85,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-07-22-six-month-agent-co-pilot-protocol]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-funder-pitch]]
+- [[items/oh-developer-outreach-proposal-pack]]
 - [[items/oh-handover-readiness-scan]]
 - [[items/oh-scheme-launch-scorecard]]
 - [[items/oh-warranty-evidence-pack]]

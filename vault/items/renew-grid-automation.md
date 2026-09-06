@@ -50,6 +50,7 @@ Good. Energy and compliance teams are under pressure to do more with fewer hours
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
+- [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]

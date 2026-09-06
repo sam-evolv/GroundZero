@@ -12,9 +12,25 @@ is_one_thing: false
 source: ground-zero-vault 2026-06-09
 run_date: "2026-06-09"
 created_at: "2026-06-09T20:00:00Z"
-updated_at: "2026-07-01T00:00:00+01:00"
-sync_status: "Checked 2026-07-01. OpenHouse repo still has 11 open PRs and 6 open issues. Vercel production latest deployment remains Ready. Supabase remote anomaly check is blocked by missing SUPABASE_ACCESS_TOKEN and a stopped Docker daemon."
+updated_at: "2026-09-03T04:02:00+01:00"
+sync_status: "Checked 2026-09-03 04:02 IST. GitHub main remains 0a9d0509 and the live alias remains on Ready deployment dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si. Vercel now exposes explicit Next.js install/build/output settings but no immutable gitSource SHA. No authorised migration, persisted-row, anomaly, backup-table or RLS probe ran; keep proposed and unverified."
 ---
+
+## Live-source checkpoint — 3 September 2026, 04:02 IST
+
+- GitHub `main` remains `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`; the production alias remains on Ready deployment `dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si` and returned HTTP `200`.
+- Current Vercel deployment metadata exposes framework `nextjs`, the explicit workspace install command, `npm --workspace=@openhouse/unified-portal run build`, and output `apps/unified-portal/.next`. This corrects the earlier `framework: other` / null-settings observation but does not bind the deployment to an immutable source because `gitSource` remains absent.
+- No authorised migration-application receipt, persisted-row comparison, anomaly check, backup-table inspection or authenticated RLS/storage path was exercised. The clean-week and backup-removal gates remain open; keep this item `proposed` and unverified.
+
+## Live-source checkpoint — 1 September 2026, 12:08 IST
+
+- GitHub `main` is now `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`, and the seven-commit range since `0294afca` adds private-document storage-policy/schema migrations and related user-facing work.
+- Vercel reports Ready deployment `dpl_G1hTxWoCfJQ1iLsxiTceWD8wE42r` from source SHA `0a9d0509…`; the public portal returns HTTP 200.
+- This does **not** prove the production database/storage migrations were applied or that legacy rows and authenticated read/write paths remain correct. Vercel source/build binding is also still non-explicit (`framework: other`; root/build/install/output settings null). Direct migration receipts, persisted-row probes and authenticated production validation remain mandatory.
+
+## Reconciliation checkpoint — 28 August 2026 00:07 IST
+
+GitHub currently has 12 open pull requests and 6 open issues. Vercel production deployment `dpl_BTpBGA7Z8A7TrZUsdPhu8rhbMgRL` remains Ready and owns `portal.openhouseai.ie`; deployment readiness and alias ownership do not prove rendered homeowner acceptance or exact source binding. No authorised Supabase data, anomaly, row-count, backup-table, migration or RLS probe ran, so the clean-week and backup-removal gates remain open. Keep this item `proposed` and do not infer migration completion from repository or deployment status.
 
 ## Opportunity size
 This is a high-value reliability task. Four schemes already run on live data, so the migration clean-up protects revenue, support load, and customer trust.

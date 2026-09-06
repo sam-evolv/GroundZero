@@ -13,7 +13,7 @@ is_one_thing: true
 source: graph engineering research 2026-08-04
 run_date: "2026-08-04"
 created_at: "2026-08-04T22:20:00+01:00"
-updated_at: "2026-08-14T18:02:55+01:00"
+updated_at: "2026-09-01T18:02:56+01:00"
 ---
 
 ## Objective
@@ -152,6 +152,59 @@ It replaces the ad hoc pre-acceptance comparison of candidate source and tests a
 
 Grounded in the 14 August live IrelandGPT status and diff, the reconciled source boundary in [[project_state/personal-agent]], the governing ledger in [[items/personal-agent-hermes-desktop-parity]], and the adopted decisions [[decisions/2026-08-06-personal-agent-runtime-first-sequence]], [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]] and [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]].
 
+## Material proposal, 1 September 2026 — iteration-budget retry evidence capsule
+
+Use the existing graph pilot for one bounded **retry evidence capsule** rather than opening a separate automation item or adding another standing monitor.
+
+### Bottleneck
+
+Long engineering tasks are losing decision-ready continuity at iteration-budget boundaries, so the next worker has to reconstruct the exact artifact, accepted evidence, failed stage and remaining gates before it can make a safe move. [[project_state/donworth-studio]] records three unaccepted package/runtime attempts in `t_c7fe271a`: run 97 timed out without complete positive-path evidence; run 99 found the omitted gateway `owner` contract and produced the independently accepted repair `ac651aa1…`; and run 103 reached the task gateway but the packaged UI entered local bootstrap, tried to fetch a local commit from GitHub, retained central `HERMES AGENT` and failed to render the seeded session. The successor integration lane `t_11738d3b` then exhausted run 104 mid-smoke. Its preserved evidence already bound one unsigned `app.asar` (`a132eb0897…`), 19 matched identity paths, two owned startup-repair paths and one pre-product AF_UNIX path-length failure, but retry 105 still had to inherit that boundary from narrative state. This is a verified recurring handoff problem, not a request to automate packaging or acceptance.
+
+### Value category
+
+- **Delivery reliability and risk reduction:** prevents a fresh worker from mixing candidates, reopening an accepted repair, skipping an open gate or treating preserved evidence as current acceptance.
+- **Time and model cost reclaimed:** replaces transcript archaeology and broad rediscovery after an iteration-budget death with one bounded, machine-readable resume point.
+- **Agent legibility:** operationalises the fresh-agent test in [[decisions/2026-08-31-agent-legible-system-design-standard]] for real Kanban retries.
+
+### Smallest live test
+
+After Sam activates the pilot, run one read-only assembler against the already active Donworth integration lane `t_11738d3b`. Read only its task contract, structured handoffs/comments, exact worktree Git metadata and named artifact receipts. Produce a draft capsule containing:
+
+1. task and retry identity;
+2. objective, owned/unowned scope and prohibited actions;
+3. exact base/head/tree plus package and evidence hashes;
+4. independently accepted facts and their receipt IDs;
+5. last attempted stage, deterministic failure signature and environment constraint;
+6. open gates and evidence that must not be promoted;
+7. the next single bounded probe; and
+8. invalidation rules for source, artifact, runtime or task-contract drift.
+
+Give the capsule and the existing card—not the old transcript—to one fresh Forge retry. For this fixture, the proposed next probe must remain the short task-owned temp/socket-root correction for the AF_UNIX harness failure, reusing the bound package only if source and `app.asar` hashes still match. The test must not edit source, rebuild, launch, install, drive the UI, change the card, or execute the probe; it evaluates whether a fresh worker can identify the safe next move from the capsule.
+
+### Evidence of success
+
+- The fresh worker reproduces the exact candidate and `app.asar` identity, keeps `ac651aa1…` as an independently accepted owner-contract repair, and does not call the replacement package installed or accepted.
+- It identifies the AF_UNIX path-length failure as pre-product and the short-path harness probe as next, without re-running or reopening the 19 identity paths merely to rediscover context; any freshness-driven rerun is explicit.
+- Changing the head, tree, artifact hash, task contract or runtime identity invalidates the capsule and returns `HOLD` or `UNKNOWN` rather than silently resuming.
+- Vera can compare the capsule with the named receipts and finds no missing open gate, unsupported completion claim or mixed candidate.
+- Review records whether the capsule reduced duplicate discovery, repeated checks and time-to-first-useful-probe versus run 104; adoption requires a real reduction with zero evidence-boundary regressions.
+
+### Downside and failure mode
+
+A stale capsule can make the wrong next action look authoritative, while copying raw logs or environment data can leak secrets and create another competing state store. Keep the capsule derived, minimal and task-scoped; store receipt references rather than raw transcripts; exclude credentials, phone numbers and environment values; bind every claim to immutable identities; expire it on any governing drift; and fail closed when the live worktree, artifact or card cannot be reconciled. The capsule is a navigation aid, never acceptance evidence by itself.
+
+### Approval boundary
+
+This proposal authorises no implementation. If Sam activates the pilot, automation may read the named task, non-secret Git metadata and existing receipts and draft one capsule for review. It may not edit source or tests, execute commands in the delivery worktree, rerun the package, launch or install an app, drive a user surface, mutate Kanban state, push, merge, sign, notarise, distribute, deploy, spend, contact a provider or promote any acceptance state. Existing Forge ownership, Vera independence and Sam's consequential-action gates remain unchanged.
+
+### What it replaces
+
+It replaces manual resume-point prose, repeated transcript re-reading and broad rediscovery after iteration-budget exhaustion. It does **not** replace the card's operating contract, [[items/ops-project-state-reconciler]], the release evidence receipt assembler above, test execution, Forge judgement, Vera's exact-artifact review, rendered/runtime verification or Sam's release approval.
+
+### Provenance
+
+Grounded in the 1 September run 97/99/103/104/105 sequence and exact preserved identities in [[project_state/donworth-studio]], the portfolio-wide fresh-agent and recoverable-failure requirements in [[decisions/2026-08-31-agent-legible-system-design-standard]], and this pilot's existing measures for retries, failure recovery, time and model cost.
+
 ## Connected notes
 
 - [[briefs/2026-08-04-graph-engineering-research-and-implementation]]
@@ -173,11 +226,15 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-06-personal-agent-runtime-first-sequence]]
 - [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]]
 - [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]
+- [[decisions/2026-08-31-agent-legible-system-design-standard]]
 - [[goals/personal-agent-ai-operated-company-proof]]
 - [[items/oh-live-portal-boundary-activation]]
+- [[items/ops-accepted-artifact-custody-gate]]
 - [[items/ops-aire-hermes-upstream-impact-triage]]
+- [[items/ops-desktop-ui-approval-readiness-gate]]
 - [[items/ops-project-state-reconciler]]
 - [[items/personal-agent-hermes-desktop-parity]]
+- [[project_state/donworth-studio]]
 - [[project_state/oh]]
 - [[project_state/personal-agent]]
 

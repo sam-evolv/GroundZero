@@ -132,6 +132,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-15-heres-health-menu-allergen-evidence-workflow]]
 - [[briefs/2026-08-16-heres-health-commerce-integrity-support-wedge]]
 - [[briefs/2026-08-18-heres-health-live-menu-and-pickup-promise-control]]
+- [[briefs/2026-08-22-heres-health-app-privacy-sdk-drift-release-gate]]
+- [[briefs/2026-08-30-heres-health-acuity-sauna-booking-release-gate]]
 - [[companies/heres-health]]
 - [[context/business-opportunities-moc]]
 - [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]

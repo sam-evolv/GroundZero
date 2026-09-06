@@ -8,7 +8,7 @@ timezone: Europe/Dublin
 # Sam Donworth
 
 ## Profile
-- Founder of OpenHouse AI, OpenBook, and Evolv Renewables.
+- Founder of OpenHouse AI, OpenBook, Evolv Renewables and Aire, and founder/operator of Donworth Studio.
 - Uses Hermes and Claude Code as the main agent stack.
 - Works full-time, so plans need to fit evenings and weekends and prioritize near-term cash.
 
@@ -45,6 +45,7 @@ timezone: Europe/Dublin
 - [[companies/openhouse-ai]] — core business
 - [[companies/openbook]] — booking platform
 - [[companies/evolv-renewables]] — renewables company
+- [[companies/donworth-ai-solutions]] — client-delivery and engineering studio
 - [[goals/oh-funder-pitch]] — funder pitch narrative
 - [[goals/oh-activation]] — activation goal
 - [[context/index]] — main context entry
@@ -76,7 +77,11 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/solar-installer-workflow-analysis]]
 - [[briefs/substack-draft-2026-08-03-the-waiting-room]]
 - [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
+- [[briefs/substack-draft-2026-08-23-someone-still-has-to-pay]]
+- [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]
+- [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
 - [[companies/cara]]
+- [[companies/donworth-ai-solutions]]
 - [[companies/evolv-renewables]]
 - [[companies/heres-health]]
 - [[companies/openbook]]

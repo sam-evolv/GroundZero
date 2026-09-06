@@ -23,13 +23,14 @@ These items automate that sweep so Sam's time goes into the right work, not the 
 ### Daily sync & digest
 - [[items/ops-daily-sync-digest]] — anomaly check + daily digest; the P1 core
 - [[items/ops-daily-report-pack]] — daily reporting packs per company
-- [[items/ops-project-state-reconciler]] — keep project_state/company memory aligned with live signals; proposed extensions add a read-only local branch/worktree custody manifest and an append-only observation ledger with change-only canonical projections
+- [[items/ops-project-state-reconciler]] — keep project_state/company memory aligned with live signals; proposed extensions add a read-only local branch/worktree custody manifest, an append-only observation ledger with change-only canonical projections, and a transition-triggered Aire BFF launch incident packet
 - [[items/ops-index-maintenance-bot]] — auto-maintain items/_Index.md and daily log entries
 
 ### Graph orchestration
-- [[items/ops-graph-engineering-pilot]] — prove a bounded research, synthesis, review and approval graph on three internal tasks; first slices are a read-only release evidence receipt assembler and an accepted-requirement drift check grounded in the 13–14 August OpenHouse and Aire evidence gaps
+- [[items/ops-graph-engineering-pilot]] — prove a bounded research, synthesis, review and approval graph on three internal tasks; first slices are a read-only release evidence receipt assembler, an accepted-requirement drift check, and a retry evidence capsule that preserves exact artifacts, accepted proofs, failure signatures and the next bounded probe across iteration-budget deaths
 
 ### Triage & escalation
+- [[items/ops-desktop-ui-approval-readiness-gate]] — hold native desktop review until driver/TCC health and exact action-scope approval are ready; first test is the blocked Donworth Finder replay
 - [[items/ops-pr-issue-ageing-escalator]] — stale PR/issue escalation, P1
 - [[items/ops-aire-hermes-upstream-impact-triage]] — convert pinned upstream Hermes ranges into a deduplicated Aire compatibility-impact queue without integrating code
 - [[items/oh-warranty-triage-router]] — OH-specific issue triage (AI classification + draft reply)
@@ -37,7 +38,9 @@ These items automate that sweep so Sam's time goes into the right work, not the 
 ### Reporting & hygiene
 - [[items/ops-weekly-status-pack]] — weekly cross-company brief
 - [[items/ops-capture-inbox-refinery]] — auto-file capture inbox scraps
-- [[items/ops-source-to-wiki-ingest]] — turn imports/ sources into linked wiki notes
+- [[items/ops-source-to-wiki-ingest]] — precision-gated import routing into linked wiki notes; first test replays the 23 August fixture to block cross-venture misfiles
+- [[items/ops-vault-sync-change-receipt-gate]] — fail-closed change-set receipt before any vault stage, commit or push
+- [[items/ops-accepted-artifact-custody-gate]] — block worktree or task cleanup when accepted bytes exist only in a prunable location; first test is the replacement Donworth Finder freeze
 
 ### Communication
 - [[items/ops-meeting-followup-assembler]] — post-meeting recap + scheduling
@@ -92,17 +95,23 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/index]]
 - [[context/llm-wiki-pattern]]
 - [[context/review-workflow]]
+- [[items/heres-health-planday-brightpay-export-proof]]
+- [[items/heres-health-westron-price-file-diff-proof]]
+- [[items/oh-developer-outreach-proposal-pack]]
 - [[items/oh-warranty-triage-router]]
+- [[items/ops-accepted-artifact-custody-gate]]
 - [[items/ops-aire-hermes-upstream-impact-triage]]
 - [[items/ops-capture-inbox-refinery]]
 - [[items/ops-daily-report-pack]]
 - [[items/ops-daily-sync-digest]]
+- [[items/ops-desktop-ui-approval-readiness-gate]]
 - [[items/ops-graph-engineering-pilot]]
 - [[items/ops-index-maintenance-bot]]
 - [[items/ops-meeting-followup-assembler]]
 - [[items/ops-pr-issue-ageing-escalator]]
 - [[items/ops-project-state-reconciler]]
 - [[items/ops-source-to-wiki-ingest]]
+- [[items/ops-vault-sync-change-receipt-gate]]
 - [[items/ops-weekly-status-pack]]
 - [[items/personal-agent-hermes-desktop-parity]]
 - [[project_state/ob]]

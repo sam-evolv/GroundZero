@@ -12,9 +12,21 @@ is_one_thing: false
 source: morning-brief 2026-06-09
 run_date: "2026-06-09"
 created_at: "2026-06-09T06:30:00Z"
-updated_at: "2026-08-14T04:04:00+01:00"
-sync_status: "Checked 2026-08-14 04:04 IST. GitHub main remains at b1629c34 with 12 open PRs and 6 non-PR issues; Vercel production remains Ready. No RLS or production-data probe ran: SUPABASE_ACCESS_TOKEN is unset, and Docker is available but the local supabase_db_property-assistant stack/container is absent."
+updated_at: "2026-09-03T04:02:00+01:00"
+sync_status: "Checked 2026-09-03 04:02 IST. GitHub main remains 0a9d0509 and the live alias remains on Ready deployment dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si. Vercel exposes explicit Next.js build settings but no immutable gitSource SHA; no authenticated database/storage policy probe or migration receipt ran. The item stays building and unverified."
 ---
+
+## Live-source checkpoint — 3 September 2026, 04:02 IST
+
+- GitHub `main` remains `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`, with 12 open pull requests and 6 open non-PR issues. The production alias remains on Ready deployment `dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si` and returned HTTP `200`.
+- Current Vercel metadata exposes explicit Next.js install/build/output settings, correcting the earlier null build-configuration observation, but still exposes no immutable `gitSource` SHA.
+- No authenticated cross-user or `auth.uid()` database/storage probe, migration-application receipt, persisted-row check or production document read/write path was exercised. The RLS audit remains blocked at its original acceptance boundary.
+
+## Live-source checkpoint — 1 September 2026, 12:08 IST
+
+- GitHub `main` advanced to `0a9d05096a9f7d598cc24334aecfa8452ebaeb70` and includes private-document storage-policy/schema migrations plus user-facing document path changes. A clean detached worktree matches that exact remote commit.
+- Vercel reports a Ready production deployment from source SHA `0a9d0509…`, and the public portal returns HTTP 200.
+- This does **not** close the item: no authenticated cross-user or `auth.uid()` database/storage probe, migration-application receipt, direct persisted-row check or production document read/write evidence was exercised. The RLS audit remains blocked exactly at its original acceptance boundary.
 
 ## Opportunity size
 This is launch-critical. Tenant isolation is table stakes for trust, so closing the gap protects the whole OpenHouse platform and avoids a self-inflicted support or security incident.
@@ -58,6 +70,9 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/daily-portfolio-brief-2026-07-18]]
 - [[briefs/daily-portfolio-brief-2026-07-19]]
 - [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
+- [[briefs/substack-draft-2026-08-23-someone-still-has-to-pay]]
+- [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]
+- [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
 - [[companies/openhouse-ai]]
 - [[context/dashboard]]
 - [[goals/oh-v2-launch]]

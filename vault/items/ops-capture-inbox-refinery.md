@@ -72,3 +72,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-index-maintenance-bot]]
 - [[items/ops-source-to-wiki-ingest]]
 
+## Auto-filed from capture inbox 2026-08-23
+_Source: capture/inbox.md · Section: Links to sort · Filed: 2026-08-23 02:15 IST_
+- [[capture/chatgpt-inbox]] — append-only ChatGPT bridge intake pending canonical filing review

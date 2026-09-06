@@ -12,7 +12,7 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T14:10:00+01:00"
-updated_at: "2026-06-26T14:10:00+01:00"
+updated_at: "2026-08-23T18:04:16+01:00"
 ---
 
 ## What the automation does
@@ -59,16 +59,73 @@ Use content hashes, source metadata, note-type schemas, explicit confidence and 
 ### Recommendation
 Merge this proposal with [[items/ops-capture-inbox-refinery]] as one knowledge-ingestion project. Do not build or schedule a competing writer. Promotion is justified only if one owner, one implementation and measurable routing precision are defined.
 
+## Material proposal, 23 August 2026 — precision-gated wiki routing replay
+
+Extend the existing source-to-wiki path with a **dry-run precision gate and review queue** before any automatic backlink or canonical-note write. This is a bounded quality slice of the existing ingestion project, not a second writer.
+
+### Bottleneck
+
+The recurring wiki-refiner is producing cross-venture routing candidates that can contaminate the canonical graph if accepted mechanically. In [[briefs/wiki-refiner-2026-08-23]], two personal-agent imports were routed to [[project_state/ob]], another personal-agent consultancy import was routed to [[project_state/oh]], and the Here’s Health source brief was routed to [[project_state/ob]] instead of [[project_state/heres-health-app]]. The same report shows very high similarity scores, including `956`, so score magnitude alone is not a safe correctness signal. This is the concrete precision gap already anticipated by this item’s requirement for measurable routing precision.
+
+### Value category
+
+- **Decision quality:** prevents unrelated source material from entering the wrong venture’s current-state retrieval path.
+- **Risk reduction:** preserves Ground Zero’s canonical authority by failing closed on ambiguous or cross-company routes.
+- **Time reclaimed:** replaces repeated manual discovery and correction of bad auto-links after each refiner run.
+- **Knowledge quality:** keeps useful graph growth while making confidence and abstention inspectable.
+
+### Smallest live test
+
+Replay only the source/target candidates recorded in [[briefs/wiki-refiner-2026-08-23]] as a fixed, read-only fixture. Add deterministic entity guards before semantic scoring: explicit company/project names, existing source provenance links, note type, and allowed parent relationships. Produce a dry-run table with candidate target, matched evidence, rejected targets, confidence and `ROUTE` or `REVIEW` outcome. Do not edit the vault during the test.
+
+The fixture must include these negative controls:
+
+- personal-agent source material must not route to [[project_state/oh]] or [[project_state/ob]] without explicit OpenHouse/OpenBook evidence;
+- the Here’s Health source brief must not route to [[project_state/ob]] and should prefer [[project_state/heres-health-app]] or `REVIEW`;
+- a high semantic score without an entity or provenance match must abstain rather than override the company boundary.
+
+### Evidence of success
+
+- Zero known cross-venture false routes on the 23 August fixture.
+- Every `ROUTE` row cites an explicit entity/provenance match and an allowed note-type relationship.
+- Every ambiguous row lands in `REVIEW`; unavailable evidence remains `UNKNOWN`, never an inferred match.
+- A second replay is byte-identical and creates no new candidate.
+- A manual review of the fixture finds no source assigned to an unrelated `project_state/` note.
+- The test reports precision, abstention rate and reviewed false negatives; recall is not improved by lowering the company-boundary guard.
+
+### Downside and failure mode
+
+A strict gate can reduce recall and leave useful sources unlinked. That is preferable to contaminating canonical project state, but the review queue could become another inbox. Keep the fixture small, surface one reason per abstention, and measure both precision and review volume. Never treat absence of an entity match as proof that no relationship exists.
+
+### Approval boundary
+
+Automation may read the named fixture and canonical relationship notes, compute candidate routes, and write a dry-run report outside canonical notes. It may not move or delete sources, write backlinks, edit `project_state/`, create durable facts, resolve contradictions, or change the live refiner threshold without Sam’s approval. Any future automatic write path must fail closed on company-boundary conflict and preserve the raw import.
+
+### What it replaces
+
+It replaces blind score-led routing and the manual after-the-fact correction of obvious cross-venture candidates. It does **not** replace source preservation, human curation, contradiction review, [[items/ops-capture-inbox-refinery]], or the existing wiki-refiner.
+
+### Provenance
+
+Grounded in the live 23 August refiner output in [[briefs/wiki-refiner-2026-08-23]], this item’s existing routing-precision requirement, the canonical authority rule in [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]], and the provenance/conflict rules in [[context/personal-context-data-contract]].
+
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-06-26]]
+- [[briefs/wiki-refiner-2026-08-23]]
 - [[context/automation-ideas]]
 - [[context/capture-workflow]]
 - [[context/learn-targets]]
 - [[context/llm-wiki-pattern]]
 - [[context/model-pack]]
 - [[context/ops-automation-moc]]
+- [[context/personal-context-data-contract]]
 - [[context/review-workflow]]
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
 - [[items/ops-capture-inbox-refinery]]
 - [[items/ops-daily-sync-digest]]
+- [[items/ops-vault-sync-change-receipt-gate]]
+- [[project_state/heres-health-app]]
+- [[project_state/ob]]
+- [[project_state/oh]]
 

@@ -114,6 +114,7 @@ Primary and official sources reviewed 13 August 2026:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-04-openhouse-ciri-provider-of-record-wedge]]
 - [[briefs/openhouse-a-rated-homeowner-primary-integration-2026-07-28]]
 - [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
 - [[companies/openhouse-ai]]

@@ -129,4 +129,12 @@ Any client contact, account/data access, legal-basis decision, live cohort, cust
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-20-heres-health-side-by-side-owner-performance-brief]]
+- [[briefs/2026-08-22-heres-health-app-privacy-sdk-drift-release-gate]]
+- [[briefs/2026-09-05-heres-health-notification-state-and-consent-receipt-gate]]
+- [[companies/heres-health]]
 - [[context/business-opportunities-moc]]
+- [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
+- [[project_state/heres-health-app]]
+

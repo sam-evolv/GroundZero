@@ -70,6 +70,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/model-pack]]
 - [[context/openhouse-sales-routes]]
 - [[context/scaling-playbook]]
+- [[decisions/2026-08-31-agent-legible-system-design-standard]]
 - [[decisions/ai-founder-coach-operating-agreement-2026-07-14]]
 - [[goals/oh-funder-pitch]]
 - [[goals/personal-agent-ai-operated-company-proof]]

@@ -168,6 +168,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/review-workflow]]
 - [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]
 - [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
+- [[decisions/2026-08-31-donworth-private-alpha-openrouter-budgets-and-credential-boundary]]
 - [[items/aire-health-specialist-coach]]
+- [[items/ops-source-to-wiki-ingest]]
 - [[project_state/personal-agent]]
 

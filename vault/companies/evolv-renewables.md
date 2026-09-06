@@ -31,6 +31,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
 - [[briefs/2026-06-28]]
 - [[briefs/2026-06-30]]
+- [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]]
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/daily-ai-brief-2026-07-14]]

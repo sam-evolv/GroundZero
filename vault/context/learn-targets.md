@@ -34,6 +34,7 @@ Invoke through the `learn` command in Hermes, then file the result back into Gro
 - Claude vault integration workflow
 - deployment and sync workflow
 - decision capture workflow
+- short-form product-motion video design and sound grammar → [[context/product-motion-video-design-standard]]
 
 ## Connected vault notes
 
@@ -44,6 +45,7 @@ Invoke through the `learn` command in Hermes, then file the result back into Gro
 - [[context/claude-vault-integration]] — Claude integration is learn-worthy
 - [[items/ops-source-to-wiki-ingest]] — the automation that /learn would produce
 - [[people/sam-donworth]] — founder preferences for skill design
+- [[context/product-motion-video-design-standard]] — active learned reference for future product videos
 
 ## Procedure
 
@@ -73,6 +75,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/index]]
 - [[context/llm-wiki-pattern]]
 - [[context/model-pack]]
+- [[context/product-motion-video-design-standard]]
 - [[context/review-workflow]]
 - [[items/ops-source-to-wiki-ingest]]
 - [[people/sam-donworth]]

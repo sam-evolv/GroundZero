@@ -6,11 +6,22 @@ kind: moc
 
 # Decision Log
 
+## 5 September 2026
+
+- [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]] — accepted outcome-driven Skippy/Forge/Vera operating norm and bounded rollout, Astra-led substantive work, Here’s Health production priority and protected Desktop test baseline. Runtime enforcement remains evidence-gated.
+
 ## 13 August 2026
 
 - [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]] — propose Here’s Health Digital Platform, Phase One while keeping Square café transactions and Shopify retail transactions separate; final scope is gated on Week 1 technical and operational proof.
 
 Every decision is stored in `decisions/` as a permanent note. This log orders them chronologically so you can trace the reasoning chain.
+
+## Donworth Studio
+
+| Date | Decision | Consequences | Status |
+|---|---|---|---|
+| 2026-09-01 | [[decisions/2026-09-01-donworth-imessage-first-remote-control-channel]] - Make iMessage the first remote Donworth control channel | Photon-first access to the same desktop runtime for current information, safe changes, reminders and meaningful results; no initial iPhone app; dedicated-line terms and real sends remain gated | Active |
+| 2026-08-31 | [[decisions/2026-08-31-donworth-private-alpha-openrouter-budgets-and-credential-boundary]] - Fund the first private alpha through bounded server-side OpenRouter usage | Three invited testers; USD $20/user/month and $60 aggregate hard ceilings; separate identities; Donworth and provider-side enforcement; no consumer OAuth or client-side provider secret | Active |
 
 ## OpenHouse AI
 
@@ -61,6 +72,7 @@ Every decision is stored in `decisions/` as a permanent note. This log orders th
 
 | Date | Decision | Consequences | Status |
 |---|---|---|---|
+| 2026-09-03 | [[decisions/2026-09-03-hermes-lossless-output-bounding]] - Bound oversized Hermes terminal and file payloads without weakening the model | Default, Forge and Vera retain `gpt-5.6-sol`, 20 protected messages and current compression behavior; exact spill/pagination recovery is preserved while large immediate tool payloads are reduced | Active |
 | 2026-08-03 | [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]] - Keep the day job through the January bonus unless an exit gate is met | Preserve runway; reconsider only for funded accelerator acceptance, verified commercial runway, a materially better formal offer, or a genuine health/integrity gate | Active |
 | 2026-06-19 | [[decisions/ground-zero-canonical]] — vault is canonical | Hermes, Claude, Gemini all source from vault; no re-deriving from chat | Active |
 | 2026-07-14 | [[decisions/ai-founder-coach-operating-agreement-2026-07-14]] — Hermes acts as candid AI founder coach | Voice context compounds into grounded challenge, decision support and execution focus | Active |
@@ -75,6 +87,7 @@ When you make a decision:
 
 ## Connected vault notes
 
+- [[companies/donworth-ai-solutions]] — Donworth Studio decisions
 - [[companies/personal-agent]] — active personal-agent venture
 - [[companies/openhouse-ai]] — OH decisions
 - [[companies/openbook]] — OB decisions
