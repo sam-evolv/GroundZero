@@ -12,8 +12,19 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-09-07T00:02:00+01:00"
+updated_at: "2026-09-07T08:04:00+01:00"
 ---
+
+## Reconciliation checkpoint — 7 September 2026, 08:04 IST
+
+- **Hermes upstream advanced two commits.** Installed source remains `96e1e3f9…`; direct GitHub and local `origin/main` are now `08b140d1…`, 364 commits and 556 paths ahead, with two commits / six paths added since `693641aa…`. `hermes --version` names the direct head but reports only 362 behind, understating immutable Git by two. The range covers stale-call image token costing and Codex OAuth Astra compaction autoraise. Accepted Aire source custody and acceptance state are unchanged; no integration was inferred.
+- **Other named live sources did not transition.** Both Donworth domains still return identical accepted 740-byte roots at SHA-256 `41e953a7…`; the Here’s Health preview still returns HTTP `200` with accepted root SHA-256 `4e727d0f…` and local candidate `49f19d44…`; OpenHouse remains HTTP `200` on production and `404` on named staging, with GitHub `0a9d0509…`, 12 open PRs and 6 open non-PR issues; Empire Gym remains HTTP `200` with event/lesson CTAs, ten `Join now` markers and no GymMaster marker; Cara remains parked/offline on `8643`; Renew names no inspectable live source. Finder replay `t_f638f8a1` remains in triage. No push, merge, install, client contact, secret access or production mutation occurred in this reconciliation.
+
+## Reconciliation checkpoint — 7 September 2026, 04:04 IST
+
+- **Here’s Health film delivery materially advanced.** The first replacement `b084e971…` was independently rejected for stills substitution. Vera then accepted temporal proof `75a852a4…` and exact final film `4dd37679ab3c9c9038efca71273078734fd96834fb165b8d5365d6ff650c4ec6` with conditions across temporal, bounded art-direction, format/browser and package gates. Direct artifact readback matched `6,823,867` bytes, 34.000 seconds, silent `1080×1920`, 60-fps H.264, limited-range BT.709. The live Donworth board records a Sam-only Telegram upload receipt (`message_id 28974`); recipient playback, Sam taste approval and any Conor send remain open. The preview still returns HTTP `200` with accepted root SHA-256 `4e727d0f…`; no app or deployment bytes changed.
+- **Hermes CLI gap reporting caught up without an update.** Installed source remains `96e1e3f9…`; direct GitHub and local `origin/main` remain `693641aa…`, 362 commits and 554 paths ahead. `hermes --version` now reports the exact 362-commit gap instead of 267. This is reporting reconciliation only; no Aire integration or acceptance advanced.
+- **Other named live sources did not transition.** Both Donworth domains still return identical accepted 740-byte roots; OpenHouse remains HTTP `200` on production and `404` on named staging; Empire Gym remains HTTP `200`; Cara remains parked/offline; Renew names no inspectable live source. Finder and genuine Windows gates remain open. No push, merge, install, client contact, secret access or production mutation occurred in this reconciliation.
 
 ## Reconciliation checkpoint — 7 September 2026, 00:02 IST
 
@@ -245,6 +256,8 @@ Grounded in the 23–25 August runtime observations in [[project_state/personal-
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/hermes-community-use-cases-2026-07-28]]
+- [[companies/donworth-ai-solutions]]
+- [[companies/heres-health]]
 - [[companies/personal-agent]]
 - [[context/model-pack]]
 - [[context/ops-automation-moc]]
@@ -254,6 +267,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]
 - [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
 - [[decisions/ground-zero-canonical]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
 - [[items/ob-client-self-edit-portal-billing]]
 - [[items/ops-accepted-artifact-custody-gate]]
 - [[items/ops-aire-hermes-upstream-impact-triage]]

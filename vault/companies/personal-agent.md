@@ -64,6 +64,10 @@ These are testable hypotheses, not final public pricing. Model names, workload c
 
 ## Current repositories
 
+- **Source-custody check, 7 September 2026 08:04 IST:** Installed Hermes remains at `96e1e3f9219e56d16641c447e62adfbb0ea067ec`; direct GitHub and local tracking advanced to `08b140d14e6c1d49f9b7ad02c9437fe940d54d65`, 364 commits and 556 paths ahead. The prior `693641aa…` checkpoint is an ancestor with two newer commits across six paths. `hermes --version` names `08b140d1` but reports only 362 behind, understating immutable Git by two. The range affects stale-call image token costing and Codex OAuth Astra compaction autoraise; these are review inputs, not Aire proof. Accepted `83e582c7…` and `944a03ec…` worktrees remain clean without upstreams; `1004f3e4…` remains clean in the separate recorded Hermes repository. No Aire integration, authenticated route, rendered surface or physical-device acceptance advanced.
+
+- **Source-custody correction, 7 September 2026 04:04 IST:** Installed Hermes and direct/local upstream remain `96e1e3f9…` and `693641aa…`, with the same 362-commit / 554-path gap. `hermes --version` now reports the exact `362 commits behind`, superseding only the 00:02 CLI-distance observation of 267. No update, Aire integration, authenticated route, rendered surface or physical-device acceptance advanced.
+
 - **Source-custody check, 7 September 2026 00:02 IST:** Installed Hermes remains at `96e1e3f9219e56d16641c447e62adfbb0ea067ec`; direct GitHub and refreshed local tracking advanced to `693641aa8b4359c602283bdbbc14041e03bc47bc`, 362 commits and 554 paths ahead. The prior `6d9c1664…` checkpoint is an ancestor with 64 newer commits across 104 paths. `hermes --version` names `693641aa` but reports only 267 behind, understating immutable Git by 95. The range affects agent/delegation, cron, gateway, Desktop/session hydration, auth, MCP health, memory spill, compression accounting and strict-provider compatibility; these are review inputs, not Aire proof. Accepted `83e582c7…` and `944a03ec…` worktrees remain clean without upstreams; `1004f3e4…` remains clean in the separate recorded Hermes repository. No Aire integration, authenticated route, rendered surface or physical-device acceptance advanced.
 
 - **Source-custody check, 6 September 2026 20:16 IST:** Installed Hermes remains at `96e1e3f9219e56d16641c447e62adfbb0ea067ec`; direct GitHub `main` advanced to `6d9c16645599122d2dbac7ae689b6f73c4cd5fda`, 298 commits and 479 paths ahead. The prior `77915e34…` checkpoint is an ancestor with 95 newer commits across 270 paths. `hermes --version` displays `83467cb1` and reports 267 behind, trailing direct GitHub and understating immutable Git by 31. Accepted `83e582c7…` and `944a03ec…` worktrees remain clean without upstreams; `1004f3e4…` remains clean in the separate recorded Hermes repository and split from IrelandGPT. The older root still has seven status entries. No Aire integration, authenticated route, rendered surface or physical-device acceptance advanced.
@@ -185,6 +189,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]
 - [[decisions/2026-08-07-personal-agent-single-conversation-live-work-interface]]
 - [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
 - [[goals/personal-agent-ai-operated-company-proof]]
 - [[items/aire-health-specialist-coach]]
 - [[items/ops-aire-hermes-upstream-impact-triage]]

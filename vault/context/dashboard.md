@@ -13,7 +13,7 @@ updated: "2026-09-07"
 
 ### OpenHouse AI
   - **Close the tenant data gap before the V2 launch** → [[items/oh-rls-audit]] (🔴 building)
-  - ⚠️ Blocked signal in [[project_state/oh|OpenHouse AI]]
+  - ⚠️ Blocked signal in [[project_state/openhouse-ai|OpenHouse AI]]
 
 ### OpenBook
   - **OpenBook client self-edit portal plus Stripe billing** → [[items/ob-client-self-edit-portal-billing]] (🔴 building)
@@ -34,11 +34,11 @@ updated: "2026-09-07"
 ## 🟢 Monitoring
 
 - 🔴 [[project_state/cara|cara]]: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
-- 🔴 [[project_state/donworth-studio|donworth-studio]]: The general Astra delivery baseline remains held. Here’s Health `49f19d44` is independently accepted and live on the isolated preview, but physical-phone/unfurl proof and the directed Conor film remain open. Finder replay still awaits Sam and genuine Windows runtime remains untested.
-- 🟡 [[project_state/heres-health-app|heres-health-app]]: Corrected `49f19d44` is independently accepted with conditions and live on `dpl_GeDQdf2EPTTeDNccui5uggNn7R5F`; 76/76 hosted files and Chromium/WebKit journeys are verified. Physical-iPhone/unfurl proof and the directed client film remain open.
+- 🔴 [[project_state/donworth-studio|donworth-studio]]: The general Astra baseline remains held; Here’s Health final directed film `4dd37679` is independently accepted with conditions and was presented to Sam only. Physical-phone/platform playback, Sam taste approval and any Conor send remain open. Finder replay still awaits Sam and genuine Windows runtime remains untested.
+- 🟡 [[project_state/heres-health-app|heres-health-app]]: Exact candidate `49f19d44` remains accepted and live on isolated preview `dpl_GeDQdf2EPTTeDNccui5uggNn7R5F`; final film `4dd37679` is conditionally accepted and Sam-only presented, while physical-iPhone/platform rendering, real unfurls, Sam taste approval and client delivery remain open.
 - 🟡 [[project_state/ob|ob]]: Empire Gym's public surface still exposes event/lesson CTAs and Stripe checkout links; the clean unpublished GymMaster worktree remains three local commits beyond current template `main`, while the base checkout is conflicted and stale.
 - 🟡 [[project_state/oh|oh]]: Enterprise Ireland funding now depends on paid developer validation; OpenHouse resumes Sunday with that commercial objective.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes remains at `96e1e3f9`; direct upstream advanced to `693641aa`, 362 commits and 554 paths ahead. The CLI names that head but reports only 267 behind. Accepted Aire candidates remain unchanged and unintegrated.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes remains at `96e1e3f9`; direct upstream and local tracking are now `08b140d1`, 364 commits and 556 paths ahead. The CLI still reports 362 behind. Accepted Aire candidates remain unchanged and unintegrated.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -62,4 +62,4 @@ updated: "2026-09-07"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-09-07 00:02 IST
+- Dashboard: 2026-09-07 08:04 IST

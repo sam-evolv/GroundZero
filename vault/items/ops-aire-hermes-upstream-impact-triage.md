@@ -13,10 +13,24 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-09-07T00:02:00+01:00"
+updated_at: "2026-09-07T08:04:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 7 September 2026 08:04 IST
+
+Installed Hermes remains at `96e1e3f9219e56d16641c447e62adfbb0ea067ec` with only untracked `.review-worktrees/`. Direct GitHub `main` and local `origin/main` are now `08b140d14e6c1d49f9b7ad02c9437fe940d54d65`; immutable Git reports a 364-commit / 556-path installation gap. The prior `693641aa8b4359c602283bdbbc14041e03bc47bc` checkpoint is an ancestor and the new range adds two commits across six paths. `hermes --version` identifies `08b140d1` but reports only 362 behind, understating Git by two.
+
+Queue this range for bounded compatibility review against Aire's stale-call/context-estimator image token costing and Codex OAuth compaction autoraise for gpt-6 Astra slugs. Commit messages and source movement do not prove those behaviors on Aire.
+
+Accepted Aire worktrees remain unchanged and unintegrated. `83e582c7a9d17479020c5ef4817aee8be9f79ab7` and `944a03ec7470f1bd4b8812ad89a1adfb45f22b0a` are clean without upstreams; separate `1004f3e48896f7aba7acea031278c4a49c9f24b9` remains clean without an upstream in `/Users/samdonworth/Projects/hermes-agent-aire-20260815`. No authenticated, rendered or physical-device acceptance changed.
+
+## Reconciliation checkpoint, 7 September 2026 04:04 IST
+
+Installed Hermes, direct GitHub `main` and local `origin/main` remain `96e1e3f9219e56d16641c447e62adfbb0ea067ec` and `693641aa8b4359c602283bdbbc14041e03bc47bc`; immutable Git remains a 362-commit / 554-path gap. `hermes --version` now identifies `693641aa` and reports the exact 362 commits behind, superseding only the earlier 267-distance observation.
+
+The compatibility queue and accepted Aire custody are otherwise unchanged. No Hermes update, Aire integration, authenticated route, rendered surface or physical-device acceptance advanced.
 
 ## Reconciliation checkpoint, 7 September 2026 00:02 IST
 
@@ -696,6 +710,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-09-03]]
 - [[briefs/wiki-refiner-2026-09-04]]
 - [[briefs/wiki-refiner-2026-09-05]]
+- [[briefs/wiki-refiner-2026-09-06]]
 - [[companies/personal-agent]]
 - [[context/dashboard]]
 - [[context/ops-automation-moc]]

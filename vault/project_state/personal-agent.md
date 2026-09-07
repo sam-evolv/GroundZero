@@ -1,12 +1,23 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains at `96e1e3f9`; direct upstream advanced to `693641aa`, 362 commits and 554 paths ahead. The CLI now names the direct head but reports only 267 behind. Accepted Aire candidates remain unchanged and unintegrated.
+headline: Installed Hermes remains at `96e1e3f9`; direct upstream and local tracking are now `08b140d1`, 364 commits and 556 paths ahead. The CLI still reports 362 behind. Accepted Aire candidates remain unchanged and unintegrated.
 status: building
 updated: 2026-09-07
 role: project-state
 ---
 
 # Personal agent project state
+
+## Live upstream reconciliation — 7 September 2026, 08:04 IST
+
+- Installed Hermes remains at `96e1e3f9219e56d16641c447e62adfbb0ea067ec`, with only untracked `.review-worktrees/`. Direct GitHub `NousResearch/hermes-agent` `main` and the installed checkout's `origin/main` are now `08b140d14e6c1d49f9b7ad02c9437fe940d54d65`; immutable Git places that head 364 commits and 556 paths ahead of the installation. The prior `693641aa8b4359c602283bdbbc14041e03bc47bc` checkpoint is an ancestor with two newer commits across six paths.
+- `hermes --version` identifies upstream `08b140d1` but still reports `362 commits behind`, understating the immutable Git distance by two. The new range changes stale-call/context-estimator image token costing and Codex OAuth compaction autoraise for gpt-6 Astra slugs. Source and commit inspection are compatibility-review inputs only; none proves those behaviors on Aire.
+- Accepted Aire worktrees remain unchanged and unintegrated: `83e582c7a9d17479020c5ef4817aee8be9f79ab7` and `944a03ec7470f1bd4b8812ad89a1adfb45f22b0a` remain clean without upstreams, while separate candidate `1004f3e48896f7aba7acea031278c4a49c9f24b9` remains clean without an upstream in its separately recorded Hermes repository. The older IrelandGPT root remains at `d533206b…` with seven status entries. No source integration, authenticated route, rendered Aire surface or physical-device acceptance advanced.
+
+## CLI gap-reporting correction — 7 September 2026, 04:04 IST
+
+- Installed Hermes, direct GitHub `main` and local `origin/main` remain unchanged at `96e1e3f9219e56d16641c447e62adfbb0ea067ec` and `693641aa8b4359c602283bdbbc14041e03bc47bc`; immutable Git still reports a 362-commit / 554-path gap. Live `hermes --version` now names `693641aa` and reports `362 commits behind`, matching Git and superseding only the 00:02 CLI-distance observation of 267.
+- This is reporting reconciliation, not an update or Aire progress. No Hermes update, Aire integration, authenticated route, rendered surface or physical-device acceptance occurred; accepted Aire candidates remain at their recorded heads and boundaries.
 
 ## Live upstream and source-custody reconciliation — 7 September 2026, 00:02 IST
 
@@ -491,6 +502,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-09-03]]
 - [[briefs/wiki-refiner-2026-09-04]]
 - [[briefs/wiki-refiner-2026-09-05]]
+- [[briefs/wiki-refiner-2026-09-06]]
 - [[companies/personal-agent]]
 - [[context/dashboard]]
 - [[context/index]]
