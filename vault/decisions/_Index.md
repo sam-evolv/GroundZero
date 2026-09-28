@@ -6,6 +6,15 @@ kind: moc
 
 # Decision Log
 
+## 28 September 2026
+
+- [[decisions/2026-09-28-ground-zero-continuity-capture]] — Sam authorized meaningful, concise Ground Zero updates after tasks and important context changes for continuity across agents.
+
+## 16 September 2026
+
+- [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]] — Sam’s current correction: Here’s Health has paid a €5,000 + VAT deposit; the app is being built now; €10,000 + VAT is due when the app is completed (€15,000 + VAT total). Completion means the finished app; do not invent extra criteria. This supersedes the 5 September “not fully committed / pre-sales only” commercial line.
+- [[decisions/2026-09-16-hermes-routing-drift-correction-and-daily-driver]] — accept the recorded correction for the 13–15 September Hermes routing drift, confirm `deepseek-v4.1-flash` @ OpenCode Go as Skippy's daily driver with Astra as deliberate escalation, approve the pending Hermes update with local Kanban edits parked in `git stash`, and admit one real Forge→Vera task as a measured delivery-quality gate. Partially supersedes the 3 September routing decision's default-model line; its privacy and lane split stand.
+
 ## 5 September 2026
 
 - [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]] — accepted outcome-driven Skippy/Forge/Vera operating norm and bounded rollout, Astra-led substantive work, Here’s Health production priority and protected Desktop test baseline. Runtime enforcement remains evidence-gated.

@@ -90,6 +90,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/ops-automation-moc]]
 - [[decisions/2026-08-31-agent-legible-system-design-standard]]
 - [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]
+- [[items/ops-daily-sync-digest]]
 - [[items/ops-graph-engineering-pilot]]
 - [[items/ops-project-state-reconciler]]
 - [[project_state/donworth-studio]]

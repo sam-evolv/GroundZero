@@ -88,5 +88,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-31-agent-legible-system-design-standard]]
 - [[items/donworth-publishable-and-outreach]]
 - [[items/ops-graph-engineering-pilot]]
+- [[items/ops-kanban-terminal-transition-guard]]
 - [[project_state/donworth-studio]]
 

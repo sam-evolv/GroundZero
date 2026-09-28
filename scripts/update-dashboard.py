@@ -78,7 +78,7 @@ def render_active_section() -> str:
             is_excluded = any(p in ps_text.lower() for p in exclude_patterns)
             if has_blocker and not is_excluded:
                 fm = parse_frontmatter(ps_text)
-                active_items.append(f"  - ⚠️ Blocked signal in [[project_state/{company_id}|{company_name}]]")
+                active_items.append(f"  - ⚠️ Blocked signal in [[project_state/{short_id}|{company_name}]]")
 
         if active_items:
             lines.append(f"### {company_name}")

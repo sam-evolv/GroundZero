@@ -43,6 +43,11 @@ One install is generating; one is in survey. The automation work below protects 
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
 - [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]]
+- [[briefs/2026-09-09-evolv-duos-group-public-benchmark-gate]]
+- [[briefs/2026-09-22-evolv-commercial-renovation-passport-evidence-continuity-gate]]
+- [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]]
+- [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]]
+- [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]

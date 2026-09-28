@@ -109,10 +109,14 @@ It replaces blind score-led routing and the manual after-the-fact correction of 
 
 Grounded in the live 23 August refiner output in [[briefs/wiki-refiner-2026-08-23]], this item’s existing routing-precision requirement, the canonical authority rule in [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]], and the provenance/conflict rules in [[context/personal-context-data-contract]].
 
+## Latest observed refiner receipt
+- [[briefs/wiki-refiner-2026-09-20]] — 20 September run output; current evidence that the refiner's source-review and auto-backlink path remains active.
+
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-08-23]]
+- [[briefs/wiki-refiner-2026-09-20]]
 - [[context/automation-ideas]]
 - [[context/capture-workflow]]
 - [[context/learn-targets]]

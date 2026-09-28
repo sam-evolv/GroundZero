@@ -3,7 +3,7 @@ id: cara
 company_id: cara
 headline: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
 valid: true
-updated_at: "2026-08-18T08:02:00+01:00"
+updated_at: "2026-09-23T16:03:00+01:00"
 role: project-state
 ---
 
@@ -14,6 +14,8 @@ role: project-state
 Sam clarified on 2026-07-11 that the uploaded `cara-starter.zip` is a **new idea he has started building**, not just a speculative brief.
 
 ## Current state
+
+- **Source-custody correction, 2026-09-23 16:03 IST:** GitHub default remains `f46d501`; parent local branch remains `196cf3c`; recorded child heads remain `73de73a`, `464b1ef` and `03b4d99`. The live worktree registry now also shows no-upstream branch `wt/t_43d89efe` at the parent head `196cf3c`; that checkout is dirty only with untracked `donworth-approved/`, `donworth-candidate/` and `previous-run-evidence/` directories. The other three child worktrees remain clean and no-upstream. Parent untracked `.worktrees/` and `now` remain, and port `8643` still has no listener. This corrects the prior claim that every child worktree was clean; it does not establish reactivation, deployment, a live +353 call or user-visible acceptance.
 
 - **Source-custody correction, 2026-08-18 08:02 IST:** GitHub and all recorded commit heads are unchanged: remote default branch `f46d501`, parent local branch `196cf3c`, and child worktrees `73de73a`, `464b1ef` and `03b4d99`; every child worktree remains clean, has no upstream and has no remote containment. The parent checkout itself is not clean: Git reports the nested `.worktrees/` directory and a zero-byte file named `now` as untracked. This corrects the earlier blanket clean-worktree description without creating product progress, reactivation, deployment or real-call acceptance. Port `8643` remains absent, so the parked profile API is still offline. No file was removed or mutated during reconciliation.
 
@@ -150,6 +152,20 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-09-03]]
 - [[briefs/wiki-refiner-2026-09-04]]
 - [[briefs/wiki-refiner-2026-09-05]]
+- [[briefs/wiki-refiner-2026-09-06]]
+- [[briefs/wiki-refiner-2026-09-07]]
+- [[briefs/wiki-refiner-2026-09-08]]
+- [[briefs/wiki-refiner-2026-09-09]]
+- [[briefs/wiki-refiner-2026-09-10]]
+- [[briefs/wiki-refiner-2026-09-11]]
+- [[briefs/wiki-refiner-2026-09-12]]
+- [[briefs/wiki-refiner-2026-09-13]]
+- [[briefs/wiki-refiner-2026-09-14]]
+- [[briefs/wiki-refiner-2026-09-15]]
+- [[briefs/wiki-refiner-2026-09-16]]
+- [[briefs/wiki-refiner-2026-09-17]]
+- [[briefs/wiki-refiner-2026-09-18]]
+- [[briefs/wiki-refiner-2026-09-19]]
 - [[companies/cara]]
 - [[context/dashboard]]
 - [[context/index]]

@@ -42,6 +42,7 @@ No-shows are the top churn complaint from venues, so retention lives or dies on 
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-06-09]]
 - [[briefs/2026-06-25]]
+- [[briefs/2026-09-27-openbook-gymmaster-membership-attribution-proof]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[companies/openbook]]
 - [[context/autonomous-business-launch-loop]]

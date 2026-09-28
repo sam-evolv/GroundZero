@@ -21,6 +21,7 @@ timezone: Europe/Dublin
 - Wants Hermes to act as a candid cofounder-quality thinking partner: classify ideas plainly, separate evidence from assumptions, challenge distraction and avoidance, and pull only decision-changing threads.
 - Primary outcome is durable financial freedom through meaningful business success and the ability to support his family; near-term decisions should maintain a credible route to replacing day-job income.
 - Values proactive capture of voice-note context into Ground Zero so decision quality compounds across sessions.
+- On 28 September 2026, authorized agents to record meaningful task outcomes and material context in Ground Zero for shared continuity. See [[decisions/2026-09-28-ground-zero-continuity-capture]].
 - Six-month founder ambition from August 2026: establish himself as Ireland's leading practical AI and automation founder by building Aire into a real customer product and proving, through auditable operation rather than commentary, that its own company can be run increasingly by the same agentic system.
 - Prefers simple stacks, public distribution early, and compliant automation over headcount-heavy scaling.
 - His current LinkedIn source snapshot contains 832 connections through 12 August 2026. Treat it as a relationship graph for relevant routes, not a bulk-outreach list; current roles and relationship strength need separate verification.
@@ -80,6 +81,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/substack-draft-2026-08-23-someone-still-has-to-pay]]
 - [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]
 - [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
+- [[briefs/substack-draft-2026-09-20-the-correction-came-with-a-deposit]]
+- [[briefs/substack-draft-2026-09-27-more-precise-not-complete]]
 - [[companies/cara]]
 - [[companies/donworth-ai-solutions]]
 - [[companies/evolv-renewables]]

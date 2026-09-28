@@ -2,7 +2,7 @@
 title: Ground Zero Dashboard
 purpose: Single view of what needs attention across all businesses
 kind: dashboard
-updated: "2026-09-07"
+updated: "2026-09-28"
 ---
 
 # Ground Zero Dashboard
@@ -13,7 +13,7 @@ updated: "2026-09-07"
 
 ### OpenHouse AI
   - **Close the tenant data gap before the V2 launch** → [[items/oh-rls-audit]] (🔴 building)
-  - ⚠️ Blocked signal in [[project_state/openhouse-ai|OpenHouse AI]]
+  - ⚠️ Blocked signal in [[project_state/oh|OpenHouse AI]]
 
 ### OpenBook
   - **OpenBook client self-edit portal plus Stripe billing** → [[items/ob-client-self-edit-portal-billing]] (🔴 building)
@@ -34,11 +34,11 @@ updated: "2026-09-07"
 ## 🟢 Monitoring
 
 - 🔴 [[project_state/cara|cara]]: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
-- 🔴 [[project_state/donworth-studio|donworth-studio]]: The general Astra baseline remains held; Here’s Health final directed film `4dd37679` is independently accepted with conditions and was presented to Sam only. Physical-phone/platform playback, Sam taste approval and any Conor send remain open. Finder replay still awaits Sam and genuine Windows runtime remains untested.
-- 🟡 [[project_state/heres-health-app|heres-health-app]]: Exact candidate `49f19d44` remains accepted and live on isolated preview `dpl_GeDQdf2EPTTeDNccui5uggNn7R5F`; final film `4dd37679` is conditionally accepted and Sam-only presented, while physical-iPhone/platform rendering, real unfurls, Sam taste approval and client delivery remain open.
-- 🟡 [[project_state/ob|ob]]: Empire Gym's public surface still exposes event/lesson CTAs and Stripe checkout links; the clean unpublished GymMaster worktree remains three local commits beyond current template `main`, while the base checkout is conflicted and stale.
-- 🟡 [[project_state/oh|oh]]: Enterprise Ireland funding now depends on paid developer validation; OpenHouse resumes Sunday with that commercial objective.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes remains at `96e1e3f9`; direct upstream and local tracking are now `08b140d1`, 364 commits and 556 paths ahead. The CLI still reports 362 behind. Accepted Aire candidates remain unchanged and unintegrated.
+- 🔴 [[project_state/donworth-studio|donworth-studio]]: Private Desktop `main` is unsigned `a1cec24e…` / tree `1fd06ba2…`; successful workflow run `36255653159` produced exact-head draft v0.18.12 macOS arm64/x64 and Windows x64 artifacts whose manifests say unsigned and unnotarized. Installed signed v0.18.9 and the source-bound public site remain byte-unchanged; no draft artifact was launched or independently accepted.
+- 🔴 [[project_state/heres-health-app|heres-health-app]]: Paying client, app in build. GitHub `main` remains unsigned `a61ff082`; draft PR #1 remains open/draft without review at unsigned `25c8ec4b…` / tree `4299cd40…`, 168 commits / 374 PR-reported files ahead, with both checks failed and no exact-head deployment. Direct Supabase now verifies ACTIVE Square v30/v26 alongside Shopify API v28, account deletion v12 and Shopify install v14, with 17 migrations and 13 listed public tables all RLS-enabled. This closes only the hosted-version evidence gap: exact source/host binding, Shopify `read_orders`, signed-device timing, provider transactions, stores and client acceptance remain open, and launch remains NO-GO.
+- 🟢 [[project_state/ob|ob]]: Empire Gym production moved to Ready CLI deployment `dpl_Es9HL…`, whose metadata names remote `feat/empire-gym-live` commit `b53f724…`; GymMaster CTAs and the admin login remain rendered. The remote branch is now clean at `603ee53…`, one commit past the deployed tree; authenticated editing/photo isolation, billing/access/payment and downstream enrollment remain unverified.
+- 🟢 [[project_state/oh|oh]]: Verified `main` advanced seven commits / 60 files to merge `31a66a14…` / tree `a912e8aa…`, and exact-head target-production Ready `dpl_Ddf8…` now owns `portal.openhouseai.ie`. The range includes source-level tenant scoping/auth fixes but no migration path. Supabase remains `ACTIVE_HEALTHY` with unchanged 30/2/17/4 advisor counts; no controlled cross-user actor path, persisted-row, authenticated secondary-surface or rendered homeowner acceptance ran.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes remains v0.21.5 `749220ef` / tree `16e4fb22`, while verified GitHub `main` advanced 255 commits / at least 300 paths from `5912ed81…` to `e408d363…` / tree `4f09a757…`, leaving installed 3,710 commits behind. The CLI still reports 3,398, understating immutable Git by 312; direct health is `200`, the gateway remains stale and standalone, Aire `8766` is absent and no rendered Aire acceptance advanced.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -62,4 +62,4 @@ updated: "2026-09-07"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-09-07 08:04 IST
+- Dashboard: 2026-09-28 16:11 IST

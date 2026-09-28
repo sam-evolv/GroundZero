@@ -105,5 +105,18 @@ Official sources checked 6 September 2026:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-renewable-operations-business-proposition]]
+- [[briefs/2026-08-04-renewables-operations-intelligence-business]]
+- [[briefs/2026-09-09-evolv-duos-group-public-benchmark-gate]]
+- [[briefs/2026-09-22-evolv-commercial-renovation-passport-evidence-continuity-gate]]
+- [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]]
+- [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]]
+- [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]]
+- [[companies/evolv-renewables]]
 - [[context/business-opportunities-moc]]
+- [[goals/renew-pipeline]]
+- [[items/renew-compliance-reporting-automation]]
+- [[items/renew-grid-automation]]
+- [[items/renew-reporting-source-baseline]]
+- [[project_state/renew]]
 

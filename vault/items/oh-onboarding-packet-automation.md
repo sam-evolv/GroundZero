@@ -57,6 +57,7 @@ Timely. SaaS buyers increasingly expect fast, polished onboarding and immediate 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-openhouse-rapid-onboarding-runbook]]
+- [[briefs/2026-09-16-openhouse-hpi-v31-home-user-guide-proof]]
 - [[companies/openhouse-ai]]
 - [[context/capture-workflow]]
 - [[goals/oh-activation]]

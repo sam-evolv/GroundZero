@@ -73,6 +73,18 @@ If Claude does not see the vault after a config change:
 3. verify the repo still contains `vault/`
 4. reload `vault/context/index.md`
 
+## Known issue and fix: connector tools rejected (2026-09-28)
+
+Symptom: `ground-zero-vault` tools failed in Claude Code sessions with `unsupported dialect "draft-07"`, or the log `~/Library/Logs/Claude/mcp-server-ground-zero-vault.log` showed `Invalid result for tools/list`.
+
+Cause (verified by probing the server over stdio): the config ran `@modelcontextprotocol/server-filesystem` unpinned via `npx -y`. The latest release (2026.8.31) attaches draft-07 `outputSchema` to all 14 tools, which the Claude client rejects. No published version avoids both problems: 2025.3.28 sends empty `inputSchema`, 2025.7.1 to 2025.8.21 send invalid `inputSchema`, and 2025.11.25 onward send draft-07 `outputSchema`.
+
+Fix applied: `claude_desktop_config.json` now runs `node ~/.local/share/gz-mcp/fs-proxy.mjs /Users/samdonworth/GroundZero`. The proxy spawns the real server pinned to 2026.8.31 and removes only `outputSchema` from `tools/list` results. All other traffic passes through unchanged. The previous config is saved beside the live one as `claude_desktop_config.json.bak-2026-09-28`.
+
+Verified: after a Claude restart, the connector listed `vault/`, read `GROUND_ZERO.md`, and wrote a test file to an allowed scratch folder. Nothing in the vault was written during the test.
+
+If it breaks again: check the proxy file still exists, that `node` is on the app PATH (`/usr/local/bin/node`), and whether a newer server release changed its schemas. Note that Claude Code sessions add their scratch folder to the connector's allowed directories, so `list_allowed_directories` shows more than `/Users/samdonworth/GroundZero`; the vault is the GroundZero path.
+
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[companies/openhouse-ai]]

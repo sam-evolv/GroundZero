@@ -21,15 +21,16 @@ These items automate that sweep so Sam's time goes into the right work, not the 
 ## By function
 
 ### Daily sync & digest
-- [[items/ops-daily-sync-digest]] — anomaly check + daily digest; the P1 core
+- [[items/ops-daily-sync-digest]] — anomaly check + daily digest; proposed extensions emit change-only deployment-alias custody with bounded public-route anomaly confirmation, native installed-artifact custody with embedded source-provenance resolvability, cron-exception, decision-bound Hermes routing-drift and Supabase security-advisor delta receipts without adding another watchdog
 - [[items/ops-daily-report-pack]] — daily reporting packs per company
-- [[items/ops-project-state-reconciler]] — keep project_state/company memory aligned with live signals; proposed extensions add a read-only local branch/worktree custody manifest, an append-only observation ledger with change-only canonical projections, and a transition-triggered Aire BFF launch incident packet
+- [[items/ops-project-state-reconciler]] — keep project_state/company memory aligned with live signals; proposed extensions add a read-only local branch/worktree custody manifest, a remote source-lineage authority transition receipt for moving default branches, an append-only observation ledger with change-only canonical projections, and a transition-triggered Aire BFF launch incident packet
 - [[items/ops-index-maintenance-bot]] — auto-maintain items/_Index.md and daily log entries
 
 ### Graph orchestration
-- [[items/ops-graph-engineering-pilot]] — prove a bounded research, synthesis, review and approval graph on three internal tasks; first slices are a read-only release evidence receipt assembler, an accepted-requirement drift check, and a retry evidence capsule that preserves exact artifacts, accepted proofs, failure signatures and the next bounded probe across iteration-budget deaths
+- [[items/ops-graph-engineering-pilot]] — prove a bounded research, synthesis, review and approval graph on three internal tasks; first slices are a read-only release evidence receipt assembler, an accepted-requirement drift check, a retry evidence capsule that preserves exact artifacts and failure signatures across iteration-budget deaths, a deterministic source-authored verification manifest consistency gate that blocks stale or conflicting test claims from entering a release receipt, and a source-to-hosted parity gate that distinguishes migrations, Edge Functions and CI jobs not yet exercised in the hosted release state
 
 ### Triage & escalation
+- [[items/ops-kanban-terminal-transition-guard]] — independently accepted local candidate is parked: delayed/truncated runs can still be stale-reclaimed and installation would alter review-crash handling
 - [[items/ops-desktop-ui-approval-readiness-gate]] — hold native desktop review until driver/TCC health and exact action-scope approval are ready; first test is the blocked Donworth Finder replay
 - [[items/ops-pr-issue-ageing-escalator]] — stale PR/issue escalation, P1
 - [[items/ops-aire-hermes-upstream-impact-triage]] — convert pinned upstream Hermes ranges into a deduplicated Aire compatibility-impact queue without integrating code
@@ -107,6 +108,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-desktop-ui-approval-readiness-gate]]
 - [[items/ops-graph-engineering-pilot]]
 - [[items/ops-index-maintenance-bot]]
+- [[items/ops-kanban-terminal-transition-guard]]
 - [[items/ops-meeting-followup-assembler]]
 - [[items/ops-pr-issue-ageing-escalator]]
 - [[items/ops-project-state-reconciler]]

@@ -32,6 +32,11 @@ Keep the current experiment focused on OpenHouse. Do not divert into the previou
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-openbook-reset]]
 - [[briefs/2026-09-04-openhouse-ciri-provider-of-record-wedge]]
+- [[briefs/2026-09-11-openhouse-built-to-innovate-buyer-subsidy-gate]]
+- [[briefs/2026-09-17-openhouse-bcms-completion-scope-home-record-proof]]
+- [[briefs/2026-09-18-openhouse-safety-file-custody-future-works-proof]]
+- [[briefs/2026-09-19-openhouse-taking-in-charge-boundary-aftercare-routing-proof]]
+- [[briefs/2026-09-27-openbook-gymmaster-membership-attribution-proof]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
 - [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]
@@ -41,6 +46,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/oh-marketing-site-conversion-instrumentation]]
 - [[items/oh-pricing-experiment]]
 - [[items/oh-proof-asset-engine]]
+- [[items/oh-warranty-evidence-pack]]
 - [[project_state/ob]]
 - [[project_state/oh]]
 

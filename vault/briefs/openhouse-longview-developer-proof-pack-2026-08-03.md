@@ -152,6 +152,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-openhouse-qualified-developer-outreach-queue]]
 - [[briefs/2026-08-04-tuesday-founder-regroup]]
 - [[briefs/2026-08-05-personal-intelligence-and-bridgewater-readiness]]
+- [[briefs/2026-09-11-openhouse-built-to-innovate-buyer-subsidy-gate]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
 - [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]
 - [[items/oh-bridgewater-warm-introduction]]

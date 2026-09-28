@@ -26,6 +26,10 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 - PR #184 and PR #186 are merged and no longer in flight.
 
 ## Live check
+- Checked 2026-09-28 16:11 IST. Verified GitHub `main` advanced seven commits / 60 files from `0a9d0509…` to merge `31a66a14…` / tree `a912e8aa…`. The immutable range includes tenant-scoped analytics and source-level auth/tenant-ownership fixes on archive, information-request, BTR and data-hub routes, but no migration path. GitHub deployment `6706680661` binds the exact SHA/ref to a successful `Production` record, and Vercel resolves the public alias to target-production Ready `dpl_Ddf8…`; the GitHub record nevertheless reports `production_environment: false`, so that metadata discrepancy remains explicit. The public root/login returned HTTP `200`, and Chromium rendered the existing login chooser; an anonymous missing route redirected to login. Supabase remains `ACTIVE_HEALTHY`, with the 30/2/17/4 advisor counts, `vector` in `public` and disabled leaked-password protection unchanged at the 15:05:33Z observation. No controlled cross-user actor path, application-row comparison, storage route, authenticated secondary surface or rendered homeowner acceptance ran, so [[items/oh-rls-audit]] remains building.
+- Checked 2026-09-26 20:10 IST. GitHub `main` remains `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`; exact Supabase project `mddxbilpjukwskeefakz` remains `ACTIVE_HEALTHY`. Current security advisors observed at `2026-09-26T19:08:09.990Z` report 30 RLS-enabled/no-policy findings, two security-definer views, 17 mutable-search-path functions, the `vector` extension in `public`, four authenticated-executable security-definer functions and disabled leaked-password protection. These findings expand the live security evidence but do not prove exploitability, tenant isolation or remediation. The original two-table defect remains unmapped, the six authenticated-global SELECT policies and backup-table review remain open, and no controlled cross-user actor path, application row, persisted-row comparison or rendered homeowner journey was exercised.
+- Checked 2026-09-24 08:08 IST. GitHub `main` and Ready Vercel production remain `0a9d05096a9f7d598cc24334aecfa8452ebaeb70` / `dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si`; the live portal returned HTTP `200` and the recorded staging URL returned `404`. Direct read-only Supabase catalog authority for exact project `mddxbilpjukwskeefakz` found all 164 public tables have RLS enabled. This does not close the tenant-isolation audit: the original two tables are unnamed, no controlled second-user/tenant path ran, and six authenticated-global SELECT policies need intended-scope validation. Seventeen backup-named public tables remain; planner statistics estimate 16 non-empty and 2,069 rows total. The remote migration ledger ends at `20260707172158_enable_rls_backup_tables_20260628`; exact source comparison `0294afca…`→`0a9d0509…` contains no migration path, contradicting the 1 September source-range claim. No application rows, exact row counts, clean-week anomaly receipt, storage route, payment, email or rendered homeowner journey were exercised, and nothing was mutated.
+- Checked 2026-09-20 04:03 IST. GitHub `main` remains `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`, with 12 open pull requests and 6 open non-PR issues. Vercel production remains Ready deployment `dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si`, owns `portal.openhouseai.ie`, and the portal returned HTTP `200`. An authenticated deployment read with Git-repository metadata now returns source `git`, branch `main` and exact `meta.githubCommitSha` `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`, closing the prior production-source metadata gap for this deployment. The recorded staging URL remains `404`. No authenticated route, Supabase row/policy/migration, storage, email or Stripe path was exercised, so migration, tenant-isolation and rendered homeowner acceptance remain open.
 - Checked 2026-09-03 04:02 IST. GitHub `main` remains `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`, with 12 open pull requests and 6 open non-PR issues. Vercel production remains Ready deployment `dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si`, owns `portal.openhouseai.ie`, and the portal returned HTTP `200`. Current deployment metadata now exposes framework `nextjs` plus explicit workspace install, build and `apps/unified-portal/.next` output settings, correcting the 1 September `framework: other` / null-settings observation; it still exposes no immutable `gitSource` SHA. The recorded staging URL still returns `404`. Local V2, overlap and dirty SE Systems worktree custody is unchanged. No authenticated route, Supabase data, migration, RLS, storage, email or Stripe path was exercised, so production-source, migration and tenant-isolation acceptance remain open.
 - Checked 2026-08-29 08:07 IST. A clean, previously unrecorded local worktree at `/Users/samdonworth/GroundZero/worktrees/openhouse-myhome-status-overlap` is on branch `fix/my-home-status-overlap` at exact local commit `a044902d1b69`, one commit above isolated V2 head `ffb00731`. It has no upstream, remote containment or GitHub commit object. Its four-file scope repairs My Home evidence-status overlap and adds a focused layout smoke, but this reconciliation ran no test or build and established no deployment, preview binding, rendered homeowner acceptance or physical-device result. GitHub `main` remains `0294afca`; the queue remains 12 open PRs plus 6 non-PR issues; PR #205 remains open, mergeable and clean at `5d56e3bb`; rulesets remain empty. Production remains Ready deployment `property-assistant-ewcgajyl6`. Fresh isolated-browser inspection rendered the public “My Home” and “Developer Portal” login choices, but no button or authenticated route was opened. Supabase lists the exact project as `ACTIVE_HEALTHY`, but the checkout remains unlinked and no data, migration or RLS probe ran. No repository, database, alias or production mutation occurred; the My Home isolation and tenant-audit boundaries remain unchanged.
 - Checked 2026-08-27 20:05 IST. GitHub `main`, the open queue, PR #205, repository rules and branch-protection state are unchanged. Vercel production remains Ready deployment `property-assistant-ewcgajyl6` and owns the live alias; the portal returned HTTP 200. New Ready preview `property-assistant-mnw10m7f4` was created at 17:50 IST, but Vercel exposed no live alias or immutable source commit for it. Browser-rendered verification remained unavailable because the browser provider supplied no CDP endpoint, so the preview is not treated as reviewed, accepted or production. Local V2 and SE Systems custody are unchanged, and no Supabase, repository or production mutation occurred.
@@ -100,7 +104,7 @@ Premium proptech SaaS platform for property developers: homeowner handover, afte
 
 ## Decisions
 - Stack is fixed: React, Next.js, Supabase, Vercel. No framework migrations.
-- Historical implementation record: ten unauthenticated endpoints were remediated, the leaked service-role key was rotated, `withAuth` middleware was added, and a full RLS lockdown across 35+ tables was claimed. The active [[items/oh-rls-audit]] reports an unresolved two-table V2 tenant-isolation gap; no authorised live Supabase authority check was available on 28 August 2026 to confirm or refute it. Preserve both claims until the production RLS probe resolves the contradiction.
+- Historical implementation record: ten unauthenticated endpoints were remediated, the leaked service-role key was rotated, `withAuth` middleware was added, and a full RLS lockdown across 35+ tables was claimed. The active [[items/oh-rls-audit]] reports an unresolved two-table V2 tenant-isolation gap. Direct 24 September 2026 catalog readback now confirms RLS is enabled on all 164 public tables, but it did not identify or exercise the original two actor paths; six authenticated-global SELECT policies also remain subject to intended-scope validation. Preserve the earlier defect claim until authorised cross-user testing resolves it.
 - Public-data enrichment converges into the same living Home Record. OpenHouse stores source artifacts and claim-level provenance, retrieves relevant evidence on demand, and never silently promotes planning, mapping or area context to confirmed as-built or measured household fact.
 - Assistant confidence is claim-specific and job-specific, not one score for the whole home. Address confirmation should trigger background evidence recovery; the homeowner supplies one proof and receives value before any broader inventory is requested.
 - Context acquisition will be exhausted through the bounded [[decisions/openhouse-context-acquisition-lab-before-broad-dtc-build-2026-07-28]] before broad DTC productisation, while preserving the existing paid concierge and deployment gates.
@@ -178,6 +182,13 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-12-synthetic-ireland-full-concept]]
 - [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]]
 - [[briefs/2026-09-04-openhouse-ciri-provider-of-record-wedge]]
+- [[briefs/2026-09-11-openhouse-built-to-innovate-buyer-subsidy-gate]]
+- [[briefs/2026-09-15-openhouse-seai-retrofit-handover-pack-intake-proof]]
+- [[briefs/2026-09-16-openhouse-hpi-v31-home-user-guide-proof]]
+- [[briefs/2026-09-17-openhouse-bcms-completion-scope-home-record-proof]]
+- [[briefs/2026-09-18-openhouse-safety-file-custody-future-works-proof]]
+- [[briefs/2026-09-19-openhouse-taking-in-charge-boundary-aftercare-routing-proof]]
+- [[briefs/2026-09-22-evolv-commercial-renovation-passport-evidence-continuity-gate]]
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
 - [[briefs/chatgpt-voice-founder-os-2026-07-31]]
@@ -305,6 +316,28 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-09-03]]
 - [[briefs/wiki-refiner-2026-09-04]]
 - [[briefs/wiki-refiner-2026-09-05]]
+- [[briefs/wiki-refiner-2026-09-06]]
+- [[briefs/wiki-refiner-2026-09-07]]
+- [[briefs/wiki-refiner-2026-09-08]]
+- [[briefs/wiki-refiner-2026-09-09]]
+- [[briefs/wiki-refiner-2026-09-10]]
+- [[briefs/wiki-refiner-2026-09-11]]
+- [[briefs/wiki-refiner-2026-09-12]]
+- [[briefs/wiki-refiner-2026-09-13]]
+- [[briefs/wiki-refiner-2026-09-14]]
+- [[briefs/wiki-refiner-2026-09-15]]
+- [[briefs/wiki-refiner-2026-09-16]]
+- [[briefs/wiki-refiner-2026-09-17]]
+- [[briefs/wiki-refiner-2026-09-18]]
+- [[briefs/wiki-refiner-2026-09-19]]
+- [[briefs/wiki-refiner-2026-09-20]]
+- [[briefs/wiki-refiner-2026-09-21]]
+- [[briefs/wiki-refiner-2026-09-22]]
+- [[briefs/wiki-refiner-2026-09-23]]
+- [[briefs/wiki-refiner-2026-09-24]]
+- [[briefs/wiki-refiner-2026-09-25]]
+- [[briefs/wiki-refiner-2026-09-26]]
+- [[briefs/wiki-refiner-2026-09-27]]
 - [[context/agentic-value-creation-mission]]
 - [[context/autonomous-business-launch-loop]]
 - [[context/business-opportunities-moc]]

@@ -31,6 +31,8 @@ Cara is Sam's Irish SME phone-number-with-a-brain concept. Sam deprioritised it 
 
 If Sam explicitly reactivates Cara, Phase 0 remains: prove one excellent live +353 call before building app/dashboard/payment surfaces. No real-call acceptance is recorded.
 
+**Live repository reconciliation, 2026-09-23 16:03 IST:** GitHub default remains `f46d501`; parent local branch remains `196cf3c`; recorded child heads remain `73de73a`, `464b1ef` and `03b4d99`. The live worktree registry also contains no-upstream `wt/t_43d89efe` at parent head `196cf3c`, dirty only with untracked `donworth-approved/`, `donworth-candidate/` and `previous-run-evidence/` directories; the other three child worktrees remain clean. Parent untracked `.worktrees/` and `now` remain, and port `8643` has no listener. This is a source-custody correction only, not reactivation, deployment, a real +353 call or user-visible acceptance.
+
 **Live repository reconciliation, 2026-08-15 16:03 IST:** GitHub `sam-evolv/Cara` still has default branch `claude/cara-phase-0-work-oy7blp` at `f46d501`. The parent local `hermes/founder-voice-alpha` branch remains at `196cf3c`, and three additional clean, no-upstream local worktrees omitted from the prior inventory were verified: `wt/cara-quality-lab` at `73de73a` (seven commits beyond the parent branch), `wt/cara-telegram-founder-dogfood` at `464b1ef`, and `wt/cara-native-ios-readiness` at `03b4d99`. No remote branch contains those heads. Their commits are dated 13–14 July, before Sam's 29 July reassessment. They are parked historical source candidates, not proof of reactivation, deployment, a real +353 call or user-visible acceptance.
 
 1. M1 — One live call: Twilio + Deepgram + Cartesia + Claude + Supabase transcript.
@@ -133,6 +135,28 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-09-03]]
 - [[briefs/wiki-refiner-2026-09-04]]
 - [[briefs/wiki-refiner-2026-09-05]]
+- [[briefs/wiki-refiner-2026-09-06]]
+- [[briefs/wiki-refiner-2026-09-07]]
+- [[briefs/wiki-refiner-2026-09-08]]
+- [[briefs/wiki-refiner-2026-09-09]]
+- [[briefs/wiki-refiner-2026-09-10]]
+- [[briefs/wiki-refiner-2026-09-11]]
+- [[briefs/wiki-refiner-2026-09-12]]
+- [[briefs/wiki-refiner-2026-09-13]]
+- [[briefs/wiki-refiner-2026-09-14]]
+- [[briefs/wiki-refiner-2026-09-15]]
+- [[briefs/wiki-refiner-2026-09-16]]
+- [[briefs/wiki-refiner-2026-09-17]]
+- [[briefs/wiki-refiner-2026-09-18]]
+- [[briefs/wiki-refiner-2026-09-19]]
+- [[briefs/wiki-refiner-2026-09-20]]
+- [[briefs/wiki-refiner-2026-09-21]]
+- [[briefs/wiki-refiner-2026-09-22]]
+- [[briefs/wiki-refiner-2026-09-23]]
+- [[briefs/wiki-refiner-2026-09-24]]
+- [[briefs/wiki-refiner-2026-09-25]]
+- [[briefs/wiki-refiner-2026-09-26]]
+- [[briefs/wiki-refiner-2026-09-27]]
 - [[context/agentic-value-creation-mission]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]

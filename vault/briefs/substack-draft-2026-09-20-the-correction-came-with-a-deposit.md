@@ -156,3 +156,22 @@ The more accurate version is smaller and better: one client paid a deposit, the 
 ## Backlink context
 
 This draft continues the private weekly founder-journal chain from [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]. Its source links create native Obsidian backlinks without changing the connected notes. No publication, client communication, deployment or other external action is authorised by this draft.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[briefs/2026-09-15-openhouse-seai-retrofit-handover-pack-intake-proof]]
+- [[briefs/2026-09-16-openhouse-hpi-v31-home-user-guide-proof]]
+- [[briefs/2026-09-17-openhouse-bcms-completion-scope-home-record-proof]]
+- [[briefs/2026-09-18-openhouse-safety-file-custody-future-works-proof]]
+- [[briefs/2026-09-19-openhouse-taking-in-charge-boundary-aftercare-routing-proof]]
+- [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
+- [[briefs/substack-draft-2026-09-27-more-precise-not-complete]]
+- [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
+- [[people/sam-donworth]]
+- [[project_state/donworth-studio]]
+- [[project_state/heres-health-app]]
+- [[project_state/oh]]
+

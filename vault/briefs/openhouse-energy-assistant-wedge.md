@@ -309,6 +309,7 @@ This avoids the product feeling surveillant while preserving the developer insig
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-market-readiness-audit]]
+- [[briefs/2026-09-16-openhouse-hpi-v31-home-user-guide-proof]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/kimi-k3-low-bit-edge-ai-opportunity-2026-07-20]]
 - [[briefs/openhouse-a-rated-homeowner-policy-thesis-2026-07-28]]

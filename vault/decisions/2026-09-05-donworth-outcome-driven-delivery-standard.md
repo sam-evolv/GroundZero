@@ -51,7 +51,12 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/index]]
 - [[context/model-pack]]
 - [[decisions/2026-09-03-cost-efficient-agent-model-routing]]
+- [[decisions/2026-09-16-hermes-routing-drift-correction-and-daily-driver]]
 - [[items/ops-accepted-artifact-custody-gate]]
+- [[items/ops-daily-sync-digest]]
+- [[items/ops-graph-engineering-pilot]]
+- [[items/ops-kanban-terminal-transition-guard]]
+- [[items/ops-project-state-reconciler]]
 - [[project_state/donworth-studio]]
 - [[project_state/heres-health-app]]
 

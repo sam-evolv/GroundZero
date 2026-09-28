@@ -40,6 +40,7 @@ Supply-side growth is healthy but needs to keep beating churn. Net venues = supp
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-27-openbook-gymmaster-membership-attribution-proof]]
 - [[companies/openbook]]
 - [[goals/ob-retention]]
 - [[items/ob-cancellation-waitlist]]

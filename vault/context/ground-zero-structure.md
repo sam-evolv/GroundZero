@@ -109,6 +109,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/ob-retention]]
 - [[goals/oh-activation]]
 - [[goals/oh-v2-launch]]
+- [[items/ops-daily-sync-digest]]
 - [[people/sam-donworth]]
 - [[project_state/ob]]
 - [[project_state/oh]]

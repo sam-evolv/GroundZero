@@ -9,6 +9,12 @@ source: Live Here’s Health privacy page, official Apple App Privacy and third-
 
 # Here’s Health app-privacy declaration and SDK-drift release gate
 
+## Live app-policy transition — 23 September 2026, 20:17 IST
+
+- Donworth's private site repository published a dedicated Here’s Health app notice at exact commit `11491d01bfa738a9cd39068d3e221e8cb21ac0ba` / tree `ad1f64749ac7bfe66189ad7835cf86051d460d6d`, with a successful GitHub Production receipt and Ready Vercel deployment `dpl_FirzuiXX6Wj1x1HBdzADpMwa4nsG`. The commit adds `site/privacy.html`, a `/privacy` route and privacy links across the existing site templates.
+- `https://www.donworthstudio.ie/privacy` returned HTTP `200`, 14,299 bytes and SHA-256 `188f383627552c613cc88ba766008585c68d96d0814ad7d14b38837e58ad3864`. Chromium rendered title “🐴 Here’s Health App Privacy Policy | Donworth Studio”, heading “Privacy policy.” and a notice dated 23 September 2026. It identifies Tynestyle Trading Ltd trading as Here’s Health as operator, Donworth Studio as developer/Google Play developer-account name, and links to the separate Here’s Health website policy.
+- This materially supersedes the assumption that no app-specific public notice existed. It does **not** pass the proposed release gate: the published assertions were not independently approved by the client/legal owner or reconciled to an exact app build, SDK/network inventory, Apple/Google declarations, account-deletion implementation, retention decisions or controller/processor allocation. The apex `https://donworthstudio.ie/privacy` remains a Vercel `404`, so the final store-facing policy and deletion URLs still require explicit custody and verification.
+
 ## Bounded proposal
 
 Add one **app-privacy declaration and SDK-drift release gate** to the Here’s Health release proof. Before either store submission, reconcile the mobile app’s actual data flows and third-party dependencies against:

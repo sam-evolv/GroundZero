@@ -6,6 +6,8 @@ Updated: 2026-09-03T22:14:23+0100 IST
 Owner: Sam Donworth
 Scope: Hermes orchestration profiles `default`, `forge`, and `vera`
 
+> **Partially superseded 2026-09-16.** The lane split and privacy intent below stand and are now actually enforced, but the "Skippy / default remains `openai-codex` / `gpt-5.6-sol`" line no longer matches the live runtime: at Sam's direction Skippy's daily driver is `deepseek-v4.1-flash` @ OpenCode Go, with Astra retained as deliberate escalation. The runtime had also drifted off this decision for roughly 13–15 September, including onto training-tier free models. See [[decisions/2026-09-16-hermes-routing-drift-correction-and-daily-driver]].
+
 ## Decision
 
 Use the strongest subscribed ChatGPT model selectively for project direction and final risk ownership, while routing implementation and independent verification to capable OpenCode Go models.
@@ -93,5 +95,6 @@ Review or change the routing if any of the following occurs:
 _Auto-generated: updated by wiki-refiner_
 - [[context/index]]
 - [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]
+- [[decisions/2026-09-16-hermes-routing-drift-correction-and-daily-driver]]
 - [[items/donworth-native-evidence-and-route-evaluation]]
 

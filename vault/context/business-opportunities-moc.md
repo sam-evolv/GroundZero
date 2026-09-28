@@ -15,10 +15,16 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[briefs/planet-satellite-opportunity]] — Planet.com satellite imagery as change-detection wedge for solar, OH, and general
 - [[briefs/solar-installer-workflow-analysis]] — how Irish solar providers actually operate (evidence base)
 - [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]] — manual, customer-authorised HDF + inverter + supplier-statement proof before any Evolv meter-data automation
+- [[briefs/2026-09-09-evolv-duos-group-public-benchmark-gate]] — one-site test of ESB Networks' public DUoS-group interval averages as contextual reporting evidence, never a peer-performance claim
+- [[briefs/2026-09-22-evolv-commercial-renovation-passport-evidence-continuity-gate]] — one static, permissioned rooftop appendix testing whether BRP-compatible asset continuity adds owner decision value beyond the existing period report; not a passport, assessment or portal
+- [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]] — one static pre-commit receipt testing whether source-linked NDMG and ESB connection readiness improves a real rooftop decision; not an application, engineering opinion or submission
+- [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]] — one static post-operation appendix separating physical electricity, renewable attributes and factor boundaries before any customer carbon claim; no footprint, assurance or GO transaction
+- [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]] — consultation-stage watch plus one later, permissioned site screen for final ESB Local Business Flex location, meter, controllability and economics; no application, control action or hardware spend
 - [[briefs/openhouse-energy-assistant-wedge]] — OpenHouse as energy-assist layer for new-build homeowners
 
 ### Booking & Hospitality
 - [[companies/openbook]] — OpenBook's core wedge: restaurant bookings + no-show reduction
+- [[briefs/2026-09-27-openbook-gymmaster-membership-attribution-proof]] — approval-gated, no-build proof of consented website-to-GymMaster lead and membership attribution before any growth-service promise
 - [[companies/heres-health]] — Cork health-food, café and wellness client engagement
 - [[briefs/2026-08-13-heres-health-digital-platform-phase-one]] — whole-brand mobile platform proposal spanning Square café commerce and Shopify retail with a protected six-week scope gate
 - [[items/heres-health-week-one-discovery-and-technical-proof]] — active evidence gate for Square, Shopify, hardware, operations and release-account readiness
@@ -44,6 +50,13 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[companies/openhouse-ai]] — OpenHouse: one living Home Record reached through developer handover or direct consumer onboarding
 - [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]] — bounded test of binding EU construction-product passport evidence to exact installed products in the Home Record
 - [[briefs/2026-09-04-openhouse-ciri-provider-of-record-wedge]] - bounded provider-of-record manifest linking exact-home work packages to source evidence and future CIRI status without claiming current compliance
+- [[briefs/2026-09-11-openhouse-built-to-innovate-buyer-subsidy-gate]] - unsent buyer-side funding-alignment appendix for one paid developer workflow proof; current eligibility and support terms remain adviser-confirmation gates
+- [[briefs/2026-09-15-openhouse-seai-retrofit-handover-pack-intake-proof]] — one homeowner-supplied SEAI retrofit pack test for exact-home warranty, operating, maintenance and future-upgrade retrieval; no SEAI integration or compliance claim
+- [[briefs/2026-09-16-openhouse-hpi-v31-home-user-guide-proof]] - one static Longview mapping from permissioned source evidence into the official HPI v3.1 Home User Guide requirements; no certification, endorsement or production claim
+- [[briefs/2026-09-17-openhouse-bcms-completion-scope-home-record-proof]] - one static, permissioned phase test binding a BCMS completion certificate and Annex to exact homes; public metadata is only a cross-check, with no certification or compliance claim
+- [[briefs/2026-09-18-openhouse-safety-file-custody-future-works-proof]] - one static, permissioned Safety File test for exact-home scope, custody and later-work retrieval; no authoring, legal ownership, safety or compliance claim
+- [[briefs/2026-09-19-openhouse-taking-in-charge-boundary-aftercare-routing-proof]] - one static, permissioned phase-and-asset receipt for taking-in-charge status evidence and aftercare routing; no application, ownership, liability or compliance claim
+- [[items/oh-warranty-evidence-pack]] - existing warranty-evidence item narrowed to one exact-home latent-defects policy and claim-readiness receipt; use the home's actual policy, make no coverage decision, and test manual retrieval before any build or insurer approach
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]] — canonical DTC product, context engine, energy-integration, business-model and validation strategy
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]] — €79 Upgrade Ready Plan concierge validation before broad consumer build
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]] — productised AI workflow consulting for near-term cash
@@ -141,6 +154,18 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-04-openhouse-ciri-provider-of-record-wedge]]
 - [[briefs/2026-09-05-heres-health-notification-state-and-consent-receipt-gate]]
 - [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]]
+- [[briefs/2026-09-09-evolv-duos-group-public-benchmark-gate]]
+- [[briefs/2026-09-11-openhouse-built-to-innovate-buyer-subsidy-gate]]
+- [[briefs/2026-09-15-openhouse-seai-retrofit-handover-pack-intake-proof]]
+- [[briefs/2026-09-16-openhouse-hpi-v31-home-user-guide-proof]]
+- [[briefs/2026-09-17-openhouse-bcms-completion-scope-home-record-proof]]
+- [[briefs/2026-09-18-openhouse-safety-file-custody-future-works-proof]]
+- [[briefs/2026-09-19-openhouse-taking-in-charge-boundary-aftercare-routing-proof]]
+- [[briefs/2026-09-22-evolv-commercial-renovation-passport-evidence-continuity-gate]]
+- [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]]
+- [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]]
+- [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]]
+- [[briefs/2026-09-27-openbook-gymmaster-membership-attribution-proof]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
@@ -185,6 +210,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/heres-health-westron-price-file-diff-proof]]
 - [[items/ob-no-show-deposits]]
 - [[items/ob-venue-health-radar]]
+- [[items/oh-warranty-evidence-pack]]
 - [[items/renew-grid-automation]]
 
 

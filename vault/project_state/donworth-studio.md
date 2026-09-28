@@ -1,14 +1,137 @@
 ---
 id: donworth-studio
 company_id: donworth-ai-solutions
-headline: "The general Astra delivery baseline remains held; Here’s Health corrected candidate `49f19d44` is independently accepted and live on its isolated preview, but physical-phone/unfurl proof and the directed client film remain open. Finder replay still awaits Sam and genuine Windows runtime remains untested."
+headline: "Private Desktop `main` is unsigned `a1cec24e…` / tree `1fd06ba2…`; successful workflow run `36255653159` produced exact-head draft v0.18.12 macOS arm64/x64 and Windows x64 artifacts whose manifests say unsigned and unnotarized. Installed signed v0.18.9 and the source-bound public site remain byte-unchanged; no draft artifact was launched or independently accepted."
 valid: true
-updated_at: "2026-09-07T00:02:00+01:00"
+updated_at: "2026-09-28T04:08:00+01:00"
 role: project-state
 status: building
 ---
 
 # Donworth Studio project state
+
+## Draft Desktop v0.18.12 artifacts exist at a new remote head; installed app remains v0.18.9 — 28 September 2026, 04:08 IST
+
+- Private GitHub `sam-evolv/donworth-studio-desktop` `main` is unsigned `a1cec24eb756aa62214034ae21432acf6f2fbb05` / tree `1fd06ba2c5430ecfeb3d15a78dfa483a8196cd04`. The bounded post-cutoff range from `0e6ca105…` is three commits across five paths: tester-installer generation with bundled Google sign-in, versioning to `0.18.12`, and a cross-platform Google-build / installer-UI correction. Commit subjects and changed source are implementation records, not user-visible acceptance.
+- GitHub Actions run `36255653159` completed successfully at exact head `a1cec24e…` for prepare-release plus macOS arm64, macOS x64 and Windows x64 packaging. Draft release `tester-36255653159` / “Donworth tester build 41” targets that exact commit and exposes three primary v0.18.12 packages: macOS arm64 311,729,604 bytes / SHA-256 `942c6a367aa92c982be59f836cffffa987d08287b230018e1ae1aaa73ae51e2f`; macOS x64 311,818,726 bytes / `ce7df60f4d20f5de6978f48ec2389da7e6e294767e813def6132d97b2680b603`; Windows x64 225,709,656 bytes / `a0063977a0ad35d3aba76883c856bec50600a80fb2601d28d54aed0fa7d58d7e`. Each exact build manifest says `signed: false` and `notarized: false`; the release remains draft. This proves artifact custody only, not installation, launch, update behavior or acceptance on macOS/Windows.
+- Direct installed-artifact readback remains signed version/build `0.18.9`, bundle `studio.donworth.desktop`, `app.asar` SHA-256 `9912fe344f4a17269a8e6388ef541385100ac890617c1de042c0f210089cc602` and executable `711adb2454be01311ebb7d6c90f23fdbb6cd059b7e88910624c62d364486ccdd`; strict code-sign verification passes for Developer ID team `FZXRCW547P`. The installed app was not launched.
+- The separate private marketing site remains at `a406b0614819cad87f761327c206132f6d3d84eb` on Ready production `dpl_49frAMp2psywK7sF2JGMBqbMAbbZ`. Both apex and `www` still return identical root HTTP `200`, 98,341 bytes / SHA-256 `7d1a4a5a…`, and `/privacy` HTTP `200`, 16,799 bytes / `2080d454…`. No new rendered-surface review was performed.
+- No release publication, download/execution of the draft installers, install-over, app launch, update exercise, genuine-Windows or physical-device acceptance, source merge, deployment, alias/DNS change, client contact or production mutation occurred.
+
+## App privacy/deletion wording republished on a new source-bound deployment — 26 September 2026, 16:57 IST
+
+- Private GitHub `sam-evolv/donworth-ai-solutions-site` `main` advanced three unsigned commits / one changed file from `11491d01…` to `a406b0614819cad87f761327c206132f6d3d84eb` / tree `64a2132cf3bc789f5fa984a18a1d53447f75d0ac`. The bounded change updates only `site/privacy.html` to clarify account deletion, receipt retention, shopping/privacy behavior and verified device-storage wording.
+- GitHub exact-ref Production deployment record `6678441683` completed successfully and targets `donworth-ai-studio-5s3vkpu1z-openhouseais-projects.vercel.app`; Vercel inspection maps both apex and `www` to that exact Ready production URL as deployment `dpl_49frAMp2psywK7sF2JGMBqbMAbbZ`. Root bytes remain HTTP `200`, 98,341 bytes / SHA-256 `7d1a4a5a…`; `/privacy` changed to HTTP `200`, 16,799 bytes / SHA-256 `2080d454…`, with identical fetched bytes on apex and `www`.
+- Chromium rendered the apex privacy page at the real user surface: title “🐴 Here’s Health App Privacy Policy | Donworth Studio”, heading “Privacy policy.”, canonical `https://www.donworthstudio.ie/privacy`, “Last updated 26 September 2026”, and sections for in-app/email account deletion, saved deletion receipts, scope and retention. This proves publication only. The page's operator, controller/processor, provider, retention and deletion assertions were not independently accepted by Here’s Health or legal counsel and were not reconciled to a directly inspected App Store/Play submission.
+- Installed signed Desktop v0.18.9 remains byte-unchanged at `9912fe34…` / `711adb24…`, with strict code-sign verification passing. It was not launched, so authenticated Desktop, genuine-Windows and physical-device acceptance remain open. No repository, deployment, alias, policy, client-contact or production mutation was performed by this reconciliation.
+
+## Apex/canonical host repaired without a new deployment — 25 September 2026, 12:09 IST
+
+- Private GitHub `sam-evolv/donworth-ai-solutions-site` `main` remains `11491d01bfa738a9cd39068d3e221e8cb21ac0ba` / tree `ad1f64749ac7bfe66189ad7835cf86051d460d6d`; GitHub's exact-ref Production receipt still binds that source to Vercel deployment `dpl_FirzuiXX6Wj1x1HBdzADpMwa4nsG`.
+- Vercel now maps both `https://donworthstudio.ie` and `https://www.donworthstudio.ie` to that same Ready production deployment. Direct apex readback matched the existing `www` bytes: root HTTP `200`, 98,341 bytes / SHA-256 `7d1a4a5af0460a993f2ed74c5c91fc61dd094a9e73ed06852c38159d9a4e0fb8`; `/privacy` HTTP `200`, 14,299 bytes / SHA-256 `188f383627552c613cc88ba766008585c68d96d0814ad7d14b38837e58ad3864`.
+- Chromium rendered the apex home title “🐴 App Development & Custom Software Ireland | Donworth Studio”, heading “Exceptional software, without the complexity.” and canonical `https://donworthstudio.ie/`; it also rendered the apex privacy title, “Privacy policy.” heading and policy text. This closes the observed apex/canonical-host defect with rendered-surface evidence.
+- No new source commit or deployment was observed, and this reconciliation did not change aliases or production. The alias-repair actor, approval and exact time remain unestablished. Independent exact-artifact, legal and client acceptance remain open. Installed signed Desktop v0.18.9 remains byte-unchanged at `9912fe34…` / `711adb24…`; it was not launched, so authenticated Desktop, genuine-Windows and physical-device acceptance remain open.
+
+## Here’s Health app privacy page published; apex defect remains — 23 September 2026, 20:17 IST
+
+- Private GitHub `sam-evolv/donworth-ai-solutions-site` `main` advanced one verified commit from `e566216e1181766189459c6bbbf890110e3673b6` to `11491d01bfa738a9cd39068d3e221e8cb21ac0ba` / tree `ad1f64749ac7bfe66189ad7835cf86051d460d6d`. The 18-file change adds `site/privacy.html`, a `/privacy` rewrite and privacy links across the existing site templates; it does not change the separate Desktop repository.
+- GitHub binds exact `11491d01…` to a successful Production deployment, and Vercel inspection resolves `www.donworthstudio.ie` to Ready `dpl_FirzuiXX6Wj1x1HBdzADpMwa4nsG`. Direct readback returned HTTP `200` for the root at 98,341 bytes / SHA-256 `7d1a4a5a…` and for `/privacy` at 14,299 bytes / SHA-256 `188f3836…`. Chromium rendered title “🐴 Here’s Health App Privacy Policy | Donworth Studio”, heading “Privacy policy.” and the dated app-specific notice. This is rendered-surface and source/deployment binding, not independent legal or exact-artifact acceptance.
+- The published notice names Tynestyle Trading Ltd trading as Here’s Health as app operator, describes Donworth Studio as app developer and as the Google Play developer-account name, and links to the existing Here’s Health website policy. Those are claims on the live page; this reconciliation did not independently establish controller/processor allocation, client/legal approval, Play account ownership, build-to-policy consistency, store declarations or deletion-path behavior.
+- The blocking hostname split remains. `https://donworthstudio.ie/` and `https://donworthstudio.ie/privacy` each returned Vercel `404` on separate Ready `dpl_2mEPvB…`, while the `www` home canonical still points to the dead apex. Installed signed Desktop v0.18.9 remains on the previously verified byte identity; it was not launched, and no authenticated Desktop, genuine-Windows or physical-device gate advanced. No repository, deployment, alias, DNS, policy, client-contact or production mutation was performed by this reconciliation.
+
+## SEO/GEO publication is live on `www`, but canonical apex remains broken — 23 September 2026, 12:27 IST
+
+- Private GitHub `sam-evolv/donworth-ai-solutions-site` `main` advanced two verified commits and 101 changed files from `5fd1508bde4da812f1736eaac275af0e520043bc` to `e566216e1181766189459c6bbbf890110e3673b6` / tree `ea54d85e62de24abf2e77288f0c96f3345ec4e58`. Commit `3a00a2bd…` extracts the production site from the staged archive without intended content changes; `e566216e…` says it strengthens SEO, GEO and AI-search readiness without changing the design.
+- GitHub records Preview and Production deployments for exact `e566216e…`, and its successful Vercel status targets Ready production deployment `dpl_53Dyowt2VBHUegsVctvSdobX5NCZ`. Vercel inspection binds `www.donworthstudio.ie` to that deployment. Three direct root reads were stable at HTTP `200`, 97,961 bytes and SHA-256 `b22284e76e6f4ef0ec7c21292f50f3801e96cf9c5d14aa299b89b2791270feed`; Chromium rendered title “🐴 App Development & Custom Software Ireland | Donworth Studio”, the existing “Exceptional software, without the complexity.” heading and the existing Apps / Software / Automation / Insights / About / Contact navigation. This is current rendered-surface evidence, not design, owner or independent exact-artifact acceptance.
+- On `www`, `robots.txt`, `sitemap.xml`, `/app-development` and `/insights` each returned HTTP `200`; the sitemap enumerates 16 URLs, and the robots policy allows search, answer-retrieval and named training crawlers. However, the rendered canonical URL is `https://donworthstudio.ie/`, the robots sitemap directive points to `https://donworthstudio.ie/sitemap.xml`, and every sitemap location uses the apex host. Direct apex reads of `/`, `/robots.txt`, `/sitemap.xml`, `/app-development` and `/insights` all returned Vercel HTTP `404`. The SEO/GEO surfaces are therefore published on `www` while directing crawlers to a dead canonical host.
+- Apex remains on separate source-unbound Ready deployment `dpl_2mEPvBK4pRVbabfX24eWWzERAicM`; three root reads returned request-variant 79-byte `404` responses. The inspected Vercel records list overlapping aliases across two projects, preserving a routing contradiction rather than explaining intended topology. Live-board search found no exact `e566216e…` or `dpl_53Dyow…` receipt. Apex/canonical repair authority, training-crawler policy approval and exact-artifact acceptance remain open.
+- Installed `/Users/samdonworth/Applications/Donworth Studio.app` remains signed v0.18.9 with unchanged `app.asar` `9912fe344f4a17269a8e6388ef541385100ac890617c1de042c0f210089cc602` and executable `711adb2454be01311ebb7d6c90f23fdbb6cd059b7e88910624c62d364486ccdd`; strict code-sign verification passes. The app was not launched, and no authenticated Desktop journey, genuine-Windows or physical-device gate advanced. No repository, deployment, alias, DNS, client-contact or production mutation was performed by this reconciliation.
+
+## Public hostname split and desktop-source custody correction — 23 September 2026, 00:16 IST
+
+- Private GitHub `sam-evolv/donworth-ai-solutions-site` `main` is now unsigned commit `5fd1508bde4da812f1736eaac275af0e520043bc` / tree `6ed3b6b217a1beeae048cfe713ebc5c5af61ffef`, four commits beyond the accepted snapshot `07dba716…`. The range stages a new site archive, build script and Vercel routing; no canonical approval or independent exact-artifact review was found on the live Donworth board.
+- Vercel binds `www.donworthstudio.ie` to Git-sourced Ready deployment `dpl_38Do76d833fmX1byjpYKwS15GzMv` at exact `5fd1508…`. Three direct reads returned stable HTTP `200`, 92,879 bytes and SHA-256 `0437fa8df6273c3bae817884f893c1cc20a209790a0374fbd38dfc435dde2185`; Chromium rendered title “Donworth Studio | Mobile apps, custom software and automation in Ireland”, primary heading “Exceptional software, without the complexity.” and the Apps / Software / Automation / Insights / About / Contact navigation. This is current rendered-surface and source-binding evidence, not design or owner acceptance.
+- The apex `donworthstudio.ie` is split onto separate source-unbound Ready deployment `dpl_2mEPvBK4pRVbabfX24eWWzERAicM`. Three direct reads returned HTTP `404` and 79 request-variant bytes; Chromium rendered Vercel’s “This page doesn’t exist” surface. This supersedes the prior statement that both accepted `.ie` hostnames remained live and byte-identical. Cause, intended alias topology and repair authority remain open.
+- Installed `/Users/samdonworth/Applications/Donworth Studio.app` is unchanged at signed version/build `0.18.9`, `app.asar` `9912fe344f4a17269a8e6388ef541385100ac890617c1de042c0f210089cc602` and executable `711adb2454be01311ebb7d6c90f23fdbb6cd059b7e88910624c62d364486ccdd`; strict code-sign verification still passes. Its stamp and manifest still name `928ffbdd4e9baf1832271d7ecf09d9d93ff70f52`, and that exact commit now resolves in private GitHub `sam-evolv/donworth-studio-desktop` at tree `db684a7531cd671a98288c749dd2e5efe171cce8`. This closes the missing-Git-object claim only; reproducible package binding, actor/approval and independent rendered acceptance remain open. The app was not launched, Finder task `t_f638f8a1` remains blocked with crashed runs `357`–`360`, and no genuine-Windows or physical-device gate advanced.
+- This reconciliation performed no install, launch, restart, alias change, deployment, push, merge, client contact, spend or production mutation.
+
+## Installed package bytes changed under the same source stamp — 21 September 2026, 21:07 IST
+
+- Direct readback of `/Users/samdonworth/Applications/Donworth Studio.app` still reports bundle `studio.donworth.desktop`, signed version/build `0.18.9` and Developer ID team `FZXRCW547P`; `codesign --verify --deep --strict` reports the bundle valid. The top-level app mtime remains `2026-09-20 19:13:56 IST`, but `app.asar` now has mtime `2026-09-21 19:31:59 IST`, size `48,454,511` bytes and SHA-256 `9912fe344f4a17269a8e6388ef541385100ac890617c1de042c0f210089cc602`; the executable now has mtime and signature timestamp `2026-09-21 19:32:23 IST`, size `53,120` bytes and SHA-256 `711adb2454be01311ebb7d6c90f23fdbb6cd059b7e88910624c62d364486ccdd`. This supersedes the `21773a35…` / `f04a785e…` tuple as current installed identity.
+- The bundled runtime manifest and install stamp remain unchanged and still name clean local `main` source `928ffbdd4e9baf1832271d7ecf09d9d93ff70f52`, built at `2026-09-20T18:13:33.986Z`. A refreshed full upstream repository still cannot resolve that commit, and exact searches of the live Donworth board found no reference to the source, current hashes or version `0.18.9`. Cause, actor, approval, reproducibility, exact source custody and independent acceptance remain open.
+- The app was not launched and no rendered app surface, authenticated journey, physical device or genuine Windows runtime was exercised. Finder task `t_f638f8a1` remains blocked and its latest run remains crashed run `360`. The accepted `.ie` root remained HTTP `200`, 740 bytes and SHA-256 `41e953a709f0c559a23b270fae6612678c35c5f860b8c9ffe6eda74617d10176` on unchanged Ready deployment `dpl_vn6y2scDJK8N7ZtyFWZQSPPJQ7XN`. No install, launch, restart, merge, push, deployment, client contact, spend or production mutation was performed by this reconciliation.
+
+## Installed package rebuilt again; same app archive, new executable and source stamp — 20 September 2026, 20:24 IST
+
+- Direct readback of `/Users/samdonworth/Applications/Donworth Studio.app` still reports bundle `studio.donworth.desktop`, signed version/build `0.18.9` and Developer ID team `FZXRCW547P`; `codesign --verify --deep --strict` reports the bundle valid on disk and satisfying its designated requirement. The top-level mtime is now `2026-09-20 19:13:56 IST`. `app.asar` remains `21773a3516837e323adcc458ed7375f19f4e74f6c9379ea1f7a17c4bbf24430c`, while the executable is now `f04a785e021b24b7e097e633be97e0d0f9492a8e9910a3116cca33c31e834897`, superseding the 16:21 executable `c67c42e0…`.
+- The bundled runtime manifest and install stamp now name source `928ffbdd4e9baf1832271d7ecf09d9d93ff70f52`; the stamp records branch `main`, build time `2026-09-20T18:13:33.986Z`, `dirty: false` and `source: local`. The canonical Hermes Git object store cannot resolve that commit, and exact searches of the live Donworth board found no task, comment, event or run reference to the source commit, executable hash or retained `app.asar` hash. Cause, actor, approval, exact source custody and independent acceptance remain open.
+- The app was not launched and no rendered surface, authenticated journey, physical device or genuine Windows runtime was exercised. Finder task `t_f638f8a1` remains blocked; its latest run remains crashed run `360`. Both accepted `.ie` roots remain HTTP `200`, 740 bytes and SHA-256 `41e953a709f0c559a23b270fae6612678c35c5f860b8c9ffe6eda74617d10176` on unchanged Ready deployment `dpl_vn6y2scDJK8N7ZtyFWZQSPPJQ7XN`; the separate `donworth.ai` names still expose no A records. No install, launch, restart, merge, push, deployment, client contact, spend or production mutation was performed by this reconciliation.
+
+## Installed app replaced again; exact provenance and rendered acceptance remain open — 20 September 2026, 16:21 IST
+
+- Direct readback of `/Users/samdonworth/Applications/Donworth Studio.app` reports bundle `studio.donworth.desktop`, signed version/build `0.18.9`, Developer ID team `FZXRCW547P`, and top-level mtime `2026-09-20 16:01:01 IST`. Current SHA-256 values are `21773a3516837e323adcc458ed7375f19f4e74f6c9379ea1f7a17c4bbf24430c` for `app.asar` and `c67c42e09e6042970abca5d3e25748aa5b996dbb1bf2689402dd0ffc1d0de90f` for the executable, superseding the 19 September `4ec0baac…` / `a6c9734f…` tuple as current installed identity.
+- The bundled runtime manifest and install stamp both name source commit `326edb4093d0491fb706a6ed70291f4a9431a47d`; the stamp names branch `main`, build time `2026-09-20T15:00:33.044Z`, `dirty: false`, and `source: local`. The commit cannot be resolved in the canonical Hermes Git object store, and no accepted receipt inspected binds it to the separately accepted office-UX `6db2614c…` or Jobs `b6581734…` candidates. Cause, actor, approval, exact source custody and independent acceptance remain open.
+- The app was not launched and no rendered surface, authenticated journey, physical device or genuine Windows runtime was exercised. Finder task `t_f638f8a1` remains blocked. Both accepted `.ie` hostnames remain HTTP `200`, 740 bytes and SHA-256 `41e953a709f0c559a23b270fae6612678c35c5f860b8c9ffe6eda74617d10176`; the separate `donworth.ai` names remain unresolved. This reconciliation performed no install, merge, push, deployment, client contact, spend or production mutation.
+
+## Installed app replaced and self-identifies a missing source commit — 19 September 2026, 20:14 IST
+
+- Direct readback of `/Users/samdonworth/Applications/Donworth Studio.app` reports bundle `studio.donworth.desktop`, signed version/build `0.18.5`, Developer ID team `FZXRCW547P`, and top-level mtime `2026-09-19 13:06:12 IST`. Current SHA-256 values are `4ec0baac21670a1b140f2a568f93c0e7ed5b097289a7fdc10cbb8588d0fa9455` for `app.asar` and `a6c9734fb6405a372ce707a69cec2147cbae4b124c367e1d79f3138ad7953d09` for the executable, superseding the 00:12 `c3df3c0a…` / `4fc904b4…` tuple.
+- The bundled runtime manifest and install stamp both name source commit `6ae7d23e8db0703de62367e2038dd997caff61df`; the stamp names branch `codex/mac-reliability-20260919`, build time `2026-09-19T11:47:06.584Z`, `dirty: false`, and `source: local`. This is stronger package self-description than the prior unbound tuple, but the named commit cannot be resolved in the canonical Hermes Git object store, no current worktree contains it, and no accepted receipt inspected binds it to the separately accepted office-UX `6db2614c…` or Jobs `b6581734…` candidates. Exact source custody, approval and independent acceptance therefore remain open.
+- The app was not launched and no rendered surface, authenticated journey, physical device or genuine Windows runtime was exercised. Finder task `t_f638f8a1` remains blocked after protocol-violation retries; launch, replay and stop acceptance did not advance. Both accepted `.ie` hostnames remain HTTP `200`, 740 bytes and SHA-256 `41e953a709f0c559a23b270fae6612678c35c5f860b8c9ffe6eda74617d10176`. This reconciliation performed no install, merge, push, deployment, client contact, spend or production mutation.
+
+## Installed app changed again; exact provenance and rendered acceptance remain open — 19 September 2026, 00:12 IST
+
+- Direct readback of `/Users/samdonworth/Applications/Donworth Studio.app` still reports bundle `studio.donworth.desktop` and version/build `0.17.0`, but the top-level mtime is now `2026-09-18 20:28:07 IST`. Current `app.asar` SHA-256 is `c3df3c0a153df705d92ea293c535affe35e6af6b7b16229ebb3d83f7b7f54c79`, superseding the 20:10 checkpoint's `488c52dd…`; the executable remains `4fc904b4f55bcb147d1d97584afca8847ec4475ac20862ec0cc3355c1d6e3619`.
+- No canonical note or accepted receipt inspected in this bounded reconciliation names the new `app.asar` hash or binds the current tuple to the historical accepted `84d708cc…` / `f5212ea9…` installation. Direct Git readback still resolves the separate office-UX and Jobs candidates to `6db2614c…` / tree `8a23f67d…` and `b6581734…` / tree `5ce3c533…`; no combined candidate or installation was established. The mtime proves only a filesystem metadata change; cause, actor, approval and source lineage remain open.
+- The app was not launched and no rendered surface, authenticated journey, physical device or genuine Windows runtime was exercised. Finder task `t_f638f8a1` remains blocked. Both accepted `.ie` hostnames remain HTTP `200`, 740 bytes and SHA-256 `41e953a7…`. This reconciliation performed no install, merge, push, deployment, client contact, spend or production mutation.
+
+## Installed app changed again; exact provenance and rendered acceptance remain open — 18 September 2026, 20:10 IST
+
+- Direct readback of `/Users/samdonworth/Applications/Donworth Studio.app` still reports bundle `studio.donworth.desktop` and version `0.17.0`, but the top-level mtime is now `2026-09-18 19:44:27 IST`. Current `app.asar` SHA-256 is `488c52ddfb0cbdcf4e8457256e6f8ecce52739392257812dd85af09f20031b18`; current executable SHA-256 is `4fc904b4f55bcb147d1d97584afca8847ec4475ac20862ec0cc3355c1d6e3619`. This supersedes the 17 September observed `dd8891b8…` / `36bc8b49…` tuple as the current installed byte identity while preserving that older readback as history.
+- No canonical note or accepted receipt inspected in this bounded reconciliation names either new hash. The new tuple is not the historically accepted `84d708cc…` / `f5212ea9…` installation and is not bound to the separately accepted office-UX `6db2614c…` or Jobs `b6581734…` candidates. The mtime proves only a filesystem metadata change; cause, actor, approval and source lineage remain open.
+- The app was not launched and no rendered surface, authenticated journey, physical device or genuine Windows runtime was exercised. Finder task `t_f638f8a1` remains blocked with launch, stop and replay counts at zero in its latest exact receipt. Both accepted `.ie` hostnames remain HTTP `200`, 740 bytes and SHA-256 `41e953a7…` on Ready deployment `dpl_vn6y2scDJK8N7ZtyFWZQSPPJQ7XN`. This reconciliation performed no install, merge, push, deployment, client contact, spend or production mutation.
+
+## Desktop office/Jobs candidates accepted separately; installed custody is open — 17 September 2026, 00:11 IST
+
+- Live Donworth board receipts record Vera `ACCEPT WITH CONDITIONS` for exact office-UX commit `6db2614c38c7f3c726f077b5b46beca1592e7e92` / tree `8a23f67d97d0245cd91411548578f6a3aaab7070` and exact Jobs commit `b658173456bdfe1ceb06bfeb8b2dfe7bd33a1e4b` / tree `5ce3c533f009c2be6ca5091ea957978c4c8d4d8b`. Direct Git readback resolves the two named worktrees to those exact tuples; neither is clean because each retains untracked evidence/log files. The verdicts cover separate isolated Electron evidence and focused checks, not a combined or installed product.
+- Approval-routing task `t_a18ae396` completed with no acceptance blocker and records zero overlapping changed paths plus a clean merge-tree simulation. The proposed third integration worktree does not exist, so the two accepted commits have not been merged or cherry-picked together. Combined native behavior, provider-backed Draft, Electron remount of persisted General settings, genuine Windows runtime, signed packaging and installation remain unproven. Any integration still requires Sam's approval, a third isolated worktree and Vera review of the exact combined commit.
+- Direct installed-artifact readback at that checkpoint exposed a custody contradiction. `/Users/samdonworth/Applications/Donworth Studio.app` reported bundle `studio.donworth.desktop`, version `0.17.0`, and top-level mtime `2026-09-14 09:45:34 IST`, while its then-current `app.asar` hashed to `dd8891b8d8d5fed1c33f63a6cf3d6aa49cc0a9b43542c954b3a011ffdc121368` and its executable to `36bc8b492f3710ae4e9760d7547b0546317b617b9a9f257b2ac1bce8d9d9878f`. Those hashes did not match the previously recorded accepted installation (`84d708cc…` / `f5212ea9…`) and were not named by the accepted office/Jobs receipts. Preserve that readback and the older acceptance as history, but do not describe either as the current installed tuple; provenance and rendered verification remained open.
+- Fresh live readback otherwise remains bounded and unchanged: both accepted `.ie` hostnames return HTTP `200`, 740 bytes and SHA-256 `41e953a7…` on Ready deployment `dpl_vn6y2scDJK8N7ZtyFWZQSPPJQ7XN`; Here’s Health preview remains on unaccepted Ready deployment `dpl_HKAdgvTHYqKKTK6ae9vh7sE9PoSx`; Finder task `t_f638f8a1` remains blocked; genuine Windows and physical-device acceptance remain open. No merge, push, install, deployment, client contact, spend or production mutation occurred.
+
+## Terminal-transition guard accepted locally but parked — 16 September 2026, 12:01 IST
+
+- Forge completed exact local candidate `98468308d0b99740f2835ee707eda9f2c3e6e4ab` / tree `01c8f12cb4375a4cc957cfcdd4ef563358010de4` from installed Hermes base `682a95258ce9e877cfb607a5ada6436183efdebb`. Live worktree readback resolves to that tuple; one evidence Markdown file is modified after the commit, so the worktree is not described as clean.
+- Vera independently returned `ACCEPT WITH CONDITIONS` after exact-artifact resolution, focused and sibling test runs with retries disabled, and the required adversarial probes. The held path preserved the human-present gate and did not retry, notify, complete or unblock in the isolated store.
+- Vera recommends **park**, not install: delayed-ack or truncated `UNKNOWN` runs can still be stale-reclaimed despite a completed event, and installation would also hold review-phase crashes that currently retain a protocol-violation retry budget. The 357–360 Finder fixtures were synthetic reconstructions rather than imported production logs.
+- The candidate is local-only: not pushed, merged, installed or exercised on the live dispatcher. It does not advance Finder replay, genuine-Windows runtime, Here’s Health hosted provenance, physical-device proof or client approval. Promotion and installation remain Sam's decision; the `kanban.auto_decompose: false` versus historical auto-promotion contradiction remains open.
+
+## Domain-identity correction — 16 September 2026, 00:01 IST
+
+- Fresh DNS and HTTPS readback confirms the accepted public site hostnames, `donworthstudio.ie` and `www.donworthstudio.ie`, resolve and each return HTTP `200`, 740 bytes and SHA-256 `41e953a709f0c559a23b270fae6612678c35c5f860b8c9ffe6eda74617d10176`. Vercel inspection still identifies exact Ready production deployment `dpl_vn6y2scDJK8N7ZtyFWZQSPPJQ7XN`. This corrects the prior blanket description of a Donworth public-site outage; the accepted `.ie` surface remains available and byte-identical to its accepted root.
+- The separately recorded `donworth.ai` and `www.donworth.ai` names still fail DNS resolution. No canonical decision establishes them as replacements for the accepted `.ie` hostnames, so their intended role and DNS state remain an open gap rather than proof that the accepted public site is down. No DNS, Vercel or repository mutation was made.
+- Here’s Health's exact preview remains HTTP `200`, 260,281 bytes and SHA-256 `e744f48dbf53ed3c4f6671225708c5fb958a36c25a051876184b4c79ce118742` on unbound Ready deployment `dpl_HKAdgvTHYqKKTK6ae9vh7sE9PoSx`. Finder replay and genuine Windows runtime remain open.
+
+## Public-domain availability regression — 15 September 2026, 00:01 IST
+
+- Fresh DNS resolution for both exact public hostnames, `donworth.ai` and `www.donworth.ai`, returned `NXDOMAIN`; direct HTTPS requests therefore failed before any HTTP response. This supersedes the last verified state where both hostnames returned HTTP `200` with identical accepted 740-byte roots. The exact cause, intended DNS state and last-known-good cutover point are open; no DNS, Vercel or repository mutation was made.
+- Here’s Health's exact preview remained available at HTTP `200`, 260,281 bytes and SHA-256 `e744f48dbf53ed3c4f6671225708c5fb958a36c25a051876184b4c79ce118742`, matching the already recorded unbound deployment state rather than creating new acceptance. Finder replay and genuine Windows runtime remain open.
+
+## Finder replay control-plane correction — 13 September 2026, 12:01 IST
+
+- Live Donworth board readback places `t_f638f8a1` in `blocked`, correcting the prior canonical `triage` status. After blocked run `306`, an auto-decomposer action on 7 September promoted the card and spawned runs `357`–`360`; each crashed because the worker exited without `kanban_complete` or `kanban_block`. The four crash receipts contain no Start, Stop or replay result and do not advance Finder acceptance.
+- Live Hermes configuration still reports `kanban.auto_decompose: false`. Preserve the contradiction between that current setting and the recorded 7 September auto-decomposer promotion rather than inferring current cause. The human gate is unchanged: resume only after Sam is physically present at the unlocked Mac, opens the exact reviewed folder in Finder and says `accepted worktree folder open`. Genuine Windows runtime remains untested.
+
+## Here’s Health public-preview provenance regressed — 7 September 2026, 20:03 IST
+
+- Vercel now binds `heres-health-preview.vercel.app` to Ready production deployment `dpl_HKAdgvTHYqKKTK6ae9vh7sE9PoSx`, created at 10:09:57 IST, rather than independently accepted `dpl_GeDQdf2EPTTeDNccui5uggNn7R5F`. The live 260,281-byte root hashes to `e744f48d…`, not accepted local root `4e727d0f…`; exact source and independent review provenance are unavailable. Availability is verified, but the current hosted bytes are not accepted.
+- Donworth's two public domains remain HTTP `200` with identical accepted 740-byte roots (`41e953a7…`). The film, Finder, Windows, client-contact and physical-device boundaries remain unchanged.
+
+## Here’s Health directed film accepted with conditions and presented to Sam — 7 September 2026, 04:04 IST
+
+- **The film chain materially advanced after the 00:02 checkpoint.** Vera rejected intermediate `b084e971…` because it substituted Ken Burns stills for continuous controls and Home motion. The capture root was then repaired: Vera accepted short temporal proof `75a852a4…`, and final task `t_baf78ca1` independently accepted with conditions exact silent 34.0-second portrait film `4dd37679ab3c9c9038efca71273078734fd96834fb165b8d5365d6ff650c4ec6`, bound to accepted app commit `49f19d44f199ae8598cb2e724f84327dc65557eb` / tree `bd9082cb945a3338326225b21bc119767dbe4d17`. The bounded temporal, art-direction, format/browser and package gates passed; this is not a claim of Shapelayer parity or Sam's aesthetic approval.
+- **Exact artifact custody was re-read at 04:04.** The attached MP4 is `6,823,867` bytes, H.264 High, `1080×1920`, `60 fps`, silent, `yuv420p` limited-range BT.709 and 34.000 seconds; direct SHA-256 matched `4dd37679…`. The accepted source worktree still resolves to `49f19d44…` / `bd9082cb…` with tracked source unchanged and eight untracked evidence WebMs, so it is not described as a clean worktree.
+- **Presentation remains bounded.** The live Donworth board records an owner `sendVideo` receipt to Sam only (`message_id 28974`, returned `1080×1920`, 34 seconds, `6,823,867` bytes). This proves API-side upload metadata, not observed playback, colour or taste on Sam's phone. Physical-iPhone/platform rendering, Sam approval for any consequential recipient send and Conor contact remain open; no Conor message, app change, deployment or production integration occurred.
+- **Other delivery boundaries did not move.** Direct 04:04 readback kept both Donworth domains at HTTP `200`, identical 740-byte SHA-256 `41e953a7…`, and the Here’s Health preview at HTTP `200`, accepted root SHA-256 `4e727d0f…`. The general Astra/included-only baseline remains held, Finder replay remains human-gated in triage, and genuine Windows runtime remains untested.
 
 ## Here’s Health corrected preview live; film and Desktop gates remain open — 7 September 2026, 00:02 IST
 
@@ -329,14 +452,39 @@ The earlier recovery/package sequence (`t_11738d3b`, `t_ea2b35f8`, `t_c7fe271a`,
 
 - [[imports/cara-conversation-summary-2026-07-12]] — shared signals: conversation, summary, 2026
 - [[imports/heres-health-meeting-record-addendum-2026-08-29]] — shared signals: addendum, meeting, record
+- [[imports/2026-08-07-chatgpt-personal-agent-design-consultancy]] — shared signals: consultancy, personal, chatgpt
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-01-donworth-imessage-owner-desk-validation-wedge]]
 - [[briefs/2026-09-01-ios-physical-device-qa-lab-opportunity]]
 - [[briefs/2026-09-03-donworth-hybrid-privacy-boundary-receipt-benchmark]]
 - [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
+- [[briefs/substack-draft-2026-09-20-the-correction-came-with-a-deposit]]
+- [[briefs/substack-draft-2026-09-27-more-precise-not-complete]]
 - [[briefs/wiki-refiner-2026-09-04]]
 - [[briefs/wiki-refiner-2026-09-05]]
+- [[briefs/wiki-refiner-2026-09-06]]
+- [[briefs/wiki-refiner-2026-09-07]]
+- [[briefs/wiki-refiner-2026-09-08]]
+- [[briefs/wiki-refiner-2026-09-09]]
+- [[briefs/wiki-refiner-2026-09-10]]
+- [[briefs/wiki-refiner-2026-09-11]]
+- [[briefs/wiki-refiner-2026-09-12]]
+- [[briefs/wiki-refiner-2026-09-13]]
+- [[briefs/wiki-refiner-2026-09-14]]
+- [[briefs/wiki-refiner-2026-09-15]]
+- [[briefs/wiki-refiner-2026-09-16]]
+- [[briefs/wiki-refiner-2026-09-17]]
+- [[briefs/wiki-refiner-2026-09-18]]
+- [[briefs/wiki-refiner-2026-09-19]]
+- [[briefs/wiki-refiner-2026-09-20]]
+- [[briefs/wiki-refiner-2026-09-21]]
+- [[briefs/wiki-refiner-2026-09-22]]
+- [[briefs/wiki-refiner-2026-09-23]]
+- [[briefs/wiki-refiner-2026-09-24]]
+- [[briefs/wiki-refiner-2026-09-25]]
+- [[briefs/wiki-refiner-2026-09-26]]
+- [[briefs/wiki-refiner-2026-09-27]]
 - [[companies/donworth-ai-solutions]]
 - [[context/dashboard]]
 - [[context/index]]
@@ -349,8 +497,10 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/donworth-native-evidence-and-route-evaluation]]
 - [[items/donworth-publishable-and-outreach]]
 - [[items/ops-accepted-artifact-custody-gate]]
+- [[items/ops-daily-sync-digest]]
 - [[items/ops-desktop-ui-approval-readiness-gate]]
 - [[items/ops-graph-engineering-pilot]]
+- [[items/ops-kanban-terminal-transition-guard]]
 - [[items/ops-project-state-reconciler]]
 - [[project_state/heres-health-app]]
 

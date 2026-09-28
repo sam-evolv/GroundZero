@@ -12,9 +12,22 @@ is_one_thing: false
 source: ground-zero-vault 2026-06-09
 run_date: "2026-06-09"
 created_at: "2026-06-09T20:00:00Z"
-updated_at: "2026-09-03T04:02:00+01:00"
-sync_status: "Checked 2026-09-03 04:02 IST. GitHub main remains 0a9d0509 and the live alias remains on Ready deployment dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si. Vercel now exposes explicit Next.js install/build/output settings but no immutable gitSource SHA. No authorised migration, persisted-row, anomaly, backup-table or RLS probe ran; keep proposed and unverified."
+updated_at: "2026-09-24T08:08:00+01:00"
+sync_status: "Checked 2026-09-24 08:08 IST. GitHub main and Ready production remain at 0a9d0509 / dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si. Direct Supabase catalog readback found 17 backup-named public tables; 16 have non-zero planner estimates and 2,069 estimated rows in aggregate. The remote migration ledger ends at 20260707172158_enable_rls_backup_tables_20260628. No exact counts, clean-week anomaly comparison, drop approval or rendered journey ran; keep proposed."
 ---
+
+## Direct backup-table and migration checkpoint — 24 September 2026, 08:08 IST
+
+- GitHub `main` remains `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`; Ready production remains `dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si`, and the live portal returned HTTP `200`.
+- Read-only inspection of exact Supabase project `mddxbilpjukwskeefakz` found 17 backup-named public tables. Planner statistics estimate non-zero rows in 16 of them and 2,069 rows in aggregate. These are estimates, not exact counts, and no application records were read.
+- The remote migration ledger ends at `20260707172158_enable_rls_backup_tables_20260628`. An exact GitHub comparison from `0294afca…` to `0a9d0509…` spans seven commits / 16 files and lists no migration path, contradicting the 1 September note's claim that this source range added schema/storage migrations. Preserve that earlier claim as history, but do not use it as current evidence.
+- No exact live-versus-backup row counts, key aggregates, recent-mutation comparison, anomaly window, clean-week receipt, storage path or rendered homeowner journey was exercised. No tables were dropped and no database or production state was mutated. Keep the item `proposed` until the recorded clean-week and backup-removal gates are satisfied.
+
+## Live-source checkpoint — 20 September 2026, 04:03 IST
+
+- GitHub `main` remains `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`; the production alias remains on Ready deployment `dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si` and returned HTTP `200`.
+- An authenticated Vercel deployment read with Git-repository metadata now exposes source `git`, branch `main` and exact `meta.githubCommitSha` `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`, closing the prior production-source metadata gap.
+- No authorised migration-application receipt, persisted-row comparison, anomaly check, backup-table inspection, authenticated RLS/storage path or rendered homeowner journey was exercised. The clean-week and backup-removal gates remain open; keep this item `proposed` and unverified.
 
 ## Live-source checkpoint — 3 September 2026, 04:02 IST
 
@@ -79,10 +92,12 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-06-27]]
 - [[companies/openhouse-ai]]
 - [[context/dashboard]]
+- [[context/index]]
 - [[goals/oh-activation]]
 - [[goals/oh-v2-launch]]
 - [[items/oh-rls-audit]]
 - [[items/oh-sprint5-close]]
+- [[items/oh-warranty-evidence-pack]]
 - [[items/ops-daily-sync-digest]]
 - [[items/ops-pr-issue-ageing-escalator]]
 - [[project_state/oh]]

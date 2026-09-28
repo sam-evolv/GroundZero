@@ -67,6 +67,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-05-heres-health-notification-state-and-consent-receipt-gate]]
 - [[briefs/substack-draft-2026-08-16-the-machine-kept-receipts]]
 - [[companies/heres-health]]
+- [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]]
 - [[items/heres-health-planday-brightpay-export-proof]]
 - [[items/heres-health-week-one-discovery-and-technical-proof]]
 - [[project_state/heres-health-app]]

@@ -57,6 +57,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/personal-context-data-contract]]
 - [[context/review-workflow]]
 - [[decisions/2026-08-31-agent-legible-system-design-standard]]
+- [[decisions/2026-09-16-hermes-routing-drift-correction-and-daily-driver]]
 - [[decisions/ground-zero-canonical]]
 - [[items/donworth-native-evidence-and-route-evaluation]]
 - [[items/ops-aire-hermes-upstream-impact-triage]]

@@ -105,6 +105,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/substack-draft-2026-08-23-someone-still-has-to-pay]]
 - [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]
 - [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
+- [[briefs/substack-draft-2026-09-20-the-correction-came-with-a-deposit]]
+- [[briefs/substack-draft-2026-09-27-more-precise-not-complete]]
 - [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]
 - [[items/agentic-income-evidence-sprint]]
 - [[items/oh-bridgewater-warm-introduction]]

@@ -107,9 +107,11 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-31-donworth-private-alpha-openrouter-budgets-and-credential-boundary]]
 - [[decisions/2026-09-01-donworth-imessage-first-remote-control-channel]]
 - [[decisions/2026-09-03-hermes-lossless-output-bounding]]
+- [[decisions/2026-09-16-hermes-routing-drift-correction-and-daily-driver]]
 - [[items/donworth-native-evidence-and-route-evaluation]]
 - [[items/ops-accepted-artifact-custody-gate]]
 - [[items/ops-desktop-ui-approval-readiness-gate]]
 - [[items/ops-graph-engineering-pilot]]
+- [[items/ops-kanban-terminal-transition-guard]]
 - [[project_state/donworth-studio]]
 

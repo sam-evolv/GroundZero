@@ -1,11 +1,19 @@
 ---
 id: oh
 company_id: openhouse-ai
-headline: Enterprise Ireland funding now depends on paid developer validation; OpenHouse resumes Sunday with that commercial objective.
+headline: Production source advanced seven verified commits / 60 files to `31a66a14…` and exact-head Ready deployment `dpl_Ddf8…` now owns `portal.openhouseai.ie`. The tranche includes source-level auth, tenant-ownership and tenant-scoped analytics fixes, but no migration path; Supabase advisor counts remain 30/2/17/4 plus disabled leaked-password protection, and no controlled cross-user actor path, persisted-row or authenticated homeowner acceptance was exercised.
 valid: true
-updated_at: "2026-09-03T04:02:00+01:00"
+updated_at: "2026-09-28T16:11:00+01:00"
 role: project-state
 ---
+
+**Verified source/deployment reconciliation, 2026-09-28 16:11 IST:** GitHub `sam-evolv/property-assistant` `main` advanced seven verified commits / 60 changed files from `0a9d05096a9f7d598cc24334aecfa8452ebaeb70` to verified merge `31a66a14db4feae8d9f3102e6ba5a08c36d704f4` / tree `a912e8aac9d43e7291e0e3eb66f1f6e329639ec8`. The immutable commit subjects and paths include tenant-scoped analytics, auth plus tenant-ownership checks on archive/information-request/BTR/data-hub routes, real-number tenant-scoped dashboards, homeowner stream/presentation fixes and secondary-surface repairs; the range contains no migration path. GitHub deployment `6706680661` binds exact SHA/ref `31a66a14…` to a successful `Production` deployment, while its `production_environment` boolean is `false`; independent Vercel authority resolves `portal.openhouseai.ie` to target-production Ready `dpl_Ddf8cKNKEic2wbKdBuA9zWv2FhXp`, preserving that metadata discrepancy rather than inferring from either field alone. The public root and login returned HTTP `200`, and Chromium rendered “Welcome to OpenHouse” with the existing My Home and Developer Portal choices. An anonymous missing-route probe was redirected to login, so the new 404 surface was not accepted. Supabase remains `ACTIVE_HEALTHY`; advisors observed at `2026-09-28T15:05:33.872Z` retain the 30/2/17/4 findings, `vector` in `public` and disabled leaked-password protection, and all listed public tables still report RLS enabled. Source/deployment movement does not close [[items/oh-rls-audit]]: no controlled second-user/tenant actor path, application-row comparison, storage route, authenticated secondary surface or rendered homeowner journey was exercised.
+
+**Live security-advisor checkpoint, 2026-09-26 20:10 IST:** GitHub `sam-evolv/property-assistant` `main` remains `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`; Supabase project `mddxbilpjukwskeefakz` remains `ACTIVE_HEALTHY`. A direct read-only security-advisor result observed at `2026-09-26T19:08:09.990Z` reports 30 RLS-enabled/no-policy findings across `demo_backups` and `public`, two `public` security-definer views, 17 mutable-search-path function findings, the `vector` extension in `public`, four authenticated-executable security-definer functions and disabled leaked-password protection. These are live advisor findings, not proof of exploitability, tenant isolation, remediation or intended scope. The prior six authenticated-global SELECT policies and 17 backup-named public tables remain open review boundaries. No application rows were read, no controlled second-user/tenant actor path, persisted-row comparison, storage route or rendered homeowner journey was exercised, and no repository, database or production state was mutated. Keep [[items/oh-rls-audit]] building.
+
+**Direct production-database and source reconciliation, 2026-09-24 08:08 IST:** GitHub `sam-evolv/property-assistant` `main` remains `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`, with 12 open pull requests and 6 open non-PR issues. Vercel still serves Ready production `dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si`; `portal.openhouseai.ie` returned HTTP `200` and the recorded staging URL remained `404`. Direct read-only Supabase authority is now available for exact project `mddxbilpjukwskeefakz` (`OpenHouse Database V2`, `ACTIVE_HEALTHY`). Catalog readback found 164 public tables, all 164 with RLS enabled and none with RLS disabled. That configuration does not reproduce or close the recorded two-table cross-tenant defect: the canonical note never names those two tables, no controlled second-user/tenant identities were used, and six policies explicitly allow all authenticated users to `SELECT` from `answer_gap_log`, `developer_codes`, `house_types`, `kitchen_selection_options`, `poi_cache` and `video_resources`; whether each is intentionally global remains unverified. The same catalog shows 17 backup-named public tables, 16 with non-zero planner estimates and 2,069 estimated rows in aggregate; estimates are not exact row counts. The remote migration ledger ends at `20260707172158_enable_rls_backup_tables_20260628`. Exact GitHub comparison of `0294afca…` to `0a9d0509…` spans seven commits / 16 files and exposes no migration path, so the earlier canonical claim that this range added schema/storage migrations is not supported by the current immutable file list. No application data was read, no authenticated cross-user path, exact migration parity, persisted-row comparison, storage read/write, payment, email or rendered homeowner journey was exercised, and no repository, database or production state was mutated. Keep [[items/oh-rls-audit]] building and [[items/oh-production-migration]] proposed.
+
+**Live delivery reconciliation, 2026-09-20 04:03 IST:** GitHub `sam-evolv/property-assistant` `main` remains `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`, with 12 open pull requests and 6 open non-PR issues. Vercel still serves Ready production deployment `dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si` at `portal.openhouseai.ie`; an authenticated deployment read with Git-repository metadata now returns source `git`, branch `main` and `meta.githubCommitSha` equal to that exact GitHub head. This closes the prior production-source metadata gap for the unchanged deployment. The portal returned HTTP `200`; the recorded staging URL remains `404`. No authenticated application route, Supabase row/policy/migration, storage, email or Stripe path was exercised. Keep [[items/oh-rls-audit]] and [[items/oh-production-migration]] blocked on their direct database authority, migration and persisted-receipt gates; source binding and availability are not rendered homeowner or tenant-isolation acceptance.
 
 **Live delivery reconciliation, 2026-09-03 04:02 IST:** GitHub `sam-evolv/property-assistant` `main` remains `0a9d05096a9f7d598cc24334aecfa8452ebaeb70`; the queue remains 12 open pull requests and 6 open issues. The production alias still resolves to Ready deployment `dpl_J2VgNgzb3tQ9XnHcaQZDtL5bb4si` (`property-assistant-3iultu0s5-openhouseais-projects.vercel.app`) and returned HTTP `200`. Current Vercel deployment metadata now exposes framework `nextjs` plus explicit workspace install, build and `apps/unified-portal/.next` output settings, correcting the 1 September inspection's `framework: other` / null-settings gap. It still exposes no immutable `gitSource` SHA, so current production-source binding remains open. The named staging URL still returns `404`; no authenticated route, Supabase row/policy/migration, storage, email or Stripe path was exercised. Keep [[items/oh-rls-audit]] and [[items/oh-production-migration]] blocked on their direct authority and persisted-receipt gates.
 
@@ -170,6 +178,12 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-10-openhouse-west-x-west-future-foundry-entry]]
 - [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]]
 - [[briefs/2026-09-04-openhouse-ciri-provider-of-record-wedge]]
+- [[briefs/2026-09-11-openhouse-built-to-innovate-buyer-subsidy-gate]]
+- [[briefs/2026-09-15-openhouse-seai-retrofit-handover-pack-intake-proof]]
+- [[briefs/2026-09-16-openhouse-hpi-v31-home-user-guide-proof]]
+- [[briefs/2026-09-17-openhouse-bcms-completion-scope-home-record-proof]]
+- [[briefs/2026-09-18-openhouse-safety-file-custody-future-works-proof]]
+- [[briefs/2026-09-19-openhouse-taking-in-charge-boundary-aftercare-routing-proof]]
 - [[briefs/bridgewater-openhouse-discovery-brief-2026-07-22]]
 - [[briefs/chatgpt-voice-founder-os-2026-07-31]]
 - [[briefs/consultancy-cork-property-prospect-list-2026-06-30]]
@@ -211,6 +225,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/substack-draft-2026-08-23-someone-still-has-to-pay]]
 - [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]
 - [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
+- [[briefs/substack-draft-2026-09-20-the-correction-came-with-a-deposit]]
+- [[briefs/substack-draft-2026-09-27-more-precise-not-complete]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
 - [[briefs/wiki-refiner-2026-06-28]]
@@ -257,6 +273,28 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-09-03]]
 - [[briefs/wiki-refiner-2026-09-04]]
 - [[briefs/wiki-refiner-2026-09-05]]
+- [[briefs/wiki-refiner-2026-09-06]]
+- [[briefs/wiki-refiner-2026-09-07]]
+- [[briefs/wiki-refiner-2026-09-08]]
+- [[briefs/wiki-refiner-2026-09-09]]
+- [[briefs/wiki-refiner-2026-09-10]]
+- [[briefs/wiki-refiner-2026-09-11]]
+- [[briefs/wiki-refiner-2026-09-12]]
+- [[briefs/wiki-refiner-2026-09-13]]
+- [[briefs/wiki-refiner-2026-09-14]]
+- [[briefs/wiki-refiner-2026-09-15]]
+- [[briefs/wiki-refiner-2026-09-16]]
+- [[briefs/wiki-refiner-2026-09-17]]
+- [[briefs/wiki-refiner-2026-09-18]]
+- [[briefs/wiki-refiner-2026-09-19]]
+- [[briefs/wiki-refiner-2026-09-20]]
+- [[briefs/wiki-refiner-2026-09-21]]
+- [[briefs/wiki-refiner-2026-09-22]]
+- [[briefs/wiki-refiner-2026-09-23]]
+- [[briefs/wiki-refiner-2026-09-24]]
+- [[briefs/wiki-refiner-2026-09-25]]
+- [[briefs/wiki-refiner-2026-09-26]]
+- [[briefs/wiki-refiner-2026-09-27]]
 - [[companies/openhouse-ai]]
 - [[context/capture-workflow]]
 - [[context/dashboard]]
@@ -302,6 +340,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/oh-warranty-evidence-pack]]
 - [[items/oh-warranty-filter]]
 - [[items/oh-warranty-triage-router]]
+- [[items/ops-daily-sync-digest]]
 - [[items/ops-graph-engineering-pilot]]
 - [[items/ops-project-state-reconciler]]
 - [[items/ops-source-to-wiki-ingest]]

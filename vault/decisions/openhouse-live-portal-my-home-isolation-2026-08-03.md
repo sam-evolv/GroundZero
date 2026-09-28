@@ -121,5 +121,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[goals/oh-v2-launch]]
 - [[items/oh-answer-quality-audit-loop]]
 - [[items/oh-live-portal-boundary-activation]]
+- [[items/ops-daily-sync-digest]]
 - [[project_state/oh]]
 

@@ -156,6 +156,7 @@ Even then, an annual manual pilot precedes subscription infrastructure. Twelve-m
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[briefs/2026-09-15-openhouse-seai-retrofit-handover-pack-intake-proof]]
 - [[briefs/openhouse-dtc-concierge-mvp-sprint-2026-06-29]]
 - [[briefs/openhouse-founder-home-and-longview-prebuild-validation-2026-07-28]]
 - [[companies/openhouse-ai]]

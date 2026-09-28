@@ -59,6 +59,10 @@ Good. Distributed energy operators are under pressure to do more with fewer admi
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]]
+- [[briefs/2026-09-22-evolv-commercial-renovation-passport-evidence-continuity-gate]]
+- [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]]
+- [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]]
+- [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]]
 - [[briefs/daily-portfolio-brief-2026-07-14]]
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]

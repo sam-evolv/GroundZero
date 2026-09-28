@@ -13,7 +13,7 @@ is_one_thing: true
 source: graph engineering research 2026-08-04
 run_date: "2026-08-04"
 created_at: "2026-08-04T22:20:00+01:00"
-updated_at: "2026-09-01T18:02:56+01:00"
+updated_at: "2026-09-24T18:04:47+01:00"
 ---
 
 ## Objective
@@ -205,6 +205,113 @@ It replaces manual resume-point prose, repeated transcript re-reading and broad 
 
 Grounded in the 1 September run 97/99/103/104/105 sequence and exact preserved identities in [[project_state/donworth-studio]], the portfolio-wide fresh-agent and recoverable-failure requirements in [[decisions/2026-08-31-agent-legible-system-design-standard]], and this pilot's existing measures for retries, failure recovery, time and model cost.
 
+## Material proposal, 23 September 2026 — source-authored verification manifest consistency gate
+
+Extend the existing **release evidence receipt assembler** with one deterministic, read-only **source-authored verification manifest consistency gate**. This checks whether a repository's own status claims are internally coherent before they enter a release receipt; it does not rerun tests or confer acceptance.
+
+### Bottleneck
+
+The paid Here’s Health build now has a verified evidence conflict that the recurring reconciliation sweep must reconstruct manually. At exact remote `main` `a61ff0825f338b4d0fad531eab0675cfc4015af4`, repository-authored `CURRENT-STATUS.md` claims **494 passing tests**, while committed `verification-summary-2026-09-19.json` totals **481** (`285 + 154 + 33 + 9`), names older commit `2669661562e45744afeb6fa0f0aad2992a4d3eb1` as its verification base and records one skipped Shopify live test. [[project_state/heres-health-app]], [[items/heres-health-week-one-discovery-and-technical-proof]] and the 19 September checkpoint in [[items/ops-project-state-reconciler]] all preserve this contradiction and explicitly stop short of treating either record as an independent rerun.
+
+Remote source can advance legitimately, but each advance currently requires a person to reopen status prose, recalculate suite totals, compare the manifest base with the candidate commit and restate the same evidence boundary. On a paid delivery where €10,000 + VAT is due on completion, inconsistent source-authored evidence creates avoidable review work and can make implementation progress look more release-ready than it is. This is a verified evidence-integrity bottleneck, not a proposal to automate completion or client reporting.
+
+### Value category
+
+- **Delivery risk reduction:** prevents a stale or arithmetically inconsistent verification summary from being promoted as evidence for the current candidate.
+- **Decision quality:** separates repository-authored claims, internally consistent manifests, independent reruns and exact-artifact acceptance.
+- **Time reclaimed:** replaces repeated manual count arithmetic and candidate/base comparison during project-state reconciliation and release review.
+- **Commercial clarity:** preserves visible paid-build progress without converting a source claim into a finished-app claim.
+
+### Smallest live test
+
+Use the two committed records at exact `a61ff082…` as a fixed read-only fixture. Extract only the candidate commit/tree, each claim source, declared suite identifiers where present, claimed total, per-suite counts, manifest verification base, skipped/failed counts and generation timestamp. Emit:
+
+1. `COUNT_RELATION`: `MATCH`, `MISMATCH` or `UNKNOWN`;
+2. `BASE_RELATION`: `CURRENT`, `STALE`, `DIVERGED` or `UNKNOWN`;
+3. `EVIDENCE_INTEGRITY`: `CONSISTENT`, `CONFLICT` or `UNKNOWN`; and
+4. a terminal release-receipt contribution of `HOLD` or `UNKNOWN` whenever the records conflict or cannot be bound to the candidate.
+
+Add one controlled consistency fixture with the same schema and matching candidate/count fields to prove the gate does not reject coherent records. Run the fixture twice and require byte-stable output. Stop at the receipt: do not check out source, execute tests, inspect Square/Shopify/Acuity, drive a device or update repository-authored evidence.
+
+### Evidence of success
+
+- The exact `a61ff082…` fixture returns `COUNT_RELATION: MISMATCH`, `BASE_RELATION: STALE`, `EVIDENCE_INTEGRITY: CONFLICT` and `HOLD`; it preserves 494, 481, `26696615…` and the skipped Shopify live test as separately sourced facts.
+- The controlled coherent fixture returns `CONSISTENT`, while the receipt still states that internal consistency does **not** prove tests ran, passed independently or satisfy release acceptance.
+- Missing suite identity, an unresolvable candidate, incompatible count scopes or absent manifest fields return `UNKNOWN`, never a guessed reconciliation.
+- An unchanged second run is byte-stable and creates no additional human-facing alert.
+- Manual comparison with the exact committed files and the named Ground Zero notes finds no omitted mismatch, invented test result or claim that the paid app is complete.
+
+### Downside
+
+Different documents can legitimately count different suites, generated evidence may lag a fast-moving branch, and a coherent manifest can still be false or incomplete. Compare totals only when suite scope is explicitly compatible; preserve each source separately; require immutable candidate binding; classify ambiguous scope as `UNKNOWN`; and never turn `CONSISTENT` into a test-pass or acceptance verdict. The first test is deliberately limited to one paid repository and two named committed records.
+
+### Approval boundary
+
+Automation may read the two named non-secret files and immutable commit/tree metadata from `sam-evolv/heres-health-app`, compare them with prior Ground Zero receipts and draft one local consistency receipt. It may not read or expose credentials; inspect provider or customer data; execute tests/builds; check out, edit, commit, sign, push, merge or protect a branch; deploy; drive a device; contact Here’s Health; spend money; declare the app complete; or promote a candidate to accepted. Sam retains approval over source changes, release, completion and client communication; independent Vera review remains required for exact-artifact acceptance.
+
+### What it replaces
+
+It replaces manual verification-total arithmetic, candidate/base comparison and repetitive contradiction prose in the recurring reconciliation and pre-review handoff. It does **not** replace [[items/ops-project-state-reconciler]], the remote source-lineage receipt, test execution, provider-account checks, security review, rendered or physical-device verification, Vera's exact-artifact judgement, or Sam's completion and release decision.
+
+### Provenance
+
+Grounded in the exact source-authored contradiction recorded in [[project_state/heres-health-app]], the paid-delivery work item [[items/heres-health-week-one-discovery-and-technical-proof]], the repeated 19 September comparison in [[items/ops-project-state-reconciler]], the paid terms in [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]], and the evidence-state separation required by [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]. This extends the existing release evidence receipt assembler rather than creating another monitor or acceptance authority.
+
+## Material proposal, 24 September 2026 — source-to-hosted release parity gate
+
+Extend the existing **release evidence receipt assembler** with one deterministic, read-only **source-to-hosted release parity gate** for migrations, Edge Functions and hosted CI execution. This is an evidence input to a release receipt, not a deployer, migration runner or completion authority.
+
+### Bottleneck
+
+The paid Here’s Health build is advancing faster than the hosted release state and the recurring reconciliation sweep must rebuild that comparison manually. Ground Zero's 16:12 IST checkpoint recorded draft PR #1 at `ded55d56…`, with five source migrations and `account-deletion` absent from the active Supabase project. Fresh read-only operational checks at 18:04 IST show the PR has already advanced again to exact head `65bfd39d1535639da20aba8dc7824c11e9670fba` over base `a61ff0825f338b4d0fad531eab0675cfc4015af4`.
+
+The immutable head tree contains five post-hosted migration files (`20260924092000_account_deletion_requests`, `20260924094500_square_account_erasure`, `20260924100500_shopify_order_reconciliation`, `20260924160000_shopify_confirmation_recovery` and `20260924170000_account_deletion_operations`) plus source for `account-deletion`. The active hosted project still reports exactly five applied migrations ending at `20260923182949_shopify_checkout_storage` and only active functions `square-api`, `square-sandbox` and `shopify-api`. Two check runs for `65bfd39…` failed with zero steps; both annotations say an Actions budget prevented the jobs from starting, so they are CI-availability failures rather than code-test results. The PR body itself now says "three staged migrations" while the immutable tree contains five post-hosted migrations, reinforcing the need to derive parity from source and provider metadata rather than status prose.
+
+This is a verified release-evidence bottleneck on a paying client build with €10,000 + VAT due on completion. It is not evidence that any migration should now be applied or that the app is otherwise release-ready.
+
+### Value category
+
+- **Delivery risk reduction:** prevents source-only database or function requirements, and CI jobs that never executed, from being mistaken for a releasable backend.
+- **Decision quality:** separates source intent, hosted presence, exact code identity, CI availability, independent verification and production acceptance.
+- **Time reclaimed:** replaces repeated manual comparison of Git trees, Supabase migration/function listings and check-run annotations after every fast-moving branch advance.
+- **Commercial clarity:** lets implementation progress remain visible without implying the finished-app completion gate has been met.
+
+### Smallest live test
+
+Freeze exact PR head `65bfd39…`, base `a61ff082…` and Supabase project identity `eiyxwxyroeviufniabeo`, then run one read-only comparison that emits:
+
+1. the source migration manifest with path, version, name and immutable Git blob identity;
+2. the hosted migration ledger with version and name;
+3. source and hosted function slugs, preserving deployed version/hash metadata without claiming it is directly comparable to a Git blob;
+4. every check run's exact head, status, conclusion, step count and blocking annotation; and
+5. per-object classifications such as `APPLIED_NAME_MATCH`, `SOURCE_ONLY`, `HOSTED_ONLY`, `DEPLOYED_SLUG_PRESENT`, `CODE_IDENTITY_UNKNOWN`, `CI_PASSED`, `CI_FAILED_AFTER_STEPS`, `CI_DID_NOT_START_BUDGET` or `UNKNOWN`, followed by terminal `PASS`, `HOLD` or `UNKNOWN` for the release receipt.
+
+The fixture must recognise the timestamp-only relocation of the existing Shopify storage migration as the same Git blob rather than inventing a sixth missing migration. Run the frozen fixture twice and require byte-stable output. A changed PR head invalidates the receipt and requires a new bounded run; it must not silently extend the old candidate.
+
+### Evidence of success
+
+- The current fixture identifies exactly the five named source-only migrations and the absent hosted `account-deletion` slug, while preserving function code identity as `UNKNOWN` unless a trustworthy build-to-deployment binding exists.
+- It classifies both current check runs as `CI_DID_NOT_START_BUDGET` from zero steps plus the exact annotations, never as failed code tests or passing CI.
+- It does not count the renamed Shopify storage file as an unapplied new migration because the Git blob is unchanged and the hosted ledger contains the replacement version/name.
+- The receipt returns `HOLD`; every field links to immutable Git, GitHub check-run or read-only Supabase metadata, and an independent reviewer can reproduce the classification without reading customer rows or secrets.
+- A second unchanged run is byte-stable and silent; a new head produces a new candidate identity rather than overwriting history.
+
+### Downside
+
+Migration names do not prove SQL content was safely applied, a deployed function slug does not prove its bytes match source, and intentionally staged changes can be legitimately absent from production. Provider metadata or permissions may also be incomplete. Preserve those limits as `UNKNOWN`; compare Git blobs only within Git; never infer provider-code identity from a slug or timestamp; and keep database integration tests, RLS/role tests, provider flows, signed-device journeys and independent exact-artifact review outside the gate. A `HOLD` is a release-evidence state, not an instruction to deploy.
+
+### Approval boundary
+
+Automation may read immutable Git tree metadata, PR/check-run metadata, non-secret source manifests, the read-only Supabase migration ledger and Edge Function metadata already available to the approved workflow, then draft one local receipt. It may not read customer rows or secrets; change GitHub billing or Actions budgets; rerun or edit workflows; check out or modify source; execute SQL or functions; create a Supabase branch; deploy, apply, rollback or delete a migration/function; enable checkout writes; drive a device; contact Here’s Health; spend money; or declare the app complete. Sam retains approval over spend, source change, hosted mutation, release and client communication; exact-artifact and user-surface acceptance remain independent gates.
+
+### What it replaces
+
+It replaces repeated manual source-versus-hosted-versus-CI comparison across [[project_state/heres-health-app]], [[items/heres-health-week-one-discovery-and-technical-proof]] and [[items/ops-project-state-reconciler]]. It does **not** replace those canonical notes, the source-authored manifest consistency gate above, test execution, database review, deployment planning, provider acceptance, Vera's exact-artifact judgement or Sam's completion and release decision.
+
+### Provenance
+
+Grounded in the 24 September canonical checkpoints in [[project_state/heres-health-app]], [[items/heres-health-week-one-discovery-and-technical-proof]] and [[items/ops-project-state-reconciler]], then refreshed against exact live GitHub PR/tree/check-run metadata and read-only Supabase migration/function metadata at 18:04 IST. Commercial and approval boundaries come from [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]], [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]] and [[decisions/2026-08-31-agent-legible-system-design-standard]]. This extends the existing release evidence receipt assembler rather than creating a duplicate monitor or deployment system.
+
 ## Connected notes
 
 - [[briefs/2026-08-04-graph-engineering-research-and-implementation]]
@@ -227,14 +334,19 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]]
 - [[decisions/2026-08-07-personal-agent-chat-work-profile-architecture]]
 - [[decisions/2026-08-31-agent-legible-system-design-standard]]
+- [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]
+- [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]]
 - [[goals/personal-agent-ai-operated-company-proof]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
 - [[items/oh-live-portal-boundary-activation]]
 - [[items/ops-accepted-artifact-custody-gate]]
 - [[items/ops-aire-hermes-upstream-impact-triage]]
+- [[items/ops-daily-sync-digest]]
 - [[items/ops-desktop-ui-approval-readiness-gate]]
 - [[items/ops-project-state-reconciler]]
 - [[items/personal-agent-hermes-desktop-parity]]
 - [[project_state/donworth-studio]]
+- [[project_state/heres-health-app]]
 - [[project_state/oh]]
 - [[project_state/personal-agent]]
 

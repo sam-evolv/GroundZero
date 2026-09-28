@@ -3,10 +3,41 @@ id: donworth-publishable-and-outreach
 company_id: donworth-ai-solutions
 created_at: "2026-08-26"
 status: building
-updated_at: "2026-09-05T00:13:00+01:00"
+updated_at: "2026-09-26T16:57:00+01:00"
 ---
 
 # Donworth publishable sites + next-client outreach
+
+## Privacy/deletion wording republished; acceptance and outreach approval remain open — 26 September 2026, 16:57 IST
+
+- Private site `main` advanced three unsigned privacy-only commits / one file to `a406b061…` / tree `64a2132c…`. GitHub exact-ref Production record `6678441683` and Vercel inspection bind both public hostnames to Ready deployment `dpl_49frAMp2psywK7sF2JGMBqbMAbbZ`.
+- Root bytes remain unchanged at HTTP `200`, 98,341 bytes / `7d1a4a5a…`; `/privacy` changed to 16,799 bytes / `2080d454…` on both apex and `www`. Chromium rendered the 26 September app notice with in-app/email deletion routes, saved-receipt status, scope and retention sections.
+- Publication does not equal outreach approval or legal/client acceptance. Exact app/store declaration consistency, controller/processor allocation and client approval remain open. No outreach, client contact, alias/DNS change, deployment mutation or public post was performed by this reconciliation.
+
+## Apex/canonical defect closed; acceptance and outreach approval remain open — 25 September 2026, 12:09 IST
+
+- Verified private `main` remains `11491d01…` / tree `ad1f6474…`; GitHub's exact-ref Production receipt and Vercel still bind it to Ready `dpl_FirzuiXX6Wj1x1HBdzADpMwa4nsG`.
+- Both `donworthstudio.ie` and `www.donworthstudio.ie` now resolve to that deployment. Apex `/` and `/privacy` returned exact `www` bytes, and Chromium rendered the apex home, canonical URL and privacy policy. This closes the previously blocking hostname/canonical split without a new source commit or deployment.
+- Publishability is not equivalent to outreach approval: independent exact-artifact, legal and client acceptance remain open, as do approval of crawler policy and any prospect/client contact. The alias-repair actor, approval and exact time were not established. No outreach, client contact, alias/DNS change, deployment mutation or public post was performed by this reconciliation.
+
+## Here’s Health privacy surface published; publishability gate still blocked — 23 September 2026, 20:17 IST
+
+- Verified private `main` is now `11491d01…` / tree `ad1f6474…`, one commit / 18 files beyond `e566216e…`. The change adds the Here’s Health app privacy page, `/privacy` routing and privacy links across the existing templates; exact-ref GitHub and Vercel records bind it to Ready Production `dpl_FirzuiXX6Wj1x1HBdzADpMwa4nsG` on `www.donworthstudio.ie`.
+- The `www` home and `/privacy` returned HTTP `200`; Chromium rendered the dated app-specific notice. The page's operator, developer and Google Play account wording is published but not independently accepted by Here’s Health or legal review, and no build/data-flow/store-declaration/deletion reconciliation was performed.
+- Outreach/search readiness is still blocked by the existing hostname split: apex `/` and `/privacy` remain `404` while the `www` home canonical points to apex. No outreach, client contact, alias/DNS change, deployment mutation or public post was performed by this reconciliation.
+
+## Search-readiness publication with blocking canonical-host defect — 23 September 2026, 12:27 IST
+
+- Verified private `main` is now `e566216e…` / tree `ea54d85e…`, two commits and 101 changed files beyond `5fd1508…`. Exact-ref GitHub deployment/status receipts and Vercel inspection bind it to Ready production `dpl_53Dyowt2VBHUegsVctvSdobX5NCZ` on `www.donworthstudio.ie`.
+- Three `www` root reads were stable at HTTP `200`, 97,961 bytes and `b22284e…`; rendered inspection preserved the primary visual/content hierarchy while showing the new search title. `robots.txt`, `sitemap.xml`, `/app-development` and `/insights` are live on `www`, and the sitemap contains 16 URLs.
+- Publication is not yet a clean outreach/search-readiness gate: the canonical URL, robots sitemap directive and every sitemap location point to apex `donworthstudio.ie`, while apex and its tested SEO/content routes return Vercel `404` on separate `dpl_2mEPvB…`. The current robots file also explicitly permits named model-training crawlers. Canonical/apex repair, crawler-policy approval and independent acceptance of exact `e566216e…` remain open before treating the site as fully publishable.
+- No outreach, client contact, alias/DNS change, deployment mutation or public post was performed by this reconciliation.
+
+## Here’s Health shareable-film checkpoint — 7 September 2026, 04:04 IST
+
+- Exact final film `4dd37679ab3c9c9038efca71273078734fd96834fb165b8d5365d6ff650c4ec6` is independently accepted with conditions for bounded temporal, directed-preview, format/browser and package scope after the prior stills substitution was rejected and repaired. Direct readback matched the reviewed 34.0-second silent `1080×1920`, 60-fps, BT.709 artifact.
+- The board records that exact candidate was presented to Sam only (`message_id 28974`). This is not Conor contact, client approval or observed phone/platform playback. Outreach remains approval-gated; physical-device/platform presentation and Sam's exact-artifact/destination approval remain the next gates before any client send.
+- The Donworth site remains unchanged: both custom domains returned HTTP `200`, 740 bytes and SHA-256 `41e953a7…` at 04:04. No outreach, client contact, DNS/Vercel mutation or public upload occurred in this reconciliation.
 
 ## Verified private source snapshot and local-only quality pass — 5 September 2026
 

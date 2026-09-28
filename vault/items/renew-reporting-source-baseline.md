@@ -65,6 +65,11 @@ Promote the automation into a project if:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]]
+- [[briefs/2026-09-09-evolv-duos-group-public-benchmark-gate]]
+- [[briefs/2026-09-22-evolv-commercial-renovation-passport-evidence-continuity-gate]]
+- [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]]
+- [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]]
+- [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]]
 - [[briefs/daily-portfolio-brief-2026-07-19]]
 - [[briefs/solar-installer-workflow-analysis]]
 - [[companies/evolv-renewables]]

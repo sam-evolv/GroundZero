@@ -176,3 +176,20 @@ This week’s record says I still have to earn the yes.
 ## Backlink context
 
 This draft continues the private weekly founder-journal chain from [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]. Its connected-note links create backlinks on the factual sources without changing those notes. No publication, message, deployment or external action is authorised by this draft.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]
+- [[briefs/substack-draft-2026-09-20-the-correction-came-with-a-deposit]]
+- [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]
+- [[items/donworth-publishable-and-outreach]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
+- [[items/oh-rls-audit]]
+- [[people/sam-donworth]]
+- [[project_state/donworth-studio]]
+- [[project_state/heres-health-app]]
+- [[project_state/oh]]
+- [[project_state/personal-agent]]
+

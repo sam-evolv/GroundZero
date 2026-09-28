@@ -117,6 +117,11 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-05-openhouse-first-message-approval-queue]]
 - [[briefs/2026-08-05-openhouse-founder-sales-operating-kit]]
 - [[briefs/2026-09-04-openhouse-ciri-provider-of-record-wedge]]
+- [[briefs/2026-09-11-openhouse-built-to-innovate-buyer-subsidy-gate]]
+- [[briefs/2026-09-16-openhouse-hpi-v31-home-user-guide-proof]]
+- [[briefs/2026-09-17-openhouse-bcms-completion-scope-home-record-proof]]
+- [[briefs/2026-09-18-openhouse-safety-file-custody-future-works-proof]]
+- [[briefs/2026-09-19-openhouse-taking-in-charge-boundary-aftercare-routing-proof]]
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[briefs/substack-draft-2026-08-23-someone-still-has-to-pay]]
 - [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]
@@ -129,6 +134,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/oh-marketing-site-conversion-instrumentation]]
 - [[items/oh-proof-asset-engine]]
 - [[items/oh-uk-aftercare-design-partner-sprint]]
+- [[items/oh-warranty-evidence-pack]]
 - [[project_state/oh]]
 
 

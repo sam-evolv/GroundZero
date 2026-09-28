@@ -122,6 +122,7 @@ Primary and official sources reviewed 4 September 2026:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-13-openhouse-construction-product-passport-ingestion-wedge]]
+- [[briefs/2026-09-17-openhouse-bcms-completion-scope-home-record-proof]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
