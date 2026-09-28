@@ -12,8 +12,16 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-09-28T16:11:00+01:00"
+updated_at: "2026-09-29T00:11:00+01:00"
 ---
+
+## Reconciliation checkpoint — 29 September 2026, 00:11 IST
+
+- **Hermes upstream advanced 317 commits while installed/runtime Aire acceptance did not.** Installed remains v0.21.5 `749220ef…` / tree `16e4fb22…`; immutable GitHub `main` is `7154128f…` / tree `ba55bffd…`, 317 commits beyond `e408d363…` and exactly 4,027 commits beyond installed. GitHub returned 250 commits and its 300-file cap; the returned window is led by 189 `apps/`, 101 `agent/` and six `acp_adapter/` paths, with the visible tail developing durable message/tool-call identity across session rewrites, copies, gateway replay and TUI propagation. The CLI still reports 3,398 commits behind, understating immutable Git by 629. Direct health remains `200`, the gateway remains stale and standalone/default-only, Aire `8766` is absent and no authenticated/rendered Aire or physical-device gate advanced.
+- **Donworth's public navigation changed on a new source-bound deployment; Desktop did not advance.** Private site `main` moved one commit / 17 files to `104ac7fc…` / tree `778a3570…`, removing the Here’s Health privacy link from every inspected generated footer while leaving `/privacy` available. GitHub deployment `6715010876` and Vercel bind the exact source to target-production Ready `dpl_AcQG…` on apex and `www`. Chromium rendered the home with no privacy link and the direct privacy page with the 26 September notice and no footer self-link. Desktop `main`, draft v0.18.12 artifacts and signed installed v0.18.9 bytes remain unchanged; the app was not launched.
+- **Here’s Health's 28 September project-state advance was reverified across its company/item summaries; release remains NO-GO.** PR #5 is merged as `198edc8f…` / tree `4e6b23b5…`; draft PR #1 now points to the same head, 171 commits / 376 files ahead, with zero reviews and two failed checks. PR #4 remains draft. Seven local 1290 × 2796 screenshots and the 2,503,914-byte ZIP `52de20a…` remain present and unuploaded. Direct Supabase remains at 17 migrations / 13 listed RLS-enabled tables and ACTIVE Square v30/v26, Shopify v28, account deletion v12 and Shopify install v14; the separate preview is byte-unchanged and unbound.
+- **Other exact named sources were materially unchanged.** OpenHouse remains `31a66a14…` on Ready `dpl_Ddf8…`; current security advisors still report 30/2/17/4 plus `vector` in `public` and disabled leaked-password protection, without a controlled cross-user or rendered homeowner acceptance path. OpenBook remains `c72bf48…`; Empire Gym remains on branch `603ee53…`, deployed parent `b53f724…` and the recorded public bytes. Cara remains parked at its recorded remote/local heads with `8643` absent. Renew still names no exact inspectable live source.
+- No fetch into canonical source, build/test rerun, install, launch, restart, configuration correction, push, merge, deployment, alias/DNS/provider/database/payment mutation, store submission, client contact, spend, physical-device or genuine-Windows acceptance was performed by this reconciliation. The observed Donworth/Here’s Health remote changes pre-dated the run. The Ground Zero checkout retains unrelated prior changes, so no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 28 September 2026, 16:11 IST
 

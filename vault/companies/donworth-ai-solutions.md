@@ -3,10 +3,16 @@ id: donworth-ai-solutions
 name: Donworth Studio
 role: primary-company
 status: active
-updated: "2026-09-26"
+updated: "2026-09-29"
 ---
 
 # Donworth Studio
+
+## Public site footer no longer links the Here’s Health privacy page — 29 September 2026, 00:11 IST
+
+- Private site `main` advanced one commit / 17 files to `104ac7fc…` / tree `778a3570…`, removing the Here’s Health privacy link from every inspected generated page footer while retaining the privacy page itself. GitHub deployment `6715010876` and Vercel inspection bind the exact source to target-production Ready `dpl_AcQGCUwtsGsRXx44WhH4hrEgjz6T` on both apex and `www`.
+- Root bytes are now HTTP `200`, 97,961 bytes / `b22284e…`; `/privacy` is HTTP `200`, 16,677 bytes / `c2c4e4df…`, identical across apex and `www`. Chromium rendered the home with no privacy link and rendered the direct privacy URL with the 26 September notice and no footer self-link. This is current user-visible publication evidence, not legal/client or exact-app acceptance.
+- Desktop `main` remains `a1cec24e…`; signed installed v0.18.9 remains exact `9912fe34…` / `711adb24…`, valid on disk and unlaunched. No draft installer, authenticated Desktop, genuine-Windows or physical-device gate advanced. No production mutation or client contact was performed by this reconciliation.
 
 ## App privacy/deletion wording republished on a new source-bound deployment — 26 September 2026, 16:57 IST
 
@@ -92,7 +98,7 @@ updated: "2026-09-26"
 - Donworth Studio is Sam's client-delivery and engineering operating brand.
 - Substantial engineering is routed through Forge in isolated worktrees and independently verified by Vera; Sam remains the sole human approval point for push, merge, deployment, spending, production mutation and client communication.
 - Here’s Health is a paying client on Sam’s 16 September correction: €5,000 + VAT deposit paid, the app is being built now, €10,000 + VAT due when the app is completed. Completion means the finished app; do not invent extra criteria. See [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]]. That supersedes the 5 September pre-sales-only commercial line.
-- The independently accepted premium marketing-site artifact remains historical evidence at deployment `dpl_vn6y2scDJK8N7ZtyFWZQSPPJQ7XN`, with verified private GitHub snapshot `07dba716c7198a725aa0d40cb5292eda9089c0c5` / tree `761b1d67889f5ba1a3716686bee6973158673ca2`, path/blob-identical to accepted commit `a461aed26c1e8d1f3704f5398e95cbad5cd0b7d5`. It is no longer the live deployment. The current public site on both hostnames is Ready `dpl_49frAMp2psywK7sF2JGMBqbMAbbZ`, sourced to private `main` `a406b0614819cad87f761327c206132f6d3d84eb`; the root remains `7d1a4a5a…`, while the republished 26 September privacy page is `2080d454…` and has rendered-surface evidence in the latest project-state checkpoint. Independent exact-artifact, legal and client acceptance remain open. The showcase gallery and approval-gated next-client outreach remain separate from product delivery; domain-transfer custody is still open and no outreach was sent during this reconciliation.
+- The independently accepted premium marketing-site artifact remains historical evidence at deployment `dpl_vn6y2scDJK8N7ZtyFWZQSPPJQ7XN`, with verified private GitHub snapshot `07dba716c7198a725aa0d40cb5292eda9089c0c5` / tree `761b1d67889f5ba1a3716686bee6973158673ca2`, path/blob-identical to accepted commit `a461aed26c1e8d1f3704f5398e95cbad5cd0b7d5`. It is no longer the live deployment. The current public site on both hostnames is Ready `dpl_AcQGCUwtsGsRXx44WhH4hrEgjz6T`, sourced to private `main` `104ac7fc4bdaa1a0febe182b4f708516b097bfa0`; the root is `b22284e…` and the direct privacy page is `c2c4e4df…`. The current 17-file change removes the Here’s Health privacy link from all inspected page footers while leaving the direct privacy URL available. Independent exact-artifact, legal and client acceptance remain open. The showcase gallery and approval-gated next-client outreach remain separate from product delivery; domain-transfer custody is still open and no outreach was sent during this reconciliation.
 
 ## Current delivery checkpoint — 13 September 2026, 12:01 IST
 

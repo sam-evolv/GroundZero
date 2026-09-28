@@ -10,6 +10,13 @@ created_at: "2026-08-13"
 
 # Here’s Health
 
+## Café fix merged and build-2 screenshots captured; store submission remains blocked — 29 September 2026, 00:11 IST readback
+
+- Private GitHub `main` remains unsigned `a61ff082…`. Café image PR #5 merged into `codex/shopify-full-integration` as `198edc8f…` / tree `4e6b23b5…`; broad draft PR #1 now points to that same head, 171 commits / 376 PR-reported changed files ahead of `main`, with zero reviews and both checks failed. Promotions PR #4 remains open/draft at `664b36fc…`, without checks or review.
+- Seven local screenshots were re-read as 1290 × 2796 JPEGs, covering Home, café/coffee, Flat White, Shopify catalogue/product and Sauna. Archive `heres-health-apple-build2-screenshots.zip` is 2,503,914 bytes / SHA-256 `52de20a26989a9f9b307b005626544e09c2c145a8ab140f1af61fa42666b8ad0`; ZIP integrity passed. They remain local and have not been uploaded to App Store Connect.
+- Direct Supabase authority remains unchanged at 17 migrations, 13 listed RLS-enabled public tables and ACTIVE Square v30/v26, Shopify API v28, account deletion v12 and Shopify install v14. The separate public preview remains byte-identical and unbound to the PR.
+- Build 2 selection/upload, Apple authentication/readback, export compliance, App Privacy, age rating, content rights, reviewer access, signed-device, provider-transaction, store and client acceptance remain open. Launch remains **NO-GO**; no app deployment, provider/database/payment mutation, store submission or client contact occurred in this reconciliation.
+
 ## Hosted Square v30/v26 directly verified; acceptance remains open — 27 September 2026, 20:10 IST
 
 - Private GitHub `main` remains unsigned `a61ff082…`. Draft PR #1 remains open, draft and without review at unsigned `25c8ec4b…` / tree `4299cd40…`, 168 commits / 374 PR-reported changed files ahead; both checks remain failed and there is still no exact-head app deployment.

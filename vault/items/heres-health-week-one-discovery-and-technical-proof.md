@@ -10,10 +10,17 @@ effort: M
 impact: 95
 source: Sam-supplied project briefs, 2026-08-13 and 2026-08-29
 created_at: "2026-08-13T00:00:00+01:00"
-updated_at: "2026-09-27T20:10:00+01:00"
+updated_at: "2026-09-29T00:11:00+01:00"
 ---
 
 # Here’s Health Week 1 discovery and technical proof
+
+## Café fix merged and build-2 screenshot pack exists locally; launch remains NO-GO — 29 September 2026, 00:11 IST
+
+- Canonical GitHub `main` remains unsigned `a61ff082…` / tree `6b874f03…`. PR #5 merged into the integration branch as `198edc8f…` / tree `4e6b23b5…`; draft PR #1 now points to that same head, 171 commits / 376 PR-reported files ahead of `main`, with zero reviews and two failed checks. Draft promotions PR #4 remains open at `664b36fc…`, without checks or review.
+- Seven local 1290 × 2796 build-2 screenshot JPEGs and their README/checksums remain present. Their ZIP is 2,503,914 bytes / SHA-256 `52de20a26989a9f9b307b005626544e09c2c145a8ab140f1af61fa42666b8ad0`; integrity passed. This is local asset custody only: the screenshots have not been uploaded to App Store Connect and the simulator guest Account error remains excluded from the set rather than generalized to the signed app.
+- Direct Supabase remains at 17 migrations and 13 listed RLS-enabled public tables with ACTIVE Square v30/v26, Shopify API v28, account deletion v12 and Shopify install v14. The separate preview remains byte-identical and unbound to the PR.
+- Keep Week 1 `building`. Build 2 upload/selection, Apple authentication/readback, export compliance, App Privacy, age rating, content rights, reviewer access, signed-device, provider-transaction, store and client acceptance remain open. No app deployment, provider/database/payment mutation, store submission or client contact occurred; launch remains **NO-GO**.
 
 ## Hosted Square v30/v26 directly verified; launch remains NO-GO — 27 September 2026, 20:10 IST
 

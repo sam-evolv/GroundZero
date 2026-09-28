@@ -9,6 +9,12 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced 317 commits; CLI gap widened, Aire did not — 29 September 2026, 00:11 IST cutoff
+
+- Installed Hermes remains v0.21.5 `749220ef…` / tree `16e4fb22…`, with only untracked `.review-worktrees/` and ten stashes. Health is `200`; Aire `8766` has no listener and the launchd gateway remains stale and standalone/default-only with separately running profile gateways plus duplicate credential warnings.
+- Immutable GitHub `main` is `7154128f…` / tree `ba55bffd…`, exactly 4,027 commits beyond installed and 317 commits beyond `e408d363…`. GitHub returned 250 commits and its 300-file cap, so the tranche affects at least 300 paths; the returned window is led by 189 `apps/`, 101 `agent/` and six `acp_adapter/` paths. Its visible tail materially develops durable message/tool-call identity across session rewrites, copies, gateway replay and TUI propagation.
+- The installed CLI still reports 3,398 commits behind, understating immutable Git by 629. Treat this as compatibility-review input and a status-reporting contradiction, not Aire progress. No fetch, upstream test/build rerun, install, restart, configuration correction, authenticated/rendered Aire journey, physical-device acceptance, deployment or production mutation advanced.
+
 ## Upstream advanced 255 commits; CLI gap widened, Aire did not — 28 September 2026, 16:11 IST cutoff
 
 - Installed Hermes remains v0.21.5 `749220ef…` / tree `16e4fb22…`, with only untracked `.review-worktrees/` and ten stashes. Health is `200`; Aire `8766` refuses connection and the launchd gateway remains stale and standalone/default-only with separately running profile gateways plus duplicate credential warnings.

@@ -2,7 +2,7 @@
 title: Ground Zero Dashboard
 purpose: Single view of what needs attention across all businesses
 kind: dashboard
-updated: "2026-09-28"
+updated: "2026-09-29"
 ---
 
 # Ground Zero Dashboard
@@ -34,11 +34,11 @@ updated: "2026-09-28"
 ## 🟢 Monitoring
 
 - 🔴 [[project_state/cara|cara]]: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
-- 🔴 [[project_state/donworth-studio|donworth-studio]]: Private Desktop `main` is unsigned `a1cec24e…` / tree `1fd06ba2…`; successful workflow run `36255653159` produced exact-head draft v0.18.12 macOS arm64/x64 and Windows x64 artifacts whose manifests say unsigned and unnotarized. Installed signed v0.18.9 and the source-bound public site remain byte-unchanged; no draft artifact was launched or independently accepted.
-- 🔴 [[project_state/heres-health-app|heres-health-app]]: Paying client, app in build. GitHub `main` remains unsigned `a61ff082`; draft PR #1 remains open/draft without review at unsigned `25c8ec4b…` / tree `4299cd40…`, 168 commits / 374 PR-reported files ahead, with both checks failed and no exact-head deployment. Direct Supabase now verifies ACTIVE Square v30/v26 alongside Shopify API v28, account deletion v12 and Shopify install v14, with 17 migrations and 13 listed public tables all RLS-enabled. This closes only the hosted-version evidence gap: exact source/host binding, Shopify `read_orders`, signed-device timing, provider transactions, stores and client acceptance remain open, and launch remains NO-GO.
+- 🔴 [[project_state/donworth-studio|donworth-studio]]: Private Desktop `main` remains unsigned `a1cec24e…` with exact-head draft v0.18.12 artifacts; installed signed v0.18.9 remains unlaunched. The public site advanced to `104ac7fc…` / Ready `dpl_AcQG…`, removing the Here’s Health privacy link from all 17 inspected page footers while leaving the direct privacy URL rendered and available.
+- 🔴 [[project_state/heres-health-app|heres-health-app]]: Paying client, app in build. PR #5 merged as `198edc8f…` / tree `4e6b23b5…`; draft PR #1 now points to that head, 171 commits / 376 PR-reported files ahead of unchanged `main`, with zero reviews and two failed checks. Seven verified 1290 × 2796 build-2 screenshots remain local and unuploaded; Apple authentication/readback, build selection, declarations, reviewer access, signed-device, provider-transaction, store and client acceptance remain open. Supabase remains at Square v30/v26, Shopify v28, account deletion v12, Shopify install v14 and 17 migrations. Launch remains NO-GO.
 - 🟢 [[project_state/ob|ob]]: Empire Gym production moved to Ready CLI deployment `dpl_Es9HL…`, whose metadata names remote `feat/empire-gym-live` commit `b53f724…`; GymMaster CTAs and the admin login remain rendered. The remote branch is now clean at `603ee53…`, one commit past the deployed tree; authenticated editing/photo isolation, billing/access/payment and downstream enrollment remain unverified.
 - 🟢 [[project_state/oh|oh]]: Verified `main` advanced seven commits / 60 files to merge `31a66a14…` / tree `a912e8aa…`, and exact-head target-production Ready `dpl_Ddf8…` now owns `portal.openhouseai.ie`. The range includes source-level tenant scoping/auth fixes but no migration path. Supabase remains `ACTIVE_HEALTHY` with unchanged 30/2/17/4 advisor counts; no controlled cross-user actor path, persisted-row, authenticated secondary-surface or rendered homeowner acceptance ran.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes remains v0.21.5 `749220ef` / tree `16e4fb22`, while verified GitHub `main` advanced 255 commits / at least 300 paths from `5912ed81…` to `e408d363…` / tree `4f09a757…`, leaving installed 3,710 commits behind. The CLI still reports 3,398, understating immutable Git by 312; direct health is `200`, the gateway remains stale and standalone, Aire `8766` is absent and no rendered Aire acceptance advanced.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes remains v0.21.5 `749220ef` / tree `16e4fb22`, while verified GitHub `main` advanced 317 commits / at least 300 paths from `e408d363…` to `7154128f…` / tree `ba55bffd…`, leaving installed 4,027 commits behind. The CLI still reports 3,398, understating immutable Git by 629; direct health is `200`, the gateway remains stale and standalone, Aire `8766` is absent and no rendered Aire acceptance advanced.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -62,4 +62,4 @@ updated: "2026-09-28"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-09-28 16:11 IST
+- Dashboard: 2026-09-29 00:11 IST

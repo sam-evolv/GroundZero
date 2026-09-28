@@ -1,14 +1,21 @@
 ---
 id: donworth-studio
 company_id: donworth-ai-solutions
-headline: "Private Desktop `main` is unsigned `a1cec24e…` / tree `1fd06ba2…`; successful workflow run `36255653159` produced exact-head draft v0.18.12 macOS arm64/x64 and Windows x64 artifacts whose manifests say unsigned and unnotarized. Installed signed v0.18.9 and the source-bound public site remain byte-unchanged; no draft artifact was launched or independently accepted."
+headline: "Private Desktop `main` remains unsigned `a1cec24e…` with exact-head draft v0.18.12 artifacts; installed signed v0.18.9 remains unlaunched. The public site advanced to `104ac7fc…` / Ready `dpl_AcQG…`, removing the Here’s Health privacy link from all 17 inspected page footers while leaving the direct privacy URL rendered and available."
 valid: true
-updated_at: "2026-09-28T04:08:00+01:00"
+updated_at: "2026-09-29T00:11:00+01:00"
 role: project-state
 status: building
 ---
 
 # Donworth Studio project state
+
+## Public site removed the Here’s Health footer link; direct privacy URL remains live — 29 September 2026, 00:11 IST
+
+- Private GitHub `sam-evolv/donworth-ai-solutions-site` `main` advanced one commit from `a406b0614819cad87f761327c206132f6d3d84eb` to `104ac7fc4bdaa1a0febe182b4f708516b097bfa0` / tree `778a3570c537992d26ba8f0d2f3289af0f92bbeb`. The exact 17-file change removes one Here’s Health privacy-link element from each generated site page, including the privacy page's self-link; it does not remove the privacy page itself or change the separate Desktop repository.
+- GitHub deployment `6715010876` and its successful status bind the exact SHA/ref to `donworth-ai-studio-eis1b400g-openhouseais-projects.vercel.app`. Independent Vercel inspection maps apex and `www` to target-production Ready deployment `dpl_AcQGCUwtsGsRXx44WhH4hrEgjz6T`. Apex and `www` returned identical root HTTP `200`, 97,961 bytes / SHA-256 `b22284e76e6f4ef0ec7c21292f50f3801e96cf9c5d14aa299b89b2791270feed`; `/privacy` returned identical HTTP `200`, 16,677 bytes / `c2c4e4df8a2f308046b96504a5603fcfa17b08b00db17fba99a8ea66ccf3701d`.
+- Chromium rendered the apex home with the existing title and “Exceptional software, without the complexity.” heading and found no privacy link. The direct privacy URL still rendered title “🐴 Here’s Health App Privacy Policy | Donworth Studio”, heading “Privacy policy.” and “Last updated 26 September 2026”, but its footer now has no self-link. This proves the current user-visible navigation and direct page only; source-to-output reproducibility, legal/client approval and app/store consistency remain open.
+- Desktop `main` remains `a1cec24e…` / tree `1fd06ba2…`. Installed signed v0.18.9 remains exact at `9912fe34…` / `711adb24…` and passes strict code-sign verification. It was not launched; no draft installer, genuine-Windows, physical-device or independent Desktop acceptance advanced. This reconciliation performed no repository, deployment, alias, DNS, client-contact or production mutation.
 
 ## Draft Desktop v0.18.12 artifacts exist at a new remote head; installed app remains v0.18.9 — 28 September 2026, 04:08 IST
 

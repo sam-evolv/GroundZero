@@ -1,14 +1,21 @@
 ---
 id: heres-health-app
 company_id: heres-health
-headline: Paying client, app in build. Café image PR #5 is merged into the integration branch. Seven genuine 6.9-inch iPhone screenshots were captured from an isolated simulator using signed Apple build 1.0.0 (2) runtime bytes; assets are local and not uploaded. App Store Connect authentication still blocks live readback; review submission also needs build 2 selected, export compliance, App Privacy, age rating, content rights and reviewer access. Promotions PR #4 remains draft. Launch remains NO-GO.
+headline: Paying client, app in build. Café image PR #5 is merged as `198edc8f…`; broad draft PR #1 now points to the same head, 171 commits / 376 files ahead of unchanged `main`, with zero reviews and two failed checks. Seven genuine 6.9-inch iPhone screenshots remain local and unuploaded. Apple authentication/readback, build selection, declarations, reviewer access, signed-device, provider-transaction, store and client acceptance remain open. Launch remains NO-GO.
 valid: true
-updated_at: "2026-09-28T20:45:11+01:00"
+updated_at: "2026-09-29T00:11:00+01:00"
 role: project-state
 status: paid-engagement
 ---
 
 # Here’s Health app project state
+
+## Merge and asset custody reverified; release remains blocked - 29 September 2026, 00:11 IST
+
+- Private GitHub `main` remains unsigned `a61ff0825f338b4d0fad531eab0675cfc4015af4` / tree `6b874f03e84123a206cfabc12695cfec19b1da2d`. PR #5 is merged into `codex/shopify-full-integration` as `198edc8f3f359de74a75a9a4690682f49d10ef0b` / tree `4e6b23b5070d93b60790fdbbdba769074a0ed32e`; broad draft PR #1 now points to that same head, 171 commits / 376 PR-reported files ahead of `main`, with zero reviews and two failed checks. Draft PR #4 remains open at `664b36fc…`, without checks or review.
+- Seven local 1290 × 2796 build-2 screenshot JPEGs remain present. Archive `heres-health-apple-build2-screenshots.zip` is 2,503,914 bytes / SHA-256 `52de20a26989a9f9b307b005626544e09c2c145a8ab140f1af61fa42666b8ad0`; ZIP integrity passed. The assets remain local and have not been uploaded to App Store Connect.
+- Direct Supabase remains at 17 migrations and 13 listed RLS-enabled public tables with ACTIVE Square v30/v26, Shopify API v28, account deletion v12 and Shopify install v14. The separate public preview remains byte-identical and unbound to the PR.
+- Apple authentication/readback, build 2 upload/selection, export compliance, App Privacy, age rating, content rights, reviewer access, signed-device, provider-transaction, store and client acceptance remain open. No app deployment, provider/database/payment mutation, store submission, client contact or physical-device interaction occurred; launch remains **NO-GO**.
 
 ## Build 2 Apple screenshot assets captured locally - 28 September 2026, 20:45 IST
 
