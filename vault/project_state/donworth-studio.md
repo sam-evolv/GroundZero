@@ -3,12 +3,18 @@ id: donworth-studio
 company_id: donworth-ai-solutions
 headline: "Private Desktop `main` remains unsigned `a1cec24e…` with exact-head draft v0.18.12 artifacts; installed signed v0.18.9 remains unlaunched. The public site advanced to `104ac7fc…` / Ready `dpl_AcQG…`, removing the Here’s Health privacy link from all 17 inspected page footers while leaving the direct privacy URL rendered and available."
 valid: true
-updated_at: "2026-09-29T00:11:00+01:00"
+updated_at: "2026-09-29T09:02:48+01:00"
 role: project-state
 status: building
 ---
 
 # Donworth Studio project state
+
+## Hermes and tester update feed custody — 29 September 2026, 09:02 IST
+
+- Official NousResearch/hermes-agent releases still name `v2026.9.24` (v0.21.5) as latest stable. That runtime is already included in Donworth Desktop `main` `a1cec24eb756aa62214034ae21432acf6f2fbb05`; no newer Hermes integration was started. Draft PR [#11](https://github.com/sam-evolv/donworth-studio-desktop/pull/11) remains open at `e98616be9dc180d003e8a7a71c24cfdbffdb193e` and changes only the next Windows upgrade-test baseline.
+- Direct public update readback on 29 September: Windows x64 `0.18.12`, Mac ARM `0.18.2`, Mac Intel HTTP 503. A 28 September read-only query of the Donworth Studio Supabase project's `donworth-updates` bucket found zero `darwin-x64/` objects, against three Mac ARM and 19 Windows objects. The broker signs `darwin-x64/latest-mac.yml`; its absence explains the Intel feed failure. This is a feed-custody finding, not proof of any tester's installed version.
+- Source: local handoff [`HERMES-INTEGRATION-STATUS-20260925.md`](/Users/samdonworth/Documents/New%20project/HERMES-INTEGRATION-STATUS-20260925.md), its 28 September entry; live GitHub release, `main` and PR #11 receipts; public feed readback. The Mac Intel feed needs an architecture-correct Developer ID signed/notarized package and metadata, a real installed-app upgrade and a signed-in session-continuity check. Mac ARM candidate and real-account continuity gates remain open. No tester feed, repository remote, app install or account was changed by this check.
 
 ## Public site removed the Here’s Health footer link; direct privacy URL remains live — 29 September 2026, 00:11 IST
 
@@ -511,4 +517,3 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-kanban-terminal-transition-guard]]
 - [[items/ops-project-state-reconciler]]
 - [[project_state/heres-health-app]]
-
