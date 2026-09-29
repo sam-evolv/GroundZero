@@ -1141,6 +1141,7 @@ Stabilise the current native iPhone founder-dogfood candidate as the trustworthy
 - [[imports/campaigns/openhouse-innovation-strategy]] — shared signals: innovation, openhouse, strategy
 - [[imports/heres-health-meeting-record-addendum-2026-08-29]] — shared signals: addendum, meeting, record
 - [[imports/design-systems/openhouse-openbook/SKILL]] — shared signals: openhouse, openbook, design
+- [[capture/inbox]] — shared signals: capture
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-06-hark-handoff-irelandgpt-translation]]
@@ -1212,6 +1213,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-09-25]]
 - [[briefs/wiki-refiner-2026-09-26]]
 - [[briefs/wiki-refiner-2026-09-27]]
+- [[briefs/wiki-refiner-2026-09-28]]
 - [[companies/personal-agent]]
 - [[context/dashboard]]
 - [[context/index]]

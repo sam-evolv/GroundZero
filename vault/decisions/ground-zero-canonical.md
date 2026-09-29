@@ -33,12 +33,18 @@ Sam wants one durable place for the important facts, business state, and working
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-28-cross-agent-ground-zero-continuity-proposal]]
 - [[context/capture-workflow]]
 - [[context/claude-vault-integration]]
 - [[context/ground-zero-structure]]
 - [[context/review-workflow]]
 - [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
+- [[decisions/2026-09-28-ground-zero-continuity-capture]]
 - [[goals/oh-funder-pitch]]
 - [[items/ops-project-state-reconciler]]
 - [[people/sam-donworth]]
 
+
+## Auto-filed from capture inbox 2026-09-29
+_Source: capture/inbox.md · Section: New facts to file · Filed: 2026-09-29 02:15 IST_
+- 2026-09-28 (source: same): Sam's standing instruction for Claude sessions: use Ground Zero as canonical durable context; read `GROUND_ZERO.md`, `vault/context/index.md`, `vault/context/model-pack.md`, then only relevant linked notes; if vault access fails say so and do not substitute Claude memory or guesses. Verify current operational facts against live sources or completed task receipts; Sam's current corrections outrank older notes. After meaningful work write updates to the right note (project_state/, decisions/, items/, people/, companies/, capture/inbox.md), dated and sourced, history preserved, gaps and next action stated, then read back. No secrets. No commit, push, sync or share of the vault without separate approval.

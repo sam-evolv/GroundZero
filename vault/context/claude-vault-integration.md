@@ -87,6 +87,7 @@ If it breaks again: check the proxy file still exists, that `node` is on the app
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-28-cross-agent-ground-zero-continuity-proposal]]
 - [[companies/openhouse-ai]]
 - [[context/capture-workflow]]
 - [[context/claude-access-observed]]

@@ -108,6 +108,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-07-22-six-month-agent-co-pilot-protocol]]
 - [[decisions/2026-08-03-day-job-bonus-and-openhouse-gates]]
 - [[decisions/2026-08-07-aire-ai-operated-company-six-month-mission]]
+- [[decisions/2026-09-28-ground-zero-continuity-capture]]
 - [[decisions/ai-founder-coach-operating-agreement-2026-07-14]]
 - [[decisions/cara-primary-founder-bet-self-serve-path-2026-07-13]]
 - [[decisions/ground-zero-canonical]]

@@ -68,6 +68,7 @@ Use `read_file` on `/Users/samdonworth/GroundZero/vault/capture/inbox.md` and co
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-28-cross-agent-ground-zero-continuity-proposal]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
 - [[briefs/wiki-refiner-2026-06-28]]

@@ -64,3 +64,8 @@ First reconcile and review the existing dirty Ground Zero checkout through the v
 - [[context/capture-workflow]]
 - [[context/claude-vault-integration]]
 - [[items/ops-vault-sync-change-receipt-gate]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/cross-agent-ground-zero-prompts]]
+

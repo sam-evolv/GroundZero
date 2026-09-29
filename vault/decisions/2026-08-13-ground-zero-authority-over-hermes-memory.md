@@ -50,7 +50,7 @@ A request materially dependent on Sam's history, projects, people, decisions or 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-25-heres-health-square-react-native-android-16-payment-rail-proof]]
-- [[companies/personal-agent]]
+- [[briefs/2026-09-28-cross-agent-ground-zero-continuity-proposal]]
 - [[context/ground-zero-structure]]
 - [[context/index]]
 - [[context/model-pack]]

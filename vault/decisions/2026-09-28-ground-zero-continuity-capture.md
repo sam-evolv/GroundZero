@@ -40,3 +40,11 @@ Sam clarified in the same task that relevant information should be written into 
 - [[decisions/ground-zero-canonical]]
 - [[context/index]]
 - [[people/sam-donworth]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-28-cross-agent-ground-zero-continuity-proposal]]
+- [[context/cross-agent-ground-zero-prompts]]
+- [[context/index]]
+- [[people/sam-donworth]]
+

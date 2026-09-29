@@ -85,6 +85,7 @@ Grounded in the live Ground Zero Git status, diff statistics, dry-run stage set 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-28-cross-agent-ground-zero-continuity-proposal]]
 - [[context/llm-wiki-pattern]]
 - [[context/ops-automation-moc]]
 - [[context/review-workflow]]

@@ -105,10 +105,12 @@ _Auto-generated: updated by wiki-refiner_
 - [[companies/openhouse-ai]]
 - [[context/dashboard]]
 - [[context/index]]
+- [[context/model-pack]]
 - [[goals/oh-v2-launch]]
 - [[items/oh-production-migration]]
 - [[items/oh-warranty-evidence-pack]]
 - [[items/ops-daily-sync-digest]]
+- [[items/ops-project-state-reconciler]]
 - [[project_state/oh]]
 
 

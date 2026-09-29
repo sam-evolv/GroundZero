@@ -126,5 +126,11 @@ Sam and the Empire Gym owner must approve any account access, analytics property
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[companies/openbook]]
 - [[context/business-opportunities-moc]]
+- [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]
+- [[goals/ob-retention]]
+- [[goals/ob-supply]]
+- [[items/ob-client-self-edit-portal-billing]]
+- [[project_state/ob]]
 

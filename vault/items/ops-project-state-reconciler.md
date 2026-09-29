@@ -557,6 +557,7 @@ P1
 - [[context/ops-automation-moc]] — MOC hub
 
 
+- [[capture/inbox]] — shared signals: capture
 ## Incubation analysis, 18 July 2026
 
 ### Opportunity size
@@ -764,6 +765,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-09-25]]
 - [[briefs/wiki-refiner-2026-09-26]]
 - [[briefs/wiki-refiner-2026-09-27]]
+- [[briefs/wiki-refiner-2026-09-28]]
 - [[companies/donworth-ai-solutions]]
 - [[companies/heres-health]]
 - [[companies/personal-agent]]

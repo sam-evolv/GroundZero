@@ -168,3 +168,22 @@ The week got more precise. It did not become complete.
 ## Backlink context
 
 This private draft continues the founder-journal chain from [[briefs/substack-draft-2026-09-20-the-correction-came-with-a-deposit]]. Its source links create native Obsidian backlinks on the connected notes. No publication, client communication, deployment, database change, outreach or other external action is authorised by this draft.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[briefs/2026-09-22-evolv-commercial-renovation-passport-evidence-continuity-gate]]
+- [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]]
+- [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]]
+- [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]]
+- [[briefs/substack-draft-2026-09-20-the-correction-came-with-a-deposit]]
+- [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]]
+- [[items/oh-rls-audit]]
+- [[people/sam-donworth]]
+- [[project_state/donworth-studio]]
+- [[project_state/heres-health-app]]
+- [[project_state/ob]]
+- [[project_state/oh]]
+- [[project_state/renew]]
+

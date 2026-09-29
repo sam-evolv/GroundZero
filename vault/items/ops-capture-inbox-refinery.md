@@ -75,3 +75,7 @@ _Auto-generated: updated by wiki-refiner_
 ## Auto-filed from capture inbox 2026-08-23
 _Source: capture/inbox.md · Section: Links to sort · Filed: 2026-08-23 02:15 IST_
 - [[capture/chatgpt-inbox]] — append-only ChatGPT bridge intake pending canonical filing review
+
+## Auto-filed from capture inbox 2026-09-29
+_Source: capture/inbox.md · Section: New facts to file · Filed: 2026-09-29 02:15 IST_
+- 2026-09-28 (source: same): No task work was done in this session and no facts in existing notes were changed or verified against live sources. Next action: Sam to give the first real task; file its outcome to the proper note.
