@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains v0.21.5 `749220ef` / tree `16e4fb22`, while verified GitHub `main` advanced 317 commits / at least 300 paths from `e408d363…` to `7154128f…` / tree `ba55bffd…`, leaving installed 4,027 commits behind. The CLI still reports 3,398, understating immutable Git by 629; direct health is `200`, the gateway remains stale and standalone, Aire `8766` is absent and no rendered Aire acceptance advanced.
+headline: Installed Hermes remains v0.21.5 `749220ef` / tree `16e4fb22`, while verified GitHub `main` advanced another 63 commits / 154 paths to `30a8b539…` / tree `23441fc1…`, leaving installed 4,090 commits behind. The CLI now reports the same 4,090-commit gap; direct health is `200`, the gateway remains stale and standalone, Aire `8766` is absent and no rendered Aire acceptance advanced.
 status: building
 updated: 2026-09-29
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced another 63 commits; CLI gap now agrees, Aire acceptance did not — 29 September 2026, 04:07 IST cutoff
+
+- Installed Hermes remains v0.21.5 `749220ef0007f8d87bd1531f1c24b0fe93816385` / tree `16e4fb229f36d3a1fb32a99a551c253f944cfa1d`, with only untracked `.review-worktrees/` and ten stashes. Direct health returned `200`; Aire `8766` refused connection. `hermes gateway status` still reports the launchd service stale and standalone/default-only, with separately running profile gateways plus duplicate credential warnings.
+- At the bounded cutoff, immutable GitHub `main` was unsigned `30a8b539d9de6ffadf5804b602b59dc171129024` / tree `23441fc162022f9bc724289570225e1e53ba929f`, exactly 4,090 commits beyond installed and 63 commits / 154 changed paths beyond the 00:11 `7154128f…` checkpoint. The bounded path set is led by 86 `apps/`, 22 `tests/`, 12 `tui_gateway/` and ten `hermes_cli/` paths. Commit subjects materially span Desktop session, reconnect, shared-SSH, voice and profile-gateway behavior; TUI gateway stop, workspace and model-switch handling; updater source custody; and REST/session compression-lineage reads. Treat the range as compatibility-review input, not product progress by commit count.
+- `hermes --version` now reports the same exact 4,090-commit gap as immutable GitHub, closing the 629-commit reporting contradiction from 00:11 at this checkpoint. No canonical fetch, upstream test/build rerun, install, restart, configuration correction, authenticated/rendered Aire journey, physical-device acceptance, deployment or production mutation occurred.
 
 ## Upstream advanced 317 commits; CLI gap widened, Aire acceptance did not — 29 September 2026, 00:11 IST cutoff
 

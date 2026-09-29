@@ -12,8 +12,14 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-09-29T00:11:00+01:00"
+updated_at: "2026-09-29T04:07:00+01:00"
 ---
+
+## Reconciliation checkpoint — 29 September 2026, 04:07 IST
+
+- **Hermes upstream advanced another 63 commits while installed/runtime Aire acceptance did not.** Installed remains exact v0.21.5 `749220ef…` / tree `16e4fb22…`; unsigned immutable GitHub `main` is `30a8b539…` / tree `23441fc1…`, 63 commits / 154 changed paths beyond `7154128f…` and exactly 4,090 commits beyond installed. The bounded path set is led by 86 `apps/`, 22 `tests/`, 12 `tui_gateway/` and ten `hermes_cli/` paths; commit subjects materially span Desktop session/reconnect/shared-SSH/voice/profile-gateway behavior, TUI gateway stop/workspace/model-switch handling, updater source custody and REST/session compression-lineage reads. The CLI now reports the same 4,090-commit gap, closing the 629-commit contradiction from 00:11. Direct health remains `200`, the gateway remains stale and standalone/default-only, Aire `8766` is absent and no authenticated/rendered Aire or physical-device gate advanced.
+- **Other exact named sources were materially unchanged.** Here’s Health remains `main` `a61ff082…`, integration/PR #1 head `198edc8f…` and open PR #4 `664b36fc…`; direct Supabase remains ACTIVE_HEALTHY with 17 migrations, 13 listed RLS-enabled public tables and ACTIVE Square v30/v26, Shopify v28, account deletion v12 and Shopify install v14. OpenHouse remains `31a66a14…`, ACTIVE_HEALTHY and at advisor counts 30/2/17/4 plus `vector` in `public` and disabled leaked-password protection. Donworth site/Desktop, OpenBook and Empire Gym heads match their canonical checkpoints. These readbacks do not advance rendered, authenticated, provider-transaction, store, physical-device, client or independent acceptance.
+- No fetch into canonical source, test/build rerun, install, launch, restart, configuration correction, push, merge, deployment, alias/DNS/provider/database/payment mutation, store submission, client contact, spend, physical-device or genuine-Windows acceptance was performed. The Ground Zero checkout retained unrelated pre-existing submodule/worktree changes; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 29 September 2026, 00:11 IST
 

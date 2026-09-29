@@ -9,6 +9,12 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced another 63 commits; CLI gap agreed, Aire did not — 29 September 2026, 04:07 IST cutoff
+
+- Installed Hermes remains v0.21.5 `749220ef…` / tree `16e4fb22…`, with only untracked `.review-worktrees/` and ten stashes. Health is `200`; Aire `8766` refuses connection and the launchd gateway remains stale and standalone/default-only with separately running profile gateways plus duplicate credential warnings.
+- Immutable GitHub `main` is unsigned `30a8b539…` / tree `23441fc1…`, exactly 4,090 commits beyond installed and 63 commits / 154 changed paths beyond `7154128f…`. The bounded path set is led by 86 `apps/`, 22 `tests/`, 12 `tui_gateway/` and ten `hermes_cli/` paths; commit subjects materially span Desktop session/reconnect/shared-SSH/voice/profile-gateway behavior, TUI gateway stop/workspace/model-switch handling, updater source custody and REST/session compression-lineage reads.
+- The installed CLI now reports the same 4,090-commit gap, closing the 629-commit contradiction from 00:11. Treat this as compatibility-review input, not Aire progress. No fetch, upstream test/build rerun, install, restart, configuration correction, authenticated/rendered Aire journey, physical-device acceptance, deployment or production mutation advanced.
+
 ## Upstream advanced 317 commits; CLI gap widened, Aire did not — 29 September 2026, 00:11 IST cutoff
 
 - Installed Hermes remains v0.21.5 `749220ef…` / tree `16e4fb22…`, with only untracked `.review-worktrees/` and ten stashes. Health is `200`; Aire `8766` has no listener and the launchd gateway remains stale and standalone/default-only with separately running profile gateways plus duplicate credential warnings.

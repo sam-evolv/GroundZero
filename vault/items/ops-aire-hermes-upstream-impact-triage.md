@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-09-29T00:11:00+01:00"
+updated_at: "2026-09-29T04:07:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 29 September 2026 04:07 IST cutoff
+
+Installed Hermes remains exact v0.21.5 `749220ef0007f8d87bd1531f1c24b0fe93816385` / tree `16e4fb229f36d3a1fb32a99a551c253f944cfa1d`, with only untracked `.review-worktrees/` and ten stashes. Direct health is `200`; Aire `8766` refuses connection. The launchd service remains stale and standalone/default-only with separately running profile gateways plus duplicate credential warnings.
+
+Immutable GitHub `main` is unsigned `30a8b539d9de6ffadf5804b602b59dc171129024` / tree `23441fc162022f9bc724289570225e1e53ba929f`, exactly 4,090 commits beyond installed and 63 commits / 154 changed paths beyond the 00:11 `7154128f…` checkpoint. Queue bounded compatibility review across the 86 `apps/`, 22 `tests/`, 12 `tui_gateway/` and ten `hermes_cli/` paths, prioritising Desktop session/reconnect/shared-SSH/voice/profile-gateway behavior, TUI gateway stop/workspace/model-switch handling, updater source custody and REST/session compression-lineage reads.
+
+The installed CLI now reports the same exact 4,090-commit gap, closing the 629-commit reporting contradiction from 00:11. This remains source compatibility input, not installed or user-visible Aire progress. No canonical fetch, upstream test/build rerun, install, restart, configuration correction, authenticated/rendered Aire journey, physical-device acceptance, deployment or production mutation advanced.
 
 ## Reconciliation checkpoint, 29 September 2026 00:11 IST cutoff
 
