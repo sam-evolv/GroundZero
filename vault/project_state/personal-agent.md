@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains v0.21.5 `749220ef` / tree `16e4fb22`, while verified GitHub `main` advanced another 63 commits / 154 paths to `30a8b539…` / tree `23441fc1…`, leaving installed 4,090 commits behind. The CLI now reports the same 4,090-commit gap; direct health is `200`, the gateway remains stale and standalone, Aire `8766` is absent and no rendered Aire acceptance advanced.
+headline: Installed Hermes remains v0.21.5 `749220ef` / tree `16e4fb22`, while verified GitHub `main` advanced two commits / 11 Desktop paths to `666f313d…` / tree `0ed90b75…`, leaving installed 4,092 commits behind. The CLI still reports 4,090, reopening a two-commit status gap; direct health is `200`, the gateway remains stale and standalone, Aire `8766` is absent and no rendered Aire acceptance advanced.
 status: building
 updated: 2026-09-29
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced two Desktop commits; CLI is two behind, Aire acceptance did not — 29 September 2026, 08:09 IST cutoff
+
+- Installed Hermes remains v0.21.5 `749220ef0007f8d87bd1531f1c24b0fe93816385` / tree `16e4fb229f36d3a1fb32a99a551c253f944cfa1d`, with only untracked `.review-worktrees/` and ten stashes. Direct health returned `200`; Aire `8766` refused connection. `hermes gateway status` still reports the launchd service stale and standalone/default-only, with Forge, Leo and Seamus running separately plus duplicate credential warnings.
+- At the bounded cutoff, verified immutable GitHub `main` was `666f313d1d3abd8077291ba464cf0a10f1a6157f` / tree `0ed90b7522243884c01903fab4dea82160acfd4e`, exactly 4,092 commits beyond installed and two commits / 11 `apps/` paths beyond the 04:07 `30a8b539…` checkpoint. The source commits fix URL-remote per-profile backend mapping and make new Desktop installs open at a screen-sized window with 110% zoom; neither behavior was installed or exercised on Aire.
+- `hermes --version` still reports 4,090 commits behind, reopening a two-commit status-reporting gap against immutable GitHub. No canonical fetch, upstream test/build rerun, install, restart, configuration correction, authenticated/rendered Aire journey, physical-device acceptance, deployment or production mutation occurred.
 
 ## Upstream advanced another 63 commits; CLI gap now agrees, Aire acceptance did not — 29 September 2026, 04:07 IST cutoff
 

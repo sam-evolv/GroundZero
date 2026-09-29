@@ -12,8 +12,14 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-09-29T04:07:00+01:00"
+updated_at: "2026-09-29T08:09:00+01:00"
 ---
+
+## Reconciliation checkpoint — 29 September 2026, 08:09 IST
+
+- **Hermes upstream advanced two Desktop commits while installed/runtime Aire acceptance did not.** Installed remains exact v0.21.5 `749220ef…` / tree `16e4fb22…`; verified immutable GitHub `main` is `666f313d…` / tree `0ed90b75…`, two commits / 11 `apps/` paths beyond `30a8b539…` and exactly 4,092 commits beyond installed. The source tail fixes URL-remote per-profile backend mapping and changes new-install Desktop window sizing / zoom. The CLI still reports 4,090 commits behind, reopening a two-commit contradiction. Direct health remains `200`, the gateway remains stale and standalone/default-only, Aire `8766` is absent and no authenticated/rendered Aire or physical-device gate advanced.
+- **Other exact named sources were materially unchanged where rechecked.** Here’s Health, OpenHouse, Donworth site/Desktop, OpenBook/Empire Gym and Cara matched their canonical checkpoints; those repository, hosted-backend, deployment and anonymous-render readbacks do not advance authenticated, provider-transaction, store, physical-device, client or independent acceptance. Renew still names no exact inspectable live source.
+- No fetch into canonical source, test/build rerun, install, launch, restart, configuration correction, push, merge, deployment, alias/DNS/provider/database/payment mutation, store submission, client contact, spend, physical-device or genuine-Windows acceptance was performed. The Ground Zero checkout retained unrelated pre-existing submodule/worktree changes; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 29 September 2026, 04:07 IST
 
