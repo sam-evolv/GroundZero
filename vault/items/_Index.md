@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-09-24"
+updated_at: "2026-09-29"
 ---
 
 # Ideas Index
@@ -99,7 +99,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 |---|---|---|---|
 | [[items/ops-daily-sync-digest]] | Daily ops anomaly check; proposed extensions detect deployment-alias drift, confirm contradictory public-route responses, detect native installed-artifact custody changes, roll up cron exceptions, flag decision-bound Hermes routing drift and emit change-only Supabase security-advisor deltas without mutating runtime or production state | P1 | proposed |
 | [[items/ops-kanban-terminal-transition-guard]] | Independently accepted local guard candidate; parked because delayed/truncated runs can still be stale-reclaimed and review-crash handling would change | P1 | parked |
-| [[items/ops-project-state-reconciler]] | Reconcile project_state and unpublished local source custody from live signals | P1 | proposed |
+| [[items/ops-project-state-reconciler]] | Reconcile project_state and unpublished local source custody from live signals; proposed bounded entry-point projection keeps mandatory context reads compact while preserving history | P1 | proposed |
 | [[items/ops-accepted-artifact-custody-gate]] | Block cleanup when accepted artifact bytes lack durable custody | P1 | proposed |
 | [[items/ops-desktop-ui-approval-readiness-gate]] | Gate native desktop review on driver/TCC health and exact action-scope approval | P1 | proposed |
 | [[items/ops-aire-hermes-upstream-impact-triage]] | Triage pinned upstream Hermes ranges into an Aire compatibility-impact queue | P1 | proposed |

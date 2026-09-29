@@ -12,7 +12,7 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-09-29T16:12:00+01:00"
+updated_at: "2026-09-29T18:03:00+01:00"
 ---
 
 ## Reconciliation checkpoint — 29 September 2026, 16:12 IST
@@ -779,6 +779,62 @@ It replaces repeated manual default-branch, parentage, merge-base, tree-scope an
 ### Provenance
 
 Grounded in the exact 19 September source-custody boundary in [[project_state/heres-health-app]], live read-only GitHub commit and `CURRENT-STATUS.md` evidence observed at 18:04 IST, the paid-engagement terms in [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]], and the implementation/build/installation/user-surface separation required by [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]. It extends this item’s 15 August local source-custody manifest instead of creating a competing monitor.
+
+## Material proposal, 29 September 2026 — bounded canonical entry-point projection
+
+Extend the existing **append-only observation ledger plus change-only canonical projection** with one deterministic, read-only **entry-point projection and budget gate** for [[context/index]] and [[context/model-pack]]. This is a compact current view over preserved history, not a new source of truth, writer or scheduler.
+
+### Bottleneck
+
+Ground Zero requires every context-dependent agent to open [[context/index]] and [[context/model-pack]] first, and the second note explicitly describes itself as “quick, high-signal context.” Direct read-only measurement at 18:03 IST found the index at 131,895 bytes / 130,821 characters and the model pack at 174,884 bytes / 173,491 characters. The index's `Current picture` alone is 110,971 bytes across 104 bullets. The model pack's `Companies` section is 166,305 bytes across 232 bullets; its Personal agent subsection alone is 116,728 bytes across 140 bullets.
+
+Both mandatory entry points now exceed the adopted 40,000-character file-read window in [[decisions/2026-09-03-hermes-lossless-output-bounding]]. In this scan, direct reads truncated at that boundary and the Ground Zero connector spilled both notes to recovery files. The principal cause is repeated reconciliation history being copied into current-context surfaces: on 29 September alone, the index retains five material-reconciliation bullets, while the model pack retains five Personal agent checkpoints plus older superseded checkpoints. The underlying observations are useful, but mandatory first reads now require continuation or spill recovery before an agent can reach the latest operating rules.
+
+This is the entry-point manifestation of the already verified ledger/projection bottleneck above. It should extend that proposal rather than create another compactor or delete history. [[context/dashboard]] remains the current attention view; detailed receipts remain in the linked `project_state/`, item and decision notes.
+
+### Value category
+
+- **Decision quality:** gives a fresh agent the latest verified state, open gates and governing decisions without burying them under superseded checkpoints.
+- **Time and context reclaimed:** keeps each mandatory entry point inside one adopted read window instead of forcing spill recovery and repeated parsing on every context-dependent task.
+- **Reliability:** makes stale projection, source contradiction and omitted active blockers explicit rather than allowing silent truncation to choose what the agent sees.
+- **Auditability:** preserves every historical observation in its canonical ledger while making the current projection reproducible from named source notes.
+
+### Smallest live test
+
+Use the current [[context/index]] and [[context/model-pack]] as fixed read-only fixtures and generate draft replacements outside the vault's canonical notes:
+
+1. Define an explicit projection schema for current accepted operating decisions, one latest verified headline per active company/project, active blockers, priorities, approval boundaries, load order and source links.
+2. Select current facts only from [[context/dashboard]], the latest non-superseded decisions and each linked `project_state/` headline/current section. Preserve `UNKNOWN`, contradiction and verification boundaries; do not infer missing state.
+3. Replace repeated timestamped checkpoint bullets in the drafts with one latest current row per subject plus links to the detailed observation history. Do not delete or rewrite any source receipt.
+4. Enforce a hard draft budget of at most 40,000 characters per entry point, matching the adopted single-read window. Return `HOLD` rather than trimming a required active company, blocker, decision or approval boundary.
+5. Replay the unchanged fixture twice, then add one synthetic superseded checkpoint and one synthetic decision-relevant transition. The superseded checkpoint must not grow the projection; the real transition must update exactly the relevant current row and its source reference.
+
+Stop at the draft and validation receipt. Do not edit either canonical entry point, the refiner, a cron job or any historical note during the test.
+
+### Evidence of success
+
+- Both drafts fit within 40,000 characters and complete in one configured file read without spill or continuation.
+- Every company/project currently represented on [[context/dashboard]], every active or accepted decision currently surfaced in the two entry points, and every launch/release/approval blocker remains represented or linked from the draft.
+- A source-to-projection manifest binds every current claim to a named canonical note and shows that removed checkpoint prose remains recoverable from linked `project_state/`, item or decision history.
+- An independent manual comparison finds zero dropped active blockers, false promotions, superseded decisions enforced as current, or unlinked current claims.
+- An unchanged second run is byte-identical. The synthetic superseded checkpoint leaves the draft unchanged; the synthetic material transition changes one bounded row and invalidates the prior receipt.
+- A missing, contradictory or over-budget required field returns `HOLD` or `UNKNOWN`; the projector never silently shortens the note to pass the size gate.
+
+### Downside and failure mode
+
+Compaction can hide a gradually worsening trend, and a stale projector can turn an old headline into apparent current truth. A strict character budget can also tempt omission of nuance. Keep raw observations append-only, retain dated trend summaries in detailed notes, require explicit source identities and freshness, preserve contradictions and `UNKNOWN`, and fail closed when the required current set cannot fit. The 40,000-character ceiling is a retrieval boundary, not a quality target; the useful draft should be materially smaller where possible.
+
+### Approval boundary
+
+Automation may read the two entry points, [[context/dashboard]], named current project-state notes, non-superseded decisions and prior projection receipts; compute a draft, source manifest, size check and `READY_FOR_REVIEW`, `HOLD` or `UNKNOWN` result. It may not delete or rewrite history; edit the canonical entry points, dashboard, refiner or cron jobs; change source authority; commit, sync or push; alter any project/runtime; publish; contact anyone; spend money; or promote a verification or acceptance state. Sam approves the first exact canonical replacement diff and any later change to projection policy or required fields.
+
+### What it replaces
+
+It replaces repeated copying of four-hour reconciliation prose into mandatory first-read notes, manual spill/continuation recovery and ad hoc reconstruction of “latest current state” from superseded bullets. It does **not** replace [[context/dashboard]], detailed `project_state/` notes, the append-only observation ledger, [[items/ops-daily-sync-digest]], decision history, source receipts or human review of material transitions.
+
+### Provenance
+
+Grounded in direct read-only measurements of [[context/index]] and [[context/model-pack]] at 18:03 IST on 29 September 2026; the truncation/spill observed while following Ground Zero's mandatory load order; the recurring projection pattern already specified in this item; the event/current-view separation in [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]; the adopted read boundary in [[decisions/2026-09-03-hermes-lossless-output-bounding]]; and the concise, evidence-based continuity requirement in [[decisions/2026-09-28-ground-zero-continuity-capture]]. No canonical context note, source receipt, runtime, scheduler, repository history or external system was changed by this proposal.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_

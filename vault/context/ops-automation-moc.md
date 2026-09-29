@@ -23,7 +23,7 @@ These items automate that sweep so Sam's time goes into the right work, not the 
 ### Daily sync & digest
 - [[items/ops-daily-sync-digest]] — anomaly check + daily digest; proposed extensions emit change-only deployment-alias custody with bounded public-route anomaly confirmation, native installed-artifact custody with embedded source-provenance resolvability, cron-exception, decision-bound Hermes routing-drift and Supabase security-advisor delta receipts without adding another watchdog
 - [[items/ops-daily-report-pack]] — daily reporting packs per company
-- [[items/ops-project-state-reconciler]] — keep project_state/company memory aligned with live signals; proposed extensions add a read-only local branch/worktree custody manifest, a remote source-lineage authority transition receipt for moving default branches, an append-only observation ledger with change-only canonical projections, and a transition-triggered Aire BFF launch incident packet
+- [[items/ops-project-state-reconciler]] — keep project_state/company memory aligned with live signals; proposed extensions add a read-only local branch/worktree custody manifest, a remote source-lineage authority transition receipt for moving default branches, an append-only observation ledger with change-only canonical projections, a transition-triggered Aire BFF launch incident packet, and a bounded current-context projection that keeps mandatory entry points within the adopted single-read window without deleting history
 - [[items/ops-index-maintenance-bot]] — auto-maintain items/_Index.md and daily log entries
 
 ### Graph orchestration
