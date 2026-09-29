@@ -1,14 +1,21 @@
 ---
 id: heres-health-app
 company_id: heres-health
-headline: Paying client, app in build. On 29 September the audited patched tree produced a fresh locally signed and exported iOS build 3 IPA, but production Square/Shopify checkout remains disabled and device, Apple validation/console, reviewer and merchant acceptance are incomplete. No deployment, upload or submission occurred; launch remains NO-GO.
+headline: Paying client, app in build. On 29 September seven supplied screenshots were uploaded to Apple’s 6.3-inch slot and console gaps read back. Signed build 3 remains local, build 1 is attached with Missing Compliance, larger screenshots/declarations/reviewer access remain open, checkout is disabled and Mac lock blocks native validation. No build upload or review submission; launch remains NO-GO.
 valid: true
-updated_at: "2026-09-29T13:31:00+01:00"
+updated_at: "2026-09-29T19:10:00+01:00"
 role: project-state
 status: paid-engagement
 ---
 
 # Here’s Health app project state
+
+## User screenshots uploaded; live Apple gaps read back - 29 September 2026, 19:10 IST
+
+- Source: Sam's explicit App Store submission continuation and request to skip blockers while away; authenticated App Store Connect UI, read-only live health, local IPA checksum. App 6815841702 / OpenHouse AI Limited / ie.hereshealth.app verified. Seven supplied 1206 x 2622 screenshots were encoded as opaque JPEG copies and uploaded to English (U.K.) 6.3-inch slot; Apple DOM showed 7 of 10 with all seven filenames. Larger 6.9/6.5-inch slots remain empty, requiring final-build larger-device captures. Existing build-2 screenshots were not reused.
+- Current version remains Prepare for Submission, attached build 1.0.0 (1) Missing Compliance; manual release selected. Reviewer credentials blank; content rights and age rating unset; App Privacy has seven categories selected but all show Set Up and Publish is disabled. Existing metadata describes browse functionality. Trader declaration is present; availability summary 175 regions and Vision Pro checked require intended-scope confirmation.
+- Live health confirms Square production live-read-only checkoutEnabled=false, 3 locations; Shopify configured=true, checkoutEnabled=false, environment=test. Build-3 IPA SHA-256 reverified b2f0d27b81d61a0896d53c1390c03277c6f065f9c0f6166150f07feb3bbc7282. Native Transporter access failed because Mac locked. No build upload, review submission, release, provider mutation or transaction occurred.
+- Exact receipt: /Users/samdonworth/Documents/Codex/2026-09-29/can/outputs/submission-receipt.md; screenshot copies/manifest in outputs/app-store-screenshots/, archive outputs/app-store-screenshots.zip. Next: unlock, larger matching captures, Apple build validation/upload/selection and export facts, privacy/age/rights/reviewer access, merchant checkout and signed-device acceptance. Local Ground Zero edit only; no commit/push/sync or cross-agent readback.
 
 ## Build 3 signed/exported locally; submission still NO-GO - 29 September 2026, 13:31 IST
 
