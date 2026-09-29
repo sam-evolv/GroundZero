@@ -20,6 +20,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]] — one static pre-commit receipt testing whether source-linked NDMG and ESB connection readiness improves a real rooftop decision; not an application, engineering opinion or submission
 - [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]] — one static post-operation appendix separating physical electricity, renewable attributes and factor boundaries before any customer carbon claim; no footprint, assurance or GO transaction
 - [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]] — consultation-stage watch plus one later, permissioned site screen for final ESB Local Business Flex location, meter, controllability and economics; no application, control action or hardware spend
+- [[briefs/2026-09-29-evolv-commercial-solar-triple-e-aca-decision-receipt]] — one pre-purchase appendix binding exact quoted PV product codes, ownership, grant-net cost and first-use timing to Triple E/ACA evidence before any tax reliance; accountant confirmation required
 - [[briefs/openhouse-energy-assistant-wedge]] — OpenHouse as energy-assist layer for new-build homeowners
 
 ### Booking & Hospitality

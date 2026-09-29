@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains v0.21.5 `749220ef` / tree `16e4fb22`, while verified GitHub `main` advanced two commits / 11 Desktop paths to `666f313d…` / tree `0ed90b75…`, leaving installed 4,092 commits behind. The CLI still reports 4,090, reopening a two-commit status gap; direct health is `200`, the gateway remains stale and standalone, Aire `8766` is absent and no rendered Aire acceptance advanced.
+headline: Installed Hermes remains v0.21.5 `749220ef` / tree `16e4fb22`, while immutable GitHub `main` advanced 35 commits / 121 files to `6ffe3b2b…` / tree `c1aacaee…`, leaving installed 4,127 commits behind. The CLI still reports 4,090, understating immutable Git by 37; direct health is `200`, the gateway remains stale and standalone, Aire `8766` is absent and no rendered Aire acceptance advanced.
 status: building
 updated: 2026-09-29
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced 35 commits; CLI undercounts by 37, Aire acceptance did not — 29 September 2026, 12:09 IST cutoff
+
+- Installed Hermes remains v0.21.5 `749220ef0007f8d87bd1531f1c24b0fe93816385` / tree `16e4fb229f36d3a1fb32a99a551c253f944cfa1d`, with only untracked `.review-worktrees/`. Direct health returned `200`; Aire `8766` refused connection. `hermes gateway status` still reports the launchd service stale and standalone/default-only, with Forge, Leo and Seamus running separately plus duplicate credential warnings.
+- At the bounded cutoff, immutable GitHub `main` was `6ffe3b2b59ad0711e92146937b1c2a23a07d9992` / tree `c1aacaee2af1a4baa2b06d63b260d585d8b875e9`, exactly 4,127 commits beyond installed and 35 commits / 121 changed files beyond the 08:09 `666f313d…` checkpoint. The returned path set is led by 52 `tests/`, 28 `apps/`, 17 `hermes_cli/`, seven `ui-tui/` and six `tui_gateway/` files. Commit subjects materially cover free-tier account/provider state, installer and update recovery, strict debug/URL/secret redaction, missing-profile recovery and test-contract cleanup; treat the range as compatibility-review input, not product progress by commit count.
+- `hermes --version` still reports 4,090 commits behind, understating immutable Git by 37. No canonical fetch, upstream test/build rerun, install, restart, configuration correction, authenticated/rendered Aire journey, physical-device acceptance, deployment or production mutation occurred.
 
 ## Upstream advanced two Desktop commits; CLI is two behind, Aire acceptance did not — 29 September 2026, 08:09 IST cutoff
 

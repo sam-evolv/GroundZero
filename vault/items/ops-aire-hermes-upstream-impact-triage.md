@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-09-29T08:09:00+01:00"
+updated_at: "2026-09-29T12:09:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 29 September 2026 12:09 IST cutoff
+
+Installed Hermes remains exact v0.21.5 `749220ef0007f8d87bd1531f1c24b0fe93816385` / tree `16e4fb229f36d3a1fb32a99a551c253f944cfa1d`, with only untracked `.review-worktrees/`. Direct health is `200`; Aire `8766` refuses connection. The launchd service remains stale and standalone/default-only, with Forge, Leo and Seamus running separately plus duplicate credential warnings.
+
+Immutable GitHub `main` advanced 35 commits / 121 files beyond `666f313d…` to `6ffe3b2b59ad0711e92146937b1c2a23a07d9992` / tree `c1aacaee2af1a4baa2b06d63b260d585d8b875e9`, exactly 4,127 commits beyond installed. Queue the bounded range for compatibility review of free-tier account/provider state, installer and updater recovery, strict debug/URL/secret redaction, missing-profile recovery, Desktop/TUI surfaces and preserved test contracts.
+
+The installed CLI still reports 4,090 commits behind, understating immutable Git by 37. This remains source compatibility input, not installed or user-visible Aire progress. No canonical fetch, upstream test/build rerun, install, restart, configuration correction, authenticated/rendered Aire journey, physical-device acceptance, deployment or production mutation advanced.
 
 ## Reconciliation checkpoint, 29 September 2026 08:09 IST cutoff
 
