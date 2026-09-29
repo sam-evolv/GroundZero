@@ -1,14 +1,21 @@
 ---
 id: heres-health-app
 company_id: heres-health
-headline: Paying client, app in build. The 29 September iOS preflight audited `198edc8f…` plus local changes and found production Square and Shopify checkout disabled, signed build 2 stale against the café merge, and App Store/reviewer/device evidence incomplete. Local checks and iOS Simulator Release build pass; no deployment, new signed archive or submission occurred. Launch remains NO-GO.
+headline: Paying client, app in build. On 29 September the audited patched tree produced a fresh locally signed and exported iOS build 3 IPA, but production Square/Shopify checkout remains disabled and device, Apple validation/console, reviewer and merchant acceptance are incomplete. No deployment, upload or submission occurred; launch remains NO-GO.
 valid: true
-updated_at: "2026-09-29T13:13:00+01:00"
+updated_at: "2026-09-29T13:31:00+01:00"
 role: project-state
 status: paid-engagement
 ---
 
 # Here’s Health app project state
+
+## Build 3 signed/exported locally; submission still NO-GO - 29 September 2026, 13:31 IST
+
+- **Artifact/source:** The preceding 13:13 receipt was accurate then but is superseded on archive availability. The same uncommitted audited code/config patch (SHA-256 `903d9824e988a56c2cb529e6b193e22e0a21a2c31b590c1ee167d234850e5127` over `198edc8f3f359de74a75a9a4690682f49d10ef0b`) was copied to an isolated `/private/tmp/hh-native-preflight` checkout. Xcode 26.6/iOS SDK 26.5 `archive` and `-exportArchive` succeeded. New archive: `/Users/samdonworth/Library/Caches/HeresHealthSubmission-20260929/HeresHealth-build3-audited.xcarchive`; exported App Store IPA: `/Users/samdonworth/Library/Caches/HeresHealthSubmission-20260929/store-export/HeresHealth.ipa`, 1.0.0 (3), bundle `ie.hereshealth.app`, team `FZXRCW547P`, SHA-256 `b2f0d27b81d61a0896d53c1390c03277c6f065f9c0f6166150f07feb3bbc7282`. Exported IPA signature verified with Apple Distribution, App Store profile and `get-task-allow=false`; archive/export JS bundle hashes matched. Old build 2 was preserved. No commit or push.
+- **Directly verified:** Final `pnpm check` again exited 0; `pnpm preflight:store --date 2026-09-29` exited 0 for read-only live catalogue/collection availability, not for payment. The public Square and Shopify health gates remain `checkoutEnabled:false`; no merchant transaction or booking was made. Ten privacy manifests were inspected in the exported IPA. Apple’s upload requirement page still lists Xcode 26/iOS 26 SDK and iOS 13 deployment floor.
+- **Remaining:** Local export is not Apple validation, upload, processing, build selection or submission. Mac locked and native app/console access was unavailable; physical signed-device QA, checkout/booking acceptance, reviewer login, privacy/export/age/rights/EU/account readback, merchant food/till/refund approval and production backend changes remain open. Final deliverables and ordered actions are in `/Users/samdonworth/Documents/New project/heres-health-ios-preflight-20260929/docs/release/ios-preflight-2026-09-29.md` and `ios-submit-tonight.md`. Screenshots are Sam's separate task.
+- **Next action:** Merchant/QA/Apple account owners close the listed gates, validate this exact build 3 IPA, then upload and submit only with separate authorisation after evidence is recorded. Any code/bundled asset change requires a new archive. Ground Zero local edit was read back but not committed/synced; other agents cannot rely on seeing it until separate sync and readback.
 
 ## iOS submission preflight remains NO-GO - 29 September 2026, 13:13 IST
 
@@ -362,4 +369,3 @@ _Auto-generated: updated by wiki-refiner_
 - [[people/conor-heres-health]]
 - [[people/keith-crowley]]
 - [[project_state/donworth-studio]]
-
