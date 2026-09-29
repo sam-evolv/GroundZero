@@ -1,14 +1,20 @@
 ---
 id: heres-health-app
 company_id: heres-health
-headline: Paying client, app in build. On 29 September seven supplied screenshots were uploaded to Apple’s 6.3-inch slot and console gaps read back. Signed build 3 remains local, build 1 is attached with Missing Compliance, larger screenshots/declarations/reviewer access remain open, checkout is disabled and Mac lock blocks native validation. No build upload or review submission; launch remains NO-GO.
+headline: Paying client, app in build. On 29 September five Pro Max screenshots were verified uploaded in Apple’s 6.9-inch slot, inherited by 6.5-inch; seven 6.3-inch screenshots remain. Full-screen iPad build deferred by Sam. Signed build 3 remains local, build 1 attached with Missing Compliance; declarations, reviewer access, merchant/device acceptance remain open and checkout disabled. No build upload or review submission; launch remains NO-GO.
 valid: true
-updated_at: "2026-09-29T19:10:00+01:00"
+updated_at: "2026-09-29T19:27:00+01:00"
 role: project-state
 status: paid-engagement
 ---
 
 # Here’s Health app project state
+
+## Pro Max screenshots uploaded; iPad build deferred — 29 September 2026, 19:27 IST
+
+- Source: Sam supplied six Pro Max and seven iPad captures and explicitly agreed to continue now, doing the full-screen iPad build later. Five finished 1320 x 2868 Pro Max screens uploaded to English (U.K.) 6.9-inch: Home, Café menu, Shop, Sauna, Account, in that verified order. Apple UI reports 5 of 10 and 6.5-inch Using 6.9-inch Display. Café detail excluded because button still shows Checking…. Seven optional 6.3-inch screenshots remain; order needs final polish.
+- iPad images show phone compatibility window, consistent with current build UIDeviceFamily [1]. Seven originals preserved as reference; none uploaded and no tablet support/source/signed IPA change. Screenshot-only simulator copy used the exact signed build-3 JS bundle. The Mac was unlocked for simulator work; the earlier lock is historical, but Transporter validation/upload remains undone.
+- Exact artifacts: /Users/samdonworth/Documents/Codex/2026-09-29/can/outputs/pro-max-screenshots/manifest.json, outputs/pro-max-uploaded.jpg, outputs/ipad-reference/, updated outputs/submission-receipt.md. Larger iPhone screenshot gap is closed. Build selection/compliance, privacy/age/rights/reviewer access, merchant acceptance and signed-device QA remain open. No review submission or release. Next: close these gates; full-screen iPad build in later work. Local note edit only, no commit/push/sync.
 
 ## User screenshots uploaded; live Apple gaps read back - 29 September 2026, 19:10 IST
 
@@ -376,3 +382,11 @@ _Auto-generated: updated by wiki-refiner_
 - [[people/conor-heres-health]]
 - [[people/keith-crowley]]
 - [[project_state/donworth-studio]]
+
+
+## Targeted privacy-policy audit drafted — 29 September 2026
+
+- Source: Sam’s attached audit request; direct active integration source, exported build-3 manifests, live read-only Supabase metadata/health and public policy snapshots. Full receipt: [[briefs/2026-09-29-heres-health-privacy-policy-audit]].
+- Exact draft pack: `/Users/samdonworth/Documents/New project/heres-health-privacy-audit-20260929/`, including inventory, section comparison, GDPR coverage and targeted amendment copy. Existing website policy and app-linked notice preserved; neither published or altered.
+- Material corrections: Square payment tokens are saved in secure device recovery; Shopify catalogue requests forward shopper IP; Square iOS SDK declares linked analytics/diagnostic categories; production notification/preference editor is absent; deletion is operator-fulfilled intake with checkout recovery blockers and separate provider review. Both production checkout gates remain disabled.
+- Verified status: draft complete, publication/compliance and signed-device/Android telemetry acceptance open. Confirm actual provider retention/transfers, booking health/waiver/minor fields, lawful bases and deletion operations before final publication. No runtime/provider/store/client action or Git commit/push/sync. Local Ground Zero write-back only; cross-copy availability is unverified.
