@@ -10,10 +10,17 @@ effort: M
 impact: 95
 source: Sam-supplied project briefs, 2026-08-13 and 2026-08-29
 created_at: "2026-08-13T00:00:00+01:00"
-updated_at: "2026-09-29T00:11:00+01:00"
+updated_at: "2026-09-29T16:12:00+01:00"
 ---
 
 # Here’s Health Week 1 discovery and technical proof
+
+## Build 3 is locally signed/exported; launch remains NO-GO — 29 September 2026, 16:12 IST recheck
+
+- Canonical GitHub `main` remains historical; the active integration branch and draft PR #1 remain open/draft and unreviewed at `198edc8f…` / tree `4e6b23b5…`, with two failed checks. The local preflight checkout retains five modified tracked files plus five untracked release handoff documents; no commit or push occurred.
+- The exact exported App Store IPA was re-read at 27,854,748 bytes, version/build `1.0.0 (3)`, bundle `ie.hereshealth.app`, SHA-256 `b2f0d27b81d61a0896d53c1390c03277c6f065f9c0f6166150f07feb3bbc7282`. Strict code-sign verification passes under Apple Distribution team `FZXRCW547P`; the embedded profile has `get-task-allow=false`.
+- Direct Supabase authority remains `ACTIVE_HEALTHY`, with 17 migrations, 13 listed RLS-enabled public tables and ACTIVE Square v30/v26, Shopify API v28, account deletion v12 and Shopify install v14. Production checkout remains disabled; no payment, order or booking was created.
+- Keep Week 1 `building`. Local export is not Apple validation, upload, processing, build selection or submission. Signed-device, provider-transaction, reviewer, privacy/declaration, store and client acceptance remain open; no app deployment, provider/database/payment mutation, store action or client contact occurred, and launch remains **NO-GO**.
 
 ## Café fix merged and build-2 screenshot pack exists locally; launch remains NO-GO — 29 September 2026, 00:11 IST
 

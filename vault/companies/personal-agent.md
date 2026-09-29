@@ -9,6 +9,12 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced 21 commits; CLI undercounts by 58, Aire did not — 29 September 2026, 16:11 IST cutoff
+
+- Installed Hermes remains v0.21.5 `749220ef…` / tree `16e4fb22…`, with only untracked `.review-worktrees/` and ten stashes. Health is `200`; Aire `8766` refuses connection and the launchd gateway remains stale and standalone/default-only with Forge, Leo and Seamus running separately plus duplicate credential warnings.
+- Immutable GitHub `main` advanced 21 commits / 174 files beyond `6ffe3b2b…` to `16c59d0e…` / tree `642db715…`, exactly 4,148 commits beyond installed. Returned paths are led by `apps/`, `locales/`, `tests/`, `ui-tui/`, `hermes_cli/` and `website/`; commit subjects materially cover Desktop HUD/tool-bridge and connection-card behavior, updater handoff/supervised-tail recovery, gateway lock/first-contact handling, Clarify normalization, debug URL-token masking, release-CI wiring and CLI diagnosis/config selection. Four commits are GitHub-verified and 17 are not.
+- The installed CLI still reports 4,090 commits behind, understating immutable Git by 58. Treat this as compatibility-review input, not Aire progress. No fetch, upstream test/build rerun, install, restart, configuration correction, authenticated/rendered Aire journey, physical-device acceptance, deployment or production mutation advanced.
+
 ## Upstream advanced 35 commits; CLI undercounts by 37, Aire did not — 29 September 2026, 12:09 IST cutoff
 
 - Installed Hermes remains v0.21.5 `749220ef…` / tree `16e4fb22…`, with only untracked `.review-worktrees/`. Health is `200`; Aire `8766` refuses connection and the launchd gateway remains stale and standalone/default-only with Forge, Leo and Seamus running separately plus duplicate credential warnings.

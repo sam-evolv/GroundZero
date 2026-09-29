@@ -10,6 +10,13 @@ created_at: "2026-08-13"
 
 # Here’s Health
 
+## Build 3 is signed/exported locally; store and client acceptance remain open — 29 September 2026, 16:12 IST recheck
+
+- The integration branch and draft PR #1 remain open/draft and unreviewed at `198edc8f…` / tree `4e6b23b5…`, with two failed checks. The isolated preflight checkout retains five modified tracked files and five untracked release handoff documents; no commit or push occurred.
+- The locally exported App Store IPA was re-read at 27,854,748 bytes, version/build `1.0.0 (3)`, bundle `ie.hereshealth.app`, SHA-256 `b2f0d27b81d61a0896d53c1390c03277c6f065f9c0f6166150f07feb3bbc7282`. Its exact exported app passes strict code-sign verification under Apple Distribution team `FZXRCW547P`, with `get-task-allow=false`.
+- Direct Supabase authority remains `ACTIVE_HEALTHY`, with 17 migrations, 13 listed RLS-enabled public tables and ACTIVE Square v30/v26, Shopify API v28, account deletion v12 and Shopify install v14. Production Square/Shopify checkout remains disabled.
+- Local export is not Apple validation, upload, processing, build selection or submission. Signed-device, provider-transaction, reviewer, store and client acceptance remain open; launch remains **NO-GO**. Paid terms are unchanged, and no app deployment, provider/database/payment mutation, store action or client contact occurred in this reconciliation.
+
 ## Café fix merged and build-2 screenshots captured; store submission remains blocked — 29 September 2026, 00:11 IST readback
 
 - Private GitHub `main` remains unsigned `a61ff082…`. Café image PR #5 merged into `codex/shopify-full-integration` as `198edc8f…` / tree `4e6b23b5…`; broad draft PR #1 now points to that same head, 171 commits / 376 PR-reported changed files ahead of `main`, with zero reviews and both checks failed. Promotions PR #4 remains open/draft at `664b36fc…`, without checks or review.
