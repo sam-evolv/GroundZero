@@ -3,12 +3,19 @@ id: donworth-studio
 company_id: donworth-ai-solutions
 headline: "Private Desktop `main` remains unsigned `a1cec24e…` with exact-head draft v0.18.12 artifacts; installed signed v0.18.9 remains unlaunched. The public site advanced to `104ac7fc…` / Ready `dpl_AcQG…`, removing the Here’s Health privacy link from all 17 inspected page footers while leaving the direct privacy URL rendered and available."
 valid: true
-updated_at: "2026-09-29T09:02:48+01:00"
+updated_at: "2026-09-29T13:14:39+01:00"
 role: project-state
 status: building
 ---
 
 # Donworth Studio project state
+
+## Windows 0.18.12 feed verified; device installs unobserved — 29 September 2026, 13:14 IST
+
+- Sam requested the newest Windows interface build be pushed immediately. GitHub `sam-evolv/donworth-studio-desktop` `main` still names `a1cec24eb756aa62214034ae21432acf6f2fbb05`; Actions run [36255653159](https://github.com/sam-evolv/donworth-studio-desktop/actions/runs/36255653159) passed at that exact head, and draft release `tester-36255653159` remains the newest verified installer build. Open PR #11 changes only the next Windows upgrade-test baseline and is not merged. No newer Windows build was found.
+- Direct live broker readback returned HTTP `200`, 369 bytes for `/v1/updates/win32-x64/latest.yml`, naming version `0.18.12`, `Donworth-Studio-0.18.12-win-x64.exe` and 225,709,656 bytes. The installer route returned HTTP `307`, and following it with a one-byte range returned HTTP `206` / one byte. Supabase `storage.objects` still lists the 0.18.12 installer, blockmap and `latest.yml` in `donworth-updates/win32-x64/` with expected sizes. This verifies publication and download reachability, not any tester's installed version.
+- The shipped updater checks 30 seconds after launch and every four hours, downloads in the background and installs on normal quit; v0.17.0 requires one manual installation. No per-device installed-version telemetry was found in the inspected sources. No remote force-install or per-device completion was established. Next action is for each Windows tester to keep the app open online until the update-ready notification, quit normally and reopen, then report the displayed version; an older app without the updater needs the verified 0.18.12 installer manually.
+- This task made no source, feed, installed-app, account, tester-contact or production mutation. The direct feed and one-byte installer checks above supersede only the older uncertainty about current Windows feed reachability; Mac and physical-device acceptance remain separate.
 
 ## Hermes and tester update feed custody — 29 September 2026, 09:02 IST
 

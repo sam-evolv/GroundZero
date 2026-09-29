@@ -1,14 +1,21 @@
 ---
 id: heres-health-app
 company_id: heres-health
-headline: Paying client, app in build. Café image PR #5 is merged as `198edc8f…`; broad draft PR #1 now points to the same head, 171 commits / 376 files ahead of unchanged `main`, with zero reviews and two failed checks. Seven genuine 6.9-inch iPhone screenshots remain local and unuploaded. Apple authentication/readback, build selection, declarations, reviewer access, signed-device, provider-transaction, store and client acceptance remain open. Launch remains NO-GO.
+headline: Paying client, app in build. The 29 September iOS preflight audited `198edc8f…` plus local changes and found production Square and Shopify checkout disabled, signed build 2 stale against the café merge, and App Store/reviewer/device evidence incomplete. Local checks and iOS Simulator Release build pass; no deployment, new signed archive or submission occurred. Launch remains NO-GO.
 valid: true
-updated_at: "2026-09-29T00:11:00+01:00"
+updated_at: "2026-09-29T13:13:00+01:00"
 role: project-state
 status: paid-engagement
 ---
 
 # Here’s Health app project state
+
+## iOS submission preflight remains NO-GO - 29 September 2026, 13:13 IST
+
+- **Source and artifact:** Fresh clean clone of `sam-evolv/heres-health-app`, branch `codex/shopify-full-integration`, initial HEAD `198edc8f3f359de74a75a9a4690682f49d10ef0b`. Local, uncommitted fixes advanced only the iOS source build number from 2 to 3, removed misleading production café “test ordering” wording, regenerated a one-line Shopify Edge schema field needed for CI, and formatted two pre-existing release notes. Five preflight handoff files are in `/Users/samdonworth/Documents/New project/heres-health-ios-preflight-20260929/docs/release/`. No commit, push or Ground Zero sync occurred; other agents will not see these local changes until separately approved sync and readback.
+- **Directly verified:** Production Square `/health` reports `live-read-only`, `checkoutEnabled:false`, three locations; Shopify `/health` reports `configured:true`, `checkoutEnabled:false` and recovery configuration ready. Supabase functions remain Square v30, Shopify v28, account deletion v12. The signed iOS 1.0.0 (2) IPA SHA-256 remains `16989bcd3039bd91c6322cb61b5b97c34e6693fd1ae96f9ed33aaf0c727cda97` and predates the café merge, so it is not the submission build. Xcode 26.6/iOS SDK 26.5 meets Apple's current toolchain floor. `pnpm check`, production workspace build and both Edge builds passed after local fixes. An isolated production-profile iOS Simulator Release build succeeded with source build number 3 and ten privacy manifests. Clean iPhone 17 simulator UI loaded guest onboarding, live Douglas café catalogue/price modifier and Shopify catalogue/basket; checkout was disabled. Unsigned simulator Keychain denied account reads (`-34018`), so account and café basket Add remained unverified rather than labelled production failures. The Mac locked before all UI routes could be completed.
+- **Decision/gaps:** NO-GO for the promised commerce release. No live payment/order/booking was created. A new signed archive, physical-device account/checkout/deletion/accessibility tests, merchant food/till/refund acceptance, reviewer login, full privacy/export/age/rights declarations and authenticated App Store Connect readback are still required. Apple account login redirected to an authentication failure today. No backend deploy, flag change, Apple upload, review submission or release was done. Owner actions are ordered in `docs/release/ios-submit-tonight.md`; screenshots remain Sam's separate responsibility.
+- **Next action:** Merchant and backend owners close the payment/food/provider gates, then build a fresh uniquely numbered signed archive from the frozen source, run the specified signed-device tests and complete private Apple console fields. Do not upload the old IPA. This is a local preflight receipt, not proof that the backend matches a source commit or that the app is deployed/archived/submitted.
 
 ## Merge and asset custody reverified; release remains blocked - 29 September 2026, 00:11 IST
 
