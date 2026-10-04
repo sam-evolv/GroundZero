@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-04T16:17:00+01:00"
+updated_at: "2026-10-04T20:17:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 4 October 2026 20:17 IST cutoff
+
+Installed Hermes remains exact stable v0.21.5 `e496ccc7d7e0ca885041e69223683d7739123ff9` / tree `f8c58d47f2f429cdf23d76504d4ede852602add5`; local `origin/main` still equals installed, the checkout has only untracked `.review-worktrees/`, and 11 stashes remain. No fetch into the installed checkout, update, upstream-suite rerun, install or restart occurred.
+
+A refreshed isolated clone plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `32172d4622195697e4f077976140d0ed0738318a` / tree `f3664b2eef1c42c2cf9c360da694cefc79a9fe4f`, exactly 1,733 commits / 1,795 net changed paths beyond installed. The exact range after `af90026aa09949579bd423d24def3d38f743cde0` is 27 commits / 40 paths; GitHub marks two commits verified and 25 unverified. Queue Clarify choice overflow and llama.cpp grammar compatibility, Desktop addressed-member nudge and zone-menu sizing, MCP PATH/PATHEXT resolution, user-defined-provider preservation, Windows Unicode/runtime-store guards, Kanban goal-loop failure stops, finalized-session/queue lifecycle repairs and plugin dependency-probe environment binding. Official stable remains `v2026.9.24` / v0.21.5.
+
+`hermes --version` still reports 1,570 behind and therefore understates immutable Git by 163. Saved routing remains `gpt-6.1-sol` / `openai-codex` with `xhigh` reasoning and fallbacks `xai-oauth/grok-4.6` then `opencode-go/glm-5.3`, still conflicting with the accepted DeepSeek routing decision. Gateway `/health` is `200`; Aire `8766` and Cara `8643` refuse connection. No accepted Aire uplift, authenticated/rendered journey or physical-device result advanced.
 
 ## Reconciliation checkpoint, 4 October 2026 16:17 IST cutoff
 

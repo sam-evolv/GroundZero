@@ -12,10 +12,15 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-04T16:17:00+01:00"
+updated_at: "2026-10-04T20:17:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 4 October 2026, 20:17 IST
+
+- **Hermes upstream advanced 27 mostly unverified commits; accepted Aire state did not advance.** Installed remains exact stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. A refreshed isolated clone plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `32172d46…` / tree `f3664b2e…`, exactly 1,733 commits / 1,795 net changed paths beyond installed and 27 commits / 40 paths after `af90026a…`; two tail commits are verified and 25 are not. The tranche spans Clarify/TUI, Desktop, MCP resolution, provider preservation, Windows Unicode/runtime-store guards, Kanban failure stops, session/queue lifecycle repairs and plugin dependency-probe environment binding. `hermes --version` still reports 1,570 behind and understates immutable Git by 163. Saved routing remains `gpt-6.1-sol` / `openai-codex` with `xhigh` and xAI Grok 4.6 / OpenCode Go GLM 5.3 fallbacks, contrary to the accepted DeepSeek/OpenCode Go default. Gateway health is `200`; Aire and Cara remain offline.
+- **Other exact named sources were materially unchanged where rechecked; Apple remained a fail-closed read gap.** A fresh App Store Connect read could not start because running Chrome held the real-profile credential databases under a write lock, so Waiting for Review at 21:01 IST on 1 October remains the last verified Apple state rather than a current assertion. No authenticated, provider-transaction, client, physical-device or genuine-Windows acceptance advanced. No canonical source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated. Ground Zero canonical notes were updated locally; the checkout retains protected nested-repository/worktree entries, so no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 4 October 2026, 16:17 IST
 

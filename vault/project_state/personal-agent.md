@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains stable v0.21.5 `e496ccc7` / tree `f8c58d47`; immutable GitHub `main` is unsigned `af90026a…` / tree `2c3a4d4f…`, 1,706 commits / 1,766 net changed paths ahead. The 136-commit / 81-path tail after `8b66a510…` is entirely unverified and is dominated by plugin-catalog additions/repins, with Node `libatomic` installer/updater handling and one bounded delegation regression-test correction. The CLI still reports 1,570 behind and now understates immutable Git by 136. Saved `gpt-6.1-sol` / `openai-codex` routing with `xhigh` reasoning has xAI Grok 4.6 and OpenCode Go GLM 5.3 fallbacks again, still contradicting the accepted DeepSeek default. Gateway health is `200`; Aire and Cara remain offline and no accepted runtime or physical-device journey advanced.
+headline: Installed Hermes remains stable v0.21.5 `e496ccc7` / tree `f8c58d47`; immutable GitHub `main` is unsigned `32172d46…` / tree `f3664b2e…`, 1,733 commits / 1,795 net changed paths ahead. The 27-commit / 40-path tail after `af90026a…` has two verified and 25 unverified commits and spans Clarify/TUI overflow and llama.cpp grammar compatibility, Desktop bot nudges and menu sizing, MCP PATH/PATHEXT resolution, provider preservation, Windows Unicode/runtime-store guards, Kanban failure stops, session/queue lifecycle repairs and plugin dependency-probe environment binding. The CLI still reports 1,570 behind and understates immutable Git by 163. Saved `gpt-6.1-sol` / `openai-codex` routing with `xhigh` reasoning and xAI Grok 4.6 / OpenCode Go GLM 5.3 fallbacks still contradicts the accepted DeepSeek default. Gateway health is `200`; Aire and Cara remain offline and no accepted runtime or physical-device journey advanced.
 status: building
 updated: 2026-10-04
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced 27 mostly unverified commits; Aire acceptance did not — 4 October 2026, 20:17 IST cutoff
+
+- Installed Hermes remains exact stable v0.21.5 `e496ccc7d7e0ca885041e69223683d7739123ff9` / tree `f8c58d47f2f429cdf23d76504d4ede852602add5`; local `origin/main` still equals installed, the checkout still has only untracked `.review-worktrees/`, and 11 stashes remain. A refreshed isolated clone plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `32172d4622195697e4f077976140d0ed0738318a` / tree `f3664b2eef1c42c2cf9c360da694cefc79a9fe4f`, exactly 1,733 commits / 1,795 net changed paths beyond installed. The exact range after `af90026aa09949579bd423d24def3d38f743cde0` is 27 commits / 40 paths; GitHub marks two commits verified and 25 unverified.
+- Queue the tail's Clarify choice overflow and llama.cpp grammar compatibility, Desktop addressed-member nudge and zone-menu sizing, MCP PATH/PATHEXT resolution, user-defined-provider preservation, Windows Unicode/runtime-store guards, Kanban goal-loop failure stops, finalized-session/queue lifecycle repairs and plugin dependency-probe environment binding for bounded compatibility review. Official stable remains `v2026.9.24` / v0.21.5. Source descriptions, signatures and tests are not accepted Aire behavior.
+- `hermes --version` still reports **1,570 commits behind**, understating immutable Git by 163. Saved configuration remains `gpt-6.1-sol` / `openai-codex` with `xhigh` reasoning and fallbacks `xai-oauth/grok-4.6` then `opencode-go/glm-5.3`, still operational drift against the accepted DeepSeek/OpenCode Go default without established later approval. Gateway `/health` is `200`; Aire `8766` and Cara `8643` refuse connection. No fetch into the installed checkout, source integration, upstream-suite rerun, update, restart, routing correction, authenticated/rendered journey or physical-device acceptance advanced.
 
 ## Upstream advanced 136 unverified commits and fallback drift returned; Aire acceptance did not — 4 October 2026, 16:17 IST cutoff
 
