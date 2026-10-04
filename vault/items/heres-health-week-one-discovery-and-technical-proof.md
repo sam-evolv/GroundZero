@@ -10,10 +10,66 @@ effort: M
 impact: 95
 source: Sam-supplied project briefs, 2026-08-13 and 2026-08-29
 created_at: "2026-08-13T00:00:00+01:00"
-updated_at: "2026-09-29T16:12:00+01:00"
+updated_at: "2026-10-03T20:16:00+01:00"
 ---
 
 # Here’s Health Week 1 discovery and technical proof
+
+## Hosted rota persistence is active but source/UI acceptance is absent; keep Week 1 building — 3 October 2026, 20:16 IST
+
+- Draft PR #1 remains open/draft, clean and unreviewed at unsigned `06f17e88…` / tree `7300f199…`, with 197 commits / 453 files and two successful checks. Current GitHub searches still return zero matches for hosted migration IDs `20261002203423`, `20261002203444` and `rota_tenants`. Build 8 remains bound to older source `5a3d452…` plus evidence `9089494…`; a fresh Apple readback failed closed on the running-Chrome profile lock, so the last verified Apple state remains **Waiting for Review** at 21:01 IST on 1 October.
+- Direct Supabase remains healthy at 24 migrations / 24 listed RLS-enabled public tables. The six previously empty `rota_*` tables now hold one tenant at revision 7, one identity, five entities, one audit row, two completed-request rows and two version-6 conflict scopes, including an explicit `synthetic-test-site` scope. Exact source, deployment actor/approval, test-versus-client-data provenance, app/UI binding and client acceptance remain open; persistence activity is not delivered rota functionality.
+- Commerce health endpoints returned `200`. All 27 Square orders are sandbox-only (23 paid, four unpaid), while the production Shopify session remains `awaiting-payment`, `native=false` and `confirmed=false` after an update at 19:00 UTC on 3 October. Deletion remains one completed plus one requested row and notification tables remain empty. Keep Week 1 `building`; payment/order confirmation, fulfilment/refund, deletion handling, rota UI/device, merchant and client acceptance remain open. Launch remains **NO-GO**.
+
+## Source-unbound rota schema appeared; keep Week 1 building — 3 October 2026, 00:23 IST
+
+- Draft PR #1 remains open/draft, clean and unreviewed at unsigned `06f17e88…` / tree `7300f199…`, with 197 commits / 453 files and two successful checks. Build 8 remains bound to older source `5a3d452…` plus evidence `9089494…`; later source and hosted schema are outside the submitted binary's accepted evidence. App Store Connect redirected to sign-in, so the last verified Apple state remains **Waiting for Review** at 21:01 IST on 1 October.
+- Direct Supabase is `ACTIVE_HEALTHY` but advanced from 22 migrations / 18 listed public tables to 24 migrations / 24 listed public tables. New hosted migrations `20261002203423 roster_persistence` and `20261002203444 roster_entity_storage` add six RLS-enabled `rota_*` tables, all currently empty. The unchanged PR-head tree and current GitHub searches return zero matches for both exact migration IDs and `rota_tenants`; exact source, deployment actor/approval, app/UI binding and client acceptance remain open. Do not treat schema presence as delivered rota functionality.
+- Commerce, deletion and notification rows are unchanged: 2/3 production Square locations enabled, no Square orders, one Shopify session still `awaiting-payment` without native/confirmed order, one completed and one requested deletion, and empty notification tables. Keep Week 1 `building`; payment/order confirmation, fulfilment/refund, deletion handling, rota/device, merchant and client acceptance remain open. Launch remains **NO-GO**.
+
+## A second deletion request is pending; keep Week 1 building — 2 October 2026, 12:21 IST
+
+- Draft PR #1 remains open/draft, clean and unreviewed at unsigned `06f17e88…` / tree `7300f199…`, with 197 commits / 453 files and two successful checks. Build 8 remains bound to older source `5a3d452…` plus release evidence `9089494…`; later source is outside the submitted binary. A fresh App Store Connect readback again failed closed because running Chrome held the real-profile credential stores, so the last verified Apple state remains **Waiting for Review** at 21:01 IST.
+- Supabase remains healthy. Production checkout flags, 2/3 enabled Square locations and the single production Shopify `awaiting-payment` session are unchanged; no native or confirmed Shopify order exists. The deletion ledger now shows one `completed` request and a second request in `requested`, created `2026-10-02T08:10:56Z` and due `2026-10-30T08:10:56Z`; `alerted_at` and `completion_notified_at` are null. Actor, rendered receipt and completion of the new request remain open. Notifications remain disabled and all three notification queues remain empty.
+- Keep Week 1 `building`. Payment/order confirmation, fulfilment/refund, deletion handling, physical-device, merchant and client acceptance remain open; launch remains **NO-GO**.
+
+## Build 8 is in review and a production Shopify cart exists; keep Week 1 building — 2 October 2026, 00:23 IST
+
+- Draft PR #1 remains open/draft, mergeable/clean and unreviewed at unsigned `06f17e88…` / tree `7300f199…`, with 197 commits / 453 files, zero reviews and two successful checks. The canonical 21:01 IST Apple receipt records signed build `1.0.0 (8)` uploaded, processed, selected and submitted, then **Waiting for Review**. It binds build 8 to app source `5a3d452…` and release evidence `9089494…`; later source is not in the submitted binary. The 00:16 IST recheck could not safely acquire the live Chrome profile, so no newer Apple status is claimed.
+- Supabase remains healthy with unchanged migrations/table/function versions. Production Square/Shopify checkout flags remain on; 2/3 production Square locations are now enabled. One production Shopify command plus one `awaiting-payment` session appeared at 22:26 UTC with provider cart / checkout URL but without native or confirmed order IDs. One deletion request reached `completed` at 21:49 UTC. These are backend rows, not rendered-device, payment, fulfilment/refund, merchant or client acceptance; actor and intent remain open. Notifications remain disabled, all notification queues are empty and no delivery cron exists.
+- Keep Week 1 `building`. Apple approval/release, reviewer resolution, merchant/provider/device end-to-end acceptance, notification delivery and client acceptance remain open. Public launch remains **NO-GO**.
+
+## Allergen UI source advanced and hosted checkout flags changed; keep Week 1 building — 1 October 2026, 20:17 IST
+
+- Draft PR #1 is open/draft, mergeable/`clean` and unreviewed at unsigned `06f17e88…` / tree `7300f199…`, with 197 commits / 453 files, zero reviews and two successful exact-head checks. Its one new commit adds source-menu declaration data/helpers and product-screen rendering for 52 claimed menu-entry/product references. The source-authored 595-pass/one-skip result was not independently rerun; no rendered, signed replacement build, device or merchant acceptance exists, and uploaded build 7 remains on older source `0f9ee377…`.
+- Direct Supabase remains healthy at 22 migrations / 18 listed RLS-enabled tables, while ACTIVE versions now read Square v34/v30, Shopify v31, account deletion v15, Shopify install v17, café email v5 and notification worker v3. Three repeated health reads now return production Square and production Shopify `checkoutEnabled:true`, directly conflicting with the exact-head record that production café/shop checkout remained off. Square still has 0/3 production location rows enabled (sandbox 3/4), so café writes remain blocked at the location gate; Shopify exposes its production write gate as enabled. Actor/approval, change time and exact source-to-host binding are unknown; no transaction was exercised.
+- Keep Week 1 `building`. Notifications remain disabled, all three notification queues are empty and no notification-delivery cron exists. Recipe/selected-option and Paul Street approval, final signed/rendered/device/provider/merchant acceptance, reviewer/privacy/compliance, submission, release and client acceptance remain open. Launch remains **NO-GO**.
+
+## Deletion-receipt UI and hosted versions advanced; keep Week 1 building — 30 September 2026, 20:13 IST
+
+- Draft PR #1 is open/draft, mergeable/`CLEAN` and unreviewed at unsigned `53278d6…` / tree `b3c62a4c…`; both exact-head checks are successful. Direct compare reports 193 commits beyond historical `main`, and the PR reports 449 changed files. The two-commit / two-file tail after `2d45496…` removes the sample-data notice from the real deletion-receipt screen, restores standard margins and enables the existing Back control. The release audit's simulator/test claims were not independently rerun or promoted to device acceptance.
+- Direct Supabase remains `ACTIVE_HEALTHY` at 22 migrations / 18 listed RLS-enabled tables. ACTIVE functions advanced to Square v33/v29, Shopify v30, account deletion v14, Shopify install v16, café email v4 and notification worker v2. Public health still has production checkout and order notifications disabled, sandbox notifications disabled and Shopify checkout disabled; the live cron list still has no notification-delivery job. Exact source-byte binding for the incremented hosted versions remains open.
+- Keep Week 1 `building`. No fresh authenticated Apple-console or physical-device readback was obtained; exact-head source records build 6 as unsigned and final export/archive/device acceptance as pending. No APNs sender registration, signed build-6 candidate, physical-device delivery, live merchant transaction, reviewer/privacy/compliance completion, submission, release or client acceptance was verified. Launch remains **NO-GO**.
+
+## Apple Push capability advanced, but Week 1 remains blocked on signed/device/provider acceptance — 30 September 2026, 08:23 IST
+
+- Draft PR #1 is open/draft, mergeable/`clean` and unreviewed at unsigned `2d45496…` / tree `537c7b30…`; both exact-head checks are successful. Direct REST reports 191 commits / 449 files, correcting the previous capped 100-commit figure. The four commits / 22 files after `38f23ae…` align migration history, strengthen its test handling and restore source for the existing hosted deletion scheduler without changing app/native runtime or hosted behavior.
+- Direct Supabase authority remains `ACTIVE_HEALTHY` at 22 migrations / 18 listed RLS-enabled public tables with the same ACTIVE function versions and worker v1. The preserved signed build-5 IPA remains exact at 27,939,032 bytes / `bd154ce5…`. Rendered Apple receipts show Push Notifications enabled, an Active App Store push profile, and App Store Connect still on build 5 at Prepare for Submission / Missing Compliance.
+- Keep Week 1 `building`. The new profile is not locally installed; no APNs sender key, notification-delivery cron, signed build-6 candidate or physical-device delivery exists. The overnight goal was blocked at 07:52 IST on Mac unlock/profile download and separate sender-key/private-storage approval. Merchant live café/shop payment/refund/fulfilment, reviewer access, privacy/compliance declarations, final device/provider, store and client acceptance remain open. No submission, release, production checkout enablement or client contact occurred; launch remains **NO-GO**.
+
+## Hosted notification foundation advanced; keep Week 1 building — 30 September 2026, 04:13 IST
+
+- Draft PR #1 is now open/draft, `CLEAN` and unreviewed at unsigned `38f23ae…` / tree `057bc6a2…`, with both exact-head checks successful. It reports 100 commits / 443 changed files against unchanged historical `main`; the eight-commit / 35-file range after failed head `1f6ce683…` adds notification recovery/client lifecycle, native corrections, private-schema Auth lookup, hosted-deployment records and migration-history safeguards. This closes the formatting/CI failure only; there is still no independent review, merge or signed release candidate.
+- Direct hosted authority is `ACTIVE_HEALTHY` at 22 migrations and 18 public tables, all RLS-enabled. ACTIVE functions are Square v32/v28, Shopify API v29, account deletion v13, Shopify install v15, café confirmation email v3 and notification worker v1. The hosted worker matched exact-head GitHub source byte-for-byte. Production checkout and notifications remain disabled; no notification cron exists, and no notification send occurred. Existing cron jobs cover deletion retention, Shopify reconciliation and café confirmation email only.
+- The exact preserved App Store artifact remains build 5 at 27,939,032 bytes / SHA-256 `bd154ce5…` and passes fresh strict signature verification. Source now names build 6, but there is no fresh signed archive, Apple processing/selection, physical-device pass or APNs acceptance; exact-head records also preserve the missing APNs profile entitlement and broader migration-history differences. Do not transfer green CI, simulator/source evidence or hosted schema/function deployment to Apple/device acceptance.
+- Keep Week 1 `building`. Merchant live-commerce/till/refund workflow, reviewer access/details, export/privacy/age/rights declarations, notification credential/capability/cron and real delivery, final signed-device/provider acceptance, client acceptance and store review remain open. No submission, public release, production checkout enablement or client contact occurred; launch remains **NO-GO**.
+
+## Build 5 saved in the Apple draft; keep Week 1 building — 30 September 2026, 00:21 IST
+
+- Draft PR #1 is open/draft, `UNSTABLE` and unreviewed at `1f6ce683…`, eight commits beyond `198edc8f…`; canonical `main` remains `a61ff082…`. The newest source commit adds a disabled-by-default APNs notification worker/delivery migration, but both current-head checks fail at the first formatting gate on generated `cafe-order-notifications/index.ts`. The prior `5d5d6ca3…` head had green checks. The App Store artifact is exact at 27,939,032 bytes / SHA-256 `bd154ce5…` and passes fresh deep/strict signature verification. A preserved rendered App Store Connect receipt shows version 1.0.0 Prepare for Submission, build 5 in the Build section, Missing Compliance, Save disabled and Add for Review enabled. The committed audit records delivery, processing and saving; current live Apple readback was blocked by the expired authenticated session, so no same-minute console claim is added.
+- Direct hosted authority advanced to 18 migrations, 14 listed RLS-enabled public tables and ACTIVE Square v31/v27, Shopify API v29, account deletion v13, Shopify install v15 and café confirmation email v3. Production Square/Shopify checkout remains disabled; sandbox Square checkout remains enabled. Reconciliation cron job 3 is active every five minutes and its last three inspected runs succeeded, but that is provider polling evidence, not a recovered order or merchant acceptance.
+- The current PR head contains notification/session source newer than build 5. Its three notification migrations, generated worker/function, APNs credentials/capability, client consent and real delivery are not hosted or accepted; do not transfer source tests or simulator observations to the App Store binary. The live branded account confirmation page rendered at HTTP `200`, but its Vercel deployment is source-unbound.
+- Keep Week 1 `building`. Source records preserve component-level device acceptance on build 4 and separate receipt/email rehearsal only. Combined build-5 device/provider acceptance, export compliance, reviewer access/details, privacy/age/rights, merchant till/refund workflow, store review and client acceptance remain open. No review submission, public release, production checkout enablement or notification send occurred in this reconciliation; launch remains **NO-GO**.
 
 ## Build 3 is locally signed/exported; launch remains NO-GO — 29 September 2026, 16:12 IST recheck
 
@@ -281,6 +337,9 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]
 - [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
 - [[briefs/substack-draft-2026-09-20-the-correction-came-with-a-deposit]]
+- [[briefs/wiki-refiner-2026-09-30]]
+- [[briefs/wiki-refiner-2026-10-02]]
+- [[briefs/wiki-refiner-2026-10-03]]
 - [[companies/heres-health]]
 - [[context/business-opportunities-moc]]
 - [[context/index]]
@@ -288,6 +347,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]
 - [[items/heres-health-planday-brightpay-export-proof]]
 - [[items/heres-health-westron-price-file-diff-proof]]
+- [[items/ops-daily-sync-digest]]
 - [[items/ops-graph-engineering-pilot]]
 - [[items/ops-project-state-reconciler]]
 - [[people/conor-heres-health]]

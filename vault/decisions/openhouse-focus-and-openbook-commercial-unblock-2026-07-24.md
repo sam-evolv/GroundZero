@@ -37,6 +37,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-18-openhouse-safety-file-custody-future-works-proof]]
 - [[briefs/2026-09-19-openhouse-taking-in-charge-boundary-aftercare-routing-proof]]
 - [[briefs/2026-09-27-openbook-gymmaster-membership-attribution-proof]]
+- [[briefs/2026-09-30-openhouse-first-interaction-ai-transparency-receipt]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]
 - [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]

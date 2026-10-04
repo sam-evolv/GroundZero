@@ -172,5 +172,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/business-opportunities-moc]]
 - [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]
 - [[items/heres-health-week-one-discovery-and-technical-proof]]
+- [[items/ops-graph-engineering-pilot]]
 - [[project_state/heres-health-app]]
 

@@ -21,13 +21,13 @@ These items automate that sweep so Sam's time goes into the right work, not the 
 ## By function
 
 ### Daily sync & digest
-- [[items/ops-daily-sync-digest]] — anomaly check + daily digest; proposed extensions emit change-only deployment-alias custody with bounded public-route anomaly confirmation, native installed-artifact custody with embedded source-provenance resolvability, cron-exception, decision-bound Hermes routing-drift and Supabase security-advisor delta receipts without adding another watchdog
+- [[items/ops-daily-sync-digest]] — anomaly check + daily digest; proposed extensions emit change-only deployment-alias custody with bounded public-route anomaly confirmation, native installed-artifact custody with embedded source-provenance resolvability, consented tester update/relaunch, cron-exception, decision-bound Hermes routing-drift, Supabase security-advisor delta, privacy-request fulfilment and hosted rota test-data provenance exception receipts without adding another watchdog
 - [[items/ops-daily-report-pack]] — daily reporting packs per company
 - [[items/ops-project-state-reconciler]] — keep project_state/company memory aligned with live signals; proposed extensions add a read-only local branch/worktree custody manifest, a remote source-lineage authority transition receipt for moving default branches, an append-only observation ledger with change-only canonical projections, a transition-triggered Aire BFF launch incident packet, and a bounded current-context projection that keeps mandatory entry points within the adopted single-read window without deleting history
 - [[items/ops-index-maintenance-bot]] — auto-maintain items/_Index.md and daily log entries
 
 ### Graph orchestration
-- [[items/ops-graph-engineering-pilot]] — prove a bounded research, synthesis, review and approval graph on three internal tasks; first slices are a read-only release evidence receipt assembler, an accepted-requirement drift check, a retry evidence capsule that preserves exact artifacts and failure signatures across iteration-budget deaths, a deterministic source-authored verification manifest consistency gate that blocks stale or conflicting test claims from entering a release receipt, and a source-to-hosted parity gate that distinguishes migrations, Edge Functions and CI jobs not yet exercised in the hosted release state
+- [[items/ops-graph-engineering-pilot]] — prove a bounded research, synthesis, review and approval graph on three internal tasks; first slices are a read-only release evidence receipt assembler, an accepted-requirement drift check, a retry evidence capsule, source-authored verification-manifest and source-to-hosted parity gates, and an authenticated read-only App Store draft-state parity gate that keeps selected Apple builds and draft fields bound to the exact signed candidate
 
 ### Triage & escalation
 - [[items/ops-kanban-terminal-transition-guard]] — independently accepted local candidate is parked: delayed/truncated runs can still be stale-reclaimed and installation would alter review-crash handling

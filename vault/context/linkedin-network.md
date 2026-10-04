@@ -88,6 +88,19 @@ For any network-led task:
 - Some connection rows have blank company fields and only a headline, so company counts are conservative.
 - The list is current to 12 August 2026, not continuously synchronized.
 
+## Live app prospect review — 3 October 2026
+
+- **Source:** Sam's request in Codex Chrome side panel and his live LinkedIn connections page (`https://www.linkedin.com/mynetwork/invite-connect/connections/`), plus public company research. This is a new review receipt, not a replacement of the preserved August export.
+- **Verified coverage:** The live page header showed 878 connections. Scrolling through the end exposed 869 unique named profiles. All 869 displayed headlines were screened. Nine profiles remain unresolved. Company research focused on the strongest plausible buyers, rather than full due diligence on every employer.
+- **Sam's requirements:** Prioritise owners or senior leaders at established businesses able to justify roughly €20,000 for an app, with a distinct return from repeat ordering, membership, service delivery or operational savings. Do not qualify small startups on founder title alone. Sam prefers approximately age 45 and under as a receptiveness signal. Most ages were unverified, so the review records digital adoption and leaves age qualification open.
+- **Exclusions supplied by Sam:** Already handled Brian Lee / TRYKA, Richard Sheridan / Ecoplex, Eamon FitzGerald / WineSpark, Rory King / Rory's Travel Club and Gary McKeating / Three Fools. Also reject Aaron Cullen / Zenith Golf for insufficient scale, Robert Hoban / Offr and Dan Murphy / Ardcairn Capital for weak app fit. Sam said “Robert Hogan”; the live list spells the Offr founder “Robert Hoban”. Richard Sheridan's live headline describes a solar Chief Sales Officer and does not independently verify the ownership description.
+- **Outcome:** 27 company opportunities, grouped rather than counting several connections at one company as several buyers. Thirteen first-priority businesses and fourteen conditional opportunities, covering 36 connected routes. First priority means worth validating in discovery, not verified cash budget, willingness to buy or absence of incumbent software. Namo, Ten10, RockSalt, SE Systems, Soma, Kilkenny Group, Business Fives, Energywise, Soltec, c2o, F4energy, Activ8 and Kearys Leasing are the first-priority group.
+- **Material software findings:** Griolladh has an archived LoyLap order/rewards app listing (2021, current use unknown). Oakberry already offers loyalty, Toast ordering and a coffee wallet subscription. Pendulum has an event app. Grainger has MyGrainger. Cairn and Glenveagh have customer portals. Avoid generic duplicate app pitches.
+- **Exact artifacts:** `/Users/samdonworth/Documents/Codex/2026-10-03/chrome-tabs-the-user-has-the/outputs/linkedin-app-prospects.xlsx` and `/Users/samdonworth/Documents/Codex/2026-10-03/chrome-tabs-the-user-has-the/outputs/linkedin-app-prospects.md`. Workbook contains ranked company evidence and the 869-record screening log. Local Chrome receipt only; no repository sync or cross-agent availability verified.
+- **Verification:** Exported workbook, inspected key values and error scan, reviewed rendered ranges from both worksheets. Prospect names matched captured profile records. Scope remains limited by the nine-profile discrepancy, unverified ages, current buying authority, available cash budgets and existing internal software.
+- **Next action:** Validate transaction/job volume, margins or hours saved, incumbent systems and the relevant buyer before a scoped proposal. Recover the nine-profile gap with a current LinkedIn export if a complete 878-person reconciliation is needed. No outreach was sent and no commit, push, sync or publishing was performed.
+- **Compatibility follow-up, 3 October 2026:** Sam reported that the workbook would not open. The exact download/application error remains unknown. The workbook passed ZIP integrity and successfully reimported through the spreadsheet tool. Created UTF-8 CSV fallbacks from the exported workbook values: `outputs/linkedin-app-prospects.csv` (27 records, 13 columns) and `outputs/linkedin-connection-screening.csv` (869 records, 8 columns), under the same absolute artifact directory above. Both were read back with a CSV parser and record/column counts verified. Opening in Sam's application remains unverified.
+
 ## Connected vault notes
 
 - [[imports/linkedin/connections-2026-08-12]] for raw provenance and field coverage
@@ -133,4 +146,3 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/openhouse-sales-routes]]
 - [[context/personal-context-data-contract]]
 - [[people/sam-donworth]]
-

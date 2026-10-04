@@ -16,7 +16,7 @@ Turn raw sources into durable, interlinked markdown notes instead of letting the
 - Hermes cron job: `Ground Zero LLM Wiki Refiner` (`338ecd7eae63`) — runs 2:15am daily
 - Graph health cron: `Ground Zero — Graph Health Check` (`7d17171c589b`) — runs 10am Sundays
 - Daily output: `briefs/wiki-refiner-YYYY-MM-DD.md`
-- Latest recorded daily output: [[briefs/wiki-refiner-2026-09-06]] — source-review and graph-health result for 6 September 2026
+- Latest recorded daily output: [[briefs/wiki-refiner-2026-10-04]] — source-review and backlink activity for 4 October 2026
 - Sync hook: `scripts/sync-vault.sh` runs the refiner before vault sync so the wiki compounds on every pull/push pass
 - Capture inbox auto-file: new scraps are routed into the right company, project, decision, item, or context note when the classifier is confident enough
 - **Auto-backlink pass (NEW):** for every source → related note pair with score ≥ 3, the refiner appends a `[[source]] — shared signals: ...` line to the target note's "Connected vault notes" section. This means the graph tightens automatically as new sources arrive — no manual linking pass needed.

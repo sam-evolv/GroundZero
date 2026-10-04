@@ -34,3 +34,10 @@ After meaningful work or a material fact, preference, decision, correction or ha
 - [[decisions/2026-09-28-ground-zero-continuity-capture]]
 - [[briefs/2026-09-28-cross-agent-ground-zero-continuity-proposal]]
 - [[context/personal-context-data-contract]]
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-28-cross-agent-ground-zero-continuity-proposal]]
+- [[context/personal-context-data-contract]]
+- [[decisions/2026-09-28-ground-zero-continuity-capture]]
+

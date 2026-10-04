@@ -68,6 +68,7 @@ Timely. Investor and developer outreach is live now and Bridgewater is a warm, h
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-27-market-intel]]
 - [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-09-30-openhouse-first-interaction-ai-transparency-receipt]]
 - [[briefs/hermes-community-use-cases-2026-07-28]]
 - [[briefs/openhouse-investor-readiness-operating-plan]]
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]

@@ -32,3 +32,9 @@ Owner/legal confirmation needed for actual bases/necessity, provider retention a
 Next: review exact draft amendments and confirmations, reconcile final signed iOS/Android artifacts and store disclosures, then authorize publication separately. No public policy update, app/provider/database mutation, transaction, booking, real-user deletion, store action, client contact, commit, push or sync occurred. Ground Zero write-back is local; availability to other copies/cross-agent readback is unverified.
 
 Related: [[project_state/heres-health-app]], [[companies/heres-health]].
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[companies/heres-health]]
+- [[project_state/heres-health-app]]
+

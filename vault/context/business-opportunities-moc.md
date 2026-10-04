@@ -21,6 +21,10 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]] — one static post-operation appendix separating physical electricity, renewable attributes and factor boundaries before any customer carbon claim; no footprint, assurance or GO transaction
 - [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]] — consultation-stage watch plus one later, permissioned site screen for final ESB Local Business Flex location, meter, controllability and economics; no application, control action or hardware spend
 - [[briefs/2026-09-29-evolv-commercial-solar-triple-e-aca-decision-receipt]] — one pre-purchase appendix binding exact quoted PV product codes, ownership, grant-net cost and first-use timing to Triple E/ACA evidence before any tax reliance; accountant confirmation required
+- [[briefs/2026-10-01-evolv-epbd-solar-trigger-decision-receipt]] — one pre-design screen for potential Article 10 building, date and floor-area triggers while Irish implementation criteria remain unfinished; no compliance claim or customer action
+- [[briefs/2026-10-02-evolv-ndmg-grant-uplift-transition-gate]] — wait-for-final-terms gate for the announced nine-month NDMG uplift, then one permissioned application-stage delta receipt; no grant action, delay or savings promise
+- [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]] — one pre-quote route receipt distinguishing self-consumption plus NDMG/CEG from mutually exclusive SRESS export-only support; no application, tariff promise or design action
+- [[briefs/2026-10-04-evolv-energy-sharing-readiness-reconciliation-gate]] — one permissioned two-premises interval-data dry run while Ireland's Article 15a framework remains untransposed and non-operational; no sharing, billing, registration or ESO offer
 - [[briefs/openhouse-energy-assistant-wedge]] — OpenHouse as energy-assist layer for new-build homeowners
 
 ### Booking & Hospitality
@@ -57,6 +61,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[briefs/2026-09-17-openhouse-bcms-completion-scope-home-record-proof]] - one static, permissioned phase test binding a BCMS completion certificate and Annex to exact homes; public metadata is only a cross-check, with no certification or compliance claim
 - [[briefs/2026-09-18-openhouse-safety-file-custody-future-works-proof]] - one static, permissioned Safety File test for exact-home scope, custody and later-work retrieval; no authoring, legal ownership, safety or compliance claim
 - [[briefs/2026-09-19-openhouse-taking-in-charge-boundary-aftercare-routing-proof]] - one static, permissioned phase-and-asset receipt for taking-in-charge status evidence and aftercare routing; no application, ownership, liability or compliance claim
+- [[briefs/2026-09-30-openhouse-first-interaction-ai-transparency-receipt]] - one controlled first-use receipt for clear, accessible AI disclosure across text, voice and photo; not legal certification and no production change is authorised
 - [[items/oh-warranty-evidence-pack]] - existing warranty-evidence item narrowed to one exact-home latent-defects policy and claim-readiness receipt; use the home's actual policy, make no coverage decision, and test manual retrieval before any build or insurer approach
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]] — canonical DTC product, context engine, energy-integration, business-model and validation strategy
 - [[decisions/openhouse-dtc-concierge-validation-2026-07-27]] — €79 Upgrade Ready Plan concierge validation before broad consumer build
@@ -167,6 +172,12 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]]
 - [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]]
 - [[briefs/2026-09-27-openbook-gymmaster-membership-attribution-proof]]
+- [[briefs/2026-09-29-evolv-commercial-solar-triple-e-aca-decision-receipt]]
+- [[briefs/2026-09-30-openhouse-first-interaction-ai-transparency-receipt]]
+- [[briefs/2026-10-01-evolv-epbd-solar-trigger-decision-receipt]]
+- [[briefs/2026-10-02-evolv-ndmg-grant-uplift-transition-gate]]
+- [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]]
+- [[briefs/2026-10-04-evolv-energy-sharing-readiness-reconciliation-gate]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]

@@ -490,6 +490,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]]
 - [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]]
 - [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]]
+- [[briefs/2026-10-02-evolv-ndmg-grant-uplift-transition-gate]]
 - [[project_state/renew]]
 
 

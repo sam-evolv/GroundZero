@@ -69,6 +69,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[companies/heres-health]]
 - [[context/index]]
 - [[decisions/2026-08-13-heres-health-whole-brand-platform-with-separate-commerce]]
+- [[items/ops-daily-sync-digest]]
 - [[items/ops-graph-engineering-pilot]]
 - [[items/ops-project-state-reconciler]]
 - [[people/conor-heres-health]]

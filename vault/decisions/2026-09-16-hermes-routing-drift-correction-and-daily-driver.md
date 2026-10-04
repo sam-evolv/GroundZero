@@ -19,6 +19,26 @@ This overrides the 10:45 Astra amendment below. Skippy's saved default has been 
 
 The prior inference that prioritising effectiveness authorised switching Sam to Astra was wrong. Improve execution within the explicitly selected subscription/model; do not change it on the strength of a generic quality preference.
 
+## Reconciliation receipt — 4 October 2026, 12:14 IST
+
+- Live saved configuration still does not match the accepted correction: it reads `gpt-6.1-sol` / `openai-codex`, no fallback models/providers, with saved `agent.reasoning_effort: xhigh`. This supersedes only the 00:15 observation that xAI/GLM fallbacks remained configured; it does not establish who changed them or when.
+- No later explicit Sam approval, change actor or exact change time was established. Treat the saved value as verified operational drift, not a replacement durable decision: the latest explicit correction above remains authoritative until Sam confirms otherwise. Gateway health is `200`; no routing correction, model switch, restart or credential mutation was performed.
+
+## Reconciliation receipt — 4 October 2026, 00:15 IST
+
+- Live saved configuration still does not match the accepted correction: it reads `gpt-6.1-sol` / `openai-codex`, no model-level base URL, with fallbacks `xai-oauth/grok-4.6` then `opencode-go/glm-5.3`. Saved `agent.reasoning_effort` remains `xhigh`, and `gateway.multiplex_profiles` remains absent.
+- No later explicit Sam approval, change actor or exact change time was established. Treat the saved value as verified operational drift, not a replacement durable decision: the latest explicit correction above remains authoritative until Sam confirms otherwise. Gateway health is `200`; no routing correction, model switch, restart or credential mutation was performed.
+
+## Reconciliation receipt — 3 October 2026, 04:22 IST
+
+- Live saved configuration still does not match the accepted correction: it reads `gpt-6.1-sol` / `openai-codex`, no model-level base URL, with fallbacks `xai-oauth/grok-4.6` then `opencode-go/glm-5.3`. Saved `agent.reasoning_effort` remains `xhigh`, and `gateway.multiplex_profiles` remains absent. The current cron session is separately pinned to `gpt-5.6-sol` / `openai-codex`.
+- No later explicit Sam approval, change actor or exact change time was established. Treat the saved value as verified operational drift, not a replacement durable decision: the latest explicit correction above remains authoritative until Sam confirms otherwise. The default gateway is launchd-supervised but standalone/default-only and reports duplicate Telegram/Photon credential ownership across named profiles. No routing correction, model switch, restart or credential mutation was performed.
+
+## Reconciliation receipt — 1 October 2026, 00:18 IST
+
+- Live saved configuration no longer matches the accepted correction: it now reads `gpt-6.1-sol` / `openai-codex`, no model-level base URL, with fallbacks still `xai-oauth/grok-4.6` then `opencode-go/glm-5.3`. Saved `agent.reasoning_effort` remains `xhigh`, and `gateway.multiplex_profiles` remains absent. The current cron session is separately pinned to `gpt-5.6-sol` / `openai-codex`.
+- No later explicit Sam approval, change actor or exact change time was established. Treat the saved value as verified operational drift, not a replacement durable decision: the latest explicit correction above remains authoritative until Sam confirms otherwise. No routing correction, model switch, restart or other configuration mutation was performed by this reconciliation.
+
 ## Reconciliation receipt — 23 September 2026, 08:08 IST
 
 - Saved model/provider/fallback routing still matches Sam's latest explicit correction: `deepseek-v4.1-flash` / `opencode-go`, no model-level base URL, then `xai-oauth/grok-4.6` and `opencode-go/glm-5.3`. Saved `agent.reasoning_effort` remains `xhigh` against accepted `high`, and the CLI still warns that the key is unrecognized.

@@ -158,6 +158,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-09-evolv-duos-group-public-benchmark-gate]]
 - [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]]
 - [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]]
+- [[briefs/2026-09-29-evolv-commercial-solar-triple-e-aca-decision-receipt]]
 - [[briefs/substack-draft-2026-09-27-more-precise-not-complete]]
 - [[companies/evolv-renewables]]
 - [[context/business-opportunities-moc]]

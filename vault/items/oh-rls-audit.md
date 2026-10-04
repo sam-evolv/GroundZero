@@ -91,6 +91,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-24-openhouse-market-readiness-audit]]
 - [[briefs/2026-08-01-openhouse-care-password-and-authority-hardening]]
 - [[briefs/2026-09-11-openhouse-built-to-innovate-buyer-subsidy-gate]]
+- [[briefs/2026-09-30-openhouse-first-interaction-ai-transparency-receipt]]
 - [[briefs/daily-portfolio-brief-2026-07-14]]
 - [[briefs/daily-portfolio-brief-2026-07-15]]
 - [[briefs/daily-portfolio-brief-2026-07-16]]

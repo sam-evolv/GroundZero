@@ -58,5 +58,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-08-31-agent-legible-system-design-standard]]
 - [[decisions/2026-09-01-donworth-imessage-first-remote-control-channel]]
 - [[items/donworth-publishable-and-outreach]]
+- [[items/ops-daily-sync-digest]]
 - [[project_state/donworth-studio]]
 

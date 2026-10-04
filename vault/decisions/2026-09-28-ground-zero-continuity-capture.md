@@ -46,5 +46,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-28-cross-agent-ground-zero-continuity-proposal]]
 - [[context/cross-agent-ground-zero-prompts]]
 - [[context/index]]
+- [[decisions/ground-zero-canonical]]
+- [[items/ops-project-state-reconciler]]
 - [[people/sam-donworth]]
 

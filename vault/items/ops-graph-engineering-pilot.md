@@ -13,7 +13,7 @@ is_one_thing: true
 source: graph engineering research 2026-08-04
 run_date: "2026-08-04"
 created_at: "2026-08-04T22:20:00+01:00"
-updated_at: "2026-09-24T18:04:47+01:00"
+updated_at: "2026-10-01T18:03:51+01:00"
 ---
 
 ## Objective
@@ -312,6 +312,59 @@ It replaces repeated manual source-versus-hosted-versus-CI comparison across [[p
 
 Grounded in the 24 September canonical checkpoints in [[project_state/heres-health-app]], [[items/heres-health-week-one-discovery-and-technical-proof]] and [[items/ops-project-state-reconciler]], then refreshed against exact live GitHub PR/tree/check-run metadata and read-only Supabase migration/function metadata at 18:04 IST. Commercial and approval boundaries come from [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]], [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]] and [[decisions/2026-08-31-agent-legible-system-design-standard]]. This extends the existing release evidence receipt assembler rather than creating a duplicate monitor or deployment system.
 
+## Material proposal, 1 October 2026 — App Store draft-state parity gate
+
+Extend the existing **release evidence receipt assembler** with one authenticated, read-only **App Store draft-state parity gate** for a named iOS candidate. This is a release-evidence input, not a store operator, compliance decision-maker or completion authority.
+
+### Bottleneck
+
+The paid Here’s Health build has moved through several distinct signed and source-only candidates while the App Store draft has also changed. Between 29 September and 1 October, [[project_state/heres-health-app]] records direct or preserved evidence for builds 1, 3 and 5, source-only build 6, and exact-head release records for signed build 7. Each reconciliation has had to reconstruct manually which IPA was processed or selected, which source it represents, whether Apple still reports `Missing Compliance`, which screenshot slots are populated, and whether privacy and reviewer fields are merely drafted or actually complete.
+
+The latest canonical checkpoint binds signed build 7 to source `0f9ee377…` and IPA `23a778e2…`, and records Apple processing/selection plus a complete but unpublished 12-category privacy draft. A fresh authenticated App Store Connect read was nevertheless blocked before the site loaded because the running Chrome process held the real-profile credential databases. The source record is therefore current repository evidence, not a fresh console readback. This is the same recurring release-evidence gap across successive candidates: a valid signed artifact, a source-authored Apple receipt and the live saved App Store draft are different states.
+
+This does not duplicate [[briefs/2026-08-22-heres-health-app-privacy-sdk-drift-release-gate]], which tests whether declarations match actual data flows, or [[briefs/2026-08-31-heres-health-client-owned-app-store-account-readiness-gate]], which governs account ownership and roles. The missing control is a compact candidate-to-console parity receipt before review or completion decisions.
+
+### Value category
+
+- **Release risk reduction:** prevents a processed or selected older build, stale screenshot set or unpublished declaration draft from being attributed to the current candidate.
+- **Decision quality:** separates source record, signed IPA identity, Apple processing, saved draft state, declaration completeness, physical-device acceptance and review submission.
+- **Time reclaimed:** replaces repeated manual comparison of release records, IPA metadata and App Store version-page fields after every build replacement.
+- **Commercial clarity:** keeps visible progress on the paid build without turning Apple draft movement into the finished-app or €10,000 + VAT completion decision in [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]].
+
+### Smallest live test
+
+Use one historical positive fixture from the preserved build-5 App Store receipt and the current build-7 record as an intentionally unconfirmed fixture. Then, only during a Sam-approved, human-present authenticated window, run one read-only check of the Here’s Health App Store draft:
+
+1. Freeze the candidate source commit/tree, bundle identifier, marketing/build version, IPA SHA-256, Apple app ID and observation time from the named release receipt.
+2. Read only the current version-page state needed for parity: version state, selected build number and Apple build ID, processing state, export-compliance state, release mode, populated screenshot-slot counts, reviewer-access completeness as a boolean, and App Privacy publish/completeness state with category count. Do not read, copy or expose credentials, reviewer passwords, legal answers or customer data.
+3. Emit `SOURCE_TO_IPA` as `MATCH`, `MISMATCH` or `UNKNOWN`; `IPA_TO_APPLE` as `MATCH`, `STALE`, `MISMATCH` or `UNKNOWN`; and each draft gate as `COMPLETE`, `OPEN`, `UNPUBLISHED` or `UNKNOWN`, followed by terminal `PASS`, `HOLD` or `UNKNOWN` for the release receipt.
+4. Treat the current build-7 source record as `UNKNOWN/HOLD` until a fresh console read binds the selected Apple build to that exact candidate. An unavailable or locked authenticated session is a recorded blocker, not a reason to copy browser credential stores or reuse stale UI evidence.
+5. Stop at the local receipt. Do not upload, select, save, publish, add for review, submit, release or edit any store field.
+
+### Evidence of success
+
+- The historical build-5 fixture resolves to the exact processed/selected build recorded by its preserved Apple receipt without inheriting later build-6 or build-7 source state.
+- Before a fresh read, the build-7 fixture returns `IPA_TO_APPLE: UNKNOWN` and `HOLD`; it does not promote source-authored processing/selection into live console evidence.
+- When the approved live read is available, the receipt names one exact selected build and preserves every open compliance, privacy, screenshot and reviewer gate without copying secret or personal field values.
+- A changed source commit, IPA hash, build number or selected Apple build invalidates the prior receipt instead of silently updating it; an unchanged second run is byte-stable and creates no new human-facing alert.
+- Independent comparison with the named release receipt, the read-only Apple page and [[items/heres-health-week-one-discovery-and-technical-proof]] finds no mixed candidate, omitted blocker or claim that store parity proves device, provider, client or completion acceptance.
+
+### Downside
+
+App Store Connect is session-bound and its UI can change; processing is asynchronous; some fields are not safely or consistently machine-readable; and a complete-looking draft can still contain legally or commercially wrong answers. Preserve `UNKNOWN`, bind observations to time and candidate identity, read only allowlisted fields, and require human review of declaration substance. Do not bypass account security, copy a locked browser profile, or treat selected-build parity as proof of app behavior, merchant acceptance, legal compliance or store approval.
+
+### Approval boundary
+
+This proposal authorises documentation only. After separate explicit approval, the gate may read the named non-secret release receipt, exact IPA metadata and allowlisted App Store draft fields in an already authenticated, human-present session, then draft one local receipt. It may not request or store credentials; copy browser credential databases; change roles; accept terms; upload or select a build; edit, save or publish privacy/compliance/reviewer/metadata fields; add for review; submit or release; drive a physical device; contact Here’s Health or Apple; spend money; push, merge, deploy, declare completion or mutate production. Sam retains every store, release, completion and client-communication decision.
+
+### What it replaces
+
+It replaces repeated manual candidate-versus-App-Store comparison and repetitive reconstruction of selected build, processing and draft-field state in the recurring reconciliation. It does **not** replace [[briefs/2026-08-22-heres-health-app-privacy-sdk-drift-release-gate]], [[briefs/2026-08-31-heres-health-client-owned-app-store-account-readiness-gate]], signed-artifact verification, physical-device/provider/merchant acceptance, independent review, Apple review, [[items/ops-project-state-reconciler]] or Sam’s finished-app and release decisions.
+
+### Provenance
+
+Grounded in the successive 29 September–1 October build and App Store checkpoints in [[project_state/heres-health-app]] and [[items/heres-health-week-one-discovery-and-technical-proof]], including the latest build-7 source receipt and failed fresh-console read; the repeated manual synthesis in [[items/ops-project-state-reconciler]]; the adjacent privacy and account-ownership gates above; the paid completion boundary in [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]]; and the evidence-state separation in [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]. This extends the existing release evidence assembler rather than creating another item, scheduler or store workflow.
+
 ## Connected notes
 
 - [[briefs/2026-08-04-graph-engineering-research-and-implementation]]
@@ -320,12 +373,18 @@ Grounded in the 24 September canonical checkpoints in [[project_state/heres-heal
 - [[context/founder-execution-os]]
 - [[companies/openhouse-ai]]
 - [[project_state/oh]]
+- [[project_state/heres-health-app]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
+- [[briefs/2026-08-22-heres-health-app-privacy-sdk-drift-release-gate]]
+- [[briefs/2026-08-31-heres-health-client-owned-app-store-account-readiness-gate]]
 - [[items/_Index]]
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-04-graph-engineering-research-and-implementation]]
 - [[briefs/2026-08-05-phosphen-karpathy-llm-use-source-audit]]
+- [[briefs/2026-08-22-heres-health-app-privacy-sdk-drift-release-gate]]
+- [[briefs/2026-08-31-heres-health-client-owned-app-store-account-readiness-gate]]
 - [[companies/openhouse-ai]]
 - [[context/agentic-value-creation-mission]]
 - [[context/founder-execution-os]]

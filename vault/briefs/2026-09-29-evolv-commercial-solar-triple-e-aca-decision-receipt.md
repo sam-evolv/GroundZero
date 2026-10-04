@@ -136,3 +136,18 @@ Official sources reviewed 29 September 2026:
 - [[items/renew-reporting-source-baseline]] — required live workflow baseline
 - [[briefs/2026-09-22-evolv-commercial-renovation-passport-evidence-continuity-gate]] — downstream asset-evidence continuity
 - [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]] — separate post-operation claims boundary
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-22-evolv-commercial-renovation-passport-evidence-continuity-gate]]
+- [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]]
+- [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]]
+- [[briefs/2026-10-01-evolv-epbd-solar-trigger-decision-receipt]]
+- [[briefs/2026-10-02-evolv-ndmg-grant-uplift-transition-gate]]
+- [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]]
+- [[companies/evolv-renewables]]
+- [[context/business-opportunities-moc]]
+- [[goals/renew-pipeline]]
+- [[items/renew-reporting-source-baseline]]
+- [[project_state/renew]]
+

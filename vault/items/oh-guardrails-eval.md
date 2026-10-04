@@ -50,6 +50,7 @@ Very timely. Teams shipping AI features are moving toward stronger eval gates, e
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-30-openhouse-first-interaction-ai-transparency-receipt]]
 - [[companies/openhouse-ai]]
 - [[goals/oh-aftercare-os]]
 - [[goals/oh-guardrails-active]]

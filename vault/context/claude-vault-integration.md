@@ -73,6 +73,13 @@ If Claude does not see the vault after a config change:
 3. verify the repo still contains `vault/`
 4. reload `vault/context/index.md`
 
+## Confirmed Claude Cowork access and large-file handling — 28 September 2026
+
+Source: Claude Cowork session, Sam’s instruction, and direct tool checks recorded on 28 September 2026.
+
+- Claude Cowork reached Ground Zero through the `ground-zero-vault` filesystem MCP server and exposed both read and write tools for the repository. This is a dated capability observation, not a guarantee of current access.
+- `context/index.md` (about 125k characters) and `context/model-pack.md` (about 166k characters) can overflow combined tool output. Read these notes individually with bounded head/tail or sliced reads rather than using a multi-file read call.
+
 ## Known issue and fix: connector tools rejected (2026-09-28)
 
 Symptom: `ground-zero-vault` tools failed in Claude Code sessions with `unsupported dialect "draft-07"`, or the log `~/Library/Logs/Claude/mcp-server-ground-zero-vault.log` showed `Invalid result for tools/list`.

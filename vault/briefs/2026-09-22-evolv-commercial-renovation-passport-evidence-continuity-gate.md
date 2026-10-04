@@ -132,6 +132,8 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]]
 - [[briefs/2026-09-09-evolv-duos-group-public-benchmark-gate]]
 - [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]]
+- [[briefs/2026-09-29-evolv-commercial-solar-triple-e-aca-decision-receipt]]
+- [[briefs/2026-10-01-evolv-epbd-solar-trigger-decision-receipt]]
 - [[briefs/substack-draft-2026-09-27-more-precise-not-complete]]
 - [[companies/evolv-renewables]]
 - [[companies/openhouse-ai]]

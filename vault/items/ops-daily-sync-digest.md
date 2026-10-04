@@ -12,7 +12,7 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-24
 run_date: "2026-06-24"
 created_at: "2026-06-24T17:02:14Z"
-updated_at: "2026-09-27T19:33:04+01:00"
+updated_at: "2026-09-30T18:07:36+01:00"
 sync_status: "Checked 2026-06-26 16:56 IST. Cross-company status unchanged in this sync."
 ---
 
@@ -378,25 +378,172 @@ It replaces manual advisor recounting, table-RLS status comparison and repetitiv
 
 Grounded in the 24 and 26 September direct production-database checkpoints in [[items/oh-rls-audit]] and [[project_state/oh]], then refreshed against the same live Supabase project on 27 September. The fail-closed tenant and capability boundary comes from [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]], and the change-only/no-duplicate-monitor shape extends this existing digest and [[context/ops-automation-moc]] rather than opening another scheduler.
 
+## Material proposal, 30 September 2026 — consented tester update receipt
+
+Extend the existing digest with one change-only, privacy-minimal **tester update receipt** for Donworth Desktop. It may consume an explicit receipt only after an approved client update attempt and relaunch; it is not background surveillance, a force-updater, a release mechanism or a second acceptance system.
+
+### Bottleneck
+
+[[project_state/donworth-studio]] verifies that the Windows x64 update feed publishes `0.18.12`, the installer is reachable and the shipped updater checks after launch and every four hours. The same live note also verifies that no per-device installed-version telemetry was found. The current fallback is therefore manual: each tester must keep the app open, wait for update readiness, quit normally, reopen and report the displayed version. A published feed and downloadable installer still do not prove that any test device installed or relaunched the target build.
+
+This gap is distinct from the existing native installed-artifact custody receipt above, which checks one allowlisted local bundle on Sam's Mac, and from [[items/ops-accepted-artifact-custody-gate]], which protects accepted bytes before cleanup. The missing evidence is an opt-in, device-scoped acknowledgement that the running tester app observed a named version after the update/relaunch path.
+
+### Value category
+
+- **Release reliability:** separates “published”, “downloadable”, “installed” and “running after relaunch” for each approved test slot.
+- **Founder time reclaimed:** replaces repeated one-to-one version-chasing and manual transcription during a tester rollout.
+- **Decision quality:** gives Sam one bounded exception list of current, stale and unknown test slots without turning telemetry into product acceptance.
+- **Support quality:** identifies whether a reported defect came from the intended build before debugging begins.
+
+### Smallest live test
+
+Use one consenting, already-authorised Windows x64 test device; if no such device is available, do not run the test. After Sam separately approves the client/broker change, exercise one update to the already-published `0.18.12` target and one normal relaunch. Emit a single receipt containing only an opaque test-slot identifier, OS family and architecture, prior app version if locally available, feed target, update route (`AUTO`, `MANUAL` or `UNKNOWN`), app-reported version/build after relaunch, observation time, receipt schema version and a deterministic receipt digest. Do not collect a device name, hardware serial, IP address, chat, prompt, profile, session, file path, local file content, provider credential or reusable token.
+
+The digest may then classify the approved slot as `CURRENT`, `STALE`, `INSTALL_UNVERIFIED` or `UNKNOWN`. A feed check alone can never produce `CURRENT`. Stop after the one-device receipt and local comparison; do not contact another tester, expand collection or change the update channel.
+
+### Evidence of success
+
+- The receipt reaches `CURRENT` only after the running app reports `0.18.12` following the named update and relaunch path.
+- The same device's visible in-app version matches the receipt for that test slot; a stale-version fixture returns `STALE`, and an unreachable or partial receipt returns `UNKNOWN` rather than success.
+- A second unchanged launch is byte-stable at the canonical receipt layer and emits no additional human-facing alert.
+- Inspection of the emitted fields finds none of the prohibited identifiers, user content, secrets or reusable credentials.
+- Manual comparison with the live feed, the tester-visible version and [[project_state/donworth-studio]] finds no claim that publication, download or one version receipt proves genuine-Windows journey acceptance.
+
+### Downside
+
+Even minimal telemetry creates privacy, retention and trust obligations. Offline clients can remain `UNKNOWN`; a compromised client can misreport its version; one successful relaunch says nothing about sign-in, session continuity, feature behavior or upgrade safety. Keep the pilot opt-in and single-device, disclose the exact fields before collection, retain only the named test receipt under an approved retention rule, authenticate the receipt without storing a reusable provider secret, and preserve manual on-screen cross-checking plus independent runtime review. Do not add fingerprinting or continuous heartbeat collection to improve convenience.
+
+### Approval boundary
+
+This proposal authorises documentation only. Any client instrumentation, broker endpoint, database/schema change, telemetry transmission, retention policy, test-device use, tester invitation/contact or production deployment requires Sam's separate approval against an exact candidate. The workflow may not force or remotely trigger an install; capture device hardware identity, user content, profiles, sessions, files or credentials; enable a release; spend money; contact a tester or client; or mark a build accepted. Sam retains release and tester-communication control, and Vera remains the independent exact-artifact reviewer.
+
+### What it replaces
+
+It replaces repeated manual “keep the app open, quit, reopen and tell me the version” follow-up and the recurring ambiguity between a live update feed and an installed/running tester build. It does **not** replace signed/notarised artifact review, installer custody, genuine Windows or macOS execution, updater rollback testing, account/session-continuity checks, user-visible journey acceptance, [[items/ops-daily-sync-digest]]'s local installed-artifact receipt, Vera's verdict or Sam's release decision.
+
+### Provenance
+
+Grounded in the exact Windows feed and absent per-device telemetry recorded in [[project_state/donworth-studio]], the same unchanged gap retained by [[items/ops-project-state-reconciler]], the three-test-slot identity and server-side credential boundary in [[decisions/2026-08-31-donworth-private-alpha-openrouter-budgets-and-credential-boundary]], and the separate evidence states and approval gates in [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]. This extends the existing change-only digest and [[context/ops-automation-moc]] rather than creating another scheduler or durable context store.
+
+## Material proposal, 2 October 2026 — privacy-request fulfilment transition receipt
+
+Extend the existing digest with one change-only, privacy-minimal **account-deletion fulfilment receipt** for Here’s Health. It is a read-only deadline and lifecycle exception view, not an automatic deletion worker, customer-notification channel, legal-compliance claim or second scheduler.
+
+### Bottleneck
+
+[[project_state/heres-health-app]], [[companies/heres-health]] and [[items/heres-health-week-one-discovery-and-technical-proof]] now record one completed deletion request and a second production request still in `requested`, created `2026-10-02T08:10:56Z` and due `2026-10-30T08:10:56Z`. The live ledger's `alerted_at` and `completion_notified_at` fields are null, so it contains no recorded alert or completion-notification receipt for the open request. The recurring reconciliation has already re-read and restated this row more than once on 2 October.
+
+The existing daily deletion-retention cron proves only that scheduled retention SQL was invoked; it does not prove that an operator saw a new request, fulfilled it, verified the deletion outcome or notified the customer. The missing workflow is a deterministic, owner-visible transition receipt that makes `NEW`, open, due, overdue and completed-but-unnotified states hard to lose inside the broader release sweep.
+
+### Value category
+
+- **Risk reduction:** surfaces a new request with no recorded alert receipt, or an overdue request, without treating a healthy database or running retention cron as fulfilment.
+- **Client-delivery reliability:** keeps a live customer obligation visible while the paid app moves through Apple review and launch acceptance.
+- **Founder time reclaimed:** replaces repeated manual deletion-ledger inspection and repetitive unchanged prose in the four-hour reconciliation.
+- **Auditability:** preserves a privacy-minimal record of what state was observed, when it changed and which facts remain unverified.
+
+### Smallest live test
+
+Replay a sanitized two-row fixture derived from the recorded completed request and the current pending request, then perform one read-only query of the allowlisted live fields needed for classification: an opaque request digest, lifecycle status, `created_at`, `due_at`, `alerted_at` and `completion_notified_at`. Emit one local receipt with the observation time in UTC, prior observed state and one of `NEW_NO_ALERT_RECEIPT`, `OPEN`, `DUE_SOON`, `OVERDUE`, `COMPLETED_UNNOTIFIED`, `COMPLETED` or `UNKNOWN`.
+
+For the dry run, evaluate seven-day and one-day `DUE_SOON` boundaries as receipt fields only; do not deliver either threshold until Sam approves the cadence. Stop after the fixture replay, one live read and one unchanged rerun. Do not write any ledger field, trigger deletion, send a notification or contact the client or requester.
+
+### Evidence of success
+
+- The recorded pending row classifies as `NEW_NO_ALERT_RECEIPT` rather than `OVERDUE`, preserves the exact 30 October due timestamp and exposes no customer identifier or request content. This does not infer whether an operator has seen it outside the ledger.
+- The completed fixture distinguishes `COMPLETED_UNNOTIFIED` from `COMPLETED`; neither state is presented as proof that every underlying provider copy was erased.
+- Synthetic UTC boundary cases at seven days, one day and one second after `due_at` classify deterministically, with the chosen thresholds visible in the receipt.
+- A second unchanged live read produces the same canonical state and no human-facing output.
+- Missing access, a schema mismatch, an invalid timestamp or an incomplete row returns `UNKNOWN` and a local exception instead of a false all-clear.
+- Manual comparison with the allowlisted live fields and [[project_state/heres-health-app]] finds no unsupported fulfilment, notification, legal-compliance or launch-readiness claim.
+
+### Downside
+
+Deletion ledgers are privacy-sensitive, even when the alert omits direct identifiers. A noisy due-window can create alert fatigue; host clocks or timezone handling can shift a boundary; and a `completed` database status can overstate real-world deletion if downstream systems were not checked. Keep the first test local, UTC-normalized, change-only and identifier-free; hash only a stable internal key with an approved local salt if row correlation is necessary; preserve `UNKNOWN`; and treat completion as a workflow state awaiting bounded operator verification, not as legal or provider-wide proof.
+
+### Approval boundary
+
+This proposal authorises documentation only. A later approved test may read the six allowlisted privacy-minimised metadata fields above and write a local receipt that emits no direct identifier. It may not expose personal data; mutate the request, user account or any timestamp; run deletion or retention jobs; query unrelated customer records; send email, push or chat; contact Here’s Health or the requester; change a cron or delivery target; deploy; spend money; modify production; or declare compliance, fulfilment, client acceptance or launch readiness. Sam retains approval over implementation, live alert delivery, any schema/retention change and every production or outward action.
+
+### What it replaces
+
+It replaces repeated manual scanning of the account-deletion ledger and repeated unchanged status prose inside [[items/ops-project-state-reconciler]]. It does **not** replace the app's account-deletion flow, the existing retention cron, operator verification across relevant systems, customer notification, privacy/legal judgement, incident handling, [[items/heres-health-week-one-discovery-and-technical-proof]], client acceptance or Sam's release decision.
+
+### Provenance
+
+Grounded in the 2 October direct production-ledger receipts in [[project_state/heres-health-app]], [[companies/heres-health]], [[items/heres-health-week-one-discovery-and-technical-proof]] and [[items/ops-project-state-reconciler]]. The paid-client priority and evidence boundaries come from [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]] and [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]. This extends [[items/ops-daily-sync-digest]] and [[context/ops-automation-moc]] rather than creating another watchdog or treating retention scheduling as fulfilment evidence.
+
+## Material proposal, 4 October 2026 — production test-data provenance exception receipt
+
+Extend the existing digest with one change-only, read-only **hosted rota provenance exception receipt** for Here’s Health. It is a narrow evidence view for synthetic markers and unknown row provenance in the production project, not a data classifier, cleanup worker, migration tool or client-data authority.
+
+### Bottleneck
+
+[[project_state/heres-health-app]], [[companies/heres-health]], [[items/heres-health-week-one-discovery-and-technical-proof]] and [[items/ops-project-state-reconciler]] record a verified transition from six empty hosted `rota_*` tables on 3 October to one tenant at revision 7, one employee identity, five entities, one audit row, two completed-request rows and two version-6 conflict scopes later that day. One scope explicitly names `location-week:synthetic-test-site:2026-10-05`. The same state was manually re-read and restated across the 3 October 20:16 and 4 October 00:15, 04:15, 08:19 and 16:17 reconciliation checkpoints.
+
+A matching source candidate now exists in draft PR #6, but no inspected deployment receipt binds the hosted schema or rows to exact PR head `f81f1c63…`; actor, approval and test-versus-client-data provenance remain open, and submitted build 8 predates the rota tranche. The recurring sweep can detect counts and an obvious synthetic marker, but it cannot safely infer that every row is test data, that any row is client data, or that source existence explains the hosted mutation. The missing workflow is a deterministic exception receipt that preserves those distinctions and stays silent when the bounded snapshot is unchanged.
+
+### Value category
+
+- **Production data-integrity risk reduction:** keeps an explicit synthetic marker or unknown provenance visible without silently treating it as harmless test data or accepted client data.
+- **Release and client-delivery reliability:** prevents hosted rota activity from being mistaken for source-bound, device-tested or client-accepted functionality.
+- **Founder time reclaimed:** replaces repeated manual count and scope-string comparison inside the four-hour reconciliation.
+- **Auditability:** records when row classes, counts, revisions, versions or explicit synthetic markers first changed, while keeping source binding and actor/approval separate.
+
+### Smallest live test
+
+Replay one sanitized fixture from the already-recorded empty-to-populated transition, then perform one read-only query limited to the six `rota_*` table counts plus the non-personal metadata already used by the reconciliation: tenant revision, entity/document type, conflict-scope key and conflict-scope version. Do not read employee identity values, document bodies, schedule content, personal fields or unrelated rows.
+
+Emit one local receipt with observation time, prior aggregate digest, current aggregate digest, `SOURCE_BINDING` as `BOUND`, `UNBOUND` or `UNKNOWN`, and per-observation provenance as `EXPLICIT_SYNTHETIC_MARKER`, `NO_SYNTHETIC_MARKER` or `UNKNOWN`. `NO_SYNTHETIC_MARKER` must never be promoted to client provenance. The terminal state is `HOLD` whenever an explicit synthetic marker appears in the production project, row provenance is unknown, or source binding is not proven; otherwise it remains `UNKNOWN` until an approved data owner supplies a stronger provenance receipt. Stop after one live read and one unchanged rerun. Do not write, quarantine or delete anything.
+
+### Evidence of success
+
+- The frozen populated fixture reports the exact six table counts, revision 7, two version-6 conflict scopes and the explicit `synthetic-test-site` marker, while leaving every other row’s provenance `UNKNOWN`.
+- Draft PR #6 is recorded only as a matching source candidate; without an exact deployment receipt, `SOURCE_BINDING` remains `UNKNOWN` or `UNBOUND` and the result stays `HOLD`.
+- A changed count, revision, version, entity type or explicit scope marker creates one bounded delta; an unchanged second read is byte-stable at the canonical receipt layer and produces no human-facing update.
+- Missing access, a schema change, an over-broad result or an unreadable field fails closed to `UNKNOWN` without reading additional data.
+- Manual comparison with the allowlisted live fields and the named Ground Zero notes finds no personal data, unsupported claim that all rows are synthetic or client-owned, or claim that hosted persistence proves release, device, merchant or client acceptance.
+
+### Downside
+
+A scope name is only a marker, not authoritative provenance: a synthetic-looking label can be attached to real data, and a normal-looking label can still be test data. Even aggregate production reads carry confidentiality and access risk, and a noisy exception can create alert fatigue while approved testing is in progress. Keep the first test local, read-only, aggregate-first and change-only; retain `UNKNOWN`; avoid row content and identity fields; and require a separately approved data-owner or deployment receipt before reclassifying or clearing the exception.
+
+### Approval boundary
+
+This proposal authorises documentation only. A later approved test may read the exact allowlisted aggregate and non-personal fields above and write one local receipt. It may not inspect employee identity values or document bodies; infer customer ownership from names; mutate, quarantine, relabel or delete rows; run SQL that changes state; apply or roll back migrations; invoke functions; change PRs or deployments; notify staff or a client; contact Here’s Health; spend money; modify production; or declare source binding, data safety, release readiness, client acceptance or completion. Sam retains approval over implementation, live alert delivery, any broader query and every production or outward action.
+
+### What it replaces
+
+It replaces repeated manual comparison of the same hosted rota counts and the repeated `synthetic-test-site` caveat inside [[items/ops-project-state-reconciler]]. It does **not** replace the source-to-hosted parity gate in [[items/ops-graph-engineering-pilot]], deployment provenance, a data-owner review, database administration, fixture cleanup, privacy/security review, rota UI/device testing, [[items/heres-health-week-one-discovery-and-technical-proof]], client acceptance or Sam’s release and completion decisions.
+
+### Provenance
+
+Grounded in the empty hosted rota tables recorded on 3 October and the later populated state preserved across the 3–4 October direct Supabase reconciliation receipts in [[project_state/heres-health-app]], [[companies/heres-health]], [[items/heres-health-week-one-discovery-and-technical-proof]] and [[items/ops-project-state-reconciler]]. The matching-but-unbound PR #6 boundary comes from the 4 October exact GitHub inspection in those notes. The paid-client, approval and evidence-state boundaries come from [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]], [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]] and [[decisions/2026-08-31-agent-legible-system-design-standard]]. This extends [[items/ops-daily-sync-digest]] and [[context/ops-automation-moc]] rather than creating another scheduler or duplicating the existing source-to-hosted gate.
+
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/ai-money-patterns-2026-06]]
+- [[companies/heres-health]]
 - [[context/automation-ideas]]
 - [[context/dashboard]]
 - [[context/ground-zero-structure]]
 - [[context/ops-automation-moc]]
 - [[context/review-workflow]]
+- [[decisions/2026-08-31-donworth-private-alpha-openrouter-budgets-and-credential-boundary]]
 - [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]
+- [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]]
 - [[decisions/2026-09-16-hermes-routing-drift-correction-and-daily-driver]]
 - [[decisions/openhouse-live-portal-my-home-isolation-2026-08-03]]
 - [[goals/oh-v2-launch]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
 - [[items/ob-no-show-deposits]]
 - [[items/oh-production-migration]]
 - [[items/oh-rls-audit]]
 - [[items/ops-accepted-artifact-custody-gate]]
 - [[items/ops-capture-inbox-refinery]]
 - [[items/ops-daily-report-pack]]
+- [[items/ops-daily-sync-digest]]
 - [[items/ops-graph-engineering-pilot]]
 - [[items/ops-index-maintenance-bot]]
 - [[items/ops-meeting-followup-assembler]]

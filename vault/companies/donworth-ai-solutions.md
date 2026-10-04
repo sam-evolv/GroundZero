@@ -3,10 +3,16 @@ id: donworth-ai-solutions
 name: Donworth Studio
 role: primary-company
 status: active
-updated: "2026-09-29"
+updated: "2026-10-04"
 ---
 
 # Donworth Studio
+
+## Draft business-workflow candidate appeared; installed/release state did not — 4 October 2026, 08:19 IST cutoff
+
+- Desktop `main` remains unsigned `a1cec24e…`. Open/draft PR #13 is mergeable/clean at unsigned `6246fabe…`, with 12 commits / 43 files, 2,895 additions / 85 deletions, one successful Vercel Preview Comments check and zero reviews. It adds source-level bundled-runtime health, supplier-price review, recovered-job visibility, offline channel admission and daily-exception workflows. No independent test rerun, exact-artifact review, rendered acceptance, merge, package, install or feed promotion was established.
+- Live feeds remain Windows `0.18.12`, Mac ARM `0.18.2` and Mac Intel HTTP `503`. The installed signed Mac app remains exact v0.18.9 at `9912fe34…` / `711adb24…`, passes strict code-sign verification and was not launched. Official Hermes stable remains v0.21.5.
+- Public site source remains `104ac7fc…` on Ready `dpl_AcQG…`; Chromium still rendered the accepted home and direct Here’s Health privacy page. Authenticated Desktop, account continuity, genuine-Windows, physical-device, legal/client and independent release acceptance remain open.
 
 ## Public site footer no longer links the Here’s Health privacy page — 29 September 2026, 00:11 IST
 

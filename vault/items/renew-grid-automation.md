@@ -53,6 +53,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]]
 - [[briefs/2026-09-09-evolv-duos-group-public-benchmark-gate]]
 - [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]]
+- [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]

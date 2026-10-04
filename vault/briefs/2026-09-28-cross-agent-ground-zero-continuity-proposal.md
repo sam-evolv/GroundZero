@@ -67,5 +67,12 @@ First reconcile and review the existing dirty Ground Zero checkout through the v
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[context/capture-workflow]]
+- [[context/claude-vault-integration]]
 - [[context/cross-agent-ground-zero-prompts]]
+- [[context/personal-context-data-contract]]
+- [[decisions/2026-08-13-ground-zero-authority-over-hermes-memory]]
+- [[decisions/2026-09-28-ground-zero-continuity-capture]]
+- [[decisions/ground-zero-canonical]]
+- [[items/ops-vault-sync-change-receipt-gate]]
 

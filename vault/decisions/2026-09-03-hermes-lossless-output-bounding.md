@@ -71,5 +71,6 @@ Mode-`0600` pre-change copies of each profile configuration were created with su
 _Auto-generated: updated by wiki-refiner_
 - [[context/index]]
 - [[decisions/2026-08-31-agent-legible-system-design-standard]]
+- [[items/ops-project-state-reconciler]]
 - [[project_state/donworth-studio]]
 

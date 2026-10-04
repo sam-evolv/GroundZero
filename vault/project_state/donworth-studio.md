@@ -1,14 +1,30 @@
 ---
 id: donworth-studio
 company_id: donworth-ai-solutions
-headline: "Private Desktop `main` remains unsigned `a1cec24e…` with exact-head draft v0.18.12 artifacts; installed signed v0.18.9 remains unlaunched. The public site advanced to `104ac7fc…` / Ready `dpl_AcQG…`, removing the Here’s Health privacy link from all 17 inspected page footers while leaving the direct privacy URL rendered and available."
+headline: "Private Desktop `main` remains unsigned `a1cec24e…` with exact-head draft v0.18.12 artifacts and signed installed v0.18.9. New draft PR #13 is clean/mergeable at unsigned `6246fabe…` (12 commits / 43 files), adding source-level runtime health and local business automations; it has one successful preview-comment check, no reviews and no release/install/rendered acceptance. The public site remains `104ac7fc…` / Ready `dpl_AcQG…`; its home and direct Here’s Health privacy page still render."
 valid: true
-updated_at: "2026-09-29T13:14:39+01:00"
+updated_at: "2026-10-04T08:19:00+01:00"
 role: project-state
 status: building
 ---
 
 # Donworth Studio project state
+
+## Draft business-workflow candidate appeared; installed/release state did not — 4 October 2026, 08:19 IST cutoff
+
+- Private GitHub `sam-evolv/donworth-studio-desktop` `main` remains unsigned `a1cec24eb756aa62214034ae21432acf6f2fbb05` / tree `1fd06ba2c5430ecfeb3d15a78dfa483a8196cd04`. Open/draft PR #13, “Add reviewed local business workflows and harden desktop recovery”, is mergeable/clean at unsigned `6246fabe014fb3590b94e207031f57f0a503077a`, with 12 commits / 43 files, 2,895 additions / 85 deletions, zero reviews and only the successful Vercel Preview Comments check. Its source adds bundled-runtime health checks, deterministic supplier-price review, recovered-job visibility, offline channel admission and daily-exception workflows. Commit titles and one preview-comment check are implementation evidence only; no test suite was independently rerun and no exact artifact or rendered workflow was accepted.
+- Draft PR #11 remains clean/open at `e98616be…`; official Hermes stable remains `v2026.9.24` / v0.21.5. Live broker metadata remains Windows x64 `0.18.12`, Mac ARM `0.18.2` and Mac Intel HTTP `503`. The signed installed Mac app remains exact v0.18.9 with `app.asar` SHA-256 `9912fe34…`, executable `711adb24…` and strict code-sign verification passing. It was not launched, and PR #13 was not merged, packaged, installed or promoted to a feed.
+- Public site source remains verified `104ac7fc…` on target-production Ready `dpl_AcQG…`. Chromium still rendered the “Exceptional software, without the complexity.” home without a privacy link and the direct Here’s Health privacy page with the 26 September notice. This is current public-surface evidence only; no authenticated Desktop, account continuity, genuine-Windows, physical-device, legal/client or independent release acceptance advanced.
+
+## Porter Privé member-preview concept ready for Sam’s review; no outreach — 3 October 2026
+
+- [[briefs/2026-10-03-porter-prive-preview]] — a browser-tested, publicly deployed concept in the unsent App Previews portfolio. It is a proposed member-experience redesign, not a client commitment or a claim that existing access is absent. Sam’s visual approval, physical-device Safari QA, current-platform discovery and asset-rights confirmation remain open; no outreach was sent.
+
+## Mac release pipeline gate confirmed, no newer Hermes release — 1 October 2026, 09:03 IST
+
+- Official Hermes releases still list `v2026.9.24` as latest stable; Donworth Desktop `main` remains `a1cec24eb756aa62214034ae21432acf6f2fbb05`. Draft PR [#11](https://github.com/sam-evolv/donworth-studio-desktop/pull/11) remains open at `e98616be9dc180d003e8a7a71c24cfdbffdb193e`. Public update readback remains Windows x64 `0.18.12`, Mac ARM `0.18.2`, and Mac Intel HTTP 503. No new Hermes integration or tester feed mutation occurred.
+- Read-only review of the exact `main` installer workflow `.github/workflows/donworth-installers.yml` found that both Mac jobs force `mac.identity=-` and disable signing identity auto-discovery. Repository secret-name listing has only the Google OAuth client; `Preview` and `Production` environment secret-name listings have no entries. Current CI therefore cannot produce a Developer ID signed/notarized Mac candidate. This does not rule out credentials held outside GitHub Actions; no secret values were read.
+- Source and next action: 1 October section of `/Users/samdonworth/Documents/New project/HERMES-INTEGRATION-STATUS-20260925.md`, official release and private GitHub readbacks, public feeds. Prepare and review a signing/notarization workflow once a usable Apple credential route is available, then require provenance-matched ARM and Intel builds, real installed-app upgrades and signed-in account continuity before any Mac feed promotion. The Windows PR needs a candidate newer than 0.18.12. This Ground Zero edit is local only and has not been committed, pushed, synced or cross-agent verified.
 
 ## Windows 0.18.12 feed verified; device installs unobserved — 29 September 2026, 13:14 IST
 
@@ -506,6 +522,11 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-09-26]]
 - [[briefs/wiki-refiner-2026-09-27]]
 - [[briefs/wiki-refiner-2026-09-28]]
+- [[briefs/wiki-refiner-2026-09-29]]
+- [[briefs/wiki-refiner-2026-09-30]]
+- [[briefs/wiki-refiner-2026-10-01]]
+- [[briefs/wiki-refiner-2026-10-02]]
+- [[briefs/wiki-refiner-2026-10-03]]
 - [[companies/donworth-ai-solutions]]
 - [[context/dashboard]]
 - [[context/index]]

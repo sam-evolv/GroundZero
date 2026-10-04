@@ -2,7 +2,7 @@
 title: Ground Zero Dashboard
 purpose: Single view of what needs attention across all businesses
 kind: dashboard
-updated: "2026-09-29"
+updated: "2026-10-04"
 ---
 
 # Ground Zero Dashboard
@@ -34,11 +34,11 @@ updated: "2026-09-29"
 ## 🟢 Monitoring
 
 - 🔴 [[project_state/cara|cara]]: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
-- 🔴 [[project_state/donworth-studio|donworth-studio]]: Private Desktop `main` remains unsigned `a1cec24e…` with exact-head draft v0.18.12 artifacts; installed signed v0.18.9 remains unlaunched. The public site advanced to `104ac7fc…` / Ready `dpl_AcQG…`, removing the Here’s Health privacy link from all 17 inspected page footers while leaving the direct privacy URL rendered and available.
-- 🟡 [[project_state/heres-health-app|heres-health-app]]: Paying client, app in build. On 29 September the audited patched tree produced a fresh locally signed and exported iOS build 3 IPA, but production Square/Shopify checkout remains disabled and device, Apple validation/console, reviewer and merchant acceptance are incomplete. No deployment, upload or submission occurred; launch remains NO-GO.
+- 🔴 [[project_state/donworth-studio|donworth-studio]]: Private Desktop `main` remains unsigned `a1cec24e…` with exact-head draft v0.18.12 artifacts and signed installed v0.18.9. New draft PR #13 is clean/mergeable at unsigned `6246fabe…` (12 commits / 43 files), adding source-level runtime health and local business automations; it has one successful preview-comment check, no reviews and no release/install/rendered acceptance. The public site remains `104ac7fc…` / Ready `dpl_AcQG…`; its home and direct Here’s Health privacy page still render.
+- 🟢 [[project_state/heres-health-app|heres-health-app]]: Paying client; build 8 was last verified Waiting for Review at 21:01 IST, but launch remains NO-GO. Open draft PR #6 now provides a direct matching source candidate for the hosted rota migrations and product surface, but no hosted deployment receipt binds it to that head and build 8 predates the rota tranche. Hosted rows remain 1 tenant, 1 identity, 5 entities, 1 audit row, 2 completed requests and 2 conflict scopes, including `synthetic-test-site`. Production Shopify remains awaiting payment; all 27 Square orders are sandbox-only. Apple, payment, rota UI/device, merchant and client acceptance remain unverified.
 - 🟢 [[project_state/ob|ob]]: Empire Gym production moved to Ready CLI deployment `dpl_Es9HL…`, whose metadata names remote `feat/empire-gym-live` commit `b53f724…`; GymMaster CTAs and the admin login remain rendered. The remote branch is now clean at `603ee53…`, one commit past the deployed tree; authenticated editing/photo isolation, billing/access/payment and downstream enrollment remain unverified.
 - 🟢 [[project_state/oh|oh]]: Production source advanced seven verified commits / 60 files to `31a66a14…` and exact-head Ready deployment `dpl_Ddf8…` now owns `portal.openhouseai.ie`. The tranche includes source-level auth, tenant-ownership and tenant-scoped analytics fixes, but no migration path; Supabase advisor counts remain 30/2/17/4 plus disabled leaked-password protection, and no controlled cross-user actor path, persisted-row or authenticated homeowner acceptance was exercised.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes remains v0.21.5 `749220ef` / tree `16e4fb22`, while immutable GitHub `main` advanced 21 commits / 174 files to `16c59d0e…` / tree `642db715…`, leaving installed 4,148 commits behind. The CLI still reports 4,090, understating immutable Git by 58; direct health is `200`, the gateway remains stale and standalone, Aire `8766` is absent and no rendered Aire acceptance advanced.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes remains stable v0.21.5 `e496ccc7` / tree `f8c58d47`; immutable GitHub `main` is unsigned `af90026a…` / tree `2c3a4d4f…`, 1,706 commits / 1,766 net changed paths ahead. The 136-commit / 81-path tail after `8b66a510…` is entirely unverified and dominated by plugin-catalog additions/repins, with Node `libatomic` installer/updater handling and one delegation regression test. The CLI still reports 1,570 behind, understating immutable Git by 136. Saved `gpt-6.1-sol` / `openai-codex` routing with `xhigh` reasoning has xAI Grok 4.6 and OpenCode Go GLM 5.3 fallbacks again and contradicts the accepted DeepSeek default. Gateway health is `200`; Aire and Cara remain offline and no accepted runtime or physical-device journey advanced.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 ## 📥 Inbox (2 unfiled)
@@ -67,4 +67,4 @@ updated: "2026-09-29"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-09-29 16:14 IST
+- Dashboard: 2026-10-04 12:14 IST
