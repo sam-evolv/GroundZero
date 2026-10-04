@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains stable v0.21.5 `e496ccc7` / tree `f8c58d47`; immutable GitHub `main` is unsigned `32172d46…` / tree `f3664b2e…`, 1,733 commits / 1,795 net changed paths ahead. The 27-commit / 40-path tail after `af90026a…` has two verified and 25 unverified commits and spans Clarify/TUI overflow and llama.cpp grammar compatibility, Desktop bot nudges and menu sizing, MCP PATH/PATHEXT resolution, provider preservation, Windows Unicode/runtime-store guards, Kanban failure stops, session/queue lifecycle repairs and plugin dependency-probe environment binding. The CLI still reports 1,570 behind and understates immutable Git by 163. Saved `gpt-6.1-sol` / `openai-codex` routing with `xhigh` reasoning and xAI Grok 4.6 / OpenCode Go GLM 5.3 fallbacks still contradicts the accepted DeepSeek default. Gateway health is `200`; Aire and Cara remain offline and no accepted runtime or physical-device journey advanced.
+headline: Installed Hermes remains stable v0.21.5 `e496ccc7` / tree `f8c58d47`; immutable GitHub `main` is unsigned `af8839df…` / tree `26ba6577…`, 1,743 commits / 1,799 net changed paths ahead. The 10-commit / 6-path tail after `32172d46…` is entirely unverified and is dominated by EvalRoute/OMH catalogue changes plus a Google Workspace empty-Gmail-search correctness fix and regression test. The CLI still reports 1,570 behind and understates immutable Git by 173. Saved `gpt-6.1-sol` / `openai-codex` routing with `xhigh` reasoning now has no configured fallbacks, correcting the 20:17 fallback observation but still contradicting the accepted DeepSeek default. Gateway health is `200`; Aire and Cara remain offline and no accepted runtime or physical-device journey advanced.
 status: building
-updated: 2026-10-04
+updated: 2026-10-05
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced 10 unverified commits and saved fallbacks disappeared; Aire acceptance did not — 5 October 2026, 00:18 IST cutoff
+
+- Installed Hermes remains exact stable v0.21.5 `e496ccc7d7e0ca885041e69223683d7739123ff9` / tree `f8c58d47f2f429cdf23d76504d4ede852602add5`; local `origin/main` still equals installed, the checkout still has only untracked `.review-worktrees/`, and 11 stashes remain. A refreshed isolated clone plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `af8839df1038cc026075fb254afa22edc19d911d` / tree `26ba6577c9d5bf879af4cf48b74142627aaf71eb`, exactly 1,743 commits / 1,799 net changed paths beyond installed. The exact range after `32172d4622195697e4f077976140d0ed0738318a` is 10 commits / 6 paths; GitHub marks all 10 commits unverified.
+- Queue the tail's EvalRoute version/disclosure changes, OMH community-plugin addition/repin/disclosure, catalogue CI full-checkout correction and Google Workspace empty-Gmail-search `[]` behavior plus its regression test for bounded compatibility review. Contributor attribution also changed. Official stable remains `v2026.9.24` / v0.21.5. Source descriptions and tests are not accepted Aire behavior.
+- `hermes --version` still reports **1,570 commits behind**, understating immutable Git by 173. Saved configuration remains `gpt-6.1-sol` / `openai-codex` with `xhigh` reasoning but now has no fallback models/providers, correcting only the 20:17 fallback observation. The primary route still conflicts with the accepted DeepSeek/OpenCode Go decision without established later approval. Gateway `/health` is `200`; Aire `8766` and Cara `8643` refuse connection. No fetch into the installed checkout, source integration, upstream-suite rerun, update, restart, routing correction, authenticated/rendered journey or physical-device acceptance advanced.
 
 ## Upstream advanced 27 mostly unverified commits; Aire acceptance did not — 4 October 2026, 20:17 IST cutoff
 

@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-04T20:17:00+01:00"
+updated_at: "2026-10-05T00:18:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 5 October 2026 00:18 IST cutoff
+
+Installed Hermes remains exact stable v0.21.5 `e496ccc7d7e0ca885041e69223683d7739123ff9` / tree `f8c58d47f2f429cdf23d76504d4ede852602add5`; local `origin/main` still equals installed, the checkout has only untracked `.review-worktrees/`, and 11 stashes remain. No fetch into the installed checkout, update, upstream-suite rerun, install or restart occurred.
+
+A refreshed isolated clone plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `af8839df1038cc026075fb254afa22edc19d911d` / tree `26ba6577c9d5bf879af4cf48b74142627aaf71eb`, exactly 1,743 commits / 1,799 net changed paths beyond installed. The exact range after `32172d4622195697e4f077976140d0ed0738318a` is 10 commits / 6 paths; all 10 commits are GitHub-unverified. Queue EvalRoute version/disclosure changes, the OMH community-plugin addition/repin/disclosure, catalogue CI's full blobless checkout correction, Google Workspace's empty Python-backend Gmail-search `[]` behavior and regression test, and the contributor-attribution update. Official stable remains `v2026.9.24` / v0.21.5.
+
+`hermes --version` still reports 1,570 behind and therefore understates immutable Git by 173. Saved routing remains `gpt-6.1-sol` / `openai-codex` with `xhigh` reasoning but has no configured fallback models/providers, correcting only the 20:17 fallback observation and still conflicting with the accepted DeepSeek routing decision. Gateway `/health` is `200`; Aire `8766` and Cara `8643` refuse connection. No accepted Aire uplift, authenticated/rendered journey or physical-device result advanced.
 
 ## Reconciliation checkpoint, 4 October 2026 20:17 IST cutoff
 

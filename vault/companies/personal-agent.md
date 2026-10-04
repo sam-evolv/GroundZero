@@ -9,6 +9,11 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced 10 unverified commits and saved fallbacks disappeared; Aire acceptance did not — 5 October 2026, 00:18 IST cutoff
+
+- Installed Hermes remains stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. A refreshed isolated clone plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `af8839df…` / tree `26ba6577…`, exactly 1,743 commits / 1,799 net changed paths beyond installed. The 10-commit / 6-path range after `32172d46…` is entirely unverified. Its EvalRoute/OMH catalogue, catalogue-CI and Google Workspace empty-Gmail-search changes are compatibility-review input, not accepted Aire progress. Official stable remains v0.21.5.
+- The CLI still reports 1,570 behind and understates immutable Git by 173. Saved routing remains `gpt-6.1-sol` / `openai-codex` with `xhigh` reasoning but has no configured fallbacks, superseding only the 20:17 fallback observation; the primary route still contradicts the accepted DeepSeek/OpenCode Go decision without established later approval. Gateway health is `200`; Aire and Cara refuse connection at `8766` and `8643`. No update, restart, routing correction, authenticated/rendered journey or physical-device acceptance advanced.
+
 ## Upstream advanced 27 mostly unverified commits; Aire acceptance did not — 4 October 2026, 20:17 IST cutoff
 
 - Installed Hermes remains stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. A refreshed isolated clone plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `32172d46…` / tree `f3664b2e…`, exactly 1,733 commits / 1,795 net changed paths beyond installed. The 27-commit / 40-path range after `af90026a…` has two verified and 25 unverified commits. Its Clarify/TUI, Desktop, MCP resolution, provider-preservation, Windows installer/runtime-store, Kanban failure-stop, session/queue lifecycle and plugin-probe changes are compatibility-review input, not accepted Aire progress. Official stable remains v0.21.5.
