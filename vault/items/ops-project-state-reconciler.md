@@ -12,10 +12,16 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-05T00:18:00+01:00"
+updated_at: "2026-10-05T08:15:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 5 October 2026, 08:15 IST
+
+- **Hermes upstream advanced 66 mostly unverified commits; accepted Aire state did not advance.** Installed remains exact stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. A refreshed isolated clone plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `93c9360a…` / tree `67da0ed4…`, exactly 1,820 commits / 1,863 net changed paths beyond installed and 66 commits / 57 paths after `27c02f63…`; two tail commits are verified and 64 are not. The tranche is dominated by code-health ratchet/enforcement work and also covers Linux PM `libgomp` custody, a llama.cpp repin, bot/update timeout corrections, a DirectSDK catalogue repin and AGENTS/context-budget restructuring. `hermes --version` still reports 1,570 behind and understates immutable Git by 250. Saved routing remains `gpt-6.1-sol` / `openai-codex` with `xhigh` and no configured fallbacks, contrary to the accepted DeepSeek/OpenCode Go default. Gateway health is `200`; Aire and Cara remain offline.
+- **Other exact named sources were materially unchanged where rechecked; Apple remained a fail-closed read gap.** Donworth Desktop/site heads, draft PRs, installed v0.18.9 tuple, update feeds, Ready alias and exact public bytes retained their recorded state. Here’s Health heads/PRs, 24 migrations, active function versions, commerce/deletion/notification counts and rota rows were unchanged; the production Shopify session's reconciliation heartbeat advanced to 07:00 UTC without payment or state transition. OpenHouse remained `31a66a14…` with 12 open PRs / six non-PR issues, unchanged 30/2/17/4 security-advisor counts and Ready production alias. OpenBook/Empire Gym remained `c72bf48…` / `603ee53…`, with two open PRs / two issues, its Ready production alias and exact public bytes. Cara remained parked at remote `f46d501…`, with zero open PRs/issues and no listener at `8643`; Renew still names no exact inspectable live source. A fresh App Store Connect read could not start because running Chrome held the real-profile credential databases under write locks, so Waiting for Review at 21:01 IST on 1 October remains the last verified Apple state rather than a current assertion. No authenticated, provider-transaction, client, physical-device or genuine-Windows acceptance advanced.
+- No canonical source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated. Ground Zero canonical notes were updated locally; the checkout retains protected nested-repository/worktree entries.
 
 ## Reconciliation checkpoint — 5 October 2026, 00:18 IST
 

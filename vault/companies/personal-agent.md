@@ -9,6 +9,11 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced 66 mostly unverified commits; Aire acceptance did not — 5 October 2026, 08:15 IST cutoff
+
+- Installed Hermes remains stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. A refreshed isolated clone plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `93c9360a…` / tree `67da0ed4…`, exactly 1,820 commits / 1,863 net changed paths beyond installed. The 66-commit / 57-path range after `27c02f63…` has two verified and 64 unverified commits. Its code-health ratchet/enforcement, Linux PM/runtime, DirectSDK catalogue and AGENTS/context-budget changes are compatibility-review input, not accepted Aire progress. Official stable remains v0.21.5.
+- The CLI still reports 1,570 behind and understates immutable Git by 250. Saved routing remains `gpt-6.1-sol` / `openai-codex` with `xhigh` reasoning and no configured fallbacks, still contradicting the accepted DeepSeek/OpenCode Go decision without established later approval. Gateway health is `200`; Aire and Cara refuse connection at `8766` and `8643`. No update, restart, routing correction, authenticated/rendered journey or physical-device acceptance advanced.
+
 ## Upstream advanced 10 unverified commits and saved fallbacks disappeared; Aire acceptance did not — 5 October 2026, 00:18 IST cutoff
 
 - Installed Hermes remains stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. A refreshed isolated clone plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `af8839df…` / tree `26ba6577…`, exactly 1,743 commits / 1,799 net changed paths beyond installed. The 10-commit / 6-path range after `32172d46…` is entirely unverified. Its EvalRoute/OMH catalogue, catalogue-CI and Google Workspace empty-Gmail-search changes are compatibility-review input, not accepted Aire progress. Official stable remains v0.21.5.
