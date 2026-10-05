@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains stable v0.21.5 `e496ccc7` / tree `f8c58d47`; immutable GitHub `main` is unsigned `af8839df…` / tree `26ba6577…`, 1,743 commits / 1,799 net changed paths ahead. The 10-commit / 6-path tail after `32172d46…` is entirely unverified and is dominated by EvalRoute/OMH catalogue changes plus a Google Workspace empty-Gmail-search correctness fix and regression test. The CLI still reports 1,570 behind and understates immutable Git by 173. Saved `gpt-6.1-sol` / `openai-codex` routing with `xhigh` reasoning now has no configured fallbacks, correcting the 20:17 fallback observation but still contradicting the accepted DeepSeek default. Gateway health is `200`; Aire and Cara remain offline and no accepted runtime or physical-device journey advanced.
+headline: Installed Hermes remains stable v0.21.5 `e496ccc7` / tree `f8c58d47`; immutable GitHub `main` is unsigned `27c02f63…` / tree `eccc2524…`, 1,754 commits / 1,823 net changed paths ahead. The 11-commit / 41-path tail after `af8839df…` is entirely unverified and touches update custody, Anthropic final/thinking handling, Claude CLI discovery, Desktop single-paint settlement, plugin activation/layout validation and a catalogue repin. The CLI still reports 1,570 behind and understates immutable Git by 184. Saved `gpt-6.1-sol` / `openai-codex` routing with `xhigh` reasoning has no configured fallbacks and still contradicts the accepted DeepSeek default. Gateway health is `200`; Aire and Cara remain offline and no accepted runtime or physical-device journey advanced.
 status: building
 updated: 2026-10-05
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced 11 unverified commits; Aire acceptance did not — 5 October 2026, 04:13 IST cutoff
+
+- Installed Hermes remains exact stable v0.21.5 `e496ccc7d7e0ca885041e69223683d7739123ff9` / tree `f8c58d47f2f429cdf23d76504d4ede852602add5`; the checkout still has only untracked `.review-worktrees/`, and direct `git stash list` readback confirms 11 stashes. A refreshed isolated object fetch plus direct GitHub verification bind immutable `main` at the cutoff to unsigned `27c02f6326e82b2ba184f5a849f0c5b3a38efb9c` / tree `eccc2524e3d69ec38946d5f2d0bcce75a6dca89e`, exactly 1,754 commits / 1,823 net changed paths beyond installed. The exact range after `af8839df1038cc026075fb254afa22edc19d911d` is 11 commits / 41 paths; GitHub marks all 11 commits unverified.
+- Queue the tail's lazy-fetch-pack update-custody correction, Anthropic summarized-thinking/final-response and Opus/Sonnet thinking-mode handling, Claude CLI discovery outside `PATH`, Desktop reused-final single-paint settlement, user-installed provider activation parity, Desktop plugin-entry validation and `claude-subscription-directsdk` repin for bounded compatibility review. Official stable remains `v2026.9.24` / v0.21.5. Source descriptions and tests are not accepted Aire behavior.
+- `hermes --version` still reports **1,570 commits behind**, understating immutable Git by 184. Saved configuration remains `gpt-6.1-sol` / `openai-codex` with `xhigh` reasoning and no fallback models/providers; the primary route still conflicts with the accepted DeepSeek/OpenCode Go decision without established later approval. Gateway `/health` is `200`; Aire `8766` and Cara `8643` refuse connection. No fetch into the installed checkout, source integration, upstream-suite rerun, update, restart, routing correction, authenticated/rendered journey or physical-device acceptance advanced.
 
 ## Upstream advanced 10 unverified commits and saved fallbacks disappeared; Aire acceptance did not — 5 October 2026, 00:18 IST cutoff
 
