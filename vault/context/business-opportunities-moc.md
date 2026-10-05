@@ -25,6 +25,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[briefs/2026-10-02-evolv-ndmg-grant-uplift-transition-gate]] — wait-for-final-terms gate for the announced nine-month NDMG uplift, then one permissioned application-stage delta receipt; no grant action, delay or savings promise
 - [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]] — one pre-quote route receipt distinguishing self-consumption plus NDMG/CEG from mutually exclusive SRESS export-only support; no application, tariff promise or design action
 - [[briefs/2026-10-04-evolv-energy-sharing-readiness-reconciliation-gate]] — one permissioned two-premises interval-data dry run while Ireland's Article 15a framework remains untransposed and non-operational; no sharing, billing, registration or ESO offer
+- [[briefs/2026-10-05-evolv-commercial-pv-cyber-custody-handover-gate]] — one document-only commercial PV handover receipt for product, remote-access, firmware and responsibility custody; no scanning, compliance claim, remediation or system change
 - [[briefs/openhouse-energy-assistant-wedge]] — OpenHouse as energy-assist layer for new-build homeowners
 
 ### Booking & Hospitality
@@ -178,6 +179,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-10-02-evolv-ndmg-grant-uplift-transition-gate]]
 - [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]]
 - [[briefs/2026-10-04-evolv-energy-sharing-readiness-reconciliation-gate]]
+- [[briefs/2026-10-05-evolv-commercial-pv-cyber-custody-handover-gate]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]
