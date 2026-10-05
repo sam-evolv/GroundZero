@@ -12,10 +12,28 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-05T08:15:00+01:00"
+updated_at: "2026-10-05T20:10:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 5 October 2026, 20:10 IST
+
+- **Hermes upstream advanced 28 mostly unverified commits; accepted Aire state still did not advance.** Installed remains exact stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. An isolated fetch plus explicit GitHub comparisons bind immutable `main` to unsigned `20ae6087…` / tree `3cc0a715…`, exactly 2,088 commits / 2,029 net changed paths beyond installed and 28 commits / 71 paths after `6590f13a…`; one tail formatting merge is verified and 27 commits are not. The tranche spans dashboard-auth hardening, Desktop provider-limit/account-usage UX, Windows ARM64 transcription, Discord auto-thread parity, process completion-race repairs and named-profile working-directory isolation. `hermes --version` still reports 2,053 behind and now understates immutable Git by 35. Saved `gpt-6.1-sol` / `openai-codex`, `xhigh`, with xAI/GLM fallbacks still contradicts the accepted DeepSeek/OpenCode Go default. Gateway health is `200`.
+- **A non-Aire static preview reclaimed port `8766`.** PID `42894` is `python -m http.server 8766`, started at 18:53:32 IST from `/private/tmp/claude-501/sigma`. Its root returns HTTP `200`, 203,703 bytes, SHA-256 `079b48ab…` and title “Sigma Homes | App preview”, while `/health` and `/api/status` both return `404`. This is a port collision, not an Aire launch or rendered Aire acceptance. Cara `8643` still refuses connection. Other exact named repository, backend, installed-artifact, feed, deployment and public-surface receipts retained the 16:35 checkpoint from this reconciliation run; no new authenticated, provider-transaction, client, genuine-Windows or physical-device acceptance was established.
+- No canonical source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated. Only Ground Zero canonical notes were updated locally; the checkout retains protected nested-repository/worktree entries, so no commit or sync was attempted.
+
+## Reconciliation checkpoint — 5 October 2026, 16:35 IST
+
+- **Hermes upstream advanced 82 unverified commits; the CLI nearly caught up, but accepted Aire state did not advance.** Installed remains exact stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. A refreshed isolated clone plus direct GitHub comparison bind immutable `main` to unsigned `6590f13a…` / tree `14a53058…`, exactly 2,060 commits / 1,987 net changed paths beyond installed and 82 commits / 83 paths after `71574220…`; all 82 tail commits are GitHub-unverified. The tranche spans Codex auxiliary normalization, config guards, gateway drain/reconnect paths, Matrix/Telegram recovery, compaction, headless approvals, Desktop transcript/send recovery and model-picker visibility. `hermes --version` now reports 2,053 behind and understates immutable Git by seven. Saved `gpt-6.1-sol` / `openai-codex`, `xhigh`, with xAI/GLM fallbacks still contradicts the accepted DeepSeek/OpenCode Go default. Gateway health is `200`; Aire and Cara remain offline.
+- **Other exact named sources were materially unchanged where rechecked; Apple remained a fail-closed read gap.** Donworth Desktop/site heads, draft PRs, signed installed v0.18.9 tuple, Windows 0.18.12 / Mac ARM 0.18.2 / Mac Intel unavailable feeds, Ready `dpl_AcQG…` alias and exact public bytes retained their recorded state; statusless GitHub deployment record `6857393213` still has no statuses. Here’s Health heads/PRs, 24 migrations, 24 RLS-enabled public tables, active function versions, commerce/deletion/notification counts and rota rows were unchanged; its one production Shopify session remains `awaiting-payment` with no native/confirmed order after the 15:25 UTC reconciliation heartbeat, and all 27 Square orders remain sandbox-only. OpenHouse remained `31a66a14…` with 12 open PRs / six issues, unchanged advisor counts and Ready `dpl_Ddf8…`. OpenBook/Empire Gym remained `c72bf48…` / `603ee53…`, with two open PRs / two issues, Ready `dpl_Es9HL…` and exact public bytes. Cara remained parked at remote `f46d501…` / local `196cf3c…`, zero open PRs/issues and no listener at `8643`; Renew still names no exact inspectable live source. App Store Connect again failed closed because running Chrome held the real-profile credential databases, so Waiting for Review at 21:01 IST on 1 October remains the last verified Apple state. No authenticated, provider-transaction, client, physical-device or genuine-Windows acceptance advanced.
+- No canonical source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated. Ground Zero canonical notes were updated locally; the checkout retains protected nested-repository/worktree entries, so no commit or sync was attempted.
+
+## Reconciliation checkpoint — 5 October 2026, 12:17 IST
+
+- **Hermes upstream advanced 158 unverified commits; accepted Aire state did not advance.** Installed remains exact stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. A fresh isolated clone plus direct GitHub comparison bind immutable `main` to unsigned `71574220…` / tree `fff3556b…`, exactly 1,978 commits / 1,951 net changed paths beyond installed and 158 commits / 117 paths after `93c9360a…`; all 158 tail commits are GitHub-unverified. The tranche is dominated by plugin-catalog work and also changes updater pack custody, unattended approval handling, human-input/cron plugin hooks, gateway admission, debug redaction, plugin skills, middleware and Desktop session scope. `hermes --version` still reports 1,570 behind and understates immutable Git by 408. Direct authoritative-config readback shows `gpt-6.1-sol` / `openai-codex`, `xhigh`, and xAI Grok 4.6 / OpenCode Go GLM 5.3 fallbacks. Because the file mtime remains 29 September, the prior 00:18/08:15 no-fallback observations are unsupported rather than evidence of another current change. The accepted DeepSeek/OpenCode Go default remains contradicted. Gateway health is `200`; Aire and Cara remain offline.
+- **Other exact named sources were materially unchanged where rechecked; Apple remained a fail-closed read gap.** Donworth Desktop/site heads, draft PRs, signed installed v0.18.9 tuple, feeds, Ready Vercel alias and exact public bytes retained their recorded state. Here’s Health heads/PRs, 24 migrations, 24 RLS-enabled public tables, active function versions, commerce/deletion/notification counts and rota rows were unchanged; its one production Shopify session remains `awaiting-payment` with no native/confirmed order after the 11:10 UTC reconciliation heartbeat, and all 27 Square orders remain sandbox-only. OpenHouse remained `31a66a14…` with 12 open PRs / six issues, unchanged 30/2/17/4 security-advisor counts and Ready `dpl_Ddf8…`. OpenBook/Empire Gym remained `c72bf48…` / `603ee53…`, with two open PRs / two issues, Ready `dpl_Es9HL…` and exact public bytes. Cara remained parked at remote `f46d501…` / local `196cf3c…`, zero open PRs/issues and no listener at `8643`; Renew still names no exact inspectable live source. A fresh App Store Connect read failed closed because running Chrome held the real-profile credential databases, so Waiting for Review at 21:01 IST on 1 October remains the last verified Apple state. No authenticated, provider-transaction, client, physical-device or genuine-Windows acceptance advanced.
+- **This reconciliation unintentionally created one external metadata record and did not roll it back.** A read-only-intended `gh api` command omitted `-X GET` and created GitHub deployment record `6857393213` at 11:07:41 UTC for `sam-evolv/donworth-ai-solutions-site`, environment `production`, ref `main`, unchanged SHA `104ac7fc…`. Its status list is empty. Direct Vercel inspection still binds both public aliases to unchanged Ready `dpl_AcQG…`, and root/privacy bytes remain exact, so no Vercel deployment, alias move or public publication is established. The unapproved statusless GitHub record remains for Sam's deletion/retention decision; no automatic rollback was attempted. Apart from that record and approved local Ground Zero edits, no source checkout, repository remote, service, provider, database, payment, Apple or contact state was mutated.
 
 ## Reconciliation checkpoint — 5 October 2026, 08:15 IST
 
@@ -1018,6 +1036,58 @@ It replaces repeated copying of four-hour reconciliation prose into mandatory fi
 ### Provenance
 
 Grounded in direct read-only measurements of [[context/index]] and [[context/model-pack]] at 18:03 IST on 29 September 2026; the truncation/spill observed while following Ground Zero's mandatory load order; the recurring projection pattern already specified in this item; the event/current-view separation in [[decisions/2026-08-10-personal-context-ledger-and-local-model-gate]]; the adopted read boundary in [[decisions/2026-09-03-hermes-lossless-output-bounding]]; and the concise, evidence-based continuity requirement in [[decisions/2026-09-28-ground-zero-continuity-capture]]. No canonical context note, source receipt, runtime, scheduler, repository history or external system was changed by this proposal.
+
+## Material proposal, 5 October 2026 — explicit-method gate for read-only reconciliation commands
+
+Extend the existing reconciler with one deterministic **explicit-method preflight and side-effect canary** for `gh api` REST reads. This is a safety boundary for the current read-only workflow, not a new monitor, a general shell sandbox or an automated rollback system.
+
+### Bottleneck
+
+The same read-only-intended reconciliation path has created unapproved external metadata twice in ten days. On 25 September, [[items/heres-health-week-one-discovery-and-technical-proof]] and this item recorded malformed command handling creating statusless GitHub deployment `6668217402` for Here’s Health exact head `b5887087…`. On 5 October, [[project_state/donworth-studio]] and this item recorded a `gh api` call without explicit `-X GET` creating statusless deployment `6857393213` for unchanged Donworth site SHA `104ac7fc…`. Neither record moved Vercel, changed public bytes or proved a deployment, but each was an external mutation and each left Sam with a deletion-or-retention decision.
+
+The recurrence shows that a prose instruction to remain read-only is not an adequate control. With `gh api`, supplying request fields can select a state-changing method unless `GET` is explicit. The reconciler therefore needs to prove the HTTP method and endpoint class before network dispatch, not infer safety from the operator’s intent or the command description.
+
+### Value category
+
+- **Risk reduction:** blocks accidental `POST`, `PATCH`, `PUT` or `DELETE` calls inside a workflow whose approved scope is observation only.
+- **Decision quality:** separates a verified read, a blocked command plan and a real external mutation instead of allowing a successful CLI response to blur those states.
+- **Time reclaimed:** avoids incident reconstruction, duplicate live-state checks and manual deletion-versus-retention triage after an unintended write.
+- **Auditability:** produces a small receipt showing the exact non-secret endpoint class, explicit method, payload presence and allow/block result before any live call.
+
+### Smallest live test
+
+Use the two recorded command shapes as sanitized negative fixtures and one explicit `GET` of each already-existing deployment record as the positive live path:
+
+1. Parse a structured command manifest before execution. For the first slice, allow only `gh api` REST requests to named repository deployment and deployment-status read endpoints.
+2. Require an explicit `-X GET` or `--method GET`. If `-f`, `-F`, `--raw-field`, `--field` or `--input` is present without explicit `GET`, return `BLOCKED_IMPLICIT_MUTATION`; return `BLOCKED_METHOD` for explicit `POST`, `PATCH`, `PUT` or `DELETE`; return `BLOCKED_ENDPOINT` outside the allowlist.
+3. Prove that both historical negative fixtures are blocked before network dispatch. Then permit one explicit `GET` for deployment `6668217402` and one for `6857393213`, plus their status-list reads, while redacting authorization material.
+4. Compare the named repositories’ deployment-ID sets immediately before and after the permitted reads. Stop at a local receipt; do not create a status, delete either record or attempt rollback.
+
+Keep GraphQL, provider CLIs other than `gh api`, pagination with generated requests and every mutation path out of the first test. They require separate semantics and must fail closed as `UNSUPPORTED`, not be guessed safe.
+
+### Evidence of success
+
+- Both sanitized incident fixtures return a blocked classification before any network request is emitted.
+- Each explicit positive `GET` returns the already-recorded deployment identity and its empty status list without creating a new deployment or status.
+- Pre/post deployment-ID sets are identical for both repositories, and the local receipt contains no token, header value, request body or secret.
+- An unchanged rerun is byte-stable and emits no human-facing alert; a changed command method, endpoint class or payload invalidates the prior receipt.
+- Manual comparison with the two incident records and GitHub readback finds no unrecorded request, unsupported “read-only” claim or external state change.
+
+### Downside and failure mode
+
+A narrow allowlist can block legitimate read APIs that require query fields, while naive shell-string matching can miss quoting, aliases or generated arguments. GraphQL also uses `POST` for queries, so method alone is not a universal read/write classifier. Keep the first slice restricted to structured `gh api` REST command manifests and the named deployment endpoints; reject shell indirection and unsupported request forms; preserve `UNKNOWN`; and require human review before expanding the allowlist. The gate proves command-method safety for its exact scope, not the truth or completeness of returned data.
+
+### Approval boundary
+
+Automation may parse the planned non-secret command, classify its explicit method and allowlisted endpoint, execute only the approved `GET` reads, compare non-secret deployment IDs and write a local receipt. It may not execute `POST`, `PATCH`, `PUT` or `DELETE`; create or update deployment statuses; delete either existing record; alter repository, Vercel or production state; inspect or print credentials; retry a blocked command through another tool; push, merge, publish, contact anyone or spend money. Sam retains the deletion-or-retention decision for records `6668217402` and `6857393213` and approves any future expansion beyond the exact read allowlist.
+
+### What it replaces
+
+It replaces intent-only command review and post-incident reconstruction for this reconciler’s GitHub deployment reads. It does **not** replace [[items/ops-daily-sync-digest]], GitHub permissions, provider audit logs, independent release verification, broader shell sandboxing, incident disclosure, manual cleanup decisions or Sam’s approval over external mutations.
+
+### Provenance
+
+Grounded in the 25 September side-effect receipt in [[items/heres-health-week-one-discovery-and-technical-proof]], the matching checkpoint in this item, the 5 October recurrence in [[project_state/donworth-studio]], the read-only operating boundary in [[context/ops-automation-moc]], and the approval and evidence-state separation in [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]. Both incidents preserved that no Vercel deployment or public-byte transition was established; this proposal addresses the repeated command-safety failure without deleting either record or changing an external system.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_

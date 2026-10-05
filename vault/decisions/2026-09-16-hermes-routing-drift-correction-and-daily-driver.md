@@ -19,6 +19,12 @@ This overrides the 10:45 Astra amendment below. Skippy's saved default has been 
 
 The prior inference that prioritising effectiveness authorised switching Sam to Astra was wrong. Improve execution within the explicitly selected subscription/model; do not change it on the strength of a generic quality preference.
 
+## Reconciliation receipt — 5 October 2026, 12:17 IST
+
+- `hermes config path` resolves `/Users/samdonworth/.hermes/config.yaml`. Direct parsed readback shows `model.default: gpt-6.1-sol`, `model.provider: openai-codex`, `agent.reasoning_effort: xhigh` and `fallback_providers` ordered as `xai-oauth/grok-4.6` then `opencode-go/glm-5.3`.
+- The file mtime is 29 September 2026 at 21:48:42 IST. That does not establish the actor or original change time, but it means the 5 October 00:18 and 08:15 statements below that no fallbacks were configured are not supported by the current authoritative file. Preserve those receipts as contradictory observations rather than silently rewriting them; the current file is operational truth and the latest explicit Sam correction above remains durable authority.
+- Gateway health is `200`. No routing correction, model switch, restart, credential mutation or fallback edit was performed.
+
 ## Reconciliation receipt — 5 October 2026, 00:18 IST
 
 - Live saved configuration still does not match the accepted correction: it reads `gpt-6.1-sol` / `openai-codex`, no fallback models/providers, with saved `agent.reasoning_effort: xhigh`. This supersedes only the 4 October 20:17 observation that xAI/GLM fallbacks were configured; it does not establish who changed them or when.

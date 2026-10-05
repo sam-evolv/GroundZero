@@ -13,10 +13,34 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-05T08:15:00+01:00"
+updated_at: "2026-10-05T20:10:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 5 October 2026 20:10 IST cutoff
+
+Installed Hermes remains exact stable v0.21.5 `e496ccc7d7e0ca885041e69223683d7739123ff9` / tree `f8c58d47f2f429cdf23d76504d4ede852602add5`; local `origin/main` still equals installed, the checkout has only untracked `.review-worktrees/`, and 11 stashes remain. No fetch into the installed checkout, update, upstream-suite rerun, install or restart occurred.
+
+An isolated object fetch plus explicit GitHub comparisons bind immutable `main` at the cutoff to unsigned `20ae6087ffa5de9faf7e3b454b677a53a9e14856` / tree `3cc0a71559cac6f50278430c22f2cd267c59c5dc`, exactly 2,088 commits / 2,029 net changed paths beyond installed. The exact range after `6590f13a1ba21b18224a0f53ef2ead004b5fa7d6` is 28 commits / 71 paths; GitHub marks one formatting merge verified and 27 commits unverified. Queue dashboard-auth trusted-proxy, body and audit bounds; Desktop review-scope layout and provider account/limit visibility; Windows ARM64 whisper.cpp custody; Discord auto-thread title/topic parity; process final-drain/completion race handling; credential-pool per-account usage; and named-profile/pooled-backend working-directory isolation. Official stable remains `v2026.9.24` / v0.21.5.
+
+`hermes --version` still reports 2,053 behind and therefore understates immutable Git by 35 without an installed update. Direct parsed config readback remains `gpt-6.1-sol` / `openai-codex`, `xhigh`, with fallbacks `xai-oauth/grok-4.6` then `opencode-go/glm-5.3`; the accepted DeepSeek routing decision remains unimplemented. Gateway `/health` is `200`. Port `8766` is occupied by an unrelated Sigma Homes static preview from `/private/tmp/claude-501/sigma`; its root is `200`, while Aire `/health` and `/api/status` are `404`. Cara `8643` still refuses connection. No accepted Aire uplift, authenticated/rendered journey or physical-device result advanced.
+
+## Reconciliation checkpoint, 5 October 2026 16:35 IST cutoff
+
+Installed Hermes remains exact stable v0.21.5 `e496ccc7d7e0ca885041e69223683d7739123ff9` / tree `f8c58d47f2f429cdf23d76504d4ede852602add5`; local `origin/main` still equals installed, the checkout has only untracked `.review-worktrees/`, and 11 stashes remain. No fetch into the installed checkout, update, upstream-suite rerun, install or restart occurred.
+
+A refreshed isolated blobless clone plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `6590f13a1ba21b18224a0f53ef2ead004b5fa7d6` / tree `14a53058f1825dda7e548dd78029d1406a2e0a6e`, exactly 2,060 commits / 1,987 net changed paths beyond installed. The exact range after `7157422022ff06f3e632d1dd394ee1253b17ad37` is 82 commits / 83 paths; GitHub marks every commit unverified. Queue Codex auxiliary-response normalization and completion/leak handling, bare-model config guards, API-server/cron drain-floor work, Matrix encrypted-event diagnostics, typed/non-ASCII compaction retention, Telegram held-inbound and plugin reconnect recovery, headless approval/memory/sudo fail-closed handling, Desktop behind-window send/transcript recovery and exhausted/rate-limited provider-picker visibility. Official stable remains `v2026.9.24` / v0.21.5.
+
+`hermes --version` now reports 2,053 behind and therefore understates immutable Git by seven without an installed update. Direct parsed config readback remains `gpt-6.1-sol` / `openai-codex`, `xhigh`, with fallbacks `xai-oauth/grok-4.6` then `opencode-go/glm-5.3`; the accepted DeepSeek routing decision remains unimplemented. Gateway `/health` is `200`; Aire `8766` and Cara `8643` refuse connection. No accepted Aire uplift, authenticated/rendered journey or physical-device result advanced.
+
+## Reconciliation checkpoint, 5 October 2026 12:17 IST cutoff
+
+Installed Hermes remains exact stable v0.21.5 `e496ccc7d7e0ca885041e69223683d7739123ff9` / tree `f8c58d47f2f429cdf23d76504d4ede852602add5`; local `origin/main` still equals installed, the checkout has only untracked `.review-worktrees/`, and 11 stashes remain. No fetch into the installed checkout, update, upstream-suite rerun, install or restart occurred.
+
+A fresh isolated blobless clone plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `7157422022ff06f3e632d1dd394ee1253b17ad37` / tree `fff3556b05210209b819c621d2e2454c0f0e95b4`, exactly 1,978 commits / 1,951 net changed paths beyond installed. The exact range after `93c9360a8da592cee43e8895403e91c7a920b0ce` is 158 commits / 117 paths; GitHub marks every commit unverified. Queue updater partial-clone pack tidy/locking and clone conversion, fail-closed unattended MCP/vault consent, human-input and cron-execution plugin hooks, post-admission gateway extension, debug token redaction, interactive plugin-skill scoping, request-middleware isolation/composition, Desktop profile-scoped session search and the dominant plugin-catalog tranche. Official stable remains `v2026.9.24` / v0.21.5.
+
+`hermes --version` still reports 1,570 behind and therefore understates immutable Git by 408. `hermes config path` resolves `/Users/samdonworth/.hermes/config.yaml`; direct parsed readback shows `gpt-6.1-sol` / `openai-codex`, `xhigh`, and fallbacks `xai-oauth/grok-4.6` then `opencode-go/glm-5.3`. The file mtime remains 29 September, so the 5 October 00:18 and 08:15 no-fallback observations are not supported by the current file; preserve the contradiction rather than inferring a new change actor/time. The accepted DeepSeek routing decision remains unimplemented. Gateway `/health` is `200`; Aire `8766` and Cara `8643` refuse connection. No accepted Aire uplift, authenticated/rendered journey or physical-device result advanced.
 
 ## Reconciliation checkpoint, 5 October 2026 08:15 IST cutoff
 

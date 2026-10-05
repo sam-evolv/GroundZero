@@ -1,14 +1,20 @@
 ---
 id: donworth-studio
 company_id: donworth-ai-solutions
-headline: "Private Desktop `main` remains unsigned `a1cec24e…` with exact-head draft v0.18.12 artifacts and signed installed v0.18.9. New draft PR #13 is clean/mergeable at unsigned `6246fabe…` (12 commits / 43 files), adding source-level runtime health and local business automations; it has one successful preview-comment check, no reviews and no release/install/rendered acceptance. The public site remains `104ac7fc…` / Ready `dpl_AcQG…`; its home and direct Here’s Health privacy page still render."
+headline: "Private Desktop `main` remains unsigned `a1cec24e…`; draft PR #13 remains clean at unsigned `6246fabe…`, feeds remain Windows 0.18.12 / Mac ARM 0.18.2 / Mac Intel 503, and signed installed v0.18.9 remains exact and unlaunched. Public site source and Vercel remain `104ac7fc…` / Ready `dpl_AcQG…` with exact root/privacy bytes. A reconciliation command unintentionally created statusless GitHub deployment record `6857393213` against the unchanged site SHA; it did not move Vercel or public bytes and awaits Sam's deletion/retention decision."
 valid: true
-updated_at: "2026-10-04T08:19:00+01:00"
+updated_at: "2026-10-05T12:17:00+01:00"
 role: project-state
 status: building
 ---
 
 # Donworth Studio project state
+
+## Public release unchanged; reconciliation added an unapproved statusless GitHub deployment record — 5 October 2026, 12:17 IST cutoff
+
+- At 11:07:41 UTC this reconciliation used a read-only-intended `gh api` command without `-X GET`, unintentionally creating GitHub deployment record `6857393213` for private site repository `sam-evolv/donworth-ai-solutions-site`, environment `production`, ref `main`, unchanged SHA `104ac7fc4bdaa1a0febe182b4f708516b097bfa0`. Direct readback shows an empty status list. This is an unapproved external metadata mutation, not proof of a build, deploy or publication. No automatic rollback was attempted; deletion or retention remains Sam's decision.
+- Independent Vercel inspection still binds apex and `www` to unchanged target-production Ready `dpl_AcQGCUwtsGsRXx44WhH4hrEgjz6T`. Fresh direct reads matched the recorded root `97,961` bytes / SHA-256 `b22284e7…` and privacy `16,677` bytes / `c2c4e4df…`. The statusless GitHub record therefore did not move the public alias or bytes.
+- Desktop `main` remains unsigned `a1cec24e…`; draft PR #13 remains clean at unsigned `6246fabe…` with no reviews. Feeds remain Windows x64 `0.18.12`, Mac ARM `0.18.2` and Mac Intel HTTP `503`. Signed installed v0.18.9 remains exact at `9912fe34…` / `711adb24…`, passes strict code-sign verification and was not launched. No package, install, update exercise, rendered Desktop journey, account-continuity, genuine-Windows, physical-device, legal/client or independent release acceptance advanced.
 
 ## Draft business-workflow candidate appeared; installed/release state did not — 4 October 2026, 08:19 IST cutoff
 

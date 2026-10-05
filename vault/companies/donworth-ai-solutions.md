@@ -3,10 +3,15 @@ id: donworth-ai-solutions
 name: Donworth Studio
 role: primary-company
 status: active
-updated: "2026-10-04"
+updated: "2026-10-05"
 ---
 
 # Donworth Studio
+
+## Public release unchanged; reconciliation added an unapproved statusless GitHub deployment record — 5 October 2026, 12:17 IST cutoff
+
+- A read-only-intended `gh api` command omitted `-X GET` and unintentionally created GitHub deployment record `6857393213` at 11:07:41 UTC for the private site, environment `production`, ref `main`, unchanged SHA `104ac7fc…`. Its status list is empty. This is an unapproved metadata mutation, not a verified deployment; it remains for Sam's deletion/retention decision and was not automatically rolled back.
+- Vercel still binds both public aliases to unchanged Ready `dpl_AcQG…`; fresh root/privacy reads matched the recorded byte counts and hashes. Desktop `main`, draft PR #13, feeds and signed installed v0.18.9 also remained exact. No public alias move, new bytes, package, install, app launch, authenticated journey, genuine-Windows, physical-device, legal/client or independent release acceptance advanced.
 
 ## Draft business-workflow candidate appeared; installed/release state did not — 4 October 2026, 08:19 IST cutoff
 
