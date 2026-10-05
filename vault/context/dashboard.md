@@ -38,14 +38,9 @@ updated: "2026-10-05"
 - 🟢 [[project_state/heres-health-app|heres-health-app]]: Paying client; build 8 was last verified Waiting for Review at 21:01 IST, but launch remains NO-GO. Open draft PR #6 now provides a direct matching source candidate for the hosted rota migrations and product surface, but no hosted deployment receipt binds it to that head and build 8 predates the rota tranche. Hosted rows remain 1 tenant, 1 identity, 5 entities, 1 audit row, 2 completed requests and 2 conflict scopes, including `synthetic-test-site`. Production Shopify remains awaiting payment; all 27 Square orders are sandbox-only. Apple, payment, rota UI/device, merchant and client acceptance remain unverified.
 - 🟢 [[project_state/ob|ob]]: Empire Gym production moved to Ready CLI deployment `dpl_Es9HL…`, whose metadata names remote `feat/empire-gym-live` commit `b53f724…`; GymMaster CTAs and the admin login remain rendered. The remote branch is now clean at `603ee53…`, one commit past the deployed tree; authenticated editing/photo isolation, billing/access/payment and downstream enrollment remain unverified.
 - 🟢 [[project_state/oh|oh]]: Production source advanced seven verified commits / 60 files to `31a66a14…` and exact-head Ready deployment `dpl_Ddf8…` now owns `portal.openhouseai.ie`. The tranche includes source-level auth, tenant-ownership and tenant-scoped analytics fixes, but no migration path; Supabase advisor counts remain 30/2/17/4 plus disabled leaked-password protection, and no controlled cross-user actor path, persisted-row or authenticated homeowner acceptance was exercised.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes remains stable v0.21.5 `e496ccc7` / tree `f8c58d47`; immutable GitHub `main` is unsigned `af8839df…` / tree `26ba6577…`, 1,743 commits / 1,799 net changed paths ahead. The 10-commit / 6-path tail after `32172d46…` is entirely unverified and is dominated by EvalRoute/OMH catalogue changes plus Google Workspace empty-Gmail-search correctness. The CLI still reports 1,570 behind, understating immutable Git by 173. Saved `gpt-6.1-sol` / `openai-codex` routing with `xhigh` reasoning now has no configured fallbacks, correcting only the 20:17 fallback observation while still contradicting the accepted DeepSeek default. Gateway health is `200`; Aire and Cara remain offline and no accepted runtime or physical-device journey advanced.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes remains stable v0.21.5 `e496ccc7` / tree `f8c58d47`; immutable GitHub `main` is unsigned `af8839df…` / tree `26ba6577…`, 1,743 commits / 1,799 net changed paths ahead. The 10-commit / 6-path tail after `32172d46…` is entirely unverified and is dominated by EvalRoute/OMH catalogue changes plus a Google Workspace empty-Gmail-search correctness fix and regression test. The CLI still reports 1,570 behind and understates immutable Git by 173. Saved `gpt-6.1-sol` / `openai-codex` routing with `xhigh` reasoning now has no configured fallbacks, correcting the 20:17 fallback observation but still contradicting the accepted DeepSeek default. Gateway health is `200`; Aire and Cara remain offline and no accepted runtime or physical-device journey advanced.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
-## 📥 Inbox (2 unfiled)
-
-- **New facts to file**: 2 items
-
-→ [[capture/inbox]]
 
 ## 📊 Portfolio at a glance
 
@@ -67,4 +62,4 @@ updated: "2026-10-05"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-10-05 00:18 IST
+- Dashboard: 2026-10-05 02:15 IST

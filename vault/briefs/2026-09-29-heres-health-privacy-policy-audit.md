@@ -35,6 +35,7 @@ Related: [[project_state/heres-health-app]], [[companies/heres-health]].
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/substack-draft-2026-10-04-waiting-for-review-is-not-finished]]
 - [[companies/heres-health]]
 - [[project_state/heres-health-app]]
 

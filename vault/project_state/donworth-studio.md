@@ -497,6 +497,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
 - [[briefs/substack-draft-2026-09-20-the-correction-came-with-a-deposit]]
 - [[briefs/substack-draft-2026-09-27-more-precise-not-complete]]
+- [[briefs/substack-draft-2026-10-04-waiting-for-review-is-not-finished]]
 - [[briefs/wiki-refiner-2026-09-04]]
 - [[briefs/wiki-refiner-2026-09-05]]
 - [[briefs/wiki-refiner-2026-09-06]]
@@ -527,6 +528,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-10-01]]
 - [[briefs/wiki-refiner-2026-10-02]]
 - [[briefs/wiki-refiner-2026-10-03]]
+- [[briefs/wiki-refiner-2026-10-04]]
 - [[companies/donworth-ai-solutions]]
 - [[context/dashboard]]
 - [[context/index]]
@@ -545,3 +547,4 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-kanban-terminal-transition-guard]]
 - [[items/ops-project-state-reconciler]]
 - [[project_state/heres-health-app]]
+

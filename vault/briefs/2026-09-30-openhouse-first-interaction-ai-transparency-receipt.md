@@ -134,6 +134,7 @@ If no buyer values it and the product already passes cleanly, retain it as a rel
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/substack-draft-2026-10-04-waiting-for-review-is-not-finished]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]
 - [[decisions/openhouse-focus-and-openbook-commercial-unblock-2026-07-24]]

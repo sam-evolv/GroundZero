@@ -110,6 +110,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[decisions/2026-09-16-hermes-routing-drift-correction-and-daily-driver]]
 - [[items/donworth-native-evidence-and-route-evaluation]]
 - [[items/ops-accepted-artifact-custody-gate]]
+- [[items/ops-daily-sync-digest]]
 - [[items/ops-desktop-ui-approval-readiness-gate]]
 - [[items/ops-graph-engineering-pilot]]
 - [[items/ops-kanban-terminal-transition-guard]]

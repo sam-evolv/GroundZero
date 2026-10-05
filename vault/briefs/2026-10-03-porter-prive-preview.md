@@ -14,3 +14,9 @@ Existing Porter member-app access is established. This is a proposed member-expe
 Library final writeback unavailable in Mac helper; original version 1 preserved, final archives local. Next action: Sam reviews the public concept. A real commercial build needs current-platform discovery and asset rights confirmation.
 
 Source: delegated parent thread 01a0fe5d-0131-7577-bcca-36e3d0b150db and local QA/deployment receipts. No commit, push or sync performed.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/substack-draft-2026-10-04-waiting-for-review-is-not-finished]]
+- [[project_state/donworth-studio]]
+

@@ -110,6 +110,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
 - [[briefs/substack-draft-2026-09-20-the-correction-came-with-a-deposit]]
 - [[briefs/substack-draft-2026-09-27-more-precise-not-complete]]
+- [[briefs/substack-draft-2026-10-04-waiting-for-review-is-not-finished]]
 - [[companies/openhouse-ai]]
 - [[decisions/openhouse-ten-minute-dtc-activation-contract-2026-07-28]]
 - [[items/oh-bridgewater-warm-introduction]]

@@ -160,3 +160,6 @@ Official sources reviewed 4 October 2026:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/substack-draft-2026-10-04-waiting-for-review-is-not-finished]]
+- [[context/business-opportunities-moc]]
+

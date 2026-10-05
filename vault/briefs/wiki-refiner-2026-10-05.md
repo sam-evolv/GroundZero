@@ -1,16 +1,16 @@
 ---
-title: Wiki Refiner 2026-10-04
+title: Wiki Refiner 2026-10-05
 kind: wiki_refiner_brief
-date: "2026-10-04"
-ran_at: "2026-10-04T02:15:23+01:00"
+date: "2026-10-05"
+ran_at: "2026-10-05T02:15:22+01:00"
 ---
 
-# Wiki Refiner 2026-10-04
+# Wiki Refiner 2026-10-05
 
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
 
 ## Auto-backlinks written
-- `heres-health-app-project-brief-2026-08-13.md` → `items/ops-project-state-reconciler.md` (score 343)
+- `heres-health-project-master-brief-2026-08-29.md` → `items/ops-project-state-reconciler.md` (score 412)
 
 ## Sources reviewed
 - `imports/2026-08-06-personal-agent-founder-voice-notes.md` -> `briefs/2026-08-05-personal-assistant-research-codex.md`
@@ -48,10 +48,10 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
   - Related: [[project_state/heres-health-app]], [[briefs/2026-08-05-personal-assistant-research-codex]], [[context/model-pack]], [[items/ops-project-state-reconciler]]
 - `imports/heres-health-meeting-record-addendum-2026-08-29.md` -> `project_state/ob.md`
   - Summary: **Source:** Sam Donworth’s direct correction after reviewing the Project Master Brief. **Purpose:** Preserve corrections and additional facts without rewriting the original supplied meeting record. - The owner meeting already served as the business-discovery and access-handover session; another introductory discovery meeting is not required. - The new café opening date is not fixed. Current expectation is roughly two months, dependent on building work.
-  - Related: [[project_state/heres-health-app]], [[companies/heres-health]], [[briefs/2026-08-05-personal-assistant-research-codex]], [[items/ops-project-state-reconciler]]
+  - Related: [[project_state/heres-health-app]], [[companies/heres-health]], [[items/ops-project-state-reconciler]], [[briefs/2026-08-05-personal-assistant-research-codex]]
 - `imports/heres-health-project-master-brief-2026-08-29.md` -> `project_state/ob.md`
   - Summary: **Date:** 29 August 2026 **Status:** Working brief / AI handoff context **Purpose:** Structured record of the meeting, decisions, opportunities and implementation plan. Not a final technical specification. Here's Health and Donworth Studio are proceeding with the project. The immediate priority is to turn the approved design into a production-quality iOS and Android app. The owner...
-  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/heres-health-app]], [[project_state/personal-agent]], [[context/model-pack]]
+  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/heres-health-app]], [[context/model-pack]], [[items/ops-project-state-reconciler]]
 - `imports/linkedin/connections-2026-08-12.md` -> `project_state/oh.md`
   - Summary: Sam supplied an up-to-date LinkedIn `Connections.csv` export. The latest connection in the file is dated 12 August 2026. - Raw source: [connections-2026-08-12-raw.csv](connections-2026-08-12-raw.csv) - Normalized UTF-8 source: [connections-2026-08-12-normalized.csv](connections-2026-08-12-normalized.csv) - Machine-readable summary: [connections-2026-08-12-summary.json](connections-2026-08-12-summary.json)
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/personal-agent]], [[project_state/heres-health-app]], [[context/model-pack]]
@@ -59,19 +59,19 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
   - Summary: Source tweet: https://x.com/gippp69/status/2070482723014078865?s=20 > THE OBSIDIAN GRAPH IS NOT A PRETTY NOTE MAP, IT IS A SELF-MAINTAINING AI WIKI THAT CAN TURN 120 SAVED SOURCES INTO 700 LINKED PAGES WHILE YOU ONLY KEEP ADDING NEW MATERIAL > > 00:11 the graph opens and the trick becomes obvious: every dot is a saved idea, every cluster is a topic, and every line is context the AI no longer has to rebuild from scratc...
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/personal-agent]], [[context/model-pack]], [[items/ops-aire-hermes-upstream-impact-triage]]
 - `capture/inbox.md` -> `briefs/2026-08-05-personal-assistant-research-codex.md`
-  - Summary: Use this note to capture anything important before filing it into the right person, company, project, goal, item, or decision note. - 2026-09-28 (source: Claude Cowork session, Sam's instruction and direct tool checks): Claude Cowork reaches this vault through the `ground-zero-vault` MCP server, allowed dire... - 2026-09-28 (source: same): Handling note for agents: `index.md` is about 125k characters and `model-pack.md` about 166k, so `read_multiple_files` on them overflows the tool ou... -
-  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[items/ops-project-state-reconciler]], [[project_state/heres-health-app]], [[context/index]]
+  - Summary: Use this note to capture anything important before filing it into the right person, company, project, goal, item, or decision note. - - -
+  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[briefs/wiki-refiner-2026-08-01]], [[briefs/wiki-refiner-2026-08-11]], [[briefs/wiki-refiner-2026-08-13]]
 
 ## Strongest connected notes
 - [[briefs/2026-08-05-personal-assistant-research-codex]] (276)
-- [[project_state/personal-agent]] (229)
+- [[project_state/personal-agent]] (230)
 - [[briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt]] (224)
 - [[companies/personal-agent]] (217)
-- [[context/model-pack]] (208)
-- [[project_state/heres-health-app]] (206)
-- [[items/ops-project-state-reconciler]] (1363)
-- [[items/ops-aire-hermes-upstream-impact-triage]] (1317)
-- [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]] (458)
+- [[context/model-pack]] (209)
+- [[project_state/heres-health-app]] (207)
+- [[items/ops-project-state-reconciler]] (1371)
+- [[items/ops-aire-hermes-upstream-impact-triage]] (1329)
+- [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]] (227)
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]] (215)
 - [[briefs/2026-08-04-ireland-first-robotics-company-opportunity-analysis]] (212)
 - [[project_state/donworth-studio]] (62)
@@ -85,20 +85,17 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]] (108)
 - [[items/heres-health-week-one-discovery-and-technical-proof]] (337)
 - [[companies/heres-health]] (135)
-- [[context/index]] (57)
-- [[briefs/wiki-refiner-2026-09-30]] (56)
-- [[briefs/wiki-refiner-2026-10-01]] (56)
+- [[briefs/wiki-refiner-2026-08-01]] (17)
+- [[briefs/wiki-refiner-2026-08-11]] (17)
+- [[briefs/wiki-refiner-2026-08-13]] (17)
+- [[briefs/wiki-refiner-2026-08-14]] (17)
+- [[briefs/wiki-refiner-2026-08-19]] (17)
 
 ## Suggested follow-ups
 - Move durable facts from imports into the relevant company, person, or project note.
 - Keep the raw source in `imports/` so provenance stays intact.
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
-
-
-## Notes that link here
-_Auto-generated: updated by wiki-refiner_
-- [[context/llm-wiki-pattern]]
 
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.

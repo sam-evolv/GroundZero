@@ -52,6 +52,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-10-01-evolv-epbd-solar-trigger-decision-receipt]]
 - [[briefs/2026-10-02-evolv-ndmg-grant-uplift-transition-gate]]
 - [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]]
+- [[briefs/2026-10-04-evolv-energy-sharing-readiness-reconciliation-gate]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]

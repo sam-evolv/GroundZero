@@ -759,6 +759,7 @@ P1
 - [[imports/cara-conversation-summary-2026-07-12]] — shared signals: conversation, summary, cara
 - [[imports/heres-health-meeting-record-addendum-2026-08-29]] — shared signals: addendum, meeting, health
 - [[imports/heres-health-app-project-brief-2026-08-13]] — shared signals: project, health, heres
+- [[imports/heres-health-project-master-brief-2026-08-29]] — shared signals: project, master, health
 ## Incubation analysis, 18 July 2026
 
 ### Opportunity size
@@ -1028,6 +1029,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-10-01]]
 - [[briefs/wiki-refiner-2026-10-02]]
 - [[briefs/wiki-refiner-2026-10-03]]
+- [[briefs/wiki-refiner-2026-10-04]]
 - [[companies/donworth-ai-solutions]]
 - [[companies/heres-health]]
 - [[companies/personal-agent]]

@@ -178,6 +178,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]]
 - [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]]
 - [[briefs/substack-draft-2026-09-20-the-correction-came-with-a-deposit]]
+- [[briefs/substack-draft-2026-10-04-waiting-for-review-is-not-finished]]
 - [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]]
 - [[items/oh-rls-audit]]
 - [[people/sam-donworth]]

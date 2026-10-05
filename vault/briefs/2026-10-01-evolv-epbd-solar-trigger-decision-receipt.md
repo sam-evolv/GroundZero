@@ -142,6 +142,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]]
 - [[briefs/2026-09-29-evolv-commercial-solar-triple-e-aca-decision-receipt]]
 - [[briefs/2026-10-02-evolv-ndmg-grant-uplift-transition-gate]]
+- [[briefs/substack-draft-2026-10-04-waiting-for-review-is-not-finished]]
 - [[companies/evolv-renewables]]
 - [[context/business-opportunities-moc]]
 - [[goals/renew-pipeline]]

@@ -103,6 +103,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]
 - [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
 - [[briefs/substack-draft-2026-09-27-more-precise-not-complete]]
+- [[briefs/substack-draft-2026-10-04-waiting-for-review-is-not-finished]]
 - [[companies/openhouse-ai]]
 - [[context/dashboard]]
 - [[context/index]]

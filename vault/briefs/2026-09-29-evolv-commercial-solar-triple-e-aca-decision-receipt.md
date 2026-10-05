@@ -145,6 +145,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-10-01-evolv-epbd-solar-trigger-decision-receipt]]
 - [[briefs/2026-10-02-evolv-ndmg-grant-uplift-transition-gate]]
 - [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]]
+- [[briefs/substack-draft-2026-10-04-waiting-for-review-is-not-finished]]
 - [[companies/evolv-renewables]]
 - [[context/business-opportunities-moc]]
 - [[goals/renew-pipeline]]
