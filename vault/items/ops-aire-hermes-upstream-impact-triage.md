@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-05T20:10:00+01:00"
+updated_at: "2026-10-06T00:14:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 6 October 2026 00:14 IST cutoff
+
+Installed Hermes remains exact stable v0.21.5 `e496ccc7d7e0ca885041e69223683d7739123ff9` / tree `f8c58d47f2f429cdf23d76504d4ede852602add5`; local `origin/main` still equals installed, the checkout has only untracked `.review-worktrees/`, and 11 stashes remain. No fetch into the installed checkout, update, upstream-suite rerun, install or restart occurred.
+
+A refreshed isolated blobless mirror plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `57de31f8daa9201506eb7afb69e02a445d62ad03` / tree `289b04c0b9d5b9109b9359c97937357055a519e0`, exactly 2,220 commits / 2,185 net changed paths beyond installed. The exact range after `20ae6087ffa5de9faf7e3b454b677a53a9e14856` is 132 commits / 237 paths and all 132 commits are GitHub-unverified. Queue Desktop plugin/settings/session/gateway and Windows-probe work; memory-provider and skill lifecycle; auxiliary compression/watchdogs; MCP read-only/trust parsing; process/PTY/browser-child cleanup; provider routing/auth/telemetry; and Discord, WhatsApp, TTS and STT changes for bounded compatibility review. Commit subjects and tests are not accepted Aire behavior.
+
+`hermes --version` still reports 2,053 behind and therefore understates immutable Git by 167 without an installed update. Direct parsed config readback remains `gpt-6.1-sol` / `openai-codex`, `xhigh`, with fallbacks `xai-oauth/grok-4.6` then `opencode-go/glm-5.3`; the accepted DeepSeek routing decision remains unimplemented. Gateway `/health` is `200`. Port `8766` remains occupied by the unrelated Sigma Homes static preview: root `200`, Aire `/health` and `/api/status` `404`; Cara `8643` refuses connection. No accepted Aire uplift, authenticated/rendered journey or physical-device result advanced.
 
 ## Reconciliation checkpoint, 5 October 2026 20:10 IST cutoff
 
