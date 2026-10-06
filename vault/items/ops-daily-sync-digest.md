@@ -12,7 +12,7 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-24
 run_date: "2026-06-24"
 created_at: "2026-06-24T17:02:14Z"
-updated_at: "2026-09-30T18:07:36+01:00"
+updated_at: "2026-10-06T18:02:29+01:00"
 sync_status: "Checked 2026-06-26 16:56 IST. Cross-company status unchanged in this sync."
 ---
 
@@ -519,6 +519,53 @@ It replaces repeated manual comparison of the same hosted rota counts and the re
 ### Provenance
 
 Grounded in the empty hosted rota tables recorded on 3 October and the later populated state preserved across the 3–4 October direct Supabase reconciliation receipts in [[project_state/heres-health-app]], [[companies/heres-health]], [[items/heres-health-week-one-discovery-and-technical-proof]] and [[items/ops-project-state-reconciler]]. The matching-but-unbound PR #6 boundary comes from the 4 October exact GitHub inspection in those notes. The paid-client, approval and evidence-state boundaries come from [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]], [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]] and [[decisions/2026-08-31-agent-legible-system-design-standard]]. This extends [[items/ops-daily-sync-digest]] and [[context/ops-automation-moc]] rather than creating another scheduler or duplicating the existing source-to-hosted gate.
+
+## Material proposal, 6 October 2026 — production checkout reconciliation transition receipt
+
+Extend the existing digest with one change-only, read-only **production checkout reconciliation transition receipt** for Here’s Health Shopify. It is a narrow exception view over the existing reconciliation ledger, not an abandoned-cart campaign, payment worker, customer-notification channel or second scheduler.
+
+### Bottleneck
+
+[[project_state/heres-health-app]], [[companies/heres-health]] and [[items/ops-project-state-reconciler]] record one production Shopify checkout session created on 2 October with a provider cart and checkout URL but no native or confirmed order. Through the 6 October 11:00 UTC checkpoint, the session remained `awaiting-payment`, authoritative Shopify orders remained empty and the scheduled reconciliation heartbeat kept advancing without a business-state transition. The same unchanged row and caveat have been re-read and restated across repeated four-hour reconciliations.
+
+A successful scheduler heartbeat proves only that reconciliation ran. It does not prove payment, order confirmation, abandonment, customer intent, fulfilment, refund, merchant acceptance or client acceptance. The current manual sweep must repeatedly compare session state, confirmation flags, authoritative-order presence and reconciliation time to preserve that boundary.
+
+### Value category
+
+- **Payment and launch risk reduction:** prevents a moving heartbeat or healthy endpoint from being mistaken for commerce progress.
+- **Decision quality:** separates scheduler liveness, checkout-session state, authoritative order binding and merchant/provider acceptance.
+- **Founder time reclaimed:** replaces repeated manual row comparison and unchanged heartbeat prose in the four-hour reconciliation.
+- **Auditability:** records the first material transition or lost-read boundary without exposing customer or checkout details.
+
+### Smallest live test
+
+Replay a sanitized fixture from the recorded 2–6 October session, then perform one read-only query limited to the minimum non-customer metadata already used by the reconciliation: an opaque session digest, environment, lifecycle state, created and last-reconciled timestamps, native/confirmed booleans, presence-only flags for provider cart, checkout and order identities, and an authoritative-order match count. Do not return URLs, order IDs, contact details, addresses, basket contents or payment data.
+
+Emit one local receipt with prior and current canonical state plus one of `AWAITING_PAYMENT`, `RECONCILING_NO_CHANGE`, `CONFIRMED_UNBOUND`, `CONFIRMED_BOUND`, `FAILED` or `UNKNOWN`. An advancing reconciliation timestamp with unchanged payment/order evidence must remain `RECONCILING_NO_CHANGE`; it must never become success. Do not invent a stale or abandoned threshold: any age-based escalation remains `UNKNOWN` until a provider- or merchant-approved expiry rule is supplied. Alert only on first observation, a material lifecycle/binding change, loss of read authority or first recovery. Stop after one live read and one unchanged rerun; do not invoke reconciliation or any provider operation.
+
+### Evidence of success
+
+- The frozen current fixture returns `RECONCILING_NO_CHANGE`, preserving `awaiting-payment`, no native/confirmed order and zero authoritative-order matches even when the heartbeat advances.
+- A controlled confirmed-but-unmatched fixture returns `CONFIRMED_UNBOUND`; only a matching authoritative-order receipt can return `CONFIRMED_BOUND`, and neither classification claims merchant settlement or fulfilment.
+- An unchanged second read is byte-stable at the canonical receipt layer and emits no new human-facing alert.
+- Missing access, schema drift, an over-broad result or contradictory provider/application evidence returns `UNKNOWN` rather than success.
+- Manual comparison with the allowlisted live fields and the named Ground Zero notes finds no customer data, invented abandonment claim or unsupported payment, launch or client-acceptance claim.
+
+### Downside
+
+Unpaid checkout sessions can be normal, intentional test traffic or abandoned without operational consequence. A scheduled heartbeat can legitimately update one timestamp forever, and presence flags cannot establish payment settlement, refunds or fulfilment. Even metadata about a production checkout is sensitive. Keep the first test local, privacy-minimal and change-only; preserve `UNKNOWN`; require a provider- or merchant-owned rule before introducing age thresholds; and leave real transaction, merchant-dashboard, physical-device and client acceptance outside this receipt.
+
+### Approval boundary
+
+This proposal authorises documentation only. A later approved test may read the exact allowlisted metadata above and write one local receipt. It may not read or expose customer identity, contact, address, basket, checkout URL, payment data or exact provider/order identifiers; invoke reconciliation; create, complete, cancel or expire a checkout; capture payment; fulfil or refund an order; send a reminder; contact a customer, Here’s Health or Shopify; change checkout flags, functions, cron jobs or schemas; deploy; spend money; modify production; or declare payment, merchant acceptance, client acceptance, launch readiness or completion. Sam retains approval over implementation, live alert delivery and every production or outward action.
+
+### What it replaces
+
+It replaces repeated manual comparison of the same checkout-session state, authoritative-order absence and advancing reconciliation heartbeat inside [[items/ops-project-state-reconciler]]. It does **not** replace the existing Shopify reconciliation job, provider webhooks, merchant dashboards, end-to-end checkout/payment/refund/fulfilment tests, [[items/heres-health-week-one-discovery-and-technical-proof]], independent release review, client acceptance or Sam’s launch and completion decisions.
+
+### Provenance
+
+Grounded in the production Shopify session first recorded on 2 October and the repeated unchanged readbacks through 6 October in [[project_state/heres-health-app]], [[companies/heres-health]] and [[items/ops-project-state-reconciler]]. The paying-client priority and evidence boundaries come from [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]] and [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]. This extends [[items/ops-daily-sync-digest]] and [[context/ops-automation-moc]] rather than creating another scheduler or commerce system.
 
 
 ## Notes that link here

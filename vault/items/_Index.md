@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-10-05"
+updated_at: "2026-10-06"
 ---
 
 # Ideas Index
@@ -97,7 +97,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 
 | Item | Summary | Priority | Status |
 |---|---|---|---|
-| [[items/ops-daily-sync-digest]] | Daily ops anomaly check; proposed extensions detect deployment-alias drift, confirm contradictory public-route responses, detect native installed-artifact custody changes, record consented tester update/relaunch evidence, roll up cron exceptions, flag decision-bound Hermes routing drift, emit change-only Supabase security-advisor deltas and surface privacy-request or hosted rota test-data provenance exceptions without mutating runtime or production state | P1 | proposed |
+| [[items/ops-daily-sync-digest]] | Daily ops anomaly check; proposed extensions detect deployment-alias drift, confirm contradictory public-route responses, detect native installed-artifact custody changes, record consented tester update/relaunch evidence, roll up cron exceptions, flag decision-bound Hermes routing drift, emit change-only Supabase security-advisor deltas, surface privacy-request or hosted rota test-data provenance exceptions, and classify production Shopify checkout reconciliation transitions without mutating runtime, commerce or production state | P1 | proposed |
 | [[items/ops-kanban-terminal-transition-guard]] | Independently accepted local guard candidate; parked because delayed/truncated runs can still be stale-reclaimed and review-crash handling would change | P1 | parked |
 | [[items/ops-project-state-reconciler]] | Reconcile project_state and unpublished local source custody from live signals; proposed bounded entry-point projection keeps mandatory context reads compact, and an explicit-method gate blocks implicit API writes during read-only reconciliation | P1 | proposed |
 | [[items/ops-accepted-artifact-custody-gate]] | Block cleanup when accepted artifact bytes lack durable custody | P1 | proposed |
