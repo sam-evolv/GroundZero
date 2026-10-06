@@ -12,10 +12,16 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-06T04:08:00+01:00"
+updated_at: "2026-10-06T08:26:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 6 October 2026, 08:26 IST
+
+- **Hermes upstream advanced 52 mostly unverified commits; accepted Aire state did not advance.** Installed remains exact stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. The isolated mirror plus direct GitHub comparison bind immutable `main` to verified `7301a9aa…` / tree `21f5844f…`, exactly 2,308 commits / 2,306 net changed paths beyond installed and 52 commits / 100 paths after `4787e4d5…`; two tail commits are GitHub-verified and 50 are unverified. The tranche spans provider OAuth, compaction recovery, Telegram/gateway TLS and reconnect custody, Discord authorization/voice binding, Desktop session ownership, process/install/update handling and telemetry. The CLI still reports 2,053 behind, an undercount of 255. Saved routing remains `gpt-6.1-sol` / `openai-codex`, `xhigh`, with xAI/GLM fallbacks and therefore still contradicts the accepted DeepSeek default. Gateway health is `200`; the unrelated Sigma Homes preview still occupies `8766` with Aire routes `404`, while Cara `8643` refuses connection.
+- **Other exact named repositories/deployments/public surfaces remained materially unchanged where rechecked, but Here’s Health management authority became unavailable.** Donworth Desktop/site, Here’s Health, OpenHouse, OpenBook/Empire Gym and Cara retain their recorded heads, PR states and issue counts. Ready Vercel deployments remain `dpl_AcQG…`, `dpl_Ddf8…` and `dpl_Es9HL…`; the named public root/login/privacy URLs returned their exact recorded HTTP `200` byte/hash checkpoints. Here’s Health production Square, sandbox Square and Shopify public health endpoints returned HTTP `200` with checkout enabled and order notifications disabled. However, the Supabase management route subsequently failed twice with `FgaApiAuthenticationError: Unauthorized`, including project listing and a read-only aggregate query, so current migration/function/table/row state could not be authoritatively reread at the final cutoff. No Here’s Health backend progress, regression or Apple/device acceptance is inferred from public health alone; its canonical product state remains unchanged and this is an explicit open reconciliation gap.
+- No canonical source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated. Only the verified Hermes delta and the Supabase-authority blocker were recorded in Ground Zero; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 6 October 2026, 04:08 IST
 

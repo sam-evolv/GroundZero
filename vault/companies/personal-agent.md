@@ -9,6 +9,11 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced 52 mostly unverified commits; installed/runtime Aire acceptance did not — 6 October 2026, 08:26 IST cutoff
+
+- Installed Hermes remains stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. The isolated mirror plus direct GitHub comparison bind immutable `main` to verified `7301a9aa…` / tree `21f5844f…`, exactly 2,308 commits / 2,306 net changed paths beyond installed. The 52-commit / 100-path range after `4787e4d5…` has two GitHub-verified commits and 50 unverified commits and spans MiniMax/Solstice OAuth, compaction recovery, Telegram reconnect/TLS, Discord authorization/voice, Desktop session ownership, process/install/update handling and telemetry. Treat it as compatibility-review input, not accepted Aire progress. Official stable remains v0.21.5.
+- The CLI still reports 2,053 behind and understates immutable Git by 255. Saved routing remains `gpt-6.1-sol` / `openai-codex` with `xhigh` reasoning and fallbacks `xai-oauth/grok-4.6` then `opencode-go/glm-5.3`, still contradicting the accepted DeepSeek/OpenCode Go decision. Gateway health is `200`; port `8766` remains the unrelated Sigma Homes preview with Aire routes `404`, and Cara still refuses connection at `8643`. No update, restart, routing correction, authenticated/rendered Aire journey or physical-device acceptance advanced.
+
 ## Upstream advanced 36 unverified commits; installed/runtime Aire acceptance did not — 6 October 2026, 04:08 IST cutoff
 
 - Installed Hermes remains stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. A fresh isolated mirror plus direct GitHub comparison bind immutable `main` to unsigned `4787e4d5…` / tree `252844b5…`, exactly 2,256 commits / 2,254 net changed paths beyond installed. The 36-commit / 115-path range after `57de31f8…` is entirely GitHub-unverified and spans compression telemetry, Discord/QQBot voice-media routing and authorization, browser/computer-use/plugin seams, auxiliary-model inheritance/settings, treeless-checkout update repair and plugin Automation Blueprints. Treat it as compatibility-review input, not accepted Aire progress. Official stable remains v0.21.5.
