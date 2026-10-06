@@ -51,6 +51,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-22-evolv-commercial-renovation-passport-evidence-continuity-gate]]
 - [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]]
 - [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]]
+- [[briefs/2026-10-05-evolv-commercial-pv-cyber-custody-handover-gate]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[companies/evolv-renewables]]

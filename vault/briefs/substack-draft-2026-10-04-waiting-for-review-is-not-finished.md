@@ -219,3 +219,26 @@ It is not finished.
 ## Backlink context
 
 This private draft continues the founder-journal chain from [[briefs/substack-draft-2026-09-27-more-precise-not-complete]]. Its source links create native Obsidian backlinks on the connected notes. No publication, client communication, outreach, store action, deployment, database change, payment action, push or other external action is authorised by this draft.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-03-bank-holiday-founder-reset]]
+- [[briefs/2026-08-04-tuesday-founder-regroup]]
+- [[briefs/2026-09-29-evolv-commercial-solar-triple-e-aca-decision-receipt]]
+- [[briefs/2026-09-29-heres-health-privacy-policy-audit]]
+- [[briefs/2026-09-30-openhouse-first-interaction-ai-transparency-receipt]]
+- [[briefs/2026-10-01-evolv-epbd-solar-trigger-decision-receipt]]
+- [[briefs/2026-10-02-evolv-ndmg-grant-uplift-transition-gate]]
+- [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]]
+- [[briefs/2026-10-03-porter-prive-preview]]
+- [[briefs/2026-10-04-evolv-energy-sharing-readiness-reconciliation-gate]]
+- [[briefs/substack-draft-2026-09-27-more-precise-not-complete]]
+- [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]]
+- [[items/oh-rls-audit]]
+- [[people/sam-donworth]]
+- [[project_state/donworth-studio]]
+- [[project_state/heres-health-app]]
+- [[project_state/oh]]
+- [[project_state/personal-agent]]
+- [[project_state/renew]]
+

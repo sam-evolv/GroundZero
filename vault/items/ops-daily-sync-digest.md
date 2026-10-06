@@ -530,6 +530,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[context/ground-zero-structure]]
 - [[context/ops-automation-moc]]
 - [[context/review-workflow]]
+- [[decisions/2026-08-31-agent-legible-system-design-standard]]
 - [[decisions/2026-08-31-donworth-private-alpha-openrouter-budgets-and-credential-boundary]]
 - [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]
 - [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]]

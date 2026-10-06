@@ -160,6 +160,14 @@ Official sources reviewed 4 October 2026:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]]
+- [[briefs/2026-09-25-evolv-electricity-carbon-claims-evidence-boundary]]
+- [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]]
 - [[briefs/substack-draft-2026-10-04-waiting-for-review-is-not-finished]]
+- [[companies/evolv-renewables]]
 - [[context/business-opportunities-moc]]
+- [[goals/renew-pipeline]]
+- [[items/renew-grid-automation]]
+- [[items/renew-reporting-source-baseline]]
+- [[project_state/renew]]
 
