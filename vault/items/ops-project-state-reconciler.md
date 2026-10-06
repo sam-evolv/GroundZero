@@ -12,10 +12,16 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-06T12:03:00+01:00"
+updated_at: "2026-10-06T16:13:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 6 October 2026, 16:13 IST
+
+- **Hermes upstream advanced 267 mostly unverified commits; accepted Aire state did not advance.** Installed remains exact stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. A refreshed isolated blobless mirror plus direct GitHub comparison bind immutable `main` to unsigned `bc1f2679…` / tree `3c1c3155…`, exactly 2,812 commits / 2,630 net changed paths beyond installed and 267 commits / 270 paths after `3f524a24…`; one tail commit is GitHub-verified and 266 are unverified. The tranche is led by updater/gateway debt, Desktop release/signing and packaging work, dashboard session/auth recovery and web reconnect/state-replay corrections, with related Mem0/localisation changes. The CLI still reports 2,053 behind, an undercount of 759. Saved routing remains `gpt-6.1-sol` / `openai-codex`, `xhigh`, with xAI/GLM fallbacks and therefore still contradicts the accepted DeepSeek default. Gateway health is `200`; port `8766` returns a non-Aire root but `404` at `/health`, while Cara `8643` refuses connection.
+- **Other exact named sources were materially unchanged where rechecked; Apple remains a fail-closed read gap.** Donworth Desktop/site, Here’s Health, OpenHouse, OpenBook/Empire Gym and Cara retained their recorded GitHub heads, PR/issue state and inspected public/deployment/backend state. A fresh App Store Connect browser read reached only the unauthenticated sign-in surface, so Waiting for Review at 21:01 IST on 1 October remains the last verified Apple state rather than a current assertion. Renew still names no exact inspectable live source. No authenticated, provider-transaction, client, genuine-Windows, rendered-app or physical-device acceptance advanced.
+- No canonical source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated. Only Ground Zero canonical notes were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 6 October 2026, 12:03 IST
 
