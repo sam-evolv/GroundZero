@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-06T00:14:00+01:00"
+updated_at: "2026-10-06T04:08:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 6 October 2026 04:08 IST cutoff
+
+Installed Hermes remains exact stable v0.21.5 `e496ccc7d7e0ca885041e69223683d7739123ff9` / tree `f8c58d47f2f429cdf23d76504d4ede852602add5`; local `origin/main` still equals installed, the checkout has only untracked `.review-worktrees/`, and 11 stashes remain. No fetch into the installed checkout, update, upstream-suite rerun, install or restart occurred.
+
+A fresh isolated mirror plus direct GitHub comparison bind immutable `main` at the cutoff to unsigned `4787e4d56fc8d9265d4c7d3c0fe5accee86b4078` / tree `252844b5d12a6715b76a67c8e24e4b03ea98ac10`, exactly 2,256 commits / 2,254 net changed paths beyond installed. The exact range after `57de31f8daa9201506eb7afb69e02a445d62ad03` is 36 commits / 115 paths and all 36 commits are GitHub-unverified. Queue compression failure-class/telemetry corrections; Discord multi-bot voice deduplication, channel binding and role authorization; QQBot proactive media; public captured-CDP and pluggable computer-use seams; profile-scoped plugin injection and auxiliary-slot inheritance/settings; treeless-checkout updater conversion; and plugin Automation Blueprint registration. Commit subjects and tests are not accepted Aire behavior.
+
+`hermes --version` still reports 2,053 behind and therefore understates immutable Git by 203 without an installed update. Direct config readback remains `gpt-6.1-sol` / `openai-codex`, `xhigh`, with fallbacks `xai-oauth/grok-4.6` then `opencode-go/glm-5.3`; the accepted DeepSeek routing decision remains unimplemented. Gateway `/health` is `200`. Port `8766` remains the unrelated Sigma Homes preview at the exact recorded bytes/hash, with Aire `/health` and `/api/status` `404`; Cara `8643` refuses connection. No accepted Aire uplift, authenticated/rendered journey or physical-device result advanced.
 
 ## Reconciliation checkpoint, 6 October 2026 00:14 IST cutoff
 
