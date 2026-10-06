@@ -12,10 +12,16 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-06T08:26:00+01:00"
+updated_at: "2026-10-06T12:03:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 6 October 2026, 12:03 IST
+
+- **Hermes upstream advanced 237 mostly unverified commits; accepted Aire state did not advance.** Installed remains exact stable v0.21.5 `e496ccc7…` / tree `f8c58d47…`; local tracking still equals installed, with only untracked `.review-worktrees/` and 11 stashes. A fresh isolated blobless mirror plus direct GitHub comparison bind immutable `main` to unsigned `3f524a24…` / tree `067b0be6…`, exactly 2,545 commits / 2,465 net changed paths beyond installed and 237 commits / 249 paths after `7301a9aa…`; two tail commits are GitHub-verified and 235 are unverified. The tranche is dominated by plugin-catalog work and also spans reasoning-answer promotion, plugin TTS streaming, TUI compaction/tool-busy custody, prompt-cache scaffolds, Desktop backend provenance, per-capability web keys and updater post-commit owed-work/receipt semantics. The CLI still reports 2,053 behind, an undercount of 492. Saved routing remains `gpt-6.1-sol` / `openai-codex`, `xhigh`, with xAI/GLM fallbacks and therefore still contradicts the accepted DeepSeek default. Gateway health is `200`; the unrelated Sigma Homes preview still occupies `8766` with Aire routes `404`, while Cara `8643` refuses connection.
+- **Here’s Health management authority recovered and reconfirmed the prior hosted state; other exact named sources remained materially unchanged.** Supabase again reports the project `ACTIVE_HEALTHY`, 24 migrations, 24 RLS-enabled public tables and unchanged active function versions 34/30/31/15/17/5/3. Rota remains one tenant / revision 7, one identity, five entities, one audit row, two completed requests and two version-6 conflict scopes. All 27 Square orders remain sandbox-only with 23 payment IDs; the single production Shopify session remains `awaiting-payment` with no native or confirmed order, authoritative Shopify orders remain empty, deletion remains one completed plus one requested row and notification queues remain empty. Its reconciliation heartbeat advanced to 11:00 UTC without a state transition. Public production Square, sandbox Square and Shopify health remain HTTP `200`, checkout-enabled and notification-disabled where reported. Apple remains fail-closed because running Chrome holds the real-profile credential databases, so Waiting for Review at 21:01 IST on 1 October remains the last verified Apple state. Donworth Desktop/site, OpenHouse, OpenBook/Empire Gym and Cara retained their recorded heads, PR/issue counts, Ready deployments, installed-artifact tuple and exact public-byte checkpoints where rechecked; Renew still names no exact inspectable live source. No authenticated, provider-transaction, client, genuine-Windows, rendered-app or physical-device acceptance advanced.
+- No canonical source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated. Only Ground Zero canonical notes were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 6 October 2026, 08:26 IST
 

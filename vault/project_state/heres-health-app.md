@@ -3,12 +3,18 @@ id: heres-health-app
 company_id: heres-health
 headline: "Paying client; build 8 was last verified Waiting for Review at 21:01 IST, but launch remains NO-GO. Open draft PR #6 now provides a direct matching source candidate for the hosted rota migrations and product surface, but no hosted deployment receipt binds it to that head and build 8 predates the rota tranche. Hosted rows remain 1 tenant, 1 identity, 5 entities, 1 audit row, 2 completed requests and 2 conflict scopes, including `synthetic-test-site`. Production Shopify remains awaiting payment; all 27 Square orders are sandbox-only. Apple, payment, rota UI/device, merchant and client acceptance remain unverified."
 valid: true
-updated_at: "2026-10-04T08:19:00+01:00"
+updated_at: "2026-10-06T12:03:00+01:00"
 role: project-state
 status: paid-engagement
 ---
 
 # Here’s Health app project state
+
+## Hosted authority recovered; product and launch acceptance did not advance — 6 October 2026, 12:03 IST cutoff
+
+- Direct Supabase management authority recovered after the 08:26 authentication failure and again reports `ACTIVE_HEALTHY`, 24 migrations, 24 RLS-enabled public tables and unchanged active function versions 34/30/31/15/17/5/3. The rota rows remain one tenant / revision 7, one identity, five entities, one audit row, two completed requests and two version-6 conflict scopes, including `synthetic-test-site`.
+- All 27 Square orders remain sandbox-only with 23 payment IDs. The single production Shopify session remains `awaiting-payment` with no native or confirmed order; authoritative Shopify orders remain empty, deletion remains one completed plus one requested row and notification queues remain empty. The production session's reconciliation heartbeat advanced to 11:00 UTC without a state transition. Public production Square, sandbox Square and Shopify health returned HTTP `200`; checkout remains enabled and Square notifications remain disabled. No transaction was exercised.
+- GitHub `main` and draft PRs #1/#6 remain unchanged. A fresh App Store Connect attempt again failed closed because running Chrome holds the real-profile credential databases, so **Waiting for Review at 21:01 IST on 1 October remains the last verified Apple state**, not a current-console assertion. No payment, fulfilment/refund, deletion completion, rota UI/device, merchant, client or release acceptance advanced; launch remains **NO-GO**.
 
 ## Matching rota source candidate identified; hosted/build acceptance remains open — 4 October 2026, 08:19 IST cutoff
 

@@ -10,6 +10,12 @@ created_at: "2026-08-13"
 
 # Here’s Health
 
+## Hosted authority recovered; product and launch acceptance did not advance — 6 October 2026, 12:03 IST cutoff
+
+- Direct Supabase management authority recovered after the earlier authentication failure and reconfirmed `ACTIVE_HEALTHY`, 24 migrations, 24 RLS-enabled public tables and unchanged active function versions 34/30/31/15/17/5/3. Rota remains one tenant / revision 7, one identity, five entities, one audit row, two completed requests and two version-6 conflict scopes including `synthetic-test-site`.
+- All 27 Square orders remain sandbox-only with 23 payment IDs. The single production Shopify session remains `awaiting-payment` with no native or confirmed order; authoritative Shopify orders remain empty, deletion remains one completed plus one requested row and notification queues remain empty. Its reconciliation heartbeat advanced to 11:00 UTC without a state transition. Public production Square, sandbox Square and Shopify health remain HTTP `200` and checkout-enabled; Square notifications remain disabled. No transaction was exercised.
+- GitHub heads and draft PRs #1/#6 are unchanged. The Apple-console read still fails closed on Chrome's real-profile locks, so Waiting for Review at 21:01 IST on 1 October remains the last verified Apple state. No payment, fulfilment/refund, deletion completion, rota UI/device, merchant, client or release acceptance advanced. Public launch remains **NO-GO** and paid terms are unchanged.
+
 ## Matching rota source candidate identified; hosted/build acceptance remains open — 4 October 2026, 08:19 IST cutoff
 
 - Historical `main` remains `a61ff082…`; draft PR #1 remains open/draft, clean and unreviewed at `06f17e88…`. Open/draft PR #6 is mergeable/clean at unsigned `f81f1c63…`, with 27 commits / 208 files, one successful check and zero reviews. Direct inspection shows the exact hosted migration filenames plus rota API, mobile, portal, payroll, persistence and recovery source. This corrects the prior blanket “no migration/source match” claim: a matching source candidate exists, but no inspected deployment receipt binds hosted state to that head, all commits are unverified, and build 8 predates the rota tranche.
