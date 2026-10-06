@@ -76,6 +76,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[context/irish-food-waste-wedge]] — food manufacturing yield & waste AI
 - [[context/irish-prompt-payment-copilot]] — B2B collections for Irish service firms
 - [[context/consulting-wedges]] — developer / renewables / solicitors consultancy offers
+- [[briefs/2026-10-06-donworth-digital-discovery-provider-qualification-gate]] — one unsent, sector-specific Digital Discovery provider pack before any adviser check, contact or grant claim
 
 ### Cross-cutting AI patterns
 - [[companies/personal-agent]] — active subscription personal-agent venture, working repository IrelandGPT and final name undecided
