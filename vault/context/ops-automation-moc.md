@@ -74,6 +74,7 @@ These explain *why* the automation matters, not just what it does:
 - [[context/review-workflow]] — daily/weekly review job description
 - [[context/llm-wiki-pattern]] — why auto-filing matters (Gipp pattern)
 - [[briefs/wiki-refiner-2026-06-26]] — actual run output for the refiner
+- [[briefs/wiki-refiner-2026-10-07]] — current refiner run output and graph-hygiene checkpoint
 
 
 ## Notes that link here

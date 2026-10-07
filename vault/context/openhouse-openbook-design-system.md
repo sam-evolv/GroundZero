@@ -14,7 +14,7 @@ This is the canonical design reference for future OpenHouse and OpenBook product
 
 The complete source archive has been extracted to:
 
-`vault/imports/design-systems/openhouse-openbook/`
+`vault/imports/design-systems/openhouse-openbook/` — [[imports/design-systems/openhouse-openbook/README|source README]]
 
 Start with:
 

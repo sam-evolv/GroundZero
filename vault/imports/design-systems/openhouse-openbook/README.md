@@ -2,6 +2,8 @@
 
 > **Index** · [colors_and_type.css](./colors_and_type.css) · [SKILL.md](./SKILL.md) · [assets/](./assets) · [preview/](./preview) · UI kits: [openhouse](./ui_kits/openhouse) · [openbook-business](./ui_kits/openbook-business) · [openbook-consumer](./ui_kits/openbook-consumer)
 
+Obsidian indexes: [[imports/design-systems/openhouse-openbook/ui_kits/openhouse/README|OpenHouse UI kit]] · [[imports/design-systems/openhouse-openbook/ui_kits/openbook-business/README|OpenBook business UI kit]] · [[imports/design-systems/openhouse-openbook/ui_kits/openbook-consumer/README|OpenBook consumer UI kit]]
+
 
 Two premium SaaS products under **OpenHouse AI Limited** (Cork, Ireland), founded by Sam Donworth. They share a single design DNA — black and brand gold, Inter + Source Serif 4, Apple-grade polish — but fork into distinct surfaces for different audiences.
 

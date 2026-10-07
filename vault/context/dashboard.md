@@ -2,7 +2,7 @@
 title: Ground Zero Dashboard
 purpose: Single view of what needs attention across all businesses
 kind: dashboard
-updated: "2026-10-07"
+updated: "2026-10-08"
 ---
 
 # Ground Zero Dashboard
@@ -38,7 +38,7 @@ updated: "2026-10-07"
 - 🟢 [[project_state/heres-health-app|heres-health-app]]: Paying client; verified GitHub `main` advanced 215 commits to `35514253…` after draft/unreviewed PR #1 was merged, and production gained source-backed Square-event retention plus two retention crons. Edge Function versions are unchanged, build 8 remains the last Apple-verified binary, and no 1.0.1 native build/upload/device receipt exists. Commerce, deletion, notifications, rota UI/device, merchant and client acceptance remain open; launch stays NO-GO.
 - 🟢 [[project_state/ob|ob]]: Empire Gym production moved to Ready CLI deployment `dpl_Es9HL…`, whose metadata names remote `feat/empire-gym-live` commit `b53f724…`; GymMaster CTAs and the admin login remain rendered. The remote branch is now clean at `603ee53…`, one commit past the deployed tree; authenticated editing/photo isolation, billing/access/payment and downstream enrollment remain unverified.
 - 🟢 [[project_state/oh|oh]]: Production source advanced seven verified commits / 60 files to `31a66a14…` and exact-head Ready deployment `dpl_Ddf8…` now owns `portal.openhouseai.ie`. The tranche includes source-level auth, tenant-ownership and tenant-scoped analytics fixes, but no migration path; Supabase advisor counts remain 30/2/17/4 plus disabled leaked-password protection, and no controlled cross-user actor path, persisted-row or authenticated homeowner acceptance was exercised.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes remains v0.21.5 `9aaef03b` / tree `f2eafe43`; immutable GitHub `main` is now unsigned `db48af24…` / tree `b620054b…`, 535 commits ahead. The exact tail after `1ab79836…` is 19 unverified commits / 77 paths. The CLI now reports 528 behind and retains its restart warning. Saved Skippy remains `gpt-6.1-sol` / `openai-codex`, `xhigh`, now with no fallback keys, still contradicting the accepted DeepSeek route. Both documented Aire ports remain non-Aire, Cara and receipt port `8778` are offline, and no authenticated/rendered Aire or physical-device acceptance advanced.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes remains v0.21.5 `9aaef03b` / tree `f2eafe43`; immutable GitHub `main` is now verified `bc2e4d37…` / tree `0eb6dbc8…`, 770 commits ahead by explicit pagination. The exact range after `db48af24…` is 235 commits, 47 GitHub-verified and 188 unverified, with the file list capped at 300; the additional 184-commit tranche is dominated by the V1 onboarding bundle. Current CLI output retains the restart warning but omits a commits-behind count; health remains `200` / v0.21.5 without SHA. Saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`; Forge Kimi, Vera Grok and Luna delegation remain. Both documented Aire ports remain non-Aire, Cara and receipt port `8778` are offline, and no authenticated/rendered Aire or physical-device acceptance advanced.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -62,4 +62,4 @@ updated: "2026-10-07"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-10-07 20:18 IST
+- Dashboard: 2026-10-08 00:20 IST

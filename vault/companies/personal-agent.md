@@ -9,6 +9,16 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced another 184 commits into the V1 onboarding bundle; accepted Aire state did not — 8 October 2026, 00:20 IST cutoff
+
+- Installed remains unsigned `9aaef03b…` / tree `f2eafe43…`; direct GitHub authority now binds `main` to verified merge `bc2e4d37…` / tree `0eb6dbc8…`, 770 commits ahead by explicit paginated comparison. The full gap has 51 verified and 719 unverified commits. The exact range after `db48af24…` is 235 commits, 47 verified and 188 unverified, with GitHub's file list capped at 300. The additional 184 commits after transient `3b288d85…` are dominated by the V1 onboarding bundle across setup ownership, Desktop first-run/tour/handoff/first-task UX, connector/plugin setup, free-tier auth and cooldowns, local-model flows, packaging, Windows paths, metrics and localisation. Treat this as review input only.
+- Current CLI output still names v0.21.5 and retains the restart warning but omits a commits-behind count; health is `200` / v0.21.5 without SHA. Saved Skippy remains unapproved `gpt-6.1-sol`; Forge Kimi, Vera Grok and Luna delegation remain. Both documented Aire ports are non-Aire, while Cara and receipt port `8778` are offline. No update, restart, routing change, authenticated/rendered Aire journey or device acceptance ran.
+
+## Upstream advanced 51 mixed-signature commits; accepted Aire state did not — 8 October 2026, 00:10 IST cutoff
+
+- Installed source remains unsigned `9aaef03b…` / tree `f2eafe43…`; direct GitHub authority now binds `main` to unsigned `3b288d85…` / tree `098e9ce7…`, exactly 586 commits ahead. The exact tail after `db48af24…` is 51 commits / 88 paths with three GitHub-verified and 48 unverified commits; the full paginated gap contains seven verified and 579 unverified. The tranche materially changes Desktop interaction defaults, model/catalogue data, external-CLI discovery, FTS repair, dashboard auth/build caps, Windows startup/runtime paths, Kanban board lifecycle, lease locking and plugin disclosure. Treat it as review input only.
+- The CLI still reports v0.21.5 and 528 behind, undercounting direct Git by 58; health is `200` / v0.21.5 without commit identity, and the restart warning remains. Saved Skippy stays on unapproved `gpt-6.1-sol`; Forge Kimi, Vera Grok and Luna delegation remain. `8766` and `8767` are non-Aire, while Cara `8643` and recorded receipt port `8778` are offline. No update, restart, routing change, authenticated/rendered Aire journey or device acceptance ran.
+
 ## Upstream advanced 19 unverified commits; CLI lag narrowed and fallback drift changed — 7 October 2026, 20:18 IST cutoff
 
 - Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; direct GitHub authority now binds upstream `main` to unsigned `db48af24…` / tree `b620054b…`, exactly 535 commits ahead. The exact tail after `1ab79836…` is 19 entirely unverified commits / 77 paths spanning structured-reasoning UI, remote-profile handling, package-manager orphan reclamation, Kanban workspace cleanup, MCP registration safety, model endpoint handling and group-thread room context. This is compatibility-review input, not accepted Aire behaviour.

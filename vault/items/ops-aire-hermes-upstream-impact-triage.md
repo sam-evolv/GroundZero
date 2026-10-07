@@ -13,10 +13,26 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-07T20:18:00+01:00"
+updated_at: "2026-10-08T00:20:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 8 October 2026 00:20 IST cutoff
+
+Direct GitHub authority now binds upstream `main` to verified merge `bc2e4d3773518f2129023383a29dc51133dc6048` / tree `0eb6dbc81bdc197c59f9bd9379f3fff80ec81fa1`, 184 commits after transient `3b288d8562646556f7baf6697478963645b6ca52` and 770 commits ahead of installed `9aaef03b06fe237c022ab2f5bd526d706047d022` by explicit pagination. The full gap has 51 GitHub-verified and 719 unverified commits. The ordinary installed-to-head compare summary returned GitHub HTTP `500`; do not substitute a summary count for the paginated receipt. The exact range after retained checkpoint `db48af245aec43aaadd54a92afd3b9f0c187f5ca` is 235 commits, 47 verified and 188 unverified, with the file list capped at 300.
+
+Queue the V1 onboarding tranche's setup-profile/tool ownership, Desktop first-run cards/tour/handoff and first-task execution, connector/plugin setup, free-tier authentication and cooldown handling, local-model flow, packaging progress, Windows package-manager paths, shared metrics and localisation for bounded compatibility review, alongside the earlier Desktop/runtime/Kanban tranche. Official stable remains `v2026.9.24` / v0.21.5. Upstream source and tests are not accepted Aire behaviour.
+
+Current `hermes status --all` retains the mixed-module restart warning and reports v0.21.5 but omits a commits-behind count, so the 00:10 value of 528 is historical rather than current CLI evidence. Health remains HTTP `200` / v0.21.5 without commit identity. Saved Skippy routing remains unapproved `gpt-6.1-sol` / `openai-codex`; Forge Kimi, Vera Grok and Luna delegation remain. Ports `8766` and `8767` are non-Aire, while Cara `8643` and recorded receipt port `8778` refuse connections. No update, restart, routing correction, source integration, provider transaction, authenticated/rendered Aire journey or physical-device acceptance was performed.
+
+## Reconciliation checkpoint, 8 October 2026 00:10 IST cutoff
+
+Installed Hermes remains unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. Direct GitHub authority now binds upstream `main` to unsigned `3b288d8562646556f7baf6697478963645b6ca52` / tree `098e9ce79d4dc24190b6aec192df397465e67311`, exactly 586 commits ahead. The paginated full gap contains seven GitHub-verified and 579 unverified commits; GitHub's comparison file list is capped at 300. The exact range after `db48af245aec43aaadd54a92afd3b9f0c187f5ca` is 51 commits / 88 paths: three verified and 48 unverified.
+
+Queue the tranche's Desktop UI-scale/chat-zoom defaults, undoable hiding, custom-model choice and image/link previews; Bedrock pricing and model catalogues; external-CLI discovery including Windows path handling; SQLite FTS repair; dashboard loopback auth/build resource caps; Windows Chromium/gateway startup; Kanban board tombstones and stale-slug rejection; lease-refresh locking; and plugin-skill disclosure for bounded compatibility review. Official stable remains `v2026.9.24` / v0.21.5. Source descriptions and tests are not accepted Aire behaviour.
+
+The CLI still reports 528 behind, understating immutable Git by 58, and retains the mixed-module restart warning. Health remains HTTP `200` / v0.21.5 without commit identity. Saved Skippy routing remains unapproved `gpt-6.1-sol` / `openai-codex`, with no default fallback keys; Forge Kimi, Vera Grok and Luna delegation remain. Ports `8766` and `8767` remain non-Aire, while Cara `8643` and the recorded Aire receipt port `8778` refuse connections. No update, restart, routing correction, source integration, provider transaction, authenticated/rendered Aire journey or physical-device acceptance was performed.
 
 ## Reconciliation checkpoint, 7 October 2026 20:18 IST cutoff
 
