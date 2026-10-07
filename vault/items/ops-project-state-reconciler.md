@@ -12,10 +12,16 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-06T16:13:00+01:00"
+updated_at: "2026-10-07T00:08:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 7 October 2026, 00:08 IST
+
+- **Installed Hermes materially advanced; accepted Aire behaviour did not.** Git reflog records a 20:25:54 IST fast-forward from `e496ccc7…` to unsigned `9aaef03b…` / tree `f2eafe43…`, exactly 3,062 commits / 2,818 net changed paths. Local tracking now equals installed, with only untracked `.review-worktrees/` and 11 stashes. Direct GitHub readback binds immutable `main` to unsigned `59a3866e…` / tree `4b2a5129…`, 159 commits ahead; the comparison hit the 300-file cap. The CLI reports only 44 behind. The current gateway process started after the update and returns health `200` / v0.21.5, but its health payload exposes no exact SHA. Saved routing remains on the unapproved `gpt-6.1-sol` / `openai-codex`, `xhigh`, xAI/GLM-fallback drift. Port `8766` remains non-Aire and Cara remains offline.
+- **Other exact named sources did not materially advance where rechecked.** Donworth Desktop/site GitHub heads, draft PR #13, signed installed v0.18.9 tuple and exact public root/privacy bytes remain unchanged; statusless deployment record `6857393213` still has no statuses. Here’s Health remains `ACTIVE_HEALTHY`: draft PR #6 still has one successful exact-head check, rota counts remain 1/1/5/1/2/2, all 27 Square orders remain sandbox-only with 23 payment IDs, and the one production Shopify session remains `awaiting-payment` with no native or confirmed order after a 23:05 UTC reconciliation heartbeat; notification rows remain empty. A fresh App Store Connect read failed closed because running Chrome held the real profile's `Login Data`, `Login Data For Account` and `Web Data` SQLite databases under write locks, so Waiting for Review at 21:01 IST on 1 October remains the last verified Apple state rather than a current-console assertion. OpenHouse and OpenBook source heads and anonymous public surfaces remain available and unchanged where read; Renew still names no exact inspectable live source. Authenticated journeys, provider transactions, client, genuine-Windows and physical-device acceptance were not advanced or inferred.
+- No canonical source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated. Only Ground Zero canonical notes were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 6 October 2026, 16:13 IST
 

@@ -2,7 +2,7 @@
 title: Ground Zero Dashboard
 purpose: Single view of what needs attention across all businesses
 kind: dashboard
-updated: "2026-10-06"
+updated: "2026-10-07"
 ---
 
 # Ground Zero Dashboard
@@ -38,7 +38,7 @@ updated: "2026-10-06"
 - 🟢 [[project_state/heres-health-app|heres-health-app]]: Paying client; build 8 was last verified Waiting for Review at 21:01 IST, but launch remains NO-GO. Open draft PR #6 now provides a direct matching source candidate for the hosted rota migrations and product surface, but no hosted deployment receipt binds it to that head and build 8 predates the rota tranche. Hosted rows remain 1 tenant, 1 identity, 5 entities, 1 audit row, 2 completed requests and 2 conflict scopes, including `synthetic-test-site`. Production Shopify remains awaiting payment; all 27 Square orders are sandbox-only. Apple, payment, rota UI/device, merchant and client acceptance remain unverified.
 - 🟢 [[project_state/ob|ob]]: Empire Gym production moved to Ready CLI deployment `dpl_Es9HL…`, whose metadata names remote `feat/empire-gym-live` commit `b53f724…`; GymMaster CTAs and the admin login remain rendered. The remote branch is now clean at `603ee53…`, one commit past the deployed tree; authenticated editing/photo isolation, billing/access/payment and downstream enrollment remain unverified.
 - 🟢 [[project_state/oh|oh]]: Production source advanced seven verified commits / 60 files to `31a66a14…` and exact-head Ready deployment `dpl_Ddf8…` now owns `portal.openhouseai.ie`. The tranche includes source-level auth, tenant-ownership and tenant-scoped analytics fixes, but no migration path; Supabase advisor counts remain 30/2/17/4 plus disabled leaked-password protection, and no controlled cross-user actor path, persisted-row or authenticated homeowner acceptance was exercised.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes remains stable v0.21.5 `e496ccc7` / tree `f8c58d47`; immutable GitHub `main` is unsigned `bc1f2679…` / tree `3c1c3155…`, 2,812 commits / 2,630 net changed paths ahead. The 267-commit / 270-path tail after `3f524a24…` has one GitHub-verified commit and 266 unverified commits, led by updater/gateway debt, Desktop release/signing, dashboard session/auth recovery and web reconnect work. The CLI reports 2,053 behind and understates immutable Git by 759. Saved routing remains `gpt-6.1-sol` / `openai-codex`, `xhigh`, with xAI/GLM fallbacks, still contradicting the accepted DeepSeek default. Gateway health is `200`; port `8766` remains a non-Aire preview whose health route is `404`, Cara remains offline, and no accepted runtime or physical-device journey advanced.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Installed Hermes fast-forwarded to unsigned `9aaef03b…` / tree `f2eafe43…`, exactly 3,062 commits / 2,818 paths beyond the prior installed cut. Immutable GitHub `main` is unsigned `59a3866e…` / tree `4b2a5129…`, 159 commits ahead; GitHub hit its 300-file comparison cap, while the CLI reports only 44 behind. Saved routing remains on the unapproved `gpt-6.1-sol` / `openai-codex`, `xhigh`, xAI/GLM-fallback route. Gateway health is `200`, but no exact-SHA runtime binding or authenticated/rendered Aire acceptance was established; port `8766` remains non-Aire and Cara remains offline.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -62,4 +62,4 @@ updated: "2026-10-06"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-10-06 16:19 IST
+- Dashboard: 2026-10-07 00:08 IST

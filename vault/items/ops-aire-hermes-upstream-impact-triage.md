@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-06T16:13:00+01:00"
+updated_at: "2026-10-07T00:08:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 7 October 2026 00:08 IST cutoff
+
+Installed Hermes fast-forwarded at 20:25:54 IST on 6 October from `e496ccc7d7e0ca885041e69223683d7739123ff9` to unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. The exact installed range is 3,062 commits / 2,818 net changed paths; local `origin/main` now equals installed, with only untracked `.review-worktrees/` and 11 stashes. The update actor and approval path are open. No upstream-suite rerun or Aire acceptance was inferred from the source transition.
+
+Direct GitHub readback binds immutable `main` to unsigned `59a3866ea5a07290afd9a1d137d52d679b77f3ab` / tree `4b2a5129a239570d4b5ff67f2b79f7bdd87423e4`, 409 commits beyond the prior canonical upstream head and 159 commits beyond installed. The comparison returned the maximum 300 files, so exact current net path count remains open. Official stable remains `v2026.9.24` / v0.21.5. `hermes --version` reports only 44 behind, understating immutable Git by 115.
+
+Direct non-secret config readback remains `gpt-6.1-sol` / `openai-codex`, `xhigh`, with `xai-oauth/grok-4.6` and `opencode-go/glm-5.3` fallbacks; the accepted DeepSeek route remains unimplemented. The current gateway process started after the fast-forward and reports health `200` / v0.21.5, but its health payload does not expose an exact commit. Port `8766` remains non-Aire and Cara `8643` refuses connection. No authenticated/rendered Aire journey or physical-device result advanced.
 
 ## Reconciliation checkpoint, 6 October 2026 16:13 IST cutoff
 
