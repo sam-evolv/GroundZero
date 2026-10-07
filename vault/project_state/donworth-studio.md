@@ -10,6 +10,16 @@ status: building
 
 # Donworth Studio project state
 
+## Manual Decisions check ready for source review, provider activation separate: 7 October 2026
+
+- Local isolated candidate `67b9d63a3523c8456ba72794f32f3aa2144d076e` adds a manual Saved Jobs
+  check, default offline shadow, explicit abstentions and human review. Verified 254 Python
+  and 38 UI/localization tests plus 12 synthetic contract cases; live provider calls zero.
+  PR13 dependency, provider entitlement/evaluation approval and Desktop packaging/acceptance
+  remain open. No installed/release, personal Hermes, Here's Health or other preview state
+  advanced. See [[items/donworth-studio-decisions-2026-10-07]] for exact artifact and gaps.
+  This is a local Ground Zero edit; no commit, push or sync initiated.
+
 ## Public release unchanged; reconciliation added an unapproved statusless GitHub deployment record — 5 October 2026, 12:17 IST cutoff
 
 - At 11:07:41 UTC this reconciliation used a read-only-intended `gh api` command without `-X GET`, unintentionally creating GitHub deployment record `6857393213` for private site repository `sam-evolv/donworth-ai-solutions-site`, environment `production`, ref `main`, unchanged SHA `104ac7fc4bdaa1a0febe182b4f708516b097bfa0`. Direct readback shows an empty status list. This is an unapproved external metadata mutation, not proof of a build, deploy or publication. No automatic rollback was attempted; deletion or retention remains Sam's decision.
