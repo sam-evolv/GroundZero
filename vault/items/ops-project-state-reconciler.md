@@ -12,10 +12,20 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-07T08:10:00+01:00"
+updated_at: "2026-10-07T12:15:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 7 October 2026, 12:15 IST
+
+- **Hermes GitHub `main` was rewritten after the 12:07 read; accepted Aire state still did not advance.** Transient head `3b23fca4…` no longer resolves through the commit API (`422`) and its comparison to current `main` returns `404`. Current authority is unsigned `80852053…` / tree `81b7d0f5…`, exactly 347 commits ahead of installed `9aaef03b…`. The full paginated comparison contains four verified and 343 unverified commits, with the file list capped at 300. The retained `05eecbcd…` checkpoint remains resolvable; current `main` is exactly 73 entirely unverified commits / 105 paths beyond it, superseding the transient 96-commit / 146-path range. The current tail materially covers messaging-secret fail-closed handling, Anthropic/auxiliary token rotation and compression, cron/gateway startup-drain delivery custody, Photon threading, Desktop resume, voice routing, memory redaction, skills review, Windows browser selection and updater recovery. Actor, approval and exact rewrite mechanism remain open.
+- **Runtime and other project evidence remain bounded.** The CLI still reports only 44 behind, an undercount of 303; its restart warning persists, and health remains `200` / v0.21.5 without commit identity. Saved routes, the non-Aire `8766` service and offline Cara state are unchanged. No new live evidence established a material transition for Donworth Studio, Here’s Health, OpenHouse, OpenBook/Empire Gym or Renew, so their 08:10 states were preserved. No source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated. Only Ground Zero canonical notes were updated locally; no commit or sync was attempted.
+
+## Reconciliation checkpoint — 7 October 2026, 12:07 IST
+
+- **Hermes upstream materially advanced; accepted Aire state did not.** Installed remains unsigned `9aaef03b…` / tree `f2eafe43…`; direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `3b23fca4…` / tree `3e3bf971…`, exactly 370 commits ahead. The exact 96-commit / 146-path tail after `05eecbcd…` is entirely GitHub-unverified. It is dominated by 78 plugin-catalogue/migration commit subjects and also changes GraphQL/MCP transport, terminal/process lifecycle, Desktop/gateway/TUI paths, browser image-context handling, duplicate-skill activation, MLX packaging and Windows publication. The CLI still reports only 44 behind, an undercount of 326, and retains its mixed-module restart warning; health remains `200` / v0.21.5 without commit identity. Saved routing is unchanged: default Skippy remains on unapproved `gpt-6.1-sol` / `openai-codex`, Forge and Vera retain the accepted Kimi/Grok role defaults, delegation uses Luna, and default background review uses Astra. Port `8766` remains non-Aire and Cara remains offline. No update, restart, routing correction, authenticated/rendered Aire journey or physical-device acceptance ran.
+- **Other exact named sources retained the prior verified checkpoint.** No new live evidence in this run established a material transition for Donworth Studio, Here’s Health, OpenHouse, OpenBook/Empire Gym or Renew, so their 08:10 canonical states were preserved rather than rewritten. No canonical source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated. Only Ground Zero canonical notes were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 7 October 2026, 08:10 IST
 

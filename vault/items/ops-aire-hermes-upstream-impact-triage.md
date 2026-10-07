@@ -13,10 +13,24 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-07T08:10:00+01:00"
+updated_at: "2026-10-07T12:15:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 7 October 2026 12:15 IST cutoff
+
+GitHub `main` was rewritten after the 12:07 read. The transient head `3b23fca4f871161c914e9db146d24cf0cf07c0fa` no longer resolves through the commit API (`422`), and its comparison to current `main` returns `404`. Direct authority now binds `main` to unsigned `808520532cf7c48c3eccb09476fb3cde379b02e9` / tree `81b7d0f548e2cabecbd63fa8e04aa15f435baadf`, exactly 347 commits ahead of installed `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. The full paginated comparison contains four GitHub-verified and 343 unverified commits; the changed-file list hits the 300-file API cap. Actor, approval and exact rewrite mechanism remain open.
+
+The retained `05eecbcd972c8737ebc7722ea08aab47fb538043` checkpoint remains resolvable and current `main` is exactly 73 commits / 105 paths beyond it; all 73 are GitHub-unverified. Queue this corrected tail's messaging-secret fail-closed handling, Anthropic/auxiliary token rotation and compression, cron/gateway startup-drain delivery custody, Photon threading, Desktop resume, dedicated voice routing, memory redaction, background skill review, Windows default-browser selection and updater recovery. This supersedes the transient 96-commit / 146-path queue recorded at 12:07 while preserving it as historical evidence. Official stable remains v0.21.5.
+
+The CLI still reports only 44 behind, understating current immutable Git by 303, and retains the mixed-module restart warning. Default health remains HTTP `200` / v0.21.5 without commit identity. Saved routing, the non-Aire `8766` service and offline Cara state are unchanged. No update, restart, routing correction, authenticated/rendered Aire journey or physical-device acceptance was performed.
+
+## Reconciliation checkpoint, 7 October 2026 12:07 IST cutoff
+
+Installed Hermes remains unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`, with only `.review-worktrees/` untracked. Direct GitHub authority now binds upstream `main` to unsigned `3b23fca4f871161c914e9db146d24cf0cf07c0fa` / tree `3e3bf9715912977056768e1a2ddbd5295e2b88a2`, exactly 370 commits ahead. The exact range after `05eecbcd972c8737ebc7722ea08aab47fb538043` is 96 commits / 146 paths and all 96 commits are GitHub-unverified. Queue the tail's dominant 78 plugin-catalogue/migration commit subjects plus GraphQL/MCP transport, terminal/process lifecycle, Desktop/gateway/TUI paths, browser image-context handling, duplicate-skill activation, MLX packaging and Windows publication for bounded compatibility review. Official stable remains v0.21.5.
+
+The CLI still reports only 44 behind, understating immutable Git by 326, and `hermes status --all` retains the mixed-module restart warning. Default health remains HTTP `200` / v0.21.5 but has no commit identity. Saved routing is unchanged: default Skippy remains `gpt-6.1-sol` / `openai-codex`, contrary to the accepted DeepSeek/OpenCode Go route; Forge is `kimi-k2.7-code` / `opencode-go`; Vera is `grok-4.6` / `xai-oauth`; delegation is `gpt-5.6-luna` / `openai-codex`; and default background review is `gpt-6-astra`. Port `8766` remains non-Aire and Cara `8643` remains offline. No update, restart, routing correction, authenticated/rendered Aire journey or physical-device acceptance was performed.
 
 ## Reconciliation checkpoint, 7 October 2026 08:10 IST cutoff
 
