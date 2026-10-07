@@ -99,6 +99,7 @@ The live programme page is authoritative for current programme existence and its
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-10-06-donworth-digital-discovery-provider-qualification-gate]]
 - [[briefs/openhouse-longview-developer-proof-pack-2026-08-03]]
 - [[companies/openhouse-ai]]
 - [[context/business-opportunities-moc]]

@@ -181,6 +181,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]]
 - [[briefs/2026-10-04-evolv-energy-sharing-readiness-reconciliation-gate]]
 - [[briefs/2026-10-05-evolv-commercial-pv-cyber-custody-handover-gate]]
+- [[briefs/2026-10-06-donworth-digital-discovery-provider-qualification-gate]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/cara-starter-product-spec]]
 - [[briefs/cara-success-strategy-2026-07-11]]

@@ -154,6 +154,7 @@ financial pressure.
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-01-donworth-imessage-owner-desk-validation-wedge]]
+- [[briefs/2026-10-06-donworth-digital-discovery-provider-qualification-gate]]
 - [[briefs/substack-draft-2026-08-30-a-client-said-proceed]]
 - [[briefs/substack-draft-2026-09-06-proceed-was-too-strong]]
 - [[companies/donworth-ai-solutions]]

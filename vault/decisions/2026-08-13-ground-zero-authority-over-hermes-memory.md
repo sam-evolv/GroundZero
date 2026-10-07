@@ -51,7 +51,6 @@ A request materially dependent on Sam's history, projects, people, decisions or 
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-08-25-heres-health-square-react-native-android-16-payment-rail-proof]]
 - [[briefs/2026-09-28-cross-agent-ground-zero-continuity-proposal]]
-- [[companies/personal-agent]]
 - [[context/ground-zero-structure]]
 - [[context/index]]
 - [[context/model-pack]]

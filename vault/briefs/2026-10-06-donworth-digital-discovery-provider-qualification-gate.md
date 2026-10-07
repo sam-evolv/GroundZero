@@ -152,3 +152,8 @@ Official sources reviewed 6 October 2026:
 - [[briefs/2026-09-11-openhouse-built-to-innovate-buyer-subsidy-gate]] — adjacent buyer-side residential funding test, not duplicated here
 - [[companies/heres-health]] — paying client and protected delivery priority
 - [[goals/renew-pipeline]] — renewable-sector commercial context
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+
