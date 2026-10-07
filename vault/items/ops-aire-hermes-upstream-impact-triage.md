@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-07T12:15:00+01:00"
+updated_at: "2026-10-07T16:12:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 7 October 2026 16:12 IST cutoff
+
+Installed Hermes remains unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`, with only `.review-worktrees/` untracked. Direct GitHub authority now binds upstream `main` to unsigned `1ab7983641fb245247ade2190d2bb8dfd9a25127` / tree `60c07e69230d28ac5598e125fd00a857076cafb3`, exactly 516 commits ahead. The exact range after retained checkpoint `808520532cf7c48c3eccb09476fb3cde379b02e9` is 169 commits / 139 paths; GitHub marks all 169 unverified.
+
+Queue the tail's dominant plugin-catalogue additions and repins; POSIX gateway pause/drain and updater lock-recovery work; truthful user/system interrupt attribution; cron store-health, stale-claim and queued-run handling; profile-scoped OAuth custody; update-failure telemetry; foreground terminal heartbeat normalization; and Windows CI routing for bounded compatibility review. Official stable remains `v2026.9.24` / v0.21.5. Source descriptions, tests and CI changes are not accepted Aire behaviour.
+
+The CLI still reports only 44 behind, understating immutable Git by 472, and retains the mixed-module restart warning. Health remains HTTP `200` / v0.21.5 without commit identity. Port `8766` still serves the non-Aire Sigma Homes static preview and port `8767` serves a separate non-Aire “Three Fools | App preview”; both return `404` at `/health`. Cara `8643` and Aire receipt port `8778` refuse connections. No update, restart, routing correction, source integration, authenticated/rendered Aire journey or physical-device acceptance was performed.
 
 ## Reconciliation checkpoint, 7 October 2026 12:15 IST cutoff
 

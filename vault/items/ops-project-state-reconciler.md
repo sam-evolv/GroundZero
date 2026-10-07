@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-07T12:15:00+01:00"
+updated_at: "2026-10-07T16:12:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 7 October 2026, 16:12 IST
+
+- **Hermes upstream materially advanced; accepted Aire state still did not.** Installed remains unsigned `9aaef03b…` / tree `f2eafe43…`, while direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `1ab79836…` / tree `60c07e69…`, exactly 516 commits ahead. The exact tail after retained checkpoint `80852053…` is 169 commits / 139 paths and all 169 commits are GitHub-unverified. It is dominated by plugin-catalogue work and also spans gateway pause/drain plus updater lock recovery, truthful interrupt attribution, cron store/liveness and queued-run handling, profile OAuth custody, update telemetry, terminal heartbeat normalization and Windows CI routing. The CLI still reports only 44 behind, an undercount of 472; the mixed-module restart warning persists and health remains `200` / v0.21.5 without commit identity.
+- **Both documented Aire ports are live but non-Aire.** Port `8766` still serves the Sigma Homes static preview (root HTTP `200`, 203,703 bytes, SHA-256 `079b48ab…`; `/health` `404`). Port `8767` serves a separate “Three Fools | App preview” static root (HTTP `200`, 115,755 bytes, SHA-256 `c355e3ae…`; `/health` `404`) from `/private/tmp/claude-501/fools`. Cara `8643` and Aire receipt port `8778` refuse connections. Process existence and HTML availability do not establish Aire runtime or rendered acceptance.
+- **Other exact named sources were materially unchanged where rechecked.** Donworth Desktop/site remain `a1cec24e…` / `104ac7fc…`, with candidate `5f10c5c2…` still local-only, signed installed Mac v0.18.9 unchanged, Ready `dpl_AcQG…`, Windows 0.18.12 / Mac ARM 0.18.2 feeds and Mac Intel HTTP `503`; the statusless GitHub deployment record still has zero statuses. Here’s Health remains `ACTIVE_HEALTHY` at historical `main` `a61ff082…`, open/draft PR heads `06f17e88…` and `f81f1c63…`, 24 migrations / 24 RLS-enabled tables, unchanged active function versions, rota counts and commerce/deletion outcomes; its one production Shopify session remains `awaiting-payment` without native or confirmed order. App Store Connect could not be reopened because running Chrome held the real-profile credential databases, so Waiting for Review at 21:01 IST on 1 October remains the last verified Apple state. OpenHouse remains `31a66a14…` with 12 open PRs / six non-PR issues on Ready `dpl_Ddf8…` and unchanged security-advisor findings. OpenBook/Empire Gym remain `c72bf48…` / `603ee53…`, two open PRs / two issues and Ready `dpl_Es9HL…`. Cara remains parked at `f46d501…`; Renew still names no exact inspectable live source. No authenticated, payment, client, genuine-Windows, rendered-app or physical-device acceptance advanced.
+- No canonical source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated. Only Ground Zero canonical notes were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 7 October 2026, 12:15 IST
 

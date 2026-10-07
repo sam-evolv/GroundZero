@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; rewritten upstream is now unsigned `80852053…` / tree `81b7d0f5…`, 347 commits ahead. The retained `05eecbcd…` checkpoint is 73 unverified commits / 105 paths behind current main, while transient head `3b23fca4…` no longer resolves. The CLI still reports only 44 behind, the restart warning persists, port 8766 is non-Aire and Cara remains offline, so no authenticated/rendered or physical-device acceptance advanced.
+headline: Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; upstream is now unsigned `1ab79836…` / tree `60c07e69…`, 516 commits ahead. The exact tail after `80852053…` is 169 unverified commits / 139 paths, while the CLI still reports only 44 behind and retains the restart warning. Ports 8766 and 8767 are non-Aire static previews, Cara remains offline, and no authenticated/rendered or physical-device acceptance advanced.
 status: building
 updated: 2026-10-07
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced 169 unverified commits; both documented Aire ports remain non-Aire — 7 October 2026, 16:12 IST cutoff
+
+- Installed Hermes remains unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`, with only `.review-worktrees/` untracked. Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `1ab7983641fb245247ade2190d2bb8dfd9a25127` / tree `60c07e69230d28ac5598e125fd00a857076cafb3`, exactly 516 commits ahead of installed. The exact range after the retained `808520532cf7c48c3eccb09476fb3cde379b02e9` checkpoint is 169 commits / 139 paths and all 169 commits are GitHub-unverified.
+- Queue the tail's dominant plugin-catalogue additions/repins plus POSIX gateway pause/drain and updater lock recovery; truthful user-versus-system interrupt attribution; cron store/liveness and queued-run handling; profile-scoped OAuth custody; update-failure telemetry; foreground terminal heartbeat normalization; and Windows CI routing for bounded compatibility review. Commit subjects, tests and CI changes are source evidence, not accepted Aire behaviour. Official stable remains `v2026.9.24` / v0.21.5.
+- `hermes --version` still reports only 44 commits behind, understating immutable Git by 472, and `hermes status --all` retains the mixed-module restart warning. Default health remains HTTP `200` / v0.21.5 without commit identity. HTTP readback shows port `8766` still serving the non-Aire Sigma Homes preview (203,703-byte root / SHA-256 `079b48ab71c2f1ae61af00800e4b09f3c0fe9097e4fe2597252dd9d1c9810901`, `/health` `404`) and port `8767` serving a separate non-Aire “Three Fools | App preview” root (115,755 bytes / SHA-256 `c355e3aeaf3058d65c6ec776574647c92a2625a42af8ff37e72708210d45bc94`, `/health` `404`). Cara `8643` and Aire receipt port `8778` refuse connections. This is availability and HTML evidence only; no update, restart, source integration, authenticated/rendered Aire journey or physical-device acceptance was performed.
 
 ## GitHub main history rewrote; current tail is 73 unverified commits — 7 October 2026, 12:15 IST cutoff
 
