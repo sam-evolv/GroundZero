@@ -13,10 +13,16 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-07T04:20:00+01:00"
+updated_at: "2026-10-07T08:10:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 7 October 2026 08:10 IST cutoff
+
+Installed Hermes remains unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`, with only `.review-worktrees/` untracked. Direct GitHub authority now binds upstream `main` to unsigned `05eecbcd972c8737ebc7722ea08aab47fb538043` / tree `20b3039468ec59917f57fe90b06c7b6563155826`, exactly 274 commits ahead. The exact range after `0e37a439bda15ef3c28a4d20593964d7c6a527a6` is 99 commits / 148 paths and all 99 commits are GitHub-unverified. Queue the tranche's cron unwritable-store continuity, recovery notices and observability; Desktop fish-shell, theme and interruption handling; Kanban workflow-state definition; MCP/vision image custody; LM Studio/Tencent provider profiles; and bundled OpenViking removal for bounded compatibility review. Official stable remains v0.21.5.
+
+The CLI still reports only 44 behind, understating immutable Git by 230, and `hermes status --all` retains the mixed-module restart warning. Default health is HTTP `200` / v0.21.5 but has no commit identity. Saved routing is now partially aligned: default Skippy remains `gpt-6.1-sol` / `openai-codex`, contrary to the accepted DeepSeek/OpenCode Go route; Forge is `kimi-k2.7-code` / `opencode-go`; Vera is `grok-4.6` / `xai-oauth`; delegation is `gpt-5.6-luna` / `openai-codex`; and default background review is `gpt-6-astra`. Forge and Vera match the accepted Kimi/Grok role defaults, but that does not prove a successful task execution. Port `8766` remains the Sigma Homes preview with Aire routes `404`, and Cara `8643` remains offline. No update, restart, routing correction, authenticated/rendered Aire journey or physical-device acceptance was performed.
 
 ## Reconciliation checkpoint, 7 October 2026 04:20 IST cutoff
 

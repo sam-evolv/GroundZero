@@ -12,10 +12,16 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-07T04:20:00+01:00"
+updated_at: "2026-10-07T08:10:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 7 October 2026, 08:10 IST
+
+- **Hermes upstream materially advanced; role routing is partially aligned, not accepted Aire progress.** Installed remains unsigned `9aaef03b…` / tree `f2eafe43…`; immutable GitHub `main` is now unsigned `05eecbcd…` / tree `20b30394…`, exactly 274 commits ahead. The exact 99-commit / 148-path tail after `0e37a439…` is entirely GitHub-unverified and materially spans cron degraded-store recovery/observability, Desktop recovery/styling, Kanban workflow-state definitions, MCP/vision image custody, provider profiles and bundled-memory-provider removal. The CLI still reports only 44 behind, an undercount of 230, and retains its mixed-module restart warning; health is `200` / v0.21.5 without commit identity. Default Skippy remains on unapproved `gpt-6.1-sol` / `openai-codex`, while Forge `kimi-k2.7-code` / `opencode-go` and Vera `grok-4.6` / `xai-oauth` now match the accepted role defaults; all three delegate through `gpt-5.6-luna` / `openai-codex`, and default background review uses `gpt-6-astra`. Saved config is not task-success or user-surface evidence.
+- **Correction to the immediately prior checkpoint; other exact named sources did not materially advance.** Its 04:20 “other sources” sentence incorrectly named Donworth Desktop `b5118d88…`, site `e49007a2…` and 0.18.9 feeds. Direct current authority instead matches [[project_state/donworth-studio]]: Desktop `main` `a1cec24e…`, draft PR #13 head `6246fabe…`, public-site `main` `104ac7fc…`, Ready production `dpl_AcQG…`, Windows feed 0.18.12 and Mac ARM feed 0.18.2. This supersedes that sentence only; no source, feed or deployment movement was observed in this run. Here’s Health source/schema/counts are unchanged and its production Shopify session only advanced its reconciliation heartbeat to 07:00 UTC without a state or order transition. OpenHouse remains on deployed `31a66a14…` / Ready `dpl_Ddf8…`; Empire Gym remains Ready on `dpl_Es9HL…` with branch `603ee53f…`; Cara remains offline; Renew still names no exact inspectable live source. Availability, process existence and heartbeat movement were not promoted to acceptance.
+- No canonical source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated. Only Ground Zero canonical notes were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 7 October 2026, 04:20 IST
 

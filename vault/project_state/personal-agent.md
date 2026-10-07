@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; upstream is now unsigned `0e37a439…` / tree `7f2bf375…`, 175 commits ahead, including 16 unverified commits / 31 paths after the prior checkpoint. The CLI still reports only 44 behind, the persisted host restart obligation still warns about possible mixed modules despite all reported gateways starting after the update, routing still contradicts the accepted DeepSeek/OpenCode Go decision, port 8766 is non-Aire and Cara remains offline, so no authenticated/rendered or physical-device acceptance advanced.
+headline: Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; upstream is now unsigned `05eecbcd…` / tree `20b30394…`, 274 commits ahead, including 99 unverified commits / 148 paths after the prior checkpoint. The CLI still reports only 44 behind, the restart warning persists, Skippy remains on unapproved `gpt-6.1-sol` while Forge and Vera now match the accepted Kimi/Grok role defaults, port 8766 is non-Aire and Cara remains offline, so no authenticated/rendered or physical-device acceptance advanced.
 status: building
 updated: 2026-10-07
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced 99 unverified commits; role routes partially align but Aire acceptance does not — 7 October 2026, 08:10 IST cutoff
+
+- Installed Hermes remains unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`, with only `.review-worktrees/` untracked. Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `05eecbcd972c8737ebc7722ea08aab47fb538043` / tree `20b3039468ec59917f57fe90b06c7b6563155826`, exactly 274 commits ahead of installed. The exact range after the prior `0e37a439bda15ef3c28a4d20593964d7c6a527a6` checkpoint is 99 commits / 148 paths and all 99 commits are GitHub-unverified. The tranche is led by cron unwritable-store continuity, recovery notices and observability; Desktop fish-shell, theme and interruption handling; Kanban workflow-state definitions; MCP/vision image custody; provider profiles; and removal of the bundled OpenViking memory provider. Treat this as compatibility-review input, not accepted Aire progress.
+- `hermes --version` still reports only 44 commits behind and therefore understates immutable Git by 230. `hermes status --all` still warns that a previous update did not restart running gateways; the default local health surface is HTTP `200` / v0.21.5 but exposes no commit identity, so exact runtime-source binding remains open. No update, restart or upstream-suite rerun was performed.
+- Direct non-secret config readback narrows the routing contradiction: the default profile remains `gpt-6.1-sol` / `openai-codex`, contrary to Sam's accepted DeepSeek/OpenCode Go Skippy route, while Forge is now `kimi-k2.7-code` / `opencode-go` and Vera is `grok-4.6` / `xai-oauth`, matching the accepted role-level Kimi/Grok defaults. Delegation is `gpt-5.6-luna` / `openai-codex` for all three profiles; default background review is `gpt-6-astra` and default vision/title generation use `gpt-5.6-luna`. These are saved routes, not proof that any task executed successfully on them. Port `8766` still serves the Sigma Homes preview with Aire routes `404`, and Cara still refuses connection at `8643`. No authenticated/rendered Aire journey or physical-device acceptance advanced.
 
 ## Upstream advanced 16 unverified commits; restart/runtime identity and Aire acceptance remain open — 7 October 2026, 04:20 IST cutoff
 
