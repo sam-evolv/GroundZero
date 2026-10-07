@@ -13,10 +13,16 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-07T00:08:00+01:00"
+updated_at: "2026-10-07T04:20:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 7 October 2026 04:20 IST cutoff
+
+Installed Hermes remains unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe43d3a42d9680f308b79aa9368fa0ed3513`; local tracking still equals installed, with only `.review-worktrees/` untracked and 11 stashes. Direct GitHub authority now binds upstream `main` to unsigned `0e37a439bda15ef3c28a4d20593964d7c6a527a6` / tree `7f2bf375a0330c33fa36179b04b09680605e47f6`, exactly 175 commits ahead. The range after the prior `59a3866e…` checkpoint is 16 commits / 31 changed paths and all 16 commits are GitHub-unverified. It includes the v2026.9.24 local-runtime import fix plus coverage, Windows long-path package-manager handling, credit-limited HTTP 402 affordable-output retry handling, Windows SSH/Desktop backend-host lifecycle work, and default remote-SSH profile selection. Official stable remains v0.21.5.
+
+The CLI still reports only 44 behind and now understates immutable Git by 131. A persisted host restart-obligation record still warns about possible mixed modules even though its 20:58 IST receipt and all four current gateway process starts post-date the installed-source update; because `/health` exposes no commit identity, exact per-process runtime binding remains unresolved. Current routing remains `gpt-6.1-sol` / `openai-codex` with xAI/GLM fallbacks, contrary to the accepted DeepSeek/OpenCode Go decision. Port `8766` remains non-Aire and Cara remains offline. No update, restart, routing correction, authenticated/rendered Aire journey or physical-device acceptance was performed.
 
 ## Reconciliation checkpoint, 7 October 2026 00:08 IST cutoff
 

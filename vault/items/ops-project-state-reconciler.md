@@ -12,10 +12,16 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-07T00:08:00+01:00"
+updated_at: "2026-10-07T04:20:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 7 October 2026, 04:20 IST
+
+- **Hermes upstream materially advanced; accepted Aire state did not.** Installed remains unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe43d3a42d9680f308b79aa9368fa0ed3513`, while direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `0e37a439bda15ef3c28a4d20593964d7c6a527a6` / tree `7f2bf375a0330c33fa36179b04b09680605e47f6`, exactly 175 commits ahead. The range after the prior `59a3866e…` checkpoint is 16 commits / 31 changed paths and all 16 commits are GitHub-unverified. The CLI still reports only 44 behind, understating immutable Git by 131. A persisted host restart-obligation record still warns about possible mixed modules even though its recorded restart and all four current gateway process starts post-date the update; gateway health exposes no commit identity, so runtime-source binding remains open. Routing still contradicts the accepted DeepSeek/OpenCode Go decision; port `8766` remains non-Aire and Cara remains offline. No update, restart, routing correction, authenticated/rendered Aire journey or physical-device acceptance ran.
+- **Other exact named sources did not materially advance where rechecked.** Donworth Studio remains on desktop `b5118d88…` with PR #13 open, public web source `e49007a2…`, live site/privacy HTTP `200`, and source-backed update feeds `0.18.9` for Windows and Apple Silicon while Intel remains `404`. Here’s Health remains `ACTIVE_HEALTHY` with the same 24 migrations / 12 active functions and unchanged rota/Square/deletion counts; its production Shopify session only advanced its reconciliation heartbeat, not state or order linkage. OpenHouse remains on GitHub/deployed `31a66a14…` with the same Ready Vercel deployment and the same live security-advisor findings; OpenBook/Empire remains on exact deployed `b53f724b…`; Renew remains local-only and dirty; Cara remains unserved. Availability, process existence and heartbeat movement were not promoted to acceptance.
+- No canonical source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated. Only Ground Zero canonical notes were updated; repository-sync custody is verified separately from project-state acceptance.
 
 ## Reconciliation checkpoint — 7 October 2026, 00:08 IST
 
