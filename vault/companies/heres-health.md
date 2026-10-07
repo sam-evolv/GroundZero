@@ -10,6 +10,12 @@ created_at: "2026-08-13"
 
 # Here’s Health
 
+## Main absorbed the commerce line and production gained retention jobs; replacement binary remains open — 7 October 2026, 20:18 IST cutoff
+
+- GitHub `main` advanced 215 commits from historical `a61ff082…` to verified `35514253…` / tree `843393c0…`, with 42 verified and 173 unverified commits and a 300-file comparison cap. Draft, zero-review PR #1 was merged at 17:41 UTC. Draft PR #6 remains open/clean/unreviewed at unsigned `f81f1c63…`, based on PR #1's final head and diverged from current `main` by 24 commits ahead / 15 behind. The exact 15-commit / 66-file tail after the build-8 submission record is fully verified and prepares launch fixes plus source version 1.0.1, but current-head CI, the divergent PR and source records are not a native binary, deployment or device receipt.
+- Direct Supabase now reports 25 migrations / 24 RLS-enabled public tables, adding source-backed `square_event_retention`, and five active cron jobs including Square-event and notification retention. Hosted Edge Function versions remain 34/30/31/15/17/5/3, so the launch-branch function fixes are not deployed. Commerce outcomes remain unaccepted: 27 Square orders are sandbox-only, the production Shopify session remains awaiting payment with no native/confirmed order after a 19:00 UTC heartbeat, notification queues remain empty, deletion remains one completed plus one requested, and rota counts remain 1/1/5/1/2/2.
+- The branded account-confirmation alias moved to source-unbound Ready `dpl_5eXJ…` and rendered successfully; the existing app preview stayed byte-identical on `dpl_HKAdg…`. App Store Connect remained unavailable because Chrome holds the real-profile credential stores, so build 8 Waiting for Review is still the last verified Apple state. No replacement native build/upload, hosted function deployment, payment, merchant/client, rota UI/device or physical-device acceptance advanced; public launch remains **NO-GO** and paid terms are unchanged.
+
 ## Hosted authority recovered; product and launch acceptance did not advance — 6 October 2026, 12:03 IST cutoff
 
 - Direct Supabase management authority recovered after the earlier authentication failure and reconfirmed `ACTIVE_HEALTHY`, 24 migrations, 24 RLS-enabled public tables and unchanged active function versions 34/30/31/15/17/5/3. Rota remains one tenant / revision 7, one identity, five entities, one audit row, two completed requests and two version-6 conflict scopes including `synthetic-test-site`.

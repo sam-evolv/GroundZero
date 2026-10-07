@@ -10,10 +10,16 @@ effort: M
 impact: 95
 source: Sam-supplied project briefs, 2026-08-13 and 2026-08-29
 created_at: "2026-08-13T00:00:00+01:00"
-updated_at: "2026-10-03T20:16:00+01:00"
+updated_at: "2026-10-07T20:18:00+01:00"
 ---
 
 # Here’s Health Week 1 discovery and technical proof
+
+## Main and retention operations advanced; keep Week 1 building — 7 October 2026, 20:18 IST
+
+- GitHub `main` advanced 215 commits to verified `35514253…` after draft, zero-review PR #1 was merged. Draft PR #6 remains open/clean/unreviewed at unsigned `f81f1c63…`, based on PR #1's final head and diverged from current `main` by 24 commits ahead / 15 behind. The exact 15-commit / 66-file tail after the build-8 submission record is verified and prepares launch fixes plus source version 1.0.1, but the repository itself records no replacement native compile/sign/upload/device receipt. Current head has one successful check and no deployment.
+- Direct Supabase now has 25 migrations and five active cron jobs after source-backed Square-event retention and notification-retention scheduling. Edge Function versions remain unchanged at 34/30/31/15/17/5/3, so launch-branch function fixes are not hosted. All 27 Square orders remain sandbox-only; production Shopify remains `awaiting-payment` without native/confirmed order; notification queues remain empty; deletion remains one completed plus one requested; and rota counts remain unchanged. Backend rows and cron presence are not rendered or accepted product delivery.
+- App Store Connect failed closed on the running-Chrome profile lock, so build 8 Waiting for Review is still the last verified Apple state. Keep Week 1 `building`: 1.0.1 native/store/device evidence, Edge deployment, provider/merchant payment and fulfilment, deletion handling, rota UI/device and client acceptance remain open. Launch remains **NO-GO**.
 
 ## Hosted rota persistence is active but source/UI acceptance is absent; keep Week 1 building — 3 October 2026, 20:16 IST
 

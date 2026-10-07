@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-07T18:01:00+01:00"
+updated_at: "2026-10-07T20:18:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 7 October 2026, 20:18 IST
+
+- **Hermes upstream and routing evidence materially changed; accepted Aire state did not.** Installed remains unsigned `9aaef03b…` / tree `f2eafe43…`, while direct GitHub authority now binds `main` to unsigned `db48af24…` / tree `b620054b…`, exactly 535 commits ahead. The exact tail after `1ab79836…` is 19 entirely unverified commits / 77 paths across structured-reasoning UI, remote-profile handling, package-manager cleanup, Kanban workspace sweep, MCP registration safety, model endpoint handling and group-thread context. The CLI now says 528 behind, undercounting Git by seven, and retains its restart warning; health is `200` / v0.21.5 without SHA. Saved Skippy still uses unapproved `gpt-6.1-sol` / `openai-codex`, but direct current config now has no fallback keys; Forge Kimi, Vera Grok and Luna delegation remain. Both documented Aire ports remain non-Aire, while Cara and receipt port `8778` are offline.
+- **Here’s Health source and retention operations advanced, but replacement-binary and launch acceptance did not.** Verified GitHub `main` moved 215 commits to `35514253…` after draft, zero-review PR #1 was merged; draft PR #6 remains open/clean/unreviewed at `f81f1c63…` and diverged from current `main` by 24 commits ahead / 15 behind. The exact 15-commit / 66-file tail after build-8 record `80cf303…` is verified and prepares launch fixes plus 1.0.1 source. Current head has one green check and no deployment, and repository records no replacement native build/upload/device result. Supabase now has 25 migrations and five active crons after source-backed Square-event retention and notification-retention scheduling, while Edge Function versions remain 34/30/31/15/17/5/3. Commerce, deletion, notification and rota outcomes remain unaccepted; App Store Connect again failed closed on Chrome's profile locks, so build 8 Waiting for Review remains the last verified Apple state. The branded account page moved to source-unbound Ready `dpl_5eXJ…` and rendered, while the app preview stayed byte-identical.
+- **Other exact named sources were materially unchanged where rechecked.** Donworth Desktop/site remain `a1cec24e…` / `104ac7fc…`, signed installed v0.18.9 remains exact and unlaunched, Ready `dpl_AcQG…` and update-feed storage are unchanged, and deployment record `6857393213` still has zero statuses. OpenHouse remains `31a66a14…` on Ready `dpl_Ddf8…`; fresh security advisors retain 30/2/17/1/4 plus disabled leaked-password protection. OpenBook/Empire Gym remain `c72bf48…` / `603ee53…` on Ready `dpl_Es9HL…`; Cara remains parked at remote `f46d501…` / local `196cf3c…`; Renew still names no exact inspectable live source. Anonymous public bytes matched their recorded checkpoints. No authenticated, payment, client, genuine-Windows or physical-device acceptance advanced.
+- No canonical source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was mutated by this reconciliation. Only Ground Zero canonical notes were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 7 October 2026, 16:12 IST
 

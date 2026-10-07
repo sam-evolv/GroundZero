@@ -9,6 +9,11 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced 19 unverified commits; CLI lag narrowed and fallback drift changed — 7 October 2026, 20:18 IST cutoff
+
+- Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; direct GitHub authority now binds upstream `main` to unsigned `db48af24…` / tree `b620054b…`, exactly 535 commits ahead. The exact tail after `1ab79836…` is 19 entirely unverified commits / 77 paths spanning structured-reasoning UI, remote-profile handling, package-manager orphan reclamation, Kanban workspace cleanup, MCP registration safety, model endpoint handling and group-thread room context. This is compatibility-review input, not accepted Aire behaviour.
+- The CLI now reports 528 behind, an undercount of seven, and retains the restart warning; health remains `200` / v0.21.5 without commit identity. Saved Skippy routing is still unapproved `gpt-6.1-sol` / `openai-codex` with `xhigh`, but direct current config now has no fallback keys. Forge Kimi, Vera Grok and Luna delegation remain. Ports `8766`/`8767` remain non-Aire, Cara and receipt port `8778` remain offline, and no update, restart, routing correction, authenticated/rendered journey or device acceptance advanced.
+
 ## GitHub main history rewrote; current tail is 73 unverified commits — 7 October 2026, 12:15 IST cutoff
 
 - The transient 12:07 upstream head `3b23fca4f871161c914e9db146d24cf0cf07c0fa` no longer resolves through GitHub (`422`), and comparison to current `main` returns `404`. Current authority is unsigned `808520532cf7c48c3eccb09476fb3cde379b02e9` / tree `81b7d0f548e2cabecbd63fa8e04aa15f435baadf`, exactly 347 commits ahead of installed `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. Across the full paginated comparison, four commits are GitHub-verified and 343 are unverified; the file list hits GitHub's 300-file cap. Actor, approval and exact rewrite mechanism remain open.

@@ -1,12 +1,19 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; upstream is now unsigned `1ab79836…` / tree `60c07e69…`, 516 commits ahead. The exact tail after `80852053…` is 169 unverified commits / 139 paths, while the CLI still reports only 44 behind and retains the restart warning. Ports 8766 and 8767 are non-Aire static previews, Cara remains offline, and no authenticated/rendered or physical-device acceptance advanced.
+headline: Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; upstream is now unsigned `db48af24…` / tree `b620054b…`, 535 commits ahead. The exact tail after `1ab79836…` is 19 unverified commits / 77 paths. The CLI now reports 528 behind and retains the restart warning; saved Skippy routing has no fallbacks but still contradicts the accepted DeepSeek route. Ports 8766 and 8767 remain non-Aire previews, Cara is offline, and no authenticated/rendered or physical-device acceptance advanced.
 status: building
 updated: 2026-10-07
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced 19 unverified commits; CLI lag narrowed and fallback drift changed — 7 October 2026, 20:18 IST cutoff
+
+- Installed Hermes remains unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`, with only `.review-worktrees/` untracked and 11 stashes. Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `db48af245aec43aaadd54a92afd3b9f0c187f5ca` / tree `b620054b267c5a0b505ae35d484cb5dee161e9c5`, exactly 535 commits ahead of installed. The exact range after retained checkpoint `1ab7983641fb245247ade2190d2bb8dfd9a25127` is 19 commits / 77 paths and all 19 commits are GitHub-unverified.
+- Queue the tail's structured-reasoning dashboard/web rendering, empty remote-profile handling, deleted-checkout dependency-state reclamation, terminal-parent Kanban workspace sweep, fail-closed MCP dynamic-client-registration rejection, canonical model-endpoint handling and fresh group-thread room-context fixes for bounded compatibility review. Official stable remains `v2026.9.24` / v0.21.5. Commit subjects and source tests are not accepted Aire behaviour.
+- `hermes --version` now reports 528 commits behind, narrowing the CLI discrepancy but still understating immutable Git by seven, and `hermes status --all` retains the mixed-module restart warning. Default health remains HTTP `200` / v0.21.5 without commit identity. Direct non-secret config readback at file mtime 16:06 IST is `gpt-6.1-sol` / `openai-codex`, `xhigh`, with no saved fallback model/provider keys; Forge remains Kimi, Vera remains Grok and delegation remains Luna. The fallback removal corrects only the previously recorded fallback presence: Skippy still contradicts Sam's accepted DeepSeek/OpenCode Go route, and actor/approval remain open.
+- Ports `8766` and `8767` still return non-Aire static preview roots and `404` at `/health`; Cara `8643` and Aire receipt port `8778` refuse connections. No update, restart, routing correction, source integration, authenticated/rendered Aire journey or physical-device acceptance was performed.
 
 ## Upstream advanced 169 unverified commits; both documented Aire ports remain non-Aire — 7 October 2026, 16:12 IST cutoff
 

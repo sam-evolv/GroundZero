@@ -19,6 +19,11 @@ This overrides the 10:45 Astra amendment below. Skippy's saved default has been 
 
 The prior inference that prioritising effectiveness authorised switching Sam to Astra was wrong. Improve execution within the explicitly selected subscription/model; do not change it on the strength of a generic quality preference.
 
+## Reconciliation receipt — 7 October 2026, 20:18 IST
+
+- Direct parsed readback of the saved default configuration at mtime 16:06 IST shows `gpt-6.1-sol` / `openai-codex`, `agent.reasoning_effort: xhigh`, and no `fallback_models` or `fallback_providers` keys. Forge remains `kimi-k2.7-code` / `opencode-go`, Vera remains `grok-4.6` / `xai-oauth`, and all three profiles retain Luna delegation.
+- This supersedes only the 5 October current-file observation that xAI/GLM fallbacks were present. No later explicit Sam approval, actor or exact changed fields were established, so the primary route remains verified operational drift rather than a replacement durable decision. No routing edit, model switch, restart or credential mutation was performed.
+
 ## Reconciliation receipt — 5 October 2026, 12:17 IST
 
 - `hermes config path` resolves `/Users/samdonworth/.hermes/config.yaml`. Direct parsed readback shows `model.default: gpt-6.1-sol`, `model.provider: openai-codex`, `agent.reasoning_effort: xhigh` and `fallback_providers` ordered as `xai-oauth/grok-4.6` then `opencode-go/glm-5.3`.

@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-07T16:12:00+01:00"
+updated_at: "2026-10-07T20:18:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 7 October 2026 20:18 IST cutoff
+
+Installed Hermes remains unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`, with only `.review-worktrees/` untracked and 11 stashes. Direct GitHub authority now binds upstream `main` to unsigned `db48af245aec43aaadd54a92afd3b9f0c187f5ca` / tree `b620054b267c5a0b505ae35d484cb5dee161e9c5`, exactly 535 commits ahead. The exact range after `1ab7983641fb245247ade2190d2bb8dfd9a25127` is 19 commits / 77 paths; GitHub marks all 19 unverified.
+
+Queue the tail's structured-reasoning transcript rendering, empty remote-profile handling, deleted-checkout dependency-state reclamation, terminal-parent Kanban workspace sweep, fail-closed MCP dynamic-client-registration rejection, canonical endpoint classification and fresh group-thread room context for bounded compatibility review. Official stable remains `v2026.9.24` / v0.21.5. Source descriptions and tests are not accepted Aire behaviour.
+
+The CLI now reports 528 behind, understating immutable Git by seven, and retains the mixed-module restart warning. Health remains HTTP `200` / v0.21.5 without commit identity. Saved Skippy routing remains `gpt-6.1-sol` / `openai-codex`, contrary to the accepted DeepSeek route, but direct current config now has no fallback keys; Forge Kimi, Vera Grok and Luna delegation remain. Ports `8766` and `8767` remain non-Aire, while Cara `8643` and Aire receipt port `8778` refuse connections. No update, restart, routing correction, source integration, authenticated/rendered Aire journey or physical-device acceptance was performed.
 
 ## Reconciliation checkpoint, 7 October 2026 16:12 IST cutoff
 
