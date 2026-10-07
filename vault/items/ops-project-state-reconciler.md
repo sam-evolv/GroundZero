@@ -12,7 +12,7 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-07T16:12:00+01:00"
+updated_at: "2026-10-07T18:01:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
@@ -1153,6 +1153,61 @@ It replaces intent-only command review and post-incident reconstruction for this
 ### Provenance
 
 Grounded in the 25 September side-effect receipt in [[items/heres-health-week-one-discovery-and-technical-proof]], the matching checkpoint in this item, the 5 October recurrence in [[project_state/donworth-studio]], the read-only operating boundary in [[context/ops-automation-moc]], and the approval and evidence-state separation in [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]. Both incidents preserved that no Vercel deployment or public-byte transition was established; this proposal addresses the repeated command-safety failure without deleting either record or changing an external system.
+
+## Material proposal, 7 October 2026 — exact gateway runtime-source binding receipt
+
+Extend the existing reconciler with one deterministic, read-only **gateway runtime-source binding receipt** for the named default Hermes gateway after an installed-source transition. This is an evidence check, not an updater, restart controller, debugger or runtime acceptance system.
+
+### Bottleneck
+
+The installed Hermes checkout fast-forwarded on 6 October from `e496ccc7…` to `9aaef03b…`, a 3,062-commit / 2,818-path source move recorded in [[project_state/personal-agent]]. The 7 October reconciliation then repeated the same unresolved comparison at 00:08, 04:20, 08:10, 12:07, 12:15 and 16:12: current gateway processes started after the source update, the launchd definition points at the current install, and loopback health returns HTTP `200` / v0.21.5, but the health payload exposes no commit identity while `hermes gateway status` still warns that the prior update did not restart gateways and mixed `sys.modules` may remain.
+
+A fresh read-only check at 18:01 IST reproduced that boundary. `hermes --version` identified installed build `v0.21.5+8333.g9aaef03.dirty` from `~/.hermes/hermes-agent`; `hermes gateway status` reported the current default launchd service and PID `25120` while retaining the mixed-module warning; `/health` returned only `status`, `platform` and `version`. A person still has to compare Git identity, service target, process generation, restart-obligation evidence and health on every sweep, then restate that chronology plus availability do not prove the exact code loaded by the process.
+
+The local source-custody manifest above inventories installed source, the launch incident packet diagnoses an offline Aire BFF, and the remote source-lineage receipt tracks moving repository authority. None binds a currently running gateway PID to one exact loaded Hermes source identity.
+
+### Value category
+
+- **Operational risk reduction:** prevents a healthy endpoint or post-update process timestamp from being mistaken for proof that the intended source is loaded without stale or mixed modules.
+- **Decision quality:** separates installed Git identity, service-definition target, process generation, health availability and exact runtime-source binding.
+- **Time reclaimed:** replaces repeated manual Git/process/restart/health comparison and repetitive unchanged `runtime binding remains open` prose.
+- **Auditability:** emits one compact change-only receipt with explicit `UNBOUND` or `UNKNOWN` rather than allowing process chronology to imply a match.
+
+### Smallest live test
+
+Run one read-only classifier against the default Hermes gateway only:
+
+1. Freeze the installed Git commit/tree and dirty state, CLI build identity, launchd executable/working-directory target, current gateway PID/start time and executable path, the non-secret restart-obligation receipt fields, and the allowlisted loopback `/health` payload.
+2. Emit `INSTALLED_SOURCE` as `EXACT` or `UNKNOWN`; `SERVICE_TARGET` as `MATCH`, `MISMATCH` or `UNKNOWN`; `PROCESS_GENERATION` as `PRE_INSTALL`, `POST_INSTALL` or `UNKNOWN`; `HEALTH_SOURCE` as `EXACT`, `VERSION_ONLY`, `MISMATCH` or `UNKNOWN`; and terminal `RUNTIME_SOURCE_BINDING` as `MATCH`, `MISMATCH`, `UNBOUND` or `UNKNOWN`.
+3. Classify the 18:01 fixture as installed source `9aaef03b…`, matching service target and post-update process generation, but `HEALTH_SOURCE: VERSION_ONLY` and `RUNTIME_SOURCE_BINDING: UNBOUND`. The mixed-module warning must keep the receipt on `HOLD`; HTTP `200` cannot promote it.
+4. Replay one sanitized stale-process fixture and one controlled exact-identity fixture. The stale fixture must return `MISMATCH` or `UNBOUND`; the positive fixture may return `MATCH` only when a live-process identity field or trusted build/start receipt names the exact installed commit and all required relations agree.
+5. Alert only when the installed identity, PID/generation, service target, restart-obligation state, health source identity or terminal classification changes. An unchanged run is byte-stable and silent.
+
+Stop at the local receipt. Do not add source identity to the health endpoint, attach to the process, inspect memory, restart anything or clear the warning during this test.
+
+### Evidence of success
+
+- The current live fixture returns `UNBOUND/HOLD` while preserving the true facts that the service target matches, the process is post-update and health is `200` / v0.21.5.
+- A post-update start time without an exact live source identity cannot return `MATCH`; neither can a matching version string alone.
+- The stale-process fixture is rejected, while the controlled exact fixture passes only on an exact commit-bound relation rather than path, version or chronology.
+- A manual comparison with installed Git metadata, the launchd definition, process metadata, the restart-obligation record, `/health` and [[project_state/personal-agent]] agrees with every field.
+- The receipt contains no credentials, environment values, process memory, user data or unrelated profile metadata, and a second unchanged run emits no human-facing alert.
+
+### Downside and failure mode
+
+A process can import modules from multiple paths, a self-reported commit can be stale or incorrectly built, wrappers and virtual environments can obscure the executable relation, and the persisted restart warning may itself outlive a successful restart. Process start time is therefore supporting chronology, not exact binding. Preserve `UNBOUND` and `UNKNOWN`; trust an exact runtime identity only when it is tied to a reproducible build/start receipt; keep reads to the named default service; and do not inspect process memory, open file descriptors, environment values or unrelated profiles in the first test. This gate cannot establish correct behavior, security, messaging delivery or user-visible acceptance.
+
+### Approval boundary
+
+Automation may read the named installed repository's non-secret Git identity, CLI build identity, default launchd service definition, current default-gateway process metadata, the non-secret restart-obligation receipt and allowlisted loopback health fields, then draft a local change-only receipt. It may not restart, stop, signal, attach to or trace a process; inspect memory, environment values, credentials, sessions or user data; edit the health endpoint, source, service definition, config or receipt; update or install Hermes; bind a port; change routing; push, merge, publish, contact anyone or promote runtime acceptance. Sam approves any instrumentation, restart, update, remediation or expansion to another profile.
+
+### What it replaces
+
+It replaces repeated manual reconstruction of installed-source identity, process chronology, restart-warning state and health limitations after Hermes updates. It does **not** replace the local source-custody manifest, the Aire launch incident packet, [[items/ops-aire-hermes-upstream-impact-triage]], functional or authenticated checks, rendered/physical-device verification, gateway restart/update procedures, independent review or Sam's runtime and release decisions.
+
+### Provenance
+
+Grounded in the six 7 October checkpoints in this item and [[project_state/personal-agent]], the exact 6 October installed-source transition, and the read-only 7 October 18:01 IST `hermes --version`, `hermes gateway status` and loopback `/health` readbacks. The evidence boundaries come from [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]] and [[decisions/2026-08-31-agent-legible-system-design-standard]]. This extends the existing reconciler rather than creating another scheduler, monitor or runtime controller.
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
