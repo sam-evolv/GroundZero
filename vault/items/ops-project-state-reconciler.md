@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-08T08:14:00+01:00"
+updated_at: "2026-10-08T12:18:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 8 October 2026, 12:18 IST
+
+- **Hermes upstream advanced 160 commits; accepted runtime and Aire state did not.** Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `99a45ecc…` / tree `e67a70b9…`, exactly 968 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…`. The full paginated gap contains 63 verified and 905 unverified commits. The exact tail after prior canonical checkpoint `a28a5d03…` is 160 commits / 136 paths, one verified and 159 unverified. It is dominated by plugin-catalogue additions and repins and also changes plugin activation/name resolution, session-finalize messages, Desktop local-profile/plugin handling, unattended approval behavior, resumed `/yolo` consistency and release paths. These are compatibility-review inputs, not installed or accepted behavior.
+- **Installed and live runtime evidence remains bounded and contradictory.** The installed checkout and stale `origin/main` remain at `9aaef03b…`; only `.review-worktrees/` is untracked and 11 stashes remain. `hermes --version` still reports 528 commits behind, understating the direct comparison by 440, while `hermes status --all` retains the mixed-module restart warning. Gateway health is HTTP `200` / v0.21.5 without a commit SHA. Saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`. Ports `8766` and `8767` remain non-Aire previews with `/health` `404`; Cara `8643` and recorded receipt port `8778` refuse connections. No fetch, update, restart, config change, authenticated/rendered Aire journey or physical-device acceptance ran.
+- **Other exact named sources did not materially transition where rechecked.** Here’s Health source/PR heads, 25-migration / 24-table Supabase shape, active function versions, commerce/deletion/notification/rota outcomes, account page and preview bytes remain at the canonical checkpoint. Production Square-event rows advanced by 2,197 to 123,137 and the production Shopify reconciliation heartbeat moved to 11:15 UTC, but every event remains processed and there is still no production Square order, native/confirmed Shopify order or acceptance transition. Donworth Desktop/site heads, draft PRs, signed installed v0.18.9 tuple, updater-object inventory, Ready deployment and exact public bytes are unchanged. OpenHouse source, Ready deployment and security-advisor categories are unchanged; its same-length anonymous HTML hashes vary per request and were not promoted to source or product drift. OpenBook/template heads, Empire Gym Ready deployment and exact public bytes are unchanged. Cara remote head is unchanged; Renew still names no exact inspectable live source. App Store Connect again failed closed because running Chrome held the real-profile credential databases. No authenticated, payment, client, genuine-Windows, rendered-app or physical-device acceptance advanced.
+- **No operational mutation:** no source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was changed. Only Ground Zero canonical notes and the generated dashboard were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 8 October 2026, 08:14 IST
 

@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-08T08:14:00+01:00"
+updated_at: "2026-10-08T12:18:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 8 October 2026 12:18 IST cutoff
+
+Direct GitHub authority now binds upstream `main` to unsigned `99a45ecc17cc51c0488ec3b8ccf7eaf483f7203d` / tree `e67a70b9999c41bb708c43fb5f23504ecb096d5d`, exactly 968 commits ahead of installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. The full paginated gap contains 63 GitHub-verified and 905 unverified commits. The exact tail after prior canonical checkpoint `a28a5d03a9fa60418db5f44f3436fa2aa029c8f2` is 160 commits / 136 paths, with one verified and 159 unverified. GitHub caps the broader changed-file list at 300.
+
+Queue the tail's plugin-catalogue additions and repins; unified plugin activation/name resolution; session-finalize user messages; Desktop local-profile idle-reap prevention and linked-plugin handling; unattended/webhook approval behavior; resumed-session `/yolo` and close consistency; and release/Nix/Docker work for bounded compatibility review. Official stable remains `v2026.9.24` / v0.21.5. Upstream source, tests and catalogue descriptions are not accepted Aire behavior.
+
+The installed checkout and stale `origin/main` remain at `9aaef03b…`, with only `.review-worktrees/` untracked and 11 stashes. `hermes --version` still reports 528 commits behind, understating direct GitHub by 440; `hermes status --all` retains the mixed-module restart warning. Health remains HTTP `200` / v0.21.5 without commit identity. Saved Skippy routing remains unapproved `gpt-6.1-sol` / `openai-codex`; ports `8766` and `8767` remain non-Aire, while Cara `8643` and recorded receipt port `8778` refuse connections. No fetch, update, restart, routing correction, source integration, provider transaction, authenticated/rendered Aire journey or physical-device acceptance was performed.
 
 ## Reconciliation checkpoint, 8 October 2026 08:14 IST cutoff
 
