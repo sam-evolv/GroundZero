@@ -73,3 +73,8 @@ saved for inspection; executed requests remain zero. 12/12 is mocked contract/po
 coverage, not API accuracy. No configuration, activation, install, push or denied-message
 retry occurred. Source thread requested no separate message; normal handoff is sufficient.
 This follow-up is local only, with no vault commit, push or sync initiated.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[project_state/donworth-studio]]
+

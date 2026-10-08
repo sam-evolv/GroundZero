@@ -114,5 +114,6 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-desktop-ui-approval-readiness-gate]]
 - [[items/ops-graph-engineering-pilot]]
 - [[items/ops-kanban-terminal-transition-guard]]
+- [[items/ops-project-state-reconciler]]
 - [[project_state/donworth-studio]]
 

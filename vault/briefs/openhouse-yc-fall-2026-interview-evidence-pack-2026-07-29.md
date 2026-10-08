@@ -375,3 +375,8 @@ Before submission:
 - Add both video URLs to the submit-copy file.
 - Confirm the application says `0` revenue and no outside investment.
 - Submit late rather than waiting another week.
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[briefs/openhouse-yc-fall-2026-question-audit-2026-07-29]]
+

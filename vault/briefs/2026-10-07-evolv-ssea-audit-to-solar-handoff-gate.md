@@ -176,3 +176,8 @@ Official sources reviewed 7 October 2026:
 - [[briefs/2026-09-29-evolv-commercial-solar-triple-e-aca-decision-receipt]] — separate tax and exact-product evidence boundary
 - [[briefs/2026-08-04-renewables-operations-intelligence-business]] — owner-side operations and assurance thesis
 - [[companies/heres-health]] — protected current paid-delivery priority
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+

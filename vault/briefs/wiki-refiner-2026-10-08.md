@@ -1,13 +1,16 @@
 ---
-title: Wiki Refiner 2026-10-07
+title: Wiki Refiner 2026-10-08
 kind: wiki_refiner_brief
-date: "2026-10-07"
-ran_at: "2026-10-07T02:15:19+01:00"
+date: "2026-10-08"
+ran_at: "2026-10-08T02:15:05+01:00"
 ---
 
-# Wiki Refiner 2026-10-07
+# Wiki Refiner 2026-10-08
 
 This brief captures raw sources reviewed by the wiki refiner and the notes they connect to.
+
+## Auto-backlinks written
+- `connections-2026-08-12.md` → `items/ops-project-state-reconciler.md` (score 103)
 
 ## Sources reviewed
 - `imports/2026-08-06-personal-agent-founder-voice-notes.md` -> `briefs/2026-08-05-personal-assistant-research-codex.md`
@@ -15,7 +18,7 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/personal-agent]], [[briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt]], [[companies/personal-agent]]
 - `imports/2026-08-07-chatgpt-personal-agent-design-consultancy.md` -> `project_state/oh.md`
   - Summary: > Raw user/assistant transcript preserved for provenance. External assistant recommendations remain source material, not settled decisions unless Sam explicitly accepted them. Attachments: `Pasted markdown(1).md` I have the attached markdown file ready. What would you like me to do with it? do what it says?
-  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/personal-agent]], [[project_state/heres-health-app]], [[items/ops-project-state-reconciler]]
+  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/personal-agent]], [[items/ops-project-state-reconciler]], [[project_state/heres-health-app]]
 - `imports/campaigns/openhouse-full-context.md` -> `companies/openhouse-ai.md`
   - Summary: A single place that holds the whole picture: what OpenHouse is, why it exists, what is built and proven today, what is coming, the market and regulatory ground it stands on, and... --- OpenHouse is an AI layer that sits over a new home and the development it belongs to. For the homeowner it is a brain in every house, trained on that home's own documents and sy... ---
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/personal-agent]], [[project_state/heres-health-app]], [[items/ops-project-state-reconciler]]
@@ -51,7 +54,7 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/heres-health-app]], [[items/ops-project-state-reconciler]], [[project_state/personal-agent]]
 - `imports/linkedin/connections-2026-08-12.md` -> `project_state/oh.md`
   - Summary: Sam supplied an up-to-date LinkedIn `Connections.csv` export. The latest connection in the file is dated 12 August 2026. - Raw source: [connections-2026-08-12-raw.csv](connections-2026-08-12-raw.csv) - Normalized UTF-8 source: [connections-2026-08-12-normalized.csv](connections-2026-08-12-normalized.csv) - Machine-readable summary: [connections-2026-08-12-summary.json](connections-2026-08-12-summary.json)
-  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/personal-agent]], [[project_state/heres-health-app]], [[context/model-pack]]
+  - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/personal-agent]], [[project_state/heres-health-app]], [[items/ops-project-state-reconciler]]
 - `imports/x/gipp-obsidian-self-maintaining-wiki-2026-06-26.md` -> `briefs/2026-08-05-personal-assistant-research-codex.md`
   - Summary: Source tweet: https://x.com/gippp69/status/2070482723014078865?s=20 > THE OBSIDIAN GRAPH IS NOT A PRETTY NOTE MAP, IT IS A SELF-MAINTAINING AI WIKI THAT CAN TURN 120 SAVED SOURCES INTO 700 LINKED PAGES WHILE YOU ONLY KEEP ADDING NEW MATERIAL > > 00:11 the graph opens and the trick becomes obvious: every dot is a saved idea, every cluster is a topic, and every line is context the AI no longer has to rebuild from scratc...
   - Related: [[briefs/2026-08-05-personal-assistant-research-codex]], [[project_state/personal-agent]], [[items/ops-aire-hermes-upstream-impact-triage]], [[context/model-pack]]
@@ -64,13 +67,13 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - [[project_state/personal-agent]] (231)
 - [[briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt]] (224)
 - [[companies/personal-agent]] (222)
-- [[context/model-pack]] (211)
-- [[items/ops-project-state-reconciler]] (209)
+- [[context/model-pack]] (212)
+- [[items/ops-project-state-reconciler]] (212)
 - [[project_state/heres-health-app]] (1421)
-- [[items/ops-aire-hermes-upstream-impact-triage]] (1355)
+- [[items/ops-aire-hermes-upstream-impact-triage]] (1376)
 - [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]] (227)
 - [[briefs/openhouse-dtc-master-plan-2026-07-27]] (215)
-- [[project_state/donworth-studio]] (62)
+- [[context/index]] (62)
 - [[briefs/2026-08-06-irelandgpt-delegation-product-charter]] (341)
 - [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]] (263)
 - [[briefs/2026-08-05-personal-assistant-research-charter]] (259)
@@ -81,6 +84,7 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]] (108)
 - [[items/heres-health-week-one-discovery-and-technical-proof]] (337)
 - [[companies/heres-health]] (135)
+- [[project_state/donworth-studio]] (118)
 - [[briefs/wiki-refiner-2026-08-01]] (17)
 - [[briefs/wiki-refiner-2026-08-11]] (17)
 - [[briefs/wiki-refiner-2026-08-13]] (17)
@@ -92,11 +96,6 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 - Keep the raw source in `imports/` so provenance stays intact.
 - Add backlinks when a source maps to multiple notes.
 - If the source contradicts an existing note, preserve both and write a review note instead of overwriting history.
-
-
-## Notes that link here
-_Auto-generated: updated by wiki-refiner_
-- [[context/ops-automation-moc]]
 
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.

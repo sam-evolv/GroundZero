@@ -155,5 +155,13 @@ Official sources reviewed 6 October 2026:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-09-11-openhouse-built-to-innovate-buyer-subsidy-gate]]
+- [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
+- [[companies/donworth-ai-solutions]]
+- [[companies/heres-health]]
 - [[context/business-opportunities-moc]]
+- [[context/consulting-wedges]]
+- [[goals/renew-pipeline]]
+- [[items/donworth-publishable-and-outreach]]
+- [[project_state/donworth-studio]]
 

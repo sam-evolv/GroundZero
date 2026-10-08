@@ -453,6 +453,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-10-04]]
 - [[briefs/wiki-refiner-2026-10-05]]
 - [[briefs/wiki-refiner-2026-10-06]]
+- [[briefs/wiki-refiner-2026-10-07]]
 - [[companies/cara]]
 - [[context/index]]
 - [[project_state/cara]]

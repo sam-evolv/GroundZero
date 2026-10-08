@@ -868,6 +868,7 @@ P1
 - [[imports/heres-health-meeting-record-addendum-2026-08-29]] — shared signals: addendum, meeting, health
 - [[imports/heres-health-app-project-brief-2026-08-13]] — shared signals: project, health, heres
 - [[imports/heres-health-project-master-brief-2026-08-29]] — shared signals: project, master, health
+- [[imports/linkedin/connections-2026-08-12]] — shared signals: connections, linkedin, 2026
 ## Incubation analysis, 18 July 2026
 
 ### Opportunity size
@@ -1247,6 +1248,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-10-04]]
 - [[briefs/wiki-refiner-2026-10-05]]
 - [[briefs/wiki-refiner-2026-10-06]]
+- [[briefs/wiki-refiner-2026-10-07]]
 - [[companies/donworth-ai-solutions]]
 - [[companies/heres-health]]
 - [[companies/personal-agent]]

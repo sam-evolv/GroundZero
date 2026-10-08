@@ -43,6 +43,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]]
 - [[briefs/2026-10-04-evolv-energy-sharing-readiness-reconciliation-gate]]
 - [[briefs/2026-10-05-evolv-commercial-pv-cyber-custody-handover-gate]]
+- [[briefs/2026-10-07-evolv-ssea-audit-to-solar-handoff-gate]]
 - [[briefs/agentic-value-creation-revenue-cara-proof-plan-2026-07-14]]
 - [[briefs/consultancy-quick-revenue-strategy-2026-06-29]]
 - [[briefs/daily-ai-brief-2026-07-14]]

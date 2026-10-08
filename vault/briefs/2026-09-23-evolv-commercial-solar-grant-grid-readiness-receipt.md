@@ -153,6 +153,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-10-02-evolv-ndmg-grant-uplift-transition-gate]]
 - [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]]
 - [[briefs/2026-10-05-evolv-commercial-pv-cyber-custody-handover-gate]]
+- [[briefs/2026-10-07-evolv-ssea-audit-to-solar-handoff-gate]]
 - [[briefs/substack-draft-2026-09-27-more-precise-not-complete]]
 - [[companies/evolv-renewables]]
 - [[context/business-opportunities-moc]]
