@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-08T12:18:00+01:00"
+updated_at: "2026-10-08T16:06:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 8 October 2026, 16:06 IST
+
+- **Hermes upstream advanced ten commits; accepted runtime and Aire state did not.** Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `38880bd2…` / tree `05c8472b…`, exactly 978 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…`. Full pagination contains 63 verified and 915 unverified commits. The exact tail after `99a45ecc…` is ten entirely unverified commits across six paths: Docker stable-tag receipt promotion, DirectSDK catalogue repins/disclosure wording and an s6 supervised-PID stop correction with unit and real-image regression coverage. These are compatibility-review inputs, not installed or accepted behaviour.
+- **Installed and live runtime evidence remains bounded and contradictory.** The installed checkout and stale `origin/main` remain at `9aaef03b…`; only `.review-worktrees/` is untracked and 11 stashes remain. `hermes --version` reports 528 commits behind, understating GitHub by 450, while `hermes status --all` retains the mixed-module restart warning. Gateway health is HTTP `200` / v0.21.5 without SHA. Saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`. Ports `8766` and `8767` remain non-Aire with `/health` `404`; Cara `8643` and receipt port `8778` refuse connections. No update, restart, config change, authenticated/rendered Aire journey or physical-device acceptance ran.
+- **Other exact named sources had no material transition where rechecked.** GitHub default heads remain Here’s Health `35514253…`, Donworth Desktop `a1cec24e…`, Donworth site `104ac7fc…`, OpenHouse `31a66a14…`, OpenBook `c72bf48b…`, OB Client Site Template `3e6bfa11…` and Cara `f46d501d…`. Donworth Studio, Here’s Health account confirmation, OpenHouse portal and Empire Gym roots returned HTTP `200`; Here’s Health's external commerce site returned an automated-request `429`, which is not promoted to an outage claim. OpenHouse Supabase remains `ACTIVE_HEALTHY`; current security advisers preserve the canonical 30 RLS-enabled/no-policy, two security-definer-view, 17 mutable-search-path and four authenticated-executable security-definer-function findings, plus disabled leaked-password protection. No controlled tenant actor path or rendered authenticated product journey ran.
+- **No operational mutation:** no source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was changed. Only Ground Zero canonical notes and the generated dashboard were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 8 October 2026, 12:18 IST
 

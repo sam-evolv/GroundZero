@@ -9,6 +9,11 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced ten unverified release, catalogue and s6 commits; accepted Aire state did not — 8 October 2026, 16:06 IST cutoff
+
+- Installed remains unsigned `9aaef03b…` / tree `f2eafe43…`; direct GitHub authority now binds `main` to unsigned `38880bd2…` / tree `05c8472b…`, exactly 978 commits ahead. The full paginated gap contains 63 verified and 915 unverified commits. The exact tail after `99a45ecc…` is ten entirely unverified commits across six paths: Docker stable-tag receipt promotion, DirectSDK catalogue repins/disclosure wording, and an s6 supervised-PID stop correction with regression coverage. Treat these as bounded compatibility-review inputs only.
+- The installed checkout and stale `origin/main` remain at `9aaef03b…`, with only `.review-worktrees/` untracked and 11 stashes. The CLI still says 528 behind, understating direct GitHub by 450, and retains the restart warning; health is `200` / v0.21.5 without SHA. Saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`; ports `8766` and `8767` remain non-Aire, while Cara `8643` and receipt port `8778` are offline. No fetch, update, restart, routing change, authenticated/rendered Aire journey or device acceptance ran.
+
 ## Upstream advanced 160 mostly plugin-catalogue commits; accepted Aire state did not — 8 October 2026, 12:18 IST cutoff
 
 - Installed remains unsigned `9aaef03b…` / tree `f2eafe43…`; direct GitHub authority now binds `main` to unsigned `99a45ecc…` / tree `e67a70b9…`, exactly 968 commits ahead. The full paginated gap contains 63 verified and 905 unverified commits. The exact tail after `a28a5d03…` is 160 commits / 136 paths, one verified and 159 unverified; it is dominated by plugin-catalogue work and also changes plugin activation/name resolution, session-finalize messages, Desktop backend/plugin handling, unattended approval behavior, resumed `/yolo` consistency and release paths. Treat it as bounded compatibility-review input only.

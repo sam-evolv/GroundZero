@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-08T12:18:00+01:00"
+updated_at: "2026-10-08T16:06:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 8 October 2026 16:06 IST cutoff
+
+Direct GitHub authority now binds upstream `main` to unsigned `38880bd2f1e90dbc9a1aeec03af62539ee64719a` / tree `05c8472bfcca8dbc2f71bc1ca3d5439d01b12506`, exactly 978 commits ahead of installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. The full paginated gap contains 63 GitHub-verified and 915 unverified commits. The exact tail after prior canonical checkpoint `99a45ecc17cc51c0488ec3b8ccf7eaf483f7203d` is ten entirely unverified commits across six paths. GitHub caps the broader changed-file list at 300.
+
+Queue the tail's Docker stable/latest promotion-from-receipt behavior, DirectSDK catalogue repins and reviewed disclosure wording, and the s6 supervised-PID stop correction plus its unit and real-image regression coverage for bounded compatibility review. Upstream source and tests are not installed or accepted Aire behaviour.
+
+The installed checkout and stale `origin/main` remain at `9aaef03b…`, with only `.review-worktrees/` untracked and 11 stashes. `hermes --version` still reports 528 commits behind, understating direct GitHub by 450; `hermes status --all` retains the mixed-module restart warning. Health remains HTTP `200` / v0.21.5 without commit identity. Saved Skippy routing remains unapproved `gpt-6.1-sol` / `openai-codex`; ports `8766` and `8767` remain non-Aire, while Cara `8643` and recorded receipt port `8778` refuse connections. No fetch, update, restart, routing correction, source integration, provider transaction, authenticated/rendered Aire journey or physical-device acceptance was performed.
 
 ## Reconciliation checkpoint, 8 October 2026 12:18 IST cutoff
 

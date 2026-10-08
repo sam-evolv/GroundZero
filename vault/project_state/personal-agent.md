@@ -1,12 +1,19 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; GitHub `main` is now unsigned `99a45ecc…` / tree `e67a70b9…`, exactly 968 commits ahead by direct comparison. The 160-commit tail after `a28a5d03…` contains one verified and 159 unverified commits across 136 paths; the full gap contains 63 verified and 905 unverified commits. The CLI still reports 528 commits behind, understating the exact comparison by 440, and retains the restart warning. Saved Skippy routing remains unapproved; ports 8766 and 8767 remain non-Aire previews, Cara and receipt port 8778 are offline, and no authenticated/rendered or physical-device acceptance advanced.
+headline: Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; GitHub `main` advanced ten unverified commits to unsigned `38880bd2…` / tree `05c8472b…`, exactly 978 commits ahead. The six-path tail adds Docker stable-tag receipt promotion, DirectSDK catalogue repins/disclosure wording and an s6 supervised-PID stop fix with tests; the full gap contains 63 verified and 915 unverified commits. The CLI still reports 528 behind, understating GitHub by 450, and retains the restart warning. Saved Skippy routing remains unapproved; ports 8766/8767 remain non-Aire, Cara and receipt port 8778 are offline, and no accepted Aire behaviour advanced.
 status: building
 updated: 2026-10-08
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced ten unverified release, catalogue and s6 commits; accepted runtime and Aire state did not — 8 October 2026, 16:06 IST cutoff
+
+- Direct GitHub authority binds `NousResearch/hermes-agent` `main` to unsigned `38880bd2f1e90dbc9a1aeec03af62539ee64719a` / tree `05c8472bfcca8dbc2f71bc1ca3d5439d01b12506`, exactly 978 commits ahead of installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. Full pagination contains 63 GitHub-verified and 915 unverified commits; GitHub caps the changed-file list at 300.
+- The exact tail after prior canonical checkpoint `99a45ecc17cc51c0488ec3b8ccf7eaf483f7203d` is ten entirely unverified commits across six paths. It adds Docker stable/latest promotion from a published receipt tag, seven DirectSDK catalogue pin/disclosure changes, and `38880bd2…`, which changes s6 gateway stop handling to read the supervised PID from machine-readable `s6-svstat -o` output and adds unit plus real-image regression coverage. These are bounded compatibility-review inputs, not installed or accepted Aire behaviour.
+- The installed checkout and stale `origin/main` remain at `9aaef03b…`, with only `.review-worktrees/` untracked and 11 stashes. `hermes --version` still reports 528 commits behind, understating direct GitHub by 450, and `hermes status --all` retains the mixed-module restart warning. Default gateway health is HTTP `200` / v0.21.5 without a commit SHA; saved default routing remains unapproved `gpt-6.1-sol` / `openai-codex`. No fetch, update, restart, config edit, source integration, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
+- `8766` and `8767` remain non-Aire surfaces with `/health` HTTP `404`; Cara `8643` and the recorded Aire receipt port `8778` refuse connections. Availability alone is not Aire runtime evidence.
 
 ## Upstream advanced 160 mostly plugin-catalogue commits; accepted runtime and Aire state did not — 8 October 2026, 12:18 IST cutoff
 
