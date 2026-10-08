@@ -12,7 +12,7 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-24
 run_date: "2026-06-24"
 created_at: "2026-06-24T17:02:14Z"
-updated_at: "2026-10-06T18:02:29+01:00"
+updated_at: "2026-10-08T18:04:20+01:00"
 sync_status: "Checked 2026-06-26 16:56 IST. Cross-company status unchanged in this sync."
 ---
 
@@ -566,6 +566,53 @@ It replaces repeated manual comparison of the same checkout-session state, autho
 ### Provenance
 
 Grounded in the production Shopify session first recorded on 2 October and the repeated unchanged readbacks through 6 October in [[project_state/heres-health-app]], [[companies/heres-health]] and [[items/ops-project-state-reconciler]]. The paying-client priority and evidence boundaries come from [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]] and [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]. This extends [[items/ops-daily-sync-digest]] and [[context/ops-automation-moc]] rather than creating another scheduler or commerce system.
+
+## Material proposal, 8 October 2026 — Square-event backlog and retention-outcome receipt
+
+Extend the existing digest with one change-only, read-only **Square-event backlog and retention-outcome receipt** for Here’s Health. It is an evidence view over the existing event ledger, source-backed retention migration and scheduled job, not another webhook processor, retention worker, support dashboard or commerce monitor.
+
+### Bottleneck
+
+[[project_state/heres-health-app]] records 120,940 processed production Square-event rows at the 7 October 20:18 IST cutoff, together with hosted migration `20261007173613 square_event_retention` and active `square-event-retention` and `cafe-notification-retention` cron jobs. [[items/ops-project-state-reconciler]] then recorded the production Square-event count increasing by 52 rows and later by another 2,197 rows to 123,137 while every observed row remained processed. Those are normal operational transitions, not payment, order, retention or launch acceptance, but the four-hour reconciliation still has to re-read and restate the count and “all processed” caveat.
+
+The current evidence proves that a source-backed retention migration exists, the scheduled job is active and the sampled rows were processed. It does not prove that the cron command remains bound to the inspected policy, that scheduled executions succeeded, that rows beyond the policy cutoff were removed, or that a newly unprocessed backlog would be surfaced. Total-row growth alone cannot distinguish healthy traffic from a failed retention outcome.
+
+### Value category
+
+- **Reliability and incident detection:** surfaces a real unprocessed backlog, failed scheduled execution, policy-binding loss or overdue retained rows without treating ordinary processed traffic as an incident.
+- **Privacy and data-lifecycle risk reduction:** tests whether the already-approved retention mechanism is producing its defined outcome without changing the retention policy or deleting data itself.
+- **Founder time reclaimed:** replaces repeated manual aggregate reads and routine event-count prose in the four-hour reconciliation.
+- **Decision quality:** keeps webhook processing, retention-job liveness, retention effectiveness and payment/order acceptance as separate evidence states.
+
+### Smallest live test
+
+First bind the exact hosted migration definition and active cron command to the inspected source-backed retention policy; if the binding or policy cutoff cannot be established, stop at `POLICY_UNBOUND`. Replay a sanitized aggregate fixture from the recorded 120,940-to-123,137 transition, then perform one read-only aggregate before and after one naturally scheduled retention run. Limit the live read to total, processed and unprocessed counts; oldest and newest timestamps by processing state; count of processed rows older than the source-defined cutoff; and the latest bounded cron execution status and timestamps. Do not read event payloads, customer/order identifiers, signatures or payment data, and do not force-run the job.
+
+Emit one local receipt with policy/source binding, prior and current aggregate digests, scheduled-run outcome and one terminal classification: `PROCESSED_GROWTH`, `HEALTHY_RETENTION`, `BACKLOG`, `RETENTION_MISS`, `JOB_FAILED`, `POLICY_UNBOUND` or `UNKNOWN`. Alert only on first backlog, first retention miss or job failure, policy-binding loss, access loss, or first recovery. An increasing total with zero unprocessed rows must remain `PROCESSED_GROWTH` until a completed scheduled cycle proves the policy-defined retention outcome; it must not become payment, order or launch evidence.
+
+### Evidence of success
+
+- The frozen 120,940-to-123,137 fixture classifies as `PROCESSED_GROWTH`, not an incident or commerce transition, while preserving that every observed row was processed.
+- `HEALTHY_RETENTION` is emitted only when the hosted policy and cron command are bound, the naturally scheduled execution succeeded, the source-defined cutoff can be evaluated and no processed row remains beyond it after the run.
+- A single unprocessed row, a failed scheduled execution, a row beyond the bound cutoff or a changed/unreadable policy produces the corresponding exception or `UNKNOWN`; none is silently collapsed into a healthy total count.
+- A second unchanged aggregate produces a byte-stable canonical state and no human-facing update.
+- Manual comparison with the allowlisted aggregates, hosted migration/cron metadata and the named Ground Zero receipts finds no event payload, customer data, unsupported deletion claim or payment/order/launch claim.
+
+### Downside
+
+Aggregate health can hide duplicate, out-of-order or semantically incorrect events, and a successful cron status can still conceal a policy mistake. Reads around a scheduled run can race with live traffic, while aggressive retention can remove useful forensic evidence. Keep the first test aggregate-only, UTC-normalized, naturally scheduled and change-only; derive the cutoff from the bound policy rather than inventing one; preserve `UNKNOWN`; and never use this receipt to authorize shorter retention, data deletion or a support/compliance claim.
+
+### Approval boundary
+
+This proposal authorises documentation only. A later approved test may read the exact allowlisted aggregates and hosted migration/cron metadata above and write one local receipt. It may not read event payloads, identifiers, signatures, customer/order/payment data or unrelated rows; invoke, pause or reschedule a cron; change retention SQL or policy; delete or replay events; invoke webhooks or provider APIs; mutate a database; notify staff or a client; contact Here’s Health or Square; deploy; spend money; modify production; or declare privacy compliance, payment, merchant acceptance, client acceptance, launch readiness or completion. Sam retains approval over implementation, live alert delivery, any broader query and every production or outward action.
+
+### What it replaces
+
+It replaces repeated manual comparison of processed production Square-event counts and repeated “retention cron active” prose inside [[items/ops-project-state-reconciler]]. It does **not** replace the existing webhook processor or retention job, the commerce-integrity tests in [[briefs/2026-08-16-heres-health-commerce-integrity-support-wedge]], source-to-hosted parity review, merchant dashboards, end-to-end payment/refund/fulfilment testing, incident response, privacy/legal judgement, client acceptance or Sam’s launch and completion decisions.
+
+### Provenance
+
+Grounded in the 7 October hosted migration, active retention jobs and 120,940 processed production Square-event rows in [[project_state/heres-health-app]] and [[companies/heres-health]], plus the repeated 8 October count-only transitions to 123,137 in [[items/ops-project-state-reconciler]]. The webhook duplicate/out-of-order and bounded recovery context comes from [[briefs/2026-08-16-heres-health-commerce-integrity-support-wedge]]. The paid-client and evidence-state boundaries come from [[decisions/2026-09-16-heres-health-deposit-and-completion-terms]] and [[decisions/2026-09-05-donworth-outcome-driven-delivery-standard]]. This extends [[items/ops-daily-sync-digest]] and [[context/ops-automation-moc]] rather than creating another scheduler or durable operational store.
 
 
 ## Notes that link here
