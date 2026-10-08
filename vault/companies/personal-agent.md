@@ -9,6 +9,11 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced 38 mixed-signature commits; accepted Aire state did not — 8 October 2026, 08:14 IST cutoff
+
+- Installed remains unsigned `9aaef03b…` / tree `f2eafe43…`; direct GitHub authority now binds `main` to unsigned `a28a5d03…` / tree `70642e6d…`, exactly 808 commits ahead. The full paginated gap contains 62 verified and 746 unverified commits. The exact tail after `bc2e4d37…` is 38 commits / 66 paths, 11 verified and 27 unverified; after retained checkpoint `db48af24…`, current `main` is 273 commits ahead with 58 verified and 215 unverified. Queue plugin lifecycle, Desktop voice/composer behavior, model-switch confirmation, resumed-session `/yolo` persistence and release packaging for bounded review; source movement is not accepted Aire behavior.
+- The installed checkout and stale `origin/main` remain at `9aaef03b…`, with only `.review-worktrees/` untracked. The CLI now says 528 commits behind, understating direct GitHub by 280, and retains the restart warning; health is `200` / v0.21.5 without SHA. Saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`; ports `8766` and `8767` remain non-Aire, Cara `8643` and receipt port `8778` are offline. No fetch, update, restart, routing change, authenticated/rendered Aire journey or device acceptance ran.
+
 ## Upstream advanced another 184 commits into the V1 onboarding bundle; accepted Aire state did not — 8 October 2026, 00:20 IST cutoff
 
 - Installed remains unsigned `9aaef03b…` / tree `f2eafe43…`; direct GitHub authority now binds `main` to verified merge `bc2e4d37…` / tree `0eb6dbc8…`, 770 commits ahead by explicit paginated comparison. The full gap has 51 verified and 719 unverified commits. The exact range after `db48af24…` is 235 commits, 47 verified and 188 unverified, with GitHub's file list capped at 300. The additional 184 commits after transient `3b288d85…` are dominated by the V1 onboarding bundle across setup ownership, Desktop first-run/tour/handoff/first-task UX, connector/plugin setup, free-tier auth and cooldowns, local-model flows, packaging, Windows paths, metrics and localisation. Treat this as review input only.

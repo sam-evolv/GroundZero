@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-08T00:20:00+01:00"
+updated_at: "2026-10-08T08:14:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 8 October 2026, 08:14 IST
+
+- **Hermes upstream advanced 38 commits; accepted runtime and Aire state did not.** Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `a28a5d03…` / tree `70642e6d…`, exactly 808 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…`. The full paginated gap contains 62 verified and 746 unverified commits. The exact tail after prior upstream checkpoint `bc2e4d37…` is 38 commits / 66 paths, 11 verified and 27 unverified; after retained canonical checkpoint `db48af24…`, current `main` is 273 commits ahead with 58 verified and 215 unverified. The new tail spans plugin hot-mount/uninstall, Desktop voice-reasoning and composer behavior, model-switch confirmation, resumed-session `/yolo` persistence, and release/MSIX/Nix/Termux packaging. These are compatibility-review inputs, not installed or accepted behavior.
+- **Installed and live runtime evidence remains bounded and contradictory.** The installed checkout, its stale `origin/main`, and v0.21.5 runtime remain at `9aaef03b…`; only `.review-worktrees/` is untracked. `hermes --version` now reports 528 commits behind, understating the direct immutable comparison by 280, while `hermes status --all` retains the mixed-module restart warning. Gateway health is HTTP `200` / v0.21.5 without a commit SHA. Saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`. Ports `8766` and `8767` remain non-Aire previews with `/health` `404`; Cara `8643` and recorded receipt port `8778` refuse connections. No fetch, update, restart, config change, authenticated/rendered Aire journey or physical-device acceptance ran.
+- **Other exact named sources did not materially transition where rechecked.** Here’s Health source/PR heads, Supabase schema and active functions, commerce/deletion/notification/rota outcomes, account page and preview bytes remain at the canonical checkpoint; 52 additional processed production Square-event rows are operational activity, not a payment, order or acceptance transition. Donworth Desktop/site heads and PRs, Ready site deployment and exact public bytes are unchanged. OpenHouse source, Ready deployment and advisor categories are unchanged. OpenBook/template heads and queue counts, Empire Gym Ready deployment and exact public bytes are unchanged. Cara remote head is unchanged; Renew still names no exact inspectable live source. Apple, installed Donworth binaries, updater feeds, authenticated product paths, payments and client/device acceptance were not re-exercised, so their prior bounded states were preserved rather than promoted.
+- **No operational mutation:** no source checkout, repository remote, service, deployment, provider, database, payment, Apple, contact or production state was changed. Only Ground Zero canonical notes and the generated dashboard were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 8 October 2026, 00:20 IST
 

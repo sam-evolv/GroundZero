@@ -1,12 +1,19 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; GitHub `main` is now verified `bc2e4d37…` / tree `0eb6dbc8…`, 770 commits ahead by explicit paginated comparison. The exact range after `db48af24…` is 235 commits with 47 verified and 188 unverified; GitHub caps its file list at 300. The current CLI read retains the restart warning but omits a commits-behind count; saved Skippy routing remains unapproved. Ports 8766 and 8767 remain non-Aire previews, Cara and receipt port 8778 are offline, and no authenticated/rendered or physical-device acceptance advanced.
+headline: Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; GitHub `main` is now unsigned `a28a5d03…` / tree `70642e6d…`, exactly 808 commits ahead by direct comparison. The 38-commit tail after `bc2e4d37…` contains 11 verified and 27 unverified commits across 66 paths; the full gap contains 62 verified and 746 unverified commits. The CLI now reports 528 commits behind, understating the exact comparison by 280, and retains the restart warning. Saved Skippy routing remains unapproved; ports 8766 and 8767 remain non-Aire previews, Cara and receipt port 8778 are offline, and no authenticated/rendered or physical-device acceptance advanced.
 status: building
 updated: 2026-10-08
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced 38 mixed-signature commits; accepted runtime and Aire state did not — 8 October 2026, 08:14 IST cutoff
+
+- Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `a28a5d03a9fa60418db5f44f3436fa2aa029c8f2` / tree `70642e6dedfab7870120b1aae54be175f24132f2`, exactly 808 commits ahead of installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. The full paginated comparison contains 62 GitHub-verified and 746 unverified commits; GitHub caps the changed-file list at 300.
+- The exact tail after prior upstream checkpoint `bc2e4d3773518f2129023383a29dc51133dc6048` is 38 commits / 66 changed paths: 11 verified and 27 unverified. It changes plugin API hot-mount/uninstall behavior, Desktop voice-reasoning and composer behavior, mid-turn model-switch confirmation, resumed-session `/yolo` persistence, and release/MSIX/Nix/Termux packaging paths. After retained canonical checkpoint `db48af245aec43aaadd54a92afd3b9f0c187f5ca`, current `main` is exactly 273 commits ahead with 58 verified and 215 unverified. These are compatibility-review inputs, not installed or accepted behavior.
+- The installed checkout still has local `main` and stale `origin/main` at `9aaef03b…`, with one untracked `.review-worktrees/` entry. `hermes --version` now reports 528 commits behind, contradicting the immutable GitHub comparison by 280; `hermes status --all` retains the mixed-module restart warning. Default gateway health remains HTTP `200` / v0.21.5 without a commit SHA. Saved default routing remains unapproved `gpt-6.1-sol` / `openai-codex`; no fetch into the installed checkout, update, restart, config edit, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
+- `8766` and `8767` remain non-Aire previews with `404` at `/health`; Cara `8643` and the recorded Aire receipt port `8778` refuse connections. Process or page availability is not Aire runtime evidence.
 
 ## Upstream advanced another 184 commits into the V1 onboarding bundle; accepted Aire state did not — 8 October 2026, 00:20 IST cutoff
 
