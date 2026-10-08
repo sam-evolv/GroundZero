@@ -9,6 +9,11 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced nine mixed-signature CI/tooling commits; accepted Aire state did not — 8 October 2026, 20:23 IST cutoff
+
+- Installed remains unsigned `9aaef03b…` / tree `f2eafe43…`; direct GitHub authority now binds `main` to verified merge `517b5e10…` / tree `a84042b5…`, exactly 987 commits ahead. The full linear gap contains 68 verified and 919 unverified commits. The exact nine-commit tail after `38880bd2…` has five verified and four unverified commits; it reverts the preceding Docker stable promotion and adds Lefthook, repo-wide lint/Ruff changes and a no-`.git` prepare guard. Treat these as bounded compatibility-review inputs only.
+- The installed checkout remains exact with only `.review-worktrees/` untracked and 11 stashes. A read-only `hermes update --check` refreshed tracking metadata and now reports the exact 987-commit gap without changing installed `HEAD` or runtime. The restart warning and HTTP `200` / v0.21.5 health without SHA remain; saved Skippy is still unapproved `gpt-6.1-sol` / `openai-codex`. Ports `8766`/`8767` remain non-Aire, while Cara `8643` and receipt port `8778` are offline. No install, restart, routing change, authenticated/rendered Aire journey or device acceptance ran.
+
 ## Upstream advanced ten unverified release, catalogue and s6 commits; accepted Aire state did not — 8 October 2026, 16:06 IST cutoff
 
 - Installed remains unsigned `9aaef03b…` / tree `f2eafe43…`; direct GitHub authority now binds `main` to unsigned `38880bd2…` / tree `05c8472b…`, exactly 978 commits ahead. The full paginated gap contains 63 verified and 915 unverified commits. The exact tail after `99a45ecc…` is ten entirely unverified commits across six paths: Docker stable-tag receipt promotion, DirectSDK catalogue repins/disclosure wording, and an s6 supervised-PID stop correction with regression coverage. Treat these as bounded compatibility-review inputs only.

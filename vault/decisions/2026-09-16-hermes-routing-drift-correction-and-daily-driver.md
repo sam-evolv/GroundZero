@@ -19,6 +19,11 @@ This overrides the 10:45 Astra amendment below. Skippy's saved default has been 
 
 The prior inference that prioritising effectiveness authorised switching Sam to Astra was wrong. Improve execution within the explicitly selected subscription/model; do not change it on the strength of a generic quality preference.
 
+## Reconciliation receipt — 8 October 2026, 20:23 IST
+
+- Resolved non-secret readback still shows saved default `gpt-6.1-sol` / `openai-codex`; no later explicit Sam approval, actor or exact changed fields were established. Treat this as current operational drift, not a replacement durable decision.
+- Installed source remains `9aaef03b…` while verified upstream advanced to `517b5e10…`, exactly 987 commits ahead. A read-only update check refreshed tracking metadata and now reports that exact gap, but no checkout update, runtime restart, model switch, configuration edit or credential mutation occurred. The accepted DeepSeek/OpenCode Go correction above therefore remains authoritative.
+
 ## Reconciliation receipt — 7 October 2026, 20:18 IST
 
 - Direct parsed readback of the saved default configuration at mtime 16:06 IST shows `gpt-6.1-sol` / `openai-codex`, `agent.reasoning_effort: xhigh`, and no `fallback_models` or `fallback_providers` keys. Forge remains `kimi-k2.7-code` / `opencode-go`, Vera remains `grok-4.6` / `xai-oauth`, and all three profiles retain Luna delegation.

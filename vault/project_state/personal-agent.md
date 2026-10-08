@@ -1,12 +1,19 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; GitHub `main` advanced ten unverified commits to unsigned `38880bd2…` / tree `05c8472b…`, exactly 978 commits ahead. The six-path tail adds Docker stable-tag receipt promotion, DirectSDK catalogue repins/disclosure wording and an s6 supervised-PID stop fix with tests; the full gap contains 63 verified and 915 unverified commits. The CLI still reports 528 behind, understating GitHub by 450, and retains the restart warning. Saved Skippy routing remains unapproved; ports 8766/8767 remain non-Aire, Cara and receipt port 8778 are offline, and no accepted Aire behaviour advanced.
+headline: Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; verified GitHub `main` advanced nine commits to `517b5e10…` / tree `a84042b5…`, exactly 987 commits ahead. The tail has five verified and four unverified commits, reverts the prior Docker stable promotion and adds repo-wide Lefthook/lint/Ruff fixes; the full linear gap contains 68 verified and 919 unverified commits. A read-only update check refreshed tracking metadata and now reports the exact 987-commit gap, but the checkout, v0.21.5 runtime, restart warning, unapproved Skippy route and non-Aire/offline ports remain unchanged. No accepted Aire behaviour advanced.
 status: building
 updated: 2026-10-08
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced nine mixed-signature CI/tooling commits; installed and accepted Aire state did not — 8 October 2026, 20:23 IST cutoff
+
+- Direct GitHub authority binds `NousResearch/hermes-agent` `main` to verified merge `517b5e10febd619ce30bb22580e29b160266eb43` / tree `a84042b51da820817092a1f72ef34c1b74a00ceb`, exactly 987 commits ahead of installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. The prior checkpoint is its ancestor by exactly nine commits; combining the retained paginated baseline with the exact tail gives 68 GitHub-verified and 919 unverified commits in the full linear gap. GitHub caps the changed-file list at 300.
+- The exact tail after `38880bd2f1e90dbc9a1aeec03af62539ee64719a` has five verified and four unverified commits. It reverts the preceding Docker stable/latest receipt promotion, adds Lefthook as a development dependency, applies broad automatic lint fixes, moves deprecated Ruff settings and prevents Lefthook installation when no `.git` directory exists. Source merges and tests are compatibility-review inputs, not installed or accepted Aire behaviour.
+- Installed `HEAD` and tree remain exact, with only `.review-worktrees/` untracked and 11 stashes. `hermes update --check` refreshed local tracking metadata and now reports the exact 987-commit gap; it did not update the checkout or runtime. `hermes status --all` still warns about mixed pre/post-update modules, and default health remains HTTP `200` / v0.21.5 without source SHA. Saved default routing remains unapproved `gpt-6.1-sol` / `openai-codex`. No install, restart, config edit, source integration, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
+- Ports `8766` and `8767` remain non-Aire Python static surfaces with `/health` HTTP `404`; Cara `8643` and the recorded Aire receipt port `8778` refuse connections. Availability alone is not Aire runtime evidence.
 
 ## Upstream advanced ten unverified release, catalogue and s6 commits; accepted runtime and Aire state did not — 8 October 2026, 16:06 IST cutoff
 

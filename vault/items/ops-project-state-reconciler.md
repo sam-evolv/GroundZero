@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-08T16:06:00+01:00"
+updated_at: "2026-10-08T20:23:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 8 October 2026, 20:23 IST
+
+- **Hermes upstream advanced nine commits; installed and accepted Aire state did not.** Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to verified merge `517b5e10…` / tree `a84042b5…`, exactly 987 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…`. The prior checkpoint is its ancestor by exactly nine commits. The exact tail has five verified and four unverified commits, reverts the preceding Docker stable/latest promotion and adds Lefthook, broad automatic lint fixes, Ruff-config migration and a no-`.git` prepare guard. The full linear gap contains 68 verified and 919 unverified commits; GitHub caps the changed-file list at 300.
+- **Installed/runtime evidence remains bounded.** Installed `HEAD`/tree remain exact with only `.review-worktrees/` untracked and 11 stashes. Read-only `hermes update --check` refreshed local tracking metadata and now reports the exact 987-commit gap, closing the earlier CLI undercount without updating installed source or runtime. `hermes status --all` retains the mixed-module restart warning; health is HTTP `200` / v0.21.5 without SHA. Saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`. Ports `8766`/`8767` are non-Aire `404` surfaces; Cara `8643` and receipt port `8778` refuse connections. No authenticated/rendered Aire journey or physical-device acceptance advanced.
+- **Other exact named sources had no material transition where rechecked.** Donworth Desktop/site heads, draft PR #13, installed signed v0.18.9 and public bytes remain at their canonical checkpoints. Here’s Health `main`, draft PR #6 and public health/account surfaces remain unchanged; no replacement native binary, store, payment/order, merchant, client or device acceptance advanced. OpenHouse source/deployment and current Supabase advisor categories remain unchanged, without a controlled second-tenant path. OpenBook/Empire Gym deployment, source heads and public bytes remain unchanged; Cara remains parked/offline; Renew still names no exact inspectable live source. App Store Connect remained fail-closed on the running Chrome profile lock, so the last verified Apple state was preserved rather than inferred.
+- **Bounded local metadata read only:** no checkout, install, restart, config, service, deployment, provider, database, payment, Apple, contact or production state was changed. `hermes update --check` refreshed the installed repository's tracking ref only; Ground Zero canonical notes and the generated dashboard were then updated locally. No commit or sync was attempted.
 
 ## Reconciliation checkpoint — 8 October 2026, 16:06 IST
 

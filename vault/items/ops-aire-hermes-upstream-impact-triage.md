@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-08T16:06:00+01:00"
+updated_at: "2026-10-08T20:23:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 8 October 2026 20:23 IST cutoff
+
+Direct GitHub authority now binds upstream `main` to verified merge `517b5e10febd619ce30bb22580e29b160266eb43` / tree `a84042b51da820817092a1f72ef34c1b74a00ceb`, exactly 987 commits ahead of installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. The exact tail after prior canonical checkpoint `38880bd2f1e90dbc9a1aeec03af62539ee64719a` is nine commits, five GitHub-verified and four unverified. Because that checkpoint is a direct ancestor, the retained paginated baseline plus this tail gives 68 verified and 919 unverified commits in the full linear gap. GitHub caps the changed-file list at 300.
+
+Queue the Docker stable/latest promotion revert, Lefthook development dependency and hook setup, broad automatic lint changes, Ruff-config migration, and the no-`.git` prepare guard for bounded compatibility review. The revert means the receipt-based Docker stable-promotion behavior recorded at 16:06 is no longer present at current upstream `main`. Source merges, formatting and tests are not installed or accepted Aire behaviour.
+
+Installed `HEAD` and tree remain exact, with only `.review-worktrees/` untracked and 11 stashes. Read-only `hermes update --check` refreshed local tracking metadata and now reports the exact 987-commit gap without changing the checkout or runtime. `hermes status --all` retains the mixed-module restart warning; health remains HTTP `200` / v0.21.5 without commit identity. Saved Skippy routing remains unapproved `gpt-6.1-sol` / `openai-codex`; ports `8766` and `8767` remain non-Aire, while Cara `8643` and recorded receipt port `8778` refuse connections. No install, restart, routing correction, source integration, provider transaction, authenticated/rendered Aire journey or physical-device acceptance was performed.
 
 ## Reconciliation checkpoint, 8 October 2026 16:06 IST cutoff
 
