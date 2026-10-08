@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-08T20:23:00+01:00"
+updated_at: "2026-10-09T00:08:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 9 October 2026 00:08 IST cutoff
+
+GitHub's latest stable release is now `v0.21.6`, published from unsigned commit `818c13be1dc4fd28987e1e881a9408224afd4535` / tree `f36c56dd4fe068b0768e50e1ab39909dee2ab51a`, exactly 847 commits ahead of installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. The annotated receipt tag is unsigned and the release has zero assets; its notes keep Desktop, Termux and Microsoft Store on prior bundles. Direct GitHub authority binds current `main` to verified `8ac5c74432d1f217033993c8370e911b2c91b04a` / tree `dc787a9049cefd5173aed3524d18bdb7db330dc8`, 183 commits beyond the stable cut and exactly 1,030 beyond installed.
+
+The exact tail after prior canonical checkpoint `517b5e10febd619ce30bb22580e29b160266eb43` is 43 commits, six GitHub-verified and 37 unverified. Combining that direct-ancestor tail with the retained baseline gives 74 verified and 956 unverified commits in the full linear gap; GitHub caps the changed-file list at 300. Queue Codex rotating-stream call correlation, same-model/provider reasoning-effort selection, plugin re-enable/toolset restoration, Solstice lazy transport import, pinned-install/update custody, Desktop local-bundle/build-cache/native-tree work, Termux repair and remaining lint/catalogue changes for bounded review. Release/source/test evidence is not installed or accepted Aire behaviour.
+
+Installed `HEAD` / tree remain exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…` and report an update available, understating direct GitHub by 43. `hermes status --all` retains the mixed-module restart warning; health remains HTTP `200` / v0.21.5 without commit identity. Saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`; ports `8766` and `8767` remain non-Aire, while Cara `8643` and recorded receipt port `8778` refuse connections. No install, restart, routing correction, source integration, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Reconciliation checkpoint, 8 October 2026 20:23 IST cutoff
 

@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-08T20:23:00+01:00"
+updated_at: "2026-10-09T00:08:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 9 October 2026, 00:08 IST
+
+- **Hermes released v0.21.6 and current main advanced another 43 commits; accepted Aire state did not.** Latest stable is unsigned `818c13be…` / tree `f36c56dd…`, exactly 847 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…`; the unsigned annotated tag has no downloadable assets and explicitly leaves Desktop, Termux and Microsoft Store on prior bundles. Verified current `main` is `8ac5c744…` / tree `dc787a90…`, 183 commits beyond the stable cut and exactly 1,030 beyond installed. The direct-ancestor tail after `517b5e10…` is 43 commits, six verified and 37 unverified, taking the retained full-gap breakdown to 74 verified / 956 unverified. Queue its Codex stream-call correlation, model reasoning-effort, plugin re-enable, Solstice discovery, pinned install/update, Desktop build/cache/native-tree and Termux work for bounded review; none is installed or accepted Aire behaviour.
+- **Installed/runtime evidence remains bounded and contradictory.** Installed source stays at `9aaef03b…` / `f2eafe43…`, with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…` and report an update available, 43 commits behind direct GitHub. The mixed-module restart warning persists; health is HTTP `200` / v0.21.5 without SHA, and saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`. Ports `8766` / `8767` remain non-Aire `200` roots with `/health` `404`; Cara `8643` and Aire receipt port `8778` refuse connections. No install, restart, config change, authenticated/rendered Aire journey or physical-device acceptance ran.
+- **Other exact named sources had no material transition where rechecked.** Donworth Desktop/site heads and draft PR #13 are unchanged; the canonical Vercel broker is healthy with Windows `0.18.12`, Mac ARM `0.18.2` and Mac Intel still unavailable. The separately probed Railway hostname returns Railway `404` surfaces, but it is not promoted to a current tester-feed outage because the canonical broker remains live. Signed installed Mac v0.18.9 remains byte-exact and valid on disk; it was not launched. Here’s Health source/PR heads, rota rows, sandbox-only Square-order outcomes, one unconfirmed production Shopify session, deletion outcomes and notification-device count are unchanged; processed production Square-event volume and reconciliation heartbeat advanced without an order or acceptance transition. OpenHouse source and named public rows remain unchanged; its login chooser, Donworth public site/privacy, Here’s Health preview and Empire Gym public/admin surfaces remained reachable. OpenBook/template and Cara heads remain unchanged; Renew still names no exact inspectable live source. No Apple, authenticated product, payment, client, genuine-Windows or physical-device acceptance was re-exercised.
+- **Local canonical write only:** no source checkout, repository remote, install, restart, service, deployment, provider, database, payment, Apple, contact or production state was changed. Ground Zero notes and dashboard were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 8 October 2026, 20:23 IST
 

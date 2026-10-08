@@ -1,12 +1,19 @@
 ---
 title: Personal agent project state
-headline: Installed Hermes remains unsigned `9aaef03b…` / tree `f2eafe43…`; verified GitHub `main` advanced nine commits to `517b5e10…` / tree `a84042b5…`, exactly 987 commits ahead. The tail has five verified and four unverified commits, reverts the prior Docker stable promotion and adds repo-wide Lefthook/lint/Ruff fixes; the full linear gap contains 68 verified and 919 unverified commits. A read-only update check refreshed tracking metadata and now reports the exact 987-commit gap, but the checkout, v0.21.5 runtime, restart warning, unapproved Skippy route and non-Aire/offline ports remain unchanged. No accepted Aire behaviour advanced.
+headline: Official stable is now unsigned `v0.21.6` commit `818c13be…` / tree `f36c56dd…`, exactly 847 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…`. Verified GitHub `main` is `8ac5c744…` / tree `dc787a90…`, 183 commits beyond the stable cut and exactly 1,030 beyond installed; its 43-commit tail after `517b5e10…` has six verified and 37 unverified commits. Installed source, v0.21.5 health, mixed-module warning, unapproved Skippy route and non-Aire/offline service boundaries remain unchanged. No accepted Aire behaviour advanced.
 status: building
-updated: 2026-10-08
+updated: 2026-10-09
 role: project-state
 ---
 
 # Personal agent project state
+
+## Stable v0.21.6 landed; current main advanced 43 more commits; installed and accepted Aire state did not — 9 October 2026, 00:08 IST cutoff
+
+- GitHub's latest stable release is now `v0.21.6`, published 8 October at 12:51 IST from unsigned commit `818c13be1dc4fd28987e1e881a9408224afd4535` / tree `f36c56dd4fe068b0768e50e1ab39909dee2ab51a`. The annotated receipt tag is also unsigned and the release has no downloadable assets; its own notes say Docker/Hermes Cloud move now while Desktop, Termux and Microsoft Store remain on their prior bundles. The release cut is exactly 847 commits ahead of installed `9aaef03b…`; this corrects the stale v0.21.5-latest statement retained in older checkpoints without rewriting them.
+- Direct GitHub authority binds current `main` to verified `8ac5c74432d1f217033993c8370e911b2c91b04a` / tree `dc787a9049cefd5173aed3524d18bdb7db330dc8`, exactly 1,030 commits ahead of installed and 183 beyond the v0.21.6 cut. The exact 43-commit tail after prior checkpoint `517b5e10…` has six GitHub-verified and 37 unverified commits; combining it with the retained baseline gives 74 verified and 956 unverified commits in the full linear gap. GitHub caps the changed-file list at 300.
+- Queue the tail's Codex rotating-stream tool-call correlation fixes, same-model/provider reasoning-effort prompt, plugin re-enable/toolset restoration, Solstice lazy transport import, pinned-install and update-custody repairs, Desktop local-bundle/build-cache/native-tree work, Termux repair and remaining lint/catalogue changes for bounded compatibility review. Source commits, tests and a release tag are not installed or accepted Aire behaviour.
+- Installed `HEAD` / tree remain `9aaef03b…` / `f2eafe43…`, with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…` and report an update available, understating direct GitHub by 43 commits. `hermes status --all` retains the mixed-module restart warning; `/health` remains HTTP `200` / v0.21.5 without source SHA. Saved routing remains unapproved `gpt-6.1-sol` / `openai-codex`. Ports `8766` and `8767` still return non-Aire roots with `/health` `404`; Cara `8643` and recorded Aire receipt port `8778` refuse connections. No install, restart, config change, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Upstream advanced nine mixed-signature CI/tooling commits; installed and accepted Aire state did not — 8 October 2026, 20:23 IST cutoff
 

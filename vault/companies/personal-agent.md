@@ -9,6 +9,11 @@ final_name: Aire
 
 # Personal agent venture
 
+## Stable v0.21.6 landed; current main is 183 commits newer; accepted Aire state did not — 9 October 2026, 00:08 IST cutoff
+
+- GitHub now names unsigned `v0.21.6` commit `818c13be…` / tree `f36c56dd…` as latest stable, 847 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…`. The release has no assets and explicitly leaves Desktop, Termux and Microsoft Store on their prior bundles. Current verified `main` is `8ac5c744…` / tree `dc787a90…`, 183 commits beyond that cut and 1,030 beyond installed. The exact 43-commit tail after `517b5e10…` has six verified and 37 unverified commits; the full linear gap now has 74 verified and 956 unverified commits.
+- Queue Codex stream-call correlation, reasoning-effort selection, plugin re-enable/toolset restoration, Solstice discovery, pinned install/update custody, Desktop local-build/cache/native-tree work and Termux changes for bounded compatibility review. Installed source and v0.21.5 health remain exact; local tracking still stops at `517b5e10…`, the mixed-module warning persists, saved Skippy remains unapproved, and documented Aire service boundaries remain non-Aire/offline. No install, restart, routing change, authenticated/rendered Aire journey or device acceptance ran.
+
 ## Upstream advanced nine mixed-signature CI/tooling commits; accepted Aire state did not — 8 October 2026, 20:23 IST cutoff
 
 - Installed remains unsigned `9aaef03b…` / tree `f2eafe43…`; direct GitHub authority now binds `main` to verified merge `517b5e10…` / tree `a84042b5…`, exactly 987 commits ahead. The full linear gap contains 68 verified and 919 unverified commits. The exact nine-commit tail after `38880bd2…` has five verified and four unverified commits; it reverts the preceding Docker stable promotion and adds Lefthook, repo-wide lint/Ruff changes and a no-`.git` prepare guard. Treat these as bounded compatibility-review inputs only.
