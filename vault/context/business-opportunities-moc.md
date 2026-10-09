@@ -16,6 +16,7 @@ This is the map of all explored business wedges, cross-cutting opportunity brief
 - [[briefs/solar-installer-workflow-analysis]] — how Irish solar providers actually operate (evidence base)
 - [[briefs/2026-10-07-evolv-ssea-audit-to-solar-handoff-gate]] — wait for the 11 October SSEA documents, then test one client-owned Registered Energy Auditor handoff before a solar proposal; no audit, application, referral or outreach is authorised
 - [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]] — manual, customer-authorised HDF + inverter + supplier-statement proof before any Evolv meter-data automation
+- [[briefs/2026-10-09-evolv-dynamic-tariff-replay-gate]] — one customer-authorised, no-switch replay of an exact business dynamic tariff against real half-hour site demand before any optimisation claim or build
 - [[briefs/2026-09-09-evolv-duos-group-public-benchmark-gate]] — one-site test of ESB Networks' public DUoS-group interval averages as contextual reporting evidence, never a peer-performance claim
 - [[briefs/2026-09-22-evolv-commercial-renovation-passport-evidence-continuity-gate]] — one static, permissioned rooftop appendix testing whether BRP-compatible asset continuity adds owner decision value beyond the existing period report; not a passport, assessment or portal
 - [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]] — one static pre-commit receipt testing whether source-linked NDMG and ESB connection readiness improves a real rooftop decision; not an application, engineering opinion or submission
