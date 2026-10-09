@@ -179,5 +179,14 @@ Official sources reviewed 7 October 2026:
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-04-renewables-operations-intelligence-business]]
+- [[briefs/2026-09-23-evolv-commercial-solar-grant-grid-readiness-receipt]]
+- [[briefs/2026-09-29-evolv-commercial-solar-triple-e-aca-decision-receipt]]
+- [[briefs/2026-10-02-evolv-ndmg-grant-uplift-transition-gate]]
+- [[companies/evolv-renewables]]
+- [[companies/heres-health]]
 - [[context/business-opportunities-moc]]
+- [[goals/renew-pipeline]]
+- [[items/renew-reporting-source-baseline]]
+- [[project_state/renew]]
 

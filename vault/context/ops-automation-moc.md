@@ -86,6 +86,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/hermes-community-use-cases-2026-07-28]]
 - [[briefs/wiki-refiner-2026-06-26]]
 - [[briefs/wiki-refiner-2026-06-27]]
+- [[briefs/wiki-refiner-2026-10-07]]
 - [[companies/evolv-renewables]]
 - [[companies/openbook]]
 - [[companies/openhouse-ai]]

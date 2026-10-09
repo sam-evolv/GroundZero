@@ -294,5 +294,6 @@ Every answer should reinforce one sequence:
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-07-30-openhouse-yc-live-application-execution]]
+- [[briefs/openhouse-yc-fall-2026-interview-evidence-pack-2026-07-29]]
 - [[briefs/openhouse-yc-fall-2026-live-form-candidate-2026-07-30]]
 
