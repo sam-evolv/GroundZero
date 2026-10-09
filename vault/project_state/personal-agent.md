@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is unsigned `8bff64d6…` / tree `a9cdf529…`, 102 commits / 76 changed files beyond checkpoint `1744a19e…`, 301 beyond stable and 1,148 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
+headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is unsigned `0670ba45…` / tree `8791a8d1…`, four unverified commits / eight changed paths beyond checkpoint `8bff64d6…`, 305 beyond stable and 1,152 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
 status: building
 updated: 2026-10-09
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced four unverified runtime-guard commits; installed and accepted Aire state did not — 9 October 2026, 16:06 IST cutoff
+
+- Direct GitHub authority binds current `main` to unsigned `0670ba45240b734c1e6f6d1d5ead87233f37df49` / tree `8791a8d14b433695cb28821ce3307ec5e476dc84`, exactly four unverified commits / eight changed paths beyond prior checkpoint `8bff64d6ed3414a66976bfa8ab72c14b6bca2a6f`. Current `main` is 305 commits beyond stable `v0.21.6` and 1,152 beyond installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`; the retained full linear gap is 78 verified and 1,074 unverified commits.
+- Queue the Desktop source-build fallback that keeps TUI/web usable when a Desktop-only Node dependency fails, detached-session retention while an active `/loop` or `/heartbeat` owns the session, the associated loop-lifetime documentation correction and the client-gone/wakeup-schedule lifecycle fix for bounded compatibility review. Source commits and tests are not installed or accepted Aire behaviour.
+- Installed `HEAD` / tree remain exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit tracking gap understates direct GitHub by 165. `hermes status --all` retains the mixed-module restart warning, and `/health` is HTTP `200` / v0.21.5 without source SHA. Saved default routing remains unapproved `gpt-6.1-sol` / `openai-codex`; this scheduled run is separately pinned to `gpt-5.6-sol` / `openai-codex`, which is a run receipt rather than a saved-default correction. Ports `8766` and `8767` still expose non-Aire roots with `/health` `404`; Cara `8643` and recorded receipt port `8778` refuse connections. No install, restart, config change, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Upstream advanced 102 mostly unverified commits; installed and accepted Aire state did not — 9 October 2026, 12:13 IST cutoff
 
