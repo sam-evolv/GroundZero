@@ -185,6 +185,7 @@
   },
   "active": "70fa559a53242007",
   "lastOpenFiles": [
+    "vault/items/ops-pr-merge-acceptance-receipt.md",
     "vault/briefs/2026-10-09-evolv-dynamic-tariff-replay-gate.md",
     "vault/briefs/wiki-refiner-2026-10-09.md",
     "vault/briefs/wiki-refiner-2026-10-08.md",
@@ -210,7 +211,6 @@
     "vault/briefs/wiki-refiner-2026-10-01.md",
     "vault/private/learning-library/podcasts/2026-09-28-moonshots-live-build-with-gemini-xprize.md",
     "vault/briefs/2026-09-30-openhouse-first-interaction-ai-transparency-receipt.md",
-    "vault/briefs/wiki-refiner-2026-09-30.md",
     "vault/private/learning-library/tmpx5hj7w1e",
     "tests/test_update_dashboard.py",
     "worktrees/empire-gymmaster-20260814/tsconfig.tsbuildinfo",

@@ -32,6 +32,7 @@ These items automate that sweep so Sam's time goes into the right work, not the 
 ### Triage & escalation
 - [[items/ops-kanban-terminal-transition-guard]] — independently accepted local candidate is parked: delayed/truncated runs can still be stale-reclaimed and installation would alter review-crash handling
 - [[items/ops-desktop-ui-approval-readiness-gate]] — hold native desktop review until driver/TCC health and exact action-scope approval are ready; first test is the blocked Donworth Finder replay
+- [[items/ops-pr-merge-acceptance-receipt]] — bind high-risk PR heads to exact independent acceptance and Sam-approved merge authority; first test replays the Here’s Health PR #1 transition and holds current draft PR #6 without mutation
 - [[items/ops-pr-issue-ageing-escalator]] — stale PR/issue escalation, P1
 - [[items/ops-aire-hermes-upstream-impact-triage]] — convert pinned upstream Hermes ranges into a deduplicated Aire compatibility-impact queue without integrating code
 - [[items/oh-warranty-triage-router]] — OH-specific issue triage (AI classification + draft reply)

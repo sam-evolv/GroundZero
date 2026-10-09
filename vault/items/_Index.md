@@ -1,7 +1,7 @@
 ---
 title: Ground Zero Ideas Index
 purpose: Active idea notes and status at a glance
-updated_at: "2026-10-06"
+updated_at: "2026-10-09"
 ---
 
 # Ideas Index
@@ -105,6 +105,7 @@ This index tracks the current active idea queue. Each entry links to its item no
 | [[items/ops-aire-hermes-upstream-impact-triage]] | Triage pinned upstream Hermes ranges into an Aire compatibility-impact queue | P1 | proposed |
 | [[items/ops-source-to-wiki-ingest]] | Auto-file imports into wiki | P1 | proposed |
 | [[items/ops-vault-sync-change-receipt-gate]] | Gate vault sync with a reviewed change-set receipt | P1 | proposed |
+| [[items/ops-pr-merge-acceptance-receipt]] | Bind high-risk PR heads to exact independent acceptance and Sam-approved merge authority | P1 | proposed |
 | [[items/ops-pr-issue-ageing-escalator]] | Stale PR/issue escalation | P1 | proposed |
 | [[items/ops-daily-report-pack]] | Daily reporting per company | P1 | proposed |
 | [[items/ops-graph-engineering-pilot]] | Bounded evidence graph with fail-closed release receipts plus source-manifest, hosted-release and App Store draft-state parity gates | P1 | proposed |
