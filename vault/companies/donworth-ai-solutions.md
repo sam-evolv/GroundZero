@@ -3,10 +3,15 @@ id: donworth-ai-solutions
 name: Donworth Studio
 role: primary-company
 status: active
-updated: "2026-10-05"
+updated: "2026-10-10"
 ---
 
 # Donworth Studio
+
+## Hermes v0.21.6 security intake exists; newer upstream and release gates remain open — 10 October 2026, 00:02 IST cutoff
+
+- Desktop `main` remains unsigned `a1cec24e…`. Draft PR #14 remains at unsigned `9086f401…` with three focused dashboard-auth/email-sender/gates commits across 13 files. `prepare-release` and Vercel Preview Comments succeeded, but all three package jobs were cancelled and no package was uploaded; no merge, feed or installed-app transition occurred.
+- Hermes `main` has since advanced to unsigned `46d7718a…`, 373 commits beyond stable `v0.21.6`. Its new Python 3.11–3.13 import repair is relevant to Donworth's recorded Python 3.11.16 blocker, but it and the accompanying skills, image-routing, Windows package-manager, Desktop and telemetry changes still require bounded comparison against PR #14. Existing signing/notarisation, provenance-matched packages, real Windows/Mac upgrades, signed-in continuity and physical-device gates remain open.
 
 ## Public release unchanged; reconciliation added an unapproved statusless GitHub deployment record — 5 October 2026, 12:17 IST cutoff
 

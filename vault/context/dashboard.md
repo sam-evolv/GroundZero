@@ -2,7 +2,7 @@
 title: Ground Zero Dashboard
 purpose: Single view of what needs attention across all businesses
 kind: dashboard
-updated: "2026-10-09"
+updated: "2026-10-10"
 ---
 
 # Ground Zero Dashboard
@@ -34,11 +34,11 @@ updated: "2026-10-09"
 ## 🟢 Monitoring
 
 - 🔴 [[project_state/cara|cara]]: Deprioritised pending explicit reactivation; ChatGPT voice may now cover enough of the original need.
-- 🔴 [[project_state/donworth-studio|donworth-studio]]: Private Desktop `main` remains unsigned `a1cec24e…`; draft PR #13 remains clean at unsigned `6246fabe…`, feeds remain Windows 0.18.12 / Mac ARM 0.18.2 / Mac Intel 503, and signed installed v0.18.9 remains exact and unlaunched. Public site source and Vercel remain `104ac7fc…` / Ready `dpl_AcQG…` with exact root/privacy bytes. A reconciliation command unintentionally created statusless GitHub deployment record `6857393213` against the unchanged site SHA; it did not move Vercel or public bytes and awaits Sam's deletion/retention decision.
+- 🔴 [[project_state/donworth-studio|donworth-studio]]: Private Desktop `main` remains unsigned `a1cec24e…`; draft PR #14 remains at unsigned `9086f401…` with focused Hermes v0.21.6 security backports, but package jobs were cancelled and no feed/install changed. Current Hermes `main` is now 373 commits beyond v0.21.6; its Python 3.11–3.13 fix is relevant to Donworth's Python 3.11.16 blocker but remains unintegrated. Feeds remain Windows 0.18.12 / Mac ARM 0.18.2 / Mac Intel 503, and signed installed v0.18.9 remains unlaunched.
 - 🟡 [[project_state/heres-health-app|heres-health-app]]: Paying client; GitHub, hosted function versions, commerce outcomes and native acceptance boundaries remain unchanged, while the production Square-event stream reached 131,652 fully processed rows through 16:52:53 UTC. Build 8 remains the last Apple-verified binary and 1.0.1 has no verified native build/upload/device receipt; commerce, deletion, notifications and rota acceptance remain open. Launch remains NO-GO.
 - 🟢 [[project_state/ob|ob]]: Empire Gym production moved to Ready CLI deployment `dpl_Es9HL…`, whose metadata names remote `feat/empire-gym-live` commit `b53f724…`; GymMaster CTAs and the admin login remain rendered. The remote branch is now clean at `603ee53…`, one commit past the deployed tree; authenticated editing/photo isolation, billing/access/payment and downstream enrollment remain unverified.
 - 🟢 [[project_state/oh|oh]]: Production source advanced seven verified commits / 60 files to `31a66a14…` and exact-head Ready deployment `dpl_Ddf8…` now owns `portal.openhouseai.ie`. The tranche includes source-level auth, tenant-ownership and tenant-scoped analytics fixes, but no migration path; Supabase advisor counts remain 30/2/17/4 plus disabled leaked-password protection, and no controlled cross-user actor path, persisted-row or authenticated homeowner acceptance was exercised.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is verified `b56a1024…` / tree `a598ea54…`, 34 mixed-signature commits with GitHub's 300-file cap after checkpoint `0670ba45…`, 339 beyond stable and 1,186 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is unsigned `46d7718a…` / tree `bbb95f10…`, 34 mixed-signature commits / 94 files after checkpoint `b56a1024…`, 373 beyond stable and 1,220 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -62,4 +62,4 @@ updated: "2026-10-09"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-10-09 20:10 IST
+- Dashboard: 2026-10-10 00:02 IST

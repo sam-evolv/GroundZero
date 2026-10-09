@@ -1,14 +1,20 @@
 ---
 id: donworth-studio
 company_id: donworth-ai-solutions
-headline: "Private Desktop `main` remains unsigned `a1cec24e…`; draft PR #13 remains clean at unsigned `6246fabe…`, feeds remain Windows 0.18.12 / Mac ARM 0.18.2 / Mac Intel 503, and signed installed v0.18.9 remains exact and unlaunched. Public site source and Vercel remain `104ac7fc…` / Ready `dpl_AcQG…` with exact root/privacy bytes. A reconciliation command unintentionally created statusless GitHub deployment record `6857393213` against the unchanged site SHA; it did not move Vercel or public bytes and awaits Sam's deletion/retention decision."
+headline: "Private Desktop `main` remains unsigned `a1cec24e…`; draft PR #14 remains at unsigned `9086f401…` with focused Hermes v0.21.6 security backports, but its installer run was cancelled and integration/package/account-continuity gates remain open. Feeds remain Windows 0.18.12 / Mac ARM 0.18.2 / Mac Intel 503, signed installed v0.18.9 remains exact and unlaunched, and public site source remains `104ac7fc…` on Ready `dpl_AcQG…`."
 valid: true
-updated_at: "2026-10-09T09:15:00+01:00"
+updated_at: "2026-10-10T00:02:00+01:00"
 role: project-state
 status: building
 ---
 
 # Donworth Studio project state
+
+## Upstream moved past the v0.21.6 intake; Donworth candidate and release remain held — 10 October 2026, 00:02 IST cutoff
+
+- Official stable remains `v0.21.6` at `818c13be…`, while current Hermes `main` advanced to unsigned `46d7718a…`, 373 commits beyond that cut. The new 34-commit / 94-file tail after `b56a1024…` includes a Python 3.11–3.13 import repair, skill-install security/correctness changes, Windows package-manager junction handling, managed image-routing changes, Desktop composer copy and updater/gateway telemetry. These are review inputs; they were not integrated into Donworth.
+- Donworth Desktop `main` remains unsigned `a1cec24e…`. Draft PR #14 remains mergeable at unsigned `9086f401…` with three focused commits / 13 files. Its exact-head checks still show `prepare-release` and Vercel Preview Comments successful, while all three package jobs were cancelled and no package was uploaded. The previously recorded Mac Python 3.11 focused verification remains source evidence rather than a current-upstream or installed-app acceptance receipt.
+- Feeds remain at the retained Windows x64 `0.18.12`, Mac ARM `0.18.2` and Mac Intel HTTP `503` checkpoints; signed installed v0.18.9 remains unlaunched. The Python 3.11–3.13 upstream fix should be compared explicitly against PR #14's Python 3.11.16 blocker before integration, but no merge, package, feed, install, genuine-Windows, authenticated continuity or physical-device gate advanced.
 
 ## Hermes v0.21.6 security intake is reviewable, release held — 9 October 2026
 

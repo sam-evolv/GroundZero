@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-09T12:13:00+01:00"
+updated_at: "2026-10-10T00:02:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 10 October 2026 00:02 IST cutoff
+
+Direct GitHub authority binds upstream `main` to unsigned `46d7718a52ff33accb15dc0501736fbdb6833cab` / tree `bbb95f109f09ebf76637fd124b6348079e391f03`, exactly 34 commits / 94 changed files beyond prior canonical checkpoint `b56a10246e81e23d10bf6f49ae176c082db53ed9`. The tail has four GitHub-verified and 30 unverified commits. Current `main` is 373 commits beyond stable `v0.21.6` and 1,220 beyond installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`; the retained full linear gap has 105 verified and 1,115 unverified commits.
+
+Queue Python 3.11–3.13 forward-reference import compatibility; managed Krea/FAL defaults, fallback custody and truthful failures; skill-guard/install/restore security and false-positive changes; Windows package-manager missing-junction handling; Desktop composer-strip removal; and updater/gateway telemetry semantics for bounded review. The Python compatibility repair is especially relevant to Donworth Desktop's recorded Python 3.11.16 integration boundary, but neither source overlap nor one successful exact-head required-check gate proves Donworth or Aire compatibility.
+
+Installed `HEAD` / tree remain exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit tracking gap understates direct GitHub by 233. `hermes status --all` retains the mixed-module restart warning; health remains HTTP `200` / v0.21.5 without commit identity. Saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`; this scheduled run is separately pinned to `gpt-5.6-sol` / `openai-codex`. Ports `8766` and `8767` remain non-Aire, while Cara `8643` and recorded receipt port `8778` refuse connections. No install, restart, routing correction, source integration, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Reconciliation checkpoint, 9 October 2026 12:13 IST cutoff
 

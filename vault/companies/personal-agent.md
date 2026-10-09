@@ -9,6 +9,11 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced 34 mixed-signature image, skills, compatibility and telemetry commits; accepted Aire state did not — 10 October 2026, 00:02 IST cutoff
+
+- GitHub `main` advanced 34 commits / 94 files after `b56a1024…` to unsigned `46d7718a…` / tree `bbb95f10…`, exactly 1,220 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…` and 373 beyond stable `v0.21.6`. The tail has four verified and 30 unverified commits; the full linear gap now has 105 verified and 1,115 unverified commits. Queue Python 3.11–3.13 import compatibility, image-generation routing/fallbacks, skill-install security/correctness, Windows package-manager junction handling, Desktop composer copy and update/gateway telemetry for bounded review.
+- Installed source and v0.21.5 health remain exact; local tracking still stops at `517b5e10…`, the mixed-module warning persists, saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`, and the documented Aire service boundaries remain non-Aire/offline. Exact-head source checks are not an installation or user-surface receipt. No install, restart, routing change, authenticated/rendered Aire journey or device acceptance ran.
+
 ## Upstream advanced four unverified Windows-MSIX commits; accepted Aire state did not — 9 October 2026, 08:10 IST cutoff
 
 - GitHub `main` advanced four commits / seven files after `3b0dc776…` to unsigned `1744a19e…` / tree `d427f5a8…`, exactly 1,046 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…` and 199 beyond stable `v0.21.6`. All four new commits are unverified; the full linear gap now has 77 verified and 969 unverified commits. Queue the packaged-Windows writable-Python plugin-install repair and its basic-user/package-reuse MSIX smoke coverage for bounded compatibility review.

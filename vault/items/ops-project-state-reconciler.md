@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-09T20:10:00+01:00"
+updated_at: "2026-10-10T00:02:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 10 October 2026, 00:02 IST
+
+- **Hermes upstream advanced 34 mixed-signature commits; installed and accepted Aire state did not.** Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `46d7718a…` / tree `bbb95f10…`, exactly 34 commits / 94 files after `b56a1024…`, 373 beyond stable `v0.21.6` and 1,220 beyond installed unsigned `9aaef03b…` / tree `f2eafe43…`. The tail is four verified / 30 unverified; the retained full gap is 105 verified / 1,115 unverified. Queue Python 3.11–3.13 imports, managed Krea/FAL image routing, skill-install/guard hardening, Windows junction handling, Desktop composer copy and update/gateway telemetry for bounded compatibility review; none is installed or accepted Aire behaviour.
+- **Installed/runtime evidence remains bounded and contradictory.** Installed source stays exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit tracking gap understates direct GitHub by 233. The mixed-module restart warning persists; health is HTTP `200` / v0.21.5 without SHA. Parsed saved Skippy remains on unapproved `gpt-6.1-sol` / `openai-codex`, while this scheduled run is separately pinned to `gpt-5.6-sol` / `openai-codex`. Ports `8766` / `8767` remain non-Aire roots with `/health` `404`; Cara `8643` and receipt port `8778` refuse connections. No install, restart, config change, authenticated/rendered Aire journey or physical-device acceptance ran.
+- **Other exact named source heads remained unchanged where rechecked.** Donworth Desktop `a1cec24e…`, site `104ac7fc…`, Here’s Health `35514253…`, OpenHouse `31a66a14…`, OpenBook `c72bf48b…`, client template `3e6bfa11…` and Cara `f46d501d…` matched their canonical checkpoints. Donworth draft PR #14 remains at `9086f401…`; its focused source verification is retained, while its installer run remains cancelled and no package/feed/install acceptance advanced. Donworth root/privacy, Here’s Health account confirmation, OpenHouse portal and Empire Gym public routes remained reachable. The Supabase management connector returned `MCP error -32600: You do not have permission to perform this action` for both named Here’s Health projects, so hosted database, migration, function and cron state was not reasserted and prior bounded receipts remain historical only.
+- **Local canonical write only:** no source checkout, repository remote, install, restart, service, deployment, provider, database, payment, Apple, contact or production state was changed. Ground Zero notes and dashboard were updated locally; no sync or push was attempted.
 
 ## Reconciliation checkpoint — 9 October 2026, 20:10 IST
 
