@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is unsigned `0670ba45…` / tree `8791a8d1…`, four unverified commits / eight changed paths beyond checkpoint `8bff64d6…`, 305 beyond stable and 1,152 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
+headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is verified `b56a1024…` / tree `a598ea54…`, 34 mixed-signature commits with GitHub's 300-file cap after checkpoint `0670ba45…`, 339 beyond stable and 1,186 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
 status: building
 updated: 2026-10-09
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced 34 mixed-signature packaging, local-model and lint commits; installed and accepted Aire state did not — 9 October 2026, 20:10 IST cutoff
+
+- Direct GitHub authority binds current `main` to verified merge `b56a10246e81e23d10bf6f49ae176c082db53ed9` / tree `a598ea5475c2a3b60300d1613890ed2e0f55f272`, exactly 34 commits beyond prior checkpoint `0670ba45240b734c1e6f6d1d5ead87233f37df49`. The tail has 23 GitHub-verified and 11 unverified commits; GitHub's changed-file list hits its 300-file cap, so no exact path total is asserted. Current `main` is 339 commits beyond stable `v0.21.6` and 1,186 beyond installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`; the retained full linear gap is 101 verified and 1,085 unverified commits.
+- Queue the tail's local-model recommendation and Windows integrated-GPU sizing changes; package-manager cache reseed, mirror and atomic-publication repairs; first-release baseline, Termux and Docker Python/baked-extra changes; TUI first-run routing; Mermaid SVG handling; and broad lint modernization for bounded compatibility review. Source commits, merges and tests are not installed or accepted Aire behaviour.
+- Installed `HEAD` / tree remain exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit tracking gap understates direct GitHub by 199. `hermes status --all` retains the mixed-module restart warning, and `/health` is HTTP `200` / v0.21.5 without source SHA. Saved default routing remains unapproved `gpt-6.1-sol` / `openai-codex`; this scheduled run is separately pinned to `gpt-5.6-sol` / `openai-codex`, which is a run receipt rather than a saved-default correction. Ports `8766` and `8767` still expose byte-identical non-Aire roots with `/health` `404`; Cara `8643` and recorded receipt port `8778` refuse connections. No install, restart, config change, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Upstream advanced four unverified runtime-guard commits; installed and accepted Aire state did not — 9 October 2026, 16:06 IST cutoff
 

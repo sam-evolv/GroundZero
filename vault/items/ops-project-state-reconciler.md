@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-09T16:06:00+01:00"
+updated_at: "2026-10-09T20:10:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 9 October 2026, 20:10 IST
+
+- **Hermes upstream advanced 34 mixed-signature commits; installed and accepted Aire state did not.** Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to verified merge `b56a1024…` / tree `a598ea54…`, exactly 34 commits after `0670ba45…`, 339 beyond stable `v0.21.6` and 1,186 beyond installed unsigned `9aaef03b…` / tree `f2eafe43…`. The tail is 23 verified / 11 unverified and hits GitHub's 300-file cap; the retained full gap is 101 verified / 1,085 unverified. Queue its local-model, package-manager cache, release-baseline, Termux, Docker, TUI first-run, Mermaid and lint changes for bounded compatibility review; none is installed or accepted Aire behaviour.
+- **Installed/runtime evidence remains bounded and contradictory.** Installed source stays exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit tracking gap understates direct GitHub by 199. The mixed-module restart warning persists; health is HTTP `200` / v0.21.5 without SHA. Saved Skippy remains on unapproved `gpt-6.1-sol` / `openai-codex`, while this scheduled run is separately pinned to `gpt-5.6-sol` / `openai-codex`. Ports `8766` / `8767` remain byte-identical non-Aire roots with `/health` `404`; Cara `8643` and receipt port `8778` refuse connections. No install, restart, config change, authenticated/rendered Aire journey or physical-device acceptance ran.
+- **Other exact named sources had no acceptance transition where rechecked.** Donworth Desktop/site, Here’s Health, OpenHouse, OpenBook/template and Cara GitHub heads remain at their canonical checkpoints. Named Vercel production deployments remain Ready, and their public routes retained the recorded HTTP `200` bytes. The statusless Donworth GitHub deployment record still has zero statuses; its Supabase project remains healthy with unchanged Windows/Mac ARM feed objects and no Mac Intel metadata object. The signed installed Donworth Mac app remains byte-exact and code-signature valid on disk but was not launched. Here’s Health remains `ACTIVE_HEALTHY` with 25 migrations, unchanged hosted functions and five active cron jobs; 131,652 production Square events are fully processed through 16:52:53 UTC, while every Square order remains sandbox-only, no native/confirmed/authoritative Shopify order exists and notification tables remain empty. App Store Connect failed closed on the running Chrome profile lock, so build 8 Waiting for Review remains the last verified Apple state rather than a current read. OpenHouse remains `ACTIVE_HEALTHY` with unchanged 30/2/17/1/4 security-adviser categories plus disabled leaked-password protection. Availability and event volume are not payment, client, device or product acceptance. Renew still names no exact inspectable live source.
+- **Local canonical write only:** no source checkout, repository remote, install, restart, service, deployment, provider, database, payment, Apple, contact or production state was changed. Ground Zero notes and dashboard were updated in a scoped local commit; no sync or push was attempted.
 
 ## Reconciliation checkpoint — 9 October 2026, 16:06 IST
 
