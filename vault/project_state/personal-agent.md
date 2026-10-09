@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` advanced four unverified Windows-MSIX commits / seven files to unsigned `1744a19e…` / tree `d427f5a8…`, exactly 1,046 commits ahead of installed unsigned `9aaef03b…` and 199 beyond stable. The tail repairs packaged plugin installs with Python dependencies and extends basic-user/package-reuse smoke coverage. Installed source, v0.21.5 health, mixed-module warning, unapproved Skippy route and non-Aire/offline service boundaries remain unchanged. No accepted Aire behaviour advanced.
+headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is unsigned `8bff64d6…` / tree `a9cdf529…`, 102 commits / 76 changed files beyond checkpoint `1744a19e…`, 301 beyond stable and 1,148 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
 status: building
 updated: 2026-10-09
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced 102 mostly unverified commits; installed and accepted Aire state did not — 9 October 2026, 12:13 IST cutoff
+
+- Direct GitHub authority binds current `main` to unsigned `8bff64d6ed3414a66976bfa8ab72c14b6bca2a6f` / tree `a9cdf529fd1f5362176c8bcd8974c7a578e211ae`, exactly 102 commits / 76 changed files beyond prior canonical checkpoint `1744a19e0df568c647e4f3ff9c37f2a284a282fb`. The bounded tail has one GitHub-verified and 101 unverified commits. Current `main` is 301 commits beyond stable `v0.21.6` and 1,148 beyond installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`.
+- Queue the tail's dominant plugin-catalogue additions and repins plus browser captured-CDP completion, MCP OAuth failure reporting, Desktop plugin pet-bubble SDK, memory-provider discovery/install-retry and prefetch-spill safeguards, TTS existing-file preservation, linked-plugin status and Unix gateway process-ownership fixes for bounded compatibility review. Source commits and tests are not installed or accepted Aire behaviour.
+- Installed `HEAD` / tree remain exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit tracking gap understates direct GitHub by 161. `hermes status --all` retains the mixed-module restart warning, and `/health` is HTTP `200` / v0.21.5 without source SHA. Saved default routing remains unapproved `gpt-6.1-sol` / `openai-codex`; this scheduled run is separately pinned to `gpt-5.6-sol` / `openai-codex`, which is a run receipt rather than a saved-default correction. Ports `8766` and `8767` still expose non-Aire roots with `/health` `404`; Cara `8643` and recorded receipt port `8778` refuse connections. No install, restart, config change, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Upstream advanced four unverified Windows-MSIX commits; installed and accepted Aire state did not — 9 October 2026, 08:10 IST cutoff
 

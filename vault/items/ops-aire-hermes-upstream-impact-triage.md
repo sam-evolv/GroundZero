@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-09T08:10:00+01:00"
+updated_at: "2026-10-09T12:13:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 9 October 2026 12:13 IST cutoff
+
+Direct GitHub authority binds upstream `main` to unsigned `8bff64d6ed3414a66976bfa8ab72c14b6bca2a6f` / tree `a9cdf529fd1f5362176c8bcd8974c7a578e211ae`, exactly 102 commits / 76 changed files beyond prior canonical checkpoint `1744a19e0df568c647e4f3ff9c37f2a284a282fb`. The tail has one GitHub-verified and 101 unverified commits. Current `main` is 301 commits beyond stable `v0.21.6` and 1,148 beyond installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`.
+
+Queue the dominant plugin-catalogue additions and repins plus captured-CDP browser completion, MCP OAuth failure surfaces, Desktop plugin pet-bubble SDK, memory-provider discovery/install-retry and prefetch-spill safeguards, TTS existing-file preservation, linked-plugin status and Unix gateway process-ownership changes for bounded review. Source commits and tests are not installed or accepted Aire behaviour.
+
+Installed `HEAD` / tree remain exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit tracking gap understates direct GitHub by 161. `hermes status --all` retains the mixed-module restart warning; health remains HTTP `200` / v0.21.5 without commit identity. Saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`; this scheduled run is separately pinned to `gpt-5.6-sol` / `openai-codex`. Ports `8766` and `8767` remain non-Aire, while Cara `8643` and recorded receipt port `8778` refuse connections. No install, restart, routing correction, source integration, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Reconciliation checkpoint, 9 October 2026 08:10 IST cutoff
 

@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-09T08:10:00+01:00"
+updated_at: "2026-10-09T12:13:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 9 October 2026, 12:13 IST
+
+- **Hermes upstream advanced 102 mostly unverified commits; installed and accepted Aire state did not.** Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `8bff64d6…` / tree `a9cdf529…`, exactly 102 commits / 76 files beyond prior canonical checkpoint `1744a19e…`, 301 beyond stable `v0.21.6` and 1,148 beyond installed unsigned `9aaef03b…` / tree `f2eafe43…`. The bounded tail has one verified and 101 unverified commits. Queue its dominant catalogue work plus browser, MCP OAuth, Desktop plugin SDK, memory-provider, TTS, linked-plugin and gateway process-ownership changes for bounded compatibility review; none is installed or accepted Aire behaviour.
+- **Installed/runtime evidence remains bounded and contradictory.** Installed source stays exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit tracking gap understates direct GitHub by 161. The mixed-module restart warning persists; health is HTTP `200` / v0.21.5 without SHA. Saved Skippy remains on unapproved `gpt-6.1-sol` / `openai-codex`, while this scheduled run is separately pinned to `gpt-5.6-sol` / `openai-codex`. Ports `8766` / `8767` remain non-Aire roots with `/health` `404`; Cara `8643` and receipt port `8778` refuse connections. No install, restart, config change, authenticated/rendered Aire journey or physical-device acceptance ran.
+- **Other exact named sources had no material acceptance transition where rechecked.** Donworth Desktop/site, Here’s Health, OpenHouse, OpenBook/template and Cara GitHub heads remain at their canonical checkpoints. Named Vercel deployments remain target-production Ready; Donworth root/privacy bytes are exact, and the Here’s Health preview/account, OpenHouse portal and Empire Gym roots remain reachable. Here’s Health Supabase remains `ACTIVE_HEALTHY` with 25 migrations, 24 public tables and the same active Edge Function versions; retention reduced the processed production Square-event set to 128,286 while the latest retained production event is 11:00:04 UTC, with zero production Square orders, zero authoritative Shopify orders and no native/confirmed Shopify order. App Store Connect failed closed because running Chrome held the real-profile credential databases, so build 8 Waiting for Review remains the last verified Apple state rather than a current read. OpenHouse's current security-adviser categories remain unchanged. Availability, heartbeat movement and retention are not payment, client, device or product acceptance. Renew still names no exact inspectable live source.
+- **Local canonical write only:** no source checkout, repository remote, install, restart, service, deployment, provider, database, payment, Apple, contact or production state was changed. Ground Zero notes and dashboard were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 9 October 2026, 08:10 IST
 
