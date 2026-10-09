@@ -3,12 +3,18 @@ id: donworth-studio
 company_id: donworth-ai-solutions
 headline: "Private Desktop `main` remains unsigned `a1cec24e…`; draft PR #13 remains clean at unsigned `6246fabe…`, feeds remain Windows 0.18.12 / Mac ARM 0.18.2 / Mac Intel 503, and signed installed v0.18.9 remains exact and unlaunched. Public site source and Vercel remain `104ac7fc…` / Ready `dpl_AcQG…` with exact root/privacy bytes. A reconciliation command unintentionally created statusless GitHub deployment record `6857393213` against the unchanged site SHA; it did not move Vercel or public bytes and awaits Sam's deletion/retention decision."
 valid: true
-updated_at: "2026-10-05T12:17:00+01:00"
+updated_at: "2026-10-09T09:15:00+01:00"
 role: project-state
 status: building
 ---
 
 # Donworth Studio project state
+
+## Hermes v0.21.6 security intake is reviewable, release held — 9 October 2026
+
+- Official stable Hermes `v0.21.6` was published 8 October at tag commit `818c13be1dc4fd28987e1e881a9408224afd4535`. Donworth `main` remains `a1cec24eb756aa62214034ae21432acf6f2fbb05`. Draft [PR #14](https://github.com/sam-evolv/donworth-studio-desktop/pull/14) at `9086f401661ba9d3ae283c8b08d6b643a532a988` contains only focused dashboard-auth and email-sender security backports plus a gates note. Mac Python 3.11 focused verification passed 378 tests and 14 subtests, with compilation and diff checks. It is explicitly incomplete and must not be merged or released yet.
+- A trial full merge was aborted: 786 conflicts, including 730 Desktop paths, and Donworth's bundled Python 3.11.16 conflicts with upstream's 3.14-targeted dependency declarations. Upstream git-filter hardening and remaining runtime/email comparison are open. Live feeds remain Windows x64 `0.18.12`, Mac ARM `0.18.2`, Mac Intel HTTP `503`; draft PR #11 remains open for the next Windows upgrade test. Existing signing/notarization, real upgrades and signed-in continuity gates remain.
+- Branch push triggered installer run `37903577198`; it was cancelled before packages were uploaded. Its empty private draft release was deleted. No tester feed or installation changed. Source: official release, GitHub PR/run receipts, local 9 October test log and direct feed readback. Next action: resolve the Python and source-integration blockers in PR #14, then run provenance-matched package and account-continuity checks before any promotion. This Ground Zero update is local only; no Ground Zero commit, push or sync was made.
 
 ## Manual Decisions check ready for source review, provider activation separate: 7 October 2026
 
