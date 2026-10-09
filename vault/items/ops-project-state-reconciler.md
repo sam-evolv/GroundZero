@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-09T00:08:00+01:00"
+updated_at: "2026-10-09T04:09:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 9 October 2026, 04:09 IST
+
+- **Hermes upstream advanced 12 commits; installed and accepted Aire state did not.** Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `3b0dc776…` / tree `47b03dfc…`, exactly 12 commits / 70 files beyond `8ac5c744…`, 195 commits beyond stable `v0.21.6` and 1,042 beyond installed unsigned `9aaef03b…` / tree `f2eafe43…`. The tail has three verified and nine unverified commits; the retained full-gap breakdown is now 77 verified / 965 unverified. Queue gateway service-definition ownership, Spotify's move from core to the official plugin catalogue, Desktop onboarding fade, release-only E2E routing and detached-process cleanup for bounded compatibility review; none is installed or accepted Aire behaviour.
+- **Installed/runtime evidence remains bounded and contradictory.** Installed source stays exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`, understating direct GitHub by 55 commits. The mixed-module restart warning persists; health is HTTP `200` / v0.21.5 without SHA, and saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`. Ports `8766` / `8767` remain non-Aire `200` roots with `/health` `404`; Cara `8643` and Aire receipt port `8778` refuse connections. No install, restart, config change, authenticated/rendered Aire journey or physical-device acceptance ran.
+- **Other exact named sources had no material transition where rechecked at 04:06 IST.** Donworth Desktop/site, Here’s Health, OpenHouse, OpenBook/template and Cara GitHub heads remained at their prior canonical checkpoints; named public roots remained reachable. The signed installed Donworth Mac app remained byte-exact and code-signature valid on disk but was not launched. The two named Supabase projects remained healthy at the previously recorded migration, table, edge-function and security-adviser boundaries. Renew still names no exact inspectable live source. No authenticated product, payment, client, genuine-Windows or physical-device acceptance was exercised.
+- **Local canonical write only:** no source checkout, repository remote, install, restart, service, deployment, provider, database, payment, Apple, contact or production state was changed. Ground Zero notes and dashboard were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 9 October 2026, 00:08 IST
 

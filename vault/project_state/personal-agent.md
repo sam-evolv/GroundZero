@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Official stable is now unsigned `v0.21.6` commit `818c13be…` / tree `f36c56dd…`, exactly 847 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…`. Verified GitHub `main` is `8ac5c744…` / tree `dc787a90…`, 183 commits beyond the stable cut and exactly 1,030 beyond installed; its 43-commit tail after `517b5e10…` has six verified and 37 unverified commits. Installed source, v0.21.5 health, mixed-module warning, unapproved Skippy route and non-Aire/offline service boundaries remain unchanged. No accepted Aire behaviour advanced.
+headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` advanced 12 commits / 70 files to unsigned `3b0dc776…` / tree `47b03dfc…`, exactly 1,042 commits ahead of installed unsigned `9aaef03b…` and 195 beyond stable. The new tail has three verified and nine unverified commits across gateway service ownership, Spotify's move from core to the official plugin catalogue, Desktop onboarding fade, release-only E2E routing and detached-process cleanup. Installed source, v0.21.5 health, mixed-module warning, unapproved Skippy route and non-Aire/offline service boundaries remain unchanged. No accepted Aire behaviour advanced.
 status: building
 updated: 2026-10-09
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced 12 mixed-signature commits; installed and accepted Aire state did not — 9 October 2026, 04:09 IST cutoff
+
+- Direct GitHub authority binds current `main` to unsigned `3b0dc776b6602b0dd05429d7842bb143d73434b7` / tree `47b03dfc82009c0e7d5489eee1006be55b347990`, exactly 12 commits / 70 changed files beyond prior checkpoint `8ac5c74432d1f217033993c8370e911b2c91b04a`, 195 commits beyond stable `v0.21.6` and 1,042 commits beyond installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. The tail has three GitHub-verified and nine unverified commits; the retained full linear gap now contains 77 verified and 965 unverified commits. GitHub caps the broader changed-file list at 300.
+- Queue the gateway service-definition ownership guard, Spotify extraction from core into the official catalogue plugin, Desktop onboarding connector-list fade, release-only E2E routing and detached-process test-runner cleanup for bounded compatibility review. Source commits and tests are not installed or accepted Aire behaviour.
+- Installed `HEAD` / tree remain exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`, understating direct GitHub by 55 commits; `hermes status --all` retains the mixed-module restart warning and reports saved `gpt-6.1-sol` / `openai-codex`, while `/health` remains HTTP `200` / v0.21.5 without source SHA. Ports `8766` and `8767` remain non-Aire roots with `/health` `404`; Cara `8643` and the recorded Aire receipt port `8778` refuse connections. No install, restart, config change, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Stable v0.21.6 landed; current main advanced 43 more commits; installed and accepted Aire state did not — 9 October 2026, 00:08 IST cutoff
 

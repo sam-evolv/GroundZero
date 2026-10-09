@@ -38,7 +38,7 @@ updated: "2026-10-09"
 - 🟡 [[project_state/heres-health-app|heres-health-app]]: Paying client; GitHub `main` advanced 215 commits to verified `35514253…` after draft/unreviewed PR #1 was merged, but build 8 remains the last Apple-verified binary and 1.0.1 has no verified native build/upload/device receipt. Supabase added the source-backed Square-event-retention migration and two retention crons while Edge Function versions stayed unchanged; commerce, deletion, notifications and rota acceptance remain open. Launch remains NO-GO.
 - 🟢 [[project_state/ob|ob]]: Empire Gym production moved to Ready CLI deployment `dpl_Es9HL…`, whose metadata names remote `feat/empire-gym-live` commit `b53f724…`; GymMaster CTAs and the admin login remain rendered. The remote branch is now clean at `603ee53…`, one commit past the deployed tree; authenticated editing/photo isolation, billing/access/payment and downstream enrollment remain unverified.
 - 🟢 [[project_state/oh|oh]]: Production source advanced seven verified commits / 60 files to `31a66a14…` and exact-head Ready deployment `dpl_Ddf8…` now owns `portal.openhouseai.ie`. The tranche includes source-level auth, tenant-ownership and tenant-scoped analytics fixes, but no migration path; Supabase advisor counts remain 30/2/17/4 plus disabled leaked-password protection, and no controlled cross-user actor path, persisted-row or authenticated homeowner acceptance was exercised.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Official stable is now unsigned `v0.21.6` commit `818c13be…` / tree `f36c56dd…`, exactly 847 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…`. Verified GitHub `main` is `8ac5c744…` / tree `dc787a90…`, 183 commits beyond the stable cut and exactly 1,030 beyond installed; its 43-commit tail after `517b5e10…` has six verified and 37 unverified commits. Installed source, v0.21.5 health, mixed-module warning, unapproved Skippy route and non-Aire/offline service boundaries remain unchanged. No accepted Aire behaviour advanced.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` advanced 12 commits / 70 files to unsigned `3b0dc776…` / tree `47b03dfc…`, exactly 1,042 commits ahead of installed unsigned `9aaef03b…` and 195 beyond stable. The new tail has three verified and nine unverified commits across gateway service ownership, Spotify's move from core to the official plugin catalogue, Desktop onboarding fade, release-only E2E routing and detached-process cleanup. Installed source, v0.21.5 health, mixed-module warning, unapproved Skippy route and non-Aire/offline service boundaries remain unchanged. No accepted Aire behaviour advanced.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -62,4 +62,4 @@ updated: "2026-10-09"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-10-09 02:15 IST
+- Dashboard: 2026-10-09 04:11 IST

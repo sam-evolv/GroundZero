@@ -9,6 +9,11 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced 12 mixed-signature commits; accepted Aire state did not — 9 October 2026, 04:09 IST cutoff
+
+- GitHub `main` advanced 12 commits / 70 files after `8ac5c744…` to unsigned `3b0dc776…` / tree `47b03dfc…`, exactly 1,042 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…` and 195 beyond stable `v0.21.6`. The tail has three verified and nine unverified commits; the full linear gap now has 77 verified and 965 unverified commits. Queue gateway service-definition ownership, Spotify's move from core to the official plugin catalogue, Desktop onboarding fade, release-only E2E routing and detached-process cleanup for bounded compatibility review.
+- Installed source and v0.21.5 health remain exact; local tracking still stops at `517b5e10…`, the mixed-module warning persists, saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`, and the documented Aire service boundaries remain non-Aire/offline. No install, restart, routing change, authenticated/rendered Aire journey or device acceptance ran.
+
 ## Stable v0.21.6 landed; current main is 183 commits newer; accepted Aire state did not — 9 October 2026, 00:08 IST cutoff
 
 - GitHub now names unsigned `v0.21.6` commit `818c13be…` / tree `f36c56dd…` as latest stable, 847 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…`. The release has no assets and explicitly leaves Desktop, Termux and Microsoft Store on their prior bundles. Current verified `main` is `8ac5c744…` / tree `dc787a90…`, 183 commits beyond that cut and 1,030 beyond installed. The exact 43-commit tail after `517b5e10…` has six verified and 37 unverified commits; the full linear gap now has 74 verified and 956 unverified commits.
