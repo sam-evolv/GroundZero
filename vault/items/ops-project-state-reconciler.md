@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-09T04:09:00+01:00"
+updated_at: "2026-10-09T08:10:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 9 October 2026, 08:10 IST
+
+- **Hermes upstream advanced four commits; installed and accepted Aire state did not.** Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `1744a19e…` / tree `d427f5a8…`, exactly four unverified commits / seven files beyond `3b0dc776…`, 199 commits beyond stable `v0.21.6` and 1,046 beyond installed unsigned `9aaef03b…` / tree `f2eafe43…`. The retained full-gap breakdown is now 77 verified / 969 unverified. Queue the packaged-Windows writable-Python plugin-install repair and its basic-user, user-environment and package-reuse MSIX smoke coverage for bounded compatibility review; none is installed or accepted Aire behaviour.
+- **Installed/runtime evidence remains bounded and contradictory.** Installed source stays exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the CLI's 987-commit figure understates direct GitHub by 59. The mixed-module restart warning persists; health is HTTP `200` / v0.21.5 without SHA, and saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`. Ports `8766` / `8767` remain non-Aire `200` roots with `/health` `404`; Cara `8643` and Aire receipt port `8778` refuse connections. No install, restart, config change, authenticated/rendered Aire journey or physical-device acceptance ran.
+- **Other exact named sources had no material transition where rechecked.** Donworth Desktop/site, Here’s Health, OpenHouse, OpenBook/template and Cara GitHub heads remained at their prior canonical checkpoints; named public roots and Donworth's canonical updater broker remained reachable with their prior exact bytes/state. Here’s Health's processed production Square-event count advanced to 136,779 and its production Shopify reconciliation heartbeat to 07:52:28 UTC without a Square order, native/confirmed Shopify order or acceptance transition. The statusless Donworth GitHub deployment record still has zero statuses. Renew still names no exact inspectable live source. App Store Connect again failed closed because running Chrome held the real-profile credential databases. No authenticated product, payment, client, genuine-Windows or physical-device acceptance was exercised.
+- **Local canonical write only:** no source checkout, repository remote, install, restart, service, deployment, provider, database, payment, Apple, contact or production state was changed. Ground Zero notes and dashboard were updated locally; no commit or sync was attempted.
 
 ## Reconciliation checkpoint — 9 October 2026, 04:09 IST
 

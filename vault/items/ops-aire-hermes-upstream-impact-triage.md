@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-09T04:09:00+01:00"
+updated_at: "2026-10-09T08:10:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 9 October 2026 08:10 IST cutoff
+
+Direct GitHub authority binds upstream `main` to unsigned `1744a19e0df568c647e4f3ff9c37f2a284a282fb` / tree `d427f5a8f9d37ab10bf7d77ae728bcd046220607`, exactly four commits / seven changed files beyond prior checkpoint `3b0dc776b6602b0dd05429d7842bb143d73434b7`, 199 commits beyond stable `v0.21.6` and 1,046 commits beyond installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. All four tail commits are GitHub-unverified. Combining them with the retained direct-ancestor baseline gives 77 verified and 969 unverified commits in the full linear gap; GitHub caps the broader changed-file list at 300.
+
+Queue the packaged-Windows fix that builds plugin Python dependencies from a writable user-store copy of the bundled interpreter, the basic-user MSIX plugin-install smoke, the user-environment correction and the already-built-package re-smoke path for bounded review. Source commits and CI receipts are not installed or accepted Aire behaviour.
+
+Installed `HEAD` / tree remain exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the CLI's 987-commit figure understates direct GitHub by 59. `hermes status --all` retains the mixed-module restart warning; health remains HTTP `200` / v0.21.5 without commit identity. Saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`; ports `8766` and `8767` remain non-Aire, while Cara `8643` and recorded receipt port `8778` refuse connections. No install, restart, routing correction, source integration, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Reconciliation checkpoint, 9 October 2026 04:09 IST cutoff
 

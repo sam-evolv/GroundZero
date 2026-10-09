@@ -9,6 +9,11 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced four unverified Windows-MSIX commits; accepted Aire state did not — 9 October 2026, 08:10 IST cutoff
+
+- GitHub `main` advanced four commits / seven files after `3b0dc776…` to unsigned `1744a19e…` / tree `d427f5a8…`, exactly 1,046 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…` and 199 beyond stable `v0.21.6`. All four new commits are unverified; the full linear gap now has 77 verified and 969 unverified commits. Queue the packaged-Windows writable-Python plugin-install repair and its basic-user/package-reuse MSIX smoke coverage for bounded compatibility review.
+- Installed source and v0.21.5 health remain exact; local tracking still stops at `517b5e10…`, the mixed-module warning persists, saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`, and the documented Aire service boundaries remain non-Aire/offline. No install, restart, routing change, authenticated/rendered Aire journey or device acceptance ran.
+
 ## Upstream advanced 12 mixed-signature commits; accepted Aire state did not — 9 October 2026, 04:09 IST cutoff
 
 - GitHub `main` advanced 12 commits / 70 files after `8ac5c744…` to unsigned `3b0dc776…` / tree `47b03dfc…`, exactly 1,042 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…` and 195 beyond stable `v0.21.6`. The tail has three verified and nine unverified commits; the full linear gap now has 77 verified and 965 unverified commits. Queue gateway service-definition ownership, Spotify's move from core to the official plugin catalogue, Desktop onboarding fade, release-only E2E routing and detached-process cleanup for bounded compatibility review.

@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` advanced 12 commits / 70 files to unsigned `3b0dc776…` / tree `47b03dfc…`, exactly 1,042 commits ahead of installed unsigned `9aaef03b…` and 195 beyond stable. The new tail has three verified and nine unverified commits across gateway service ownership, Spotify's move from core to the official plugin catalogue, Desktop onboarding fade, release-only E2E routing and detached-process cleanup. Installed source, v0.21.5 health, mixed-module warning, unapproved Skippy route and non-Aire/offline service boundaries remain unchanged. No accepted Aire behaviour advanced.
+headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` advanced four unverified Windows-MSIX commits / seven files to unsigned `1744a19e…` / tree `d427f5a8…`, exactly 1,046 commits ahead of installed unsigned `9aaef03b…` and 199 beyond stable. The tail repairs packaged plugin installs with Python dependencies and extends basic-user/package-reuse smoke coverage. Installed source, v0.21.5 health, mixed-module warning, unapproved Skippy route and non-Aire/offline service boundaries remain unchanged. No accepted Aire behaviour advanced.
 status: building
 updated: 2026-10-09
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced four unverified Windows-MSIX commits; installed and accepted Aire state did not — 9 October 2026, 08:10 IST cutoff
+
+- Direct GitHub authority binds current `main` to unsigned `1744a19e0df568c647e4f3ff9c37f2a284a282fb` / tree `d427f5a8f9d37ab10bf7d77ae728bcd046220607`, exactly four commits / seven changed files beyond prior checkpoint `3b0dc776b6602b0dd05429d7842bb143d73434b7`, 199 commits beyond stable `v0.21.6` and 1,046 commits beyond installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`. All four new commits are GitHub-unverified; the retained full linear gap now contains 77 verified and 969 unverified commits.
+- Queue the packaged-Windows repair that builds plugin Python dependencies from a writable user-store copy of the bundled interpreter, plus the basic-user MSIX plugin smoke and already-built-package re-smoke changes, for bounded compatibility review. Source commits and CI receipts are not installed or accepted Aire behaviour.
+- Installed `HEAD` / tree remain exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the CLI's 987-commit figure understates direct GitHub by 59. `hermes status --all` retains the mixed-module restart warning; `/health` remains HTTP `200` / v0.21.5 without source SHA. Saved routing remains unapproved `gpt-6.1-sol` / `openai-codex`. Ports `8766` and `8767` remain non-Aire roots with `/health` `404`; Cara `8643` and the recorded Aire receipt port `8778` refuse connections. No install, restart, config change, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Upstream advanced 12 mixed-signature commits; installed and accepted Aire state did not — 9 October 2026, 04:09 IST cutoff
 
