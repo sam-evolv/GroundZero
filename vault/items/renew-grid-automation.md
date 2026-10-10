@@ -55,6 +55,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-26-evolv-local-business-flex-evidence-readiness-gate]]
 - [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]]
 - [[briefs/2026-10-04-evolv-energy-sharing-readiness-reconciliation-gate]]
+- [[briefs/2026-10-09-evolv-dynamic-tariff-replay-gate]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]
 - [[briefs/solar-installer-workflow-analysis]]

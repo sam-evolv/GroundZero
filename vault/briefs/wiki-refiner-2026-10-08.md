@@ -100,7 +100,35 @@ This brief captures raw sources reviewed by the wiki refiner and the notes they 
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-05-mainstream-ireland-consumer-agent-experience]]
+- [[briefs/2026-08-05-personal-assistant-research-charter]]
+- [[briefs/2026-08-05-personal-assistant-research-codex]]
+- [[briefs/2026-08-06-irelandgpt-delegation-product-charter]]
+- [[briefs/2026-08-07-personal-agent-deep-design-consultancy-prompt]]
+- [[briefs/openhouse-dtc-master-plan-2026-07-27]]
+- [[briefs/openhouse-dtc-voice-stress-test-synthesis-2026-07-27]]
+- [[briefs/openhouse-world-class-marketing-site-research-2026-07-23]]
+- [[briefs/openhouse-yc-fall-2026-application-pack-2026-07-29]]
+- [[briefs/wiki-refiner-2026-08-01]]
+- [[briefs/wiki-refiner-2026-08-11]]
+- [[briefs/wiki-refiner-2026-08-13]]
+- [[briefs/wiki-refiner-2026-08-14]]
+- [[briefs/wiki-refiner-2026-08-19]]
+- [[companies/cara]]
+- [[companies/heres-health]]
+- [[companies/openhouse-ai]]
+- [[companies/personal-agent]]
 - [[context/index]]
+- [[context/model-pack]]
+- [[context/openhouse-openbook-design-system]]
+- [[items/heres-health-week-one-discovery-and-technical-proof]]
+- [[items/ops-aire-hermes-upstream-impact-triage]]
+- [[items/ops-project-state-reconciler]]
+- [[project_state/donworth-studio]]
+- [[project_state/heres-health-app]]
+- [[project_state/oh]]
+- [[project_state/personal-agent]]
+
 
 ## Guardrails
 - Do not file temporary scraps directly into durable notes without review.

@@ -64,4 +64,5 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/oh-production-migration]]
 - [[items/ops-daily-report-pack]]
 - [[items/ops-daily-sync-digest]]
+- [[items/ops-pr-merge-acceptance-receipt]]
 

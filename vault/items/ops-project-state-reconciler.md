@@ -946,6 +946,8 @@ P1
 - [[imports/heres-health-app-project-brief-2026-08-13]] — shared signals: project, health, heres
 - [[imports/heres-health-project-master-brief-2026-08-29]] — shared signals: project, master, health
 - [[imports/linkedin/connections-2026-08-12]] — shared signals: connections, linkedin, 2026
+- [[imports/campaigns/openhouse-innovation-strategy]] — shared signals: innovation, openhouse, strategy
+- [[imports/chatgpt/ireland-gpt-product-pricing-gtm-delegation-strategy-2026-08-06]] — shared signals: delegation, strategy, pricing
 ## Incubation analysis, 18 July 2026
 
 ### Opportunity size
@@ -1327,6 +1329,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/wiki-refiner-2026-10-06]]
 - [[briefs/wiki-refiner-2026-10-07]]
 - [[briefs/wiki-refiner-2026-10-08]]
+- [[briefs/wiki-refiner-2026-10-09]]
 - [[companies/donworth-ai-solutions]]
 - [[companies/heres-health]]
 - [[companies/personal-agent]]

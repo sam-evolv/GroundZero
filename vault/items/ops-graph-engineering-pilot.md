@@ -402,6 +402,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-aire-hermes-upstream-impact-triage]]
 - [[items/ops-daily-sync-digest]]
 - [[items/ops-desktop-ui-approval-readiness-gate]]
+- [[items/ops-pr-merge-acceptance-receipt]]
 - [[items/ops-project-state-reconciler]]
 - [[items/personal-agent-hermes-desktop-parity]]
 - [[project_state/donworth-studio]]

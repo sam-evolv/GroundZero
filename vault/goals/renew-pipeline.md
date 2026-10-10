@@ -56,6 +56,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-10-05-evolv-commercial-pv-cyber-custody-handover-gate]]
 - [[briefs/2026-10-06-donworth-digital-discovery-provider-qualification-gate]]
 - [[briefs/2026-10-07-evolv-ssea-audit-to-solar-handoff-gate]]
+- [[briefs/2026-10-09-evolv-dynamic-tariff-replay-gate]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[briefs/planet-satellite-opportunity]]
 - [[briefs/solar-installer-software-wedge]]

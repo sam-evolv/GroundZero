@@ -617,6 +617,7 @@ Grounded in the 7 October hosted migration, active retention jobs and 120,940 pr
 
 ## Notes that link here
 _Auto-generated: updated by wiki-refiner_
+- [[briefs/2026-08-16-heres-health-commerce-integrity-support-wedge]]
 - [[briefs/ai-money-patterns-2026-06]]
 - [[companies/heres-health]]
 - [[context/automation-ideas]]

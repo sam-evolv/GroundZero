@@ -125,3 +125,8 @@ Sam must approve any outreach. The registered customer must separately approve d
 - [[items/renew-grid-automation]] — possible later data input, not authorised here
 - [[briefs/2026-09-06-evolv-customer-authorised-meter-data-reconciliation-proof]] — existing HDF, inverter and supplier-statement proof
 - [[briefs/2026-10-03-evolv-self-consumption-sress-export-route-gate]] — keep self-consumption, export support and import tariff decisions separate
+
+## Notes that link here
+_Auto-generated: updated by wiki-refiner_
+- [[context/business-opportunities-moc]]
+

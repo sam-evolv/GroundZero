@@ -114,6 +114,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-kanban-terminal-transition-guard]]
 - [[items/ops-meeting-followup-assembler]]
 - [[items/ops-pr-issue-ageing-escalator]]
+- [[items/ops-pr-merge-acceptance-receipt]]
 - [[items/ops-project-state-reconciler]]
 - [[items/ops-source-to-wiki-ingest]]
 - [[items/ops-vault-sync-change-receipt-gate]]

@@ -56,6 +56,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-daily-sync-digest]]
 - [[items/ops-graph-engineering-pilot]]
 - [[items/ops-kanban-terminal-transition-guard]]
+- [[items/ops-pr-merge-acceptance-receipt]]
 - [[items/ops-project-state-reconciler]]
 - [[project_state/donworth-studio]]
 - [[project_state/heres-health-app]]

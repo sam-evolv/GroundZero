@@ -161,6 +161,7 @@ _Auto-generated: updated by wiki-refiner_
 - [[briefs/2026-09-29-evolv-commercial-solar-triple-e-aca-decision-receipt]]
 - [[briefs/2026-10-02-evolv-ndmg-grant-uplift-transition-gate]]
 - [[briefs/2026-10-04-evolv-energy-sharing-readiness-reconciliation-gate]]
+- [[briefs/2026-10-09-evolv-dynamic-tariff-replay-gate]]
 - [[briefs/substack-draft-2026-10-04-waiting-for-review-is-not-finished]]
 - [[companies/evolv-renewables]]
 - [[context/business-opportunities-moc]]
