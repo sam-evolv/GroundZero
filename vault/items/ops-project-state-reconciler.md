@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-10T04:01:00+01:00"
+updated_at: "2026-10-10T08:00:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 10 October 2026, 08:00 IST
+
+- **Hermes upstream advanced one unverified forward-only update commit; installed and accepted Aire state did not.** Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `dce1e9b3…` / tree `acf36434…`, exactly one commit / two files after `5ba559c9…`, 387 beyond stable `v0.21.6` and 1,234 beyond installed unsigned `9aaef03b…` / tree `f2eafe43…`. The retained full gap is 105 verified / 1,129 unverified. Queue the shallow/offline guard that prevents a source checkout already ahead of the latest stable release from being moved backwards; it is not installed or accepted Aire behaviour.
+- **Installed/runtime evidence remains bounded and contradictory.** Installed source stays exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit tracking gap understates direct GitHub by 247. The mixed-module restart warning persists; health is HTTP `200` / v0.21.5 without SHA. Parsed saved Skippy remains on unapproved `gpt-6.1-sol` / `openai-codex`, while this scheduled run is separately pinned to `gpt-5.6-sol` / `openai-codex`. Ports `8766` / `8767` remain non-Aire roots with `/health` `404`; Cara `8643` and receipt port `8778` refuse connections. No install, restart, config change, authenticated/rendered Aire journey or physical-device acceptance ran.
+- **Other exact named live sources retained their canonical outcomes where rechecked.** Donworth Desktop/site, Here’s Health, OpenHouse, OpenBook/template and Cara GitHub heads remain exact; Donworth PR #14 checks, installed-app bytes/signature, feed-object custody and public-site bytes remain unchanged. Named Vercel deployments remain Ready; Here’s Health migrations/functions/crons and bounded commerce/deletion/notification/rota outcomes remain unchanged, with 131,652 fully processed production Square events through 16:52:53 UTC. OpenHouse remains `ACTIVE_HEALTHY` with unchanged 30/2/17/1/4 adviser categories plus disabled leaked-password protection. Availability, checks, bytes and backend consistency are not payment, client, authenticated-product, rendered-app or device acceptance. Renew still names no exact inspectable live source; Apple state was not re-exercised and remains last-known evidence only.
+- **Ground Zero write custody:** no source checkout, install, restart, service, deployment, provider, database, payment, Apple, contact or production state was changed. This run updated only canonical notes/dashboard locally and did not invoke the sync script or push.
 
 ## Reconciliation checkpoint — 10 October 2026, 04:01 IST
 

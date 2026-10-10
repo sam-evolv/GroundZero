@@ -8,6 +8,11 @@ updated: "2026-10-10"
 
 # Donworth Studio
 
+## Upstream added a forward-only source-update guard; release gates remain open — 10 October 2026, 08:00 IST cutoff
+
+- Desktop `main` remains unsigned `a1cec24e…`; draft PR #14 remains at unsigned `9086f401…` with three commits / 13 files, successful prepare/Vercel checks and three cancelled package jobs. No merge, package, feed or installed-app transition occurred.
+- Hermes `main` advanced one unverified commit / two files to unsigned `dce1e9b3…`, 387 commits beyond stable `v0.21.6`. Queue its shallow/offline forward-only stable-update guard for bounded comparison against Donworth's update custody. Feed objects, signed installed v0.18.9 and source-bound public-site bytes remain exact; signing/notarisation, provenance-matched packages, real Windows/Mac upgrades, signed-in continuity and physical-device gates remain open.
+
 ## Upstream changed skills, source-update defaults and Relay; release gates remain open — 10 October 2026, 04:01 IST cutoff
 
 - Desktop `main` remains unsigned `a1cec24e…`; draft PR #14 remains at unsigned `9086f401…` with three focused commits / 13 files. `prepare-release`, Vercel and Vercel Preview Comments pass, but the three package jobs remain failed because the installer run was cancelled; no merge, package, feed or installed-app transition occurred.

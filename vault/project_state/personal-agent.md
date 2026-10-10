@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is unsigned `5ba559c9…` / tree `f2bb6814…`, 13 entirely unverified commits / 40 files after checkpoint `46d7718a…`, 386 beyond stable and 1,233 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
+headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is unsigned `dce1e9b3…` / tree `acf36434…`, one unverified two-file source-update guard after checkpoint `5ba559c9…`, 387 beyond stable and 1,234 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
 status: building
 updated: 2026-10-10
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream added one forward-only source-update guard; installed and accepted Aire state did not change — 10 October 2026, 08:00 IST cutoff
+
+- Direct GitHub authority binds current `main` to unsigned `dce1e9b37581dd62e480a9064dc04a709c2940d3` / tree `acf36434230402235a3a2a8a7733050011c1b246`, exactly one GitHub-unverified commit / two changed files beyond prior checkpoint `5ba559c9e4b1c8397df7788e319ab634144ca728`. Current `main` is 387 commits beyond stable `v0.21.6` and 1,234 beyond installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`; the retained full linear gap is 105 verified and 1,129 unverified commits.
+- The new source and regression test prevent a shallow or offline source checkout that is already ahead of the latest stable release from being moved backwards to that release. Queue it with the existing stable-channel/update-custody review; source and test evidence are not installed or accepted Aire behaviour.
+- Installed `HEAD` / tree remain exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit tracking gap understates direct GitHub by 247. `hermes status --all` retains the mixed-module restart warning, and `/health` is HTTP `200` / v0.21.5 without source SHA. Saved routing remains unapproved `gpt-6.1-sol` / `openai-codex`; this scheduled run is separately pinned to `gpt-5.6-sol` / `openai-codex`, which is a run receipt rather than a saved-default correction. Ports `8766` and `8767` still expose non-Aire roots with `/health` `404`; Cara `8643` and recorded receipt port `8778` refuse connections. No install, restart, config change, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Upstream advanced 13 entirely unverified skill, stable-channel and Relay commits; installed and accepted Aire state did not — 10 October 2026, 04:01 IST cutoff
 

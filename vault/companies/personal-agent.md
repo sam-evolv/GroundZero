@@ -9,6 +9,11 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream added one unverified forward-only source-update guard; accepted Aire state did not change — 10 October 2026, 08:00 IST cutoff
+
+- GitHub `main` advanced one unverified commit / two files after `5ba559c9…` to unsigned `dce1e9b3…` / tree `acf36434…`, exactly 1,234 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…` and 387 beyond stable `v0.21.6`. The full linear gap now has 105 verified and 1,129 unverified commits. Queue the new shallow/offline forward-only stable-update guard with the existing stable-channel and update-custody review.
+- Installed source and v0.21.5 health remain exact; local tracking still stops at `517b5e10…`, the mixed-module warning persists, saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`, and the documented Aire service boundaries remain non-Aire/offline. No install, restart, routing change, authenticated/rendered Aire journey or device acceptance ran.
+
 ## Upstream advanced 13 entirely unverified skill, stable-channel and Relay commits; accepted Aire state did not — 10 October 2026, 04:01 IST cutoff
 
 - GitHub `main` advanced 13 commits / 40 files after `46d7718a…` to unsigned `5ba559c9…` / tree `f2bb6814…`, exactly 1,233 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…` and 386 beyond stable `v0.21.6`. All 13 tail commits are unverified; the full linear gap now has 105 verified and 1,128 unverified commits. Queue inline-shell/skill-index trust, live mid-session skill refresh, stable-channel update semantics, GEV catalogue withdrawal and Relay 0.10 migration safeguards for bounded review.

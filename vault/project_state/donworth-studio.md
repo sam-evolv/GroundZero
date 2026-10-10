@@ -3,12 +3,18 @@ id: donworth-studio
 company_id: donworth-ai-solutions
 headline: "Private Desktop `main` remains unsigned `a1cec24e…`; draft PR #14 remains at unsigned `9086f401…` with focused Hermes v0.21.6 security backports, but its installer run was cancelled and integration/package/account-continuity gates remain open. Feeds remain Windows 0.18.12 / Mac ARM 0.18.2 / Mac Intel 503, signed installed v0.18.9 remains exact and unlaunched, and public site source remains `104ac7fc…` on Ready `dpl_AcQG…`."
 valid: true
-updated_at: "2026-10-10T04:01:00+01:00"
+updated_at: "2026-10-10T08:00:00+01:00"
 role: project-state
 status: building
 ---
 
 # Donworth Studio project state
+
+## Upstream added a forward-only source-update guard; Donworth candidate and release remain held — 10 October 2026, 08:00 IST cutoff
+
+- Official stable remains `v0.21.6` at `818c13be…`, while current Hermes `main` advanced one unverified commit / two files after `5ba559c9…` to unsigned `dce1e9b3…` / tree `acf36434…`, 387 commits beyond that cut. The change prevents a shallow or offline source checkout already ahead of the latest stable release from being moved backwards. It is directly relevant to Donworth's controlled update custody but was not integrated or packaged.
+- Donworth Desktop `main` remains unsigned `a1cec24e…`; draft PR #14 remains at unsigned `9086f401…` with three commits / 13 files, successful prepare/Vercel checks and three cancelled package jobs. Feed-object custody remains Windows `0.18.12`, Mac ARM `0.18.2` and no Mac Intel metadata object. Signed installed v0.18.9 remains exact at `9912fe34…` / `711adb24…`, code-signature valid and unlaunched; public site source, Ready deployment and root/privacy bytes remain exact.
+- No merge, package, feed, install, genuine-Windows, authenticated account-continuity, rendered Desktop or physical-device gate advanced.
 
 ## Upstream changed skills, source-update defaults and Relay; Donworth candidate and release remain held — 10 October 2026, 04:01 IST cutoff
 

@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-10T04:01:00+01:00"
+updated_at: "2026-10-10T08:00:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 10 October 2026 08:00 IST cutoff
+
+Direct GitHub authority binds upstream `main` to unsigned `dce1e9b37581dd62e480a9064dc04a709c2940d3` / tree `acf36434230402235a3a2a8a7733050011c1b246`, exactly one GitHub-unverified commit / two changed files beyond prior canonical checkpoint `5ba559c9e4b1c8397df7788e319ab634144ca728`. Current `main` is 387 commits beyond stable `v0.21.6` and 1,234 beyond installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`; the retained full linear gap has 105 verified and 1,129 unverified commits.
+
+Queue the new forward-only source-update guard, which prevents a shallow or offline checkout already ahead of the latest stable release from being moved backwards to that release. It extends the update-channel custody work already queued at 04:01 and is directly relevant to Donworth's controlled release path, but source and regression-test evidence do not prove Donworth or Aire compatibility.
+
+Installed `HEAD` / tree remain exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit tracking gap understates direct GitHub by 247. `hermes status --all` retains the mixed-module restart warning; health remains HTTP `200` / v0.21.5 without commit identity. Saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`; this scheduled run is separately pinned to `gpt-5.6-sol` / `openai-codex`. Ports `8766` and `8767` remain non-Aire, while Cara `8643` and recorded receipt port `8778` refuse connections. No install, restart, routing correction, source integration, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Reconciliation checkpoint, 10 October 2026 04:01 IST cutoff
 
