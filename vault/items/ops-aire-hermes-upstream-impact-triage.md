@@ -13,10 +13,18 @@ is_one_thing: true
 source: Ground Zero workflow automation scan 2026-08-17
 run_date: "2026-08-17"
 created_at: "2026-08-17T18:01:00+01:00"
-updated_at: "2026-10-10T08:00:00+01:00"
+updated_at: "2026-10-10T16:03:00+01:00"
 ---
 
 # Triage upstream Hermes changes into an Aire compatibility queue
+
+## Reconciliation checkpoint, 10 October 2026 16:03 IST cutoff
+
+Direct GitHub authority binds upstream `main` to unsigned `a62979dc3601c9eae455bff5b35ba8f9bed0df30` / tree `a29c02f58044a2e61b0fe416f1e7e9ce75d970e9`, exactly 133 GitHub-unverified commits / 129 changed files beyond prior canonical checkpoint `dce1e9b37581dd62e480a9064dc04a709c2940d3`. Current `main` is 520 commits beyond stable `v0.21.6` and 1,367 beyond installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022`; the retained full linear gap has 105 verified and 1,262 unverified commits.
+
+Queue the large plugin-catalogue and memory/voice/provider tranche; Desktop source-install update-channel selection; skills-guard false-positive repair; Ollama Cloud reasoning replay correction; and the concentrated compression restore/rollback/attempt-telemetry/Relay-compaction work for bounded compatibility review. The update-channel work overlaps Donworth's controlled update custody, while compression transactionality and telemetry are directly relevant to Aire session continuity. Source commits and tests do not prove either product's compatibility.
+
+Installed `HEAD` remains exact at `9aaef03b…`, with only `.review-worktrees/` untracked. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit gap now understates direct GitHub by 380. `hermes status --all` retains the mixed-module restart warning; health remains HTTP `200` / v0.21.5 without commit identity. Saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`; Luna delegation and Luna/Astra auxiliary routes are unchanged. Ports `8766`, `8767`, Cara `8643` and recorded receipt port `8778` all refuse connections. No install, restart, routing correction, source integration, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Reconciliation checkpoint, 10 October 2026 08:00 IST cutoff
 

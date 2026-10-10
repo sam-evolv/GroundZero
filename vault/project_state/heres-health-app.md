@@ -1,14 +1,21 @@
 ---
 id: heres-health-app
 company_id: heres-health
-headline: "Paying client; GitHub, hosted function versions, commerce outcomes and native acceptance boundaries remain unchanged, while the production Square-event stream reached 131,652 fully processed rows through 16:52:53 UTC. Build 8 remains the last Apple-verified binary and 1.0.1 has no verified native build/upload/device receipt; commerce, deletion, notifications and rota acceptance remain open. Launch remains NO-GO."
+headline: "Paying client; GitHub, hosted function versions, commerce outcomes and native acceptance boundaries remain unchanged, while the production Square-event stream reached 137,883 fully processed rows through 15:07:25 UTC on 10 October. Build 8 remains the last Apple-verified binary and 1.0.1 has no verified native build/upload/device receipt; commerce, deletion, notifications and rota acceptance remain open. Launch remains NO-GO."
 valid: true
-updated_at: "2026-10-09T20:10:00+01:00"
+updated_at: "2026-10-10T16:03:00+01:00"
 role: project-state
 status: paid-engagement
 ---
 
 # Here’s Health app project state
+
+## Production Square activity continued; source and launch acceptance did not advance — 10 October 2026, 16:03 IST cutoff
+
+- GitHub `main` remains verified `355142536be0d29543dd371515eaf51a9869ba59`; draft/unreviewed PR #6 remains open and clean at unsigned `f81f1c6349c83109a8a7dc07c40e2e71a47f91fa`, based on `codex/shopify-full-integration`, with 27 commits / 208 files. Its combined commit status has no contexts. No replacement native build, merge, GitHub deployment or accepted source transition appeared.
+- Direct Supabase authority still lists 25 migrations, unchanged active Edge Function versions 34/30/31/15/17/5/3 and all five named cron jobs active. Production `square_events` reached 137,883 rows at `2026-10-10 15:07:25.084891+00`, with zero unprocessed and latest processing `15:07:25.406+00`. Event volume is operational traffic only: production `square_orders` remains empty; all 27 stored Square orders are sandbox rows and 23 carry payment IDs.
+- The production and test Shopify sessions both remain `awaiting-payment`, with no native or confirmed order and no production authoritative order; the production reconciliation heartbeat remains `2026-10-08 22:15:02.26771+00`. Seven confirmation-email rows remain two sent, three `no_recipient` and two `needs_review`; all four notification tables remain empty; deletion remains one completed plus one requested; rota remains 1 tenant / revision 7, 1 identity, 5 entities, 1 audit row, 2 completed requests and 2 version-6 conflict scopes. No transaction was exercised.
+- Anonymous reads still return the sample-data app preview, branded account-confirmation guidance and both published privacy pages. These public surfaces do not bind a new native artifact or prove merchant, payment, deletion, rota, client or device acceptance. A fresh App Store Connect attempt failed closed because running Chrome still holds the real-profile `Login Data` and `Web Data` databases with a write lock; Hermes refused a raw copy that could lose committed logins. iOS 1.0.0 build 8 Waiting for Review at 21:01 IST on 1 October therefore remains the last verified Apple state, not a current-console assertion. Launch remains **NO-GO**.
 
 ## Production Square activity continued; launch acceptance did not advance — 9 October 2026, 20:10 IST cutoff
 

@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-10T08:00:00+01:00"
+updated_at: "2026-10-10T16:03:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 10 October 2026, 16:03 IST
+
+- **Hermes upstream advanced 133 entirely unverified commits; installed and accepted Aire state did not.** Direct GitHub authority now binds `NousResearch/hermes-agent` `main` to unsigned `a62979dc…` / tree `a29c02f5…`, exactly 133 commits / 129 files after `dce1e9b3…`, 520 beyond stable `v0.21.6` and 1,367 beyond installed unsigned `9aaef03b…`. The retained full gap is 105 verified / 1,262 unverified. Queue the catalogue/memory/voice/provider tranche, Desktop source-update channel, skills-guard and Ollama reasoning fixes, and compression restore/rollback/telemetry work for bounded review; none is installed or accepted Aire behaviour.
+- **Installed/runtime evidence remains bounded and changed only in availability.** Installed source stays exact at `9aaef03b…` with only `.review-worktrees/` untracked. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit gap understates direct GitHub by 380. The mixed-module restart warning persists; health is HTTP `200` / v0.21.5 without SHA. Saved Skippy remains on unapproved `gpt-6.1-sol` / `openai-codex`; Luna delegation and Luna/Astra auxiliary routes remain. Prior non-Aire preview ports `8766` / `8767` now refuse connections, as do Cara `8643` and receipt port `8778`. No install, restart, config change, authenticated/rendered Aire journey or physical-device acceptance ran.
+- **Material named-source movement was limited to Donworth, Here’s Health traffic and OpenHouse aggregates.** While this run was active, Donworth draft PR #14 advanced to unsigned `224114bf…` with a git-filter hardening backport; it remains open/draft and `unstable`, while its only combined status is successful Vercel. A concurrent bounded Ground Zero edit recorded its source/test receipt; no merge, package or installed-tester acceptance is inferred. Here’s Health source, function versions, migrations, cron set and outcome tables remain at their accepted boundaries, while production Square events reached 137,883 fully processed rows through 15:07:25 UTC; production Square orders remain empty, Shopify has no native/confirmed/authoritative order, notification tables remain empty and launch remains NO-GO. A fresh App Store Connect read failed closed because running Chrome holds the real-profile credential databases with a write lock, so the 1 October build-8 receipt remains last-known rather than current-console state. OpenHouse `main`, production source and adviser counts remain unchanged; read-only aggregates now show 107 auth users and 494 session rows across 100 users, but actor/tenant/test provenance and current-device validity are open, so no adoption or authenticated-product claim is made. OpenBook/template and Cara heads remain unchanged; Renew still names no exact inspectable live source.
+- **Ground Zero write custody:** no source checkout, install, restart, service, deployment, provider, database, payment, Apple, contact or production state was changed. This run updated only canonical notes/dashboard locally, preserved the concurrent Donworth edit and did not invoke the sync script or push.
 
 ## Reconciliation checkpoint — 10 October 2026, 08:00 IST
 

@@ -1,14 +1,20 @@
 ---
 id: donworth-studio
 company_id: donworth-ai-solutions
-headline: "Private Desktop `main` remains unsigned `a1cec24e…`; draft PR #14 remains at unsigned `9086f401…` with focused Hermes v0.21.6 security backports, but its installer run was cancelled and integration/package/account-continuity gates remain open. Feeds remain Windows 0.18.12 / Mac ARM 0.18.2 / Mac Intel 503, signed installed v0.18.9 remains exact and unlaunched, and public site source remains `104ac7fc…` on Ready `dpl_AcQG…`."
+headline: "Private Desktop `main` remains unsigned `a1cec24e…`; draft PR #14 advanced to unsigned `224114bf…` with a tested Hermes v0.21.6 git-filter security backport. The installer run was cancelled and full integration/package/account-continuity gates remain open. Feeds remain Windows 0.18.12 / Mac ARM 0.18.2 / Mac Intel 503; signed installed v0.18.9 remains unlaunched."
 valid: true
-updated_at: "2026-10-10T08:00:00+01:00"
+updated_at: "2026-10-10T16:04:00+01:00"
 role: project-state
 status: building
 ---
 
 # Donworth Studio project state
+
+## Hermes git-filter backport added to draft PR #14; tester release still held — 10 October 2026, 16:04 IST
+
+- Official stable remains `v0.21.6` at `818c13be…`. Donworth Desktop `main` remains unsigned `a1cec24e…`; [draft PR #14](https://github.com/sam-evolv/donworth-studio-desktop/pull/14) advanced to unsigned `224114bf0d198d715be7b815725409d5e041be95`. This focused commit adapts upstream [PR #130661](https://github.com/NousResearch/hermes-agent/pull/130661) so automatic Git worktree/index reads neutralize repository-named filters and refuse ambiguous config. A throwaway hostile repository fired its smudge filter on the prior Donworth path; the new real-Git security tests pass. Mac Python 3.11 verification: 164 passed, 4 skipped across 16 targeted files plus 25 passed across two additional worktree files; compilation and diff check passed. This is source verification only, not a packaged-app or installed-tester result.
+- Push-triggered [installer run 38062095284](https://github.com/sam-evolv/donworth-studio-desktop/actions/runs/38062095284) completed cancelled without a package job or draft release. Direct feeds remain Windows x64 `0.18.12`, Mac ARM `0.18.2`, Mac Intel HTTP 503. Draft PR #11 remains open at `e98616be…` for the next Windows upgrade baseline. No merge, release promotion, app install, tester account or live session changed.
+- Tagged v0.21.6 core dependencies still target Python 3.14 while Donworth bundles 3.11.16. The full 786-conflict integration, remaining runtime/email review, Mac signed/notarized packages, real Mac/Windows upgrades and signed-in account continuity remain open. Next action: resolve and test the interpreter/dependency plan in a separate reviewable change before a provenance-matched build. Source: official stable release and upstream PR, GitHub PR/run receipts, direct feed reads, local 10 October test output and [integration status](/Users/samdonworth/Documents/New%20project/HERMES-INTEGRATION-STATUS-20260925.md). Ground Zero edit is local only; no private-repo commit, push or cross-agent sync occurred.
 
 ## Upstream added a forward-only source-update guard; Donworth candidate and release remain held — 10 October 2026, 08:00 IST cutoff
 
@@ -595,4 +601,3 @@ _Auto-generated: updated by wiki-refiner_
 - [[items/ops-kanban-terminal-transition-guard]]
 - [[items/ops-project-state-reconciler]]
 - [[project_state/heres-health-app]]
-
