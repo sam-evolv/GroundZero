@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is unsigned `a62979dc…` / tree `a29c02f5…`, 133 entirely unverified commits after checkpoint `dce1e9b3…`, 520 beyond stable and 1,367 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, saved Skippy remains on the unapproved `gpt-6.1-sol` route, and prior preview ports `8766`/`8767` are now offline. No accepted Aire behaviour advanced.
+headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is unsigned `666054bc…` / tree `48b3bc6c…`, nine entirely unverified commits after checkpoint `a62979dc…`, 529 beyond stable and 1,376 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
 status: building
 updated: 2026-10-10
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream added nine unverified policy, GitHub, scheduler and audio commits; installed and accepted Aire state did not — 10 October 2026, 20:11 IST cutoff
+
+- Direct GitHub authority binds current `main` to unsigned `666054bc7f1038b118650e307d2c13575cbcd18e` / tree `48b3bc6ca0c4248df3936c4c4d4309f6072fa67b`, exactly nine GitHub-unverified commits / 15 changed files beyond prior checkpoint `a62979dc3601c9eae455bff5b35ba8f9bed0df30`. Current `main` is 529 commits beyond stable `v0.21.6` and 1,376 beyond installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022`; the retained full linear gap is 105 verified and 1,271 unverified commits.
+- Queue the tail's isolated model-API tests and PR-policy trigger cleanup; GitHub repository-license discovery; auth profile-role propagation; scheduled-job provider auto-pinning from the selected model/provider; and browser-audio MIME/container preservation. These are upstream source, merge and test records, not installed or accepted Aire behaviour.
+- Installed source remains exact at `9aaef03b…` / tree `f2eafe43…`, with only `.review-worktrees/` untracked and 11 stashes. `hermes --version` still reports v0.21.5 and local tracking `517b5e10…`; its 987-commit local gap now understates direct GitHub by 389. `hermes status --all` retains the mixed-module restart warning. Explicit non-secret readback still resolves saved `gpt-6.1-sol` / `openai-codex`, Luna delegation and Astra background review, with no configured model/provider fallback lists. Local API health on `8642` is HTTP `200` / v0.21.5 without a source SHA; `8766`, `8767`, Cara `8643` and receipt port `8778` refuse connections. No install, update, restart, config change, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Upstream advanced 133 unverified catalogue, update-channel and compression commits; installed and accepted Aire state did not — 10 October 2026, 16:03 IST cutoff
 

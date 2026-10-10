@@ -1,14 +1,20 @@
 ---
 id: donworth-studio
 company_id: donworth-ai-solutions
-headline: "Private Desktop `main` remains unsigned `a1cec24e…`; draft PR #14 advanced to unsigned `224114bf…` with a tested Hermes v0.21.6 git-filter security backport. The installer run was cancelled and full integration/package/account-continuity gates remain open. Feeds remain Windows 0.18.12 / Mac ARM 0.18.2 / Mac Intel 503; signed installed v0.18.9 remains unlaunched."
+headline: "The public Desktop updater host is currently broken: Windows x64, Mac ARM and Mac Intel update routes all return Vercel HTTP 404 `DEPLOYMENT_NOT_FOUND`, superseding the prior reachable Windows 0.18.12 / Mac ARM 0.18.2 checkpoint. Desktop `main` remains unsigned `a1cec24e…`; draft PR #14 remains unsigned `224114bf…`, open and unreleased. No installer, feed, installed-app or account-continuity acceptance advanced."
 valid: true
-updated_at: "2026-10-10T16:04:00+01:00"
+updated_at: "2026-10-10T20:11:00+01:00"
 role: project-state
 status: building
 ---
 
 # Donworth Studio project state
+
+## Public Desktop update host now returns deployment-not-found; release remains held — 10 October 2026, 20:11 IST cutoff
+
+- Direct reads of `https://update.donworthstudio.ie/` and all three named updater routes — Windows x64 `latest.yml`, Mac ARM `latest-mac.yml` and Mac Intel `latest-mac.yml` — now return HTTP `404` from Vercel with `x-vercel-error: DEPLOYMENT_NOT_FOUND`. DNS still resolves the hostname to Vercel. This supersedes the 16:04 statement that Windows `0.18.12` and Mac ARM `0.18.2` were currently reachable; those versions are now last-known feed contents, not current update availability.
+- Vercel still reports retained target-production broker deployment `dpl_4FYZvibbTgtyeVNhS99M66j4aMN8` / `donworth-desktop-broker-f0yw2arah-openhouseais-projects.vercel.app` as Ready, but its inspected aliases list only the project and `git-main` `vercel.app` names, not `update.donworthstudio.ie`. The newest broker deployment is a Ready Preview from four hours earlier, not a production promotion. The exact cause and intended alias target remain open; no alias, DNS or deployment repair was attempted.
+- Private Desktop `main` remains unsigned `a1cec24eb756aa62214034ae21432acf6f2fbb05`; draft PR #14 remains open at unsigned `224114bf0d198d715be7b815725409d5e041be95`. Its exact-head rollup shows Vercel and Vercel Preview Comments passing, while `prepare-release` and `package` render failed against cancelled run `38062095284`; no package or release exists. The signed installed v0.18.9, genuine-Windows, authenticated continuity, rendered Desktop and physical-device gates were not re-exercised and remain open. The public marketing root and privacy route remain readable. No source, feed, installed app, account or production state was mutated.
 
 ## Hermes git-filter backport added to draft PR #14; tester release still held — 10 October 2026, 16:04 IST
 

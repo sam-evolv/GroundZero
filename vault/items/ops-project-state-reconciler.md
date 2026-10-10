@@ -12,10 +12,17 @@ is_one_thing: true
 source: ground-zero-ops-scan 2026-06-26
 run_date: "2026-06-26"
 created_at: "2026-06-26T18:02:52+01:00"
-updated_at: "2026-10-10T16:03:00+01:00"
+updated_at: "2026-10-10T20:11:00+01:00"
 ---
 
 # Reconcile project_state and company memory from live signals
+
+## Reconciliation checkpoint — 10 October 2026, 20:11 IST
+
+- **The public Donworth Desktop updater host is now broken.** Direct reads of the host root plus the Windows x64, Mac ARM and Mac Intel metadata routes all return Vercel HTTP `404` with `x-vercel-error: DEPLOYMENT_NOT_FOUND`. DNS still resolves to Vercel. Retained broker production deployment `dpl_4FYZvibbTgtyeVNhS99M66j4aMN8` remains Ready, but its inspected aliases do not include `update.donworthstudio.ie`; the newest broker deployment is Preview-only. This supersedes the 16:04 claim that Windows `0.18.12` and Mac ARM `0.18.2` were currently reachable. Desktop `main` and draft PR #14 remain exact and unreleased; no alias or production repair was attempted.
+- **Hermes upstream advanced nine entirely unverified commits; installed and accepted Aire state did not.** Direct GitHub authority now binds `main` to unsigned `666054bc…` / tree `48b3bc6c…`, nine commits / 15 files after `a62979dc…`, 529 beyond stable `v0.21.6` and 1,376 beyond installed unsigned `9aaef03b…`; the retained gap is 105 verified / 1,271 unverified. Queue the PR-policy/model-test, GitHub-license, auth-role, cron provider-auto-pin and browser-audio MIME work for bounded review. Installed v0.21.5, source bytes, mixed-module restart warning and unapproved saved `gpt-6.1-sol` route remain unchanged; no install, restart or accepted Aire journey ran.
+- **Other named-source movement remained operational rather than an acceptance transition.** Here’s Health GitHub source, PR #6, migrations, hosted function versions, cron set and outcome tables remain bounded while production Square events reached 138,438 fully processed rows through 16:50:37 UTC; production Square orders remain empty, Shopify still has no native/confirmed/authoritative order and launch remains NO-GO. OpenHouse read-only aggregates remain 107 auth users and 494 session rows across 100 users; its latest refresh moved without resolving actor/tenant/test provenance, so no adoption or authenticated-product claim is made. OpenBook/template, property-assistant, Donworth site and Cara source heads remain at their canonical checkpoints; Renew still names no exact inspectable live source.
+- **Ground Zero write custody:** no source checkout, install, restart, service, deployment, alias, DNS, provider, database, payment, Apple, contact or production state was changed. This run updated only canonical notes/dashboard locally, preserved pre-existing nested-repository changes and did not invoke the sync script or push.
 
 ## Reconciliation checkpoint — 10 October 2026, 16:03 IST
 
