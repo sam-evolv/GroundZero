@@ -1,12 +1,18 @@
 ---
 title: Personal agent project state
-headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is unsigned `46d7718a…` / tree `bbb95f10…`, 34 mixed-signature commits / 94 files after checkpoint `b56a1024…`, 373 beyond stable and 1,220 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
+headline: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is unsigned `5ba559c9…` / tree `f2bb6814…`, 13 entirely unverified commits / 40 files after checkpoint `46d7718a…`, 386 beyond stable and 1,233 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
 status: building
 updated: 2026-10-10
 role: project-state
 ---
 
 # Personal agent project state
+
+## Upstream advanced 13 entirely unverified skill, stable-channel and Relay commits; installed and accepted Aire state did not — 10 October 2026, 04:01 IST cutoff
+
+- Direct GitHub authority binds current `main` to unsigned `5ba559c9e4b1c8397df7788e319ab634144ca728` / tree `f2bb681460f527b3f97ffbc245aa53a8b5cdbfe3`, exactly 13 commits / 40 changed files beyond prior checkpoint `46d7718a52ff33accb15dc0501736fbdb6833cab`. All 13 tail commits are GitHub-unverified. Current `main` is 386 commits beyond stable `v0.21.6` and 1,233 beyond installed unsigned `9aaef03b06fe237c022ab2f5bd526d706047d022` / tree `f2eafe437e831d730cfce3952edd7a34ce01d154`; the retained full linear gap is 105 verified and 1,128 unverified commits.
+- Queue the tail's tighter inline-shell trust boundary; removal of non-installable skills-index rows; live propagation of mid-session skill installs and cross-process skill changes; source-install default to the latest published stable release; withdrawal of the nonfunctional GEV catalogue entry; and Relay 0.10 migration/telemetry safeguards for bounded compatibility review. Commit subjects and repository checks are source evidence, not installed or accepted Aire behaviour.
+- Installed `HEAD` / tree remain exact with only `.review-worktrees/` untracked and 11 stashes. Local tracking and `hermes --version` still stop at `517b5e10…`; the local 987-commit tracking gap understates direct GitHub by 246. `hermes status --all` retains the mixed-module restart warning, and `/health` is HTTP `200` / v0.21.5 without source SHA. Saved routing remains unapproved `gpt-6.1-sol` / `openai-codex`; this scheduled run is separately pinned to `gpt-5.6-sol` / `openai-codex`, which is a run receipt rather than a saved-default correction. Ports `8766` and `8767` still expose non-Aire roots with `/health` `404`; Cara `8643` and recorded receipt port `8778` refuse connections. No install, restart, config change, provider transaction, authenticated/rendered Aire journey or physical-device acceptance ran.
 
 ## Upstream advanced 34 mixed-signature image, skills, compatibility and telemetry commits; installed and accepted Aire state did not — 10 October 2026, 00:02 IST cutoff
 

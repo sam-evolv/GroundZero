@@ -9,6 +9,11 @@ final_name: Aire
 
 # Personal agent venture
 
+## Upstream advanced 13 entirely unverified skill, stable-channel and Relay commits; accepted Aire state did not — 10 October 2026, 04:01 IST cutoff
+
+- GitHub `main` advanced 13 commits / 40 files after `46d7718a…` to unsigned `5ba559c9…` / tree `f2bb6814…`, exactly 1,233 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…` and 386 beyond stable `v0.21.6`. All 13 tail commits are unverified; the full linear gap now has 105 verified and 1,128 unverified commits. Queue inline-shell/skill-index trust, live mid-session skill refresh, stable-channel update semantics, GEV catalogue withdrawal and Relay 0.10 migration safeguards for bounded review.
+- Installed source and v0.21.5 health remain exact; local tracking still stops at `517b5e10…`, the mixed-module warning persists, saved Skippy remains unapproved `gpt-6.1-sol` / `openai-codex`, and the documented Aire service boundaries remain non-Aire/offline. No install, restart, routing change, authenticated/rendered Aire journey or device acceptance ran.
+
 ## Upstream advanced 34 mixed-signature image, skills, compatibility and telemetry commits; accepted Aire state did not — 10 October 2026, 00:02 IST cutoff
 
 - GitHub `main` advanced 34 commits / 94 files after `b56a1024…` to unsigned `46d7718a…` / tree `bbb95f10…`, exactly 1,220 commits ahead of installed unsigned `9aaef03b…` / tree `f2eafe43…` and 373 beyond stable `v0.21.6`. The tail has four verified and 30 unverified commits; the full linear gap now has 105 verified and 1,115 unverified commits. Queue Python 3.11–3.13 import compatibility, image-generation routing/fallbacks, skill-install security/correctness, Windows package-manager junction handling, Desktop composer copy and update/gateway telemetry for bounded review.

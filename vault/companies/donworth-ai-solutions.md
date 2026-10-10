@@ -8,6 +8,11 @@ updated: "2026-10-10"
 
 # Donworth Studio
 
+## Upstream changed skills, source-update defaults and Relay; release gates remain open — 10 October 2026, 04:01 IST cutoff
+
+- Desktop `main` remains unsigned `a1cec24e…`; draft PR #14 remains at unsigned `9086f401…` with three focused commits / 13 files. `prepare-release`, Vercel and Vercel Preview Comments pass, but the three package jobs remain failed because the installer run was cancelled; no merge, package, feed or installed-app transition occurred.
+- Hermes `main` advanced 13 entirely unverified commits / 40 files to unsigned `5ba559c9…`, 386 commits beyond stable `v0.21.6`. Queue its skill trust/index/live-refresh changes, default-stable source-update semantics, GEV withdrawal and Relay 0.10 migration safeguards for bounded comparison against Donworth. Feeds, signed installed v0.18.9 and the source-bound public site remain exact; signing/notarisation, provenance-matched packages, real Windows/Mac upgrades, signed-in continuity and physical-device gates remain open.
+
 ## Hermes v0.21.6 security intake exists; newer upstream and release gates remain open — 10 October 2026, 00:02 IST cutoff
 
 - Desktop `main` remains unsigned `a1cec24e…`. Draft PR #14 remains at unsigned `9086f401…` with three focused dashboard-auth/email-sender/gates commits across 13 files. `prepare-release` and Vercel Preview Comments succeeded, but all three package jobs were cancelled and no package was uploaded; no merge, feed or installed-app transition occurred.

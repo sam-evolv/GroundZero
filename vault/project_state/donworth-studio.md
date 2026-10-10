@@ -3,12 +3,18 @@ id: donworth-studio
 company_id: donworth-ai-solutions
 headline: "Private Desktop `main` remains unsigned `a1cec24e…`; draft PR #14 remains at unsigned `9086f401…` with focused Hermes v0.21.6 security backports, but its installer run was cancelled and integration/package/account-continuity gates remain open. Feeds remain Windows 0.18.12 / Mac ARM 0.18.2 / Mac Intel 503, signed installed v0.18.9 remains exact and unlaunched, and public site source remains `104ac7fc…` on Ready `dpl_AcQG…`."
 valid: true
-updated_at: "2026-10-10T00:02:00+01:00"
+updated_at: "2026-10-10T04:01:00+01:00"
 role: project-state
 status: building
 ---
 
 # Donworth Studio project state
+
+## Upstream changed skills, source-update defaults and Relay; Donworth candidate and release remain held — 10 October 2026, 04:01 IST cutoff
+
+- Official stable remains `v0.21.6` at `818c13be…`, while current Hermes `main` advanced 13 entirely unverified commits / 40 files after `46d7718a…` to unsigned `5ba559c9…` / tree `f2bb6814…`, 386 commits beyond that cut. The tail tightens skill trust/indexing and live refresh, makes source installs default to the latest published stable release, withdraws the nonfunctional GEV entry and upgrades Relay to 0.10 with migration safeguards. These are review inputs; they were not integrated into Donworth.
+- Donworth Desktop `main` remains unsigned `a1cec24e…`. Draft PR #14 remains mergeable at unsigned `9086f401…` with three focused commits / 13 files. `prepare-release`, Vercel and Vercel Preview Comments pass; all three package jobs remain failed because the installer run was cancelled, and no package was uploaded.
+- Direct feed readback remains Windows x64 `0.18.12`, Mac ARM `0.18.2` and Mac Intel HTTP `503`; signed installed v0.18.9 remains exact at `9912fe34…` / `711adb24…`, code-signature valid and unlaunched. Public site source/Ready deployment and exact root/privacy bytes are unchanged. No merge, package, feed, install, genuine-Windows, authenticated continuity or physical-device gate advanced.
 
 ## Upstream moved past the v0.21.6 intake; Donworth candidate and release remain held — 10 October 2026, 00:02 IST cutoff
 

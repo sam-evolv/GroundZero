@@ -38,7 +38,7 @@ updated: "2026-10-10"
 - 🟡 [[project_state/heres-health-app|heres-health-app]]: Paying client; GitHub, hosted function versions, commerce outcomes and native acceptance boundaries remain unchanged, while the production Square-event stream reached 131,652 fully processed rows through 16:52:53 UTC. Build 8 remains the last Apple-verified binary and 1.0.1 has no verified native build/upload/device receipt; commerce, deletion, notifications and rota acceptance remain open. Launch remains NO-GO.
 - 🟢 [[project_state/ob|ob]]: Empire Gym production moved to Ready CLI deployment `dpl_Es9HL…`, whose metadata names remote `feat/empire-gym-live` commit `b53f724…`; GymMaster CTAs and the admin login remain rendered. The remote branch is now clean at `603ee53…`, one commit past the deployed tree; authenticated editing/photo isolation, billing/access/payment and downstream enrollment remain unverified.
 - 🟢 [[project_state/oh|oh]]: Production source advanced seven verified commits / 60 files to `31a66a14…` and exact-head Ready deployment `dpl_Ddf8…` now owns `portal.openhouseai.ie`. The tranche includes source-level auth, tenant-ownership and tenant-scoped analytics fixes, but no migration path; Supabase advisor counts remain 30/2/17/4 plus disabled leaked-password protection, and no controlled cross-user actor path, persisted-row or authenticated homeowner acceptance was exercised.
-- 🔴 [[project_state/personal-agent|personal-agent]]: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is unsigned `46d7718a…` / tree `bbb95f10…`, 34 mixed-signature commits / 94 files after checkpoint `b56a1024…`, 373 beyond stable and 1,220 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
+- 🔴 [[project_state/personal-agent|personal-agent]]: Official stable remains unsigned `v0.21.6` commit `818c13be…`; current GitHub `main` is unsigned `5ba559c9…` / tree `f2bb6814…`, 13 entirely unverified commits / 40 files after checkpoint `46d7718a…`, 386 beyond stable and 1,233 beyond installed unsigned `9aaef03b…`. Installed source and v0.21.5 health remain unchanged, local tracking still stops at `517b5e10…`, the mixed-module restart warning persists, and saved Skippy remains on the unapproved `gpt-6.1-sol` route. No accepted Aire behaviour advanced.
 - 🟡 [[project_state/renew|renew]]: First commercial rooftop is live. Reporting is still manual.
 
 
@@ -62,4 +62,4 @@ updated: "2026-10-10"
 
 ## 🔄 Last updated
 
-- Dashboard: 2026-10-10 02:15 IST
+- Dashboard: 2026-10-10 04:01 IST
